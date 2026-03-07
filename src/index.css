@@ -50,8 +50,40 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground font-body antialiased;
+  }
+
+  /* Thin, theme scrollbar – dark track, red accent thumb */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsla(357, 90%, 26%, 0.6) hsl(0 0% 8%);
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: hsl(0 0% 6%);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: hsla(357, 90%, 26%, 0.5);
+    border-radius: 9999px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: hsla(357, 90%, 26%, 0.7);
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: hsl(0 0% 6%);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -117,5 +149,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  /* Hero headline glowing text */
+  .hero-headline-glow {
+    text-shadow:
+      0 0 20px hsla(0, 0%, 100%, 0.15),
+      0 0 40px hsla(357, 90%, 26%, 0.2);
+  }
+
+  .hero-headline-glow .text-gradient-red {
+    filter: drop-shadow(0 0 12px hsla(357, 90%, 26%, 0.5)) drop-shadow(0 0 24px hsla(357, 90%, 26%, 0.25));
   }
 }

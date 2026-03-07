@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -15,20 +15,38 @@ const navItems = [
   { label: "Expertise", href: "/expertise" },
 ];
 
+const SCROLL_THRESHOLD = 20;
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > SCROLL_THRESHOLD);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 liquid-glass-strong"
+      className={`fixed top-0 left-0 right-0 z-50 transition-[padding] duration-300 ${
+        isScrolled ? "px-5 pt-4 pb-4 lg:px-8" : "px-4 pt-4"
+      }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
+      <div
+        className={`container mx-auto flex items-center justify-between h-16 px-4 lg:px-8 transition-all duration-300 ${
+          isScrolled
+            ? "liquid-glass-strong rounded-full"
+            : "bg-transparent rounded-2xl"
+        }`}
+      >
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="vebx.run logo" className="h-10 w-auto" />
+          <img src={logo} alt="vebx.run logo" className="h-12 w-auto lg:h-14" />
         </Link>
 
         {/* Desktop Nav */}
@@ -75,7 +93,9 @@ export default function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden liquid-glass-strong border-t border-border"
+            className={`lg:hidden liquid-glass-strong border-t border-border rounded-b-2xl ${
+              isScrolled ? "mx-5 lg:mx-8 rounded-b-3xl" : "mx-4"
+            }`}
           >
             <nav className="flex flex-col p-4 gap-2">
               {navItems.map((item) => (

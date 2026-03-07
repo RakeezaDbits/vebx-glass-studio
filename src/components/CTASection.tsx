@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -27,9 +28,11 @@ export default function CTASection() {
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
             Let's build something extraordinary together. Your next big idea starts here.
           </p>
-          <Button variant="hero" size="lg" className="gap-2">
-            Start Your Project <ArrowRight className="w-5 h-5" />
-          </Button>
+          <Link to="/contact">
+            <Button variant="hero" size="lg" className="gap-2">
+              Start Your Project <ArrowRight className="w-5 h-5" />
+            </Button>
+          </Link>
         </div>
       </motion.div>
     </section>
