@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,16 +7,17 @@ import logo from "@/assets/vebx-logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Staff Augmentation", href: "#staff" },
-  { label: "Our Work", href: "#work" },
-  { label: "Expertise", href: "#expertise" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Staff Augmentation", href: "/staff-augmentation" },
+  { label: "Our Work", href: "/our-work" },
+  { label: "Expertise", href: "/expertise" },
 ];
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <motion.header
@@ -33,21 +34,29 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
-              className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-300 font-medium relative group"
+              to={item.href}
+              className={`px-3 py-2 text-sm hover:text-foreground transition-colors duration-300 font-medium relative group ${
+                location.pathname === item.href ? "text-foreground" : "text-muted-foreground"
+              }`}
             >
               {item.label}
-              <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/4" />
-            </a>
+              <span
+                className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-primary transition-all duration-300 ${
+                  location.pathname === item.href ? "w-3/4" : "w-0 group-hover:w-3/4"
+                }`}
+              />
+            </Link>
           ))}
         </nav>
 
         <div className="hidden lg:block">
-          <Button variant="hero" size="sm">
-            Contact Us
-          </Button>
+          <Link to="/contact">
+            <Button variant="hero" size="sm">
+              Contact Us
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -70,18 +79,22 @@ export default function Header() {
           >
             <nav className="flex flex-col p-4 gap-2">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.label}
-                  href={item.href}
+                  to={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className="px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-primary/10 rounded-lg transition-all"
+                  className={`px-4 py-3 hover:text-foreground hover:bg-primary/10 rounded-lg transition-all ${
+                    location.pathname === item.href ? "text-foreground bg-primary/10" : "text-muted-foreground"
+                  }`}
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
-              <Button variant="hero" size="sm" className="mt-2">
-                Contact Us
-              </Button>
+              <Link to="/contact" onClick={() => setMobileOpen(false)}>
+                <Button variant="hero" size="sm" className="mt-2 w-full">
+                  Contact Us
+                </Button>
+              </Link>
             </nav>
           </motion.div>
         )}
