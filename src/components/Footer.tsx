@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 import { Mail, MapPin } from "lucide-react";
 import logo from "@/assets/vebx-logo.png";
 
 const quickLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Staff Augmentation", href: "#staff" },
-  { label: "Contact Us", href: "#contact" },
-  { label: "Our Work", href: "#work" },
-  { label: "Expertise", href: "#expertise" },
-  { label: "About", href: "#about" },
-  { label: "Privacy Policy", href: "#privacy" },
+  { label: "Services", href: "/services" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Staff Augmentation", href: "/staff-augmentation" },
+  { label: "Contact Us", href: "/contact" },
+  { label: "Our Work", href: "/our-work" },
+  { label: "Expertise", href: "/expertise" },
+  { label: "About", href: "/about" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
 ];
 
 const services = [
@@ -49,9 +50,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
+                  <Link to={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -63,7 +64,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {services.map((s) => (
                 <li key={s}>
-                  <span className="text-sm text-muted-foreground">{s}</span>
+                  <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
+                    {s}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -75,12 +78,12 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground mb-4">
               Ready to bring your vision to life? Reach out and let's create something extraordinary.
             </p>
-            <a
-              href="mailto:support@vebx.run"
+            <Link
+              to="/contact"
               className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform"
             >
               Get in Touch
-            </a>
+            </Link>
           </div>
         </div>
 
