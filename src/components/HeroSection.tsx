@@ -44,8 +44,9 @@ export default function HeroSection() {
             ))}
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-transparent to-background/40" />
+        <div className="absolute inset-0 bg-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/45 via-transparent to-background/45" />
       </div>
 
       {/* Floating orbs */}
