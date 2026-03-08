@@ -9,24 +9,34 @@ export default function HeroSection() {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoFailed, setVideoFailed] = useState(false);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background – 4K animated video */}
       <div className="absolute inset-0">
-        {!videoFailed ? (
+        {/* Poster image – shows until video loads or if video fails */}
+        {(!videoLoaded || videoFailed) && (
+          <img
+            src="/hero/hero-slide-1.png"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-30"
+          />
+        )}
+        {!videoFailed && (
           <video
             ref={videoRef}
             autoPlay
             muted
             loop
             playsInline
+            onCanPlay={() => setVideoLoaded(true)}
             onError={() => setVideoFailed(true)}
-            className="absolute inset-0 w-full h-full object-cover"
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
             src="/videos/hero-bg.mp4"
           />
-        ) : (
-          /* Fallback animated orbs if video fails */
+        )}
+        {videoFailed && (
           <div className="absolute inset-0">
             {[...Array(8)].map((_, i) => (
               <div
