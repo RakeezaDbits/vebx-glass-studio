@@ -20,7 +20,7 @@ i18n
     },
   });
 
-const rtlLangs = ["ar", "ur"];
+const rtlLangs = ["ar", "ur", "he", "fa"];
 i18n.on("languageChanged", (lng) => {
   if (typeof document !== "undefined") {
     document.documentElement.lang = lng;
