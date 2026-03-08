@@ -1,6 +1,60 @@
 {
-  "nav": { "home": "ہوم", "about": "ہمارے بارے میں", "services": "خدمات", "pricing": "قیمتیں", "ourWork": "ہمارا کام", "expertise": "مہارت", "contactUs": "رابطہ کریں" },
-  "hero": { "tagline": "تصور کریں۔ جدت۔ متاثر کریں۔", "headline1": "ہم بناتے ہیں", "headline2": "ڈیجیٹل تجربات", "headline3": "جو", "headline4": "اہم ہیں", "subtext": "موبائل ایپس سے میٹاورس تک، ہم ایسے حل بناتے ہیں جو خیالات کو حقیقت میں بدلتے ہیں۔", "getStarted": "شروع کریں", "viewOurWork": "ہمارا کام دیکھیں", "stats": { "projects": "منصوبے", "clients": "خوش کلائنٹس", "years": "سالوں کا تجربہ" } },
-  "footer": { "quickLinks": "لنکس", "linkServices": "خدمات", "linkPricing": "قیمتیں", "linkContactUs": "رابطہ", "linkOurWork": "ہمارا کام", "linkExpertise": "مہارت", "linkAbout": "ہمارے بارے میں", "linkPrivacyPolicy": "رازداری", "services": "خدمات", "letsWork": "چلیں مل کر کام کریں", "letsWorkDesc": "اپنی ویژن کو حقیقت بنانے کے لیے تیار؟ رابطہ کریں۔", "getInTouch": "رابطہ کریں", "copyright": "جملہ حقوق 2024–2026 کے ساتھ", "vebexRun": "Vebex Run", "stayInLoop": "اپ ڈیٹ رہیں", "stayInLoopDesc": "ڈیجیٹل جدت پر بصیرت اور اپ ڈیٹس۔", "subscribe": "سبسکرائب", "latestInsights": "تازہ ترین خیالات", "readMore": "مزید پڑھیں" },
-  "common": { "vebexRun": "Vebex Run" }
+  "nav": {
+    "home": "ہوم",
+    "about": "ہمارے بارے میں",
+    "services": "خدمات",
+    "pricing": "قیمتیں",
+    "ourWork": "ہمارا کام",
+    "expertise": "مہارت",
+    "contactUs": "رابطہ کریں"
+  },
+  "hero": {
+    "tagline": "تصور کریں۔ جدت لائیں۔ متاثر کریں۔",
+    "headline1": "ہم تخلیق کرتے ہیں",
+    "headline2": "ڈیجیٹل تجربات",
+    "headline3": "جو واقعی",
+    "headline4": "اہمیت رکھتے ہیں",
+    "subtext": "موبائل ایپس سے لے کر میٹاورس ڈویلپمنٹ تک، ہم جدید ترین حل تیار کرتے ہیں جو خیالات کو حقیقت میں بدل دیتے ہیں۔ آپ کا تصور، ہماری مہارت۔",
+    "getStarted": "ابھی شروع کریں",
+    "viewOurWork": "ہمارا کام دیکھیں",
+    "stats": {
+      "projects": "مکمل شدہ منصوبے",
+      "clients": "مطمئن کلائنٹس",
+      "years": "سالوں کا تجربہ"
+    }
+  },
+  "footer": {
+    "quickLinks": "فوری روابط",
+    "linkServices": "خدمات",
+    "linkPricing": "قیمتیں",
+    "linkContactUs": "رابطہ کریں",
+    "linkOurWork": "ہمارا کام",
+    "linkExpertise": "مہارت",
+    "linkAbout": "ہمارے بارے میں",
+    "linkPrivacyPolicy": "رازداری کی پالیسی",
+    "services": "خدمات",
+    "letsWork": "آئیے مل کر کام کریں",
+    "letsWorkDesc": "اپنے تصور کو حقیقت بنانے کے لیے تیار ہیں؟ ہم سے رابطہ کریں اور کچھ غیر معمولی تخلیق کریں۔",
+    "getInTouch": "رابطہ کریں",
+    "copyright": "جملہ حقوق محفوظ ہیں 2024–2026 بمع",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "باخبر رہیں",
+    "stayInLoopDesc": "ڈیجیٹل جدت کے بارے میں تازہ ترین بصیرت اور اپ ڈیٹس حاصل کریں۔",
+    "subscribe": "سبسکرائب کریں",
+    "latestInsights": "تازہ ترین بصیرت",
+    "readMore": "مزید پڑھیں"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "دریافت کریں"
+  },
+  "servicesPage": {
+    "whatWeDo": "ہم کیا کرتے ہیں",
+    "ourServices": "ہماری خدمات",
+    "ourServicesHighlight": "خدمات",
+    "subtitle": "آپ کے کاروبار کو بلندیوں تک لے جانے کے لیے مکمل ڈیجیٹل حل۔ تصور سے لے کر عمل درآمد تک، ہم ہر قدم پر آپ کے ساتھ ہیں۔",
+    "customSolution": "کسی مخصوص حل کی ضرورت ہے؟",
+    "customSolutionDesc": "جو آپ ڈھونڈ رہے ہیں وہ نہیں ملا؟ ہم آپ کی منفرد ضروریات کے مطابق ڈیجیٹل حل تیار کرتے ہیں۔",
+    "getInTouch": "رابطہ کریں"
+  }
 }
