@@ -1,56 +1,51 @@
-import { useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-const HERO_SLIDES = ["/hero/hero-slide-1.png", "/hero/hero-slide-2.png", "/hero/hero-slide-3.png"];
-const AUTOPLAY_MS = 5000;
-
 export default function HeroSection() {
   const { t } = useTranslation();
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((i) => (i + 1) % HERO_SLIDES.length);
-    }, AUTOPLAY_MS);
-    return () => clearInterval(timer);
-  }, []);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoFailed, setVideoFailed] = useState(false);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background – image carousel (pehle jaisa) */}
+      {/* Background – 4K animated video */}
       <div className="absolute inset-0">
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.img
-            key={current}
-            src={HERO_SLIDES[current]}
-            alt=""
+        {!videoFailed ? (
+          <video
+            ref={videoRef}
+            autoPlay
+            muted
+            loop
+            playsInline
+            onError={() => setVideoFailed(true)}
             className="absolute inset-0 w-full h-full object-cover"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.3 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.2 }}
+            src="/videos/hero-bg.mp4"
           />
-        </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/45" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/35 via-transparent to-background/35" />
-        {/* Carousel dots */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-          {HERO_SLIDES.map((_, i) => (
-            <button
-              key={i}
-              type="button"
-              aria-label={`Slide ${i + 1}`}
-              onClick={() => setCurrent(i)}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
-                i === current ? "w-6 bg-primary" : "w-1.5 bg-white/40 hover:bg-white/60"
-              }`}
-            />
-          ))}
-        </div>
+        ) : (
+          /* Fallback animated orbs if video fails */
+          <div className="absolute inset-0">
+            {[...Array(8)].map((_, i) => (
+              <div
+                key={i}
+                className="absolute rounded-full bg-primary/15 blur-[100px] animate-float will-change-transform"
+                style={{
+                  width: `${140 + i * 50}px`,
+                  height: `${140 + i * 50}px`,
+                  left: `${(i * 13) % 100}%`,
+                  top: `${(i * 17) % 100}%`,
+                  animationDelay: `${i * 0.8}s`,
+                  animationDuration: "8s",
+                }}
+              />
+            ))}
+          </div>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-transparent to-background/40" />
       </div>
 
       {/* Floating orbs */}
