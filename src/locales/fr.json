@@ -1,13 +1,5 @@
 {
-  "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "services": "Services",
-    "pricing": "Tarifs",
-    "ourWork": "Nos réalisations",
-    "expertise": "Expertise",
-    "contactUs": "Contactez-nous"
-  },
+  "nav": { "home": "Accueil", "about": "À propos", "services": "Services", "pricing": "Tarifs", "ourWork": "Nos réalisations", "expertise": "Expertise", "contactUs": "Contactez-nous" },
   "hero": {
     "tagline": "Imaginez. Innovez. Inspirez.",
     "headline1": "Nous créons",
@@ -17,44 +9,156 @@
     "subtext": "Des applications mobiles au développement du métavers, nous concevons des solutions avant-gardistes qui transforment les idées en réalité. Votre vision, notre savoir-faire.",
     "getStarted": "Commencer",
     "viewOurWork": "Voir nos réalisations",
-    "stats": {
-      "projects": "Projets livrés",
-      "clients": "Clients satisfaits",
-      "years": "Années d'expérience"
+    "stats": { "projects": "Projets livrés", "clients": "Clients satisfaits", "years": "Années d'expérience" }
+  },
+  "about": {
+    "tag": "À propos",
+    "heading": "Créer",
+    "headingHighlight": "l'excellence digitale",
+    "headingSuffix": "depuis le début",
+    "desc": "Chez vebx.run, nous sommes bien plus que des développeurs — nous sommes des architectes du numérique. Nous allions vision créative et maîtrise technique pour construire des produits qui ne fonctionnent pas seulement, mais qui inspirent.",
+    "heroDesc": "Chez vebx.run, nous sommes bien plus que des développeurs — nous sommes des architectes du numérique. Nous allions vision créative et maîtrise technique pour construire des produits qui ne fonctionnent pas seulement, mais qui inspirent.",
+    "features": {
+      "innovationTitle": "L'innovation d'abord",
+      "innovationDesc": "Technologies de pointe pour des solutions modernes",
+      "secureTitle": "Fiable et sécurisé",
+      "secureDesc": "Sécurité de niveau entreprise dans chaque projet",
+      "teamTitle": "Équipe d'experts",
+      "teamDesc": "Développeurs et designers expérimentés dans le monde entier",
+      "resultsTitle": "Orienté résultats",
+      "resultsDesc": "Des résultats mesurables qui dépassent les objectifs"
+    },
+    "fromStartups": "Des startups aux",
+    "enterprises": "grandes entreprises",
+    "fromStartupsDesc1": "Fondée avec la mission de démocratiser les technologies de pointe, vebx.run est devenue une agence digitale mondiale au service de clients dans divers secteurs.",
+    "fromStartupsDesc2": "Notre équipe couvre le développement mobile, les plateformes web, les expériences métavers, la conception de jeux et bien plus. Nous ne construisons pas simplement des logiciels — nous concevons des avenirs numériques.",
+    "valuesTag": "Nos valeurs",
+    "valuesHeading": "Ce qui nous",
+    "valuesHighlight": "anime",
+    "valuesSuffix": "",
+    "values": {
+      "creativeTitle": "Pensée créative",
+      "creativeDesc": "Nous abordons chaque projet avec des perspectives nouvelles, remettant en question les solutions conventionnelles pour livrer des résultats véritablement innovants.",
+      "qualityTitle": "Excellence qualité",
+      "qualityDesc": "Chaque ligne de code, chaque pixel, chaque interaction est conçu selon les plus hauts standards de qualité et de performance.",
+      "globalTitle": "Portée mondiale",
+      "globalDesc": "Nous servons des clients dans le monde entier avec des solutions digitales culturellement adaptées et localement pertinentes.",
+      "clientTitle": "Centré sur le client",
+      "clientDesc": "Votre succès est le nôtre. Nous construisons des partenariats durables fondés sur la confiance, la transparence et des objectifs partagés."
+    },
+    "stats": { "projects": "Projets livrés", "clients": "Clients satisfaits", "years": "Années d'expérience", "team": "Membres de l'équipe" }
+  },
+  "cta": { "heading": "Prêt à", "headingHighlight": "transformer", "headingSuffix": "votre entreprise ?", "desc": "Construisons quelque chose d'extraordinaire ensemble. Votre prochaine grande idée commence ici.", "button": "Lancez votre projet" },
+  "whyChoose": {
+    "tag": "Pourquoi vebx.run",
+    "heading": "Pourquoi nous",
+    "headingHighlight": "choisir",
+    "desc": "Excellence technique avec un engagement envers votre succès.",
+    "reasons": {
+      "innovationTitle": "L'innovation d'abord",
+      "innovationDesc": "Technologie de pointe pour que votre produit garde une longueur d'avance.",
+      "deliveryTitle": "Livraison fiable",
+      "deliveryDesc": "Dans les délais et le budget avec une communication claire.",
+      "teamTitle": "Équipe d'experts",
+      "teamDesc": "Développeurs et designers seniors engagés.",
+      "resultsTitle": "Des résultats concrets",
+      "resultsDesc": "Des métriques qui font croître votre activité."
     }
   },
+  "howWeWork": {
+    "tag": "Notre processus",
+    "heading": "Comment nous",
+    "headingHighlight": "travaillons",
+    "desc": "Un processus simple et transparent de l'idée au lancement.",
+    "steps": {
+      "discoverTitle": "Découvrir",
+      "discoverDesc": "Nous apprenons votre vision, votre audience et vos objectifs.",
+      "designTitle": "Concevoir",
+      "designDesc": "UX, UI et architecture dans un plan clair.",
+      "developTitle": "Développer",
+      "developDesc": "Code propre, meilleures pratiques et mises à jour régulières.",
+      "deliverTitle": "Livrer",
+      "deliverDesc": "Lancement, support et amélioration continue."
+    },
+    "startProject": "Lancez votre projet"
+  },
+  "trusted": { "tag": "Fiable pour", "items": { "mobileWeb": "Mobile et Web", "metaverseXR": "Métavers et XR", "enterpriseSaaS": "SaaS Entreprise", "startupsToFortune": "Des startups au Fortune 500" } },
+  "servicesSection": { "tag": "Ce que nous faisons", "heading": "Nos", "headingHighlight": "services", "desc": "Des solutions digitales complètes conçues pour propulser votre entreprise" },
   "footer": {
-    "quickLinks": "Liens rapides",
-    "linkServices": "Services",
-    "linkPricing": "Tarifs",
-    "linkContactUs": "Contactez-nous",
-    "linkOurWork": "Nos réalisations",
-    "linkExpertise": "Expertise",
-    "linkAbout": "À propos",
-    "linkPrivacyPolicy": "Politique de confidentialité",
-    "services": "Services",
-    "letsWork": "Travaillons ensemble",
-    "letsWorkDesc": "Prêt à donner vie à votre vision ? Contactez-nous et créons quelque chose d'extraordinaire.",
-    "getInTouch": "Nous contacter",
-    "copyright": "Droits réservés 2024–2026 par",
-    "vebexRun": "Vebex Run",
-    "stayInLoop": "Restez informé",
-    "stayInLoopDesc": "Recevez des analyses et actualités sur l'innovation numérique.",
-    "subscribe": "S'abonner",
-    "latestInsights": "Dernières actualités",
-    "readMore": "En savoir plus"
+    "quickLinks": "Liens rapides", "linkServices": "Services", "linkPricing": "Tarifs", "linkContactUs": "Contactez-nous", "linkOurWork": "Nos réalisations", "linkExpertise": "Expertise", "linkAbout": "À propos", "linkPrivacyPolicy": "Politique de confidentialité",
+    "services": "Services", "letsWork": "Travaillons ensemble", "letsWorkDesc": "Prêt à donner vie à votre vision ? Contactez-nous et créons quelque chose d'extraordinaire.", "getInTouch": "Nous contacter",
+    "copyright": "Droits réservés 2024–2026 par", "vebexRun": "Vebex Run",
+    "stayInLoop": "Restez informé", "stayInLoopDesc": "Recevez des analyses et actualités sur l'innovation numérique.", "subscribe": "S'abonner",
+    "latestInsights": "Dernières actualités", "readMore": "En savoir plus",
+    "brandDesc": "Imaginez. Innovez. Inspirez. Nous construisons des expériences digitales qui transforment les entreprises.",
+    "insights": {
+      "title1": "Pourquoi le développement du métavers est le prochain grand bond",
+      "excerpt1": "Explorer comment la technologie immersive redéfinit les expériences digitales.",
+      "title2": "Créer des apps que les utilisateurs adorent vraiment",
+      "excerpt2": "Principes de design et développement qui stimulent l'engagement.",
+      "title3": "Transformation digitale qui stimule la croissance",
+      "excerpt3": "Comment nous aidons les entreprises à innover et à se développer grâce à la technologie."
+    }
   },
-  "common": {
-    "vebexRun": "Vebex Run",
-    "explore": "Explorer"
+  "common": { "vebexRun": "Vebex Run", "explore": "Explorer" },
+  "servicesPage": { "whatWeDo": "Ce que nous faisons", "ourServices": "Nos services", "ourServicesHighlight": "Services", "subtitle": "Des solutions digitales complètes conçues pour propulser votre entreprise. De la conception au déploiement, nous gérons tout.", "customSolution": "Besoin d'une solution sur mesure ?", "customSolutionDesc": "Vous ne trouvez pas exactement ce que vous cherchez ? Nous développons des solutions digitales personnalisées selon vos besoins.", "getInTouch": "Nous contacter" },
+  "pricing": {
+    "tag": "Tarifs", "heading": "Tarifs", "headingHighlight": "transparents",
+    "desc": "Sélectionnez un service puis choisissez le plan adapté. Contactez-nous pour un devis détaillé.",
+    "chooseService": "Choisissez un service",
+    "starter": "Démarrage", "starterDesc": "Parfait pour commencer",
+    "professional": "Professionnel", "professionalDesc": "Idéal pour les besoins croissants",
+    "enterprise": "Entreprise", "enterpriseDesc": "Pour les projets d'envergure",
+    "mostPopular": "Le plus populaire", "perProject": "/ projet", "getStarted": "Commencer",
+    "features": {
+      "coreScope": "Périmètre principal livré", "responsive": "Design responsive", "basicSupport": "Support de base", "2revisions": "2 cycles de révision", "1monthSupport": "1 mois de support",
+      "fullScope": "Périmètre complet et UI/UX sur mesure", "advancedFeatures": "Fonctionnalités avancées", "apiIntegrations": "Intégrations API", "5revisions": "5 cycles de révision", "3monthsSupport": "3 mois de support", "perfOptimization": "Optimisation des performances",
+      "fullStack": "Développement full-stack sur mesure", "dedicatedPM": "Chef de projet dédié", "unlimitedRevisions": "Révisions illimitées", "12monthsSupport": "12 mois de support", "cicd": "CI/CD et DevOps", "sla": "Garantie SLA"
+    }
   },
-  "servicesPage": {
-    "whatWeDo": "Ce que nous faisons",
-    "ourServices": "Nos services",
-    "ourServicesHighlight": "Services",
-    "subtitle": "Des solutions digitales complètes conçues pour propulser votre entreprise. De la conception au déploiement, nous gérons tout.",
-    "customSolution": "Besoin d'une solution sur mesure ?",
-    "customSolutionDesc": "Vous ne trouvez pas exactement ce que vous cherchez ? Nous développons des solutions digitales personnalisées selon vos besoins.",
-    "getInTouch": "Nous contacter"
+  "contact": { "tag": "Contactez-nous", "heading": "Discutons", "headingHighlight": "ensemble", "desc": "Vous avez un projet en tête ? Nous serions ravis d'en discuter. Envoyez-nous un message et nous vous répondrons sous 24 heures.", "sendMessage": "Envoyer un message", "yourName": "Votre nom", "yourEmail": "Votre e-mail", "subject": "Sujet", "tellUs": "Parlez-nous de votre projet...", "sendBtn": "Envoyer", "emailUs": "Écrivez-nous", "visitUs": "Rendez-nous visite", "businessHours": "Heures d'ouverture", "monFri": "Lundi – Vendredi", "saturday": "Samedi", "sunday": "Dimanche", "closed": "Fermé" },
+  "expertise": {
+    "tag": "Expertise", "heading": "Notre", "headingHighlight": "stack technologique", "headingSuffix": "",
+    "desc": "Nous maîtrisons les outils qui comptent. Notre expertise couvre l'ensemble de l'écosystème digital.",
+    "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Mobile", "cloudDevops": "Cloud et DevOps", "gameXR": "Jeux et XR", "dataAI": "Données et IA" },
+    "industriesTag": "Secteurs", "industriesHeading": "Secteurs que nous", "industriesHighlight": "servons",
+    "industries": { "healthcare": "Santé et MedTech", "fintech": "FinTech et Banque", "ecommerce": "E-Commerce et Retail", "education": "Éducation et EdTech", "realEstate": "Immobilier et PropTech", "entertainment": "Divertissement et Médias", "automotive": "Automobile", "logistics": "Logistique et Supply Chain" },
+    "ctaHeading": "Construisons quelque chose d'", "ctaHighlight": "extraordinaire", "ctaDesc": "Vous avez un projet en tête ? Notre équipe d'experts est prête à donner vie à votre vision.", "ctaBtn": "Nous contacter"
+  },
+  "ourWork": {
+    "tag": "Portfolio", "heading": "Nos", "headingHighlight": "réalisations", "desc": "Une vitrine de projets qui démontrent notre expertise dans différents secteurs et technologies.",
+    "projects": {
+      "fintech": { "title": "Tableau de bord FinTech", "category": "Application web", "desc": "Plateforme d'analyse financière en temps réel avec insights IA et graphiques interactifs." },
+      "medconnect": { "title": "MedConnect", "category": "Application mobile", "desc": "Application de télémédecine conforme HIPAA connectant patients et médecins par appels vidéo sécurisés." },
+      "virtuworld": { "title": "VirtuWorld", "category": "Métavers", "desc": "Showroom virtuel immersif pour une marque automobile de luxe avec configurateur 3D." },
+      "greengrow": { "title": "GreenGrow", "category": "Développement logiciel", "desc": "Plateforme agricole intelligente IoT pour le suivi des cultures par imagerie drone." },
+      "pixelforge": { "title": "PixelForge", "category": "Développement de jeux", "desc": "RPG multijoueur multiplateforme avec mondes générés par procédure et combat en temps réel." },
+      "brandsphere": { "title": "BrandSphere", "category": "Branding corporatif", "desc": "Refonte complète de marque pour une entreprise Fortune 500 incluant supports digitaux et imprimés." }
+    },
+    "ctaHeading": "Vous voulez être notre", "ctaHighlight": "prochaine réussite", "ctaSuffix": "?", "ctaDesc": "Discutons de votre projet et créons quelque chose d'extraordinaire ensemble.", "ctaBtn": "Lancer un projet"
+  },
+  "privacy": {
+    "tag": "Mentions légales", "heading": "Politique de", "headingHighlight": "confidentialité", "lastUpdated": "Dernière mise à jour : mars 2026",
+    "section1Title": "1. Informations que nous collectons", "section1": "Nous collectons les informations que vous fournissez directement, telles que votre nom, adresse e-mail et détails du projet lorsque vous nous contactez ou utilisez nos services.",
+    "section2Title": "2. Comment nous utilisons vos informations", "section2": "Nous utilisons les informations collectées pour fournir, maintenir et améliorer nos services, communiquer avec vous et assurer la sécurité de nos plateformes.",
+    "section3Title": "3. Partage d'informations", "section3": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers.",
+    "section4Title": "4. Sécurité des données", "section4": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos informations personnelles.",
+    "section5Title": "5. Vos droits", "section5": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire des communications marketing à tout moment en nous contactant à support@vebx.run.",
+    "section6Title": "6. Contactez-nous", "section6": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter :",
+    "email": "E-mail :", "address": "Adresse :"
+  },
+  "notFound": { "title": "404", "desc": "Oups ! Page introuvable", "back": "Retour à l'accueil" },
+  "services": {
+    "mobileApplication": "Applications mobiles", "mobileApplicationShort": "Apps natives et multiplateformes qui captivent",
+    "webCmsDevelopment": "Développement Web et CMS", "webCmsDevelopmentShort": "Solutions puissantes de gestion de contenu",
+    "softwareDevelopment": "Développement logiciel", "softwareDevelopmentShort": "Logiciel sur mesure selon vos besoins",
+    "corporateBranding": "Branding corporatif", "corporateBrandingShort": "Identités de marque audacieuses et distinctives",
+    "onlineDigitalMarketing": "Marketing digital", "onlineDigitalMarketingShort": "Stratégies axées sur les données pour la croissance",
+    "2d3dAnimation": "Animation 2D/3D", "2d3dAnimationShort": "Visuels époustouflants qui racontent votre histoire",
+    "3dRenderingServices": "Rendu 3D", "3dRenderingServicesShort": "Visualisations 3D photoréalistes",
+    "metaverseDevelopment": "Développement métavers", "metaverseDevelopmentShort": "Mondes digitaux immersifs de nouvelle génération",
+    "gameDevelopment": "Développement de jeux", "gameDevelopmentShort": "Jeux captivants sur toutes les plateformes",
+    "extendedReality": "Réalité étendue", "extendedRealityShort": "Expériences AR/VR/MR qui transforment",
+    "socialMediaMarketing": "Marketing réseaux sociaux", "socialMediaMarketingShort": "Présence sociale stratégique et engagement"
   }
 }

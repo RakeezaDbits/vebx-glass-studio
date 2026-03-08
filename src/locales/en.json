@@ -23,6 +23,103 @@
       "years": "Years Experience"
     }
   },
+  "about": {
+    "tag": "About Us",
+    "heading": "Crafting",
+    "headingHighlight": "Digital Excellence",
+    "headingSuffix": "Since Day One",
+    "desc": "At vebx.run, we're more than developers — we're digital architects. We combine creative vision with technical mastery to build products that don't just work, they inspire. From startups to enterprises, we bring your boldest ideas to life.",
+    "heroDesc": "At vebx.run, we're more than developers — we're digital architects. We combine creative vision with technical mastery to build products that don't just work, they inspire.",
+    "features": {
+      "innovationTitle": "Innovation First",
+      "innovationDesc": "Cutting-edge tech stack for modern solutions",
+      "secureTitle": "Reliable & Secure",
+      "secureDesc": "Enterprise-grade security in every project",
+      "teamTitle": "Expert Team",
+      "teamDesc": "Seasoned developers & designers worldwide",
+      "resultsTitle": "Results Driven",
+      "resultsDesc": "Measurable outcomes that exceed goals"
+    },
+    "fromStartups": "From Startups to",
+    "enterprises": "Enterprises",
+    "fromStartupsDesc1": "Founded with a mission to democratize cutting-edge technology, vebx.run has grown into a global digital agency serving clients across industries. We bring your boldest ideas to life with precision and passion.",
+    "fromStartupsDesc2": "Our team of seasoned professionals spans across mobile development, web platforms, metaverse experiences, game design, and beyond. We don't just build software — we engineer digital futures.",
+    "valuesTag": "Our Values",
+    "valuesHeading": "What",
+    "valuesHighlight": "Drives",
+    "valuesSuffix": "Us",
+    "values": {
+      "creativeTitle": "Creative Thinking",
+      "creativeDesc": "We approach every project with fresh perspectives, challenging conventional solutions to deliver truly innovative results.",
+      "qualityTitle": "Quality Excellence",
+      "qualityDesc": "Every line of code, every pixel, every interaction is crafted to the highest standards of quality and performance.",
+      "globalTitle": "Global Reach",
+      "globalDesc": "Serving clients across the globe with culturally aware, locally relevant digital solutions.",
+      "clientTitle": "Client-Centric",
+      "clientDesc": "Your success is our success. We build lasting partnerships based on trust, transparency, and shared goals."
+    },
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "team": "Team Members"
+    }
+  },
+  "cta": {
+    "heading": "Ready to",
+    "headingHighlight": "Transform",
+    "headingSuffix": "Your Business?",
+    "desc": "Let's build something extraordinary together. Your next big idea starts here.",
+    "button": "Start Your Project"
+  },
+  "whyChoose": {
+    "tag": "Why vebx.run",
+    "heading": "Why",
+    "headingHighlight": "Choose Us",
+    "desc": "Technical excellence with a commitment to your success.",
+    "reasons": {
+      "innovationTitle": "Innovation First",
+      "innovationDesc": "Cutting-edge tech so your product stays ahead.",
+      "deliveryTitle": "Reliable Delivery",
+      "deliveryDesc": "On-time and on-budget with clear communication.",
+      "teamTitle": "Expert Team",
+      "teamDesc": "Senior developers and designers who care.",
+      "resultsTitle": "Results That Matter",
+      "resultsDesc": "Metrics that grow your business."
+    }
+  },
+  "howWeWork": {
+    "tag": "Our Process",
+    "heading": "How We",
+    "headingHighlight": "Work",
+    "desc": "A simple, transparent process from idea to launch.",
+    "steps": {
+      "discoverTitle": "Discover",
+      "discoverDesc": "We learn your vision, audience, and goals.",
+      "designTitle": "Design",
+      "designDesc": "UX, UI, and architecture in a clear plan.",
+      "developTitle": "Develop",
+      "developDesc": "Clean code, best practices, regular updates.",
+      "deliverTitle": "Deliver",
+      "deliverDesc": "Launch, support, and iterate."
+    },
+    "startProject": "Start your project"
+  },
+  "trusted": {
+    "tag": "Trusted for",
+    "items": {
+      "mobileWeb": "Mobile & Web",
+      "metaverseXR": "Metaverse & XR",
+      "enterpriseSaaS": "Enterprise SaaS",
+      "startupsToFortune": "Startups to Fortune 500"
+    }
+  },
+  "servicesSection": {
+    "tag": "What We Do",
+    "heading": "Our",
+    "headingHighlight": "Services",
+    "desc": "End-to-end digital solutions designed to elevate your business"
+  },
   "footer": {
     "quickLinks": "Quick Links",
     "linkServices": "Services",
@@ -42,7 +139,16 @@
     "stayInLoopDesc": "Get insights and updates on digital innovation.",
     "subscribe": "Subscribe",
     "latestInsights": "Latest insights",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "brandDesc": "Imagine. Innovate. Inspire. We build digital experiences that transform businesses.",
+    "insights": {
+      "title1": "Why Metaverse Development is the Next Big Leap",
+      "excerpt1": "Exploring how immersive tech is reshaping digital experiences.",
+      "title2": "Building Apps That Users Actually Love",
+      "excerpt2": "Design and development principles that drive engagement.",
+      "title3": "Digital Transformation That Drives Growth",
+      "excerpt3": "How we help businesses innovate and scale with technology."
+    }
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -56,5 +162,159 @@
     "customSolution": "Need a Custom Solution?",
     "customSolutionDesc": "Don't see exactly what you're looking for? We build custom digital solutions tailored to your unique requirements.",
     "getInTouch": "Get in Touch"
+  },
+  "pricing": {
+    "tag": "Pricing",
+    "heading": "Transparent",
+    "headingHighlight": "Pricing",
+    "desc": "Select a service, then choose the plan that fits. Contact us for a detailed quote.",
+    "chooseService": "Choose a service",
+    "starter": "Starter",
+    "starterDesc": "Perfect for getting started",
+    "professional": "Professional",
+    "professionalDesc": "Ideal for growing needs",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "For large-scale projects",
+    "mostPopular": "Most Popular",
+    "perProject": "/ project",
+    "getStarted": "Get Started",
+    "features": {
+      "coreScope": "Core scope delivered",
+      "responsive": "Responsive design",
+      "basicSupport": "Basic support",
+      "2revisions": "2 rounds of revisions",
+      "1monthSupport": "1 month support",
+      "fullScope": "Full scope & custom UI/UX",
+      "advancedFeatures": "Advanced features",
+      "apiIntegrations": "API integrations",
+      "5revisions": "5 rounds of revisions",
+      "3monthsSupport": "3 months support",
+      "perfOptimization": "Performance optimization",
+      "fullStack": "Full-stack custom build",
+      "dedicatedPM": "Dedicated project manager",
+      "unlimitedRevisions": "Unlimited revisions",
+      "12monthsSupport": "12 months support",
+      "cicd": "CI/CD & DevOps",
+      "sla": "SLA guarantee"
+    }
+  },
+  "contact": {
+    "tag": "Contact Us",
+    "heading": "Let's",
+    "headingHighlight": "Talk",
+    "desc": "Have a project in mind? We'd love to hear from you. Send us a message and we'll get back to you within 24 hours.",
+    "sendMessage": "Send a Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "tellUs": "Tell us about your project...",
+    "sendBtn": "Send Message",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us",
+    "businessHours": "Business Hours",
+    "monFri": "Monday – Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+  },
+  "expertise": {
+    "tag": "Expertise",
+    "heading": "Our",
+    "headingHighlight": "Technology",
+    "headingSuffix": "Stack",
+    "desc": "We master the tools that matter. Our expertise spans across the entire digital ecosystem.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "cloudDevops": "Cloud & DevOps",
+      "gameXR": "Game & XR",
+      "dataAI": "Data & AI"
+    },
+    "industriesTag": "Industries",
+    "industriesHeading": "Industries We",
+    "industriesHighlight": "Serve",
+    "industries": {
+      "healthcare": "Healthcare & MedTech",
+      "fintech": "FinTech & Banking",
+      "ecommerce": "E-Commerce & Retail",
+      "education": "Education & EdTech",
+      "realEstate": "Real Estate & PropTech",
+      "entertainment": "Entertainment & Media",
+      "automotive": "Automotive",
+      "logistics": "Logistics & Supply Chain"
+    },
+    "ctaHeading": "Let's Build Something",
+    "ctaHighlight": "Amazing",
+    "ctaDesc": "Have a project in mind? Our team of experts is ready to bring your vision to life.",
+    "ctaBtn": "Get in Touch"
+  },
+  "ourWork": {
+    "tag": "Portfolio",
+    "heading": "Our",
+    "headingHighlight": "Work",
+    "desc": "A showcase of projects that demonstrate our expertise across industries and technologies.",
+    "projects": {
+      "fintech": { "title": "FinTech Dashboard", "category": "Web Application", "desc": "A real-time financial analytics platform with AI-powered insights and interactive charts." },
+      "medconnect": { "title": "MedConnect", "category": "Mobile Application", "desc": "HIPAA-compliant telemedicine app connecting patients with doctors through secure video calls." },
+      "virtuworld": { "title": "VirtuWorld", "category": "Metaverse", "desc": "An immersive virtual showroom for a luxury automotive brand with 3D car configurator." },
+      "greengrow": { "title": "GreenGrow", "category": "Software Development", "desc": "IoT-powered smart agriculture platform monitoring crop health with drone imagery." },
+      "pixelforge": { "title": "PixelForge", "category": "Game Development", "desc": "Cross-platform multiplayer RPG with procedurally generated worlds and real-time combat." },
+      "brandsphere": { "title": "BrandSphere", "category": "Corporate Branding", "desc": "Complete brand overhaul for a Fortune 500 company including digital and print assets." }
+    },
+    "ctaHeading": "Want to Be Our",
+    "ctaHighlight": "Next Success",
+    "ctaSuffix": "Story?",
+    "ctaDesc": "Let's discuss your project and create something extraordinary together.",
+    "ctaBtn": "Start a Project"
+  },
+  "privacy": {
+    "tag": "Legal",
+    "heading": "Privacy",
+    "headingHighlight": "Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "section1Title": "1. Information We Collect",
+    "section1": "We collect information you provide directly, such as your name, email address, and project details when you contact us or use our services. We also automatically collect certain information about your device and how you interact with our website.",
+    "section2Title": "2. How We Use Your Information",
+    "section2": "We use the information we collect to provide, maintain, and improve our services, communicate with you about projects and updates, and ensure the security of our platforms.",
+    "section3Title": "3. Information Sharing",
+    "section3": "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our website and conducting our business.",
+    "section4Title": "4. Data Security",
+    "section4": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
+    "section5Title": "5. Your Rights",
+    "section5": "You have the right to access, correct, or delete your personal information. You may also opt out of marketing communications at any time by contacting us at support@vebx.run.",
+    "section6Title": "6. Contact Us",
+    "section6": "If you have any questions about this Privacy Policy, please contact us at:",
+    "email": "Email:",
+    "address": "Address:"
+  },
+  "notFound": {
+    "title": "404",
+    "desc": "Oops! Page not found",
+    "back": "Return to Home"
+  },
+  "services": {
+    "mobileApplication": "Mobile Application",
+    "mobileApplicationShort": "Native & cross-platform apps that captivate users",
+    "webCmsDevelopment": "Web CMS Development",
+    "webCmsDevelopmentShort": "Powerful content management solutions",
+    "softwareDevelopment": "Software Development",
+    "softwareDevelopmentShort": "Custom software tailored to your needs",
+    "corporateBranding": "Corporate Branding",
+    "corporateBrandingShort": "Bold brand identities that stand out",
+    "onlineDigitalMarketing": "Online Digital Marketing",
+    "onlineDigitalMarketingShort": "Data-driven strategies for growth",
+    "2d3dAnimation": "2D/3D & Animation",
+    "2d3dAnimationShort": "Stunning visuals that tell your story",
+    "3dRenderingServices": "3D Rendering Services",
+    "3dRenderingServicesShort": "Photorealistic 3D visualizations",
+    "metaverseDevelopment": "Metaverse Development",
+    "metaverseDevelopmentShort": "Next-gen immersive digital worlds",
+    "gameDevelopment": "Game Development",
+    "gameDevelopmentShort": "Engaging games across all platforms",
+    "extendedReality": "Extended Reality",
+    "extendedRealityShort": "AR/VR/MR experiences that transform",
+    "socialMediaMarketing": "Social Media Marketing",
+    "socialMediaMarketingShort": "Strategic social presence & engagement"
   }
 }
