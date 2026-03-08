@@ -1,0 +1,89 @@
+{
+  "nav": { "home": "首页", "about": "关于我们", "services": "服务", "pricing": "价格", "ourWork": "案例", "expertise": "专业能力", "contactUs": "联系我们" },
+  "hero": {
+    "tagline": "想象。创新。启发。",
+    "headline1": "我们打造",
+    "headline2": "数字",
+    "headline3": "体验",
+    "headline4": "创造价值",
+    "subtext": "从移动应用到元宇宙开发，我们打造前沿解决方案，将创意变为现实。您的愿景，我们的专业。",
+    "getStarted": "开始项目",
+    "viewOurWork": "查看案例",
+    "stats": { "projects": "已交付项目", "clients": "满意客户", "years": "年经验" }
+  },
+  "about": {
+    "tag": "关于我们", "heading": "打造", "headingHighlight": "数字卓越", "headingSuffix": "自创立以来",
+    "desc": "在vebx.run，我们不仅是开发者——我们是数字架构师。我们将创意愿景与技术专长相结合，打造令人振奋的产品。",
+    "heroDesc": "在vebx.run，我们不仅是开发者——我们是数字架构师。",
+    "features": { "innovationTitle": "创新优先", "innovationDesc": "前沿技术栈", "secureTitle": "可靠安全", "secureDesc": "企业级安全", "teamTitle": "专家团队", "teamDesc": "全球资深开发者", "resultsTitle": "结果导向", "resultsDesc": "超越目标的可衡量成果" },
+    "fromStartups": "从初创到", "enterprises": "企业",
+    "fromStartupsDesc1": "vebx.run已成长为服务各行业客户的全球数字机构。",
+    "fromStartupsDesc2": "我们的团队涵盖移动开发、网络平台、元宇宙体验、游戏设计等领域。",
+    "valuesTag": "价值观", "valuesHeading": "驱动", "valuesHighlight": "我们的", "valuesSuffix": "力量",
+    "values": { "creativeTitle": "创意思维", "creativeDesc": "以全新视角审视每个项目。", "qualityTitle": "品质卓越", "qualityDesc": "每一行代码都精益求精。", "globalTitle": "全球覆盖", "globalDesc": "服务全球客户。", "clientTitle": "以客户为中心", "clientDesc": "您的成功就是我们的成功。" },
+    "stats": { "projects": "已交付项目", "clients": "满意客户", "years": "年经验", "team": "团队成员" }
+  },
+  "cta": { "heading": "准备好", "headingHighlight": "转型", "headingSuffix": "您的业务？", "desc": "让我们一起打造非凡。", "button": "启动您的项目" },
+  "whyChoose": {
+    "tag": "为什么选择vebx.run", "heading": "为什么", "headingHighlight": "选择我们", "desc": "卓越技术，致力于您的成功。",
+    "reasons": { "innovationTitle": "创新优先", "innovationDesc": "前沿技术保持领先。", "deliveryTitle": "可靠交付", "deliveryDesc": "按时按预算交付。", "teamTitle": "专家团队", "teamDesc": "用心服务的资深团队。", "resultsTitle": "实效成果", "resultsDesc": "推动业务增长的指标。" }
+  },
+  "howWeWork": {
+    "tag": "工作流程", "heading": "我们如何", "headingHighlight": "工作", "desc": "从创意到上线的透明流程。",
+    "steps": { "discoverTitle": "探索", "discoverDesc": "了解您的愿景和目标。", "designTitle": "设计", "designDesc": "UX、UI和架构规划。", "developTitle": "开发", "developDesc": "高质量代码，定期更新。", "deliverTitle": "交付", "deliverDesc": "上线、支持和迭代。" },
+    "startProject": "启动项目"
+  },
+  "trusted": { "tag": "值得信赖", "items": { "mobileWeb": "移动和网页", "metaverseXR": "元宇宙和XR", "enterpriseSaaS": "企业SaaS", "startupsToFortune": "初创到500强" } },
+  "servicesSection": { "tag": "我们的服务", "heading": "我们的", "headingHighlight": "服务", "desc": "全方位数字解决方案" },
+  "footer": {
+    "quickLinks": "快速链接", "linkServices": "服务", "linkPricing": "价格", "linkContactUs": "联系我们", "linkOurWork": "案例", "linkExpertise": "专业能力", "linkAbout": "关于", "linkPrivacyPolicy": "隐私政策",
+    "services": "服务", "letsWork": "携手合作", "letsWorkDesc": "准备好了吗？联系我们。", "getInTouch": "联系我们",
+    "copyright": "版权所有 2024–2026", "vebexRun": "Vebex Run",
+    "stayInLoop": "保持联系", "stayInLoopDesc": "获取数字创新洞察。", "subscribe": "订阅",
+    "latestInsights": "最新洞察", "readMore": "阅读更多",
+    "brandDesc": "想象。创新。启发。我们打造改变企业的数字体验。",
+    "insights": { "title1": "元宇宙开发为何是下一个飞跃", "excerpt1": "沉浸式技术如何重塑体验。", "title2": "打造用户真正喜爱的应用", "excerpt2": "驱动参与的设计原则。", "title3": "推动增长的数字化转型", "excerpt3": "我们如何帮助企业创新。" }
+  },
+  "common": { "vebexRun": "Vebex Run", "explore": "探索" },
+  "servicesPage": { "whatWeDo": "我们的服务", "ourServices": "我们的服务", "ourServicesHighlight": "服务", "subtitle": "全方位数字解决方案。", "customSolution": "需要定制方案？", "customSolutionDesc": "没找到合适的？我们提供定制解决方案。", "getInTouch": "联系我们" },
+  "pricing": {
+    "tag": "价格", "heading": "透明", "headingHighlight": "定价", "desc": "选择服务和计划。",
+    "chooseService": "选择服务", "starter": "入门版", "starterDesc": "适合起步", "professional": "专业版", "professionalDesc": "适合成长", "enterprise": "企业版", "enterpriseDesc": "大型项目", "mostPopular": "最受欢迎", "perProject": "/项目", "getStarted": "开始",
+    "features": { "coreScope": "核心范围", "responsive": "响应式设计", "basicSupport": "基础支持", "2revisions": "2轮修改", "1monthSupport": "1个月支持", "fullScope": "完整范围和定制UI/UX", "advancedFeatures": "高级功能", "apiIntegrations": "API集成", "5revisions": "5轮修改", "3monthsSupport": "3个月支持", "perfOptimization": "性能优化", "fullStack": "全栈定制", "dedicatedPM": "专属项目经理", "unlimitedRevisions": "无限修改", "12monthsSupport": "12个月支持", "cicd": "CI/CD和DevOps", "sla": "SLA保证" }
+  },
+  "contact": { "tag": "联系我们", "heading": "让我们", "headingHighlight": "聊聊", "desc": "有项目想法？24小时内回复。", "sendMessage": "发送消息", "yourName": "姓名", "yourEmail": "邮箱", "subject": "主题", "tellUs": "介绍您的项目...", "sendBtn": "发送", "emailUs": "邮件联系", "visitUs": "拜访我们", "businessHours": "营业时间", "monFri": "周一至周五", "saturday": "周六", "sunday": "周日", "closed": "休息" },
+  "expertise": {
+    "tag": "专业能力", "heading": "我们的", "headingHighlight": "技术", "headingSuffix": "栈", "desc": "精通重要工具。",
+    "categories": { "frontend": "前端", "backend": "后端", "mobile": "移动端", "cloudDevops": "云和DevOps", "gameXR": "游戏和XR", "dataAI": "数据和AI" },
+    "industriesTag": "行业", "industriesHeading": "服务", "industriesHighlight": "行业",
+    "industries": { "healthcare": "医疗健康", "fintech": "金融科技", "ecommerce": "电子商务", "education": "教育科技", "realEstate": "房地产", "entertainment": "娱乐媒体", "automotive": "汽车", "logistics": "物流供应链" },
+    "ctaHeading": "一起打造", "ctaHighlight": "精彩", "ctaDesc": "我们的团队随时为您服务。", "ctaBtn": "联系我们"
+  },
+  "ourWork": {
+    "tag": "作品集", "heading": "我们的", "headingHighlight": "作品", "desc": "展示我们的跨行业专业能力。",
+    "projects": {
+      "fintech": { "title": "金融仪表盘", "category": "网页应用", "desc": "AI驱动的实时金融分析。" },
+      "medconnect": { "title": "MedConnect", "category": "移动应用", "desc": "安全视频问诊平台。" },
+      "virtuworld": { "title": "VirtuWorld", "category": "元宇宙", "desc": "3D虚拟展厅。" },
+      "greengrow": { "title": "GreenGrow", "category": "软件", "desc": "智能农业平台。" },
+      "pixelforge": { "title": "PixelForge", "category": "游戏", "desc": "跨平台多人RPG。" },
+      "brandsphere": { "title": "BrandSphere", "category": "品牌", "desc": "500强企业品牌重塑。" }
+    },
+    "ctaHeading": "成为我们的", "ctaHighlight": "下一个成功", "ctaSuffix": "故事？", "ctaDesc": "一起创造非凡。", "ctaBtn": "启动项目"
+  },
+  "privacy": { "tag": "法律", "heading": "隐私", "headingHighlight": "政策", "lastUpdated": "最后更新：2026年3月", "section1Title": "1. 信息收集", "section1": "我们收集您提供的信息。", "section2Title": "2. 信息使用", "section2": "用于提供和改善服务。", "section3Title": "3. 信息共享", "section3": "不出售个人信息。", "section4Title": "4. 数据安全", "section4": "采取适当安全措施。", "section5Title": "5. 您的权利", "section5": "有权访问、更正或删除信息。", "section6Title": "6. 联系我们", "section6": "如有疑问请联系：", "email": "邮箱：", "address": "地址：" },
+  "notFound": { "title": "404", "desc": "页面未找到", "back": "返回首页" },
+  "services": {
+    "mobileApplication": "移动应用", "mobileApplicationShort": "原生和跨平台应用",
+    "webCmsDevelopment": "网站CMS开发", "webCmsDevelopmentShort": "强大的内容管理",
+    "softwareDevelopment": "软件开发", "softwareDevelopmentShort": "定制软件",
+    "corporateBranding": "企业品牌", "corporateBrandingShort": "醒目的品牌标识",
+    "onlineDigitalMarketing": "数字营销", "onlineDigitalMarketingShort": "数据驱动增长",
+    "2d3dAnimation": "2D/3D动画", "2d3dAnimationShort": "精美视觉效果",
+    "3dRenderingServices": "3D渲染", "3dRenderingServicesShort": "逼真3D可视化",
+    "metaverseDevelopment": "元宇宙开发", "metaverseDevelopmentShort": "下一代数字世界",
+    "gameDevelopment": "游戏开发", "gameDevelopmentShort": "全平台精彩游戏",
+    "extendedReality": "扩展现实", "extendedRealityShort": "AR/VR/MR体验",
+    "socialMediaMarketing": "社交媒体营销", "socialMediaMarketingShort": "战略社交运营"
+  }
+}
