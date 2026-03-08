@@ -17,11 +17,94 @@
     "subtext": "De aplicativos mobile ao desenvolvimento de metaverso, criamos soluções inovadoras que transformam ideias em realidade. Sua visão, nossa expertise.",
     "getStarted": "Comece agora",
     "viewOurWork": "Veja nosso trabalho",
-    "stats": {
-      "projects": "Projetos entregues",
-      "clients": "Clientes satisfeitos",
-      "years": "Anos de experiência"
+    "stats": { "projects": "Projetos entregues", "clients": "Clientes satisfeitos", "years": "Anos de experiência" }
+  },
+  "about": {
+    "tag": "Sobre nós",
+    "heading": "Criando",
+    "headingHighlight": "Excelência Digital",
+    "headingSuffix": "desde o início",
+    "desc": "Na vebx.run, somos mais do que desenvolvedores — somos arquitetos digitais. Unimos visão criativa com domínio técnico para construir produtos que não apenas funcionam, mas inspiram.",
+    "heroDesc": "Na vebx.run, somos mais do que desenvolvedores — somos arquitetos digitais. Unimos visão criativa com domínio técnico para construir produtos que não apenas funcionam, mas inspiram.",
+    "features": {
+      "innovationTitle": "Inovação em primeiro lugar",
+      "innovationDesc": "Tecnologias de ponta para soluções modernas",
+      "secureTitle": "Confiável e seguro",
+      "secureDesc": "Segurança de nível empresarial em cada projeto",
+      "teamTitle": "Equipe especializada",
+      "teamDesc": "Desenvolvedores e designers experientes em todo o mundo",
+      "resultsTitle": "Orientado a resultados",
+      "resultsDesc": "Resultados mensuráveis que superam metas"
+    },
+    "fromStartups": "De startups a",
+    "enterprises": "grandes empresas",
+    "fromStartupsDesc1": "Fundada com a missão de democratizar a tecnologia de ponta, a vebx.run cresceu e se tornou uma agência digital global atendendo clientes em diversos setores.",
+    "fromStartupsDesc2": "Nossa equipe abrange desenvolvimento mobile, plataformas web, experiências no metaverso, design de jogos e muito mais. Não apenas construímos software — engenhamos futuros digitais.",
+    "valuesTag": "Nossos valores",
+    "valuesHeading": "O que nos",
+    "valuesHighlight": "move",
+    "valuesSuffix": "",
+    "values": {
+      "creativeTitle": "Pensamento criativo",
+      "creativeDesc": "Abordamos cada projeto com perspectivas novas, desafiando soluções convencionais para entregar resultados verdadeiramente inovadores.",
+      "qualityTitle": "Excelência em qualidade",
+      "qualityDesc": "Cada linha de código, cada pixel, cada interação é elaborada com os mais altos padrões de qualidade e desempenho.",
+      "globalTitle": "Alcance global",
+      "globalDesc": "Atendendo clientes ao redor do mundo com soluções digitais culturalmente conscientes e localmente relevantes.",
+      "clientTitle": "Foco no cliente",
+      "clientDesc": "Seu sucesso é o nosso sucesso. Construímos parcerias duradouras baseadas em confiança, transparência e objetivos compartilhados."
+    },
+    "stats": { "projects": "Projetos entregues", "clients": "Clientes satisfeitos", "years": "Anos de experiência", "team": "Membros da equipe" }
+  },
+  "cta": {
+    "heading": "Pronto para",
+    "headingHighlight": "transformar",
+    "headingSuffix": "seu negócio?",
+    "desc": "Vamos construir algo extraordinário juntos. Sua próxima grande ideia começa aqui.",
+    "button": "Inicie seu projeto"
+  },
+  "whyChoose": {
+    "tag": "Por que a vebx.run",
+    "heading": "Por que nos",
+    "headingHighlight": "escolher",
+    "desc": "Excelência técnica com compromisso com seu sucesso.",
+    "reasons": {
+      "innovationTitle": "Inovação em primeiro lugar",
+      "innovationDesc": "Tecnologia de ponta para que seu produto se mantenha à frente.",
+      "deliveryTitle": "Entrega confiável",
+      "deliveryDesc": "No prazo e dentro do orçamento com comunicação clara.",
+      "teamTitle": "Equipe especializada",
+      "teamDesc": "Desenvolvedores e designers seniores que se dedicam.",
+      "resultsTitle": "Resultados reais",
+      "resultsDesc": "Métricas que impulsionam seu negócio."
     }
+  },
+  "howWeWork": {
+    "tag": "Nosso processo",
+    "heading": "Como",
+    "headingHighlight": "trabalhamos",
+    "desc": "Um processo simples e transparente da ideia ao lançamento.",
+    "steps": {
+      "discoverTitle": "Descobrir",
+      "discoverDesc": "Conhecemos sua visão, público e objetivos.",
+      "designTitle": "Projetar",
+      "designDesc": "UX, UI e arquitetura em um plano claro.",
+      "developTitle": "Desenvolver",
+      "developDesc": "Código limpo, melhores práticas e atualizações regulares.",
+      "deliverTitle": "Entregar",
+      "deliverDesc": "Lançamento, suporte e evolução contínua."
+    },
+    "startProject": "Inicie seu projeto"
+  },
+  "trusted": {
+    "tag": "Confiável para",
+    "items": { "mobileWeb": "Mobile e Web", "metaverseXR": "Metaverso e XR", "enterpriseSaaS": "SaaS Empresarial", "startupsToFortune": "Startups ao Fortune 500" }
+  },
+  "servicesSection": {
+    "tag": "O que fazemos",
+    "heading": "Nossos",
+    "headingHighlight": "serviços",
+    "desc": "Soluções digitais completas projetadas para elevar seu negócio"
   },
   "footer": {
     "quickLinks": "Links rápidos",
@@ -42,12 +125,18 @@
     "stayInLoopDesc": "Receba insights e novidades sobre inovação digital.",
     "subscribe": "Inscreva-se",
     "latestInsights": "Últimos insights",
-    "readMore": "Leia mais"
+    "readMore": "Leia mais",
+    "brandDesc": "Imagine. Inove. Inspire. Construímos experiências digitais que transformam negócios.",
+    "insights": {
+      "title1": "Por que o desenvolvimento do metaverso é o próximo grande salto",
+      "excerpt1": "Explorando como a tecnologia imersiva está remodelando experiências digitais.",
+      "title2": "Construindo aplicativos que os usuários realmente adoram",
+      "excerpt2": "Princípios de design e desenvolvimento que impulsionam o engajamento.",
+      "title3": "Transformação digital que impulsiona o crescimento",
+      "excerpt3": "Como ajudamos empresas a inovar e escalar com tecnologia."
+    }
   },
-  "common": {
-    "vebexRun": "Vebex Run",
-    "explore": "Explorar"
-  },
+  "common": { "vebexRun": "Vebex Run", "explore": "Explorar" },
   "servicesPage": {
     "whatWeDo": "O que fazemos",
     "ourServices": "Nossos serviços",
@@ -56,5 +145,148 @@
     "customSolution": "Precisa de uma solução personalizada?",
     "customSolutionDesc": "Não encontrou exatamente o que procura? Desenvolvemos soluções digitais sob medida para suas necessidades.",
     "getInTouch": "Entre em contato"
+  },
+  "pricing": {
+    "tag": "Preços",
+    "heading": "Preços",
+    "headingHighlight": "transparentes",
+    "desc": "Selecione um serviço e escolha o plano ideal. Entre em contato para um orçamento detalhado.",
+    "chooseService": "Escolha um serviço",
+    "starter": "Inicial",
+    "starterDesc": "Perfeito para começar",
+    "professional": "Profissional",
+    "professionalDesc": "Ideal para necessidades crescentes",
+    "enterprise": "Empresarial",
+    "enterpriseDesc": "Para projetos de grande escala",
+    "mostPopular": "Mais popular",
+    "perProject": "/ projeto",
+    "getStarted": "Começar",
+    "features": {
+      "coreScope": "Escopo principal entregue",
+      "responsive": "Design responsivo",
+      "basicSupport": "Suporte básico",
+      "2revisions": "2 rodadas de revisões",
+      "1monthSupport": "1 mês de suporte",
+      "fullScope": "Escopo completo e UI/UX personalizado",
+      "advancedFeatures": "Recursos avançados",
+      "apiIntegrations": "Integrações de API",
+      "5revisions": "5 rodadas de revisões",
+      "3monthsSupport": "3 meses de suporte",
+      "perfOptimization": "Otimização de desempenho",
+      "fullStack": "Construção full-stack personalizada",
+      "dedicatedPM": "Gerente de projeto dedicado",
+      "unlimitedRevisions": "Revisões ilimitadas",
+      "12monthsSupport": "12 meses de suporte",
+      "cicd": "CI/CD e DevOps",
+      "sla": "Garantia de SLA"
+    }
+  },
+  "contact": {
+    "tag": "Fale conosco",
+    "heading": "Vamos",
+    "headingHighlight": "conversar",
+    "desc": "Tem um projeto em mente? Adoraríamos ouvir você. Envie uma mensagem e retornaremos em até 24 horas.",
+    "sendMessage": "Enviar mensagem",
+    "yourName": "Seu nome",
+    "yourEmail": "Seu e-mail",
+    "subject": "Assunto",
+    "tellUs": "Conte-nos sobre seu projeto...",
+    "sendBtn": "Enviar mensagem",
+    "emailUs": "Envie um e-mail",
+    "visitUs": "Visite-nos",
+    "businessHours": "Horário de funcionamento",
+    "monFri": "Segunda – Sexta",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "closed": "Fechado"
+  },
+  "expertise": {
+    "tag": "Especialização",
+    "heading": "Nossa",
+    "headingHighlight": "stack tecnológica",
+    "headingSuffix": "",
+    "desc": "Dominamos as ferramentas que importam. Nossa expertise abrange todo o ecossistema digital.",
+    "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Mobile", "cloudDevops": "Cloud e DevOps", "gameXR": "Games e XR", "dataAI": "Dados e IA" },
+    "industriesTag": "Setores",
+    "industriesHeading": "Setores que",
+    "industriesHighlight": "atendemos",
+    "industries": {
+      "healthcare": "Saúde e MedTech",
+      "fintech": "FinTech e Bancos",
+      "ecommerce": "E-Commerce e Varejo",
+      "education": "Educação e EdTech",
+      "realEstate": "Imobiliário e PropTech",
+      "entertainment": "Entretenimento e Mídia",
+      "automotive": "Automotivo",
+      "logistics": "Logística e Cadeia de Suprimentos"
+    },
+    "ctaHeading": "Vamos construir algo",
+    "ctaHighlight": "incrível",
+    "ctaDesc": "Tem um projeto em mente? Nossa equipe de especialistas está pronta para dar vida à sua visão.",
+    "ctaBtn": "Entre em contato"
+  },
+  "ourWork": {
+    "tag": "Portfólio",
+    "heading": "Nosso",
+    "headingHighlight": "trabalho",
+    "desc": "Uma vitrine de projetos que demonstram nossa expertise em diferentes setores e tecnologias.",
+    "projects": {
+      "fintech": { "title": "Painel FinTech", "category": "Aplicação web", "desc": "Plataforma de análise financeira em tempo real com insights de IA e gráficos interativos." },
+      "medconnect": { "title": "MedConnect", "category": "Aplicativo mobile", "desc": "Aplicativo de telemedicina compatível com HIPAA conectando pacientes a médicos via videochamadas seguras." },
+      "virtuworld": { "title": "VirtuWorld", "category": "Metaverso", "desc": "Showroom virtual imersivo para marca automotiva de luxo com configurador 3D." },
+      "greengrow": { "title": "GreenGrow", "category": "Desenvolvimento de software", "desc": "Plataforma agrícola inteligente com IoT monitorando a saúde das plantações via imagens de drones." },
+      "pixelforge": { "title": "PixelForge", "category": "Desenvolvimento de jogos", "desc": "RPG multiplayer multiplataforma com mundos gerados proceduralmente e combate em tempo real." },
+      "brandsphere": { "title": "BrandSphere", "category": "Branding corporativo", "desc": "Reformulação completa de marca para empresa Fortune 500 incluindo ativos digitais e impressos." }
+    },
+    "ctaHeading": "Quer ser nosso",
+    "ctaHighlight": "próximo caso de sucesso",
+    "ctaSuffix": "?",
+    "ctaDesc": "Vamos discutir seu projeto e criar algo extraordinário juntos.",
+    "ctaBtn": "Iniciar um projeto"
+  },
+  "privacy": {
+    "tag": "Legal",
+    "heading": "Política de",
+    "headingHighlight": "privacidade",
+    "lastUpdated": "Última atualização: março de 2026",
+    "section1Title": "1. Informações que coletamos",
+    "section1": "Coletamos informações que você fornece diretamente, como nome, endereço de e-mail e detalhes do projeto ao entrar em contato conosco ou usar nossos serviços.",
+    "section2Title": "2. Como usamos suas informações",
+    "section2": "Usamos as informações coletadas para fornecer, manter e melhorar nossos serviços, comunicar sobre projetos e atualizações e garantir a segurança de nossas plataformas.",
+    "section3Title": "3. Compartilhamento de informações",
+    "section3": "Não vendemos, negociamos ou alugamos suas informações pessoais a terceiros.",
+    "section4Title": "4. Segurança dos dados",
+    "section4": "Implementamos medidas de segurança técnicas e organizacionais apropriadas para proteger suas informações pessoais.",
+    "section5Title": "5. Seus direitos",
+    "section5": "Você tem o direito de acessar, corrigir ou excluir suas informações pessoais. Também pode cancelar comunicações de marketing a qualquer momento entrando em contato pelo support@vebx.run.",
+    "section6Title": "6. Fale conosco",
+    "section6": "Se tiver dúvidas sobre esta Política de Privacidade, entre em contato:",
+    "email": "E-mail:",
+    "address": "Endereço:"
+  },
+  "notFound": { "title": "404", "desc": "Ops! Página não encontrada", "back": "Voltar para o início" },
+  "services": {
+    "mobileApplication": "Aplicativos mobile",
+    "mobileApplicationShort": "Apps nativos e multiplataforma que cativam os usuários",
+    "webCmsDevelopment": "Desenvolvimento Web e CMS",
+    "webCmsDevelopmentShort": "Soluções poderosas de gerenciamento de conteúdo",
+    "softwareDevelopment": "Desenvolvimento de software",
+    "softwareDevelopmentShort": "Software personalizado para suas necessidades",
+    "corporateBranding": "Branding corporativo",
+    "corporateBrandingShort": "Identidades de marca ousadas e marcantes",
+    "onlineDigitalMarketing": "Marketing digital",
+    "onlineDigitalMarketingShort": "Estratégias baseadas em dados para crescimento",
+    "2d3dAnimation": "Animação 2D/3D",
+    "2d3dAnimationShort": "Visuais impressionantes que contam sua história",
+    "3dRenderingServices": "Renderização 3D",
+    "3dRenderingServicesShort": "Visualizações 3D fotorrealistas",
+    "metaverseDevelopment": "Desenvolvimento de metaverso",
+    "metaverseDevelopmentShort": "Mundos digitais imersivos de última geração",
+    "gameDevelopment": "Desenvolvimento de jogos",
+    "gameDevelopmentShort": "Jogos envolventes para todas as plataformas",
+    "extendedReality": "Realidade estendida",
+    "extendedRealityShort": "Experiências AR/VR/MR que transformam",
+    "socialMediaMarketing": "Marketing em redes sociais",
+    "socialMediaMarketingShort": "Presença social estratégica e engajamento"
   }
 }
