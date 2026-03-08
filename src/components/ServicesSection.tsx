@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { servicesData } from "@/data/services";
 
-const cardEase = [0.22, 1, 0.36, 1];
+const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; index: number }) {
   const ref = useRef(null);

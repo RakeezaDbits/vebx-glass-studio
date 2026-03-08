@@ -1,50 +1,60 @@
 {
   "nav": {
-    "home": "Start",
-    "about": "Uber uns",
+    "home": "Startseite",
+    "about": "Über uns",
     "services": "Leistungen",
     "pricing": "Preise",
-    "ourWork": "Arbeiten",
-    "expertise": "Expertise",
+    "ourWork": "Unsere Arbeit",
+    "expertise": "Fachkompetenz",
     "contactUs": "Kontakt"
   },
   "hero": {
-    "tagline": "Imaginieren. Innovieren. Inspirieren.",
-    "headline1": "Wir bauen",
+    "tagline": "Vorstellen. Erneuern. Inspirieren.",
+    "headline1": "Wir erschaffen",
     "headline2": "Digitale Erlebnisse",
-    "headline3": "Die",
-    "headline4": "Zahlen",
-    "subtext": "From mobile apps to metaverse development, we craft cutting-edge solutions that transform ideas into reality. Your vision, our expertise.",
-    "getStarted": "Get Started",
-    "viewOurWork": "View Our Work",
+    "headline3": "die wirklich",
+    "headline4": "zählen",
+    "subtext": "Von mobilen Apps bis zur Metaverse-Entwicklung – wir gestalten zukunftsweisende Lösungen, die Ideen in die Realität umsetzen. Ihre Vision, unsere Expertise.",
+    "getStarted": "Jetzt starten",
+    "viewOurWork": "Unsere Arbeit ansehen",
     "stats": {
-      "projects": "Projects Delivered",
-      "clients": "Happy Clients",
-      "years": "Years Experience"
+      "projects": "Abgeschlossene Projekte",
+      "clients": "Zufriedene Kunden",
+      "years": "Jahre Erfahrung"
     }
   },
   "footer": {
-    "quickLinks": "Quick Links",
-    "linkServices": "Services",
-    "linkPricing": "Pricing",
-    "linkContactUs": "Contact Us",
-    "linkOurWork": "Our Work",
-    "linkExpertise": "Expertise",
-    "linkAbout": "About",
-    "linkPrivacyPolicy": "Privacy Policy",
-    "services": "Services",
-    "letsWork": "Let's Work Together",
-    "letsWorkDesc": "Ready to bring your vision to life? Reach out and let's create something extraordinary.",
-    "getInTouch": "Get in Touch",
-    "copyright": "Copyright reserved 2024–2026 with",
+    "quickLinks": "Schnellzugriff",
+    "linkServices": "Leistungen",
+    "linkPricing": "Preise",
+    "linkContactUs": "Kontakt",
+    "linkOurWork": "Unsere Arbeit",
+    "linkExpertise": "Fachkompetenz",
+    "linkAbout": "Über uns",
+    "linkPrivacyPolicy": "Datenschutzerklärung",
+    "services": "Leistungen",
+    "letsWork": "Lassen Sie uns zusammenarbeiten",
+    "letsWorkDesc": "Bereit, Ihre Vision zum Leben zu erwecken? Kontaktieren Sie uns und lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.",
+    "getInTouch": "Kontakt aufnehmen",
+    "copyright": "Alle Rechte vorbehalten 2024–2026 bei",
     "vebexRun": "Vebex Run",
-    "stayInLoop": "Stay in the loop",
-    "stayInLoopDesc": "Get insights and updates on digital innovation.",
-    "subscribe": "Subscribe",
-    "latestInsights": "Latest insights",
-    "readMore": "Read more"
+    "stayInLoop": "Bleiben Sie informiert",
+    "stayInLoopDesc": "Erhalten Sie Einblicke und Neuigkeiten zur digitalen Innovation.",
+    "subscribe": "Abonnieren",
+    "latestInsights": "Neueste Einblicke",
+    "readMore": "Weiterlesen"
   },
   "common": {
-    "vebexRun": "Vebex Run"
+    "vebexRun": "Vebex Run",
+    "explore": "Entdecken"
+  },
+  "servicesPage": {
+    "whatWeDo": "Was wir tun",
+    "ourServices": "Unsere Leistungen",
+    "ourServicesHighlight": "Leistungen",
+    "subtitle": "Ganzheitliche digitale Lösungen, die Ihr Unternehmen voranbringen. Vom Konzept bis zur Umsetzung – wir kümmern uns um alles.",
+    "customSolution": "Brauchen Sie eine maßgeschneiderte Lösung?",
+    "customSolutionDesc": "Nicht genau das gefunden, was Sie suchen? Wir entwickeln individuelle digitale Lösungen nach Ihren Anforderungen.",
+    "getInTouch": "Kontakt aufnehmen"
   }
 }
