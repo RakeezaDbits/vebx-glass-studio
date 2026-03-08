@@ -8,13 +8,13 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
 import Pricing from "./pages/Pricing";
-import StaffAugmentation from "./pages/StaffAugmentation";
 import OurWork from "./pages/OurWork";
 import Expertise from "./pages/Expertise";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import Preloader from "./components/Preloader";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +24,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <Preloader />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
@@ -31,7 +32,6 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/services/:slug" element={<ServiceDetail />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/staff-augmentation" element={<StaffAugmentation />} />
           <Route path="/our-work" element={<OurWork />} />
           <Route path="/expertise" element={<Expertise />} />
           <Route path="/contact" element={<Contact />} />

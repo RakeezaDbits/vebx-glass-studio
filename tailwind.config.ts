@@ -67,8 +67,8 @@ export default {
           to: { height: "0" },
         },
         "float": {
-          "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-20px)" },
+          "0%, 100%": { transform: "translateY(0px) scale(1)" },
+          "50%": { transform: "translateY(-24px) scale(1.05)" },
         },
         "pulse-glow": {
           "0%, 100%": { opacity: "0.4" },

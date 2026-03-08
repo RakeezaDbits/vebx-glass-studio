@@ -93,19 +93,28 @@
 
 @layer components {
   .liquid-glass {
-    background: hsla(var(--glass-bg));
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid hsla(var(--glass-border));
-    box-shadow: var(--glass-shadow);
+    background: hsla(0, 0%, 100%, 0.03);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid hsla(0, 0%, 100%, 0.06);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.06);
   }
 
   .liquid-glass-strong {
-    background: hsla(0, 0%, 100%, 0.07);
+    background: hsla(0, 0%, 100%, 0.06);
     backdrop-filter: blur(40px) saturate(200%);
     -webkit-backdrop-filter: blur(40px) saturate(200%);
-    border: 1px solid hsla(0, 0%, 100%, 0.12);
-    box-shadow: var(--glass-shadow), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.1);
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08);
+  }
+
+  .cursor-glass-ball {
+    background: radial-gradient(ellipse 80% 80% at 50% 50%, hsla(0, 0%, 100%, 0.07) 0%, hsla(0, 0%, 100%, 0.03) 50%, transparent 70%);
+    backdrop-filter: blur(32px) saturate(150%);
+    -webkit-backdrop-filter: blur(32px) saturate(150%);
+    border: 1px solid hsla(0, 0%, 100%, 0.08);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.06);
+    will-change: transform;
   }
 
   .glow-red {

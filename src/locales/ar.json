@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "pricing": "الأسعار",
+    "ourWork": "أعمالنا",
+    "expertise": "الخبرات",
+    "contactUs": "اتصل بنا"
+  },
+  "hero": {
+    "tagline": "تخيل. ابتكر. ألهم.",
+    "headline1": "نحن نبني",
+    "headline2": "تجارب رقمية",
+    "headline3": "ذات",
+    "headline4": "قيمة",
+    "subtext": "من تطبيقات الجوال إلى تطوير الميتافيرس، نصنع حلولاً متطورة تحول الأفكار إلى واقع. رؤيتك، خبرتنا.",
+    "getStarted": "ابدأ الآن",
+    "viewOurWork": "شاهد أعمالنا",
+    "stats": {
+      "projects": "مشروع منفذ",
+      "clients": "عميل سعيد",
+      "years": "سنوات خبرة"
+    }
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "linkServices": "الخدمات",
+    "linkPricing": "الأسعار",
+    "linkContactUs": "اتصل بنا",
+    "linkOurWork": "أعمالنا",
+    "linkExpertise": "الخبرات",
+    "linkAbout": "من نحن",
+    "linkPrivacyPolicy": "سياسة الخصوصية",
+    "services": "الخدمات",
+    "letsWork": "لنعمل معاً",
+    "letsWorkDesc": "مستعد لتحقيق رؤيتك؟ تواصل معنا لنصنع شيئاً استثنائياً.",
+    "getInTouch": "تواصل معنا",
+    "copyright": "جميع الحقوق محفوظة 2024–2026 مع",
+    "vebexRun": "فبيكس ران",
+    "stayInLoop": "ابقَ على اطلاع",
+    "stayInLoopDesc": "احصل على رؤى وتحديثات حول الابتكار الرقمي.",
+    "subscribe": "اشترك",
+    "latestInsights": "أحدث الرؤى",
+    "readMore": "اقرأ المزيد"
+  },
+  "common": {
+    "vebexRun": "فبيكس ران",
+    "explore": "استكشف"
+  },
+  "servicesPage": {
+    "whatWeDo": "ماذا نفعل",
+    "ourServices": "خدماتنا",
+    "ourServicesHighlight": "خدماتنا",
+    "subtitle": "حلول رقمية متكاملة لتعزيز أعمالك. من الفكرة إلى النشر، نحن معك.",
+    "customSolution": "هل تحتاج حلاً مخصصاً؟",
+    "customSolutionDesc": "لم تجد ما تبحث عنه؟ نحن نبني حلولاً رقمية مخصصة لاحتياجاتك.",
+    "getInTouch": "تواصل معنا"
+  }
+}

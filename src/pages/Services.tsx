@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { useInView } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageLayout from "@/components/PageLayout";
@@ -12,6 +12,7 @@ const cardEase = [0.22, 1, 0.36, 1];
 function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; index: number }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-50px" });
+  const { t } = useTranslation();
   const num = String(index + 1).padStart(2, "0");
   const Icon = service.icon;
 
@@ -50,7 +51,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
           </h3>
           <p className="text-sm text-muted-foreground leading-relaxed mb-5">{service.shortDesc}</p>
           <span className="inline-flex items-center gap-1.5 text-xs font-medium text-primary/80 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-            Explore <ArrowRight className="w-3.5 h-3.5" />
+            {t("common.explore")} <ArrowRight className="w-3.5 h-3.5 rtl:rotate-180" />
           </span>
         </div>
       </motion.div>
@@ -59,6 +60,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
 }
 
 export default function Services() {
+  const { t } = useTranslation();
   return (
     <PageLayout>
       {/* Hero – bg image (generated theme image), content centered */}
@@ -81,7 +83,7 @@ export default function Services() {
             animate={{ opacity: 1, y: 0 }}
             className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-4 block"
           >
-            What We Do
+            {t("servicesPage.whatWeDo")}
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
@@ -89,7 +91,14 @@ export default function Services() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl md:text-6xl font-display font-bold mb-6"
           >
-            Our <span className="text-gradient-red">Services</span>
+            {t("servicesPage.ourServicesHighlight") ? (
+              <>
+                {t("servicesPage.ourServices").replace(t("servicesPage.ourServicesHighlight"), "").trim()}{" "}
+                <span className="text-gradient-red">{t("servicesPage.ourServicesHighlight")}</span>
+              </>
+            ) : (
+              <span className="text-gradient-red">{t("servicesPage.ourServices")}</span>
+            )}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -97,7 +106,7 @@ export default function Services() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            End-to-end digital solutions designed to elevate your business. From concept to deployment, we've got you covered.
+            {t("servicesPage.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -130,14 +139,14 @@ export default function Services() {
             className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-20 text-center max-w-4xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-              Need a <span className="text-gradient-red">Custom Solution</span>?
+              {t("servicesPage.customSolution")}
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
-              Don't see exactly what you're looking for? We build custom digital solutions tailored to your unique requirements.
+              {t("servicesPage.customSolutionDesc")}
             </p>
             <Link to="/contact">
               <Button variant="hero" size="lg" className="gap-2">
-                Get in Touch <ArrowRight className="w-5 h-5" />
+                {t("servicesPage.getInTouch")} <ArrowRight className="w-5 h-5 rtl:rotate-180" />
               </Button>
             </Link>
           </motion.div>

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Uber uns",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "ourWork": "Arbeiten",
+    "expertise": "Expertise",
+    "contactUs": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Imaginieren. Innovieren. Inspirieren.",
+    "headline1": "Wir bauen",
+    "headline2": "Digitale Erlebnisse",
+    "headline3": "Die",
+    "headline4": "Zahlen",
+    "subtext": "From mobile apps to metaverse development, we craft cutting-edge solutions that transform ideas into reality. Your vision, our expertise.",
+    "getStarted": "Get Started",
+    "viewOurWork": "View Our Work",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "years": "Years Experience"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "linkServices": "Services",
+    "linkPricing": "Pricing",
+    "linkContactUs": "Contact Us",
+    "linkOurWork": "Our Work",
+    "linkExpertise": "Expertise",
+    "linkAbout": "About",
+    "linkPrivacyPolicy": "Privacy Policy",
+    "services": "Services",
+    "letsWork": "Let's Work Together",
+    "letsWorkDesc": "Ready to bring your vision to life? Reach out and let's create something extraordinary.",
+    "getInTouch": "Get in Touch",
+    "copyright": "Copyright reserved 2024–2026 with",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Stay in the loop",
+    "stayInLoopDesc": "Get insights and updates on digital innovation.",
+    "subscribe": "Subscribe",
+    "latestInsights": "Latest insights",
+    "readMore": "Read more"
+  },
+  "common": {
+    "vebexRun": "Vebex Run"
+  }
+}

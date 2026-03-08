@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Mail, MapPin, ArrowRight } from "lucide-react";
 import logo from "@/assets/vebx-logo.png";
 import { servicesData } from "@/data/services";
 
 const quickLinks = [
-  { label: "Services", href: "/services" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "Staff Augmentation", href: "/staff-augmentation" },
-  { label: "Contact Us", href: "/contact" },
-  { label: "Our Work", href: "/our-work" },
-  { label: "Expertise", href: "/expertise" },
-  { label: "About", href: "/about" },
-  { label: "Privacy Policy", href: "/privacy-policy" },
+  { labelKey: "linkServices", href: "/services" },
+  { labelKey: "linkPricing", href: "/pricing" },
+  { labelKey: "linkContactUs", href: "/contact" },
+  { labelKey: "linkOurWork", href: "/our-work" },
+  { labelKey: "linkExpertise", href: "/expertise" },
+  { labelKey: "linkAbout", href: "/about" },
+  { labelKey: "linkPrivacyPolicy", href: "/privacy-policy" },
 ];
 
 const latestInsights = [
@@ -21,26 +21,27 @@ const latestInsights = [
     href: "/our-work",
   },
   {
-    title: "Staff Augmentation vs Traditional Hiring",
-    excerpt: "When to scale your team flexibly and why it matters.",
-    href: "/staff-augmentation",
-  },
-  {
     title: "Building Apps That Users Actually Love",
     excerpt: "Design and development principles that drive engagement.",
     href: "/services",
   },
+  {
+    title: "Digital Transformation That Drives Growth",
+    excerpt: "How we help businesses innovate and scale with technology.",
+    href: "/about",
+  },
 ];
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="relative mt-16 overflow-hidden">
       {/* Newsletter – glassy, outside footer card */}
       <div className="container px-4 lg:px-8 mb-6">
         <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4 justify-between">
           <div>
-            <h3 className="font-display text-lg font-semibold text-foreground mb-1">Stay in the loop</h3>
-            <p className="text-sm text-muted-foreground">Get insights and updates on digital innovation.</p>
+            <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
+            <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
           </div>
           <form
             className="flex flex-col sm:flex-row gap-2 w-full md:w-auto"
@@ -55,7 +56,7 @@ export default function Footer() {
               type="submit"
               className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
-              Subscribe <ArrowRight className="w-4 h-4" />
+              {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
             </button>
           </form>
         </div>
@@ -65,7 +66,7 @@ export default function Footer() {
       <div className="container px-4 lg:px-8 mb-6">
         <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8">
           <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">
-            Latest insights
+            {t("footer.latestInsights")}
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {latestInsights.map((item) => (
@@ -79,7 +80,7 @@ export default function Footer() {
                 </h5>
                 <p className="text-xs text-muted-foreground line-clamp-2">{item.excerpt}</p>
                 <span className="inline-flex items-center gap-1 text-xs text-primary mt-2 font-medium">
-                  Read more <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                  {t("footer.readMore")} <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform rtl:rotate-180" />
                 </span>
               </Link>
             ))}
@@ -114,16 +115,16 @@ export default function Footer() {
             {/* Quick Links */}
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">
-                Quick Links
+                {t("footer.quickLinks")}
               </h4>
               <ul className="space-y-2">
                 {quickLinks.map((link) => (
-                  <li key={link.label}>
+                  <li key={link.href}>
                     <Link
                       to={link.href}
                       className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      {link.label}
+                      {t(`footer.${link.labelKey}`)}
                     </Link>
                   </li>
                 ))}
@@ -133,7 +134,7 @@ export default function Footer() {
             {/* Services – saari services, har ek detail page pe redirect */}
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">
-                Services
+                {t("footer.services")}
               </h4>
               <ul className="space-y-2">
                 {servicesData.map((service) => (
@@ -152,16 +153,16 @@ export default function Footer() {
             {/* CTA */}
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">
-                Let's Work Together
+                {t("footer.letsWork")}
               </h4>
               <p className="text-sm text-muted-foreground mb-4">
-                Ready to bring your vision to life? Reach out and let's create something extraordinary.
+                {t("footer.letsWorkDesc")}
               </p>
               <Link
                 to="/contact"
                 className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform"
               >
-                Get in Touch
+                {t("footer.getInTouch")}
               </Link>
             </div>
           </div>
@@ -170,7 +171,11 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-6 pb-8">
           <div className="container px-4 lg:px-8">
             <p className="text-xs text-muted-foreground text-center">
-              © {new Date().getFullYear()} vebx.run — All rights reserved.
+              {t("footer.copyright")}{" "}
+              <Link to="/" className="text-primary hover:underline font-medium">
+                {t("footer.vebexRun")}
+              </Link>
+              .
             </p>
           </div>
         </div>

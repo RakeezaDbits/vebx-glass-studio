@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "services": "Servicos",
+    "pricing": "Precos",
+    "ourWork": "Trabalhos",
+    "expertise": "Expertise",
+    "contactUs": "Contato"
+  },
+  "hero": {
+    "tagline": "Imagine. Inove. Inspire.",
+    "headline1": "Construimos",
+    "headline2": "Experiencias digitais",
+    "headline3": "Que",
+    "headline4": "Importam",
+    "subtext": "De apps ao metaverso, criamos solucoes que transformam ideias em realidade.",
+    "getStarted": "Comecar",
+    "viewOurWork": "Ver trabalhos",
+    "stats": {
+      "projects": "Projetos entregues",
+      "clients": "Clientes satisfeitos",
+      "years": "Anos de experiencia"
+    }
+  },
+  "footer": {
+    "quickLinks": "Links",
+    "linkServices": "Servicos",
+    "linkPricing": "Precos",
+    "linkContactUs": "Contato",
+    "linkOurWork": "Trabalhos",
+    "linkExpertise": "Expertise",
+    "linkAbout": "Sobre",
+    "linkPrivacyPolicy": "Privacidade",
+    "services": "Servicos",
+    "letsWork": "Vamos trabalhar juntos",
+    "letsWorkDesc": "Pronto para dar vida a sua visao? Fale conosco.",
+    "getInTouch": "Fale conosco",
+    "copyright": "Reservados 2024-2026 com",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Fique por dentro",
+    "stayInLoopDesc": "Insights e atualizacoes sobre inovacao digital.",
+    "subscribe": "Inscrever",
+    "latestInsights": "Ultimas ideias",
+    "readMore": "Leia mais"
+  },
+  "common": {
+    "vebexRun": "Vebex Run"
+  }
+}

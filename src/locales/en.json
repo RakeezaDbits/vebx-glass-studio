@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "ourWork": "Our Work",
+    "expertise": "Expertise",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "tagline": "Imagine. Innovate. Inspire.",
+    "headline1": "We Build",
+    "headline2": "Digital",
+    "headline3": "Experiences That",
+    "headline4": "Matter",
+    "subtext": "From mobile apps to metaverse development, we craft cutting-edge solutions that transform ideas into reality. Your vision, our expertise.",
+    "getStarted": "Get Started",
+    "viewOurWork": "View Our Work",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "years": "Years Experience"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "linkServices": "Services",
+    "linkPricing": "Pricing",
+    "linkContactUs": "Contact Us",
+    "linkOurWork": "Our Work",
+    "linkExpertise": "Expertise",
+    "linkAbout": "About",
+    "linkPrivacyPolicy": "Privacy Policy",
+    "services": "Services",
+    "letsWork": "Let's Work Together",
+    "letsWorkDesc": "Ready to bring your vision to life? Reach out and let's create something extraordinary.",
+    "getInTouch": "Get in Touch",
+    "copyright": "Copyright reserved 2024–2026 with",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Stay in the loop",
+    "stayInLoopDesc": "Get insights and updates on digital innovation.",
+    "subscribe": "Subscribe",
+    "latestInsights": "Latest insights",
+    "readMore": "Read more"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "Explore"
+  },
+  "servicesPage": {
+    "whatWeDo": "What We Do",
+    "ourServices": "Our Services",
+    "ourServicesHighlight": "Services",
+    "subtitle": "End-to-end digital solutions designed to elevate your business. From concept to deployment, we've got you covered.",
+    "customSolution": "Need a Custom Solution?",
+    "customSolutionDesc": "Don't see exactly what you're looking for? We build custom digital solutions tailored to your unique requirements.",
+    "getInTouch": "Get in Touch"
+  }
+}

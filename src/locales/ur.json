@@ -1,0 +1,6 @@
+{
+  "nav": { "home": "ہوم", "about": "ہمارے بارے میں", "services": "خدمات", "pricing": "قیمتیں", "ourWork": "ہمارا کام", "expertise": "مہارت", "contactUs": "رابطہ کریں" },
+  "hero": { "tagline": "تصور کریں۔ جدت۔ متاثر کریں۔", "headline1": "ہم بناتے ہیں", "headline2": "ڈیجیٹل تجربات", "headline3": "جو", "headline4": "اہم ہیں", "subtext": "موبائل ایپس سے میٹاورس تک، ہم ایسے حل بناتے ہیں جو خیالات کو حقیقت میں بدلتے ہیں۔", "getStarted": "شروع کریں", "viewOurWork": "ہمارا کام دیکھیں", "stats": { "projects": "منصوبے", "clients": "خوش کلائنٹس", "years": "سالوں کا تجربہ" } },
+  "footer": { "quickLinks": "لنکس", "linkServices": "خدمات", "linkPricing": "قیمتیں", "linkContactUs": "رابطہ", "linkOurWork": "ہمارا کام", "linkExpertise": "مہارت", "linkAbout": "ہمارے بارے میں", "linkPrivacyPolicy": "رازداری", "services": "خدمات", "letsWork": "چلیں مل کر کام کریں", "letsWorkDesc": "اپنی ویژن کو حقیقت بنانے کے لیے تیار؟ رابطہ کریں۔", "getInTouch": "رابطہ کریں", "copyright": "جملہ حقوق 2024–2026 کے ساتھ", "vebexRun": "Vebex Run", "stayInLoop": "اپ ڈیٹ رہیں", "stayInLoopDesc": "ڈیجیٹل جدت پر بصیرت اور اپ ڈیٹس۔", "subscribe": "سبسکرائب", "latestInsights": "تازہ ترین خیالات", "readMore": "مزید پڑھیں" },
+  "common": { "vebexRun": "Vebex Run" }
+}
