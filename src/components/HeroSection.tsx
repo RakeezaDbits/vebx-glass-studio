@@ -35,9 +35,8 @@ export default function HeroSection() {
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
             src="/videos/hero-bg.mp4"
           />
-        )
-        ) : (
-          /* Fallback animated orbs if video fails */
+        )}
+        {videoFailed && (
           <div className="absolute inset-0">
             {[...Array(8)].map((_, i) => (
               <div
