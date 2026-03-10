@@ -6,6 +6,7 @@ import { servicesData } from "@/data/services";
 
 const quickLinks = [
   { labelKey: "linkServices", href: "/services" },
+  { labelKey: "linkNewServices", href: "/new-services" },
   { labelKey: "linkPricing", href: "/pricing" },
   { labelKey: "linkContactUs", href: "/contact" },
   { labelKey: "linkOurWork", href: "/our-work" },

@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import logo from "@/assets/vebx-logo.png";
 
@@ -11,6 +12,7 @@ const navItems = [
   { labelKey: "home", href: "/" },
   { labelKey: "about", href: "/about" },
   { labelKey: "services", href: "/services" },
+  { labelKey: "newServices", href: "/new-services", showNewBadge: true },
   { labelKey: "pricing", href: "/pricing" },
   { labelKey: "ourWork", href: "/our-work" },
   { labelKey: "expertise", href: "/expertise" },
@@ -57,11 +59,18 @@ export default function Header() {
             <Link
               key={item.href}
               to={item.href}
-              className={`px-3 py-2 text-sm hover:text-foreground transition-colors duration-300 font-medium relative group ${
+              className={`px-3 py-2 text-sm hover:text-foreground transition-colors duration-300 font-medium relative group inline-flex items-center ${
                 location.pathname === item.href ? "text-foreground" : "text-muted-foreground"
               }`}
             >
               {t(`nav.${item.labelKey}`)}
+              {"showNewBadge" in item && item.showNewBadge && (
+                <span className="absolute -top-1 -right-0.5 flex">
+                  <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
+                    {t("nav.newBadge")}
+                  </Badge>
+                </span>
+              )}
               <span
                 className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-primary transition-all duration-300 ${
                   location.pathname === item.href ? "w-3/4" : "w-0 group-hover:w-3/4"
@@ -106,11 +115,18 @@ export default function Header() {
                   key={item.href}
                   to={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className={`px-4 py-3 hover:text-foreground hover:bg-primary/10 rounded-lg transition-all ${
+                  className={`px-4 py-3 hover:text-foreground hover:bg-primary/10 rounded-lg transition-all flex items-center justify-between relative ${
                     location.pathname === item.href ? "text-foreground bg-primary/10" : "text-muted-foreground"
                   }`}
                 >
                   {t(`nav.${item.labelKey}`)}
+                  {"showNewBadge" in item && item.showNewBadge && (
+                    <span className="absolute top-2 right-3 flex">
+                      <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
+                        {t("nav.newBadge")}
+                      </Badge>
+                    </span>
+                  )}
                 </Link>
               ))}
               <div className="px-4 pt-2">

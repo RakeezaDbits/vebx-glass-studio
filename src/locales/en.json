@@ -3,6 +3,8 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "newServices": "New Services",
+    "newBadge": "New",
     "pricing": "Pricing",
     "ourWork": "Our Work",
     "expertise": "Expertise",
@@ -123,6 +125,7 @@
   "footer": {
     "quickLinks": "Quick Links",
     "linkServices": "Services",
+    "linkNewServices": "New Services",
     "linkPricing": "Pricing",
     "linkContactUs": "Contact Us",
     "linkOurWork": "Our Work",
@@ -161,6 +164,13 @@
     "subtitle": "End-to-end digital solutions designed to elevate your business. From concept to deployment, we've got you covered.",
     "customSolution": "Need a Custom Solution?",
     "customSolutionDesc": "Don't see exactly what you're looking for? We build custom digital solutions tailored to your unique requirements.",
+    "getInTouch": "Get in Touch"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
     "getInTouch": "Get in Touch"
   },
   "pricing": {

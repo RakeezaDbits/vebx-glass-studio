@@ -108,13 +108,69 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08);
   }
 
+  /* Cursor ball: real liquid glass — smooth, depth, throw (glow) */
   .cursor-glass-ball {
-    background: radial-gradient(ellipse 80% 80% at 50% 50%, hsla(0, 0%, 100%, 0.07) 0%, hsla(0, 0%, 100%, 0.03) 50%, transparent 70%);
-    backdrop-filter: blur(32px) saturate(150%);
-    -webkit-backdrop-filter: blur(32px) saturate(150%);
-    border: 1px solid hsla(0, 0%, 100%, 0.08);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.06);
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(
+      145deg,
+      hsla(0, 0%, 100%, 0.14) 0%,
+      hsla(0, 0%, 100%, 0.06) 40%,
+      hsla(0, 0%, 100%, 0.02) 100%
+    );
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    border: 1px solid hsla(0, 0%, 100%, 0.18);
+    box-shadow:
+      0 0 0 1px hsla(0, 0%, 100%, 0.06) inset,
+      0 8px 32px -8px rgba(0, 0, 0, 0.35),
+      0 0 48px -12px hsla(0, 0%, 100%, 0.12),
+      0 0 80px -24px hsla(0, 0%, 100%, 0.06);
     will-change: transform;
+  }
+
+  .cursor-glass-ball::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: inherit;
+    overflow: hidden;
+    pointer-events: none;
+    box-shadow:
+      inset 1px 1px 0 0 rgba(255, 255, 255, 0.5),
+      inset -1px -1px 0 0 rgba(255, 255, 255, 0.08),
+      inset 0 8px 16px -4px rgba(255, 255, 255, 0.15),
+      inset 0 -2px 8px -2px rgba(0, 0, 0, 0.15);
+  }
+
+  .cursor-glass-ball::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    border-radius: inherit;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    filter: url(#cursor-liquid-glass);
+    -webkit-filter: url(#cursor-liquid-glass);
+    overflow: hidden;
+    isolation: isolate;
+    pointer-events: none;
+  }
+
+  /* Magnifier mode: content shows through, glass is rim only */
+  .cursor-glass-ball-magnifier {
+    background: linear-gradient(
+      145deg,
+      hsla(0, 0%, 100%, 0.08) 0%,
+      hsla(0, 0%, 100%, 0.02) 50%,
+      hsla(0, 0%, 100%, 0.04) 100%
+    );
+  }
+
+  .cursor-glass-ball-copy {
+    background: hsl(var(--background));
   }
 
   .glow-red {
