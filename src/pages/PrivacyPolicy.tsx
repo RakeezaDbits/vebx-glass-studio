@@ -6,7 +6,14 @@ export default function PrivacyPolicy() {
   const { t } = useTranslation();
   const sections = [1,2,3,4,5,6];
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Privacy Policy",
+        description:
+          "Privacy policy of vebx.run. How we collect, use, and protect your data. Last updated information and contact details.",
+        canonicalPath: "/privacy-policy",
+      }}
+    >
       <section className="py-24 relative">
         <div className="container px-4 lg:px-8 max-w-4xl">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-16">

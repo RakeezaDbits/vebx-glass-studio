@@ -70,7 +70,14 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
 export default function Services() {
   const { t } = useTranslation();
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Services",
+        description:
+          "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebx.run services.",
+        canonicalPath: "/services",
+      }}
+    >
       {/* Hero – bg image (generated theme image), content centered */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         {/* Background image – separate from header */}

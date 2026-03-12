@@ -20,7 +20,14 @@ export default function About() {
   ];
 
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "About Us",
+        description:
+          "Meet the team behind vebx.run. We build mobile apps, web solutions, games, metaverse experiences, and digital marketing that help brands grow globally.",
+        canonicalPath: "/about",
+      }}
+    >
       <section className="py-24 relative overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/10 blur-[100px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">

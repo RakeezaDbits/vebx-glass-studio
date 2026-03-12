@@ -12,3 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Sitemap (update SITE_URL in src/config/seo.ts if your domain changes)
+Sitemap: https://vebx.run/sitemap.xml

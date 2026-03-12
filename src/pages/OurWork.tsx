@@ -26,7 +26,14 @@ const projectKeys = [
 export default function OurWork() {
   const { t } = useTranslation();
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Our Work",
+        description:
+          "Portfolio of vebx.run — mobile apps, web apps, games, and digital products we've built. See our projects in AI, health, events, e-commerce & more.",
+        canonicalPath: "/our-work",
+      }}
+    >
       <section className="py-24 relative overflow-hidden">
         <div className="absolute top-1/4 right-1/4 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">

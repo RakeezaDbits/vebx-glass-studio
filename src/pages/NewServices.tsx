@@ -73,7 +73,14 @@ export default function NewServices() {
   const { t } = useTranslation();
 
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "New Services",
+        description:
+          "AI solutions, ebook design, digital magazine, e-newspaper, podcast production, infographics, chatbot development, copywriting & social content. vebx.run new services.",
+        canonicalPath: "/new-services",
+      }}
+    >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img

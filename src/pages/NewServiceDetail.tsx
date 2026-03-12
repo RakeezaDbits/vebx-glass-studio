@@ -23,7 +23,13 @@ export default function NewServiceDetail() {
   const Icon = service.icon;
 
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: service.title,
+        description: service.shortDesc,
+        canonicalPath: `/new-services/${service.slug}`,
+      }}
+    >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16">
         <div className="absolute inset-0">
           <img

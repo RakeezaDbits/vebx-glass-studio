@@ -9,7 +9,14 @@ import HowWeWorkSection from "@/components/HowWeWorkSection";
 import CTASection from "@/components/CTASection";
 
 const Index = () => (
-  <PageLayout>
+  <PageLayout
+    seo={{
+      title: "Home",
+      description:
+        "vebx.run — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
+      canonicalPath: "/",
+    }}
+  >
     <HeroSection />
     <HeroBelowSection />
     <TrustedSection />

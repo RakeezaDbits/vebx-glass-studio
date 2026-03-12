@@ -9,7 +9,14 @@ import PageLayout from "@/components/PageLayout";
 export default function Contact() {
   const { t } = useTranslation();
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Contact",
+        description:
+          "Get in touch with vebx.run. Send a message for mobile app, web, game development, or digital marketing. We respond quickly.",
+        canonicalPath: "/contact",
+      }}
+    >
       <section className="py-24 relative overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/10 blur-[100px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">

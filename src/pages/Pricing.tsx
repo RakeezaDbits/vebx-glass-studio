@@ -20,7 +20,14 @@ export default function Pricing() {
   ];
 
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Pricing",
+        description:
+          "Transparent pricing for mobile apps, web development, and digital solutions. Starter, Professional & Enterprise plans. Get a quote from vebx.run.",
+        canonicalPath: "/pricing",
+      }}
+    >
       <section className="py-24 relative overflow-hidden">
         <div className="absolute bottom-1/4 left-1/3 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">

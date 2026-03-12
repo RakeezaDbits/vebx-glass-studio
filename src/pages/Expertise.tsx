@@ -19,7 +19,14 @@ const industryKeys = ["expertise.industries.healthcare","expertise.industries.fi
 export default function Expertise() {
   const { t } = useTranslation();
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: "Expertise",
+        description:
+          "Our tech stack & industry expertise: React, Node.js, Flutter, AWS, Unity, AI/ML. We build for healthcare, fintech, e-commerce, education & more.",
+        canonicalPath: "/expertise",
+      }}
+    >
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
           <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-30" aria-hidden />

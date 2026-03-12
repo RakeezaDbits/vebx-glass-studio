@@ -15,7 +15,13 @@ export default function ServiceDetail() {
   const Icon = service.icon;
 
   return (
-    <PageLayout>
+    <PageLayout
+      seo={{
+        title: service.title,
+        description: service.shortDesc,
+        canonicalPath: `/services/${service.slug}`,
+      }}
+    >
       {/* Hero – bg top pe, header ke niche hi (no gap) */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16">
         {/* Background image – viewport top se, header ke niche */}
