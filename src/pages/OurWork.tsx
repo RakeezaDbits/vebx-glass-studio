@@ -6,12 +6,21 @@ import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
 
 const projectKeys = [
-  { key: "fintech", tech: ["React", "Node.js", "AWS"] },
-  { key: "medconnect", tech: ["React Native", "Firebase", "WebRTC"] },
-  { key: "virtuworld", tech: ["Three.js", "WebXR", "Blender"] },
-  { key: "greengrow", tech: ["Python", "TensorFlow", "IoT"] },
-  { key: "pixelforge", tech: ["Unity", "C#", "Photon"] },
-  { key: "brandsphere", tech: ["Figma", "After Effects", "Illustrator"] },
+  { key: "emaanai", tech: ["React Native", "Firebase", "Node.js"], image: "/our-work/emaanai.png" },
+  { key: "vebxcode", tech: ["React", "Next.js", "TypeScript"], image: "/our-work/vebxcode.png" },
+  { key: "healthsync", tech: ["React Native", "Node.js", "PostgreSQL"], image: "/our-work/healthsync.png" },
+  { key: "taskflow", tech: ["React", "Firebase", "Tailwind"], image: "/our-work/taskflow.png" },
+  { key: "fooddash", tech: ["Flutter", "Node.js", "MongoDB"], image: "/our-work/fooddash.png" },
+  { key: "eventify", tech: ["Next.js", "Stripe", "PostgreSQL"], image: "/our-work/eventify.png" },
+  { key: "docvault", tech: ["React", "AWS", "Node.js"], image: "/our-work/docvault.png" },
+  { key: "fittrack", tech: ["Flutter", "Firebase", "REST APIs"], image: "/our-work/fittrack.png" },
+  { key: "cloudflow", tech: ["React", "Node.js", "PostgreSQL"], image: "/our-work/cloudflow.png" },
+  { key: "neondrift", tech: ["Unity", "C#", "Blender"], image: "/our-work/neondrift.png" },
+  { key: "shopverse", tech: ["Next.js", "Stripe", "MongoDB"], image: "/our-work/shopverse.png" },
+  { key: "paybridge", tech: ["React", "Node.js", "AWS"], image: "/our-work/paybridge.png" },
+  { key: "learnhub", tech: ["React", "Django", "PostgreSQL"], image: "/our-work/learnhub.png" },
+  { key: "smartops", tech: ["Python", "IoT", "React"], image: "/our-work/smartops.png" },
+  { key: "engagelab", tech: ["Next.js", "Analytics", "APIs"], image: "/our-work/engagelab.png" },
 ];
 
 export default function OurWork() {
@@ -33,8 +42,12 @@ export default function OurWork() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projectKeys.map((project, i) => (
               <motion.div key={project.key} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="group liquid-glass rounded-2xl overflow-hidden border-glow hover:bg-primary/5 transition-all duration-500">
-                <div className="h-48 gradient-red opacity-20 group-hover:opacity-30 transition-opacity relative">
-                  <div className="absolute inset-0 flex items-center justify-center"><ExternalLink className="w-8 h-8 text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300" /></div>
+                <div className="h-48 relative overflow-hidden bg-secondary/30">
+                  <div className="absolute inset-0 gradient-red opacity-20 group-hover:opacity-30 transition-opacity" />
+                  {"image" in project && project.image && (
+                    <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
+                  )}
+                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><ExternalLink className="w-8 h-8 text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300" /></div>
                 </div>
                 <div className="p-6">
                   <span className="text-xs font-display uppercase tracking-wider text-primary">{t(`ourWork.projects.${project.key}.category`)}</span>

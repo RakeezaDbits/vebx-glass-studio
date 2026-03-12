@@ -1,5 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 import HeroSection from "@/components/HeroSection";
+import HeroBelowSection from "@/components/HeroBelowSection";
 import TrustedSection from "@/components/TrustedSection";
 import AboutSection from "@/components/AboutSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
@@ -10,6 +11,7 @@ import CTASection from "@/components/CTASection";
 const Index = () => (
   <PageLayout>
     <HeroSection />
+    <HeroBelowSection />
     <TrustedSection />
     <AboutSection />
     <WhyChooseSection />

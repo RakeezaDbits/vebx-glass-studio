@@ -30,7 +30,10 @@ export default function HeroSection() {
             muted
             loop
             playsInline
-            onCanPlay={() => setVideoLoaded(true)}
+            onCanPlay={() => {
+              setVideoLoaded(true);
+              if (videoRef.current) videoRef.current.playbackRate = 0.72;
+            }}
             onError={() => setVideoFailed(true)}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
             src="/videos/hero-bg.mp4"
@@ -120,12 +123,12 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.4 }}
-            className="grid grid-cols-3 gap-8 mt-20 max-w-xl mx-auto"
+            className="grid grid-cols-3 gap-8 mt-24 md:mt-32 max-w-xl mx-auto"
           >
             {[
-              { value: "150+", labelKey: "projects" },
-              { value: "50+", labelKey: "clients" },
-              { value: "8+", labelKey: "years" },
+              { value: "350+", labelKey: "projects" },
+              { value: "300+", labelKey: "clients" },
+              { value: "15+", labelKey: "years" },
             ].map((stat) => (
               <div key={stat.labelKey} className="text-center">
                 <div className="text-2xl md:text-3xl font-display font-bold text-gradient-red">{stat.value}</div>

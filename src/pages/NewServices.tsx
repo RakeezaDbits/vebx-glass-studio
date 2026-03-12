@@ -36,7 +36,7 @@ function NewServiceCard({
             className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"
             style={{
               background:
-                "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.04) 45%, rgba(255,255,255,0.08) 50%, transparent 55%)",
+                "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.04) 15%, rgba(255,255,255,0.08) 50%, transparent 10%)",
               transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
             }}
           />
@@ -77,13 +77,13 @@ export default function NewServices() {
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/new-services/hero.png"
+            src="/new-services/banner.png"
             alt=""
             className="w-full h-full object-cover"
             aria-hidden
           />
-          <div className="absolute inset-0 bg-background/85 backdrop-blur-[2px]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+          <div className="absolute inset-0 bg-background/55 backdrop-blur-[1px]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/90" />
         </div>
         <div className="container relative z-10 px-4 lg:px-8 text-center py-24">
           <motion.span

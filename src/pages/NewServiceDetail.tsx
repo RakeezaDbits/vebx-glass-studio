@@ -1,4 +1,5 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -9,8 +10,13 @@ import { useTranslation } from "react-i18next";
 
 export default function NewServiceDetail() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const service = slug ? getNewServiceBySlug(slug) : undefined;
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (slug === "youtube-content") navigate("/new-services/social-content", { replace: true });
+  }, [slug, navigate]);
 
   if (!service) return <NotFound />;
 

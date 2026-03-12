@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Bot, BookOpen, Youtube, BookMarked, Newspaper, Mic2, BarChart3, MessageCircle, PenLine, Megaphone } from "lucide-react";
+import { Bot, BookOpen, BookMarked, Newspaper, Mic2, BarChart3, MessageCircle, PenLine, Megaphone } from "lucide-react";
 
 export interface NewServiceItem {
   id: string;
@@ -45,22 +45,6 @@ export const newServicesData: NewServiceItem[] = [
       { title: "Reader-first design", desc: "Layouts that work on every device and font size." },
       { title: "Store-ready", desc: "Compliant with Kindle, Apple, and other retailers." },
       { title: "Fast turnaround", desc: "Clear timelines from draft to publication." },
-    ],
-  },
-  {
-    id: "youtube-content",
-    slug: "youtube-content",
-    title: "YouTube Content",
-    shortDesc: "Scripts, thumbnails, editing, and full channel strategy to grow your audience and engagement.",
-    longDesc: "We help creators and brands grow on YouTube with end-to-end content production. From scripting and filming guidance to editing, thumbnails, and SEO, we make videos that get views and keep audiences coming back. We also build channel strategy, upload schedules, and analytics so you can scale with confidence.",
-    icon: Youtube,
-    image: "/new-services/youtube-card.png",
-    bannerImage: "/new-services/youtube.png",
-    features: ["Scriptwriting & storyboarding", "Video editing & post-production", "Thumbnail design", "SEO & metadata", "Channel strategy & analytics"],
-    highlights: [
-      { title: "Watch-time focused", desc: "Content structured to retain and convert." },
-      { title: "On-brand", desc: "Consistent look and voice across your channel." },
-      { title: "Data-driven", desc: "Decisions based on performance and trends." },
     ],
   },
   {
@@ -162,15 +146,15 @@ export const newServicesData: NewServiceItem[] = [
   {
     id: "social-content",
     slug: "social-content",
-    title: "Social Media Content",
-    shortDesc: "Reels, stories, carousels, and campaigns tailored for Instagram, LinkedIn, and TikTok.",
-    longDesc: "We create social content that gets seen and shared. From Reels and Stories to carousels and campaigns, we produce on-brand content for Instagram, LinkedIn, TikTok, and more. We combine creative direction with platform best practices so your feed looks professional and your metrics move.",
+    title: "Social & YouTube Content",
+    shortDesc: "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
+    longDesc: "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
     icon: Megaphone,
     image: "/new-services/social-content-card.png",
     bannerImage: "/new-services/social-content.png",
-    features: ["Reels, Stories & short-form", "Carousels & static posts", "Campaign concepts", "Copy & hashtags", "Content calendars"],
+    features: ["Reels, Stories & short-form (IG, TikTok, FB)", "YouTube scripts, thumbnails & editing", "Carousels & static posts", "Campaign concepts & content calendars", "Copy, hashtags & SEO for social"],
     highlights: [
-      { title: "Platform-native", desc: "Formats and trends that work on each channel." },
+      { title: "All platforms", desc: "Facebook, Instagram, TikTok, and YouTube in one place." },
       { title: "Consistent look", desc: "Templates and style guides for your brand." },
       { title: "Ready to post", desc: "Final assets and captions delivered on schedule." },
     ],

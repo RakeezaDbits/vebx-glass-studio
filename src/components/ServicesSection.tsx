@@ -12,25 +12,53 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
   const { t } = useTranslation();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-50px" });
-  const num = String(index + 1).padStart(2, "0");
   const Icon = service.icon;
 
   return (
     <Link to={`/services/${service.slug}`}>
-      <motion.div ref={ref} initial={{ opacity: 0, y: 36 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }} whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }} className="group relative liquid-glass rounded-2xl p-6 border-glow overflow-hidden cursor-pointer hover:bg-white/[0.06] transition-colors duration-300 block h-full">
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: 36 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
+        whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
+        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-colors duration-300 block"
+      >
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-          <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" style={{ background: "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.04) 45%, rgba(255,255,255,0.08) 50%, transparent 55%)", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }} />
+          <div
+            className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"
+            style={{
+              background:
+                "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.04) 45%, rgba(255,255,255,0.08) 50%, transparent 55%)",
+              transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
+            }}
+          />
         </div>
-        <span className="absolute top-4 right-4 text-[10px] font-display font-bold text-white/20 group-hover:text-primary/40 transition-colors duration-300 tabular-nums">{num}</span>
-        <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent opacity-90 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" style={{ transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }} />
-        <div className="relative">
-          <div className="w-12 h-12 rounded-xl gradient-red flex items-center justify-center mb-4 shadow-lg shadow-primary/25 group-hover:scale-110 group-hover:shadow-primary/30 transition-all duration-300 ease-out">
-            <Icon className="w-6 h-6 text-primary-foreground" />
+        <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent opacity-90 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" />
+        <div className="relative aspect-[4/3] overflow-hidden">
+          <img
+            src={`/services/${service.slug}.png`}
+            alt=""
+            loading="lazy"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            onError={(e) => {
+              (e.target as HTMLImageElement).style.display = "none";
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
+          <div className="absolute top-4 right-4 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
+            <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>
-          <h3 className="font-display text-base font-semibold mb-2 text-foreground tracking-tight group-hover:text-primary/95 transition-colors duration-300">{service.title}</h3>
-          <p className="text-sm text-muted-foreground leading-relaxed mb-4">{service.shortDesc}</p>
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium text-primary/80 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-            {t("common.explore")} <ArrowRight className="w-3.5 h-3.5 rtl:rotate-180" />
+        </div>
+        <div className="relative p-6 flex-1 flex flex-col">
+          <h3 className="font-display text-lg font-semibold mb-2 text-foreground tracking-tight group-hover:text-primary/95 transition-colors duration-300">
+            {service.title}
+          </h3>
+          <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-5">
+            {service.shortDesc}
+          </p>
+          <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white text-white text-sm font-medium transition-all duration-300 w-fit group-hover:bg-red-600 group-hover:border-red-500">
+            {t("common.explore")} <ArrowRight className="w-4 h-4 rtl:rotate-180" />
           </span>
         </div>
       </motion.div>

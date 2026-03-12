@@ -81,9 +81,9 @@ export default function About() {
           <div className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-16">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {[
-                { value: "150+", labelKey: "about.stats.projects" },
-                { value: "50+", labelKey: "about.stats.clients" },
-                { value: "8+", labelKey: "about.stats.years" },
+                { value: "350+", labelKey: "about.stats.projects" },
+                { value: "300+", labelKey: "about.stats.clients" },
+                { value: "15+", labelKey: "about.stats.years" },
                 { value: "30+", labelKey: "about.stats.team" },
               ].map((stat, i) => (
                 <motion.div key={stat.labelKey} initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.1 }}>
