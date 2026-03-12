@@ -60,6 +60,14 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## SEO — Google par website kaise layen
+
+Site ko Google search mein dikhane ke liye **Google Search Console** use karo aur sitemap submit karo. Step-by-step:
+
+- **[docs/GOOGLE-SEO-INDEXING.md](docs/GOOGLE-SEO-INDEXING.md)** — Google indexing, verification, sitemap submit
+
+Sitemap build time par generate hota hai: `npm run generate-sitemap` (ya `npm run build`).
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.

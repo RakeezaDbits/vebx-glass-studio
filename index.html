@@ -8,6 +8,9 @@
     <meta name="description" content="vebx.run delivers cutting-edge mobile apps, web development, game development, metaverse, AI solutions, and digital marketing. Transform your ideas into reality." />
     <meta name="author" content="vebx.run" />
     <link rel="canonical" href="https://vebx.run/" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://vebx.run/sitemap.xml" />
+    <!-- Google Search Console: verification ke baad niche wali line uncomment karo aur content replace karo -->
+    <!-- <meta name="google-site-verification" content="PASTE_VERIFICATION_CODE_HERE" /> -->
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -25,7 +28,7 @@
     <meta name="twitter:description" content="vebx.run delivers cutting-edge mobile apps, web development, game development, metaverse, AI solutions, and digital marketing." />
     <meta name="twitter:image" content="https://vebx.run/og-image.png" />
 
-    <!-- JSON-LD: Organization + WebSite for rich results -->
+    <!-- JSON-LD: Organization + WebSite + main pages (sitelinks / rich result ke liye) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -37,18 +40,35 @@
           "url": "https://vebx.run",
           "logo": { "@type": "ImageObject", "url": "https://vebx.run/og-image.png" },
           "description": "Mobile apps, web development, game development, metaverse, AI solutions, and digital marketing.",
-          "address": { "@type": "PostalAddress", "addressLocality": "Harrisonville", "addressRegion": "MO", "postalCode": "64701", "addressCountry": "US" },
-          "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "email": "support@vebx.run", "url": "https://vebx.run/contact" }
+          "address": { "@type": "PostalAddress", "streetAddress": "117 S Lexington Street STN 100", "addressLocality": "Harrisonville", "addressRegion": "MO", "postalCode": "64701", "addressCountry": "US" },
+          "contactPoint": [
+            { "@type": "ContactPoint", "contactType": "customer service", "email": "support@vebx.run", "url": "https://vebx.run/contact", "areaServed": "US" },
+            { "@type": "ContactPoint", "contactType": "sales", "url": "https://vebx.run/contact" }
+          ]
         },
         {
           "@type": "WebSite",
           "@id": "https://vebx.run/#website",
           "url": "https://vebx.run",
           "name": "vebx.run",
+          "alternateName": "vebx run",
           "description": "Imagine. Innovate. Inspire. — Mobile apps, web, games, metaverse & digital marketing.",
           "publisher": { "@id": "https://vebx.run/#organization" },
           "inLanguage": "en-US",
-          "potentialAction": { "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://vebx.run/contact" }, "query-input": "required name=search_term_string" }
+          "potentialAction": { "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://vebx.run/contact" }, "query-input": "required name=search_term_string" },
+          "mainEntity": {
+            "@type": "ItemList",
+            "name": "Main pages",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "url": "https://vebx.run/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "url": "https://vebx.run/services" },
+              { "@type": "ListItem", "position": 3, "name": "New Services", "url": "https://vebx.run/new-services" },
+              { "@type": "ListItem", "position": 4, "name": "Our Work", "url": "https://vebx.run/our-work" },
+              { "@type": "ListItem", "position": 5, "name": "About Us", "url": "https://vebx.run/about" },
+              { "@type": "ListItem", "position": 6, "name": "Contact", "url": "https://vebx.run/contact" },
+              { "@type": "ListItem", "position": 7, "name": "Pricing", "url": "https://vebx.run/pricing" }
+            ]
+          }
         }
       ]
     }
