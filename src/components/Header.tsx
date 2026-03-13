@@ -11,9 +11,9 @@ import logo from "@/assets/vebx-logo.png";
 const navItems = [
   { labelKey: "home", href: "/" },
   { labelKey: "about", href: "/about" },
-  { labelKey: "services", href: "/services" },
-  { labelKey: "newServices", href: "/new-services", showNewBadge: true },
+  { labelKey: "services", href: "/services", showNewBadge: true },
   { labelKey: "pricing", href: "/pricing" },
+  { labelKey: "customRequirement", href: "/custom-requirement" },
   { labelKey: "ourWork", href: "/our-work" },
   { labelKey: "expertise", href: "/expertise" },
 ];
