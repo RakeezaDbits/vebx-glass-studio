@@ -63,20 +63,31 @@ export function getChatCredits(deviceId: string): Promise<{ remaining: number; l
     .catch(() => ({ remaining: 0, limit: 5 }));
 }
 
-export function generateAIImage(prompt: string, deviceId: string): Promise<{
-  ref: string;
-  creditsLeft: number;
-  limit: number;
-}> {
-  const res = fetch(getUrl("/api/chat/generate-image"), {
+export function useChatCredit(deviceId: string): Promise<{ success: boolean; remaining: number; limit: number }> {
+  return fetch(getUrl("/api/chat/use-credit"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ prompt, deviceId }),
-  }).then((r) => {
-    if (!r.ok) return r.json().then((d) => Promise.reject(new Error((d as { error?: string }).error || "Failed")));
+    body: JSON.stringify({ deviceId }),
+  }).then(async (r) => {
+    const data = await r.json().catch(() => ({}));
+    if (r.status === 402) return { success: false, remaining: data.remaining ?? 0, limit: data.limit ?? 5 };
+    if (!r.ok) throw new Error((data as { error?: string }).error || "Failed");
+    return { success: true, remaining: data.remaining ?? 0, limit: data.limit ?? 5 };
+  });
+}
+
+export function saveReferenceImage(deviceId: string, imageDataBase64: string): Promise<{ ref: string }> {
+  return fetch(getUrl("/api/chat/save-reference-image"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ deviceId, imageData: imageDataBase64 }),
+  }).then(async (r) => {
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      throw new Error((err as { error?: string }).error || "Failed to save");
+    }
     return r.json();
   });
-  return res;
 }
 
 export function getGeneratedImageUrl(ref: string): string {

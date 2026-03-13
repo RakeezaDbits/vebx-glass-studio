@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { adminFetch } from "@/lib/api";
+import { adminFetch, getGeneratedImageUrl } from "@/lib/api";
 
 interface Row {
   id: number;
@@ -67,7 +67,7 @@ export default function AdminQuotes() {
                       </a>
                     )}
                     {row.reference_image_ref && (
-                      <a href={`/api/chat/generated-image/${row.reference_image_ref}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline block">
+                      <a href={getGeneratedImageUrl(row.reference_image_ref)} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline block">
                         AI image
                       </a>
                     )}

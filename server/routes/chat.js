@@ -1,137 +1,129 @@
 import express from "express";
 import db from "../config/db.js";
-import { generateImage } from "../utils/gemini-image.js";
-import { writeFileSync, existsSync, readFileSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import path from "path";
+import fs from "fs";
 import crypto from "crypto";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const GENERATED_DIR = join(__dirname, "..", "generated");
-const DAILY_CREDITS = parseInt(process.env.AI_CHAT_DAILY_CREDITS || "5", 10);
-const REF_TTL_DAYS = 7;
-
-// Ensure generated dir exists
-try {
-  if (!existsSync(GENERATED_DIR)) {
-    const { mkdirSync } = await import("fs");
-    mkdirSync(GENERATED_DIR, { recursive: true });
-  }
-} catch (_) {}
-
-function getRef() {
-  return crypto.randomBytes(16).toString("hex");
-}
-
-function getTodayUTC() {
-  const d = new Date();
-  return d.toISOString().slice(0, 10);
-}
-
-/** Get credits remaining for device (today) */
-async function getCreditsForDevice(deviceId) {
-  if (!deviceId || deviceId.length < 8) return { remaining: 0, limit: DAILY_CREDITS };
-  const today = getTodayUTC();
-  try {
-    const [rows] = await db.execute(
-      "SELECT COALESCE(SUM(credits_used), 0) AS used FROM device_credits WHERE device_id = ? AND period_start = ?",
-      [deviceId.slice(0, 64), today]
-    );
-    const used = Number(rows[0]?.used ?? 0);
-    const remaining = Math.max(0, DAILY_CREDITS - used);
-    return { remaining, limit: DAILY_CREDITS };
-  } catch (_) {
-    return { remaining: DAILY_CREDITS, limit: DAILY_CREDITS };
-  }
-}
-
-/** Consume one credit for device */
-async function consumeCredit(deviceId) {
-  const today = getTodayUTC();
-  const id = deviceId?.slice(0, 64) || "unknown";
-  await db.execute(
-    "INSERT INTO device_credits (device_id, period_start, credits_used) VALUES (?, ?, 1) ON DUPLICATE KEY UPDATE credits_used = credits_used + 1",
-    [id, today]
-  );
-}
+import { fileURLToPath } from "url";
 
 const router = express.Router();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const GENERATED_DIR = path.join(__dirname, "..", "generated");
 
-/** GET /api/chat/credits?deviceId=xxx - credits left for this device */
+const DAILY_CREDITS = parseInt(process.env.AI_CHAT_DAILY_CREDITS || "5", 10);
+
+function ensureGeneratedDir() {
+  if (!fs.existsSync(GENERATED_DIR)) {
+    fs.mkdirSync(GENERATED_DIR, { recursive: true });
+  }
+}
+
+/** GET /api/chat/credits?deviceId=xxx — remaining credits for this device today */
 router.get("/credits", async (req, res) => {
   try {
-    const { deviceId } = req.query;
-    const cred = await getCreditsForDevice(deviceId);
-    res.json(cred);
+    const deviceId = (req.query.deviceId || "").toString().slice(0, 64);
+    if (!deviceId) {
+      return res.json({ remaining: 0, limit: DAILY_CREDITS });
+    }
+    const today = new Date().toISOString().slice(0, 10);
+    const [rows] = await db.execute(
+      "SELECT credits_used FROM device_credits WHERE device_id = ? AND period_start = ?",
+      [deviceId, today]
+    );
+    const used = rows[0] ? rows[0].credits_used : 0;
+    if (rows.length === 0) {
+      await db.execute(
+        "INSERT INTO device_credits (device_id, period_start, credits_used) VALUES (?, ?, 0)",
+        [deviceId, today]
+      );
+    }
+    const remaining = Math.max(0, DAILY_CREDITS - used);
+    res.json({ remaining, limit: DAILY_CREDITS });
   } catch (err) {
     console.error(err);
     res.status(500).json({ remaining: 0, limit: DAILY_CREDITS });
   }
 });
 
-/** POST /api/chat/generate-image - generate image from prompt (Nano Banana), device-based credits */
-router.post("/generate-image", async (req, res) => {
+/** POST /api/chat/use-credit — consume one credit for image generation */
+router.post("/use-credit", async (req, res) => {
   try {
-    const { prompt, deviceId } = req.body || {};
-    if (!prompt?.trim()) {
-      return res.status(400).json({ error: "Prompt is required" });
+    const deviceId = (req.body?.deviceId || "").toString().slice(0, 64);
+    if (!deviceId) {
+      return res.status(400).json({ error: "deviceId required" });
     }
-
-    const cred = await getCreditsForDevice(deviceId);
-    if (cred.remaining <= 0) {
-      return res.status(429).json({
-        error: "No credits left",
-        remaining: 0,
-        limit: cred.limit,
-      });
-    }
-
-    const imageBuffer = await generateImage(prompt.trim());
-    const ref = getRef();
-    const filename = `${ref}.png`;
-    const filepath = join(GENERATED_DIR, filename);
-    writeFileSync(filepath, imageBuffer);
-
+    const today = new Date().toISOString().slice(0, 10);
     await db.execute(
-      "INSERT INTO ai_generated_images (ref, file_path, device_id, created_at) VALUES (?, ?, ?, NOW())",
-      [ref, filename, (deviceId || "").slice(0, 64)]
+      "INSERT INTO device_credits (device_id, period_start, credits_used) VALUES (?, ?, 0) ON DUPLICATE KEY UPDATE device_id = device_id",
+      [deviceId, today]
     );
-    await consumeCredit(deviceId);
-
-    const newCred = await getCreditsForDevice(deviceId);
-    res.json({
-      ref,
-      creditsLeft: newCred.remaining,
-      limit: newCred.limit,
-    });
+    const [rows] = await db.execute(
+      "SELECT credits_used FROM device_credits WHERE device_id = ? AND period_start = ?",
+      [deviceId, today]
+    );
+    const used = rows[0] ? rows[0].credits_used : 0;
+    if (used >= DAILY_CREDITS) {
+      return res.status(402).json({ remaining: 0, limit: DAILY_CREDITS, error: "No credits left" });
+    }
+    await db.execute(
+      "UPDATE device_credits SET credits_used = credits_used + 1 WHERE device_id = ? AND period_start = ?",
+      [deviceId, today]
+    );
+    const remaining = DAILY_CREDITS - used - 1;
+    res.json({ success: true, remaining, limit: DAILY_CREDITS });
   } catch (err) {
-    console.error("Generate image error:", err.message);
-    res.status(500).json({
-      error: err.message || "Image generation failed",
-    });
+    console.error(err);
+    res.status(500).json({ error: "Failed" });
   }
 });
 
-/** GET /api/chat/generated-image/:ref - serve image (protected: no download, inline only, optional token) */
-router.get("/generated-image/:ref", (req, res) => {
-  const { ref } = req.params;
-  if (!ref || !/^[a-f0-9]{32}$/.test(ref)) {
-    return res.status(404).end();
-  }
-  const filepath = join(GENERATED_DIR, `${ref}.png`);
-  if (!existsSync(filepath)) {
-    return res.status(404).end();
-  }
-  res.setHeader("Content-Type", "image/png");
-  res.setHeader("Content-Disposition", "inline"); // do not offer as download
-  res.setHeader("Cache-Control", "private, no-store");
-  res.setHeader("X-Content-Type-Options", "nosniff");
+/** POST /api/chat/save-reference-image — save base64 image for quote reference */
+router.post("/save-reference-image", async (req, res) => {
   try {
-    const buf = readFileSync(filepath);
-    res.send(buf);
-  } catch (_) {
-    res.status(404).end();
+    const deviceId = (req.body?.deviceId || "").toString().slice(0, 64);
+    const imageData = req.body?.imageData;
+    if (!imageData || typeof imageData !== "string") {
+      return res.status(400).json({ error: "imageData required" });
+    }
+    const base64 = imageData.replace(/^data:image\/\w+;base64,/, "");
+    const buf = Buffer.from(base64, "base64");
+    if (buf.length > 5 * 1024 * 1024) {
+      return res.status(400).json({ error: "Image too large" });
+    }
+    ensureGeneratedDir();
+    const ref = crypto.randomBytes(12).toString("hex");
+    const ext = (imageData.match(/data:image\/(\w+);/) || [])[1] || "png";
+    const filename = `${ref}.${ext}`;
+    const filePath = path.join(GENERATED_DIR, filename);
+    fs.writeFileSync(filePath, buf);
+    await db.execute(
+      "INSERT INTO ai_generated_images (ref, file_path, device_id) VALUES (?, ?, ?)",
+      [ref, filename, deviceId || null]
+    );
+    res.json({ ref });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to save image" });
   }
+});
+
+/** GET /api/chat/generated-image/:ref — serve image (inline only, no download) */
+router.get("/generated-image/:ref", (req, res) => {
+  const ref = (req.params.ref || "").replace(/[^a-zA-Z0-9._-]/g, "").slice(0, 32);
+  if (!ref) return res.status(404).end();
+  if (!fs.existsSync(GENERATED_DIR)) return res.status(404).end();
+  const filePath = path.join(GENERATED_DIR, `${ref}.png`);
+  if (!fs.existsSync(filePath)) {
+    const files = fs.readdirSync(GENERATED_DIR);
+    const alt = files.find((f) => f.startsWith(ref + "."));
+    if (!alt) return res.status(404).end();
+    res.setHeader("Content-Disposition", "inline");
+    res.setHeader("X-Content-Type-Options", "nosniff");
+    res.sendFile(path.join(GENERATED_DIR, alt));
+    return;
+  }
+  res.setHeader("Content-Disposition", "inline");
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.sendFile(filePath);
 });
 
 export default router;

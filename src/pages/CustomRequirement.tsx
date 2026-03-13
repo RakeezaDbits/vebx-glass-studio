@@ -142,6 +142,7 @@ export default function CustomRequirement() {
   };
 
   const resetForm = () => {
+    setStoredAIQuoteRef(null);
     setReferenceImageRef(null);
     setCurrentStep(1);
   };

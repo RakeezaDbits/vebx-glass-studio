@@ -1,5 +1,5 @@
 /**
- * Simple device fingerprint for AI chat credits (no PII).
+ * Simple device fingerprint for AI chatbot credits (no PII).
  * Stored in localStorage so it persists per browser.
  */
 const KEY = "vebx_device_id";
