@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ import {
 } from "@/data/customRequirement";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { postQuote } from "@/lib/api";
+import { postQuote, getStoredAIQuoteRef, setStoredAIQuoteRef } from "@/lib/api";
 
 const TOTAL_STEPS = 5;
 
@@ -34,7 +34,12 @@ export default function CustomRequirement() {
   const [tierId, setTierId] = useState("");
   const [referenceLink, setReferenceLink] = useState("");
   const [referenceFile, setReferenceFile] = useState<File | null>(null);
+  const [referenceImageRef, setReferenceImageRef] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    setReferenceImageRef(getStoredAIQuoteRef());
+  }, [currentStep]);
 
   const subTypes = serviceSlug ? subTypesByService[serviceSlug] ?? [] : [];
   const price = tierId ? getPriceForTier(tierId) : null;
@@ -110,10 +115,13 @@ export default function CustomRequirement() {
       tierId: tierId || undefined,
       referenceLink: referenceLink.trim() || undefined,
       referenceFileName: referenceFile?.name,
+      referenceImageRef: referenceImageRef || undefined,
     };
     setSubmitting(true);
     try {
       await postQuote(payload);
+      setStoredAIQuoteRef(null);
+      setReferenceImageRef(null);
       toast.success(t("customReq.submitSuccess"));
       setCurrentStep(5);
       setName("");
@@ -134,6 +142,7 @@ export default function CustomRequirement() {
   };
 
   const resetForm = () => {
+    setReferenceImageRef(null);
     setCurrentStep(1);
   };
 
@@ -443,6 +452,22 @@ export default function CustomRequirement() {
                       className="bg-secondary/50 border-border h-12"
                     />
                   </div>
+                  {referenceImageRef && (
+                    <div className="rounded-xl bg-primary/10 border border-primary/30 p-4 flex items-center justify-between gap-3">
+                      <span className="text-sm text-foreground">AI reference image attached (from Design idea chat)</span>
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => {
+                          setStoredAIQuoteRef(null);
+                          setReferenceImageRef(null);
+                        }}
+                      >
+                        Remove
+                      </Button>
+                    </div>
+                  )}
                   <div className="space-y-3">
                     <Label className="text-foreground">{t("customReq.referenceImage")}</Label>
                     <p className="text-sm text-muted-foreground mb-3 leading-relaxed">

@@ -27,6 +27,7 @@ import AdminExpertise from "./pages/admin/AdminExpertise";
 import AdminSettings from "./pages/admin/AdminSettings";
 import ScrollToTop from "./components/ScrollToTop";
 import Preloader from "./components/Preloader";
+import AIChatbot from "./components/AIChatbot";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,7 @@ const App = () => (
       <BrowserRouter>
         <Preloader />
         <ScrollToTop />
+        <AIChatbot />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

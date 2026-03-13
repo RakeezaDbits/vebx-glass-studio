@@ -12,6 +12,7 @@ interface Row {
   tier_id: string | null;
   reference_link: string | null;
   reference_file_name: string | null;
+  reference_image_ref: string | null;
   created_at: string;
 }
 
@@ -59,14 +60,19 @@ export default function AdminQuotes() {
                   <td className="p-4">{row.phone || "—"}</td>
                   <td className="p-4">{row.service_slug}</td>
                   <td className="p-4">{row.tier_id || "—"}</td>
-                  <td className="p-4">
-                    {row.reference_link ? (
+                  <td className="p-4 space-y-1">
+                    {row.reference_link && (
                       <a href={row.reference_link} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline truncate max-w-[120px] block">
-                        {row.reference_link}
+                        Link
                       </a>
-                    ) : (
-                      "—"
                     )}
+                    {row.reference_image_ref && (
+                      <a href={`/api/chat/generated-image/${row.reference_image_ref}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline block">
+                        AI image
+                      </a>
+                    )}
+                    {row.reference_file_name && <span className="block text-muted-foreground truncate max-w-[100px]">{row.reference_file_name}</span>}
+                    {!row.reference_link && !row.reference_image_ref && !row.reference_file_name && "—"}
                   </td>
                 </tr>
               ))}

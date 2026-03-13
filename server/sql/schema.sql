@@ -36,6 +36,24 @@ CREATE TABLE IF NOT EXISTS quote_submissions (
   tier_id VARCHAR(50),
   reference_link VARCHAR(500),
   reference_file_name VARCHAR(255),
+  reference_image_ref VARCHAR(32),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Device credits (AI chat: per device per day)
+CREATE TABLE IF NOT EXISTS device_credits (
+  device_id VARCHAR(64) NOT NULL,
+  period_start DATE NOT NULL,
+  credits_used INT NOT NULL DEFAULT 0,
+  PRIMARY KEY (device_id, period_start)
+);
+
+-- AI-generated images (Nano Banana); ref used in chat + quote reference
+CREATE TABLE IF NOT EXISTS ai_generated_images (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  ref VARCHAR(32) NOT NULL UNIQUE,
+  file_path VARCHAR(255) NOT NULL,
+  device_id VARCHAR(64),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

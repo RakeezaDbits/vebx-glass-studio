@@ -1,3 +1,4 @@
+import "dotenv/config";
 import mysql from "mysql2/promise";
 import { readFileSync } from "fs";
 import { fileURLToPath } from "url";
@@ -9,9 +10,9 @@ const schemaPath = join(__dirname, "..", "sql", "schema.sql");
 async function run() {
   const sql = readFileSync(schemaPath, "utf8");
   const conn = await mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
+    host: process.env.DB_HOST || "localhost",
+    user: process.env.DB_USER || "root",
+    password: process.env.DB_PASSWORD || "",
     multipleStatements: true,
   });
   try {

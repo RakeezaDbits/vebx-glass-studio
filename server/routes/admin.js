@@ -70,7 +70,7 @@ router.get("/contacts", async (req, res) => {
 router.get("/quotes", async (req, res) => {
   try {
     const [rows] = await db.execute(
-      "SELECT id, name, email, phone, service_slug, sub_type_id, tech_ids, tier_id, reference_link, reference_file_name, created_at FROM quote_submissions ORDER BY created_at DESC"
+      "SELECT id, name, email, phone, service_slug, sub_type_id, tech_ids, tier_id, reference_link, reference_file_name, reference_image_ref, created_at FROM quote_submissions ORDER BY created_at DESC"
     );
     res.json(rows);
   } catch (err) {

@@ -16,14 +16,15 @@ router.post("/", async (req, res) => {
       tierId,
       referenceLink,
       referenceFileName,
+      referenceImageRef,
     } = req.body;
     if (!name?.trim() || !email?.trim() || !serviceSlug?.trim()) {
       return res.status(400).json({ error: "Name, email and service are required" });
     }
     const techJson = techIds ? JSON.stringify(Array.isArray(techIds) ? techIds : [techIds]) : null;
     const [result] = await db.execute(
-      `INSERT INTO quote_submissions (name, email, phone, service_slug, sub_type_id, tech_ids, tier_id, reference_link, reference_file_name)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      `INSERT INTO quote_submissions (name, email, phone, service_slug, sub_type_id, tech_ids, tier_id, reference_link, reference_file_name, reference_image_ref)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         name.trim(),
         email.trim(),
@@ -34,6 +35,7 @@ router.post("/", async (req, res) => {
         tierId?.trim() || null,
         referenceLink?.trim() || null,
         referenceFileName || null,
+        referenceImageRef?.trim()?.slice(0, 32) || null,
       ]
     );
     const id = result.insertId;

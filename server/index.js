@@ -5,6 +5,7 @@ import db from "./config/db.js";
 import contactRoutes from "./routes/contact.js";
 import quoteRoutes from "./routes/quote.js";
 import adminRoutes from "./routes/admin.js";
+import chatRoutes from "./routes/chat.js";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use("/api/contact", contactRoutes);
 app.use("/api/quote", quoteRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/chat", chatRoutes);
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
 
