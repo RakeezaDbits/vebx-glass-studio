@@ -16,7 +16,7 @@ export default function CTASection() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-[150px]" />
       </div>
       <motion.div ref={ref} initial={{ opacity: 0, scale: 0.95 }} animate={inView ? { opacity: 1, scale: 1 } : {}} transition={{ duration: 0.8 }} className="container relative z-10 px-4 lg:px-8">
-        <div className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-20 text-center max-w-4xl mx-auto">
+        <div className="liquid-glass-strong rounded-3xl border-glow box-glow-hover p-12 md:p-20 text-center max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
             {t("cta.heading")} <span className="text-gradient-red">{t("cta.headingHighlight")}</span> {t("cta.headingSuffix")}
           </h2>

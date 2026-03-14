@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const SIZE = 40;
+const SIZE = 26;
 const SMOOTH = 0.24;
 const MAGNIFY = 2;
 const COPY_THROTTLE_MS = 80;

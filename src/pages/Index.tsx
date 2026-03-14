@@ -4,6 +4,7 @@ import TrustedSection from "@/components/TrustedSection";
 import AboutSection from "@/components/AboutSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
 import ServicesSection from "@/components/ServicesSection";
+import StatsSection from "@/components/StatsSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import CTASection from "@/components/CTASection";
 
@@ -23,6 +24,7 @@ const Index = () => (
     <HowWeWorkSection />
     <CTASection />
     <ServicesSection />
+    <StatsSection />
   </PageLayout>
 );
 

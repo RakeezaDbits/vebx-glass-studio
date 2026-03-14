@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Border glow ke liye angle animate – light ghoomti hai, border nahi */
+@property --border-glow-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
 @layer base {
   :root {
     --background: 0 0% 2%;
@@ -193,6 +200,37 @@
     position: relative;
   }
 
+  /* Border fixed, andar ek light full border par ghoomti rehti hai */
+  .border-glow::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    padding: 2px;
+    --border-glow-angle: 0deg;
+    background: conic-gradient(
+      from var(--border-glow-angle) at 50% 50%,
+      transparent 0deg 160deg,
+      hsla(357, 90%, 46%, 0.3) 200deg,
+      hsla(357, 90%, 55%, 0.75) 270deg,
+      hsla(357, 90%, 46%, 0.3) 340deg,
+      transparent 360deg
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+    animation: border-glow-light-ghoom 4s linear infinite;
+  }
+
+  @keyframes border-glow-light-ghoom {
+    to {
+      --border-glow-angle: 360deg;
+    }
+  }
+
   .border-glow::after {
     content: '';
     position: absolute;
@@ -205,6 +243,54 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Red glowing outline on hover for service/delivered-project boxes */
+  .box-glow-hover {
+    transition: box-shadow 0.4s ease, border-color 0.4s ease;
+  }
+  .box-glow-hover:hover {
+    box-shadow: 0 0 0 1px hsla(357, 90%, 46%, 0.6), 0 0 20px hsla(357, 90%, 46%, 0.35), 0 0 40px hsla(357, 90%, 46%, 0.15);
+  }
+  @keyframes box-glow-pulse {
+    0%, 100% { box-shadow: 0 0 0 1px hsla(357, 90%, 46%, 0.5), 0 0 16px hsla(357, 90%, 46%, 0.3), 0 0 32px hsla(357, 90%, 46%, 0.1); }
+    50% { box-shadow: 0 0 0 1px hsla(357, 90%, 46%, 0.8), 0 0 24px hsla(357, 90%, 46%, 0.45), 0 0 48px hsla(357, 90%, 46%, 0.2); }
+  }
+  .box-glow-hover:hover {
+    animation: box-glow-pulse 2s ease-in-out infinite;
+  }
+
+  /* 2D/3D Animation service – hero bg thora animated (use on a div inside hero) */
+  .hero-bg-gradient-animated {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+      125deg,
+      transparent 0%,
+      hsla(357, 90%, 46%, 0.07) 25%,
+      transparent 50%,
+      hsla(357, 80%, 50%, 0.06) 75%,
+      transparent 100%
+    );
+    background-size: 400% 400%;
+    animation: hero-bg-gradient-shift 12s ease-in-out infinite;
+  }
+
+  @keyframes hero-bg-gradient-shift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  /* Red glow on inner page banners so they don’t look empty */
+  .page-banner-glow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow: inset 0 0 60px -20px hsla(357, 90%, 46%, 0.08), 0 0 80px -30px hsla(357, 90%, 46%, 0.06);
   }
 }
 

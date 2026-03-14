@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import logo from "@/assets/vebx-logo.png";
+const logo = "/logo-main.png";
 
 const navItems = [
   { labelKey: "home", href: "/" },

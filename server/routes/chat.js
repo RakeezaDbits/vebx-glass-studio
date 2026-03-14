@@ -4,6 +4,7 @@ import path from "path";
 import fs from "fs";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
+import { generateImage as openaiGenerateImage } from "../utils/openai-image.js";
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -76,6 +77,51 @@ router.post("/use-credit", async (req, res) => {
   }
 });
 
+/** POST /api/chat/generate-image — use 1 credit and generate image via OpenAI (DALL-E 2, low cost) */
+router.post("/generate-image", async (req, res) => {
+  try {
+    const deviceId = (req.body?.deviceId || "").toString().slice(0, 64);
+    const prompt = (req.body?.prompt || "").toString().trim();
+    if (!deviceId) {
+      return res.status(400).json({ error: "deviceId required" });
+    }
+    if (!prompt) {
+      return res.status(400).json({ error: "prompt required" });
+    }
+    const today = new Date().toISOString().slice(0, 10);
+    await db.execute(
+      "INSERT INTO device_credits (device_id, period_start, credits_used) VALUES (?, ?, 0) ON DUPLICATE KEY UPDATE device_id = device_id",
+      [deviceId, today]
+    );
+    const [rows] = await db.execute(
+      "SELECT credits_used FROM device_credits WHERE device_id = ? AND period_start = ?",
+      [deviceId, today]
+    );
+    const used = rows[0] ? rows[0].credits_used : 0;
+    if (used >= DAILY_CREDITS) {
+      return res.status(402).json({ remaining: 0, limit: DAILY_CREDITS, error: "No credits left" });
+    }
+    await db.execute(
+      "UPDATE device_credits SET credits_used = credits_used + 1 WHERE device_id = ? AND period_start = ?",
+      [deviceId, today]
+    );
+    const buf = await openaiGenerateImage(prompt);
+    const base64 = buf.toString("base64");
+    res.json({
+      imageData: `data:image/png;base64,${base64}`,
+      remaining: DAILY_CREDITS - used - 1,
+      limit: DAILY_CREDITS,
+    });
+  } catch (err) {
+    const message = err?.message || String(err);
+    console.error("generate-image error:", err);
+    res.status(500).json({
+      error: message,
+      details: process.env.NODE_ENV !== "production" ? (err?.stack || "") : undefined,
+    });
+  }
+});
+
 /** POST /api/chat/save-reference-image — save base64 image for quote reference */
 router.post("/save-reference-image", async (req, res) => {
   try {
@@ -101,8 +147,12 @@ router.post("/save-reference-image", async (req, res) => {
     );
     res.json({ ref });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Failed to save image" });
+    const message = err?.message || String(err);
+    console.error("save-reference-image error:", err);
+    res.status(500).json({
+      error: message,
+      details: process.env.NODE_ENV !== "production" ? (err?.stack || "") : undefined,
+    });
   }
 });
 

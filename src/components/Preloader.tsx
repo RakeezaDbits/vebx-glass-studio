@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/vebx-logo.png";
+const logo = "/logo-main.png";
 
 const DURATION_MS = 2800;
 const PROGRESS_SEC = 2.2;

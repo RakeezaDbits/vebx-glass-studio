@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import logo from "@/assets/vebx-logo.png";
+const logo = "/logo-main.png";
 
 const INTRO_STORAGE_KEY = "vebx-intro-seen";
 

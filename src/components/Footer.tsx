@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Mail, MapPin, ArrowRight, Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
-import logo from "@/assets/vebx-logo.png";
+const logo = "/logo-main.png";
 import { servicesData } from "@/data/services";
 
 const footerSocialLinks = [
@@ -105,32 +105,32 @@ export default function Footer() {
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">{t("footer.letsWork")}</h4>
               <p className="text-sm text-muted-foreground mb-4">{t("footer.letsWorkDesc")}</p>
-              <Link to="/contact" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform">{t("footer.getInTouch")}</Link>
+              <Link to="/contact" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform mb-4">{t("footer.getInTouch")}</Link>
+              <div className="flex flex-wrap gap-2">
+                {footerSocialLinks.map((item) => {
+                  const Icon = item.icon;
+                  return (
+                    <a
+                      key={item.label}
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={item.label}
+                      className="liquid-glass flex items-center justify-center w-10 h-10 rounded-xl border-glow text-muted-foreground hover:text-primary hover:bg-white/[0.08] transition-all duration-300"
+                    >
+                      <Icon className="w-4 h-4" />
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
         <div className="border-t border-white/10 pt-6 pb-8">
-          <div className="container px-4 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="container px-4 lg:px-8">
             <p className="text-xs text-muted-foreground text-center sm:text-left">
               {t("footer.copyright")} <Link to="/" className="text-primary hover:underline font-medium">{t("footer.vebexRun")}</Link>.
             </p>
-            <div className="flex flex-wrap justify-center sm:justify-end gap-3">
-              {footerSocialLinks.map((item) => {
-                const Icon = item.icon;
-                return (
-                  <a
-                    key={item.label}
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={item.label}
-                    className="liquid-glass flex items-center justify-center w-10 h-10 rounded-xl border-glow text-muted-foreground hover:text-primary hover:bg-white/[0.08] transition-all duration-300"
-                  >
-                    <Icon className="w-4 h-4" />
-                  </a>
-                );
-              })}
-            </div>
           </div>
         </div>
       </div>

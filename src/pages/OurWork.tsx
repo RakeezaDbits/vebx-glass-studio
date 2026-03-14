@@ -7,7 +7,6 @@ import PageLayout from "@/components/PageLayout";
 
 const projectKeys = [
   { key: "emaanai", tech: ["React Native", "Firebase", "Node.js"], image: "/our-work/emaanai.png" },
-  { key: "vebxcode", tech: ["React", "Next.js", "TypeScript"], image: "/our-work/vebxcode.png" },
   { key: "healthsync", tech: ["React Native", "Node.js", "PostgreSQL"], image: "/our-work/healthsync.png" },
   { key: "taskflow", tech: ["React", "Firebase", "Tailwind"], image: "/our-work/taskflow.png" },
   { key: "fooddash", tech: ["Flutter", "Node.js", "MongoDB"], image: "/our-work/fooddash.png" },
@@ -34,10 +33,10 @@ export default function OurWork() {
         canonicalPath: "/our-work",
       }}
     >
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-24 relative overflow-hidden page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-30" aria-hidden />
-          <div className="absolute inset-0 bg-background/85" />
+          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-45" aria-hidden />
+          <div className="absolute inset-0 bg-background/65" />
         </div>
         <div className="absolute top-1/4 right-1/4 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">
@@ -52,7 +51,7 @@ export default function OurWork() {
         <div className="container px-4 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projectKeys.map((project, i) => (
-              <motion.div key={project.key} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="group liquid-glass rounded-2xl overflow-hidden border-glow hover:bg-primary/5 transition-all duration-500">
+              <motion.div key={project.key} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="group liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover hover:bg-primary/5 transition-all duration-500">
                 <div className="h-48 relative overflow-hidden bg-secondary/30">
                   <div className="absolute inset-0 gradient-red opacity-20 group-hover:opacity-30 transition-opacity" />
                   {"image" in project && project.image && (
@@ -75,7 +74,7 @@ export default function OurWork() {
       </section>
       <section className="py-24">
         <div className="container px-4 lg:px-8">
-          <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-20 text-center max-w-4xl mx-auto">
+          <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="liquid-glass-strong rounded-3xl border-glow box-glow-hover p-12 md:p-20 text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t("ourWork.ctaHeading")} <span className="text-gradient-red">{t("ourWork.ctaHighlight")}</span> {t("ourWork.ctaSuffix")}</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">{t("ourWork.ctaDesc")}</p>
             <Link to="/contact"><Button variant="hero" size="lg" className="gap-2">{t("ourWork.ctaBtn")} <ArrowRight className="w-5 h-5 rtl:rotate-180" /></Button></Link>

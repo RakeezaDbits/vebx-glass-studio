@@ -24,7 +24,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-colors duration-300 block"
+        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
       >
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
           <div
@@ -88,7 +88,7 @@ function NewServiceCard({
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-colors duration-300 block"
+        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
       >
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
           <div
@@ -150,8 +150,8 @@ export default function Services() {
             className="w-full h-full object-cover"
             aria-hidden
           />
-          <div className="absolute inset-0 bg-background/85 backdrop-blur-[2px]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+          <div className="absolute inset-0 bg-background/62 backdrop-blur-[1px]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/40 to-background/60" />
         </div>
         {/* Hero accent – center */}
         <div className="container relative z-10 px-4 lg:px-8 text-center py-24">

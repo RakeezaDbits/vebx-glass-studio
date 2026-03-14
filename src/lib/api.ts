@@ -76,18 +76,65 @@ export function useChatCredit(deviceId: string): Promise<{ success: boolean; rem
   });
 }
 
-export function saveReferenceImage(deviceId: string, imageDataBase64: string): Promise<{ ref: string }> {
-  return fetch(getUrl("/api/chat/save-reference-image"), {
+/** Generate design image via backend (OpenAI DALL-E 2). Uses 1 credit. */
+export async function generateDesignImage(
+  deviceId: string,
+  prompt: string
+): Promise<{ imageData: string; remaining: number; limit: number }> {
+  try {
+    const r = await fetch(getUrl("/api/chat/generate-image"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ deviceId, prompt: prompt.trim() }),
+    });
+    const raw = await r.text();
+    let data: { error?: string; message?: string; imageData?: string; remaining?: number; limit?: number; details?: string } = {};
+    try {
+      data = JSON.parse(raw) as typeof data;
+    } catch {
+      console.error("[generateDesignImage] Backend response (not JSON):", raw?.slice(0, 500));
+      throw new Error(raw?.slice(0, 200) || `Server error (${r.status})`);
+    }
+    if (r.status === 402) throw new Error("No credits left for today. Try again tomorrow.");
+    if (!r.ok) {
+      const msg = data.error || data.message || raw?.slice(0, 300) || `Image generation failed (${r.status})`;
+      console.error("[generateDesignImage] Backend error response:", { status: r.status, data, raw: raw?.slice(0, 500) });
+      throw new Error(msg);
+    }
+    return {
+      imageData: data.imageData ?? "",
+      remaining: data.remaining ?? 0,
+      limit: data.limit ?? 5,
+    };
+  } catch (err) {
+    if (err instanceof Error) throw err;
+    throw new Error(String(err));
+  }
+}
+
+export async function saveReferenceImage(
+  deviceId: string,
+  imageDataBase64: string
+): Promise<{ ref: string }> {
+  const r = await fetch(getUrl("/api/chat/save-reference-image"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ deviceId, imageData: imageDataBase64 }),
-  }).then(async (r) => {
-    if (!r.ok) {
-      const err = await r.json().catch(() => ({}));
-      throw new Error((err as { error?: string }).error || "Failed to save");
-    }
-    return r.json();
   });
+  const raw = await r.text();
+  let data: { error?: string; message?: string; ref?: string } = {};
+  try {
+    data = JSON.parse(raw) as typeof data;
+  } catch {
+    console.error("[saveReferenceImage] Backend response (not JSON):", raw?.slice(0, 500));
+    throw new Error(raw?.slice(0, 200) || `Failed to save (${r.status})`);
+  }
+  if (!r.ok) {
+    const msg = data.error || data.message || raw?.slice(0, 300) || `Failed to save (${r.status})`;
+    console.error("[saveReferenceImage] Backend error:", { status: r.status, data, raw: raw?.slice(0, 500) });
+    throw new Error(msg);
+  }
+  return { ref: data.ref ?? "" };
 }
 
 export function getGeneratedImageUrl(ref: string): string {

@@ -164,10 +164,10 @@ export default function CustomRequirement() {
         canonicalPath: "/custom-requirement",
       }}
     >
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-24 relative overflow-hidden page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-30" aria-hidden />
-          <div className="absolute inset-0 bg-background/85" />
+          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-45" aria-hidden />
+          <div className="absolute inset-0 bg-background/65" />
         </div>
         <div className="absolute bottom-1/4 left-1/3 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">

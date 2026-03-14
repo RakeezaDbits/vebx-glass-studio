@@ -14,10 +14,10 @@ export default function PrivacyPolicy() {
         canonicalPath: "/privacy-policy",
       }}
     >
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-24 relative overflow-hidden page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-30" aria-hidden />
-          <div className="absolute inset-0 bg-background/85" />
+          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-45" aria-hidden />
+          <div className="absolute inset-0 bg-background/65" />
         </div>
         <div className="container relative z-10 px-4 lg:px-8 max-w-4xl">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-16">

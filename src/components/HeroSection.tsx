@@ -118,23 +118,6 @@ export default function HeroSection() {
               </Button>
             </Link>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.4 }}
-            className="grid grid-cols-2 gap-8 mt-24 md:mt-32 max-w-md mx-auto"
-          >
-            {[
-              { value: "350+", labelKey: "projects" },
-              { value: "15+", labelKey: "years" },
-            ].map((stat) => (
-              <div key={stat.labelKey} className="text-center">
-                <div className="text-2xl md:text-3xl font-display font-bold text-gradient-red">{stat.value}</div>
-                <div className="text-xs md:text-sm text-muted-foreground mt-1">{t(`hero.stats.${stat.labelKey}`)}</div>
-              </div>
-            ))}
-          </motion.div>
         </div>
       </div>
     </section>

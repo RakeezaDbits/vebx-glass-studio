@@ -22,7 +22,7 @@ export default function ServiceDetail() {
         canonicalPath: `/services/${service.slug}`,
       }}
     >
-      {/* Hero – bg top pe, header ke niche hi (no gap) */}
+      {/* Hero – bg top pe, header ke niche hi (no gap); 2D/3D Animation par thora animated bg */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16">
         {/* Background image – viewport top se, header ke niche */}
         <div className="absolute inset-0">
@@ -32,6 +32,35 @@ export default function ServiceDetail() {
             className="w-full h-full object-cover"
             aria-hidden
           />
+          {service.slug === "2d-3d-animation" && (
+            <>
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                {[...Array(5)].map((_, i) => (
+                  <motion.div
+                    key={i}
+                    className="absolute rounded-full bg-primary/15 blur-[80px]"
+                    style={{
+                      width: `${120 + i * 60}px`,
+                      height: `${120 + i * 60}px`,
+                      left: `${(i * 22) % 80}%`,
+                      top: `${(i * 18) % 70}%`,
+                    }}
+                    animate={{
+                      x: [0, 30, -20, 0],
+                      y: [0, -25, 15, 0],
+                      scale: [1, 1.1, 1],
+                    }}
+                    transition={{
+                      duration: 8 + i * 1.5,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                  />
+                ))}
+              </div>
+              <div className="hero-bg-gradient-animated" aria-hidden />
+            </>
+          )}
           <div className="absolute inset-0 bg-background/40 backdrop-blur-[1px]" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/60" />
         </div>
