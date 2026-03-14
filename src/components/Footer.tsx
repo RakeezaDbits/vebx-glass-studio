@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Mail, MapPin, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ArrowRight, Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 import logo from "@/assets/vebx-logo.png";
 import { servicesData } from "@/data/services";
+
+const footerSocialLinks = [
+  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
+];
 
 const quickLinks = [
   { labelKey: "linkServices", href: "/services" },
@@ -102,10 +110,27 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 pt-6 pb-8">
-          <div className="container px-4 lg:px-8">
-            <p className="text-xs text-muted-foreground text-center">
+          <div className="container px-4 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs text-muted-foreground text-center sm:text-left">
               {t("footer.copyright")} <Link to="/" className="text-primary hover:underline font-medium">{t("footer.vebexRun")}</Link>.
             </p>
+            <div className="flex flex-wrap justify-center sm:justify-end gap-3">
+              {footerSocialLinks.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={item.label}
+                    className="liquid-glass flex items-center justify-center w-10 h-10 rounded-xl border-glow text-muted-foreground hover:text-primary hover:bg-white/[0.08] transition-all duration-300"
+                  >
+                    <Icon className="w-4 h-4" />
+                  </a>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

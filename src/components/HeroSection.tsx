@@ -123,11 +123,10 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.4 }}
-            className="grid grid-cols-3 gap-8 mt-24 md:mt-32 max-w-xl mx-auto"
+            className="grid grid-cols-2 gap-8 mt-24 md:mt-32 max-w-md mx-auto"
           >
             {[
               { value: "350+", labelKey: "projects" },
-              { value: "300+", labelKey: "clients" },
               { value: "15+", labelKey: "years" },
             ].map((stat) => (
               <div key={stat.labelKey} className="text-center">
