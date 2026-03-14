@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, Send, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -83,17 +83,10 @@ export default function Contact() {
                 <a href="mailto:support@vebx.run" className="text-muted-foreground hover:text-primary transition-colors">support@vebx.run</a>
               </div>
               <div className="liquid-glass rounded-2xl p-8 border-glow">
-                <MapPin className="w-8 h-8 text-primary mb-4" />
-                <h4 className="font-display text-lg font-semibold text-foreground mb-2">{t("contact.visitUs")}</h4>
-                <p className="text-muted-foreground">117 S Lexington Street STN 100,<br />Harrisonville MO 64701</p>
-              </div>
-              <div className="liquid-glass rounded-2xl p-8 border-glow">
-                <h4 className="font-display text-lg font-semibold text-foreground mb-4">{t("contact.businessHours")}</h4>
-                <div className="space-y-2 text-sm text-muted-foreground">
-                  <div className="flex justify-between"><span>{t("contact.monFri")}</span><span className="text-foreground">9:00 AM – 6:00 PM</span></div>
-                  <div className="flex justify-between"><span>{t("contact.saturday")}</span><span className="text-foreground">10:00 AM – 4:00 PM</span></div>
-                  <div className="flex justify-between"><span>{t("contact.sunday")}</span><span className="text-foreground">{t("contact.closed")}</span></div>
-                </div>
+                <Clock className="w-8 h-8 text-primary mb-4" />
+                <h4 className="font-display text-lg font-semibold text-foreground mb-2">{t("contact.businessHours")}</h4>
+                <p className="text-muted-foreground mb-1">24/7</p>
+                <p className="text-sm text-muted-foreground">{t("contact.monToSun")}</p>
               </div>
             </motion.div>
           </div>
