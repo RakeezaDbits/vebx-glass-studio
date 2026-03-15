@@ -115,6 +115,26 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08);
   }
 
+  /* Homepage services/pricing frames – reference liquid glass: visible frosted glass (backdrop-filter + light bg) so it reads clearly */
+  .liquid-glass-card {
+    background-color: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px;
+    box-shadow:
+      0 5px 21px rgba(0, 0, 0, 0.25),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+      0 0 20px -4px hsla(357, 90%, 46%, 0.12);
+  }
+
+  /* Section background so liquid glass stands out (subtle variation behind cards) */
+  .section-glass-bg {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, hsl(0 0% 8%) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 40% at 80% 100%, hsl(357 90% 26% / 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 30% at 20% 80%, hsl(0 0% 6%) 0%, transparent 50%);
+  }
+
   /* Cursor ball: real liquid glass — smooth, depth, throw (glow) */
   .cursor-glass-ball {
     position: relative;

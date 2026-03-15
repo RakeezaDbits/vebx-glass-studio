@@ -16,7 +16,7 @@ export default function WhyChooseSection() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section ref={ref} className="py-24 relative overflow-hidden">
+    <section ref={ref} className="py-24 relative overflow-hidden section-glass-bg">
       <div className="container relative z-10 px-4 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} className="text-center mb-16">
           <span className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-4 block">{t("whyChoose.tag")}</span>
@@ -27,7 +27,7 @@ export default function WhyChooseSection() {
         </motion.div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {reasonKeys.map((r, i) => (
-            <motion.div key={r.titleKey} initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: i * 0.1 }} className="liquid-glass rounded-2xl p-6 border-glow text-center hover:bg-white/[0.06] transition-colors duration-300">
+            <motion.div key={r.titleKey} initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: i * 0.1 }} className="liquid-glass-card rounded-2xl p-6 border-glow box-glow-hover text-center hover:bg-white/[0.06] transition-colors duration-300">
               <div className="w-14 h-14 rounded-xl gradient-red flex items-center justify-center mx-auto mb-4 shadow-lg shadow-primary/25">
                 <r.icon className="w-7 h-7 text-primary-foreground" />
               </div>

@@ -46,7 +46,7 @@ export default function Pricing() {
         <div className="container px-4 lg:px-8">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <p className="text-sm font-display uppercase tracking-wider text-muted-foreground mb-3 text-center">{t("pricing.chooseService")}</p>
-            <div className="liquid-glass border-glow rounded-2xl p-3 mb-10">
+            <div className="liquid-glass-card border-glow box-glow-hover rounded-2xl p-3 mb-10">
               <TabsList className="w-full flex flex-wrap h-auto gap-2 p-0 bg-transparent border-0 justify-center">
                 {servicesData.map((service) => (
                   <TabsTrigger key={service.slug} value={service.slug} className={cn("rounded-xl px-4 py-2.5 text-sm font-medium transition-all","data-[state=inactive]:bg-white/5 data-[state=inactive]:text-muted-foreground data-[state=inactive]:hover:bg-white/10","data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg data-[state=active]:ring-0")}>
@@ -59,7 +59,7 @@ export default function Pricing() {
               <TabsContent key={service.slug} value={service.slug} className="mt-0">
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                   {planTiers.map((plan, i) => (
-                    <motion.div key={plan.nameKey} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: i * 0.1 }} className={cn("liquid-glass rounded-2xl p-8 border-glow relative", plan.popular && "ring-2 ring-primary scale-105")}>
+                    <motion.div key={plan.nameKey} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: i * 0.1 }} className={cn("liquid-glass-card rounded-2xl p-8 border-glow box-glow-hover relative", plan.popular && "ring-2 ring-primary scale-105")}>
                       {plan.popular && <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 gradient-red rounded-full text-xs font-display uppercase tracking-wider text-primary-foreground glow-red">{t("pricing.mostPopular")}</div>}
                       <h3 className="font-display text-xl font-bold text-foreground mb-2">{t(plan.nameKey)}</h3>
                       <p className="text-sm text-muted-foreground mb-6">{t(plan.descKey)}</p>

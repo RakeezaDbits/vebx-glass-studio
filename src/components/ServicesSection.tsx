@@ -22,7 +22,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
+        className="group relative liquid-glass-card rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
       >
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
           <div
@@ -72,8 +72,8 @@ export default function ServicesSection() {
   const headingInView = useInView(headingRef, { once: true });
 
   return (
-    <section id="services" className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-background" />
+    <section id="services" className="py-24 relative overflow-hidden section-glass-bg">
+      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-secondary/20 to-background/95" />
       <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, hsl(0 0% 100% / 0.12) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
       <div className="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-primary/5 blur-[100px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-primary/4 blur-[120px] pointer-events-none" />

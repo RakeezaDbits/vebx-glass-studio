@@ -17,7 +17,7 @@ export default function AboutSection() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-24 relative overflow-hidden">
+    <section id="about" className="py-24 relative overflow-hidden section-glass-bg">
       <div className="container relative z-10 px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div ref={ref} initial={{ opacity: 0, x: -60 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.8 }} className="relative">
@@ -34,7 +34,7 @@ export default function AboutSection() {
             <p className="text-muted-foreground mb-8 leading-relaxed">{t("about.desc")}</p>
             <div className="grid grid-cols-2 gap-4">
               {featureKeys.map((f, i) => (
-                <motion.div key={f.titleKey} initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.4 + i * 0.1 }} className="liquid-glass rounded-xl p-4 border-glow">
+                <motion.div key={f.titleKey} initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.4 + i * 0.1 }} className="liquid-glass-card rounded-xl p-4 border-glow box-glow-hover">
                   <f.icon className="w-5 h-5 text-primary mb-2" />
                   <h4 className="text-sm font-semibold text-foreground mb-1">{t(f.titleKey)}</h4>
                   <p className="text-xs text-muted-foreground">{t(f.descKey)}</p>

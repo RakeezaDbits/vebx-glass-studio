@@ -17,7 +17,7 @@ export default function HowWeWorkSection() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section ref={ref} className="py-24 relative overflow-hidden">
+    <section ref={ref} className="py-24 relative overflow-hidden section-glass-bg">
       <div className="absolute inset-0 opacity-[0.06]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, hsl(0 0% 100% / 0.15) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
       <div className="container relative z-10 px-4 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.7 }} className="text-center mb-16">
@@ -29,7 +29,7 @@ export default function HowWeWorkSection() {
         </motion.div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stepKeys.map((s, i) => (
-            <motion.div key={s.step} initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: i * 0.12 }} className="liquid-glass rounded-2xl p-6 border-glow relative group hover:bg-white/[0.06] transition-colors duration-300">
+            <motion.div key={s.step} initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: i * 0.12 }} className="liquid-glass-card rounded-2xl p-6 border-glow box-glow-hover relative group hover:bg-white/[0.06] transition-colors duration-300">
               <span className="text-4xl font-display font-bold text-primary/20 group-hover:text-primary/40 transition-colors">{s.step}</span>
               <div className="w-12 h-12 rounded-xl gradient-red flex items-center justify-center mt-4 mb-4">
                 <s.icon className="w-6 h-6 text-primary-foreground" />
