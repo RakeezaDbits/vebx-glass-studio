@@ -1,15 +1,110 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
+const VIDEO_SRC = "/videos/hero-bg.mp4";
+const VIDEO_PLAYBACK_RATE = 0.42;
+const LOOP_CROSSFADE_SECONDS = 0.85;
+const LOOP_CROSSFADE_MS = 700;
+
 export default function HeroSection() {
   const { t } = useTranslation();
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
+  const transitionTimeoutRef = useRef<number | null>(null);
+  const isTransitioningRef = useRef(false);
   const [videoFailed, setVideoFailed] = useState(false);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [activeVideoIndex, setActiveVideoIndex] = useState(0);
+  const [isLoopCrossfading, setIsLoopCrossfading] = useState(false);
+
+  useEffect(() => {
+    return () => {
+      if (transitionTimeoutRef.current) {
+        window.clearTimeout(transitionTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    const currentVideo = videoRefs.current[activeVideoIndex];
+
+    if (!currentVideo || videoFailed) {
+      return;
+    }
+
+    const handleTimeUpdate = () => {
+      if (isTransitioningRef.current) {
+        return;
+      }
+
+      if (!Number.isFinite(currentVideo.duration) || currentVideo.duration <= 0) {
+        return;
+      }
+
+      if (currentVideo.duration - currentVideo.currentTime > LOOP_CROSSFADE_SECONDS) {
+        return;
+      }
+
+      const nextVideoIndex = activeVideoIndex === 0 ? 1 : 0;
+      const nextVideo = videoRefs.current[nextVideoIndex];
+
+      if (!nextVideo) {
+        return;
+      }
+
+      isTransitioningRef.current = true;
+      setIsLoopCrossfading(true);
+      nextVideo.currentTime = 0;
+      nextVideo.playbackRate = VIDEO_PLAYBACK_RATE;
+
+      const playPromise = nextVideo.play();
+      playPromise?.catch(() => {
+        isTransitioningRef.current = false;
+        setIsLoopCrossfading(false);
+      });
+
+      if (transitionTimeoutRef.current) {
+        window.clearTimeout(transitionTimeoutRef.current);
+      }
+
+      transitionTimeoutRef.current = window.setTimeout(() => {
+        currentVideo.pause();
+        currentVideo.currentTime = 0;
+        setActiveVideoIndex(nextVideoIndex);
+        setIsLoopCrossfading(false);
+        isTransitioningRef.current = false;
+      }, LOOP_CROSSFADE_MS);
+    };
+
+    currentVideo.addEventListener("timeupdate", handleTimeUpdate);
+
+    return () => {
+      currentVideo.removeEventListener("timeupdate", handleTimeUpdate);
+    };
+  }, [activeVideoIndex, videoFailed]);
+
+  const handleVideoReady = (index: number) => {
+    const video = videoRefs.current[index];
+
+    if (!video) {
+      return;
+    }
+
+    video.playbackRate = VIDEO_PLAYBACK_RATE;
+
+    if (index === activeVideoIndex && !videoLoaded) {
+      setVideoLoaded(true);
+    }
+  };
+
+  const handleVideoError = () => {
+    setVideoFailed(true);
+    setIsLoopCrossfading(false);
+    isTransitioningRef.current = false;
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -23,29 +118,30 @@ export default function HeroSection() {
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
         )}
-        {!videoFailed && (
-          <video
-            ref={videoRef}
-            autoPlay
-            muted
-            loop
-            playsInline
-            onCanPlay={() => {
-              setVideoLoaded(true);
-              if (videoRef.current) videoRef.current.playbackRate = 0.55;
-            }}
-            onError={() => setVideoFailed(true)}
-            onEnded={() => {
-              // Seamless loop restart without pause
-              if (videoRef.current) {
-                videoRef.current.currentTime = 0;
-                videoRef.current.play();
-              }
-            }}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
-            src="/videos/hero-bg.mp4"
-          />
-        )}
+        {!videoFailed &&
+          [0, 1].map((videoIndex) => {
+            const incomingVideoIndex = activeVideoIndex === 0 ? 1 : 0;
+            const isVisible =
+              videoIndex === activeVideoIndex ||
+              (isLoopCrossfading && videoIndex === incomingVideoIndex);
+
+            return (
+              <video
+                key={videoIndex}
+                ref={(node) => {
+                  videoRefs.current[videoIndex] = node;
+                }}
+                autoPlay={videoIndex === 0}
+                muted
+                playsInline
+                preload="auto"
+                onCanPlay={() => handleVideoReady(videoIndex)}
+                onError={handleVideoError}
+                className={`absolute inset-0 w-full h-full object-cover scale-[1.02] transition-opacity duration-700 ${videoLoaded && isVisible ? "opacity-100" : "opacity-0"}`}
+                src={VIDEO_SRC}
+              />
+            );
+          })}
         {videoFailed && (
           <div className="absolute inset-0">
             {[...Array(8)].map((_, i) => (
