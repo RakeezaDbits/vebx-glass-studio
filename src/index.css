@@ -115,17 +115,23 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08);
   }
 
-  /* Homepage services/pricing frames – reference liquid glass: visible frosted glass (backdrop-filter + light bg) so it reads clearly */
+  /* Liquid glass cards – premium frosted glass matching hero badge style */
   .liquid-glass-card {
-    background-color: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: linear-gradient(
+      135deg,
+      hsla(0, 0%, 100%, 0.06) 0%,
+      hsla(0, 0%, 100%, 0.03) 50%,
+      hsla(357, 90%, 26%, 0.06) 100%
+    );
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
     border-radius: 24px;
     box-shadow:
-      0 5px 21px rgba(0, 0, 0, 0.25),
-      inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
-      0 0 20px -4px hsla(357, 90%, 46%, 0.12);
+      0 8px 32px rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08),
+      inset 0 -1px 0 0 hsla(0, 0%, 0%, 0.1),
+      0 0 24px -6px hsla(357, 90%, 46%, 0.1);
   }
 
   /* Section background so liquid glass stands out (subtle variation behind cards) */

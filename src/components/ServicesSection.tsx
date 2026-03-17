@@ -22,7 +22,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative liquid-glass-card rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
+        className="group relative liquid-glass-card rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col transition-all duration-300 block"
       >
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
           <div

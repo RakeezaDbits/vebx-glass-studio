@@ -24,14 +24,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative rounded-2xl overflow-hidden cursor-pointer h-full flex flex-col transition-all duration-300 block"
-        style={{
-          background: 'linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(125,8,14,0.08) 100%)',
-          backdropFilter: 'blur(30px) saturate(180%)',
-          WebkitBackdropFilter: 'blur(30px) saturate(180%)',
-          border: '1px solid rgba(255,255,255,0.08)',
-          boxShadow: '0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)',
-        }}
+        className="group relative liquid-glass-card rounded-2xl overflow-hidden cursor-pointer h-full flex flex-col transition-all duration-300 border-glow box-glow-hover block"
       >
         {/* Glass reflection sweep */}
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
@@ -98,14 +91,7 @@ function NewServiceCard({
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative rounded-2xl overflow-hidden cursor-pointer h-full flex flex-col transition-all duration-300 block"
-        style={{
-          background: 'linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(125,8,14,0.08) 100%)',
-          backdropFilter: 'blur(30px) saturate(180%)',
-          WebkitBackdropFilter: 'blur(30px) saturate(180%)',
-          border: '1px solid rgba(255,255,255,0.08)',
-          boxShadow: '0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)',
-        }}
+        className="group relative liquid-glass-card rounded-2xl overflow-hidden cursor-pointer h-full flex flex-col transition-all duration-300 border-glow box-glow-hover block"
       >
         {/* Glass reflection sweep */}
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
