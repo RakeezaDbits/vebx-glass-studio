@@ -32,9 +32,16 @@ export default function HeroSection() {
             playsInline
             onCanPlay={() => {
               setVideoLoaded(true);
-              if (videoRef.current) videoRef.current.playbackRate = 0.72;
+              if (videoRef.current) videoRef.current.playbackRate = 0.55;
             }}
             onError={() => setVideoFailed(true)}
+            onEnded={() => {
+              // Seamless loop restart without pause
+              if (videoRef.current) {
+                videoRef.current.currentTime = 0;
+                videoRef.current.play();
+              }
+            }}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
             src="/videos/hero-bg.mp4"
           />

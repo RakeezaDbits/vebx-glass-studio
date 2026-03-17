@@ -98,18 +98,28 @@ function NewServiceCard({
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.65, delay: index * 0.06, ease: cardEase }}
         whileHover={{ y: -6, transition: { duration: 0.35, ease: cardEase } }}
-        className="group relative liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover cursor-pointer h-full flex flex-col hover:bg-white/[0.06] transition-all duration-300 block"
+        className="group relative rounded-2xl overflow-hidden cursor-pointer h-full flex flex-col transition-all duration-300 block"
+        style={{
+          background: 'linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(125,8,14,0.08) 100%)',
+          backdropFilter: 'blur(30px) saturate(180%)',
+          WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+          border: '1px solid rgba(255,255,255,0.08)',
+          boxShadow: '0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06)',
+        }}
       >
+        {/* Glass reflection sweep */}
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
           <div
             className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"
             style={{
               background:
-                "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.04) 45%, rgba(255,255,255,0.08) 50%, transparent 55%)",
+                "linear-gradient(105deg, transparent 0%, rgba(255,255,255,0.06) 45%, rgba(255,255,255,0.12) 50%, transparent 55%)",
               transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
             }}
           />
         </div>
+        {/* Inner glass highlight top edge */}
+        <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/15 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent opacity-90 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" />
         <div className="relative aspect-[4/3] overflow-hidden">
           <img
