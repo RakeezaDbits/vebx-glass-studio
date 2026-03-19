@@ -151,7 +151,7 @@ export default function Services() {
         {/* Background image – separate from header */}
         <div className="absolute inset-0">
           <img
-            src="/services/software-development.png"
+            src="/banners/services-banner.jpg"
             alt=""
             className="w-full h-full object-cover"
             aria-hidden
