@@ -147,7 +147,7 @@ export default function Services() {
       }}
     >
       {/* Hero – bg image (generated theme image), content centered */}
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen -mt-16 pt-16 flex items-center justify-center overflow-hidden">
         {/* Background image – separate from header */}
         <div className="absolute inset-0">
           <img
