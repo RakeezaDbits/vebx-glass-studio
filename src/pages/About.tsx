@@ -28,10 +28,10 @@ export default function About() {
         canonicalPath: "/about",
       }}
     >
-      <section className="py-24 relative overflow-hidden page-banner-glow">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16 page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-45" aria-hidden />
-          <div className="absolute inset-0 bg-background/65" />
+          <img src="/banners/about-banner.jpg" alt="" className="w-full h-full object-cover opacity-50" aria-hidden />
+          <div className="absolute inset-0 bg-background/55" />
         </div>
         <div className="absolute bottom-1/3 left-1/3 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">
