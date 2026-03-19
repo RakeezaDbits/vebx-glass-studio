@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import heroVideoAsset from "/videos/hero-bg.mp4.asset.json";
 
-const VIDEO_SRC = "/videos/hero-bg.mp4";
+const VIDEO_SRC = heroVideoAsset.url;
 const VIDEO_PLAYBACK_RATE = 0.42;
 const LOOP_CROSSFADE_SECONDS = 0.85;
 const LOOP_CROSSFADE_MS = 700;
