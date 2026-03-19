@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import PageLayout from "@/components/PageLayout";
 import { servicesData } from "@/data/services";
 import { newServicesData } from "@/data/newServices";
+import ServiceCardDecorWrap from "@/components/ServiceCardDecorWrap";
 
 const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -18,6 +19,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
 
   return (
     <Link to={`/services/${service.slug}`}>
+      <ServiceCardDecorWrap index={index}>
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 36 }}
@@ -67,6 +69,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
           </span>
         </div>
       </motion.div>
+      </ServiceCardDecorWrap>
     </Link>
   );
 }
@@ -85,6 +88,7 @@ function NewServiceCard({
 
   return (
     <Link to={`/new-services/${service.slug}`}>
+      <ServiceCardDecorWrap index={index}>
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 36 }}
@@ -131,6 +135,7 @@ function NewServiceCard({
           </span>
         </div>
       </motion.div>
+      </ServiceCardDecorWrap>
     </Link>
   );
 }
@@ -194,8 +199,8 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Grid */}
-      <section className="py-16 relative overflow-hidden">
+      {/* Services Grid — overflow-x only so card-under decorations aren’t clipped */}
+      <section className="py-16 relative overflow-x-hidden">
         <div
           className="absolute inset-0 opacity-[0.12]"
           style={{
@@ -204,7 +209,7 @@ export default function Services() {
           }}
         />
         <div className="container relative z-10 px-4 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-10 pb-4">
             {servicesData.map((service, i) => (
               <ServiceCard key={service.slug} service={service} index={i} />
             ))}
@@ -213,7 +218,7 @@ export default function Services() {
       </section>
 
       {/* New Services Section */}
-      <section id="new-services" className="py-16 relative overflow-hidden">
+      <section id="new-services" className="py-16 relative overflow-x-hidden">
         <div
           className="absolute inset-0 opacity-[0.12]"
           style={{
@@ -234,7 +239,7 @@ export default function Services() {
               {t("newServicesPage.subtitle")}
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-10 pb-4">
             {newServicesData.map((service, i) => (
               <NewServiceCard key={service.id} service={service} index={i} />
             ))}

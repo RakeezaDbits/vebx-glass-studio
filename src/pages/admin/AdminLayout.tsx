@@ -24,7 +24,7 @@ export default function AdminLayout() {
   };
 
   return (
-    <div className="min-h-screen bg-background flex">
+    <div className="min-h-screen flex">
       <aside className="w-56 border-r border-border bg-card flex flex-col">
         <div className="p-4 border-b border-border">
           <Link to="/admin/dashboard" className="font-display font-bold text-lg text-foreground">

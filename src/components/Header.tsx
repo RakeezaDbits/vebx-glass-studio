@@ -2,13 +2,26 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { cn } from "@/lib/utils";
 const logo = "/logo-main.png";
 
-const navItems = [
+const navAiChatbotClass = (active: boolean) =>
+  cn(
+    "relative inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-sm font-semibold transition-all duration-300",
+    "bg-gradient-to-br from-[hsl(357_90%_34%)] via-[hsl(357_82%_26%)] to-[hsl(357_72%_16%)]",
+    "text-white shadow-[0_0_22px_hsla(357,90%,42%,0.38),inset_0_1px_0_hsla(0,0%,100%,0.14)]",
+    "border border-white/20 hover:brightness-110 hover:shadow-[0_0_30px_hsla(357,90%,52%,0.5)]",
+    "ring-1 ring-primary/50",
+    active && "ring-2 ring-primary ring-offset-2 ring-offset-background shadow-[0_0_26px_hsla(357,90%,48%,0.5)]"
+  );
+
+const navItems: (
+  | { labelKey: string; href: string; showNewBadge?: boolean; icon?: "bot" }
+)[] = [
   { labelKey: "home", href: "/" },
   { labelKey: "about", href: "/about" },
   { labelKey: "services", href: "/services", showNewBadge: true },
@@ -16,6 +29,7 @@ const navItems = [
   { labelKey: "customRequirement", href: "/custom-requirement" },
   { labelKey: "ourWork", href: "/our-work" },
   { labelKey: "expertise", href: "/expertise" },
+  { labelKey: "designAssistant", href: "/design-assistant", icon: "bot" },
 ];
 
 const SCROLL_THRESHOLD = 20;
@@ -54,30 +68,44 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-1">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              to={item.href}
-              className={`px-3 py-2 text-sm hover:text-foreground transition-colors duration-300 font-medium relative group inline-flex items-center ${
-                location.pathname === item.href ? "text-foreground" : "text-muted-foreground"
-              }`}
-            >
-              {t(`nav.${item.labelKey}`)}
-              {"showNewBadge" in item && item.showNewBadge && (
-                <span className="absolute -top-1 -right-0.5 flex">
-                  <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
-                    {t("nav.newBadge")}
-                  </Badge>
-                </span>
-              )}
-              <span
-                className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-primary transition-all duration-300 ${
-                  location.pathname === item.href ? "w-3/4" : "w-0 group-hover:w-3/4"
+        <nav className="hidden lg:flex items-center gap-1.5">
+          {navItems.map((item) => {
+            const active = location.pathname === item.href;
+            const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "AI Chatbot" } : {});
+
+            if (item.icon === "bot") {
+              return (
+                <Link key={item.href} to={item.href} className={navAiChatbotClass(active)}>
+                  <Bot className="h-3.5 w-3.5 shrink-0 text-white/95 drop-shadow-sm" aria-hidden />
+                  {label}
+                </Link>
+              );
+            }
+
+            return (
+              <Link
+                key={item.href}
+                to={item.href}
+                className={`px-3 py-2 text-sm hover:text-foreground transition-colors duration-300 font-medium relative group inline-flex items-center gap-1 ${
+                  active ? "text-foreground" : "text-muted-foreground"
                 }`}
-              />
-            </Link>
-          ))}
+              >
+                {label}
+                {"showNewBadge" in item && item.showNewBadge && (
+                  <span className="absolute -top-1 -right-0.5 flex">
+                    <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
+                      {t("nav.newBadge")}
+                    </Badge>
+                  </span>
+                )}
+                <span
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-primary transition-all duration-300 ${
+                    active ? "w-3/4" : "w-0 group-hover:w-3/4"
+                  }`}
+                />
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
@@ -110,25 +138,44 @@ export default function Header() {
             }`}
           >
             <nav className="flex flex-col p-4 gap-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className={`px-4 py-3 hover:text-foreground hover:bg-primary/10 rounded-lg transition-all flex items-center justify-between relative ${
-                    location.pathname === item.href ? "text-foreground bg-primary/10" : "text-muted-foreground"
-                  }`}
-                >
-                  {t(`nav.${item.labelKey}`)}
-                  {"showNewBadge" in item && item.showNewBadge && (
-                    <span className="absolute top-2 right-3 flex">
-                      <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
-                        {t("nav.newBadge")}
-                      </Badge>
-                    </span>
-                  )}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const active = location.pathname === item.href;
+                const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "AI Chatbot" } : {});
+
+                if (item.icon === "bot") {
+                  return (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className={cn(navAiChatbotClass(active), "justify-center py-3 w-full")}
+                    >
+                      <Bot className="h-4 w-4 shrink-0 text-white/95" aria-hidden />
+                      {label}
+                    </Link>
+                  );
+                }
+
+                return (
+                  <Link
+                    key={item.href}
+                    to={item.href}
+                    onClick={() => setMobileOpen(false)}
+                    className={`px-4 py-3 hover:text-foreground hover:bg-primary/10 rounded-lg transition-all flex items-center justify-between gap-2 relative ${
+                      active ? "text-foreground bg-primary/10" : "text-muted-foreground"
+                    }`}
+                  >
+                    {label}
+                    {"showNewBadge" in item && item.showNewBadge && (
+                      <span className="absolute top-2 right-3 flex">
+                        <Badge className="bg-red-600 hover:bg-red-600 text-white border-0 text-[9px] min-w-[1.25rem] h-4 px-1.5 py-0 font-bold shadow-[0_0_12px_2px_rgba(220,38,38,0.5)] animate-badge-blink">
+                          {t("nav.newBadge")}
+                        </Badge>
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
               <div className="px-4 pt-2">
                 <LanguageSwitcher />
               </div>

@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { servicesData } from "@/data/services";
+import ServiceCardDecorWrap from "@/components/ServiceCardDecorWrap";
 
 const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -16,6 +17,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
 
   return (
     <Link to={`/services/${service.slug}`}>
+      <ServiceCardDecorWrap index={index}>
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 36 }}
@@ -62,6 +64,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
           </span>
         </div>
       </motion.div>
+      </ServiceCardDecorWrap>
     </Link>
   );
 }
@@ -72,7 +75,7 @@ export default function ServicesSection() {
   const headingInView = useInView(headingRef, { once: true });
 
   return (
-    <section id="services" className="py-24 relative overflow-hidden section-glass-bg">
+    <section id="services" className="py-24 relative overflow-x-hidden section-glass-bg">
       <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-secondary/20 to-background/95" />
       <div className="absolute inset-0 opacity-[0.15]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, hsl(0 0% 100% / 0.12) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
       <div className="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-primary/5 blur-[100px] pointer-events-none" />
@@ -85,7 +88,7 @@ export default function ServicesSection() {
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">{t("servicesSection.desc")}</p>
         </motion.div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 gap-y-10 pb-4">
           {servicesData.map((service, i) => (
             <ServiceCard key={service.slug} service={service} index={i} />
           ))}

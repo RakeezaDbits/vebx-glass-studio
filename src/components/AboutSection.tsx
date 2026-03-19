@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Shield, Zap, Users, Target } from "lucide-react";
-import servicesBg from "@/assets/services-bg.jpg";
+import aboutSectionVisual from "@/assets/about-section-hero.png";
 
 const featureKeys = [
   { icon: Zap, titleKey: "about.features.innovationTitle", descKey: "about.features.innovationDesc" },
@@ -22,7 +22,11 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div ref={ref} initial={{ opacity: 0, x: -60 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.8 }} className="relative">
             <div className="rounded-3xl overflow-hidden border-glow liquid-glass">
-              <img src={servicesBg} alt="About vebx.run" className="w-full h-80 lg:h-[28rem] object-cover" />
+              <img
+              src={aboutSectionVisual}
+              alt="Abstract digital collaboration — deep crimson accents on dark glass"
+              className="w-full h-80 lg:h-[28rem] object-cover object-center"
+            />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl gradient-red opacity-20 blur-2xl" />
           </motion.div>

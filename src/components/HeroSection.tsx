@@ -4,11 +4,30 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import heroVideoAsset from "/videos/hero-bg.mp4.asset.json";
+import heroVideoAsset from "../../public/videos/hero-bg.mp4.asset.json";
 
-const VIDEO_SRC = heroVideoAsset.url;
+type HeroVideoAsset = {
+  url: string;
+  lovable_cdn_url?: string;
+};
+
+const asset = heroVideoAsset as HeroVideoAsset;
+
+function resolveHeroVideoSrc(): string {
+  const fromEnv = import.meta.env.VITE_HERO_VIDEO_URL?.trim();
+  if (fromEnv) return fromEnv;
+
+  if (typeof window !== "undefined" && asset.lovable_cdn_url) {
+    const host = window.location.hostname;
+    if (/lovableproject|lovable\.app/i.test(host)) {
+      return asset.lovable_cdn_url;
+    }
+  }
+
+  return asset.url?.trim() || "/videos/hero-bg.mp4";
+}
+
+const VIDEO_SRC = resolveHeroVideoSrc();
 const VIDEO_PLAYBACK_RATE = 0.42;
 const LOOP_CROSSFADE_SECONDS = 0.85;
 const LOOP_CROSSFADE_MS = 700;

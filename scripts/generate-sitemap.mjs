@@ -39,6 +39,7 @@ const routes = [
   { path: "/our-work", changefreq: "monthly", priority: "0.9" },
   { path: "/expertise", changefreq: "monthly", priority: "0.9" },
   { path: "/contact", changefreq: "monthly", priority: "0.9" },
+  { path: "/design-assistant", changefreq: "monthly", priority: "0.85" },
   { path: "/privacy-policy", changefreq: "yearly", priority: "0.5" },
 ];
 

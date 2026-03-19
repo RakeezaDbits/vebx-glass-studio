@@ -107,31 +107,14 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.06);
   }
 
+  /* Same glass base as hero tagline; pair with border-glow where you want the red rim */
   .liquid-glass-strong {
-    background: hsla(0, 0%, 100%, 0.06);
-    backdrop-filter: blur(40px) saturate(200%);
-    -webkit-backdrop-filter: blur(40px) saturate(200%);
-    border: 1px solid hsla(0, 0%, 100%, 0.1);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08);
+    @apply liquid-glass;
   }
 
-  /* Liquid glass cards – premium frosted glass matching hero badge style */
+  /* Same frosted base as hero tagline pill (.liquid-glass + .border-glow in markup) */
   .liquid-glass-card {
-    background: linear-gradient(
-      135deg,
-      hsla(0, 0%, 100%, 0.06) 0%,
-      hsla(0, 0%, 100%, 0.03) 50%,
-      hsla(357, 90%, 26%, 0.06) 100%
-    );
-    backdrop-filter: blur(30px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
-    border: 1px solid hsla(0, 0%, 100%, 0.1);
-    border-radius: 24px;
-    box-shadow:
-      0 8px 32px rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 0 hsla(0, 0%, 100%, 0.08),
-      inset 0 -1px 0 0 hsla(0, 0%, 0%, 0.1),
-      0 0 24px -6px hsla(357, 90%, 46%, 0.1);
+    @apply liquid-glass;
   }
 
   /* Section background so liquid glass stands out (subtle variation behind cards) */
@@ -139,71 +122,6 @@
     background: radial-gradient(ellipse 80% 60% at 50% 0%, hsl(0 0% 8%) 0%, transparent 50%),
                 radial-gradient(ellipse 60% 40% at 80% 100%, hsl(357 90% 26% / 0.06) 0%, transparent 50%),
                 radial-gradient(ellipse 50% 30% at 20% 80%, hsl(0 0% 6%) 0%, transparent 50%);
-  }
-
-  /* Cursor ball: real liquid glass — smooth, depth, throw (glow) */
-  .cursor-glass-ball {
-    position: relative;
-    isolation: isolate;
-    background: linear-gradient(
-      145deg,
-      hsla(0, 0%, 100%, 0.14) 0%,
-      hsla(0, 0%, 100%, 0.06) 40%,
-      hsla(0, 0%, 100%, 0.02) 100%
-    );
-    backdrop-filter: blur(40px) saturate(180%);
-    -webkit-backdrop-filter: blur(40px) saturate(180%);
-    border: 1px solid hsla(0, 0%, 100%, 0.18);
-    box-shadow:
-      0 0 0 1px hsla(0, 0%, 100%, 0.06) inset,
-      0 8px 32px -8px rgba(0, 0, 0, 0.35),
-      0 0 48px -12px hsla(0, 0%, 100%, 0.12),
-      0 0 80px -24px hsla(0, 0%, 100%, 0.06);
-    will-change: transform;
-  }
-
-  .cursor-glass-ball::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    border-radius: inherit;
-    overflow: hidden;
-    pointer-events: none;
-    box-shadow:
-      inset 1px 1px 0 0 rgba(255, 255, 255, 0.5),
-      inset -1px -1px 0 0 rgba(255, 255, 255, 0.08),
-      inset 0 8px 16px -4px rgba(255, 255, 255, 0.15),
-      inset 0 -2px 8px -2px rgba(0, 0, 0, 0.15);
-  }
-
-  .cursor-glass-ball::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    inset: -1px;
-    border-radius: inherit;
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
-    filter: url(#cursor-liquid-glass);
-    -webkit-filter: url(#cursor-liquid-glass);
-    overflow: hidden;
-    isolation: isolate;
-    pointer-events: none;
-  }
-
-  /* Magnifier mode: content shows through, glass is rim only */
-  .cursor-glass-ball-magnifier {
-    background: linear-gradient(
-      145deg,
-      hsla(0, 0%, 100%, 0.08) 0%,
-      hsla(0, 0%, 100%, 0.02) 50%,
-      hsla(0, 0%, 100%, 0.04) 100%
-    );
-  }
-
-  .cursor-glass-ball-copy {
-    background: hsl(var(--background));
   }
 
   .glow-red {
@@ -337,5 +255,23 @@
 
   .hero-headline-glow .text-gradient-red {
     filter: drop-shadow(0 0 12px hsla(357, 90%, 26%, 0.5)) drop-shadow(0 0 24px hsla(357, 90%, 26%, 0.25));
+  }
+
+  /* Chat FAB: robot “alive” motion (PNG + CSS — GIF-like loop) */
+  @keyframes chatbot-robot-idle {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    40% {
+      transform: translateY(-3px) scale(1.04);
+    }
+    70% {
+      transform: translateY(1px) scale(0.98);
+    }
+  }
+
+  .chatbot-robot-gif {
+    animation: chatbot-robot-idle 2.4s ease-in-out infinite;
+    will-change: transform;
   }
 }
