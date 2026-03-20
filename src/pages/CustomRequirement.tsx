@@ -207,17 +207,22 @@ export default function CustomRequirement() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-3">
-                  <Label htmlFor="name" className="text-foreground">{t("customReq.yourName")}</Label>
+                  <Label htmlFor="name" className="text-foreground">
+                    {t("customReq.yourName")} <span className="text-primary">*</span>
+                  </Label>
                   <Input
                     id="name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={t("customReq.namePlaceholder")}
                     className="bg-secondary/50 border-border h-12"
+                    required
                   />
                 </div>
                 <div className="space-y-3">
-                  <Label htmlFor="whatsapp" className="text-foreground">Your WhatsApp Number</Label>
+                  <Label htmlFor="whatsapp" className="text-foreground">
+                    Your WhatsApp Number <span className="text-primary">*</span>
+                  </Label>
                   <Input
                     id="whatsapp"
                     type="tel"
@@ -225,6 +230,7 @@ export default function CustomRequirement() {
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="e.g. +92 300 1234567"
                     className="bg-secondary/50 border-border h-12"
+                    required
                   />
                 </div>
               </div>

@@ -28,7 +28,6 @@ import AdminExpertise from "./pages/admin/AdminExpertise";
 import AdminSettings from "./pages/admin/AdminSettings";
 import ScrollToTop from "./components/ScrollToTop";
 import Preloader from "./components/Preloader";
-import AIChatbot from "./components/AIChatbot";
 import GlobalPageDecor from "./components/GlobalPageDecor";
 import CursorSnake from "./components/CursorSnake";
 
@@ -45,7 +44,6 @@ const App = () => (
         <BrowserRouter>
           <Preloader />
           <ScrollToTop />
-          <AIChatbot />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
