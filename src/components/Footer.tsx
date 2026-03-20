@@ -26,46 +26,8 @@ const quickLinks = [
 export default function Footer() {
   const { t } = useTranslation();
 
-  const latestInsights = [
-    { titleKey: "footer.insights.title1", excerptKey: "footer.insights.excerpt1", href: "/our-work" },
-    { titleKey: "footer.insights.title2", excerptKey: "footer.insights.excerpt2", href: "/services" },
-    { titleKey: "footer.insights.title3", excerptKey: "footer.insights.excerpt3", href: "/about" },
-  ];
-
   return (
     <footer className="relative mt-16 overflow-hidden">
-      <div className="container px-4 lg:px-8 mb-6">
-        <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4 justify-between">
-          <div>
-            <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
-            <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
-          </div>
-          <form className="flex flex-col sm:flex-row gap-2 w-full md:w-auto" onSubmit={(e) => e.preventDefault()}>
-            <input type="email" placeholder="you@company.com" className="px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64" />
-            <button type="submit" className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
-              {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
-            </button>
-          </form>
-        </div>
-      </div>
-
-      <div className="container px-4 lg:px-8 mb-6">
-        <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8">
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">{t("footer.latestInsights")}</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {latestInsights.map((item) => (
-              <Link key={item.titleKey} to={item.href} className="group block p-4 rounded-xl border border-white/5 hover:bg-white/5 hover:border-white/10 transition-all duration-300">
-                <h5 className="font-display text-sm font-medium text-foreground group-hover:text-primary transition-colors mb-1 line-clamp-2">{t(item.titleKey)}</h5>
-                <p className="text-xs text-muted-foreground line-clamp-2">{t(item.excerptKey)}</p>
-                <span className="inline-flex items-center gap-1 text-xs text-primary mt-2 font-medium">
-                  {t("footer.readMore")} <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform rtl:rotate-180" />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-
       <div className="liquid-glass border-glow border-t border-white/10">
         <div className="container px-4 lg:px-8 pt-12 pb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
@@ -126,6 +88,24 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
+        <div className="border-t border-white/10">
+          <div className="container px-4 lg:px-8 py-6">
+            <div className="w-full flex flex-col lg:flex-row lg:items-center gap-4 justify-between">
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
+                <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
+              </div>
+              <form className="flex flex-col sm:flex-row gap-2 w-full lg:w-auto" onSubmit={(e) => e.preventDefault()}>
+                <input type="email" placeholder="you@company.com" className="px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64" />
+                <button type="submit" className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                  {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
         <div className="border-t border-white/10 pt-6 pb-8">
           <div className="container px-4 lg:px-8">
             <p className="text-xs text-muted-foreground text-center sm:text-left">

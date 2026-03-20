@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_HERO_VIDEO_URL?: string;
+  readonly VITE_WHATSAPP_NUMBER?: string;
 }
 
 interface ImportMeta {

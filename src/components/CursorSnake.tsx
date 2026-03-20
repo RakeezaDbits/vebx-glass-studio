@@ -103,9 +103,9 @@ export default function CursorSnake() {
         for (let i = 0; i < M - 1; i++) {
           const mid = (wAt(i) + wAt(i + 1)) / 2;
           ctx.lineWidth = mid * mul;
-          ctx.strokeStyle = `hsla(357, 88%, 58%, ${alpha})`;
+          ctx.strokeStyle = `hsla(356, 92%, 34%, ${alpha})`;
           ctx.shadowBlur = blur;
-          ctx.shadowColor = `hsla(357, 90%, 55%, ${glowA})`;
+          ctx.shadowColor = `hsla(356, 92%, 30%, ${glowA})`;
           ctx.beginPath();
           ctx.moveTo(ex[i].x, ex[i].y);
           ctx.lineTo(ex[i + 1].x, ex[i + 1].y);
@@ -120,9 +120,9 @@ export default function CursorSnake() {
       for (let i = 0; i < M - 1; i++) {
         const mid = (wAt(i) + wAt(i + 1)) / 2;
         ctx.lineWidth = mid * 1.05;
-        ctx.strokeStyle = "hsla(357, 85%, 62%, 0.42)";
+        ctx.strokeStyle = "hsla(356, 90%, 40%, 0.42)";
         ctx.shadowBlur = 10;
-        ctx.shadowColor = "hsla(357, 90%, 52%, 0.4)";
+        ctx.shadowColor = "hsla(356, 92%, 30%, 0.42)";
         ctx.beginPath();
         ctx.moveTo(ex[i].x, ex[i].y);
         ctx.lineTo(ex[i + 1].x, ex[i + 1].y);
