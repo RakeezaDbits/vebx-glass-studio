@@ -5,7 +5,7 @@ export default function DesignAssistant() {
   return (
     <PageLayout
       seo={{
-        title: "AI Chatbot",
+        title: "VebXrun AI",
         description:
           "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
         canonicalPath: "/design-assistant",
@@ -24,7 +24,7 @@ export default function DesignAssistant() {
               />
               <div>
                 <h1 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight">
-                  AI Chatbot
+                  VebXrun AI
                 </h1>
                 <p className="text-sm text-muted-foreground mt-1">
                   Type messages with your idea — we generate reference images for web and app designs

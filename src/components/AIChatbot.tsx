@@ -22,7 +22,7 @@ export default function AIChatbot() {
                 "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background",
                 "shadow-[0_0_20px_hsla(357,90%,46%,0.25),0_0_40px_hsla(357,90%,46%,0.1)] hover:shadow-[0_0_24px_hsla(357,90%,46%,0.35),0_0_48px_hsla(357,90%,46%,0.15)]"
               )}
-              aria-label="Open AI Chatbot"
+              aria-label="Open VebXrun AI"
             >
               <img
                 src="/chatbot-robot-btn.png"
@@ -35,7 +35,7 @@ export default function AIChatbot() {
             </button>
           </TooltipTrigger>
           <TooltipContent side="left" className="font-medium max-w-[240px]">
-            AI Chatbot — open messages, describe your design; generate reference images for your project
+            VebXrun AI — open messages, describe your design; generate reference images for your project
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -65,7 +65,7 @@ export default function AIChatbot() {
               <img src="/chatbot-robot-btn.png" alt="" className="h-full w-full object-cover" />
             </div>
             <div>
-              <h2 className="font-display text-lg font-semibold text-foreground">AI Chatbot</h2>
+              <h2 className="font-display text-lg font-semibold text-foreground">VebXrun AI</h2>
               <p className="text-xs text-muted-foreground mt-0.5">Same as header — messages + image ideas</p>
             </div>
           </div>

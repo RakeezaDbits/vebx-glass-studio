@@ -71,7 +71,7 @@ export default function Header() {
         <nav className="hidden lg:flex items-center gap-1.5">
           {navItems.map((item) => {
             const active = location.pathname === item.href;
-            const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "AI Chatbot" } : {});
+            const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "VebXrun AI" } : {});
 
             if (item.icon === "bot") {
               return (
@@ -140,7 +140,7 @@ export default function Header() {
             <nav className="flex flex-col p-4 gap-2">
               {navItems.map((item) => {
                 const active = location.pathname === item.href;
-                const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "AI Chatbot" } : {});
+                const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "VebXrun AI" } : {});
 
                 if (item.icon === "bot") {
                   return (

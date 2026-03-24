@@ -262,7 +262,7 @@ export default function Services() {
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
               {t("servicesPage.customSolutionDesc")}
             </p>
-            <Link to="/contact">
+            <Link to="/contact#live-chat">
               <Button variant="hero" size="lg" className="gap-2">
                 {t("servicesPage.getInTouch")} <ArrowRight className="w-5 h-5 rtl:rotate-180" />
               </Button>

@@ -91,7 +91,7 @@ export default function Expertise() {
           <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-20 text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t("expertise.ctaHeading")} <span className="text-gradient-red">{t("expertise.ctaHighlight")}</span></h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">{t("expertise.ctaDesc")}</p>
-            <Link to="/contact"><Button variant="hero" size="lg" className="gap-2">{t("expertise.ctaBtn")} <ArrowRight className="w-5 h-5 rtl:rotate-180" /></Button></Link>
+            <Link to="/contact#live-chat"><Button variant="hero" size="lg" className="gap-2">{t("expertise.ctaBtn")} <ArrowRight className="w-5 h-5 rtl:rotate-180" /></Button></Link>
           </motion.div>
         </div>
       </section>

@@ -21,7 +21,7 @@ export default function CTASection() {
             {t("cta.heading")} <span className="text-gradient-red">{t("cta.headingHighlight")}</span> {t("cta.headingSuffix")}
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">{t("cta.desc")}</p>
-          <Link to="/contact">
+          <Link to="/contact#live-chat">
             <Button variant="hero" size="lg" className="gap-2">
               {t("cta.button")} <ArrowRight className="w-5 h-5 rtl:rotate-180" />
             </Button>

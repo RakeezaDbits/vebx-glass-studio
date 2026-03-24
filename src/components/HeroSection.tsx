@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroVideoAsset from "../../public/videos/hero-bg.mp4.asset.json";
+import heroVideoAsset from "@/videos/hero-bg.mp4.asset.json";
 
 type HeroVideoAsset = {
   url: string;

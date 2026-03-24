@@ -40,7 +40,7 @@ export default function HowWeWorkSection() {
           ))}
         </div>
         <motion.div initial={{ opacity: 0, y: 24 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6, delay: 0.5 }} className="text-center mt-12">
-          <Link to="/contact" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/90 transition-colors">
+          <Link to="/contact#live-chat" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/90 transition-colors">
             {t("howWeWork.startProject")} <Rocket className="w-4 h-4" />
           </Link>
         </motion.div>

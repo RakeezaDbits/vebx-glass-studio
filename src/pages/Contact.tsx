@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Mail, Send, Clock } from "lucide-react";
+import { Mail, Send, Clock, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -11,6 +11,9 @@ import { toast } from "sonner";
 
 export default function Contact() {
   const { t } = useTranslation();
+  const liveChatUrl =
+    import.meta.env.VITE_LIVE_CHAT_URL?.trim() ||
+    "https://wa.me/923001234567?text=Hi%20Vebx.run%2C%20I%20want%20to%20discuss%20my%20project.";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -65,7 +68,15 @@ export default function Contact() {
         <div className="container px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="liquid-glass rounded-2xl p-8 border-glow">
-              <h3 className="font-display text-xl font-bold text-foreground mb-6">{t("contact.sendMessage")}</h3>
+              <div id="live-chat" className="mb-6 space-y-3">
+                <h3 className="font-display text-xl font-bold text-foreground">{t("contact.sendMessage")}</h3>
+                <a href={liveChatUrl} target="_blank" rel="noopener noreferrer" className="block">
+                  <Button variant="hero" size="lg" className="w-full gap-2">
+                    {t("contact.liveChat")} <MessageCircle className="w-4 h-4" />
+                  </Button>
+                </a>
+                <p className="text-sm text-muted-foreground">{t("contact.liveChatDesc")}</p>
+              </div>
               <form className="space-y-5" onSubmit={handleSubmit}>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <Input placeholder={t("contact.yourName")} className="bg-secondary/50 border-border" value={name} onChange={(e) => setName(e.target.value)} />
@@ -81,6 +92,16 @@ export default function Contact() {
                 <Mail className="w-8 h-8 text-primary mb-4" />
                 <h4 className="font-display text-lg font-semibold text-foreground mb-2">{t("contact.emailUs")}</h4>
                 <a href="mailto:support@vebx.run" className="text-muted-foreground hover:text-primary transition-colors">support@vebx.run</a>
+              </div>
+              <div className="liquid-glass rounded-2xl p-8 border-glow">
+                <MessageCircle className="w-8 h-8 text-primary mb-4" />
+                <h4 className="font-display text-lg font-semibold text-foreground mb-2">{t("contact.liveChat")}</h4>
+                <p className="text-sm text-muted-foreground mb-4">{t("contact.liveChatDesc")}</p>
+                <a href={liveChatUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="hero" className="gap-2">
+                    {t("contact.liveChat")} <MessageCircle className="w-4 h-4" />
+                  </Button>
+                </a>
               </div>
               <div className="liquid-glass rounded-2xl p-8 border-glow">
                 <Clock className="w-8 h-8 text-primary mb-4" />

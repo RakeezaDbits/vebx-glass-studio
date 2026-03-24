@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Shield, Zap, Users, Target, Award, Lightbulb, Globe, Heart } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
-import servicesBg from "@/assets/services-bg.jpg";
 
 export default function About() {
   const { t } = useTranslation();
@@ -44,16 +43,19 @@ export default function About() {
       </section>
       <section className="py-16 relative">
         <div className="container px-4 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div initial={{ opacity: 0, x: -60 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="rounded-3xl overflow-hidden border-glow liquid-glass">
-              <img src={servicesBg} alt="About vebx.run" className="w-full h-80 lg:h-[28rem] object-cover" />
-            </motion.div>
-            <motion.div initial={{ opacity: 0, x: 60 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
-              <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t("about.fromStartups")} <span className="text-gradient-red">{t("about.enterprises")}</span></h2>
-              <p className="text-muted-foreground mb-6 leading-relaxed">{t("about.fromStartupsDesc1")}</p>
-              <p className="text-muted-foreground leading-relaxed">{t("about.fromStartupsDesc2")}</p>
-            </motion.div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+              {t("about.fromStartups")} <span className="text-gradient-red">{t("about.enterprises")}</span>
+            </h2>
+            <p className="text-muted-foreground mb-6 leading-relaxed">{t("about.fromStartupsDesc1")}</p>
+            <p className="text-muted-foreground leading-relaxed">{t("about.fromStartupsDesc2")}</p>
+          </motion.div>
         </div>
       </section>
       <section className="py-16">

@@ -67,7 +67,7 @@ export default function Footer() {
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">{t("footer.letsWork")}</h4>
               <p className="text-sm text-muted-foreground mb-4">{t("footer.letsWorkDesc")}</p>
-              <Link to="/contact" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform mb-4">{t("footer.getInTouch")}</Link>
+              <Link to="/contact#live-chat" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform mb-4">{t("footer.getInTouch")}</Link>
               <div className="flex flex-wrap gap-2">
                 {footerSocialLinks.map((item) => {
                   const Icon = item.icon;
@@ -96,9 +96,20 @@ export default function Footer() {
                 <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
                 <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
               </div>
-              <form className="flex flex-col sm:flex-row gap-2 w-full lg:w-auto" onSubmit={(e) => e.preventDefault()}>
-                <input type="email" placeholder="you@company.com" className="px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64" />
-                <button type="submit" className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+              <form
+                className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 w-full lg:w-auto"
+                onSubmit={(e) => e.preventDefault()}
+              >
+                <input
+                  type="email"
+                  placeholder="you@company.com"
+                  autoComplete="email"
+                  className="min-w-0 flex-1 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64 sm:max-w-xs"
+                />
+                <button
+                  type="submit"
+                  className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 shadow-md shadow-primary/25 border border-primary/30 hover:opacity-90 transition-opacity flex items-center justify-center gap-2 w-full sm:w-auto"
+                >
                   {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
                 </button>
               </form>

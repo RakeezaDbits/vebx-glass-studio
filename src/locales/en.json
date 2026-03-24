@@ -10,7 +10,7 @@
     "expertise": "Expertise",
     "contactUs": "Contact Us",
     "customRequirement": "Get a Quote",
-    "designAssistant": "AI Chatbot"
+    "designAssistant": "VebXrun AI"
   },
   "hero": {
     "tagline": "Imagine. Innovate. Inspire.",
@@ -74,7 +74,7 @@
     "headingHighlight": "Transform",
     "headingSuffix": "Your Business?",
     "desc": "Let's build something extraordinary together. Your next big idea starts here.",
-    "button": "Start Your Project"
+    "button": "Let's Talk"
   },
   "whyChoose": {
     "tag": "Why vebx.run",
@@ -107,7 +107,7 @@
       "deliverTitle": "Deliver",
       "deliverDesc": "Launch, support, and iterate."
     },
-    "startProject": "Start your project"
+    "startProject": "Let's Talk"
   },
   "trusted": {
     "tag": "Trusted for",
@@ -138,7 +138,7 @@
     "services": "Services",
     "letsWork": "Let's Work Together",
     "letsWorkDesc": "Ready to bring your vision to life? Reach out and let's create something extraordinary.",
-    "getInTouch": "Get in Touch",
+    "getInTouch": "Let's Talk",
     "copyright": "Copyright reserved 2024–2026 with",
     "vebexRun": "Vebex Run",
     "stayInLoop": "Stay in the loop",
@@ -167,14 +167,14 @@
     "subtitle": "End-to-end digital solutions designed to elevate your business. From concept to deployment, we've got you covered.",
     "customSolution": "Need a Custom Solution?",
     "customSolutionDesc": "Don't see exactly what you're looking for? We build custom digital solutions tailored to your unique requirements.",
-    "getInTouch": "Get in Touch"
+    "getInTouch": "Let's Talk"
   },
   "newServicesPage": {
     "tag": "New",
     "heading": "New",
     "headingHighlight": "Services",
     "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Get in Touch"
+    "getInTouch": "Let's Talk"
   },
   "pricing": {
     "tag": "Pricing",
@@ -300,6 +300,8 @@
     "headingHighlight": "Talk",
     "desc": "Have a project in mind? We'd love to hear from you. Send us a message and we'll get back to you within 24 hours.",
     "sendMessage": "Send a Message",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Chat instantly with our team on WhatsApp.",
     "yourName": "Your Name",
     "yourEmail": "Your Email",
     "subject": "Subject",
@@ -344,7 +346,7 @@
     "ctaHeading": "Let's Build Something",
     "ctaHighlight": "Amazing",
     "ctaDesc": "Have a project in mind? Our team of experts is ready to bring your vision to life.",
-    "ctaBtn": "Get in Touch"
+    "ctaBtn": "Let's Talk"
   },
   "ourWork": {
     "tag": "Portfolio",
@@ -372,7 +374,7 @@
     "ctaHighlight": "Next Success",
     "ctaSuffix": "Story?",
     "ctaDesc": "Let's discuss your project and create something extraordinary together.",
-    "ctaBtn": "Start a Project"
+    "ctaBtn": "Let's Talk"
   },
   "privacy": {
     "tag": "Legal",

@@ -198,9 +198,9 @@ export default function ServiceDetail() {
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
               Let's discuss your project and build something great together.
             </p>
-            <Link to="/contact">
+            <Link to="/contact#live-chat">
               <Button variant="hero" size="lg" className="gap-2">
-                Get in Touch <ArrowRight className="w-5 h-5" />
+                Let's Talk <ArrowRight className="w-5 h-5" />
               </Button>
             </Link>
           </motion.div>

@@ -77,7 +77,7 @@ export default function OurWork() {
           <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="liquid-glass-strong rounded-3xl border-glow box-glow-hover p-12 md:p-20 text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t("ourWork.ctaHeading")} <span className="text-gradient-red">{t("ourWork.ctaHighlight")}</span> {t("ourWork.ctaSuffix")}</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">{t("ourWork.ctaDesc")}</p>
-            <Link to="/contact"><Button variant="hero" size="lg" className="gap-2">{t("ourWork.ctaBtn")} <ArrowRight className="w-5 h-5 rtl:rotate-180" /></Button></Link>
+            <Link to="/contact#live-chat"><Button variant="hero" size="lg" className="gap-2">{t("ourWork.ctaBtn")} <ArrowRight className="w-5 h-5 rtl:rotate-180" /></Button></Link>
           </motion.div>
         </div>
       </section>
