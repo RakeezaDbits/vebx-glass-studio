@@ -4,6 +4,8 @@ import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageLayout from "@/components/PageLayout";
 import { getServiceBySlug } from "@/data/services";
+import ServiceHeroIllustration from "@/components/ServiceHeroIllustration";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 import NotFound from "./NotFound";
 
 export default function ServiceDetail() {
@@ -23,15 +25,20 @@ export default function ServiceDetail() {
       }}
     >
       {/* Hero – bg top pe, header ke niche hi (no gap); 2D/3D Animation par thora animated bg */}
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-x-clip overflow-y-visible -mt-16 pt-16">
         {/* Background image – viewport top se, header ke niche */}
         <div className="absolute inset-0">
-          <img
-            src={`/services/${service.slug}.png`}
-            alt=""
-            className="w-full h-full object-cover"
-            aria-hidden
-          />
+          {service.slug !== "game-development" && (
+            <img
+              src={`/services/${service.slug}.png`}
+              alt=""
+              className="w-full h-full object-cover"
+              aria-hidden
+            />
+          )}
+          {service.slug === "game-development" && (
+            <div className="absolute inset-0 bg-background" aria-hidden />
+          )}
           {service.slug === "2d-3d-animation" && (
             <>
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -61,58 +68,88 @@ export default function ServiceDetail() {
               <div className="hero-bg-gradient-animated" aria-hidden />
             </>
           )}
-          <div className="absolute inset-0 bg-background/40 backdrop-blur-[1px]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/60" />
-        </div>
-        {/* Hero accent – center */}
-        <div className="container relative z-10 px-4 lg:px-8 text-center py-24 pt-20">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="flex flex-col items-center"
-          >
-            <div className="w-24 h-24 md:w-28 md:h-28 rounded-2xl gradient-red flex items-center justify-center shrink-0 shadow-lg shadow-primary/25 mb-6">
-              <Icon className="w-12 h-12 md:w-14 md:h-14 text-primary-foreground" />
-            </div>
-            <motion.span
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-2 block"
+          {service.slug === "game-development" && (
+            <div
+              className="absolute inset-0 w-full pointer-events-none overflow-hidden"
+              aria-hidden
             >
-              Service
-            </motion.span>
-            <motion.h1
+              <dotlottie-wc
+                src="https://lottie.host/962b09e3-b30a-46d8-9bd4-6da57d8e8224/SMq5eW6HgK.lottie"
+                autoplay
+                loop
+                layout={JSON.stringify({ fit: "cover", align: [0.5, 0.5] })}
+                className="block h-full min-h-full w-full max-w-none"
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+          )}
+          <MediaBlackOverlay className="bg-black/90" />
+        </div>
+        {/* Hero: copy left, illustration always right (desktop); mobile stacks text then image */}
+        <div className="container relative z-10 px-4 lg:px-8 py-24 pt-20">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 xl:gap-12 items-center min-h-[min(68vh,760px)]">
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.25 }}
-              className="text-4xl md:text-6xl font-display font-bold mb-6"
+              transition={{ delay: 0.1 }}
+              className="flex flex-col items-center text-center lg:items-start lg:text-left lg:col-span-5"
             >
-              {service.title}
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.35 }}
-              className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8"
-            >
-              {service.longDesc}
-            </motion.p>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.45 }}
-              className="flex justify-center"
-            >
-              <Link
-                to="/services"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl liquid-glass border-glow text-sm font-medium text-foreground hover:text-primary hover:bg-white/10 transition-all duration-300"
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-2xl gradient-red flex items-center justify-center shrink-0 shadow-lg shadow-primary/25 mb-6">
+                <Icon className="w-12 h-12 md:w-14 md:h-14 text-primary-foreground" />
+              </div>
+              <motion.span
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-2 block"
               >
-                ← All Services
-              </Link>
+                Service
+              </motion.span>
+              <motion.h1
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.25 }}
+                className="text-4xl md:text-5xl xl:text-6xl font-display font-bold mb-6"
+              >
+                {service.title}
+              </motion.h1>
+              <motion.p
+                initial={{ opacity: 0, y: 24 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.35 }}
+                className="text-lg text-muted-foreground max-w-2xl lg:max-w-none leading-relaxed mb-8"
+              >
+                {service.longDesc}
+              </motion.p>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.45 }}
+                className="flex justify-center lg:justify-start w-full"
+              >
+                <Link
+                  to="/services"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl liquid-glass border-glow text-sm font-medium text-foreground hover:text-primary hover:bg-white/10 transition-all duration-300"
+                >
+                  ← All Services
+                </Link>
+              </motion.div>
             </motion.div>
-          </motion.div>
+            <motion.div
+              className="relative flex items-center justify-center lg:justify-end pointer-events-none select-none lg:col-span-7 w-full min-h-0 lg:py-4"
+              initial={{ opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+            >
+              <motion.div
+                className="relative w-full max-w-none flex items-center justify-center lg:justify-end min-h-0"
+                animate={{ y: [0, -14, 0] }}
+                transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <ServiceHeroIllustration slug={service.slug} aria-hidden />
+              </motion.div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

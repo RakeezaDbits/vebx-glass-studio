@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 export default function PrivacyPolicy() {
   const { t } = useTranslation();
@@ -16,8 +17,8 @@ export default function PrivacyPolicy() {
     >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16 page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/banners/privacy-banner.jpg" alt="" className="w-full h-full object-cover opacity-50" aria-hidden />
-          <div className="absolute inset-0 bg-background/55" />
+          <img src="/banners/privacy-banner.jpg" alt="" className="w-full h-full object-cover" aria-hidden />
+          <MediaBlackOverlay />
         </div>
         <div className="container relative z-10 px-4 lg:px-8 max-w-4xl">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-16">

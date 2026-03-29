@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { servicesData } from "@/data/services";
 import ServiceCardDecorWrap from "@/components/ServiceCardDecorWrap";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -47,8 +48,8 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
               (e.target as HTMLImageElement).style.display = "none";
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-          <div className="absolute top-4 right-4 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
+          <MediaBlackOverlay className="z-[1]" />
+          <div className="absolute top-4 right-4 z-10 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>
         </div>

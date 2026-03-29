@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import PageLayout from "@/components/PageLayout";
 import { getNewServiceBySlug } from "@/data/newServices";
 import NotFound from "./NotFound";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 import { useTranslation } from "react-i18next";
 
 export default function NewServiceDetail() {
@@ -38,8 +39,7 @@ export default function NewServiceDetail() {
             className="w-full h-full object-cover"
             aria-hidden
           />
-          <div className="absolute inset-0 bg-background/40 backdrop-blur-[1px]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/60" />
+          <MediaBlackOverlay />
         </div>
         <div className="container relative z-10 px-4 lg:px-8 text-center py-24 pt-20">
           <motion.div

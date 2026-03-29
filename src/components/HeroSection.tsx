@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroVideoAsset from "@/videos/hero-bg.mp4.asset.json";
 
@@ -137,7 +138,7 @@ export default function HeroSection() {
           <img
             src="/hero/hero-slide-1.png"
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-30"
+            className="absolute inset-0 w-full h-full object-cover"
           />
         )}
         {!videoFailed &&

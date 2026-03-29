@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 const techStacks = [
   { categoryKey: "expertise.categories.frontend", techs: ["React", "Next.js", "Vue.js", "Angular", "TypeScript", "Tailwind CSS", "Framer Motion"] },
@@ -29,8 +30,8 @@ export default function Expertise() {
     >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16 page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/banners/expertise-banner.jpg" alt="" className="w-full h-full object-cover opacity-50" aria-hidden />
-          <div className="absolute inset-0 bg-background/55" />
+          <img src="/banners/expertise-banner.jpg" alt="" className="w-full h-full object-cover" aria-hidden />
+          <MediaBlackOverlay />
         </div>
         <div className="absolute bottom-1/3 left-1/3 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">
@@ -43,8 +44,8 @@ export default function Expertise() {
       </section>
       <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-20" aria-hidden />
-          <div className="absolute inset-0 bg-background/80" />
+          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover" aria-hidden />
+          <MediaBlackOverlay />
         </div>
         <div className="container relative z-10 px-4 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -56,9 +57,9 @@ export default function Expertise() {
                     <span key={tech} className="group/btn relative liquid-glass rounded-full border-glow overflow-hidden cursor-default inline-flex items-center">
                       <span className="absolute inset-0 overflow-hidden rounded-full">
                         <img src="/services/software-development.png" alt="" className="absolute inset-0 w-full h-full object-cover blur-2xl scale-150 group-hover/btn:blur-xl group-hover/btn:scale-125 transition-all duration-500" aria-hidden />
+                        <MediaBlackOverlay className="rounded-full" />
                       </span>
-                      <span className="absolute inset-0 rounded-full bg-background/75 group-hover/btn:bg-background/60 transition-colors duration-300" />
-                      <span className="relative px-3 py-1.5 text-xs font-medium text-muted-foreground group-hover/btn:text-foreground group-hover/btn:text-primary/90 transition-colors">{tech}</span>
+                      <span className="relative z-10 px-3 py-1.5 text-xs font-medium text-muted-foreground group-hover/btn:text-foreground group-hover/btn:text-primary/90 transition-colors">{tech}</span>
                     </span>
                   ))}
                 </div>
@@ -69,8 +70,8 @@ export default function Expertise() {
       </section>
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover opacity-15" aria-hidden />
-          <div className="absolute inset-0 bg-background/90" />
+          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover" aria-hidden />
+          <MediaBlackOverlay />
         </div>
         <div className="container relative z-10 px-4 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">

@@ -4,6 +4,7 @@ import { ExternalLink, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 const projectKeys = [
   { key: "emaanai", tech: ["React Native", "Firebase", "Node.js"], image: "/our-work/emaanai.png" },
@@ -35,8 +36,8 @@ export default function OurWork() {
     >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16 page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/banners/ourwork-banner.jpg" alt="" className="w-full h-full object-cover opacity-50" aria-hidden />
-          <div className="absolute inset-0 bg-background/55" />
+          <img src="/banners/ourwork-banner.jpg" alt="" className="w-full h-full object-cover" aria-hidden />
+          <MediaBlackOverlay />
         </div>
         <div className="absolute top-1/4 right-1/4 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />
         <div className="container relative z-10 px-4 lg:px-8 text-center">
@@ -53,11 +54,11 @@ export default function OurWork() {
             {projectKeys.map((project, i) => (
               <motion.div key={project.key} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="group liquid-glass rounded-2xl overflow-hidden border-glow box-glow-hover hover:bg-primary/5 transition-all duration-500">
                 <div className="h-48 relative overflow-hidden bg-secondary/30">
-                  <div className="absolute inset-0 gradient-red opacity-20 group-hover:opacity-30 transition-opacity" />
                   {"image" in project && project.image && (
                     <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
                   )}
-                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none"><ExternalLink className="w-8 h-8 text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300" /></div>
+                  <MediaBlackOverlay />
+                  <div className="absolute inset-0 z-10 flex items-center justify-center pointer-events-none"><ExternalLink className="w-8 h-8 text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300" /></div>
                 </div>
                 <div className="p-6">
                   <span className="text-xs font-display uppercase tracking-wider text-primary">{t(`ourWork.projects.${project.key}.category`)}</span>

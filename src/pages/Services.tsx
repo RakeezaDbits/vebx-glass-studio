@@ -8,6 +8,7 @@ import PageLayout from "@/components/PageLayout";
 import { servicesData } from "@/data/services";
 import { newServicesData } from "@/data/newServices";
 import ServiceCardDecorWrap from "@/components/ServiceCardDecorWrap";
+import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -52,8 +53,8 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
               (e.target as HTMLImageElement).style.display = "none";
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-          <div className="absolute top-4 right-4 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
+          <MediaBlackOverlay className="z-[1]" />
+          <div className="absolute top-4 right-4 z-10 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>
         </div>
@@ -118,8 +119,8 @@ function NewServiceCard({
             loading="lazy"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-          <div className="absolute top-4 right-4 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
+          <MediaBlackOverlay className="z-[1]" />
+          <div className="absolute top-4 right-4 z-10 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>
         </div>
@@ -161,8 +162,7 @@ export default function Services() {
             className="w-full h-full object-cover"
             aria-hidden
           />
-          <div className="absolute inset-0 bg-background/62 backdrop-blur-[1px]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/40 to-background/60" />
+          <MediaBlackOverlay />
         </div>
         {/* Hero accent – center */}
         <div className="container relative z-10 px-4 lg:px-8 text-center py-24">
