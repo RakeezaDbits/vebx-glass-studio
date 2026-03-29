@@ -24,7 +24,7 @@ export default function Pricing() {
       seo={{
         title: "Pricing",
         description:
-          "Transparent pricing for mobile apps, web development, and digital solutions. Starter, Professional & Enterprise plans. Get a quote from vebx.run.",
+          "Transparent pricing for mobile apps, web development, and digital solutions. Starter, Professional & Enterprise plans. Get a quote from vebxrun.",
         canonicalPath: "/pricing",
       }}
     >

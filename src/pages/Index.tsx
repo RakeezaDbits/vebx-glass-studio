@@ -13,7 +13,7 @@ const Index = () => (
     seo={{
       title: "Home",
       description:
-        "vebx.run — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
+        "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
       canonicalPath: "/",
     }}
   >

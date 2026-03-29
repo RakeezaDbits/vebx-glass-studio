@@ -13,11 +13,11 @@
   },
   "about": {
     "tag": "关于我们", "heading": "打造", "headingHighlight": "数字卓越", "headingSuffix": "自创立以来",
-    "desc": "在vebx.run，我们不仅是开发者——我们是数字架构师。我们将创意愿景与技术专长相结合，打造令人振奋的产品。",
-    "heroDesc": "在vebx.run，我们不仅是开发者——我们是数字架构师。",
+    "desc": "在vebxrun，我们不仅是开发者——我们是数字架构师。我们将创意愿景与技术专长相结合，打造令人振奋的产品。",
+    "heroDesc": "在vebxrun，我们不仅是开发者——我们是数字架构师。",
     "features": { "innovationTitle": "创新优先", "innovationDesc": "前沿技术栈", "secureTitle": "可靠安全", "secureDesc": "企业级安全", "teamTitle": "专家团队", "teamDesc": "全球资深开发者", "resultsTitle": "结果导向", "resultsDesc": "超越目标的可衡量成果" },
     "fromStartups": "从初创到", "enterprises": "企业",
-    "fromStartupsDesc1": "vebx.run已成长为服务各行业客户的全球数字机构。",
+    "fromStartupsDesc1": "vebxrun已成长为服务各行业客户的全球数字机构。",
     "fromStartupsDesc2": "我们的团队涵盖移动开发、网络平台、元宇宙体验、游戏设计等领域。",
     "valuesTag": "价值观", "valuesHeading": "驱动", "valuesHighlight": "我们的", "valuesSuffix": "力量",
     "values": { "creativeTitle": "创意思维", "creativeDesc": "以全新视角审视每个项目。", "qualityTitle": "品质卓越", "qualityDesc": "每一行代码都精益求精。", "globalTitle": "全球覆盖", "globalDesc": "服务全球客户。", "clientTitle": "以客户为中心", "clientDesc": "您的成功就是我们的成功。" },
@@ -25,7 +25,7 @@
   },
   "cta": { "heading": "准备好", "headingHighlight": "转型", "headingSuffix": "您的业务？", "desc": "让我们一起打造非凡。", "button": "启动您的项目" },
   "whyChoose": {
-    "tag": "为什么选择vebx.run", "heading": "为什么", "headingHighlight": "选择我们", "desc": "卓越技术，致力于您的成功。",
+    "tag": "为什么选择vebxrun", "heading": "为什么", "headingHighlight": "选择我们", "desc": "卓越技术，致力于您的成功。",
     "reasons": { "innovationTitle": "创新优先", "innovationDesc": "前沿技术保持领先。", "deliveryTitle": "可靠交付", "deliveryDesc": "按时按预算交付。", "teamTitle": "专家团队", "teamDesc": "用心服务的资深团队。", "resultsTitle": "实效成果", "resultsDesc": "推动业务增长的指标。" }
   },
   "howWeWork": {

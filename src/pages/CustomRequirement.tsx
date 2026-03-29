@@ -153,7 +153,7 @@ export default function CustomRequirement() {
       seo={{
         title: "Get a Quote | Custom Requirement",
         description:
-          "Submit your project requirement. Choose service, technology, and get an instant price estimate. vebx.run custom quote form.",
+          "Submit your project requirement. Choose service, technology, and get an instant price estimate. vebxrun custom quote form.",
         canonicalPath: "/custom-requirement",
       }}
     >

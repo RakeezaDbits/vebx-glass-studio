@@ -29,7 +29,7 @@ export default function OurWork() {
       seo={{
         title: "Our Work",
         description:
-          "Portfolio of vebx.run — mobile apps, web apps, games, and digital products we've built. See our projects in AI, health, events, e-commerce & more.",
+          "Portfolio of vebxrun — mobile apps, web apps, games, and digital products we've built. See our projects in AI, health, events, e-commerce & more.",
         canonicalPath: "/our-work",
       }}
     >

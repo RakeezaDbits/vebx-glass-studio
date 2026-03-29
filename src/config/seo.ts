@@ -4,9 +4,9 @@
 export const SEO_CONFIG = {
   /** Full site URL with no trailing slash (e.g. https://vebx.run) */
   SITE_URL: "https://vebx.run",
-  defaultTitle: "vebx.run — Imagine. Innovate. Inspire.",
+  defaultTitle: "vebxrun — Imagine. Innovate. Inspire.",
   defaultDescription:
-    "vebx.run delivers cutting-edge mobile apps, web development, game development, metaverse, AI solutions, and digital marketing. Transform your ideas into reality.",
+    "vebxrun delivers cutting-edge mobile apps, web development, game development, metaverse, AI solutions, and digital marketing. Transform your ideas into reality.",
   defaultOgImage: "/og-image.png",
   twitterHandle: "@vebxrun",
   locale: "en_US",

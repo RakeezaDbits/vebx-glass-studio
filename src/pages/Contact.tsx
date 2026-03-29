@@ -46,7 +46,7 @@ export default function Contact() {
       seo={{
         title: "Contact",
         description:
-          "Get in touch with vebx.run. Send a message for mobile app, web, game development, or digital marketing. We respond quickly.",
+          "Get in touch with vebxrun. Send a message for mobile app, web, game development, or digital marketing. We respond quickly.",
         canonicalPath: "/contact",
       }}
     >

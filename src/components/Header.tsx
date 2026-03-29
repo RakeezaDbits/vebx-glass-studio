@@ -64,7 +64,7 @@ export default function Header() {
         }`}
       >
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="vebx.run logo" className="h-12 w-auto lg:h-14" />
+          <img src={logo} alt="vebxrun logo" className="h-12 w-auto lg:h-14" />
         </Link>
 
         {/* Desktop Nav */}

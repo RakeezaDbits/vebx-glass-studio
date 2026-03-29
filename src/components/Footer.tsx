@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="container px-4 lg:px-8 pt-12 pb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
             <div>
-              <img src={logo} alt="vebx.run" className="h-10 w-auto mb-4" />
+              <img src={logo} alt="vebxrun" className="h-10 w-auto mb-4" />
               <p className="text-sm text-muted-foreground leading-relaxed mb-6">{t("footer.brandDesc")}</p>
               <div className="flex flex-col gap-3">
                 <a href="mailto:support@vebx.run" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
@@ -91,28 +91,30 @@ export default function Footer() {
 
         <div className="border-t border-white/10">
           <div className="container px-4 lg:px-8 py-6">
-            <div className="w-full flex flex-col lg:flex-row lg:items-center gap-4 justify-between">
-              <div>
-                <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
-                <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
-              </div>
-              <form
-                className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 w-full lg:w-auto"
-                onSubmit={(e) => e.preventDefault()}
-              >
-                <input
-                  type="email"
-                  placeholder="you@company.com"
-                  autoComplete="email"
-                  className="min-w-0 flex-1 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64 sm:max-w-xs"
-                />
-                <button
-                  type="submit"
-                  className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 shadow-md shadow-primary/25 border border-primary/30 hover:opacity-90 transition-opacity flex items-center justify-center gap-2 w-full sm:w-auto"
+            <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8">
+              <div className="w-full flex flex-col lg:flex-row lg:items-center gap-4 justify-between">
+                <div>
+                  <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
+                  <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
+                </div>
+                <form
+                  className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 w-full lg:w-auto"
+                  onSubmit={(e) => e.preventDefault()}
                 >
-                  {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
-                </button>
-              </form>
+                  <input
+                    type="email"
+                    placeholder="you@company.com"
+                    autoComplete="email"
+                    className="min-w-0 flex-1 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64 sm:max-w-xs"
+                  />
+                  <button
+                    type="submit"
+                    className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 shadow-md shadow-primary/25 border border-primary/30 hover:opacity-90 transition-opacity flex items-center justify-center gap-2 w-full sm:w-auto"
+                  >
+                    {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

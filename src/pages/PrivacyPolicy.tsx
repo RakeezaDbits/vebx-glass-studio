@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
       seo={{
         title: "Privacy Policy",
         description:
-          "Privacy policy of vebx.run. How we collect, use, and protect your data. Last updated information and contact details.",
+          "Privacy policy of vebxrun. How we collect, use, and protect your data. Last updated information and contact details.",
         canonicalPath: "/privacy-policy",
       }}
     >

@@ -147,7 +147,7 @@ export default function Services() {
       seo={{
         title: "Services",
         description:
-          "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebx.run services.",
+          "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services.",
         canonicalPath: "/services",
       }}
     >
