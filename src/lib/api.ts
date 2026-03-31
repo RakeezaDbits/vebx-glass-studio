@@ -4,6 +4,18 @@ function getUrl(path: string) {
   return `${API_BASE}${path}`;
 }
 
+/** URL for visitor live-chat SSE (same-origin or VITE_API_URL). */
+export function getLiveChatEventsUrl(token: string): string {
+  return getUrl(`/api/livechat/${encodeURIComponent(token)}/events`);
+}
+
+/** URL for admin live-chat SSE (EventSource cannot set Authorization). */
+export function getAdminLiveChatEventsUrl(sessionId: number, accessToken: string): string {
+  return getUrl(
+    `/api/admin/livechat/sessions/${sessionId}/events?access_token=${encodeURIComponent(accessToken)}`
+  );
+}
+
 export async function postContact(data: {
   name: string;
   email: string;
@@ -169,4 +181,190 @@ export async function adminFetch(path: string, options: RequestInit = {}) {
     throw new Error("Unauthorized");
   }
   return res;
+}
+
+/** POST multipart (do not set Content-Type; browser sets boundary). */
+export async function adminFetchForm(path: string, formData: FormData): Promise<Response> {
+  const token = getAdminToken();
+  const res = await fetch(getUrl(path), {
+    method: "POST",
+    headers: {
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: formData,
+  });
+  if (res.status === 401) {
+    clearAdminToken();
+    window.location.href = "/admin/login";
+    throw new Error("Unauthorized");
+  }
+  return res;
+}
+
+export async function adminFetchBlob(path: string): Promise<Blob> {
+  const token = getAdminToken();
+  const res = await fetch(getUrl(path), {
+    headers: {
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+  });
+  if (res.status === 401) {
+    clearAdminToken();
+    window.location.href = "/admin/login";
+    throw new Error("Unauthorized");
+  }
+  if (!res.ok) throw new Error("Failed to load file");
+  return res.blob();
+}
+
+const LIVE_CHAT_TOKEN_KEY = "vebx_live_chat_token";
+
+export function getLiveChatToken(): string | null {
+  if (typeof localStorage === "undefined") return null;
+  return localStorage.getItem(LIVE_CHAT_TOKEN_KEY);
+}
+
+export function setLiveChatToken(token: string): void {
+  localStorage.setItem(LIVE_CHAT_TOKEN_KEY, token);
+}
+
+export function clearLiveChatToken(): void {
+  localStorage.removeItem(LIVE_CHAT_TOKEN_KEY);
+}
+
+function parseLiveChatJson<T extends object>(raw: string): T {
+  try {
+    const o = JSON.parse(raw) as T;
+    return o && typeof o === "object" ? o : ({} as T);
+  } catch {
+    return {} as T;
+  }
+}
+
+/** Prefer JSON `error` from API/proxy; then status-specific hints (incl. Vite empty-500 when API is down). */
+function throwLiveChatHttpError(
+  res: Response,
+  raw: string,
+  opts: { devEmpty500?: string; fallback: string }
+): never {
+  const data = parseLiveChatJson<{ error?: string }>(raw);
+  const fromServer = data.error?.trim();
+  if (fromServer) throw new Error(fromServer);
+  if (res.status === 502 || res.status === 503) {
+    throw new Error(
+      import.meta.env.DEV
+        ? "Chat API unreachable (502/503). Start npm run server (port 3001) or npm run dev:all."
+        : "Chat is temporarily unavailable. Try again in a moment or email support@vebx.run."
+    );
+  }
+  if (import.meta.env.DEV && res.status === 500 && !String(raw).trim() && opts.devEmpty500) {
+    throw new Error(opts.devEmpty500);
+  }
+  throw new Error(opts.fallback);
+}
+
+export type LiveChatMessageRow = {
+  id: number;
+  sender: "visitor" | "admin";
+  msg_type: string;
+  body: string | null;
+  mime_type: string | null;
+  created_at: string;
+};
+
+export async function createLiveChatSession(): Promise<{ token: string }> {
+  let res: Response;
+  try {
+    res = await fetch(getUrl("/api/livechat/session"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({}),
+    });
+  } catch {
+    throw new Error(
+      "Cannot reach chat server. Use dev with API running (port 3001), or set VITE_API_URL to your live API."
+    );
+  }
+  const raw = await res.text();
+  const data = parseLiveChatJson<{ token?: string; error?: string }>(raw);
+  if (!res.ok) {
+    if (res.status === 404) {
+      throw new Error(
+        "Chat API not found (404). Deploy the Node server and proxy /api, or set VITE_API_URL."
+      );
+    }
+    throwLiveChatHttpError(res, raw, {
+      devEmpty500:
+        "Backend returned an empty 500 — usually nothing is listening on port 3001. Run npm run server or npm run dev:all.",
+      fallback: `Server error (${res.status}). If the database is missing live_chat tables, run the SQL migration.`,
+    });
+  }
+  if (!data.token) throw new Error("Invalid response from chat server.");
+  setLiveChatToken(data.token);
+  return { token: data.token };
+}
+
+export async function fetchLiveChatMessages(token: string, afterId: number): Promise<LiveChatMessageRow[]> {
+  let res: Response;
+  try {
+    res = await fetch(getUrl(`/api/livechat/${encodeURIComponent(token)}/messages?afterId=${afterId}`));
+  } catch {
+    throw new Error(
+      import.meta.env.DEV
+        ? "Chat server unreachable. Start the API (npm run server) with npm run dev:all, or set VITE_API_URL."
+        : "Chat is temporarily unavailable. Try again in a moment or email support@vebx.run."
+    );
+  }
+  const raw = await res.text();
+  const data = parseLiveChatJson<{ messages?: LiveChatMessageRow[]; error?: string }>(raw);
+  if (res.status === 404) {
+    clearLiveChatToken();
+    throw new Error("SESSION_EXPIRED");
+  }
+  if (!res.ok) {
+    throwLiveChatHttpError(res, raw, {
+      devEmpty500:
+        "Backend returned an empty 500 — usually the API on port 3001 is not running. Run npm run server or npm run dev:all.",
+      fallback: `Could not load chat (${res.status}). Check that the API and database are running.`,
+    });
+  }
+  return data.messages ?? [];
+}
+
+export function getLiveChatMediaUrl(token: string, messageId: number): string {
+  return getUrl(`/api/livechat/${encodeURIComponent(token)}/file/${messageId}`);
+}
+
+/** Returns new message id when server sends it (201), for advancing poll cursor without duplicate fetches. */
+export async function postLiveChatMessage(token: string, formData: FormData): Promise<{ id: number } | undefined> {
+  const res = await fetch(getUrl(`/api/livechat/${encodeURIComponent(token)}/messages`), {
+    method: "POST",
+    body: formData,
+  });
+  const raw = await res.text();
+  if (res.status === 404) {
+    clearLiveChatToken();
+    throw new Error("SESSION_EXPIRED");
+  }
+  if (!res.ok) {
+    throwLiveChatHttpError(res, raw, {
+      devEmpty500:
+        "Backend returned an empty 500 — usually the API on port 3001 is not running. Run npm run server or npm run dev:all.",
+      fallback: "Failed to send",
+    });
+  }
+  try {
+    const o = JSON.parse(raw) as { id?: number | string };
+    const id = o.id;
+    const n =
+      typeof id === "number" && Number.isFinite(id)
+        ? id
+        : typeof id === "string" && /^\d+$/.test(id)
+          ? Number(id)
+          : NaN;
+    if (!Number.isNaN(n)) return { id: n };
+  } catch {
+    /* ignore */
+  }
+  return undefined;
 }

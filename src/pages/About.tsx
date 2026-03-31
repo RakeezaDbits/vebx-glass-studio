@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Shield, Zap, Users, Target, Award, Lightbulb, Globe, Heart } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
-import AboutHeroIsometricBg from "@/components/AboutHeroIsometricBg";
 
 export default function About() {
   const { t } = useTranslation();
@@ -28,10 +27,33 @@ export default function About() {
         canonicalPath: "/about",
       }}
     >
-      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16">
+      <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden -mt-16 pt-16">
         <div className="absolute inset-0">
-          <AboutHeroIsometricBg />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/55 to-background/85 pointer-events-none" />
+          <img
+            src="/about/about-hero-bg.png"
+            alt=""
+            className="h-full w-full object-cover object-center"
+            decoding="async"
+            fetchPriority="high"
+          />
+          {/* Overlay stack: scrim + brand tint + readability + vignette */}
+          <div className="pointer-events-none absolute inset-0 bg-black/45" aria-hidden />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/[0.18] via-transparent to-primary/[0.08]"
+            aria-hidden
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/92 via-background/55 to-background/95"
+            aria-hidden
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/65"
+            aria-hidden
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_75%_at_50%_42%,transparent_0%,hsl(0_0%_2%/0.65)_100%)]"
+            aria-hidden
+          />
         </div>
         <div className="container relative z-10 px-4 lg:px-8 text-center">
           <motion.span initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-4 block">{t("about.tag")}</motion.span>

@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -26,12 +26,20 @@ import AdminProjects from "./pages/admin/AdminProjects";
 import AdminServices from "./pages/admin/AdminServices";
 import AdminExpertise from "./pages/admin/AdminExpertise";
 import AdminSettings from "./pages/admin/AdminSettings";
+import AdminLiveChat from "./pages/admin/AdminLiveChat";
 import ScrollToTop from "./components/ScrollToTop";
 import Preloader from "./components/Preloader";
 import GlobalPageDecor from "./components/GlobalPageDecor";
 import CursorSnake from "./components/CursorSnake";
+import LiveChatWidget from "./components/LiveChatWidget";
 
 const queryClient = new QueryClient();
+
+function LiveChatGate() {
+  const loc = useLocation();
+  if (loc.pathname.startsWith("/admin") || loc.pathname === "/contact") return null;
+  return <LiveChatWidget />;
+}
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -44,6 +52,7 @@ const App = () => (
         <BrowserRouter>
           <Preloader />
           <ScrollToTop />
+          <LiveChatGate />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
@@ -68,6 +77,7 @@ const App = () => (
               <Route path="services" element={<AdminServices />} />
               <Route path="expertise" element={<AdminExpertise />} />
               <Route path="settings" element={<AdminSettings />} />
+              <Route path="live-chat" element={<AdminLiveChat />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>

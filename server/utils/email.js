@@ -99,3 +99,42 @@ export async function sendQuoteNotification(data) {
 
   await transporter.sendMail(mailOptions);
 }
+
+/** Notify admins when a visitor sends a live chat message (SMTP via env). */
+export async function sendLiveChatNotification({ sessionId, visitorName, visitorEmail, preview, adminUrl }) {
+  if (!process.env.SMTP_USER || !process.env.SMTP_APP_PASSWORD) {
+    console.warn("Live chat email skipped: set SMTP_USER and SMTP_APP_PASSWORD");
+    return;
+  }
+  const transporter = getTransporter();
+  const safePreview = (preview || "(no text)").slice(0, 500);
+  const text = [
+    `New live chat message`,
+    ``,
+    `Session #${sessionId}`,
+    `Visitor: ${visitorName || "(anonymous)"}`,
+    `Email: ${visitorEmail || "(none)"}`,
+    ``,
+    `Preview: ${safePreview}`,
+    ``,
+    `Open admin: ${adminUrl}`,
+  ].join("\n");
+
+  const html = `
+    <h2>New live chat message</h2>
+    <p><strong>Session</strong> #${sessionId}</p>
+    <p><strong>Visitor</strong> ${visitorName || "(anonymous)"}</p>
+    <p><strong>Email</strong> ${visitorEmail || "(none)"}</p>
+    <p><strong>Preview</strong></p>
+    <pre style="white-space:pre-wrap">${safePreview.replace(/</g, "&lt;")}</pre>
+    <p><a href="${adminUrl}">Open live chat in admin</a></p>
+  `;
+
+  await transporter.sendMail({
+    from: process.env.SMTP_USER,
+    to: RECIPIENTS.join(", "),
+    subject: `[vebx.run] Live chat — session #${sessionId}`,
+    text,
+    html,
+  });
+}

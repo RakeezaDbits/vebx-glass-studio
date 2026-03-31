@@ -1,7 +1,26 @@
 import express from "express";
+import fs from "fs";
+import path from "path";
 import bcrypt from "bcryptjs";
 import db from "../config/db.js";
-import { authMiddleware, createToken } from "../middleware/auth.js";
+import { authMiddleware, authMiddlewareBearerOrQuery, createToken } from "../middleware/auth.js";
+import { liveChatUpload } from "../middleware/livechatUpload.js";
+import {
+  listSessions,
+  listMessages,
+  getSessionById,
+  insertMessage,
+  getMessageWithSession,
+} from "../utils/liveChatDb.js";
+import {
+  LIVE_CHAT_UPLOAD_ROOT,
+  ensureLiveChatUploadDirs,
+  inferMsgTypeFromMime,
+  finalizeLiveChatUpload,
+} from "../utils/liveChatFiles.js";
+import { liveChatNotifySubscribe, liveChatNotifyPublish } from "../utils/liveChatNotify.js";
+
+ensureLiveChatUploadDirs();
 
 const router = express.Router();
 
@@ -47,6 +66,48 @@ router.post("/login", async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Login failed" });
+  }
+});
+
+/** SSE for admin live chat (EventSource cannot send Authorization header). */
+router.get("/livechat/sessions/:id/events", authMiddlewareBearerOrQuery, async (req, res) => {
+  try {
+    const sessionId = Number(req.params.id);
+    const session = await getSessionById(sessionId);
+    if (!session) return res.status(404).end();
+
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache, no-transform");
+    res.setHeader("Connection", "keep-alive");
+    res.setHeader("X-Accel-Buffering", "no");
+    if (typeof res.flushHeaders === "function") res.flushHeaders();
+
+    res.write(": ok\n\n");
+
+    const push = () => {
+      try {
+        res.write(`data: ${JSON.stringify({ m: 1 })}\n\n`);
+      } catch {
+        /* client gone */
+      }
+    };
+    const unsub = liveChatNotifySubscribe(sessionId, push);
+
+    const ka = setInterval(() => {
+      try {
+        res.write(": ka\n\n");
+      } catch {
+        /* ignore */
+      }
+    }, 25000);
+
+    req.on("close", () => {
+      clearInterval(ka);
+      unsub();
+    });
+  } catch (err) {
+    console.error(err);
+    if (!res.headersSent) res.status(500).end();
   }
 });
 
@@ -285,6 +346,118 @@ router.delete("/expertise/:id", async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Failed to delete" });
+  }
+});
+
+// —— Live chat (admin) ——
+router.get("/livechat/sessions", async (req, res) => {
+  try {
+    const rows = await listSessions();
+    res.json(rows);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to load sessions" });
+  }
+});
+
+router.get("/livechat/sessions/:id/messages", async (req, res) => {
+  try {
+    const sessionId = Number(req.params.id);
+    const session = await getSessionById(sessionId);
+    if (!session) return res.status(404).json({ error: "Session not found" });
+    const afterId = Math.max(0, parseInt(String(req.query.afterId || "0"), 10) || 0);
+    const messages = await listMessages(sessionId, afterId);
+    res.json({ session, messages });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to load messages" });
+  }
+});
+
+router.post("/livechat/sessions/:id/messages", (req, res, next) => {
+  liveChatUpload.single("file")(req, res, (err) => {
+    if (err) return res.status(400).json({ error: err.message || "Upload failed" });
+    next();
+  });
+}, async (req, res) => {
+  try {
+    const sessionId = Number(req.params.id);
+    const session = await getSessionById(sessionId);
+    if (!session) return res.status(404).json({ error: "Session not found" });
+
+    const file = req.file;
+    let msgType = (req.body?.type || "text").toLowerCase();
+    const bodyText = req.body?.body != null ? String(req.body.body).trim() : "";
+
+    if (file) {
+      msgType = inferMsgTypeFromMime(file.mimetype);
+    } else {
+      if (msgType !== "text") {
+        return res.status(400).json({ error: "File required for this message type" });
+      }
+      if (!bodyText) {
+        return res.status(400).json({ error: "Message cannot be empty" });
+      }
+    }
+
+    const messageId = await insertMessage({
+      sessionId,
+      sender: "admin",
+      msgType,
+      body: bodyText || null,
+      filePath: null,
+      mimeType: file?.mimetype || null,
+    });
+
+    if (file) {
+      try {
+        const fin = await finalizeLiveChatUpload(sessionId, messageId, file);
+        if (fin.filePath) {
+          await db.execute("UPDATE live_chat_messages SET file_path = ?, mime_type = ? WHERE id = ?", [
+            fin.filePath,
+            fin.mimeType,
+            messageId,
+          ]);
+        }
+      } catch (e) {
+        console.error("admin livechat upload", e);
+        await db.execute("DELETE FROM live_chat_messages WHERE id = ?", [messageId]);
+        return res.status(500).json({ error: "Could not store file" });
+      }
+    }
+
+    liveChatNotifyPublish(sessionId);
+
+    res.status(201).json({
+      id: Number(messageId),
+      sender: "admin",
+      msg_type: msgType,
+      body: bodyText || null,
+      mime_type: file?.mimetype || null,
+      created_at: new Date().toISOString(),
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to send message" });
+  }
+});
+
+router.get("/livechat/file/:messageId", async (req, res) => {
+  try {
+    const messageId = parseInt(req.params.messageId, 10);
+    const row = await getMessageWithSession(messageId);
+    if (!row?.file_path) return res.status(404).end();
+    const abs = path.join(LIVE_CHAT_UPLOAD_ROOT, row.file_path);
+    const resolved = path.resolve(abs);
+    if (!resolved.startsWith(path.resolve(LIVE_CHAT_UPLOAD_ROOT)) || !fs.existsSync(resolved)) {
+      return res.status(404).end();
+    }
+    res.setHeader("Content-Type", row.mime_type || "application/octet-stream");
+    res.setHeader("Cache-Control", "private, max-age=3600");
+    return res.sendFile(resolved);
+  } catch (err) {
+    console.error(err);
+    res.status(500).end();
   }
 });
 

@@ -6,6 +6,8 @@ import contactRoutes from "./routes/contact.js";
 import quoteRoutes from "./routes/quote.js";
 import adminRoutes from "./routes/admin.js";
 import chatRoutes from "./routes/chat.js";
+import livechatRoutes from "./routes/livechat.js";
+import { ensureLiveChatTables } from "./utils/ensureLiveChatTables.js";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -18,6 +20,7 @@ app.use("/api/contact", contactRoutes);
 app.use("/api/quote", quoteRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/chat", chatRoutes);
+app.use("/api/livechat", livechatRoutes);
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
 
@@ -34,6 +37,16 @@ app.get("/api/settings", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-});
+async function start() {
+  try {
+    await ensureLiveChatTables();
+  } catch (err) {
+    console.error("[live chat] Could not ensure DB tables:", err.message);
+    console.error("Fix: MySQL running, DB_NAME correct in server/.env, then: cd server && npm run db:livechat");
+  }
+  app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+}
+
+start();

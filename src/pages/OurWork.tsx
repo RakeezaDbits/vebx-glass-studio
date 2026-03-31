@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { ExternalLink, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
@@ -57,8 +57,6 @@ export default function OurWork() {
                   {"image" in project && project.image && (
                     <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
                   )}
-                  <MediaBlackOverlay />
-                  <div className="absolute inset-0 z-10 flex items-center justify-center pointer-events-none"><ExternalLink className="w-8 h-8 text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300" /></div>
                 </div>
                 <div className="p-6">
                   <span className="text-xs font-display uppercase tracking-wider text-primary">{t(`ourWork.projects.${project.key}.category`)}</span>

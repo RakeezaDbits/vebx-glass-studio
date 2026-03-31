@@ -53,7 +53,6 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
               (e.target as HTMLImageElement).style.display = "none";
             }}
           />
-          <MediaBlackOverlay className="z-[1]" />
           <div className="absolute top-4 right-4 z-10 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>
@@ -119,7 +118,6 @@ function NewServiceCard({
             loading="lazy"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
-          <MediaBlackOverlay className="z-[1]" />
           <div className="absolute top-4 right-4 z-10 w-12 h-12 rounded-xl gradient-red flex items-center justify-center shadow-lg shadow-primary/25 group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-6 h-6 text-primary-foreground" aria-hidden />
           </div>

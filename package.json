@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:all": "npx --yes concurrently -n web,api -c cyan,magenta \"npm run dev\" \"npm run server\"",
     "build": "vite build",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "prebuild": "npm run generate-sitemap",
@@ -14,6 +15,7 @@
     "server": "cd server && npm run dev",
     "server:start": "cd server && npm start",
     "server:install": "cd server && npm install",
+    "admin:create": "cd server && npm run admin:create",
     "test": "vitest run",
     "test:watch": "vitest"
   },

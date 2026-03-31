@@ -1,11 +1,12 @@
 import { Outlet, Link, useNavigate, useLocation } from "react-router-dom";
-import { LayoutDashboard, Mail, FileText, FolderOpen, Wrench, Settings, LogOut } from "lucide-react";
+import { LayoutDashboard, Mail, FileText, FolderOpen, Wrench, Settings, LogOut, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { clearAdminToken } from "@/lib/api";
 import { cn } from "@/lib/utils";
 
 const nav = [
   { to: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { to: "/admin/live-chat", label: "Live chat", icon: MessageCircle },
   { to: "/admin/contacts", label: "Contact Submissions", icon: Mail },
   { to: "/admin/quotes", label: "Quote Submissions", icon: FileText },
   { to: "/admin/projects", label: "Projects", icon: FolderOpen },
