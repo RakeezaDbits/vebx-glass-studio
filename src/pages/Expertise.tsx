@@ -43,10 +43,6 @@ export default function Expertise() {
         </div>
       </section>
       <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover" aria-hidden />
-          <MediaBlackOverlay />
-        </div>
         <div className="container relative z-10 px-4 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {techStacks.map((stack, i) => (
@@ -54,12 +50,8 @@ export default function Expertise() {
                 <h3 className="font-display text-lg font-bold text-foreground mb-5">{t(stack.categoryKey)}</h3>
                 <div className="flex flex-wrap gap-2">
                   {stack.techs.map((tech) => (
-                    <span key={tech} className="group/btn relative liquid-glass rounded-full border-glow overflow-hidden cursor-default inline-flex items-center">
-                      <span className="absolute inset-0 overflow-hidden rounded-full">
-                        <img src="/services/software-development.png" alt="" className="absolute inset-0 w-full h-full object-cover blur-2xl scale-150 group-hover/btn:blur-xl group-hover/btn:scale-125 transition-all duration-500" aria-hidden />
-                        <MediaBlackOverlay className="rounded-full" />
-                      </span>
-                      <span className="relative z-10 px-3 py-1.5 text-xs font-medium text-muted-foreground group-hover/btn:text-foreground group-hover/btn:text-primary/90 transition-colors">{tech}</span>
+                    <span key={tech} className="liquid-glass rounded-full border-glow px-3 py-1.5 text-xs font-medium text-muted-foreground hover:text-primary/90 transition-colors cursor-default">
+                      {tech}
                     </span>
                   ))}
                 </div>
@@ -69,10 +61,6 @@ export default function Expertise() {
         </div>
       </section>
       <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img src="/services/software-development.png" alt="" className="w-full h-full object-cover" aria-hidden />
-          <MediaBlackOverlay />
-        </div>
         <div className="container relative z-10 px-4 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
             <span className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-4 block">{t("expertise.industriesTag")}</span>

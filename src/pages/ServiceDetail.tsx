@@ -37,51 +37,12 @@ export default function ServiceDetail() {
             />
           )}
           {service.slug === "game-development" && (
-            <div className="absolute inset-0 bg-background" aria-hidden />
-          )}
-          {service.slug === "2d-3d-animation" && (
-            <>
-              <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                {[...Array(5)].map((_, i) => (
-                  <motion.div
-                    key={i}
-                    className="absolute rounded-full bg-primary/15 blur-[80px]"
-                    style={{
-                      width: `${120 + i * 60}px`,
-                      height: `${120 + i * 60}px`,
-                      left: `${(i * 22) % 80}%`,
-                      top: `${(i * 18) % 70}%`,
-                    }}
-                    animate={{
-                      x: [0, 30, -20, 0],
-                      y: [0, -25, 15, 0],
-                      scale: [1, 1.1, 1],
-                    }}
-                    transition={{
-                      duration: 8 + i * 1.5,
-                      repeat: Infinity,
-                      ease: "easeInOut",
-                    }}
-                  />
-                ))}
-              </div>
-              <div className="hero-bg-gradient-animated" aria-hidden />
-            </>
-          )}
-          {service.slug === "game-development" && (
-            <div
-              className="absolute inset-0 w-full pointer-events-none overflow-hidden"
+            <img
+              src="/services/game-development-bg.jpg"
+              alt=""
+              className="w-full h-full object-cover"
               aria-hidden
-            >
-              <dotlottie-wc
-                src="https://lottie.host/962b09e3-b30a-46d8-9bd4-6da57d8e8224/SMq5eW6HgK.lottie"
-                autoplay
-                loop
-                layout={JSON.stringify({ fit: "cover", align: [0.5, 0.5] })}
-                className="block h-full min-h-full w-full max-w-none"
-                style={{ width: "100%", height: "100%" }}
-              />
-            </div>
+            />
           )}
           <MediaBlackOverlay className="bg-black/90" />
         </div>
