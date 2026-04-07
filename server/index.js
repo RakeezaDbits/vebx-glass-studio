@@ -6,6 +6,7 @@ import contactRoutes from "./routes/contact.js";
 import quoteRoutes from "./routes/quote.js";
 import adminRoutes from "./routes/admin.js";
 import chatRoutes from "./routes/chat.js";
+import aiRoutes from "./routes/ai.js";
 import livechatRoutes from "./routes/livechat.js";
 import { ensureLiveChatTables } from "./utils/ensureLiveChatTables.js";
 
