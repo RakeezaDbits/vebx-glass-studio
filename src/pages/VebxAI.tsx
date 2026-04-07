@@ -222,7 +222,7 @@ export default function VebxAI() {
       <SeoHead
         title="VebxRun AI — Smart Design & Dev Assistant"
         description="Chat with AI, generate images, and use voice features powered by VebxRun AI."
-        path="/ai"
+        canonicalPath="/ai"
       />
 
       {/* Hero Banner */}
