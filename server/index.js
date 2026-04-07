@@ -6,6 +6,7 @@ import contactRoutes from "./routes/contact.js";
 import quoteRoutes from "./routes/quote.js";
 import adminRoutes from "./routes/admin.js";
 import chatRoutes from "./routes/chat.js";
+import aiRoutes from "./routes/ai.js";
 import livechatRoutes from "./routes/livechat.js";
 import { ensureLiveChatTables } from "./utils/ensureLiveChatTables.js";
 
@@ -20,6 +21,7 @@ app.use("/api/contact", contactRoutes);
 app.use("/api/quote", quoteRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/chat", chatRoutes);
+app.use("/api/ai", aiRoutes);
 app.use("/api/livechat", livechatRoutes);
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
