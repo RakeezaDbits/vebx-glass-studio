@@ -21,6 +21,7 @@ app.use("/api/contact", contactRoutes);
 app.use("/api/quote", quoteRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/chat", chatRoutes);
+app.use("/api/ai", aiRoutes);
 app.use("/api/livechat", livechatRoutes);
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
