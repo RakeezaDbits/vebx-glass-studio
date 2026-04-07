@@ -15,6 +15,7 @@ import Contact from "./pages/Contact";
 import CustomRequirement from "./pages/CustomRequirement";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import DesignAssistant from "./pages/DesignAssistant";
+import VebxAI from "./pages/VebxAI";
 import NotFound from "./pages/NotFound";
 import AdminGuard from "./components/AdminGuard";
 import AdminLayout from "./pages/admin/AdminLayout";
@@ -67,6 +68,7 @@ const App = () => (
             <Route path="/custom-requirement" element={<CustomRequirement />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/design-assistant" element={<DesignAssistant />} />
+            <Route path="/ai" element={<VebxAI />} />
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin" element={<AdminGuard><AdminLayout /></AdminGuard>}>
               <Route index element={<Navigate to="/admin/dashboard" replace />} />
