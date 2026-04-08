@@ -106,50 +106,26 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Stay in the loop — with social icons inside */}
+        {/* Dock-style social icons */}
         <div className="border-t border-white/10">
           <div className="container px-4 lg:px-8 py-6">
-            <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8">
-              <div className="w-full flex flex-col lg:flex-row lg:items-center gap-4 justify-between">
-                <div>
-                  <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t("footer.stayInLoop")}</h3>
-                  <p className="text-sm text-muted-foreground">{t("footer.stayInLoopDesc")}</p>
-                  {/* Social icons inside Stay in the loop */}
-                  <div className="flex flex-wrap gap-2 mt-3">
-                    {footerSocialLinks.map((item) => {
-                      const Icon = item.icon;
-                      return (
-                        <a
-                          key={item.label}
-                          href={item.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label={item.label}
-                          className="liquid-glass flex items-center justify-center w-10 h-10 rounded-xl border-glow text-muted-foreground hover:text-primary hover:bg-white/[0.08] transition-all duration-300"
-                        >
-                          <Icon className="w-4 h-4" />
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
-                <form
-                  className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 w-full lg:w-auto"
-                  onSubmit={(e) => e.preventDefault()}
-                >
-                  <input
-                    type="email"
-                    placeholder="you@company.com"
-                    autoComplete="email"
-                    className="min-w-0 flex-1 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/50 w-full sm:w-64 sm:max-w-xs"
-                  />
-                  <button
-                    type="submit"
-                    className="px-5 py-3 rounded-xl gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider shrink-0 shadow-md shadow-primary/25 border border-primary/30 hover:opacity-90 transition-opacity flex items-center justify-center gap-2 w-full sm:w-auto"
-                  >
-                    {t("footer.subscribe")} <ArrowRight className="w-4 h-4" />
-                  </button>
-                </form>
+            <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8 flex items-center justify-center">
+              <div className="flex items-end gap-3">
+                {footerSocialLinks.map((item) => {
+                  const Icon = item.icon;
+                  return (
+                    <a
+                      key={item.label}
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={item.label}
+                      className="dock-icon liquid-glass flex items-center justify-center w-14 h-14 rounded-2xl border-glow text-muted-foreground transition-all duration-300 ease-out hover:text-primary"
+                    >
+                      <Icon className="w-6 h-6" />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
