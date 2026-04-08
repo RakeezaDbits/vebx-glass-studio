@@ -57,23 +57,33 @@ export default function Footer() {
     <footer className="relative mt-16 overflow-hidden">
       <div className="liquid-glass border-glow border-t border-white/10">
         <div className="container px-4 lg:px-8 pt-12 pb-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
-            {/* Column 1: Brand + Notifications / Working Process */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1.2fr] gap-10 mb-10">
+            {/* Column 1: Brand + Dashboard Screen */}
             <div>
               <img src={logo} alt="vebxrun" className="h-10 w-auto mb-4" />
-              <p className="text-sm text-muted-foreground leading-relaxed mb-6">{t("footer.brandDesc")}</p>
-              <div className="flex flex-col gap-3">
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Bell className="w-4 h-4 text-primary shrink-0" />
-                  <span>Notifications & updates managed via dashboard</span>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-5">{t("footer.brandDesc")}</p>
+              {/* Mini Dashboard Screen */}
+              <div className="liquid-glass rounded-xl border border-white/10 overflow-hidden">
+                <div className="flex items-center gap-1.5 px-3 py-1.5 border-b border-white/10 bg-white/5">
+                  <span className="w-2 h-2 rounded-full bg-red-500/80" />
+                  <span className="w-2 h-2 rounded-full bg-yellow-500/80" />
+                  <span className="w-2 h-2 rounded-full bg-green-500/80" />
+                  <span className="text-[10px] text-muted-foreground ml-2 font-mono">dashboard</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Briefcase className="w-4 h-4 text-primary shrink-0" />
-                  <span>Active projects tracked in real-time</span>
-                </div>
-                <div className="flex items-start gap-2 text-sm text-muted-foreground">
-                  <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-                  117 S Lexington Street STN 100, Harrisonville MO 64701
+                <div className="p-3 space-y-2">
+                  <p className="text-[10px] uppercase tracking-wider text-muted-foreground font-display">Recent Projects</p>
+                  <div className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                    <span className="text-xs text-foreground/80">E-Commerce Platform</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                    <span className="text-xs text-foreground/80">Mobile App UI/UX</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
+                    <span className="text-xs text-foreground/80">Brand Identity Design</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,13 +112,17 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Column 4: Email Newsletter */}
+            {/* Column 4: Get In Touch */}
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">Get In Touch</h4>
               <p className="text-sm text-muted-foreground mb-4">Have a project in mind? Reach out and let's create something extraordinary.</p>
               <a href="mailto:support@vebx.run" className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors mb-3">
                 <Mail className="w-4 h-4" /> support@vebx.run
               </a>
+              <div className="flex items-start gap-2 text-sm text-muted-foreground mb-4">
+                <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
+                <span>117 S Lexington Street STN 100, Harrisonville MO 64701</span>
+              </div>
               <Link to="/contact#live-chat" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform">{t("footer.getInTouch")}</Link>
             </div>
           </div>
