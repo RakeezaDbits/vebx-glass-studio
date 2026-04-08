@@ -110,7 +110,7 @@ export default function Footer() {
         <div className="border-t border-white/10">
           <div className="container px-4 lg:px-8 py-6">
             <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8 flex items-center justify-center">
-              <div className="flex items-end gap-3">
+              <div className="flex items-end gap-6">
                 {footerSocialLinks.map((item) => {
                   const Icon = item.icon;
                   return (
