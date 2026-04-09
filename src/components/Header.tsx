@@ -111,8 +111,9 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-3">
           <LanguageSwitcher />
           <Link to="/contact">
-            <Button variant="hero" size="sm">
-              {t("nav.contactUs")}
+            <Button variant="hero" size="sm" className="relative overflow-hidden shadow-[0_0_20px_hsla(357,90%,45%,0.4)] hover:shadow-[0_0_30px_hsla(357,90%,50%,0.6)] transition-shadow duration-300">
+              <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer" />
+              Buzz Now <span className="text-base">⚡</span>
             </Button>
           </Link>
         </div>
@@ -180,8 +181,9 @@ export default function Header() {
                 <LanguageSwitcher />
               </div>
               <Link to="/contact" onClick={() => setMobileOpen(false)}>
-                <Button variant="hero" size="sm" className="mt-2 w-full">
-                  {t("nav.contactUs")}
+                <Button variant="hero" size="sm" className="mt-2 w-full relative overflow-hidden shadow-[0_0_20px_hsla(357,90%,45%,0.4)] hover:shadow-[0_0_30px_hsla(357,90%,50%,0.6)] transition-shadow duration-300">
+                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer" />
+                  Buzz Now <span className="text-base">⚡</span>
                 </Button>
               </Link>
             </nav>

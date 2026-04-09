@@ -82,6 +82,10 @@ export default {
           "0%, 100%": { opacity: "1", boxShadow: "0 0 12px 2px rgba(220, 38, 38, 0.6)" },
           "50%": { opacity: "0.85", boxShadow: "0 0 20px 6px rgba(220, 38, 38, 0.9)" },
         },
+        "shimmer": {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(200%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -90,6 +94,7 @@ export default {
         "pulse-glow": "pulse-glow 3s ease-in-out infinite",
         "slide-up": "slide-up 0.8s ease-out",
         "badge-blink": "badge-blink 1.8s ease-in-out infinite",
+        "shimmer": "shimmer 2s infinite",
       },
     },
   },
