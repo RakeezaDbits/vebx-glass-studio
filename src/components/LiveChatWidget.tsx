@@ -53,6 +53,7 @@ export default function LiveChatWidget() {
         email: email.trim(),
         phone: phone.trim() || undefined,
         serviceSlug: serviceSlug || "general",
+        techIds: [],
       });
       toast.success("Request sent!");
       setView("submitted");
