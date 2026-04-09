@@ -86,12 +86,12 @@ export default function LiveChatWidget() {
       <div className="fixed bottom-5 right-5 z-[165] sm:bottom-6 sm:right-6">
         {/* Online badge above icon */}
         {!open && (
-          <div className="absolute -top-7 left-1/2 -translate-x-1/2 flex items-center gap-1 whitespace-nowrap rounded-full border border-emerald-500/30 bg-black/70 px-2 py-0.5 backdrop-blur-sm">
+          <div className="absolute -top-7 left-1/2 -translate-x-1/2 flex items-center gap-1 whitespace-nowrap rounded-full border border-primary/30 bg-black/70 px-2 py-0.5 backdrop-blur-sm">
             <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            <span className="text-[10px] font-semibold uppercase tracking-wider text-emerald-400">Online</span>
+            <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">Online</span>
           </div>
         )}
         <button
