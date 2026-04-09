@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { MessagesSquare, Send, Paperclip, Loader2 } from "lucide-react";
+import { MessagesSquare, Send, Paperclip, Loader2, Mic } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -379,6 +379,17 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
                 aria-label="Attach"
               >
                 <Paperclip className="h-4 w-4" />
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                size="icon"
+                className="h-10 w-10 shrink-0 rounded-xl border-white/15 bg-black/25"
+                disabled={sending || !token}
+                aria-label="Voice message"
+                title="Voice chat (coming soon)"
+              >
+                <Mic className="h-4 w-4" />
               </Button>
               <Input
                 value={text}
