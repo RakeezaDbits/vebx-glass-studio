@@ -7,6 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 import StatsSection from "@/components/StatsSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import CTASection from "@/components/CTASection";
+import PartnersSection from "@/components/PartnersSection";
 
 const Index = () => (
   <PageLayout
@@ -22,6 +23,7 @@ const Index = () => (
     <AboutSection />
     <WhyChooseSection />
     <HowWeWorkSection />
+    <PartnersSection />
     <CTASection />
     <ServicesSection />
     <StatsSection />

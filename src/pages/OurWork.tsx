@@ -36,7 +36,7 @@ export default function OurWork() {
     >
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden -mt-16 pt-16 page-banner-glow">
         <div className="absolute inset-0">
-          <img src="/banners/ourwork-banner.jpg" alt="" className="w-full h-full object-cover" aria-hidden />
+          <img src="/images/ourwork-hero-bg.png" alt="" className="w-full h-full object-cover" aria-hidden />
           <MediaBlackOverlay />
         </div>
         <div className="absolute top-1/4 right-1/4 w-80 h-80 rounded-full bg-primary/8 blur-[120px] animate-float" />

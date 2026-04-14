@@ -29,7 +29,7 @@ const navItems: (
   { labelKey: "customRequirement", href: "/custom-requirement" },
   { labelKey: "ourWork", href: "/our-work" },
   { labelKey: "expertise", href: "/expertise" },
-  { labelKey: "designAssistant", href: "/design-assistant", icon: "bot" },
+  { labelKey: "designAssistant", href: "/ai", icon: "bot" },
 ];
 
 const SCROLL_THRESHOLD = 20;
@@ -71,7 +71,7 @@ export default function Header() {
         <nav className="hidden lg:flex items-center gap-1.5">
           {navItems.map((item) => {
             const active = location.pathname === item.href;
-            const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "VebXrun AI" } : {});
+            const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "Vebx Agent" } : {});
 
             if (item.icon === "bot") {
               return (
@@ -141,7 +141,7 @@ export default function Header() {
             <nav className="flex flex-col p-4 gap-2">
               {navItems.map((item) => {
                 const active = location.pathname === item.href;
-                const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "VebXrun AI" } : {});
+                const label = t(`nav.${item.labelKey}`, item.labelKey === "designAssistant" ? { defaultValue: "Vebx Agent" } : {});
 
                 if (item.icon === "bot") {
                   return (

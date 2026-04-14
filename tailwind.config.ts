@@ -86,6 +86,10 @@ export default {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(200%)" },
         },
+        "marquee": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -95,6 +99,7 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
         "badge-blink": "badge-blink 1.8s ease-in-out infinite",
         "shimmer": "shimmer 2s infinite",
+        "marquee": "marquee 30s linear infinite",
       },
     },
   },
