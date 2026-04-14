@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import LiveChatPanel from "@/components/LiveChatPanel";
 import { requirementServices } from "@/data/customRequirement";
 import { postQuote } from "@/lib/api";
@@ -182,16 +183,18 @@ export default function LiveChatWidget() {
                     <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
                       <Briefcase className="h-3 w-3" /> Service
                     </Label>
-                    <select
-                      value={serviceSlug}
-                      onChange={(e) => setServiceSlug(e.target.value)}
-                      className="w-full h-9 px-3 rounded-md bg-white/5 border border-white/10 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-primary/50"
-                    >
-                      <option value="">Select a service</option>
-                      {requirementServices.map((s) => (
-                        <option key={s.slug} value={s.slug}>{s.title}</option>
-                      ))}
-                    </select>
+                    <Select value={serviceSlug} onValueChange={setServiceSlug}>
+                      <SelectTrigger className="h-9 bg-white/5 border-white/10 text-sm">
+                        <SelectValue placeholder="Select a service" />
+                      </SelectTrigger>
+                      <SelectContent className="bg-black/95 border-white/10 backdrop-blur-xl max-h-60">
+                        {requirementServices.map((s) => (
+                          <SelectItem key={s.slug} value={s.slug} className="text-sm text-foreground hover:bg-white/10">
+                            {s.title}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
                   </div>
 
                   <div className="!mt-auto pt-3 flex flex-col gap-2">

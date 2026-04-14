@@ -62,29 +62,16 @@ export default function Footer() {
             <div>
               <img src={logo} alt="vebxrun" className="h-10 w-auto mb-4" />
               <p className="text-sm text-muted-foreground leading-relaxed mb-5">{t("footer.brandDesc")}</p>
-              {/* Mini Dashboard Screen */}
-              <div className="liquid-glass rounded-xl border border-white/10 overflow-hidden">
-                <div className="flex items-center gap-1.5 px-3 py-1.5 border-b border-white/10 bg-white/5">
-                  <span className="w-2 h-2 rounded-full bg-red-500/80" />
-                  <span className="w-2 h-2 rounded-full bg-yellow-500/80" />
-                  <span className="w-2 h-2 rounded-full bg-green-500/80" />
-                  <span className="text-[10px] text-muted-foreground ml-2 font-mono">dashboard</span>
-                </div>
-                <div className="p-3 space-y-2">
-                  <p className="text-[10px] uppercase tracking-wider text-muted-foreground font-display">Recent Projects</p>
-                  <div className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                    <span className="text-xs text-foreground/80">E-Commerce Platform</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                    <span className="text-xs text-foreground/80">Mobile App UI/UX</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
-                    <span className="text-xs text-foreground/80">Brand Identity Design</span>
-                  </div>
-                </div>
+              <a href="mailto:support@vebx.run" className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors mb-3">
+                <Mail className="w-4 h-4" /> support@vebx.run
+              </a>
+              <div className="flex items-start gap-2 text-sm text-muted-foreground mb-2">
+                <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
+                <span>Cyber Jaya, Malaysia</span>
+              </div>
+              <div className="flex items-start gap-2 text-sm text-muted-foreground">
+                <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
+                <span>Karachi, Pakistan</span>
               </div>
             </div>
 
@@ -116,13 +103,6 @@ export default function Footer() {
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">Get In Touch</h4>
               <p className="text-sm text-muted-foreground mb-4">Have a project in mind? Reach out and let's create something extraordinary.</p>
-              <a href="mailto:support@vebx.run" className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors mb-3">
-                <Mail className="w-4 h-4" /> support@vebx.run
-              </a>
-              <div className="flex items-start gap-2 text-sm text-muted-foreground mb-4">
-                <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-                <span>117 S Lexington Street STN 100, Harrisonville MO 64701</span>
-              </div>
               <Link to="/contact#live-chat" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform">{t("footer.getInTouch")}</Link>
             </div>
           </div>
