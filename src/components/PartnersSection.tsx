@@ -31,6 +31,9 @@ export default function PartnersSection() {
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
             Our <span className="text-gradient-red">Partners</span>
           </h2>
+          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-sm leading-relaxed">
+            Powered by globally recognized platforms and industry-leading technologies that support and enhance our services. They are considered our partners in the sense that we utilize their tools and services.
+          </p>
         </motion.div>
 
         {/* Infinite scroll marquee */}
@@ -43,15 +46,14 @@ export default function PartnersSection() {
             {[...partners, ...partners].map((p, i) => (
               <div
                 key={`${p.name}-${i}`}
-                className="flex-shrink-0 flex items-center justify-center h-12 w-[140px] grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                className="flex-shrink-0 flex items-center justify-center h-20 w-[200px] transition-all duration-500 hover:scale-110"
               >
                 <img
                   src={p.logo}
                   alt={p.name}
-                  className="max-h-10 max-w-[120px] object-contain invert brightness-200"
+                  className="max-h-16 max-w-[180px] object-contain"
                   loading="lazy"
                   onError={(e) => {
-                    // Fallback to text if logo fails
                     const target = e.target as HTMLImageElement;
                     target.style.display = "none";
                     const span = document.createElement("span");
