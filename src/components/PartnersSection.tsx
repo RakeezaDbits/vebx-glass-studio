@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const partners = [
   { name: "Hostinger", logo: "https://upload.wikimedia.org/wikipedia/commons/0/09/Hostinger_logo_purple.svg" },
@@ -16,6 +17,8 @@ const partners = [
 ];
 
 export default function PartnersSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-16 relative overflow-hidden">
       <div className="container px-4 lg:px-8">
@@ -26,13 +29,13 @@ export default function PartnersSection() {
           className="text-center mb-12"
         >
           <span className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-3 block">
-            Trusted By Industry Leaders
+            {t("trusted.partnersTag")}
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
-            Our <span className="text-gradient-red">Partners</span>
+            {t("trusted.partnersHeading")} <span className="text-gradient-red">{t("trusted.partnersHeadingHighlight")}</span>
           </h2>
-          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-sm leading-relaxed">
-            Powered by globally recognized platforms and industry-leading technologies that support and enhance our services. They are considered our partners in the sense that we utilize their tools and services.
+          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-[11px] md:text-xs leading-relaxed">
+            {t("trusted.partnersDesc")}
           </p>
         </motion.div>
 
@@ -42,22 +45,22 @@ export default function PartnersSection() {
           <div className="absolute left-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-r from-background to-transparent pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-l from-background to-transparent pointer-events-none" />
 
-          <div className="flex animate-marquee gap-12 items-center py-6">
-            {[...partners, ...partners].map((p, i) => (
+          <div className="partners-marquee-track flex w-max min-w-max items-center gap-16 py-6 md:gap-20">
+            {[...partners, ...partners, ...partners].map((p, i) => (
               <div
                 key={`${p.name}-${i}`}
-                className="flex-shrink-0 flex items-center justify-center h-20 w-[200px] transition-all duration-500 hover:scale-110"
+                className="flex-shrink-0 flex items-center justify-center h-28 md:h-32 w-[240px] md:w-[300px] px-5 transition-all duration-500 hover:scale-110"
               >
                 <img
                   src={p.logo}
                   alt={p.name}
-                  className="max-h-16 max-w-[180px] object-contain"
+                  className="max-h-24 md:max-h-28 max-w-[220px] md:max-w-[260px] object-contain"
                   loading="lazy"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = "none";
                     const span = document.createElement("span");
-                    span.className = "text-sm font-display font-bold text-muted-foreground whitespace-nowrap";
+                    span.className = "text-base md:text-lg font-display font-bold text-muted-foreground whitespace-nowrap";
                     span.textContent = p.name;
                     target.parentElement?.appendChild(span);
                   }}

@@ -116,7 +116,11 @@
       "metaverseXR": "Metaverzum & XR",
       "enterpriseSaaS": "Enterprise SaaS",
       "startupsToFortune": "Startuptól Fortune 500-ig"
-    }
+    },
+    "partnersTag": "Az Iparagi Vezetok Bizalma",
+    "partnersHeading": "Partner",
+    "partnersHeadingHighlight": "Halozatunk",
+    "partnersDesc": "Vilagszerte elismert platformokra es piacvezeto technologiakra tamaszkodunk, amelyek erositik szolgaltatasainkat es segitenek megbizhato digitalis megoldasokat szallitani."
   },
   "servicesSection": {
     "tag": "Szolgáltatásaink",

@@ -50,6 +50,11 @@ const quickLinks = [
   { labelKey: "linkPrivacyPolicy", href: "/privacy-policy" },
 ];
 
+const legalLinks = [
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms & Conditions", href: "/terms-and-conditions" },
+];
+
 export default function Footer() {
   const { t } = useTranslation();
 
@@ -137,9 +142,18 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 pb-8">
           <div className="container px-4 lg:px-8">
-            <p className="text-xs text-muted-foreground text-center sm:text-left">
-              {t("footer.copyright")} <Link to="/" className="text-primary hover:underline font-medium">{t("footer.vebexRun")}</Link>.
-            </p>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <p className="text-xs text-muted-foreground text-center sm:text-left">
+                {t("footer.copyright")} <Link to="/" className="text-primary hover:underline font-medium">{t("footer.vebexRun")}</Link>.
+              </p>
+              <div className="flex items-center justify-center sm:justify-end gap-4 text-xs text-muted-foreground">
+                {legalLinks.map((link) => (
+                  <Link key={link.href} to={link.href} className="hover:text-primary transition-colors duration-300">
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

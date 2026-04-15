@@ -116,7 +116,11 @@
       "metaverseXR": "Metaverse & XR",
       "enterpriseSaaS": "Enterprise SaaS",
       "startupsToFortune": "Startups to Fortune 500"
-    }
+    },
+    "partnersTag": "Trusted By Industry Leaders",
+    "partnersHeading": "Our",
+    "partnersHeadingHighlight": "Partners",
+    "partnersDesc": "Powered by globally recognized platforms and industry-leading technologies that strengthen our services and help us deliver dependable digital solutions."
   },
   "servicesSection": {
     "tag": "What We Do",
@@ -379,21 +383,81 @@
     "headingHighlight": "Work",
     "desc": "A showcase of projects that demonstrate our expertise across industries and technologies.",
     "projects": {
-      "emaanai": { "title": "Emaan Ai", "category": "Mobile Application", "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights." },
-      "vebxcode": { "title": "Vebxcode", "category": "Web Application", "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise." },
-      "healthsync": { "title": "HealthSync", "category": "Healthcare", "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups." },
-      "taskflow": { "title": "TaskFlow", "category": "SaaS", "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies." },
-      "fooddash": { "title": "FoodDash", "category": "Mobile Application", "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics." },
-      "eventify": { "title": "Eventify", "category": "Web Application", "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops." },
-      "docvault": { "title": "DocVault", "category": "Software", "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams." },
-      "fittrack": { "title": "FitTrack", "category": "Mobile Application", "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS." },
-      "cloudflow": { "title": "CloudFlow", "category": "SaaS", "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams." },
-      "neondrift": { "title": "Neon Drift", "category": "Game Development", "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms." },
-      "shopverse": { "title": "ShopVerse", "category": "E-Commerce", "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory." },
-      "paybridge": { "title": "PayBridge", "category": "FinTech", "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security." },
-      "learnhub": { "title": "LearnHub", "category": "EdTech", "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners." },
-      "smartops": { "title": "SmartOps", "category": "Software & IoT", "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics." },
-      "engagelab": { "title": "EngageLab", "category": "Digital Marketing", "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands." }
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
     },
     "ctaHeading": "Want to Be Our",
     "ctaHighlight": "Next Success",

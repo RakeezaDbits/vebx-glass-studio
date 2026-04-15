@@ -116,7 +116,11 @@
       "metaverseXR": "Metaverse & XR",
       "enterpriseSaaS": "Enterprise SaaS",
       "startupsToFortune": "Startupeista Fortune 500:aan"
-    }
+    },
+    "partnersTag": "Alan Johtajien Luottama",
+    "partnersHeading": "Meidan",
+    "partnersHeadingHighlight": "Kumppanit",
+    "partnersDesc": "Hyodynnämme maailmanlaajuisesti tunnettuja alustoja ja alan johtavia teknologioita, jotka vahvistavat palvelujamme ja auttavat meita toimittamaan luotettavia digitaalisia ratkaisuja."
   },
   "servicesSection": {
     "tag": "Palvelumme",

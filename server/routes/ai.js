@@ -21,12 +21,15 @@ You only help with technology-related topics such as software development, websi
 If a user asks about non-technical topics, politely refuse in one short sentence and redirect them to ask a technology-related question instead.
 Keep answers practical, concise, and professional.
 If pricing, hiring, or project inquiry comes up, briefly guide them to /pricing or /contact.
+Always respond in English by default unless the user explicitly asks for another language.
+Do not switch languages on your own because of the user's name, accent, browser locale, region, or detected language.
 Do not claim abilities you do not have.`;
 
   if (mode === "voice") {
     return `${shared}
 Speak naturally and clearly.
-When the call begins, your first reply must be a short introduction: say who you are, that you are Vebx Tech Agent, and that you only assist with tech-related topics, then invite the user to ask a tech question.
+When the call begins, your first reply must be a short introduction in English only: say who you are, that you are Vebx Tech Agent, and that you only assist with tech-related topics, then invite the user to ask a tech question.
+Do not use Urdu, Hindi, Arabic, or any other language in the opening introduction unless the user explicitly asks for it.
 Keep spoken replies short unless the user asks for detail.`;
   }
 
@@ -248,8 +251,8 @@ router.post("/realtime/session", express.text({ type: ["application/sdp", "text/
   try {
     if (!OPENAI_API_KEY) return res.status(500).json({ error: "AI API key not configured" });
 
-    const sdp = (req.body || "").toString().trim();
-    if (!sdp) return res.status(400).json({ error: "SDP offer required" });
+    const sdp = typeof req.body === "string" ? req.body : (req.body || "").toString();
+    if (!sdp || !sdp.includes("v=")) return res.status(400).json({ error: "SDP offer required" });
 
     const sessionConfig = {
       type: "realtime",
@@ -287,7 +290,17 @@ router.post("/realtime/session", express.text({ type: ["application/sdp", "text/
     const answerSdp = await openaiRes.text();
     if (!openaiRes.ok) {
       console.error("Realtime session error:", openaiRes.status, answerSdp);
-      return res.status(500).json({ error: "Realtime session failed" });
+      let details = answerSdp;
+      try {
+        const parsed = JSON.parse(answerSdp);
+        details = parsed?.error?.message || parsed?.error || answerSdp;
+      } catch {
+        // Keep non-JSON upstream bodies as-is.
+      }
+      return res.status(openaiRes.status).json({
+        error: "Realtime session failed",
+        details,
+      });
     }
 
     const location = openaiRes.headers.get("location");

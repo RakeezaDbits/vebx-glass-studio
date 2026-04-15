@@ -116,7 +116,11 @@
       "metaverseXR": "메타버스 & XR",
       "enterpriseSaaS": "엔터프라이즈 SaaS",
       "startupsToFortune": "스타트업~대기업"
-    }
+    },
+    "partnersTag": "업계 리더들이 신뢰하는",
+    "partnersHeading": "우리의",
+    "partnersHeadingHighlight": "파트너",
+    "partnersDesc": "전 세계적으로 인정받는 플랫폼과 업계를 선도하는 기술을 기반으로, 우리의 서비스를 강화하고 신뢰할 수 있는 디지털 솔루션 제공을 돕습니다."
   },
   "servicesSection": {
     "tag": "서비스",

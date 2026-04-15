@@ -116,7 +116,11 @@
       "metaverseXR": "Metaverse & XR",
       "enterpriseSaaS": "Enterprise SaaS",
       "startupsToFortune": "Startup đến Fortune 500"
-    }
+    },
+    "partnersTag": "Duoc Tin Tuong Boi Cac Don Vi Dan Dau Nganh",
+    "partnersHeading": "Doi Tac",
+    "partnersHeadingHighlight": "Cua Chung Toi",
+    "partnersDesc": "Duoc ho tro boi cac nen tang duoc cong nhan toan cau va cong nghe hang dau giup tang cuong dich vu cua chung toi va mang den cac giai phap so dang tin cay."
   },
   "servicesSection": {
     "tag": "Dịch vụ",

@@ -116,7 +116,11 @@
       "metaverseXR": "Métavers et XR",
       "enterpriseSaaS": "SaaS Entreprise",
       "startupsToFortune": "Des startups au Fortune 500"
-    }
+    },
+    "partnersTag": "Approuve Par Les Leaders Du Secteur",
+    "partnersHeading": "Nos",
+    "partnersHeadingHighlight": "Partenaires",
+    "partnersDesc": "Nous nous appuyons sur des plateformes mondialement reconnues et des technologies de pointe qui renforcent nos services et nous aident a livrer des solutions numeriques fiables."
   },
   "servicesSection": {
     "tag": "Ce que nous faisons",

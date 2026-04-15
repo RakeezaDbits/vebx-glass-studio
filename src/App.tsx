@@ -14,6 +14,7 @@ import Expertise from "./pages/Expertise";
 import Contact from "./pages/Contact";
 import CustomRequirement from "./pages/CustomRequirement";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 import DesignAssistant from "./pages/DesignAssistant";
 import VebxAI from "./pages/VebxAI";
 import NotFound from "./pages/NotFound";
@@ -67,6 +68,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/custom-requirement" element={<CustomRequirement />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsConditions />} />
             <Route path="/design-assistant" element={<DesignAssistant />} />
             <Route path="/ai" element={<VebxAI />} />
             <Route path="/admin/login" element={<AdminLogin />} />

@@ -24,12 +24,12 @@ type Message = {
 };
 
 const INITIAL_ASSISTANT_MESSAGE =
-  "Assalam o Alaikum! Main **Vebx Tech Agent** hoon. Main sirf tech-related topics mein help karta hoon, jaise web development, apps, AI, APIs, cloud, UX for digital products, debugging, aur architecture. Apna tech question bhej dein.";
+  "Hello! I am **Vebx Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started.";
 
 const QUICK_PROMPTS = [
   "Best tech stack for a SaaS MVP?",
   "How should I design a scalable REST API?",
-  "React app ko fast kaise optimize karun?",
+  "How can I optimize a React app for speed?",
 ];
 
 function createId() {
@@ -49,6 +49,7 @@ export default function VebxAI() {
   const [callStatus, setCallStatus] = useState("Ready for a realtime tech call");
 
   const chatEndRef = useRef<HTMLDivElement>(null);
+  const chatScrollRef = useRef<HTMLDivElement>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
   const callTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -70,7 +71,13 @@ export default function VebxAI() {
 
   useEffect(() => {
     messagesRef.current = messages;
-    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    const chatScroll = chatScrollRef.current;
+    if (!chatScroll) return;
+
+    chatScroll.scrollTo({
+      top: chatScroll.scrollHeight,
+      behavior: "smooth",
+    });
   }, [messages]);
 
   const appendMessage = useCallback((role: Message["role"], content: string) => {
@@ -184,7 +191,7 @@ export default function VebxAI() {
       if (!assistantText.trim()) {
         upsertAssistantMessage(
           assistantId,
-          "Main is waqt response generate nahin kar saka. Apna tech question dubara bhej dein."
+          "I could not generate a response right now. Please send your tech question again."
         );
       }
     } catch (err) {
@@ -296,7 +303,7 @@ export default function VebxAI() {
       if (withMessage) {
         appendMessage(
           "assistant",
-          "📞 Call ended. Aap chat mein apna next tech question bhej sakte hain."
+          "📞 Call ended. You can send your next tech question in chat."
         );
       }
     },
@@ -341,20 +348,32 @@ export default function VebxAI() {
       });
       await peerConnection.setLocalDescription(offer);
 
+      const localSdp = peerConnection.localDescription?.sdp;
+      if (!localSdp || !localSdp.includes("v=")) {
+        throw new Error("Realtime offer could not be created");
+      }
+
       const response = await fetch(`${API_BASE}/api/ai/realtime/session`, {
         method: "POST",
         headers: { "Content-Type": "application/sdp" },
-        body: offer.sdp || "",
+        body: localSdp,
       });
 
-      const answerSdp = await response.text();
+      const rawResponse = await response.text();
       if (!response.ok) {
-        throw new Error(answerSdp || "Could not start realtime call");
+        let message = rawResponse || "Could not start realtime call";
+        try {
+          const parsed = JSON.parse(rawResponse) as { error?: string; details?: string };
+          message = parsed.details || parsed.error || message;
+        } catch {
+          // Keep plain-text error bodies as-is.
+        }
+        throw new Error(message);
       }
 
       await peerConnection.setRemoteDescription({
         type: "answer",
-        sdp: answerSdp,
+        sdp: rawResponse,
       });
 
       dataChannel.onopen = () => {
@@ -369,7 +388,7 @@ export default function VebxAI() {
 
         appendMessage(
           "assistant",
-          "📞 Realtime voice call connected. Agent ab apna intro dega aur tech questions ke liye ready hai."
+          "📞 Realtime voice call connected. The agent will introduce itself and is ready for your tech questions."
         );
 
         dataChannel.send(
@@ -377,7 +396,7 @@ export default function VebxAI() {
             type: "response.create",
             response: {
               instructions:
-                "Introduce yourself briefly right now. Say you are Vebx Tech Agent, mention that you only help with technology-related topics, and then invite the user to ask one tech question.",
+                "Introduce yourself briefly right now in English only. Say you are Vebx Tech Agent, mention that you only help with technology-related topics, and then invite the user to ask one tech question. Do not use Urdu, Hindi, Arabic, or any other language unless the user explicitly asks for it.",
             },
           })
         );
@@ -397,9 +416,7 @@ export default function VebxAI() {
       setCallStatus("Call connection failed");
       appendMessage(
         "assistant",
-        `❌ ${
-          err instanceof Error ? err.message : "Realtime call start nahin ho saka"
-        }`
+        `❌ ${err instanceof Error ? err.message : "Realtime call could not be started"}`
       );
     }
   }, [
@@ -449,17 +466,17 @@ export default function VebxAI() {
             Vebx <span className="text-gradient-red">Tech Agent</span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Chat ya live call ke zariye software, apps, AI, APIs, cloud, aur digital product engineering
-            par madad hasil karein.
+            Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat
+            or a live call.
           </p>
         </div>
       </section>
 
-      <section className="container -mt-4 px-4 pb-20 lg:px-8">
-        <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-[1fr_300px]">
+      <section className="container -mt-4 scroll-mt-28 px-4 pb-20 lg:px-8">
+        <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-[1fr_300px]">
           <div
-            className="liquid-glass border-glow flex flex-col overflow-hidden rounded-2xl"
-            style={{ height: "600px" }}
+            className="liquid-glass border-glow flex flex-col overflow-hidden rounded-2xl lg:sticky lg:top-24"
+            style={{ height: "min(78vh, 860px)" }}
           >
             <div className="flex items-center gap-3 border-b border-white/10 px-5 py-3">
               <div className="gradient-red flex h-9 w-9 items-center justify-center rounded-full">
@@ -477,7 +494,7 @@ export default function VebxAI() {
               </div>
             </div>
 
-            <div className="flex-1 space-y-4 overflow-y-auto p-5">
+            <div ref={chatScrollRef} className="flex-1 space-y-4 overflow-y-auto p-5">
               {messages.map((msg) => (
                 <div
                   key={msg.id}
@@ -562,7 +579,7 @@ export default function VebxAI() {
                       void sendMessage();
                     }
                   }}
-                  placeholder="Tech question poochain, jaise API design, React, AI, cloud..."
+                  placeholder="Ask a tech question, such as API design, React, AI, or cloud..."
                   className="flex-1 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
                   disabled={isLoading}
                 />
@@ -580,7 +597,7 @@ export default function VebxAI() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 lg:sticky lg:top-24">
             <div className="liquid-glass border-glow rounded-2xl p-6 text-center">
               <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
                 Realtime Voice Call
@@ -631,15 +648,15 @@ export default function VebxAI() {
               <ul className="space-y-3 text-sm text-foreground/80">
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Web, app, backend aur AI engineering guidance</span>
+                  <span>Web, app, backend, and AI engineering guidance</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Architecture, APIs, databases aur cloud recommendations</span>
+                  <span>Architecture, APIs, databases, and cloud recommendations</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Debugging, performance, scalability aur security advice</span>
+                  <span>Debugging, performance, scalability, and security advice</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />

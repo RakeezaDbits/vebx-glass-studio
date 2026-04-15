@@ -10,6 +10,7 @@ import {
   type LiveChatMessageRow,
 } from "@/lib/api";
 import { Button } from "@/components/ui/button";
+import VoiceNotePlayer from "@/components/VoiceNotePlayer";
 import { cn } from "@/lib/utils";
 
 function appendMessagesById(prev: LiveChatMessageRow[], incoming: LiveChatMessageRow[]): LiveChatMessageRow[] {
@@ -62,7 +63,7 @@ function AdminMediaBubble({ messageId, msgType }: { messageId: number; msgType: 
 
   if (!url) return <span className="text-xs text-muted-foreground">Loading media…</span>;
   if (msgType === "image") return <img src={url} alt="" className="max-h-52 rounded-lg object-contain" />;
-  if (msgType === "audio") return <audio controls src={url} className="w-full max-w-xs h-9" />;
+  if (msgType === "audio") return <VoiceNotePlayer src={url} variant="admin" />;
   if (msgType === "video") return <video controls src={url} className="max-h-52 rounded-lg w-full" />;
   return null;
 }

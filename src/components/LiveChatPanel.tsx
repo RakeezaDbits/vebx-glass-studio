@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MessagesSquare, Send, Paperclip, Loader2, Mic } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import VoiceNotePlayer from "@/components/VoiceNotePlayer";
 import { cn } from "@/lib/utils";
 import {
   createLiveChatSession,
@@ -59,7 +60,11 @@ function MessageBubble({
           </a>
         )}
         {m.msg_type === "audio" && hasFile && (
-          <audio controls src={url} className="mb-1 h-9 w-full min-w-[200px] max-w-[260px]" />
+          <VoiceNotePlayer
+            src={url}
+            variant={isVisitor ? "visitor" : "admin"}
+            className={cn("mb-1", isVisitor && "bg-black/15")}
+          />
         )}
         {m.msg_type === "video" && hasFile && (
           <video controls src={url} className="mb-2 max-h-44 w-full max-w-[260px] rounded-xl" />
@@ -95,12 +100,17 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const lastIdRef = useRef(0);
   /** Prevents double-send; cleared when panel closes, on reconnect, and in finally. */
   const sendLockRef = useRef(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const audioChunksRef = useRef<Blob[]>([]);
+  const recordingStreamRef = useRef<MediaStream | null>(null);
+  const discardRecordingRef = useRef(false);
 
   const scrollBottom = () => {
     requestAnimationFrame(() => {
@@ -147,10 +157,25 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
   useEffect(() => {
     if (!active) {
       sendLockRef.current = false;
+      discardRecordingRef.current = true;
+      mediaRecorderRef.current?.stop();
+      recordingStreamRef.current?.getTracks().forEach((track) => track.stop());
+      recordingStreamRef.current = null;
+      mediaRecorderRef.current = null;
+      audioChunksRef.current = [];
+      setIsRecording(false);
       return;
     }
     bootstrap();
   }, [active, bootstrap]);
+
+  useEffect(() => {
+    return () => {
+      discardRecordingRef.current = true;
+      mediaRecorderRef.current?.stop();
+      recordingStreamRef.current?.getTracks().forEach((track) => track.stop());
+    };
+  }, []);
 
   useEffect(() => {
     if (!active || !token) return;
@@ -253,6 +278,112 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
     } finally {
       setSending(false);
       sendLockRef.current = false;
+    }
+  };
+
+  const toggleVoiceRecording = async () => {
+    if (!token || sending) return;
+
+    if (isRecording) {
+      mediaRecorderRef.current?.stop();
+      return;
+    }
+
+    if (
+      typeof navigator === "undefined" ||
+      !navigator.mediaDevices ||
+      typeof navigator.mediaDevices.getUserMedia !== "function" ||
+      typeof MediaRecorder === "undefined"
+    ) {
+      setError("Voice recording is not supported in this browser.");
+      return;
+    }
+
+    setError(null);
+
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      recordingStreamRef.current = stream;
+      discardRecordingRef.current = false;
+      const supportsWebm =
+        typeof MediaRecorder.isTypeSupported === "function"
+          ? MediaRecorder.isTypeSupported("audio/webm")
+          : true;
+      const recorder = supportsWebm
+        ? new MediaRecorder(stream, { mimeType: "audio/webm" })
+        : new MediaRecorder(stream);
+      mediaRecorderRef.current = recorder;
+      audioChunksRef.current = [];
+
+      recorder.ondataavailable = (event) => {
+        if (event.data.size > 0) audioChunksRef.current.push(event.data);
+      };
+
+      recorder.onerror = () => {
+        setError("Voice recording failed. Please try again.");
+        setIsRecording(false);
+      };
+
+      recorder.onstop = async () => {
+        const chunks = audioChunksRef.current;
+        audioChunksRef.current = [];
+        setIsRecording(false);
+
+        recordingStreamRef.current?.getTracks().forEach((track) => track.stop());
+        recordingStreamRef.current = null;
+        mediaRecorderRef.current = null;
+
+        if (discardRecordingRef.current) {
+          discardRecordingRef.current = false;
+          return;
+        }
+
+        if (!chunks.length || !token || sendLockRef.current) return;
+
+        sendLockRef.current = true;
+        setSending(true);
+        setError(null);
+
+        try {
+          const audioType = recorder.mimeType || "audio/webm";
+          const audioBlob = new Blob(chunks, { type: audioType });
+          const ext = audioType.includes("ogg") ? "ogg" : audioType.includes("mp4") ? "mp4" : "webm";
+          const audioFile = new File([audioBlob], `voice-message-${Date.now()}.${ext}`, {
+            type: audioType,
+          });
+
+          const fd = new FormData();
+          fd.append("file", audioFile);
+          if (text.trim()) fd.append("body", text.trim());
+
+          const created = await postLiveChatMessage(token, fd);
+          setText("");
+          if (created?.id != null) {
+            lastIdRef.current = Math.max(lastIdRef.current, created.id);
+          }
+          const rows = await fetchLiveChatMessages(token, lastIdRef.current);
+          if (rows.length) {
+            lastIdRef.current = Math.max(lastIdRef.current, ...rows.map((r) => r.id));
+            setMessages((prev) => appendMessagesById(prev, rows));
+          }
+          scrollBottom();
+        } catch (err) {
+          if (err instanceof Error && err.message === "SESSION_EXPIRED") {
+            await bootstrap();
+          } else {
+            setError(err instanceof Error ? err.message : "Voice message upload failed");
+          }
+        } finally {
+          setSending(false);
+          sendLockRef.current = false;
+        }
+      };
+
+      recorder.start();
+      setIsRecording(true);
+    } catch {
+      setError("Microphone access was denied.");
+      setIsRecording(false);
     }
   };
 
@@ -384,10 +515,14 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
                 type="button"
                 variant="outline"
                 size="icon"
-                className="h-10 w-10 shrink-0 rounded-xl border-white/15 bg-black/25"
+                className={cn(
+                  "h-10 w-10 shrink-0 rounded-xl border-white/15 bg-black/25",
+                  isRecording && "gradient-red border-primary/40 text-primary-foreground animate-pulse"
+                )}
                 disabled={sending || !token}
+                onClick={() => void toggleVoiceRecording()}
                 aria-label="Voice message"
-                title="Voice chat (coming soon)"
+                title={isRecording ? "Stop recording and send voice message" : "Record a voice message"}
               >
                 <Mic className="h-4 w-4" />
               </Button>
@@ -400,7 +535,13 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
                     sendText();
                   }
                 }}
-                placeholder={token ? "Message…" : "Connect to send…"}
+                placeholder={
+                  !token
+                    ? "Connect to send…"
+                    : isRecording
+                      ? "Recording voice message… tap mic to stop"
+                      : "Message…"
+                }
                 className={cn(
                   "h-10 min-w-0 flex-1 border-white/15 bg-black/35 text-sm",
                   "text-foreground placeholder:text-muted-foreground/55",
