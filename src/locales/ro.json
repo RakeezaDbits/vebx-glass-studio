@@ -1,20 +1,543 @@
 {
-  "nav": { "home": "Acasă", "about": "Despre noi", "services": "Servicii", "pricing": "Prețuri", "ourWork": "Portofoliu", "expertise": "Expertiză", "contactUs": "Contact" },
-  "hero": { "tagline": "Imaginează. Inovează. Inspiră.", "headline1": "Construim", "headline2": "Experiențe", "headline3": "Digitale care", "headline4": "Contează", "subtext": "De la aplicații mobile la metaverse, creăm soluții care transformă ideile în realitate.", "getStarted": "Începe", "viewOurWork": "Vezi lucrările", "stats": { "projects": "Proiecte livrate", "clients": "Clienți mulțumiți", "years": "Ani experiență" } },
-  "about": { "tag": "Despre noi", "heading": "Excelență", "headingHighlight": "Digitală", "headingSuffix": "din prima zi", "desc": "La vebxrun suntem arhitecți digitali.", "heroDesc": "Viziune creativă și expertiză tehnică.", "features": { "innovationTitle": "Inovație", "innovationDesc": "Tehnologie de vârf", "secureTitle": "Fiabil și sigur", "secureDesc": "Securitate enterprise", "teamTitle": "Echipă de experți", "teamDesc": "Dezvoltatori experimentați", "resultsTitle": "Orientat pe rezultate", "resultsDesc": "Rezultate măsurabile" }, "fromStartups": "De la startup-uri la", "enterprises": "corporații", "fromStartupsDesc1": "Am crescut într-o agenție digitală globală.", "fromStartupsDesc2": "Mobil, web, metaverse, jocuri și mai mult.", "valuesTag": "Valorile noastre", "valuesHeading": "Ce ne", "valuesHighlight": "motivează", "valuesSuffix": "", "values": { "creativeTitle": "Gândire creativă", "creativeDesc": "Perspective proaspete.", "qualityTitle": "Calitate", "qualityDesc": "Cele mai înalte standarde.", "globalTitle": "Acoperire globală", "globalDesc": "Clienți din întreaga lume.", "clientTitle": "Focus pe client", "clientDesc": "Succesul vostru e succesul nostru." }, "stats": { "projects": "Proiecte", "clients": "Clienți", "years": "Ani experiență", "team": "Membri echipă" } },
-  "cta": { "heading": "Pregătiți să", "headingHighlight": "transformați", "headingSuffix": "afacerea?", "desc": "Să creăm împreună ceva extraordinar.", "button": "Începe proiectul" },
-  "whyChoose": { "tag": "De ce vebxrun", "heading": "De ce", "headingHighlight": "să ne alegeți", "desc": "Excelență tehnică.", "reasons": { "innovationTitle": "Inovație", "innovationDesc": "Tehnologie de vârf.", "deliveryTitle": "Livrare fiabilă", "deliveryDesc": "La timp și în buget.", "teamTitle": "Echipă expertă", "teamDesc": "Dezvoltatori seniori.", "resultsTitle": "Rezultate reale", "resultsDesc": "Indicatori de creștere." } },
-  "howWeWork": { "tag": "Procesul nostru", "heading": "Cum", "headingHighlight": "lucrăm", "desc": "Proces transparent.", "steps": { "discoverTitle": "Descoperire", "discoverDesc": "Înțelegem viziunea.", "designTitle": "Design", "designDesc": "UX/UI și arhitectură.", "developTitle": "Dezvoltare", "developDesc": "Cod de calitate.", "deliverTitle": "Livrare", "deliverDesc": "Lansare și suport." }, "startProject": "Începe proiectul" },
-  "trusted": { "tag": "De încredere", "items": { "mobileWeb": "Mobil & Web", "metaverseXR": "Metaverse & XR", "enterpriseSaaS": "Enterprise SaaS", "startupsToFortune": "Startup-uri la Fortune 500" } },
-  "servicesSection": { "tag": "Serviciile noastre", "heading": "Serviciile", "headingHighlight": "Noastre", "desc": "Soluții digitale complete" },
-  "footer": { "quickLinks": "Linkuri rapide", "linkServices": "Servicii", "linkPricing": "Prețuri", "linkContactUs": "Contact", "linkOurWork": "Portofoliu", "linkExpertise": "Expertiză", "linkAbout": "Despre", "linkPrivacyPolicy": "Confidențialitate", "services": "Servicii", "letsWork": "Să lucrăm împreună", "letsWorkDesc": "Contactați-ne.", "getInTouch": "Contact", "copyright": "Drepturi de autor 2024–2026", "vebexRun": "Vebex Run", "stayInLoop": "Rămâneți la curent", "stayInLoopDesc": "Noutăți inovație digitală.", "subscribe": "Abonare", "latestInsights": "Ultimele articole", "readMore": "Citește mai mult", "brandDesc": "Imaginează. Inovează. Inspiră.", "insights": { "title1": "Metaverse — următorul salt", "excerpt1": "Tehnologie imersivă.", "title2": "Aplicații pe care utilizatorii le iubesc", "excerpt2": "Principii de design.", "title3": "Transformare digitală", "excerpt3": "Ajutăm afacerile să inoveze." } },
-  "common": { "vebexRun": "Vebex Run", "explore": "Explorează" },
-  "servicesPage": { "whatWeDo": "Ce facem", "ourServices": "Serviciile noastre", "ourServicesHighlight": "Servicii", "subtitle": "Soluții complete.", "customSolution": "Nevoie de soluție personalizată?", "customSolutionDesc": "Construim pe măsură.", "getInTouch": "Contact" },
-  "pricing": { "tag": "Prețuri", "heading": "Prețuri", "headingHighlight": "transparente", "desc": "Alegeți serviciul și planul.", "chooseService": "Alegeți serviciul", "starter": "Starter", "starterDesc": "Pentru început", "professional": "Professional", "professionalDesc": "Pentru creștere", "enterprise": "Enterprise", "enterpriseDesc": "Proiecte mari", "mostPopular": "Cel mai popular", "perProject": "/proiect", "getStarted": "Începe", "features": { "coreScope": "Scop de bază", "responsive": "Design responsive", "basicSupport": "Suport de bază", "2revisions": "2 runde revizuiri", "1monthSupport": "1 lună suport", "fullScope": "Scop complet + UI/UX", "advancedFeatures": "Funcții avansate", "apiIntegrations": "Integrări API", "5revisions": "5 runde revizuiri", "3monthsSupport": "3 luni suport", "perfOptimization": "Optimizare performanță", "fullStack": "Full-stack personalizat", "dedicatedPM": "PM dedicat", "unlimitedRevisions": "Revizuiri nelimitate", "12monthsSupport": "12 luni suport", "cicd": "CI/CD & DevOps", "sla": "Garanție SLA" } },
-  "contact": { "tag": "Contact", "heading": "Hai să", "headingHighlight": "vorbim", "desc": "Răspuns în 24h.", "sendMessage": "Trimite mesaj", "yourName": "Nume", "yourEmail": "Email", "subject": "Subiect", "tellUs": "Spuneți-ne despre proiect...", "sendBtn": "Trimite", "emailUs": "Email", "visitUs": "Vizitați-ne", "businessHours": "Program", "monFri": "Luni – Vineri", "saturday": "Sâmbătă", "sunday": "Duminică", "closed": "Închis" },
-  "expertise": { "tag": "Expertiză", "heading": "Tehnologia", "headingHighlight": "noastră", "headingSuffix": "Stack", "desc": "Stăpânim uneltele importante.", "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Mobil", "cloudDevops": "Cloud & DevOps", "gameXR": "Jocuri & XR", "dataAI": "Date & AI" }, "industriesTag": "Industrii", "industriesHeading": "Industrii pe care le", "industriesHighlight": "deservim", "industries": { "healthcare": "Sănătate", "fintech": "FinTech", "ecommerce": "E-Commerce", "education": "Educație", "realEstate": "Imobiliare", "entertainment": "Divertisment", "automotive": "Auto", "logistics": "Logistică" }, "ctaHeading": "Să construim ceva", "ctaHighlight": "uimitor", "ctaDesc": "Echipa e pregătită.", "ctaBtn": "Contact" },
-  "ourWork": { "tag": "Portofoliu", "heading": "Lucrările", "headingHighlight": "noastre", "desc": "Expertiză cross-industrie.", "projects": { "fintech": { "title": "FinTech Dashboard", "category": "Aplicație web", "desc": "Analiză financiară AI." }, "medconnect": { "title": "MedConnect", "category": "Aplicație mobilă", "desc": "Platformă telemedicină." }, "virtuworld": { "title": "VirtuWorld", "category": "Metaverse", "desc": "Showroom virtual 3D." }, "greengrow": { "title": "GreenGrow", "category": "Software", "desc": "Agricultură inteligentă." }, "pixelforge": { "title": "PixelForge", "category": "Joc", "desc": "RPG cross-platform." }, "brandsphere": { "title": "BrandSphere", "category": "Branding", "desc": "Rebranding corporativ." } }, "ctaHeading": "Fiți următoarea", "ctaHighlight": "poveste de succes", "ctaSuffix": "?", "ctaDesc": "Să creăm împreună.", "ctaBtn": "Începe proiectul" },
-  "privacy": { "tag": "Legal", "heading": "Politica de", "headingHighlight": "confidențialitate", "lastUpdated": "Actualizat: martie 2026", "section1Title": "1. Informații colectate", "section1": "Colectăm informațiile furnizate.", "section2Title": "2. Utilizare", "section2": "Pentru a furniza servicii.", "section3Title": "3. Partajare", "section3": "Nu vindem date personale.", "section4Title": "4. Securitate", "section4": "Măsuri de securitate adecvate.", "section5Title": "5. Drepturile dvs.", "section5": "Acces, corectare sau ștergere.", "section6Title": "6. Contact", "section6": "Întrebări:", "email": "Email:", "address": "Adresă:" },
-  "notFound": { "title": "404", "desc": "Pagina nu a fost găsită", "back": "Înapoi acasă" },
-  "services": { "mobileApplication": "Aplicații mobile", "mobileApplicationShort": "Native și cross-platform", "webCmsDevelopment": "Web CMS", "webCmsDevelopmentShort": "Management conținut", "softwareDevelopment": "Dezvoltare software", "softwareDevelopmentShort": "Software personalizat", "corporateBranding": "Branding corporativ", "corporateBrandingShort": "Identitate de brand", "onlineDigitalMarketing": "Marketing digital", "onlineDigitalMarketingShort": "Creștere bazată pe date", "2d3dAnimation": "Animație 2D/3D", "2d3dAnimationShort": "Vizualuri impresionante", "3dRenderingServices": "Randare 3D", "3dRenderingServicesShort": "3D fotorealist", "metaverseDevelopment": "Metaverse", "metaverseDevelopmentShort": "Lumi digitale noi", "gameDevelopment": "Dezvoltare jocuri", "gameDevelopmentShort": "Jocuri multiplatformă", "extendedReality": "Realitate extinsă", "extendedRealityShort": "AR/VR/MR", "socialMediaMarketing": "Social media", "socialMediaMarketingShort": "Prezență strategică" }
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "pricing": "Prețuri",
+    "ourWork": "Portofoliu",
+    "expertise": "Expertiză",
+    "contactUs": "Contact",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
+  },
+  "hero": {
+    "tagline": "Imaginează. Inovează. Inspiră.",
+    "headline1": "Construim",
+    "headline2": "Experiențe",
+    "headline3": "Digitale care",
+    "headline4": "Contează",
+    "subtext": "De la aplicații mobile la metaverse, creăm soluții care transformă ideile în realitate.",
+    "getStarted": "Începe",
+    "viewOurWork": "Vezi lucrările",
+    "stats": {
+      "projects": "Proiecte livrate",
+      "clients": "Clienți mulțumiți",
+      "years": "Ani experiență"
+    }
+  },
+  "about": {
+    "tag": "Despre noi",
+    "heading": "Excelență",
+    "headingHighlight": "Digitală",
+    "headingSuffix": "din prima zi",
+    "desc": "La vebxrun suntem arhitecți digitali.",
+    "heroDesc": "Viziune creativă și expertiză tehnică.",
+    "features": {
+      "innovationTitle": "Inovație",
+      "innovationDesc": "Tehnologie de vârf",
+      "secureTitle": "Fiabil și sigur",
+      "secureDesc": "Securitate enterprise",
+      "teamTitle": "Echipă de experți",
+      "teamDesc": "Dezvoltatori experimentați",
+      "resultsTitle": "Orientat pe rezultate",
+      "resultsDesc": "Rezultate măsurabile"
+    },
+    "fromStartups": "De la startup-uri la",
+    "enterprises": "corporații",
+    "fromStartupsDesc1": "Am crescut într-o agenție digitală globală.",
+    "fromStartupsDesc2": "Mobil, web, metaverse, jocuri și mai mult.",
+    "valuesTag": "Valorile noastre",
+    "valuesHeading": "Ce ne",
+    "valuesHighlight": "motivează",
+    "valuesSuffix": "",
+    "values": {
+      "creativeTitle": "Gândire creativă",
+      "creativeDesc": "Perspective proaspete.",
+      "qualityTitle": "Calitate",
+      "qualityDesc": "Cele mai înalte standarde.",
+      "globalTitle": "Acoperire globală",
+      "globalDesc": "Clienți din întreaga lume.",
+      "clientTitle": "Focus pe client",
+      "clientDesc": "Succesul vostru e succesul nostru."
+    },
+    "stats": {
+      "projects": "Proiecte",
+      "clients": "Clienți",
+      "years": "Ani experiență",
+      "team": "Membri echipă"
+    }
+  },
+  "cta": {
+    "heading": "Pregătiți să",
+    "headingHighlight": "transformați",
+    "headingSuffix": "afacerea?",
+    "desc": "Să creăm împreună ceva extraordinar.",
+    "button": "Începe proiectul"
+  },
+  "whyChoose": {
+    "tag": "De ce vebxrun",
+    "heading": "De ce",
+    "headingHighlight": "să ne alegeți",
+    "desc": "Excelență tehnică.",
+    "reasons": {
+      "innovationTitle": "Inovație",
+      "innovationDesc": "Tehnologie de vârf.",
+      "deliveryTitle": "Livrare fiabilă",
+      "deliveryDesc": "La timp și în buget.",
+      "teamTitle": "Echipă expertă",
+      "teamDesc": "Dezvoltatori seniori.",
+      "resultsTitle": "Rezultate reale",
+      "resultsDesc": "Indicatori de creștere."
+    }
+  },
+  "howWeWork": {
+    "tag": "Procesul nostru",
+    "heading": "Cum",
+    "headingHighlight": "lucrăm",
+    "desc": "Proces transparent.",
+    "steps": {
+      "discoverTitle": "Descoperire",
+      "discoverDesc": "Înțelegem viziunea.",
+      "designTitle": "Design",
+      "designDesc": "UX/UI și arhitectură.",
+      "developTitle": "Dezvoltare",
+      "developDesc": "Cod de calitate.",
+      "deliverTitle": "Livrare",
+      "deliverDesc": "Lansare și suport."
+    },
+    "startProject": "Începe proiectul"
+  },
+  "trusted": {
+    "tag": "De încredere",
+    "items": {
+      "mobileWeb": "Mobil & Web",
+      "metaverseXR": "Metaverse & XR",
+      "enterpriseSaaS": "Enterprise SaaS",
+      "startupsToFortune": "Startup-uri la Fortune 500"
+    }
+  },
+  "servicesSection": {
+    "tag": "Serviciile noastre",
+    "heading": "Serviciile",
+    "headingHighlight": "Noastre",
+    "desc": "Soluții digitale complete"
+  },
+  "footer": {
+    "quickLinks": "Linkuri rapide",
+    "linkServices": "Servicii",
+    "linkPricing": "Prețuri",
+    "linkContactUs": "Contact",
+    "linkOurWork": "Portofoliu",
+    "linkExpertise": "Expertiză",
+    "linkAbout": "Despre",
+    "linkPrivacyPolicy": "Confidențialitate",
+    "services": "Servicii",
+    "letsWork": "Să lucrăm împreună",
+    "letsWorkDesc": "Contactați-ne.",
+    "getInTouch": "Contact",
+    "copyright": "Drepturi de autor 2024–2026",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Rămâneți la curent",
+    "stayInLoopDesc": "Noutăți inovație digitală.",
+    "subscribe": "Abonare",
+    "latestInsights": "Ultimele articole",
+    "readMore": "Citește mai mult",
+    "brandDesc": "Imaginează. Inovează. Inspiră.",
+    "insights": {
+      "title1": "Metaverse — următorul salt",
+      "excerpt1": "Tehnologie imersivă.",
+      "title2": "Aplicații pe care utilizatorii le iubesc",
+      "excerpt2": "Principii de design.",
+      "title3": "Transformare digitală",
+      "excerpt3": "Ajutăm afacerile să inoveze."
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "Explorează"
+  },
+  "servicesPage": {
+    "whatWeDo": "Ce facem",
+    "ourServices": "Serviciile noastre",
+    "ourServicesHighlight": "Servicii",
+    "subtitle": "Soluții complete.",
+    "customSolution": "Nevoie de soluție personalizată?",
+    "customSolutionDesc": "Construim pe măsură.",
+    "getInTouch": "Contact"
+  },
+  "pricing": {
+    "tag": "Prețuri",
+    "heading": "Prețuri",
+    "headingHighlight": "transparente",
+    "desc": "Alegeți serviciul și planul.",
+    "chooseService": "Alegeți serviciul",
+    "starter": "Starter",
+    "starterDesc": "Pentru început",
+    "professional": "Professional",
+    "professionalDesc": "Pentru creștere",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "Proiecte mari",
+    "mostPopular": "Cel mai popular",
+    "perProject": "/proiect",
+    "getStarted": "Începe",
+    "features": {
+      "coreScope": "Scop de bază",
+      "responsive": "Design responsive",
+      "basicSupport": "Suport de bază",
+      "2revisions": "2 runde revizuiri",
+      "1monthSupport": "1 lună suport",
+      "fullScope": "Scop complet + UI/UX",
+      "advancedFeatures": "Funcții avansate",
+      "apiIntegrations": "Integrări API",
+      "5revisions": "5 runde revizuiri",
+      "3monthsSupport": "3 luni suport",
+      "perfOptimization": "Optimizare performanță",
+      "fullStack": "Full-stack personalizat",
+      "dedicatedPM": "PM dedicat",
+      "unlimitedRevisions": "Revizuiri nelimitate",
+      "12monthsSupport": "12 luni suport",
+      "cicd": "CI/CD & DevOps",
+      "sla": "Garanție SLA"
+    }
+  },
+  "contact": {
+    "tag": "Contact",
+    "heading": "Hai să",
+    "headingHighlight": "vorbim",
+    "desc": "Răspuns în 24h.",
+    "sendMessage": "Trimite mesaj",
+    "yourName": "Nume",
+    "yourEmail": "Email",
+    "subject": "Subiect",
+    "tellUs": "Spuneți-ne despre proiect...",
+    "sendBtn": "Trimite",
+    "emailUs": "Email",
+    "visitUs": "Vizitați-ne",
+    "businessHours": "Program",
+    "monFri": "Luni – Vineri",
+    "saturday": "Sâmbătă",
+    "sunday": "Duminică",
+    "closed": "Închis",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
+  },
+  "expertise": {
+    "tag": "Expertiză",
+    "heading": "Tehnologia",
+    "headingHighlight": "noastră",
+    "headingSuffix": "Stack",
+    "desc": "Stăpânim uneltele importante.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobil",
+      "cloudDevops": "Cloud & DevOps",
+      "gameXR": "Jocuri & XR",
+      "dataAI": "Date & AI"
+    },
+    "industriesTag": "Industrii",
+    "industriesHeading": "Industrii pe care le",
+    "industriesHighlight": "deservim",
+    "industries": {
+      "healthcare": "Sănătate",
+      "fintech": "FinTech",
+      "ecommerce": "E-Commerce",
+      "education": "Educație",
+      "realEstate": "Imobiliare",
+      "entertainment": "Divertisment",
+      "automotive": "Auto",
+      "logistics": "Logistică"
+    },
+    "ctaHeading": "Să construim ceva",
+    "ctaHighlight": "uimitor",
+    "ctaDesc": "Echipa e pregătită.",
+    "ctaBtn": "Contact"
+  },
+  "ourWork": {
+    "tag": "Portofoliu",
+    "heading": "Lucrările",
+    "headingHighlight": "noastre",
+    "desc": "Expertiză cross-industrie.",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Dashboard",
+        "category": "Aplicație web",
+        "desc": "Analiză financiară AI."
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "Aplicație mobilă",
+        "desc": "Platformă telemedicină."
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "Metaverse",
+        "desc": "Showroom virtual 3D."
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "Software",
+        "desc": "Agricultură inteligentă."
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "Joc",
+        "desc": "RPG cross-platform."
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "Branding",
+        "desc": "Rebranding corporativ."
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
+    },
+    "ctaHeading": "Fiți următoarea",
+    "ctaHighlight": "poveste de succes",
+    "ctaSuffix": "?",
+    "ctaDesc": "Să creăm împreună.",
+    "ctaBtn": "Începe proiectul"
+  },
+  "privacy": {
+    "tag": "Legal",
+    "heading": "Politica de",
+    "headingHighlight": "confidențialitate",
+    "lastUpdated": "Actualizat: martie 2026",
+    "section1Title": "1. Informații colectate",
+    "section1": "Colectăm informațiile furnizate.",
+    "section2Title": "2. Utilizare",
+    "section2": "Pentru a furniza servicii.",
+    "section3Title": "3. Partajare",
+    "section3": "Nu vindem date personale.",
+    "section4Title": "4. Securitate",
+    "section4": "Măsuri de securitate adecvate.",
+    "section5Title": "5. Drepturile dvs.",
+    "section5": "Acces, corectare sau ștergere.",
+    "section6Title": "6. Contact",
+    "section6": "Întrebări:",
+    "email": "Email:",
+    "address": "Adresă:"
+  },
+  "notFound": {
+    "title": "404",
+    "desc": "Pagina nu a fost găsită",
+    "back": "Înapoi acasă"
+  },
+  "services": {
+    "mobileApplication": "Aplicații mobile",
+    "mobileApplicationShort": "Native și cross-platform",
+    "webCmsDevelopment": "Web CMS",
+    "webCmsDevelopmentShort": "Management conținut",
+    "softwareDevelopment": "Dezvoltare software",
+    "softwareDevelopmentShort": "Software personalizat",
+    "corporateBranding": "Branding corporativ",
+    "corporateBrandingShort": "Identitate de brand",
+    "onlineDigitalMarketing": "Marketing digital",
+    "onlineDigitalMarketingShort": "Creștere bazată pe date",
+    "2d3dAnimation": "Animație 2D/3D",
+    "2d3dAnimationShort": "Vizualuri impresionante",
+    "3dRenderingServices": "Randare 3D",
+    "3dRenderingServicesShort": "3D fotorealist",
+    "metaverseDevelopment": "Metaverse",
+    "metaverseDevelopmentShort": "Lumi digitale noi",
+    "gameDevelopment": "Dezvoltare jocuri",
+    "gameDevelopmentShort": "Jocuri multiplatformă",
+    "extendedReality": "Realitate extinsă",
+    "extendedRealityShort": "AR/VR/MR",
+    "socialMediaMarketing": "Social media",
+    "socialMediaMarketingShort": "Prezență strategică"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
+  }
 }

@@ -11,6 +11,7 @@ import {
 } from "@/lib/api";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 type DesignAssistantContentProps = {
   /** Chatbot panel: refresh credits when open */
@@ -24,6 +25,7 @@ export default function DesignAssistantContent({
   onAfterQuote,
   className,
 }: DesignAssistantContentProps) {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const deviceId = getDeviceId();
   const [credits, setCredits] = useState<{ remaining: number; limit: number }>({
@@ -56,7 +58,7 @@ export default function DesignAssistantContent({
   const handleGenerate = async () => {
     const trimmed = prompt.trim();
     if (!trimmed) {
-      toast.error("Please enter a design idea or prompt.");
+      toast.error(t("designAssistant.promptRequired"));
       return;
     }
     setGenerating(true);
@@ -64,10 +66,10 @@ export default function DesignAssistantContent({
     try {
       const result = await generateDesignImage(deviceId, trimmed);
       if (result.imageData) setGeneratedImageDataUrl(result.imageData);
-      else toast.error("Could not get image data.");
+      else toast.error(t("designAssistant.imageDataMissing"));
       setCredits({ remaining: result.remaining, limit: result.limit });
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Generation failed.";
+      const message = err instanceof Error ? err.message : t("designAssistant.generationFailed");
       console.error("[Design idea] Image generation failed:", err);
       toast.error(message);
       refreshCredits();
@@ -82,11 +84,11 @@ export default function DesignAssistantContent({
     try {
       const { ref } = await saveReferenceImage(deviceId, generatedImageDataUrl);
       setStoredAIQuoteRef(ref);
-      toast.success("Reference attached. Opening quote form.");
+      toast.success(t("designAssistant.referenceAttached"));
       onAfterQuote?.();
       navigate("/custom-requirement");
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Failed to attach.";
+      const message = err instanceof Error ? err.message : t("designAssistant.attachFailed");
       console.error("[Design idea] Save reference failed:", err);
       toast.error(message);
     } finally {
@@ -100,17 +102,17 @@ export default function DesignAssistantContent({
   return (
     <div className={cn("space-y-5", className)}>
       <p className="text-xs text-muted-foreground">
-        {creditsLoaded ? `${credits.remaining} / ${credits.limit} credits today` : "… credits today"}
+        {creditsLoaded
+          ? t("designAssistant.creditsToday", { remaining: credits.remaining, limit: credits.limit })
+          : t("designAssistant.creditsLoading")}
       </p>
       <p className="text-sm text-muted-foreground leading-relaxed">
-        Use the box below like a chat: write what you need in one or more messages. We generate design reference
-        images for websites and apps only — no other image types. Attach the result in Get a Quote. No account or login
-        required.
+        {t("designAssistant.intro")}
       </p>
       <textarea
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
-        placeholder="e.g. Agency website with dark theme, red accents, modern hero section"
+        placeholder={t("designAssistant.promptPlaceholder")}
         className="w-full min-h-[100px] rounded-xl border border-border bg-secondary/30 px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 resize-y transition-shadow"
         disabled={generating}
       />
@@ -123,19 +125,19 @@ export default function DesignAssistantContent({
         {generating ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" />
-            Generating…
+            {t("designAssistant.generating")}
           </>
         ) : (
           <>
             <Sparkles className="h-4 w-4" />
-            Generate image
+            {t("designAssistant.generate")}
           </>
         )}
       </Button>
 
       {generatedImageDataUrl && (
         <div className="space-y-3 pt-2">
-          <p className="text-sm font-medium text-foreground">Generated reference</p>
+          <p className="text-sm font-medium text-foreground">{t("designAssistant.generatedReference")}</p>
           <div
             className="relative rounded-xl overflow-hidden border border-border bg-black/40 ring-1 ring-white/5"
             onContextMenu={handleContextMenu}
@@ -150,13 +152,13 @@ export default function DesignAssistantContent({
             />
             <img
               src={generatedImageDataUrl}
-              alt="AI-generated design reference"
+              alt={t("designAssistant.generatedImageAlt")}
               className="block w-full h-auto pointer-events-none select-none"
               draggable={false}
               style={{ userSelect: "none", pointerEvents: "none" }}
             />
             <div className="absolute bottom-2 left-2 right-2 py-2 px-3 rounded-lg bg-black/70 text-center text-xs text-muted-foreground backdrop-blur-sm">
-              Reference only — use in Get a Quote to attach
+              {t("designAssistant.referenceOnly")}
             </div>
           </div>
           <Button
@@ -171,7 +173,7 @@ export default function DesignAssistantContent({
             ) : (
               <ExternalLink className="h-4 w-4" />
             )}
-            Use in Get a Quote
+            {t("designAssistant.useInQuote")}
           </Button>
         </div>
       )}

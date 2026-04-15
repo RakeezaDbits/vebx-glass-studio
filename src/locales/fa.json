@@ -1,20 +1,543 @@
 {
-  "nav": { "home": "خانه", "about": "درباره ما", "services": "خدمات", "pricing": "قیمت‌گذاری", "ourWork": "نمونه کارها", "expertise": "تخصص", "contactUs": "تماس با ما" },
-  "hero": { "tagline": "تصور کن. نوآوری کن. الهام بخش.", "headline1": "ما می‌سازیم", "headline2": "تجربه‌های", "headline3": "دیجیتال", "headline4": "ارزشمند", "subtext": "از اپلیکیشن موبایل تا متاورس، ما راه‌حل‌هایی خلق می‌کنیم که ایده‌ها را به واقعیت تبدیل می‌کنند.", "getStarted": "شروع کنید", "viewOurWork": "نمونه کارها", "stats": { "projects": "پروژه تحویل‌شده", "clients": "مشتری راضی", "years": "سال تجربه" } },
-  "about": { "tag": "درباره ما", "heading": "تعالی", "headingHighlight": "دیجیتال", "headingSuffix": "از روز اول", "desc": "در vebxrun ما معماران دیجیتال هستیم.", "heroDesc": "چشم‌انداز خلاقانه و تخصص فنی.", "features": { "innovationTitle": "نوآوری اول", "innovationDesc": "فناوری پیشرفته", "secureTitle": "قابل اعتماد و امن", "secureDesc": "امنیت سازمانی", "teamTitle": "تیم متخصص", "teamDesc": "توسعه‌دهندگان باتجربه", "resultsTitle": "نتیجه‌گرا", "resultsDesc": "نتایج قابل اندازه‌گیری" }, "fromStartups": "از استارتاپ تا", "enterprises": "سازمان‌ها", "fromStartupsDesc1": "به آژانس دیجیتال جهانی تبدیل شدیم.", "fromStartupsDesc2": "موبایل، وب، متاورس، بازی و بیشتر.", "valuesTag": "ارزش‌های ما", "valuesHeading": "چه چیزی", "valuesHighlight": "ما را هدایت", "valuesSuffix": "می‌کند", "values": { "creativeTitle": "تفکر خلاق", "creativeDesc": "نگاه تازه به هر پروژه.", "qualityTitle": "کیفیت", "qualityDesc": "بالاترین استانداردها.", "globalTitle": "دسترسی جهانی", "globalDesc": "مشتریان در سراسر جهان.", "clientTitle": "مشتری‌محور", "clientDesc": "موفقیت شما موفقیت ماست." }, "stats": { "projects": "پروژه", "clients": "مشتری", "years": "سال تجربه", "team": "عضو تیم" } },
-  "cta": { "heading": "آماده", "headingHighlight": "تحول", "headingSuffix": "کسب‌وکار؟", "desc": "بیایید چیزی فوق‌العاده بسازیم.", "button": "شروع پروژه" },
-  "whyChoose": { "tag": "چرا vebxrun", "heading": "چرا", "headingHighlight": "ما را انتخاب کنید", "desc": "تعالی فنی.", "reasons": { "innovationTitle": "نوآوری", "innovationDesc": "فناوری پیشرو.", "deliveryTitle": "تحویل قابل اعتماد", "deliveryDesc": "به موقع و در بودجه.", "teamTitle": "تیم متخصص", "teamDesc": "توسعه‌دهندگان ارشد.", "resultsTitle": "نتایج واقعی", "resultsDesc": "شاخص‌های رشد." } },
-  "howWeWork": { "tag": "فرایند ما", "heading": "نحوه", "headingHighlight": "کار ما", "desc": "فرایند شفاف.", "steps": { "discoverTitle": "کشف", "discoverDesc": "درک چشم‌انداز شما.", "designTitle": "طراحی", "designDesc": "UX/UI و معماری.", "developTitle": "توسعه", "developDesc": "کد باکیفیت.", "deliverTitle": "تحویل", "deliverDesc": "راه‌اندازی و پشتیبانی." }, "startProject": "شروع پروژه" },
-  "trusted": { "tag": "قابل اعتماد", "items": { "mobileWeb": "موبایل و وب", "metaverseXR": "متاورس و XR", "enterpriseSaaS": "Enterprise SaaS", "startupsToFortune": "استارتاپ تا Fortune 500" } },
-  "servicesSection": { "tag": "خدمات ما", "heading": "خدمات", "headingHighlight": "ما", "desc": "راه‌حل‌های دیجیتال جامع" },
-  "footer": { "quickLinks": "لینک‌های سریع", "linkServices": "خدمات", "linkPricing": "قیمت", "linkContactUs": "تماس", "linkOurWork": "نمونه کار", "linkExpertise": "تخصص", "linkAbout": "درباره", "linkPrivacyPolicy": "حریم خصوصی", "services": "خدمات", "letsWork": "با هم کار کنیم", "letsWorkDesc": "تماس بگیرید.", "getInTouch": "تماس", "copyright": "حق نشر 2024–2026", "vebexRun": "Vebex Run", "stayInLoop": "به‌روز باشید", "stayInLoopDesc": "اخبار نوآوری دیجیتال.", "subscribe": "اشتراک", "latestInsights": "آخرین مقالات", "readMore": "بیشتر بخوانید", "brandDesc": "تصور کن. نوآوری کن. الهام بخش.", "insights": { "title1": "متاورس گام بعدی", "excerpt1": "فناوری فراگیر.", "title2": "اپلیکیشن‌هایی که کاربران دوست دارند", "excerpt2": "اصول طراحی.", "title3": "تحول دیجیتال", "excerpt3": "کمک به کسب‌وکارها." } },
-  "common": { "vebexRun": "Vebex Run", "explore": "کاوش" },
-  "servicesPage": { "whatWeDo": "کار ما", "ourServices": "خدمات ما", "ourServicesHighlight": "خدمات", "subtitle": "راه‌حل‌های جامع.", "customSolution": "راه‌حل سفارشی؟", "customSolutionDesc": "ما بر اساس نیاز می‌سازیم.", "getInTouch": "تماس" },
-  "pricing": { "tag": "قیمت", "heading": "قیمت‌گذاری", "headingHighlight": "شفاف", "desc": "خدمت و طرح انتخاب کنید.", "chooseService": "انتخاب خدمت", "starter": "شروع", "starterDesc": "برای آغاز", "professional": "حرفه‌ای", "professionalDesc": "برای رشد", "enterprise": "سازمانی", "enterpriseDesc": "پروژه‌های بزرگ", "mostPopular": "محبوب‌ترین", "perProject": "/پروژه", "getStarted": "شروع", "features": { "coreScope": "محدوده اصلی", "responsive": "طراحی واکنش‌گرا", "basicSupport": "پشتیبانی پایه", "2revisions": "2 دور بازنگری", "1monthSupport": "1 ماه پشتیبانی", "fullScope": "محدوده کامل + UI/UX", "advancedFeatures": "ویژگی‌های پیشرفته", "apiIntegrations": "ادغام API", "5revisions": "5 دور بازنگری", "3monthsSupport": "3 ماه پشتیبانی", "perfOptimization": "بهینه‌سازی عملکرد", "fullStack": "Full-stack سفارشی", "dedicatedPM": "مدیر پروژه اختصاصی", "unlimitedRevisions": "بازنگری نامحدود", "12monthsSupport": "12 ماه پشتیبانی", "cicd": "CI/CD و DevOps", "sla": "تضمین SLA" } },
-  "contact": { "tag": "تماس", "heading": "بیایید", "headingHighlight": "صحبت کنیم", "desc": "پاسخ در 24 ساعت.", "sendMessage": "ارسال پیام", "yourName": "نام", "yourEmail": "ایمیل", "subject": "موضوع", "tellUs": "درباره پروژه بگویید...", "sendBtn": "ارسال", "emailUs": "ایمیل", "visitUs": "بازدید", "businessHours": "ساعات کاری", "monFri": "دوشنبه – جمعه", "saturday": "شنبه", "sunday": "یکشنبه", "closed": "تعطیل" },
-  "expertise": { "tag": "تخصص", "heading": "فناوری", "headingHighlight": "ما", "headingSuffix": "Stack", "desc": "ابزارهای مهم را می‌شناسیم.", "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "موبایل", "cloudDevops": "ابر و DevOps", "gameXR": "بازی و XR", "dataAI": "داده و AI" }, "industriesTag": "صنایع", "industriesHeading": "صنایعی که", "industriesHighlight": "خدمت می‌دهیم", "industries": { "healthcare": "بهداشت", "fintech": "فین‌تک", "ecommerce": "تجارت الکترونیک", "education": "آموزش", "realEstate": "املاک", "entertainment": "سرگرمی", "automotive": "خودرو", "logistics": "لجستیک" }, "ctaHeading": "چیزی", "ctaHighlight": "شگفت‌انگیز", "ctaDesc": "تیم آماده است.", "ctaBtn": "تماس" },
-  "ourWork": { "tag": "نمونه کار", "heading": "کارهای", "headingHighlight": "ما", "desc": "تخصص بین‌صنعتی.", "projects": { "fintech": { "title": "FinTech Dashboard", "category": "وب اپ", "desc": "تحلیل مالی AI." }, "medconnect": { "title": "MedConnect", "category": "اپ موبایل", "desc": "پلتفرم پزشکی از راه دور." }, "virtuworld": { "title": "VirtuWorld", "category": "متاورس", "desc": "نمایشگاه مجازی 3D." }, "greengrow": { "title": "GreenGrow", "category": "نرم‌افزار", "desc": "کشاورزی هوشمند." }, "pixelforge": { "title": "PixelForge", "category": "بازی", "desc": "RPG چندپلتفرمی." }, "brandsphere": { "title": "BrandSphere", "category": "برندینگ", "desc": "بازسازی برند." } }, "ctaHeading": "داستان", "ctaHighlight": "موفقیت بعدی", "ctaSuffix": "ما باشید؟", "ctaDesc": "بیایید بسازیم.", "ctaBtn": "شروع پروژه" },
-  "privacy": { "tag": "حقوقی", "heading": "سیاست", "headingHighlight": "حریم خصوصی", "lastUpdated": "بروزرسانی: مارس 2026", "section1Title": "1. اطلاعات جمع‌آوری‌شده", "section1": "اطلاعاتی که ارائه می‌دهید.", "section2Title": "2. استفاده", "section2": "برای ارائه خدمات.", "section3Title": "3. اشتراک‌گذاری", "section3": "اطلاعات شخصی را نمی‌فروشیم.", "section4Title": "4. امنیت", "section4": "اقدامات امنیتی مناسب.", "section5Title": "5. حقوق شما", "section5": "دسترسی، اصلاح یا حذف.", "section6Title": "6. تماس", "section6": "سوالات:", "email": "ایمیل:", "address": "آدرس:" },
-  "notFound": { "title": "404", "desc": "صفحه یافت نشد", "back": "بازگشت به خانه" },
-  "services": { "mobileApplication": "اپلیکیشن موبایل", "mobileApplicationShort": "نیتیو و کراس‌پلتفرم", "webCmsDevelopment": "Web CMS", "webCmsDevelopmentShort": "مدیریت محتوا", "softwareDevelopment": "توسعه نرم‌افزار", "softwareDevelopmentShort": "نرم‌افزار سفارشی", "corporateBranding": "برندینگ سازمانی", "corporateBrandingShort": "هویت برند", "onlineDigitalMarketing": "بازاریابی دیجیتال", "onlineDigitalMarketingShort": "رشد داده‌محور", "2d3dAnimation": "انیمیشن 2D/3D", "2d3dAnimationShort": "بصری‌های خیره‌کننده", "3dRenderingServices": "رندر 3D", "3dRenderingServicesShort": "3D فتورئالیستیک", "metaverseDevelopment": "متاورس", "metaverseDevelopmentShort": "دنیای دیجیتال جدید", "gameDevelopment": "توسعه بازی", "gameDevelopmentShort": "بازی همه پلتفرم‌ها", "extendedReality": "واقعیت گسترده", "extendedRealityShort": "AR/VR/MR", "socialMediaMarketing": "شبکه‌های اجتماعی", "socialMediaMarketingShort": "حضور استراتژیک" }
+  "nav": {
+    "home": "خانه",
+    "about": "درباره ما",
+    "services": "خدمات",
+    "pricing": "قیمت‌گذاری",
+    "ourWork": "نمونه کارها",
+    "expertise": "تخصص",
+    "contactUs": "تماس با ما",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
+  },
+  "hero": {
+    "tagline": "تصور کن. نوآوری کن. الهام بخش.",
+    "headline1": "ما می‌سازیم",
+    "headline2": "تجربه‌های",
+    "headline3": "دیجیتال",
+    "headline4": "ارزشمند",
+    "subtext": "از اپلیکیشن موبایل تا متاورس، ما راه‌حل‌هایی خلق می‌کنیم که ایده‌ها را به واقعیت تبدیل می‌کنند.",
+    "getStarted": "شروع کنید",
+    "viewOurWork": "نمونه کارها",
+    "stats": {
+      "projects": "پروژه تحویل‌شده",
+      "clients": "مشتری راضی",
+      "years": "سال تجربه"
+    }
+  },
+  "about": {
+    "tag": "درباره ما",
+    "heading": "تعالی",
+    "headingHighlight": "دیجیتال",
+    "headingSuffix": "از روز اول",
+    "desc": "در vebxrun ما معماران دیجیتال هستیم.",
+    "heroDesc": "چشم‌انداز خلاقانه و تخصص فنی.",
+    "features": {
+      "innovationTitle": "نوآوری اول",
+      "innovationDesc": "فناوری پیشرفته",
+      "secureTitle": "قابل اعتماد و امن",
+      "secureDesc": "امنیت سازمانی",
+      "teamTitle": "تیم متخصص",
+      "teamDesc": "توسعه‌دهندگان باتجربه",
+      "resultsTitle": "نتیجه‌گرا",
+      "resultsDesc": "نتایج قابل اندازه‌گیری"
+    },
+    "fromStartups": "از استارتاپ تا",
+    "enterprises": "سازمان‌ها",
+    "fromStartupsDesc1": "به آژانس دیجیتال جهانی تبدیل شدیم.",
+    "fromStartupsDesc2": "موبایل، وب، متاورس، بازی و بیشتر.",
+    "valuesTag": "ارزش‌های ما",
+    "valuesHeading": "چه چیزی",
+    "valuesHighlight": "ما را هدایت",
+    "valuesSuffix": "می‌کند",
+    "values": {
+      "creativeTitle": "تفکر خلاق",
+      "creativeDesc": "نگاه تازه به هر پروژه.",
+      "qualityTitle": "کیفیت",
+      "qualityDesc": "بالاترین استانداردها.",
+      "globalTitle": "دسترسی جهانی",
+      "globalDesc": "مشتریان در سراسر جهان.",
+      "clientTitle": "مشتری‌محور",
+      "clientDesc": "موفقیت شما موفقیت ماست."
+    },
+    "stats": {
+      "projects": "پروژه",
+      "clients": "مشتری",
+      "years": "سال تجربه",
+      "team": "عضو تیم"
+    }
+  },
+  "cta": {
+    "heading": "آماده",
+    "headingHighlight": "تحول",
+    "headingSuffix": "کسب‌وکار؟",
+    "desc": "بیایید چیزی فوق‌العاده بسازیم.",
+    "button": "شروع پروژه"
+  },
+  "whyChoose": {
+    "tag": "چرا vebxrun",
+    "heading": "چرا",
+    "headingHighlight": "ما را انتخاب کنید",
+    "desc": "تعالی فنی.",
+    "reasons": {
+      "innovationTitle": "نوآوری",
+      "innovationDesc": "فناوری پیشرو.",
+      "deliveryTitle": "تحویل قابل اعتماد",
+      "deliveryDesc": "به موقع و در بودجه.",
+      "teamTitle": "تیم متخصص",
+      "teamDesc": "توسعه‌دهندگان ارشد.",
+      "resultsTitle": "نتایج واقعی",
+      "resultsDesc": "شاخص‌های رشد."
+    }
+  },
+  "howWeWork": {
+    "tag": "فرایند ما",
+    "heading": "نحوه",
+    "headingHighlight": "کار ما",
+    "desc": "فرایند شفاف.",
+    "steps": {
+      "discoverTitle": "کشف",
+      "discoverDesc": "درک چشم‌انداز شما.",
+      "designTitle": "طراحی",
+      "designDesc": "UX/UI و معماری.",
+      "developTitle": "توسعه",
+      "developDesc": "کد باکیفیت.",
+      "deliverTitle": "تحویل",
+      "deliverDesc": "راه‌اندازی و پشتیبانی."
+    },
+    "startProject": "شروع پروژه"
+  },
+  "trusted": {
+    "tag": "قابل اعتماد",
+    "items": {
+      "mobileWeb": "موبایل و وب",
+      "metaverseXR": "متاورس و XR",
+      "enterpriseSaaS": "Enterprise SaaS",
+      "startupsToFortune": "استارتاپ تا Fortune 500"
+    }
+  },
+  "servicesSection": {
+    "tag": "خدمات ما",
+    "heading": "خدمات",
+    "headingHighlight": "ما",
+    "desc": "راه‌حل‌های دیجیتال جامع"
+  },
+  "footer": {
+    "quickLinks": "لینک‌های سریع",
+    "linkServices": "خدمات",
+    "linkPricing": "قیمت",
+    "linkContactUs": "تماس",
+    "linkOurWork": "نمونه کار",
+    "linkExpertise": "تخصص",
+    "linkAbout": "درباره",
+    "linkPrivacyPolicy": "حریم خصوصی",
+    "services": "خدمات",
+    "letsWork": "با هم کار کنیم",
+    "letsWorkDesc": "تماس بگیرید.",
+    "getInTouch": "تماس",
+    "copyright": "حق نشر 2024–2026",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "به‌روز باشید",
+    "stayInLoopDesc": "اخبار نوآوری دیجیتال.",
+    "subscribe": "اشتراک",
+    "latestInsights": "آخرین مقالات",
+    "readMore": "بیشتر بخوانید",
+    "brandDesc": "تصور کن. نوآوری کن. الهام بخش.",
+    "insights": {
+      "title1": "متاورس گام بعدی",
+      "excerpt1": "فناوری فراگیر.",
+      "title2": "اپلیکیشن‌هایی که کاربران دوست دارند",
+      "excerpt2": "اصول طراحی.",
+      "title3": "تحول دیجیتال",
+      "excerpt3": "کمک به کسب‌وکارها."
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "کاوش"
+  },
+  "servicesPage": {
+    "whatWeDo": "کار ما",
+    "ourServices": "خدمات ما",
+    "ourServicesHighlight": "خدمات",
+    "subtitle": "راه‌حل‌های جامع.",
+    "customSolution": "راه‌حل سفارشی؟",
+    "customSolutionDesc": "ما بر اساس نیاز می‌سازیم.",
+    "getInTouch": "تماس"
+  },
+  "pricing": {
+    "tag": "قیمت",
+    "heading": "قیمت‌گذاری",
+    "headingHighlight": "شفاف",
+    "desc": "خدمت و طرح انتخاب کنید.",
+    "chooseService": "انتخاب خدمت",
+    "starter": "شروع",
+    "starterDesc": "برای آغاز",
+    "professional": "حرفه‌ای",
+    "professionalDesc": "برای رشد",
+    "enterprise": "سازمانی",
+    "enterpriseDesc": "پروژه‌های بزرگ",
+    "mostPopular": "محبوب‌ترین",
+    "perProject": "/پروژه",
+    "getStarted": "شروع",
+    "features": {
+      "coreScope": "محدوده اصلی",
+      "responsive": "طراحی واکنش‌گرا",
+      "basicSupport": "پشتیبانی پایه",
+      "2revisions": "2 دور بازنگری",
+      "1monthSupport": "1 ماه پشتیبانی",
+      "fullScope": "محدوده کامل + UI/UX",
+      "advancedFeatures": "ویژگی‌های پیشرفته",
+      "apiIntegrations": "ادغام API",
+      "5revisions": "5 دور بازنگری",
+      "3monthsSupport": "3 ماه پشتیبانی",
+      "perfOptimization": "بهینه‌سازی عملکرد",
+      "fullStack": "Full-stack سفارشی",
+      "dedicatedPM": "مدیر پروژه اختصاصی",
+      "unlimitedRevisions": "بازنگری نامحدود",
+      "12monthsSupport": "12 ماه پشتیبانی",
+      "cicd": "CI/CD و DevOps",
+      "sla": "تضمین SLA"
+    }
+  },
+  "contact": {
+    "tag": "تماس",
+    "heading": "بیایید",
+    "headingHighlight": "صحبت کنیم",
+    "desc": "پاسخ در 24 ساعت.",
+    "sendMessage": "ارسال پیام",
+    "yourName": "نام",
+    "yourEmail": "ایمیل",
+    "subject": "موضوع",
+    "tellUs": "درباره پروژه بگویید...",
+    "sendBtn": "ارسال",
+    "emailUs": "ایمیل",
+    "visitUs": "بازدید",
+    "businessHours": "ساعات کاری",
+    "monFri": "دوشنبه – جمعه",
+    "saturday": "شنبه",
+    "sunday": "یکشنبه",
+    "closed": "تعطیل",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
+  },
+  "expertise": {
+    "tag": "تخصص",
+    "heading": "فناوری",
+    "headingHighlight": "ما",
+    "headingSuffix": "Stack",
+    "desc": "ابزارهای مهم را می‌شناسیم.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "موبایل",
+      "cloudDevops": "ابر و DevOps",
+      "gameXR": "بازی و XR",
+      "dataAI": "داده و AI"
+    },
+    "industriesTag": "صنایع",
+    "industriesHeading": "صنایعی که",
+    "industriesHighlight": "خدمت می‌دهیم",
+    "industries": {
+      "healthcare": "بهداشت",
+      "fintech": "فین‌تک",
+      "ecommerce": "تجارت الکترونیک",
+      "education": "آموزش",
+      "realEstate": "املاک",
+      "entertainment": "سرگرمی",
+      "automotive": "خودرو",
+      "logistics": "لجستیک"
+    },
+    "ctaHeading": "چیزی",
+    "ctaHighlight": "شگفت‌انگیز",
+    "ctaDesc": "تیم آماده است.",
+    "ctaBtn": "تماس"
+  },
+  "ourWork": {
+    "tag": "نمونه کار",
+    "heading": "کارهای",
+    "headingHighlight": "ما",
+    "desc": "تخصص بین‌صنعتی.",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Dashboard",
+        "category": "وب اپ",
+        "desc": "تحلیل مالی AI."
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "اپ موبایل",
+        "desc": "پلتفرم پزشکی از راه دور."
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "متاورس",
+        "desc": "نمایشگاه مجازی 3D."
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "نرم‌افزار",
+        "desc": "کشاورزی هوشمند."
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "بازی",
+        "desc": "RPG چندپلتفرمی."
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "برندینگ",
+        "desc": "بازسازی برند."
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
+    },
+    "ctaHeading": "داستان",
+    "ctaHighlight": "موفقیت بعدی",
+    "ctaSuffix": "ما باشید؟",
+    "ctaDesc": "بیایید بسازیم.",
+    "ctaBtn": "شروع پروژه"
+  },
+  "privacy": {
+    "tag": "حقوقی",
+    "heading": "سیاست",
+    "headingHighlight": "حریم خصوصی",
+    "lastUpdated": "بروزرسانی: مارس 2026",
+    "section1Title": "1. اطلاعات جمع‌آوری‌شده",
+    "section1": "اطلاعاتی که ارائه می‌دهید.",
+    "section2Title": "2. استفاده",
+    "section2": "برای ارائه خدمات.",
+    "section3Title": "3. اشتراک‌گذاری",
+    "section3": "اطلاعات شخصی را نمی‌فروشیم.",
+    "section4Title": "4. امنیت",
+    "section4": "اقدامات امنیتی مناسب.",
+    "section5Title": "5. حقوق شما",
+    "section5": "دسترسی، اصلاح یا حذف.",
+    "section6Title": "6. تماس",
+    "section6": "سوالات:",
+    "email": "ایمیل:",
+    "address": "آدرس:"
+  },
+  "notFound": {
+    "title": "404",
+    "desc": "صفحه یافت نشد",
+    "back": "بازگشت به خانه"
+  },
+  "services": {
+    "mobileApplication": "اپلیکیشن موبایل",
+    "mobileApplicationShort": "نیتیو و کراس‌پلتفرم",
+    "webCmsDevelopment": "Web CMS",
+    "webCmsDevelopmentShort": "مدیریت محتوا",
+    "softwareDevelopment": "توسعه نرم‌افزار",
+    "softwareDevelopmentShort": "نرم‌افزار سفارشی",
+    "corporateBranding": "برندینگ سازمانی",
+    "corporateBrandingShort": "هویت برند",
+    "onlineDigitalMarketing": "بازاریابی دیجیتال",
+    "onlineDigitalMarketingShort": "رشد داده‌محور",
+    "2d3dAnimation": "انیمیشن 2D/3D",
+    "2d3dAnimationShort": "بصری‌های خیره‌کننده",
+    "3dRenderingServices": "رندر 3D",
+    "3dRenderingServicesShort": "3D فتورئالیستیک",
+    "metaverseDevelopment": "متاورس",
+    "metaverseDevelopmentShort": "دنیای دیجیتال جدید",
+    "gameDevelopment": "توسعه بازی",
+    "gameDevelopmentShort": "بازی همه پلتفرم‌ها",
+    "extendedReality": "واقعیت گسترده",
+    "extendedRealityShort": "AR/VR/MR",
+    "socialMediaMarketing": "شبکه‌های اجتماعی",
+    "socialMediaMarketingShort": "حضور استراتژیک"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
+  }
 }

@@ -11,6 +11,28 @@ const GENERATED_DIR = path.join(__dirname, "..", "generated");
 
 const OPENAI_API_KEY = process.env.OPEN_API_KEY || process.env.OPENAI_API_KEY;
 const DAILY_CREDITS = parseInt(process.env.AI_CHAT_DAILY_CREDITS || "5", 10);
+const CHAT_MODEL = process.env.OPENAI_CHAT_MODEL || "gpt-4o-mini";
+const REALTIME_MODEL = process.env.OPENAI_REALTIME_MODEL || "gpt-realtime";
+const REALTIME_VOICE = process.env.OPENAI_REALTIME_VOICE || "marin";
+
+function getTechOnlyInstructions(mode = "chat") {
+  const shared = `You are Vebx Tech Agent for vebx.run.
+You only help with technology-related topics such as software development, websites, mobile apps, AI, SaaS, APIs, cloud, product UX for digital products, debugging, architecture, performance, security, databases, DevOps, and technical project planning.
+If a user asks about non-technical topics, politely refuse in one short sentence and redirect them to ask a technology-related question instead.
+Keep answers practical, concise, and professional.
+If pricing, hiring, or project inquiry comes up, briefly guide them to /pricing or /contact.
+Do not claim abilities you do not have.`;
+
+  if (mode === "voice") {
+    return `${shared}
+Speak naturally and clearly.
+When the call begins, your first reply must be a short introduction: say who you are, that you are Vebx Tech Agent, and that you only assist with tech-related topics, then invite the user to ask a tech question.
+Keep spoken replies short unless the user asks for detail.`;
+  }
+
+  return `${shared}
+Use markdown when useful.`;
+}
 
 function ensureGeneratedDir() {
   if (!fs.existsSync(GENERATED_DIR)) fs.mkdirSync(GENERATED_DIR, { recursive: true });
@@ -62,15 +84,7 @@ router.post("/chat", async (req, res) => {
 
     const systemPrompt = {
       role: "system",
-      content: `You are VebxRun AI — a friendly, professional design & development assistant for vebx.run digital agency. 
-You help users with:
-- Website & app design ideas
-- UI/UX recommendations
-- Technology stack suggestions
-- Project planning & estimation
-- Digital marketing strategies
-Keep answers concise, actionable, and professional. Use markdown formatting.
-If asked about pricing, direct them to /pricing or /contact pages.`
+      content: getTechOnlyInstructions("chat"),
     };
 
     // Stream response from OpenAI
@@ -81,7 +95,7 @@ If asked about pricing, direct them to /pricing or /contact pages.`
         Authorization: `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "gpt-4o-mini",
+        model: CHAT_MODEL,
         messages: [systemPrompt, ...messages.slice(-20)],
         stream: true,
         max_tokens: 1024,
@@ -229,7 +243,64 @@ router.post("/stt", async (req, res) => {
   }
 });
 
-// ─── 4. Image Generation (DALL-E 3 upgrade) ───
+// ─── 4. Realtime Call Session (WebRTC) ───
+router.post("/realtime/session", express.text({ type: ["application/sdp", "text/plain"] }), async (req, res) => {
+  try {
+    if (!OPENAI_API_KEY) return res.status(500).json({ error: "AI API key not configured" });
+
+    const sdp = (req.body || "").toString().trim();
+    if (!sdp) return res.status(400).json({ error: "SDP offer required" });
+
+    const sessionConfig = {
+      type: "realtime",
+      model: REALTIME_MODEL,
+      instructions: getTechOnlyInstructions("voice"),
+      output_modalities: ["audio"],
+      audio: {
+        input: {
+          turn_detection: {
+            type: "server_vad",
+            create_response: true,
+            interrupt_response: true,
+            silence_duration_ms: 450,
+            prefix_padding_ms: 300,
+          },
+        },
+        output: {
+          voice: REALTIME_VOICE,
+        },
+      },
+    };
+
+    const formData = new FormData();
+    formData.set("sdp", sdp);
+    formData.set("session", JSON.stringify(sessionConfig));
+
+    const openaiRes = await fetch("https://api.openai.com/v1/realtime/calls", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${OPENAI_API_KEY}`,
+      },
+      body: formData,
+    });
+
+    const answerSdp = await openaiRes.text();
+    if (!openaiRes.ok) {
+      console.error("Realtime session error:", openaiRes.status, answerSdp);
+      return res.status(500).json({ error: "Realtime session failed" });
+    }
+
+    const location = openaiRes.headers.get("location");
+    if (location) res.setHeader("X-Realtime-Call-Location", location);
+    res.setHeader("Content-Type", "application/sdp");
+    res.send(answerSdp);
+  } catch (err) {
+    console.error("Realtime session error:", err);
+    res.status(500).json({ error: err.message || "Realtime session failed" });
+  }
+});
+
+// ─── 5. Image Generation (DALL-E 3 upgrade) ───
 router.post("/generate-image", async (req, res) => {
   try {
     if (!OPENAI_API_KEY) return res.status(500).json({ error: "AI API key not configured" });

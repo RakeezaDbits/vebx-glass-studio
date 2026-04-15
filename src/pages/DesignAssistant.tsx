@@ -1,13 +1,15 @@
 import PageLayout from "@/components/PageLayout";
 import DesignAssistantContent from "@/components/DesignAssistantContent";
+import { useTranslation } from "react-i18next";
 
 export default function DesignAssistant() {
+  const { t } = useTranslation();
+
   return (
     <PageLayout
       seo={{
-        title: "VebXrun AI",
-        description:
-          "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+        title: t("designAssistant.seoTitle"),
+        description: t("designAssistant.seoDescription"),
         canonicalPath: "/design-assistant",
       }}
     >
@@ -24,10 +26,10 @@ export default function DesignAssistant() {
               />
               <div>
                 <h1 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight">
-                  VebXrun AI
+                  {t("designAssistant.title")}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Type messages with your idea — we generate reference images for web and app designs
+                  {t("designAssistant.heroDescription")}
                 </p>
               </div>
             </div>

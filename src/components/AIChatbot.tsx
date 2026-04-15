@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger, TooltipProvider } from "@/components/ui/tooltip";
@@ -7,6 +8,7 @@ import { cn } from "@/lib/utils";
 
 export default function AIChatbot() {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -22,7 +24,7 @@ export default function AIChatbot() {
                 "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background",
                 "shadow-[0_0_20px_hsla(357,90%,46%,0.25),0_0_40px_hsla(357,90%,46%,0.1)] hover:shadow-[0_0_24px_hsla(357,90%,46%,0.35),0_0_48px_hsla(357,90%,46%,0.15)]"
               )}
-              aria-label="Open VebXrun AI"
+              aria-label={t("designAssistant.widgetAriaLabel")}
             >
               <img
                 src="/chatbot-robot-btn.png"
@@ -35,7 +37,7 @@ export default function AIChatbot() {
             </button>
           </TooltipTrigger>
           <TooltipContent side="left" className="font-medium max-w-[240px]">
-            VebXrun AI — open messages, describe your design; generate reference images for your project
+            {t("designAssistant.widgetTooltip")}
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -56,7 +58,7 @@ export default function AIChatbot() {
           open ? "translate-x-0" : "translate-x-full"
         )}
         role="dialog"
-        aria-label="Design idea — AI reference image"
+        aria-label={t("designAssistant.drawerAriaLabel")}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between p-4 border-b border-border/80 bg-primary/5 shrink-0">
@@ -65,8 +67,8 @@ export default function AIChatbot() {
               <img src="/chatbot-robot-btn.png" alt="" className="h-full w-full object-cover" />
             </div>
             <div>
-              <h2 className="font-display text-lg font-semibold text-foreground">VebXrun AI</h2>
-              <p className="text-xs text-muted-foreground mt-0.5">Same as header — messages + image ideas</p>
+              <h2 className="font-display text-lg font-semibold text-foreground">{t("designAssistant.title")}</h2>
+              <p className="text-xs text-muted-foreground mt-0.5">{t("designAssistant.drawerSubtitle")}</p>
             </div>
           </div>
           <Button

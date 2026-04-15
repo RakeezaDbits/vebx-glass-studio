@@ -1,20 +1,543 @@
 {
-  "nav": { "home": "Αρχική", "about": "Σχετικά", "services": "Υπηρεσίες", "pricing": "Τιμές", "ourWork": "Έργα", "expertise": "Εξειδίκευση", "contactUs": "Επικοινωνία" },
-  "hero": { "tagline": "Φαντάσου. Καινοτόμησε. Εμπνευσε.", "headline1": "Χτίζουμε", "headline2": "Ψηφιακές", "headline3": "Εμπειρίες που", "headline4": "Μετράνε", "subtext": "Από εφαρμογές κινητών μέχρι metaverse, δημιουργούμε λύσεις αιχμής.", "getStarted": "Ξεκινήστε", "viewOurWork": "Δείτε τα έργα μας", "stats": { "projects": "Ολοκληρωμένα έργα", "clients": "Ικανοποιημένοι πελάτες", "years": "Χρόνια εμπειρίας" } },
-  "about": { "tag": "Σχετικά", "heading": "Ψηφιακή", "headingHighlight": "Αριστεία", "headingSuffix": "από την πρώτη μέρα", "desc": "Στη vebxrun είμαστε ψηφιακοί αρχιτέκτονες.", "heroDesc": "Δημιουργικό όραμα και τεχνική εξειδίκευση.", "features": { "innovationTitle": "Καινοτομία", "innovationDesc": "Τεχνολογία αιχμής", "secureTitle": "Αξιόπιστο και ασφαλές", "secureDesc": "Εταιρική ασφάλεια", "teamTitle": "Ομάδα ειδικών", "teamDesc": "Έμπειροι προγραμματιστές", "resultsTitle": "Προσανατολισμένοι σε αποτελέσματα", "resultsDesc": "Μετρήσιμα αποτελέσματα" }, "fromStartups": "Από startups σε", "enterprises": "επιχειρήσεις", "fromStartupsDesc1": "Αναπτυχθήκαμε σε παγκόσμιο ψηφιακό πρακτορείο.", "fromStartupsDesc2": "Κινητά, web, metaverse, παιχνίδια και άλλα.", "valuesTag": "Αξίες μας", "valuesHeading": "Τι μας", "valuesHighlight": "κινεί", "valuesSuffix": "", "values": { "creativeTitle": "Δημιουργική σκέψη", "creativeDesc": "Φρέσκια προοπτική.", "qualityTitle": "Ποιότητα", "qualityDesc": "Υψηλότερα πρότυπα.", "globalTitle": "Παγκόσμια εμβέλεια", "globalDesc": "Πελάτες παγκοσμίως.", "clientTitle": "Εστίαση στον πελάτη", "clientDesc": "Η επιτυχία σας είναι η επιτυχία μας." }, "stats": { "projects": "Έργα", "clients": "Πελάτες", "years": "Χρόνια", "team": "Μέλη ομάδας" } },
-  "cta": { "heading": "Έτοιμοι να", "headingHighlight": "μεταμορφώσετε", "headingSuffix": "την επιχείρησή σας;", "desc": "Ας δημιουργήσουμε κάτι εξαιρετικό.", "button": "Ξεκινήστε το έργο" },
-  "whyChoose": { "tag": "Γιατί vebxrun", "heading": "Γιατί", "headingHighlight": "να μας επιλέξετε", "desc": "Τεχνική αριστεία.", "reasons": { "innovationTitle": "Καινοτομία", "innovationDesc": "Κορυφαία τεχνολογία.", "deliveryTitle": "Αξιόπιστη παράδοση", "deliveryDesc": "Στην ώρα και στον προϋπολογισμό.", "teamTitle": "Ομάδα ειδικών", "teamDesc": "Παθιασμένοι senior προγραμματιστές.", "resultsTitle": "Πραγματικά αποτελέσματα", "resultsDesc": "Δείκτες ανάπτυξης." } },
-  "howWeWork": { "tag": "Η διαδικασία μας", "heading": "Πώς", "headingHighlight": "δουλεύουμε", "desc": "Διαφανής διαδικασία.", "steps": { "discoverTitle": "Ανακάλυψη", "discoverDesc": "Κατανοούμε το όραμά σας.", "designTitle": "Σχεδιασμός", "designDesc": "UX/UI και αρχιτεκτονική.", "developTitle": "Ανάπτυξη", "developDesc": "Ποιοτικός κώδικας.", "deliverTitle": "Παράδοση", "deliverDesc": "Εκκίνηση και υποστήριξη." }, "startProject": "Ξεκινήστε" },
-  "trusted": { "tag": "Αξιόπιστοι", "items": { "mobileWeb": "Κινητά & Web", "metaverseXR": "Metaverse & XR", "enterpriseSaaS": "Enterprise SaaS", "startupsToFortune": "Startups έως Fortune 500" } },
-  "servicesSection": { "tag": "Υπηρεσίες", "heading": "Οι", "headingHighlight": "Υπηρεσίες μας", "desc": "Ολοκληρωμένες ψηφιακές λύσεις" },
-  "footer": { "quickLinks": "Γρήγοροι σύνδεσμοι", "linkServices": "Υπηρεσίες", "linkPricing": "Τιμές", "linkContactUs": "Επικοινωνία", "linkOurWork": "Έργα", "linkExpertise": "Εξειδίκευση", "linkAbout": "Σχετικά", "linkPrivacyPolicy": "Απόρρητο", "services": "Υπηρεσίες", "letsWork": "Ας συνεργαστούμε", "letsWorkDesc": "Επικοινωνήστε.", "getInTouch": "Επικοινωνία", "copyright": "Πνευματικά δικαιώματα 2024–2026", "vebexRun": "Vebex Run", "stayInLoop": "Μείνετε ενημερωμένοι", "stayInLoopDesc": "Νέα ψηφιακής καινοτομίας.", "subscribe": "Εγγραφή", "latestInsights": "Τελευταία άρθρα", "readMore": "Διαβάστε περισσότερα", "brandDesc": "Φαντάσου. Καινοτόμησε. Εμπνευσε.", "insights": { "title1": "Metaverse — το επόμενο βήμα", "excerpt1": "Immersive τεχνολογία.", "title2": "Εφαρμογές που αγαπούν οι χρήστες", "excerpt2": "Αρχές σχεδιασμού.", "title3": "Ψηφιακός μετασχηματισμός", "excerpt3": "Βοηθάμε επιχειρήσεις." } },
-  "common": { "vebexRun": "Vebex Run", "explore": "Εξερεύνηση" },
-  "servicesPage": { "whatWeDo": "Τι κάνουμε", "ourServices": "Οι υπηρεσίες μας", "ourServicesHighlight": "Υπηρεσίες", "subtitle": "Ολοκληρωμένες λύσεις.", "customSolution": "Χρειάζεστε εξατομικευμένη λύση;", "customSolutionDesc": "Κατασκευάζουμε σύμφωνα με τις ανάγκες σας.", "getInTouch": "Επικοινωνία" },
-  "pricing": { "tag": "Τιμές", "heading": "Διαφανείς", "headingHighlight": "τιμές", "desc": "Επιλέξτε υπηρεσία και πλάνο.", "chooseService": "Επιλέξτε υπηρεσία", "starter": "Starter", "starterDesc": "Για αρχή", "professional": "Professional", "professionalDesc": "Για ανάπτυξη", "enterprise": "Enterprise", "enterpriseDesc": "Μεγάλα έργα", "mostPopular": "Δημοφιλέστερο", "perProject": "/έργο", "getStarted": "Ξεκινήστε", "features": { "coreScope": "Βασικό πεδίο", "responsive": "Responsive design", "basicSupport": "Βασική υποστήριξη", "2revisions": "2 γύροι αναθεωρήσεων", "1monthSupport": "1 μήνας υποστήριξη", "fullScope": "Πλήρες πεδίο + UI/UX", "advancedFeatures": "Προηγμένα χαρακτηριστικά", "apiIntegrations": "API integrations", "5revisions": "5 γύροι αναθεωρήσεων", "3monthsSupport": "3 μήνες υποστήριξη", "perfOptimization": "Βελτιστοποίηση απόδοσης", "fullStack": "Full-stack custom", "dedicatedPM": "Αφοσιωμένος PM", "unlimitedRevisions": "Απεριόριστες αναθεωρήσεις", "12monthsSupport": "12 μήνες υποστήριξη", "cicd": "CI/CD & DevOps", "sla": "Εγγύηση SLA" } },
-  "contact": { "tag": "Επικοινωνία", "heading": "Ας", "headingHighlight": "μιλήσουμε", "desc": "Απάντηση σε 24 ώρες.", "sendMessage": "Στείλτε μήνυμα", "yourName": "Όνομα", "yourEmail": "Email", "subject": "Θέμα", "tellUs": "Πείτε μας για το έργο...", "sendBtn": "Αποστολή", "emailUs": "Email", "visitUs": "Επισκεφθείτε μας", "businessHours": "Ωράριο", "monFri": "Δευτέρα – Παρασκευή", "saturday": "Σάββατο", "sunday": "Κυριακή", "closed": "Κλειστά" },
-  "expertise": { "tag": "Εξειδίκευση", "heading": "Η τεχνολογία", "headingHighlight": "μας", "headingSuffix": "Stack", "desc": "Κατέχουμε σημαντικά εργαλεία.", "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Κινητά", "cloudDevops": "Cloud & DevOps", "gameXR": "Παιχνίδια & XR", "dataAI": "Δεδομένα & AI" }, "industriesTag": "Κλάδοι", "industriesHeading": "Κλάδοι που", "industriesHighlight": "εξυπηρετούμε", "industries": { "healthcare": "Υγεία", "fintech": "FinTech", "ecommerce": "Ηλ. Εμπόριο", "education": "Εκπαίδευση", "realEstate": "Ακίνητα", "entertainment": "Ψυχαγωγία", "automotive": "Αυτοκίνητο", "logistics": "Logistics" }, "ctaHeading": "Ας χτίσουμε κάτι", "ctaHighlight": "εκπληκτικό", "ctaDesc": "Η ομάδα μας είναι έτοιμη.", "ctaBtn": "Επικοινωνία" },
-  "ourWork": { "tag": "Έργα", "heading": "Τα", "headingHighlight": "έργα μας", "desc": "Εξειδίκευση σε πολλούς κλάδους.", "projects": { "fintech": { "title": "FinTech Dashboard", "category": "Web App", "desc": "AI χρηματοοικονομική ανάλυση." }, "medconnect": { "title": "MedConnect", "category": "Mobile App", "desc": "Τηλεϊατρική πλατφόρμα." }, "virtuworld": { "title": "VirtuWorld", "category": "Metaverse", "desc": "3D εικονική αίθουσα." }, "greengrow": { "title": "GreenGrow", "category": "Λογισμικό", "desc": "Έξυπνη γεωργία." }, "pixelforge": { "title": "PixelForge", "category": "Παιχνίδι", "desc": "Cross-platform RPG." }, "brandsphere": { "title": "BrandSphere", "category": "Branding", "desc": "Εταιρικό rebranding." } }, "ctaHeading": "Γίνετε η επόμενη", "ctaHighlight": "ιστορία επιτυχίας", "ctaSuffix": " μας;", "ctaDesc": "Ας δημιουργήσουμε μαζί.", "ctaBtn": "Ξεκινήστε" },
-  "privacy": { "tag": "Νομικά", "heading": "Πολιτική", "headingHighlight": "Απορρήτου", "lastUpdated": "Ενημέρωση: Μάρτιος 2026", "section1Title": "1. Πληροφορίες που συλλέγουμε", "section1": "Συλλέγουμε τα στοιχεία που παρέχετε.", "section2Title": "2. Χρήση", "section2": "Για παροχή υπηρεσιών.", "section3Title": "3. Κοινοποίηση", "section3": "Δεν πουλάμε προσωπικά δεδομένα.", "section4Title": "4. Ασφάλεια", "section4": "Κατάλληλα μέτρα ασφαλείας.", "section5Title": "5. Τα δικαιώματά σας", "section5": "Πρόσβαση, διόρθωση ή διαγραφή.", "section6Title": "6. Επικοινωνία", "section6": "Ερωτήσεις:", "email": "Email:", "address": "Διεύθυνση:" },
-  "notFound": { "title": "404", "desc": "Η σελίδα δεν βρέθηκε", "back": "Επιστροφή" },
-  "services": { "mobileApplication": "Εφαρμογές κινητών", "mobileApplicationShort": "Native & cross-platform", "webCmsDevelopment": "Web CMS", "webCmsDevelopmentShort": "Διαχείριση περιεχομένου", "softwareDevelopment": "Ανάπτυξη λογισμικού", "softwareDevelopmentShort": "Προσαρμοσμένο λογισμικό", "corporateBranding": "Εταιρικό branding", "corporateBrandingShort": "Ταυτότητα μάρκας", "onlineDigitalMarketing": "Ψηφιακό marketing", "onlineDigitalMarketingShort": "Ανάπτυξη βάσει δεδομένων", "2d3dAnimation": "2D/3D Animation", "2d3dAnimationShort": "Εντυπωσιακά visuals", "3dRenderingServices": "3D Rendering", "3dRenderingServicesShort": "Φωτορεαλιστικό 3D", "metaverseDevelopment": "Metaverse", "metaverseDevelopmentShort": "Νέα γενιά ψηφιακών κόσμων", "gameDevelopment": "Ανάπτυξη παιχνιδιών", "gameDevelopmentShort": "Παιχνίδια για κάθε πλατφόρμα", "extendedReality": "Extended Reality", "extendedRealityShort": "AR/VR/MR", "socialMediaMarketing": "Social Media", "socialMediaMarketingShort": "Στρατηγική παρουσία" }
+  "nav": {
+    "home": "Αρχική",
+    "about": "Σχετικά",
+    "services": "Υπηρεσίες",
+    "pricing": "Τιμές",
+    "ourWork": "Έργα",
+    "expertise": "Εξειδίκευση",
+    "contactUs": "Επικοινωνία",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
+  },
+  "hero": {
+    "tagline": "Φαντάσου. Καινοτόμησε. Εμπνευσε.",
+    "headline1": "Χτίζουμε",
+    "headline2": "Ψηφιακές",
+    "headline3": "Εμπειρίες που",
+    "headline4": "Μετράνε",
+    "subtext": "Από εφαρμογές κινητών μέχρι metaverse, δημιουργούμε λύσεις αιχμής.",
+    "getStarted": "Ξεκινήστε",
+    "viewOurWork": "Δείτε τα έργα μας",
+    "stats": {
+      "projects": "Ολοκληρωμένα έργα",
+      "clients": "Ικανοποιημένοι πελάτες",
+      "years": "Χρόνια εμπειρίας"
+    }
+  },
+  "about": {
+    "tag": "Σχετικά",
+    "heading": "Ψηφιακή",
+    "headingHighlight": "Αριστεία",
+    "headingSuffix": "από την πρώτη μέρα",
+    "desc": "Στη vebxrun είμαστε ψηφιακοί αρχιτέκτονες.",
+    "heroDesc": "Δημιουργικό όραμα και τεχνική εξειδίκευση.",
+    "features": {
+      "innovationTitle": "Καινοτομία",
+      "innovationDesc": "Τεχνολογία αιχμής",
+      "secureTitle": "Αξιόπιστο και ασφαλές",
+      "secureDesc": "Εταιρική ασφάλεια",
+      "teamTitle": "Ομάδα ειδικών",
+      "teamDesc": "Έμπειροι προγραμματιστές",
+      "resultsTitle": "Προσανατολισμένοι σε αποτελέσματα",
+      "resultsDesc": "Μετρήσιμα αποτελέσματα"
+    },
+    "fromStartups": "Από startups σε",
+    "enterprises": "επιχειρήσεις",
+    "fromStartupsDesc1": "Αναπτυχθήκαμε σε παγκόσμιο ψηφιακό πρακτορείο.",
+    "fromStartupsDesc2": "Κινητά, web, metaverse, παιχνίδια και άλλα.",
+    "valuesTag": "Αξίες μας",
+    "valuesHeading": "Τι μας",
+    "valuesHighlight": "κινεί",
+    "valuesSuffix": "",
+    "values": {
+      "creativeTitle": "Δημιουργική σκέψη",
+      "creativeDesc": "Φρέσκια προοπτική.",
+      "qualityTitle": "Ποιότητα",
+      "qualityDesc": "Υψηλότερα πρότυπα.",
+      "globalTitle": "Παγκόσμια εμβέλεια",
+      "globalDesc": "Πελάτες παγκοσμίως.",
+      "clientTitle": "Εστίαση στον πελάτη",
+      "clientDesc": "Η επιτυχία σας είναι η επιτυχία μας."
+    },
+    "stats": {
+      "projects": "Έργα",
+      "clients": "Πελάτες",
+      "years": "Χρόνια",
+      "team": "Μέλη ομάδας"
+    }
+  },
+  "cta": {
+    "heading": "Έτοιμοι να",
+    "headingHighlight": "μεταμορφώσετε",
+    "headingSuffix": "την επιχείρησή σας;",
+    "desc": "Ας δημιουργήσουμε κάτι εξαιρετικό.",
+    "button": "Ξεκινήστε το έργο"
+  },
+  "whyChoose": {
+    "tag": "Γιατί vebxrun",
+    "heading": "Γιατί",
+    "headingHighlight": "να μας επιλέξετε",
+    "desc": "Τεχνική αριστεία.",
+    "reasons": {
+      "innovationTitle": "Καινοτομία",
+      "innovationDesc": "Κορυφαία τεχνολογία.",
+      "deliveryTitle": "Αξιόπιστη παράδοση",
+      "deliveryDesc": "Στην ώρα και στον προϋπολογισμό.",
+      "teamTitle": "Ομάδα ειδικών",
+      "teamDesc": "Παθιασμένοι senior προγραμματιστές.",
+      "resultsTitle": "Πραγματικά αποτελέσματα",
+      "resultsDesc": "Δείκτες ανάπτυξης."
+    }
+  },
+  "howWeWork": {
+    "tag": "Η διαδικασία μας",
+    "heading": "Πώς",
+    "headingHighlight": "δουλεύουμε",
+    "desc": "Διαφανής διαδικασία.",
+    "steps": {
+      "discoverTitle": "Ανακάλυψη",
+      "discoverDesc": "Κατανοούμε το όραμά σας.",
+      "designTitle": "Σχεδιασμός",
+      "designDesc": "UX/UI και αρχιτεκτονική.",
+      "developTitle": "Ανάπτυξη",
+      "developDesc": "Ποιοτικός κώδικας.",
+      "deliverTitle": "Παράδοση",
+      "deliverDesc": "Εκκίνηση και υποστήριξη."
+    },
+    "startProject": "Ξεκινήστε"
+  },
+  "trusted": {
+    "tag": "Αξιόπιστοι",
+    "items": {
+      "mobileWeb": "Κινητά & Web",
+      "metaverseXR": "Metaverse & XR",
+      "enterpriseSaaS": "Enterprise SaaS",
+      "startupsToFortune": "Startups έως Fortune 500"
+    }
+  },
+  "servicesSection": {
+    "tag": "Υπηρεσίες",
+    "heading": "Οι",
+    "headingHighlight": "Υπηρεσίες μας",
+    "desc": "Ολοκληρωμένες ψηφιακές λύσεις"
+  },
+  "footer": {
+    "quickLinks": "Γρήγοροι σύνδεσμοι",
+    "linkServices": "Υπηρεσίες",
+    "linkPricing": "Τιμές",
+    "linkContactUs": "Επικοινωνία",
+    "linkOurWork": "Έργα",
+    "linkExpertise": "Εξειδίκευση",
+    "linkAbout": "Σχετικά",
+    "linkPrivacyPolicy": "Απόρρητο",
+    "services": "Υπηρεσίες",
+    "letsWork": "Ας συνεργαστούμε",
+    "letsWorkDesc": "Επικοινωνήστε.",
+    "getInTouch": "Επικοινωνία",
+    "copyright": "Πνευματικά δικαιώματα 2024–2026",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Μείνετε ενημερωμένοι",
+    "stayInLoopDesc": "Νέα ψηφιακής καινοτομίας.",
+    "subscribe": "Εγγραφή",
+    "latestInsights": "Τελευταία άρθρα",
+    "readMore": "Διαβάστε περισσότερα",
+    "brandDesc": "Φαντάσου. Καινοτόμησε. Εμπνευσε.",
+    "insights": {
+      "title1": "Metaverse — το επόμενο βήμα",
+      "excerpt1": "Immersive τεχνολογία.",
+      "title2": "Εφαρμογές που αγαπούν οι χρήστες",
+      "excerpt2": "Αρχές σχεδιασμού.",
+      "title3": "Ψηφιακός μετασχηματισμός",
+      "excerpt3": "Βοηθάμε επιχειρήσεις."
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "Εξερεύνηση"
+  },
+  "servicesPage": {
+    "whatWeDo": "Τι κάνουμε",
+    "ourServices": "Οι υπηρεσίες μας",
+    "ourServicesHighlight": "Υπηρεσίες",
+    "subtitle": "Ολοκληρωμένες λύσεις.",
+    "customSolution": "Χρειάζεστε εξατομικευμένη λύση;",
+    "customSolutionDesc": "Κατασκευάζουμε σύμφωνα με τις ανάγκες σας.",
+    "getInTouch": "Επικοινωνία"
+  },
+  "pricing": {
+    "tag": "Τιμές",
+    "heading": "Διαφανείς",
+    "headingHighlight": "τιμές",
+    "desc": "Επιλέξτε υπηρεσία και πλάνο.",
+    "chooseService": "Επιλέξτε υπηρεσία",
+    "starter": "Starter",
+    "starterDesc": "Για αρχή",
+    "professional": "Professional",
+    "professionalDesc": "Για ανάπτυξη",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "Μεγάλα έργα",
+    "mostPopular": "Δημοφιλέστερο",
+    "perProject": "/έργο",
+    "getStarted": "Ξεκινήστε",
+    "features": {
+      "coreScope": "Βασικό πεδίο",
+      "responsive": "Responsive design",
+      "basicSupport": "Βασική υποστήριξη",
+      "2revisions": "2 γύροι αναθεωρήσεων",
+      "1monthSupport": "1 μήνας υποστήριξη",
+      "fullScope": "Πλήρες πεδίο + UI/UX",
+      "advancedFeatures": "Προηγμένα χαρακτηριστικά",
+      "apiIntegrations": "API integrations",
+      "5revisions": "5 γύροι αναθεωρήσεων",
+      "3monthsSupport": "3 μήνες υποστήριξη",
+      "perfOptimization": "Βελτιστοποίηση απόδοσης",
+      "fullStack": "Full-stack custom",
+      "dedicatedPM": "Αφοσιωμένος PM",
+      "unlimitedRevisions": "Απεριόριστες αναθεωρήσεις",
+      "12monthsSupport": "12 μήνες υποστήριξη",
+      "cicd": "CI/CD & DevOps",
+      "sla": "Εγγύηση SLA"
+    }
+  },
+  "contact": {
+    "tag": "Επικοινωνία",
+    "heading": "Ας",
+    "headingHighlight": "μιλήσουμε",
+    "desc": "Απάντηση σε 24 ώρες.",
+    "sendMessage": "Στείλτε μήνυμα",
+    "yourName": "Όνομα",
+    "yourEmail": "Email",
+    "subject": "Θέμα",
+    "tellUs": "Πείτε μας για το έργο...",
+    "sendBtn": "Αποστολή",
+    "emailUs": "Email",
+    "visitUs": "Επισκεφθείτε μας",
+    "businessHours": "Ωράριο",
+    "monFri": "Δευτέρα – Παρασκευή",
+    "saturday": "Σάββατο",
+    "sunday": "Κυριακή",
+    "closed": "Κλειστά",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
+  },
+  "expertise": {
+    "tag": "Εξειδίκευση",
+    "heading": "Η τεχνολογία",
+    "headingHighlight": "μας",
+    "headingSuffix": "Stack",
+    "desc": "Κατέχουμε σημαντικά εργαλεία.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Κινητά",
+      "cloudDevops": "Cloud & DevOps",
+      "gameXR": "Παιχνίδια & XR",
+      "dataAI": "Δεδομένα & AI"
+    },
+    "industriesTag": "Κλάδοι",
+    "industriesHeading": "Κλάδοι που",
+    "industriesHighlight": "εξυπηρετούμε",
+    "industries": {
+      "healthcare": "Υγεία",
+      "fintech": "FinTech",
+      "ecommerce": "Ηλ. Εμπόριο",
+      "education": "Εκπαίδευση",
+      "realEstate": "Ακίνητα",
+      "entertainment": "Ψυχαγωγία",
+      "automotive": "Αυτοκίνητο",
+      "logistics": "Logistics"
+    },
+    "ctaHeading": "Ας χτίσουμε κάτι",
+    "ctaHighlight": "εκπληκτικό",
+    "ctaDesc": "Η ομάδα μας είναι έτοιμη.",
+    "ctaBtn": "Επικοινωνία"
+  },
+  "ourWork": {
+    "tag": "Έργα",
+    "heading": "Τα",
+    "headingHighlight": "έργα μας",
+    "desc": "Εξειδίκευση σε πολλούς κλάδους.",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Dashboard",
+        "category": "Web App",
+        "desc": "AI χρηματοοικονομική ανάλυση."
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "Mobile App",
+        "desc": "Τηλεϊατρική πλατφόρμα."
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "Metaverse",
+        "desc": "3D εικονική αίθουσα."
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "Λογισμικό",
+        "desc": "Έξυπνη γεωργία."
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "Παιχνίδι",
+        "desc": "Cross-platform RPG."
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "Branding",
+        "desc": "Εταιρικό rebranding."
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
+    },
+    "ctaHeading": "Γίνετε η επόμενη",
+    "ctaHighlight": "ιστορία επιτυχίας",
+    "ctaSuffix": " μας;",
+    "ctaDesc": "Ας δημιουργήσουμε μαζί.",
+    "ctaBtn": "Ξεκινήστε"
+  },
+  "privacy": {
+    "tag": "Νομικά",
+    "heading": "Πολιτική",
+    "headingHighlight": "Απορρήτου",
+    "lastUpdated": "Ενημέρωση: Μάρτιος 2026",
+    "section1Title": "1. Πληροφορίες που συλλέγουμε",
+    "section1": "Συλλέγουμε τα στοιχεία που παρέχετε.",
+    "section2Title": "2. Χρήση",
+    "section2": "Για παροχή υπηρεσιών.",
+    "section3Title": "3. Κοινοποίηση",
+    "section3": "Δεν πουλάμε προσωπικά δεδομένα.",
+    "section4Title": "4. Ασφάλεια",
+    "section4": "Κατάλληλα μέτρα ασφαλείας.",
+    "section5Title": "5. Τα δικαιώματά σας",
+    "section5": "Πρόσβαση, διόρθωση ή διαγραφή.",
+    "section6Title": "6. Επικοινωνία",
+    "section6": "Ερωτήσεις:",
+    "email": "Email:",
+    "address": "Διεύθυνση:"
+  },
+  "notFound": {
+    "title": "404",
+    "desc": "Η σελίδα δεν βρέθηκε",
+    "back": "Επιστροφή"
+  },
+  "services": {
+    "mobileApplication": "Εφαρμογές κινητών",
+    "mobileApplicationShort": "Native & cross-platform",
+    "webCmsDevelopment": "Web CMS",
+    "webCmsDevelopmentShort": "Διαχείριση περιεχομένου",
+    "softwareDevelopment": "Ανάπτυξη λογισμικού",
+    "softwareDevelopmentShort": "Προσαρμοσμένο λογισμικό",
+    "corporateBranding": "Εταιρικό branding",
+    "corporateBrandingShort": "Ταυτότητα μάρκας",
+    "onlineDigitalMarketing": "Ψηφιακό marketing",
+    "onlineDigitalMarketingShort": "Ανάπτυξη βάσει δεδομένων",
+    "2d3dAnimation": "2D/3D Animation",
+    "2d3dAnimationShort": "Εντυπωσιακά visuals",
+    "3dRenderingServices": "3D Rendering",
+    "3dRenderingServicesShort": "Φωτορεαλιστικό 3D",
+    "metaverseDevelopment": "Metaverse",
+    "metaverseDevelopmentShort": "Νέα γενιά ψηφιακών κόσμων",
+    "gameDevelopment": "Ανάπτυξη παιχνιδιών",
+    "gameDevelopmentShort": "Παιχνίδια για κάθε πλατφόρμα",
+    "extendedReality": "Extended Reality",
+    "extendedRealityShort": "AR/VR/MR",
+    "socialMediaMarketing": "Social Media",
+    "socialMediaMarketingShort": "Στρατηγική παρουσία"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
+  }
 }

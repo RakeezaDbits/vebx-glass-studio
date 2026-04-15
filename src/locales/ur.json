@@ -1,5 +1,17 @@
 {
-  "nav": { "home": "ہوم", "about": "ہمارے بارے میں", "services": "خدمات", "newServices": "نئی خدمات", "newBadge": "نیا", "pricing": "قیمتیں", "ourWork": "ہمارا کام", "expertise": "مہارت", "contactUs": "رابطہ کریں", "customRequirement": "کوٹ حاصل کریں", "designAssistant": "VebXrun AI" },
+  "nav": {
+    "home": "ہوم",
+    "about": "ہمارے بارے میں",
+    "services": "خدمات",
+    "newServices": "نئی خدمات",
+    "newBadge": "نیا",
+    "pricing": "قیمتیں",
+    "ourWork": "ہمارا کام",
+    "expertise": "مہارت",
+    "contactUs": "رابطہ کریں",
+    "customRequirement": "کوٹ حاصل کریں",
+    "designAssistant": "VBX Agent"
+  },
   "hero": {
     "tagline": "تصور کریں۔ جدت لائیں۔ متاثر کریں۔",
     "headline1": "ہم تخلیق کرتے ہیں",
@@ -9,7 +21,11 @@
     "subtext": "موبائل ایپس سے لے کر میٹاورس ڈویلپمنٹ تک، ہم جدید ترین حل تیار کرتے ہیں جو خیالات کو حقیقت میں بدل دیتے ہیں۔ آپ کا تصور، ہماری مہارت۔",
     "getStarted": "ابھی شروع کریں",
     "viewOurWork": "ہمارا کام دیکھیں",
-    "stats": { "projects": "مکمل شدہ منصوبے", "clients": "مطمئن کلائنٹس", "years": "سالوں کا تجربہ" }
+    "stats": {
+      "projects": "مکمل شدہ منصوبے",
+      "clients": "مطمئن کلائنٹس",
+      "years": "سالوں کا تجربہ"
+    }
   },
   "about": {
     "tag": "ہمارے بارے میں",
@@ -46,9 +62,20 @@
       "clientTitle": "کلائنٹ مرکوز",
       "clientDesc": "آپ کی کامیابی ہماری کامیابی ہے۔ ہم اعتماد، شفافیت اور مشترکہ اہداف پر مبنی دیرپا شراکت داریاں بناتے ہیں۔"
     },
-    "stats": { "projects": "مکمل شدہ منصوبے", "clients": "مطمئن کلائنٹس", "years": "سالوں کا تجربہ", "team": "ٹیم ممبرز" }
+    "stats": {
+      "projects": "مکمل شدہ منصوبے",
+      "clients": "مطمئن کلائنٹس",
+      "years": "سالوں کا تجربہ",
+      "team": "ٹیم ممبرز"
+    }
   },
-  "cta": { "heading": "اپنے کاروبار کو", "headingHighlight": "تبدیل", "headingSuffix": "کرنے کے لیے تیار؟", "desc": "آئیے مل کر کچھ غیر معمولی بنائیں۔ آپ کا اگلا بڑا خیال یہاں سے شروع ہوتا ہے۔", "button": "اپنا پروجیکٹ شروع کریں" },
+  "cta": {
+    "heading": "اپنے کاروبار کو",
+    "headingHighlight": "تبدیل",
+    "headingSuffix": "کرنے کے لیے تیار؟",
+    "desc": "آئیے مل کر کچھ غیر معمولی بنائیں۔ آپ کا اگلا بڑا خیال یہاں سے شروع ہوتا ہے۔",
+    "button": "اپنا پروجیکٹ شروع کریں"
+  },
   "whyChoose": {
     "tag": "کیوں vebxrun",
     "heading": "ہمیں کیوں",
@@ -82,14 +109,42 @@
     },
     "startProject": "اپنا پروجیکٹ شروع کریں"
   },
-  "trusted": { "tag": "قابل اعتماد", "items": { "mobileWeb": "موبائل اور ویب", "metaverseXR": "میٹاورس اور XR", "enterpriseSaaS": "انٹرپرائز SaaS", "startupsToFortune": "اسٹارٹ اپس سے Fortune 500 تک" } },
-  "servicesSection": { "tag": "ہم کیا کرتے ہیں", "heading": "ہماری", "headingHighlight": "خدمات", "desc": "آپ کے کاروبار کو بلند کرنے کے لیے مکمل ڈیجیٹل حل" },
+  "trusted": {
+    "tag": "قابل اعتماد",
+    "items": {
+      "mobileWeb": "موبائل اور ویب",
+      "metaverseXR": "میٹاورس اور XR",
+      "enterpriseSaaS": "انٹرپرائز SaaS",
+      "startupsToFortune": "اسٹارٹ اپس سے Fortune 500 تک"
+    }
+  },
+  "servicesSection": {
+    "tag": "ہم کیا کرتے ہیں",
+    "heading": "ہماری",
+    "headingHighlight": "خدمات",
+    "desc": "آپ کے کاروبار کو بلند کرنے کے لیے مکمل ڈیجیٹل حل"
+  },
   "footer": {
-    "quickLinks": "فوری روابط", "linkServices": "خدمات", "linkPricing": "قیمتیں", "linkCustomRequirement": "کوٹ حاصل کریں", "linkContactUs": "رابطہ کریں", "linkOurWork": "ہمارا کام", "linkExpertise": "مہارت", "linkAbout": "ہمارے بارے میں", "linkPrivacyPolicy": "رازداری کی پالیسی",
-    "services": "خدمات", "letsWork": "آئیے مل کر کام کریں", "letsWorkDesc": "اپنے تصور کو حقیقت بنانے کے لیے تیار ہیں؟ ہم سے رابطہ کریں اور کچھ غیر معمولی تخلیق کریں۔", "getInTouch": "رابطہ کریں",
-    "copyright": "جملہ حقوق محفوظ ہیں 2024–2026 بمع", "vebexRun": "Vebex Run",
-    "stayInLoop": "باخبر رہیں", "stayInLoopDesc": "ڈیجیٹل جدت کے بارے میں تازہ ترین بصیرت اور اپ ڈیٹس حاصل کریں۔", "subscribe": "سبسکرائب کریں",
-    "latestInsights": "تازہ ترین بصیرت", "readMore": "مزید پڑھیں",
+    "quickLinks": "فوری روابط",
+    "linkServices": "خدمات",
+    "linkPricing": "قیمتیں",
+    "linkCustomRequirement": "کوٹ حاصل کریں",
+    "linkContactUs": "رابطہ کریں",
+    "linkOurWork": "ہمارا کام",
+    "linkExpertise": "مہارت",
+    "linkAbout": "ہمارے بارے میں",
+    "linkPrivacyPolicy": "رازداری کی پالیسی",
+    "services": "خدمات",
+    "letsWork": "آئیے مل کر کام کریں",
+    "letsWorkDesc": "اپنے تصور کو حقیقت بنانے کے لیے تیار ہیں؟ ہم سے رابطہ کریں اور کچھ غیر معمولی تخلیق کریں۔",
+    "getInTouch": "رابطہ کریں",
+    "copyright": "جملہ حقوق محفوظ ہیں 2024–2026 بمع",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "باخبر رہیں",
+    "stayInLoopDesc": "ڈیجیٹل جدت کے بارے میں تازہ ترین بصیرت اور اپ ڈیٹس حاصل کریں۔",
+    "subscribe": "سبسکرائب کریں",
+    "latestInsights": "تازہ ترین بصیرت",
+    "readMore": "مزید پڑھیں",
     "brandDesc": "تصور کریں۔ جدت لائیں۔ متاثر کریں۔ ہم ڈیجیٹل تجربات بناتے ہیں جو کاروبار کو تبدیل کرتے ہیں۔",
     "insights": {
       "title1": "میٹاورس ڈویلپمنٹ اگلی بڑی چھلانگ کیوں ہے",
@@ -98,22 +153,55 @@
       "excerpt2": "ڈیزائن اور ڈویلپمنٹ کے اصول جو مشغولیت کو بڑھاتے ہیں۔",
       "title3": "ڈیجیٹل تبدیلی جو ترقی کو آگے بڑھائے",
       "excerpt3": "ہم کاروباروں کو ٹیکنالوجی سے جدت اور توسیع میں کیسے مدد کرتے ہیں۔"
-    }
+    },
+    "linkNewServices": "New Services"
   },
-  "common": { "vebexRun": "Vebex Run", "explore": "دریافت کریں" },
-  "servicesPage": { "whatWeDo": "ہم کیا کرتے ہیں", "ourServices": "ہماری خدمات", "ourServicesHighlight": "خدمات", "subtitle": "آپ کے کاروبار کو بلندیوں تک لے جانے کے لیے مکمل ڈیجیٹل حل۔ تصور سے لے کر عمل درآمد تک، ہم ہر قدم پر آپ کے ساتھ ہیں۔", "customSolution": "کسی مخصوص حل کی ضرورت ہے؟", "customSolutionDesc": "جو آپ ڈھونڈ رہے ہیں وہ نہیں ملا؟ ہم آپ کی منفرد ضروریات کے مطابق ڈیجیٹل حل تیار کرتے ہیں۔", "getInTouch": "رابطہ کریں" },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "دریافت کریں"
+  },
+  "servicesPage": {
+    "whatWeDo": "ہم کیا کرتے ہیں",
+    "ourServices": "ہماری خدمات",
+    "ourServicesHighlight": "خدمات",
+    "subtitle": "آپ کے کاروبار کو بلندیوں تک لے جانے کے لیے مکمل ڈیجیٹل حل۔ تصور سے لے کر عمل درآمد تک، ہم ہر قدم پر آپ کے ساتھ ہیں۔",
+    "customSolution": "کسی مخصوص حل کی ضرورت ہے؟",
+    "customSolutionDesc": "جو آپ ڈھونڈ رہے ہیں وہ نہیں ملا؟ ہم آپ کی منفرد ضروریات کے مطابق ڈیجیٹل حل تیار کرتے ہیں۔",
+    "getInTouch": "رابطہ کریں"
+  },
   "pricing": {
-    "tag": "قیمتیں", "heading": "شفاف", "headingHighlight": "قیمتیں",
+    "tag": "قیمتیں",
+    "heading": "شفاف",
+    "headingHighlight": "قیمتیں",
     "desc": "ایک سروس منتخب کریں اور مناسب پلان چنیں۔ تفصیلی قیمت کے لیے ہم سے رابطہ کریں۔",
     "chooseService": "سروس منتخب کریں",
-    "starter": "ابتدائی", "starterDesc": "شروع کرنے کے لیے بہترین",
-    "professional": "پروفیشنل", "professionalDesc": "بڑھتی ضروریات کے لیے مثالی",
-    "enterprise": "انٹرپرائز", "enterpriseDesc": "بڑے پیمانے کے منصوبوں کے لیے",
-    "mostPopular": "سب سے مقبول", "perProject": "/ پروجیکٹ", "getStarted": "شروع کریں",
+    "starter": "ابتدائی",
+    "starterDesc": "شروع کرنے کے لیے بہترین",
+    "professional": "پروفیشنل",
+    "professionalDesc": "بڑھتی ضروریات کے لیے مثالی",
+    "enterprise": "انٹرپرائز",
+    "enterpriseDesc": "بڑے پیمانے کے منصوبوں کے لیے",
+    "mostPopular": "سب سے مقبول",
+    "perProject": "/ پروجیکٹ",
+    "getStarted": "شروع کریں",
     "features": {
-      "coreScope": "بنیادی دائرہ کار فراہم", "responsive": "ریسپانسو ڈیزائن", "basicSupport": "بنیادی سپورٹ", "2revisions": "2 ترمیمی راؤنڈز", "1monthSupport": "1 ماہ سپورٹ",
-      "fullScope": "مکمل دائرہ کار اور حسب ضرورت UI/UX", "advancedFeatures": "جدید فیچرز", "apiIntegrations": "API انٹیگریشنز", "5revisions": "5 ترمیمی راؤنڈز", "3monthsSupport": "3 ماہ سپورٹ", "perfOptimization": "کارکردگی کی اصلاح",
-      "fullStack": "حسب ضرورت فل اسٹیک تعمیر", "dedicatedPM": "مخصوص پروجیکٹ مینیجر", "unlimitedRevisions": "لامحدود ترمیمات", "12monthsSupport": "12 ماہ سپورٹ", "cicd": "CI/CD اور DevOps", "sla": "SLA گارنٹی"
+      "coreScope": "بنیادی دائرہ کار فراہم",
+      "responsive": "ریسپانسو ڈیزائن",
+      "basicSupport": "بنیادی سپورٹ",
+      "2revisions": "2 ترمیمی راؤنڈز",
+      "1monthSupport": "1 ماہ سپورٹ",
+      "fullScope": "مکمل دائرہ کار اور حسب ضرورت UI/UX",
+      "advancedFeatures": "جدید فیچرز",
+      "apiIntegrations": "API انٹیگریشنز",
+      "5revisions": "5 ترمیمی راؤنڈز",
+      "3monthsSupport": "3 ماہ سپورٹ",
+      "perfOptimization": "کارکردگی کی اصلاح",
+      "fullStack": "حسب ضرورت فل اسٹیک تعمیر",
+      "dedicatedPM": "مخصوص پروجیکٹ مینیجر",
+      "unlimitedRevisions": "لامحدود ترمیمات",
+      "12monthsSupport": "12 ماہ سپورٹ",
+      "cicd": "CI/CD اور DevOps",
+      "sla": "SLA گارنٹی"
     }
   },
   "customReq": {
@@ -199,58 +287,227 @@
       "other": "دیگر / پتہ نہیں"
     }
   },
-  "contact": { "tag": "رابطہ کریں", "heading": "آئیے", "headingHighlight": "بات کریں", "desc": "آپ کے ذہن میں کوئی پروجیکٹ ہے؟ ہمیں آپ سے سننا اچھا لگے گا۔ ہمیں پیغام بھیجیں اور ہم 24 گھنٹوں میں جواب دیں گے۔", "sendMessage": "پیغام بھیجیں", "yourName": "آپ کا نام", "yourEmail": "آپ کا ای میل", "subject": "موضوع", "tellUs": "ہمیں اپنے پروجیکٹ کے بارے میں بتائیں...", "sendBtn": "پیغام بھیجیں", "emailUs": "ہمیں ای میل کریں", "visitUs": "ہم سے ملیں", "businessHours": "کام کے اوقات", "monToSun": "پیر – اتوار", "monFri": "پیر – جمعہ", "saturday": "ہفتہ", "sunday": "اتوار", "closed": "بند" },
+  "contact": {
+    "tag": "رابطہ کریں",
+    "heading": "آئیے",
+    "headingHighlight": "بات کریں",
+    "desc": "آپ کے ذہن میں کوئی پروجیکٹ ہے؟ ہمیں آپ سے سننا اچھا لگے گا۔ ہمیں پیغام بھیجیں اور ہم 24 گھنٹوں میں جواب دیں گے۔",
+    "sendMessage": "پیغام بھیجیں",
+    "yourName": "آپ کا نام",
+    "yourEmail": "آپ کا ای میل",
+    "subject": "موضوع",
+    "tellUs": "ہمیں اپنے پروجیکٹ کے بارے میں بتائیں...",
+    "sendBtn": "پیغام بھیجیں",
+    "emailUs": "ہمیں ای میل کریں",
+    "visitUs": "ہم سے ملیں",
+    "businessHours": "کام کے اوقات",
+    "monToSun": "پیر – اتوار",
+    "monFri": "پیر – جمعہ",
+    "saturday": "ہفتہ",
+    "sunday": "اتوار",
+    "closed": "بند",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here."
+  },
   "expertise": {
-    "tag": "مہارت", "heading": "ہمارا", "headingHighlight": "ٹیکنالوجی اسٹیک", "headingSuffix": "",
+    "tag": "مہارت",
+    "heading": "ہمارا",
+    "headingHighlight": "ٹیکنالوجی اسٹیک",
+    "headingSuffix": "",
     "desc": "ہم ان ٹولز میں مہارت رکھتے ہیں جو اہم ہیں۔ ہماری مہارت پورے ڈیجیٹل ماحولیاتی نظام پر محیط ہے۔",
-    "categories": { "frontend": "فرنٹ اینڈ", "backend": "بیک اینڈ", "mobile": "موبائل", "cloudDevops": "کلاؤڈ اور DevOps", "gameXR": "گیمز اور XR", "dataAI": "ڈیٹا اور AI" },
-    "industriesTag": "صنعتیں", "industriesHeading": "جن صنعتوں کی ہم", "industriesHighlight": "خدمت کرتے ہیں",
-    "industries": { "healthcare": "صحت اور میڈ ٹیک", "fintech": "فن ٹیک اور بینکنگ", "ecommerce": "ای کامرس اور ریٹیل", "education": "تعلیم اور ایڈ ٹیک", "realEstate": "رئیل اسٹیٹ اور پراپ ٹیک", "entertainment": "تفریح اور میڈیا", "automotive": "آٹوموٹو", "logistics": "لوجسٹکس اور سپلائی چین" },
-    "ctaHeading": "آئیے کچھ", "ctaHighlight": "شاندار", "ctaDesc": "آپ کے ذہن میں کوئی پروجیکٹ ہے؟ ہماری ماہرین کی ٹیم آپ کے تصور کو حقیقت بنانے کے لیے تیار ہے۔", "ctaBtn": "رابطہ کریں"
+    "categories": {
+      "frontend": "فرنٹ اینڈ",
+      "backend": "بیک اینڈ",
+      "mobile": "موبائل",
+      "cloudDevops": "کلاؤڈ اور DevOps",
+      "gameXR": "گیمز اور XR",
+      "dataAI": "ڈیٹا اور AI"
+    },
+    "industriesTag": "صنعتیں",
+    "industriesHeading": "جن صنعتوں کی ہم",
+    "industriesHighlight": "خدمت کرتے ہیں",
+    "industries": {
+      "healthcare": "صحت اور میڈ ٹیک",
+      "fintech": "فن ٹیک اور بینکنگ",
+      "ecommerce": "ای کامرس اور ریٹیل",
+      "education": "تعلیم اور ایڈ ٹیک",
+      "realEstate": "رئیل اسٹیٹ اور پراپ ٹیک",
+      "entertainment": "تفریح اور میڈیا",
+      "automotive": "آٹوموٹو",
+      "logistics": "لوجسٹکس اور سپلائی چین"
+    },
+    "ctaHeading": "آئیے کچھ",
+    "ctaHighlight": "شاندار",
+    "ctaDesc": "آپ کے ذہن میں کوئی پروجیکٹ ہے؟ ہماری ماہرین کی ٹیم آپ کے تصور کو حقیقت بنانے کے لیے تیار ہے۔",
+    "ctaBtn": "رابطہ کریں"
   },
   "ourWork": {
-    "tag": "پورٹ فولیو", "heading": "ہمارا", "headingHighlight": "کام", "desc": "ان منصوبوں کی نمائش جو مختلف صنعتوں اور ٹیکنالوجیز میں ہماری مہارت کو ظاہر کرتے ہیں۔",
+    "tag": "پورٹ فولیو",
+    "heading": "ہمارا",
+    "headingHighlight": "کام",
+    "desc": "ان منصوبوں کی نمائش جو مختلف صنعتوں اور ٹیکنالوجیز میں ہماری مہارت کو ظاہر کرتے ہیں۔",
     "projects": {
-      "emaanai": { "title": "Emaan Ai", "category": "موبائل ایپلیکیشن", "desc": "اینڈرائیڈ اور آئی او ایس کے لیے اسلامی ایپ، سبز لوگو، نماز کے اوقات، قرآن اور انگیجمنٹ ڈیش بورڈ۔" },
-      "vebxcode": { "title": "Vebxcode", "category": "ویب ایپلیکیشن", "desc": "ڈیجیٹل ایجنسی کے لیے مکمل پورٹ فولیو — ڈارک تھیم، سرخ ایکسنٹس، سروسز، پروجیکٹ گیلری، بلاگ اور رابطہ۔" },
-      "healthsync": { "title": "HealthSync", "category": "ہیلتھ کیئر", "desc": "ڈاکٹر اور مریض پورٹل — اپائنٹمنٹس، نسخے، میڈیکل ریکارڈز۔ کلینکس کے لیے شیڈولنگ اور فالو اپ۔" },
-      "taskflow": { "title": "TaskFlow", "category": "SaaS", "desc": "ٹیم ٹاسک مینجمنٹ — Kanban بورڈز، ڈیڈ لائنز، ریئل ٹائم sync۔ ریموٹ ٹیمز اور ایجنسیز کے لیے۔" },
-      "fooddash": { "title": "FoodDash", "category": "موبائل ایپلیکیشن", "desc": "ریسٹورنٹ ڈسکوری، آن لائن آرڈر، اور لائیو ڈیلیوری ٹریکنگ۔ ریسٹورنٹ اور ڈرائیور ایپ۔" },
-      "eventify": { "title": "Eventify", "category": "ویب ایپلیکیشن", "desc": "ایونٹ ٹکٹنگ اور وینو بکنگ — پے منٹ، attendee مینجمنٹ، QR چیک ان۔ کانفرنسز اور ورکشاپس۔" },
-      "docvault": { "title": "DocVault", "category": "سافٹ ویئر", "desc": "محفوظ ڈاکومنٹ اسٹوریج — e-sign، ورژن ہسٹری، compliance۔ لیگل اور فائنینس ٹیمز کے لیے۔" },
-      "fittrack": { "title": "FitTrack", "category": "موبائل ایپلیکیشن", "desc": "فٹنس اور ہیلتھ ٹریکنگ ایپ — ورک آؤٹ پلانز، پروگریس ڈیش بورڈز اور نیوٹریشن۔ اینڈرائیڈ اور آئی او ایس۔" },
-      "cloudflow": { "title": "CloudFlow", "category": "SaaS", "desc": "پروجیکٹ مینجمنٹ اور ورک فلو SaaS — ریئل ٹائم collaboration، ٹاسک بورڈز اور ٹیم انیلیٹکس۔" },
-      "neondrift": { "title": "Neon Drift", "category": "گیم ڈویلپمنٹ", "desc": "آرکیڈ سٹائل ریسنگ گیم — نیون ایسٹھیٹکس، smooth کنٹرولز اور لیڈر بورڈز۔ Unity پر بنائی۔" },
-      "shopverse": { "title": "ShopVerse", "category": "ای کامرس", "desc": "جدید ای کامرس پلیٹ فارم — پروڈکٹ کیٹلاگ، کارٹ، چیک آؤٹ اور وینڈر ڈیش بورڈ۔" },
-      "paybridge": { "title": "PayBridge", "category": "فن ٹیک", "desc": "کاروبار کے لیے پے منٹ اور فائنینس ڈیش بورڈ — ٹرانزیکشنز، reconciliation اور رپورٹنگ۔" },
-      "learnhub": { "title": "LearnHub", "category": "ایڈ ٹیک", "desc": "لرننگ مینجمنٹ پلیٹ فارم — کورسز، پروگریس ٹریکنگ، کوئزز اور سرٹیفکیٹس۔" },
-      "smartops": { "title": "SmartOps", "category": "سافٹ ویئر اور IoT", "desc": "IoT آپریشنز ڈیش بورڈ — assets مانیٹرنگ، الرٹس اور انیلیٹکس۔ سمارٹ فیسلیٹیز کے لیے۔" },
-      "engagelab": { "title": "EngageLab", "category": "ڈیجیٹل مارکیٹنگ", "desc": "سوشل میڈیا اور کیمپین انیلیٹکس — انگیجمنٹ میٹرکس، کونٹینٹ شیڈولنگ اور ROI رپورٹنگ۔" }
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "موبائل ایپلیکیشن",
+        "desc": "اینڈرائیڈ اور آئی او ایس کے لیے اسلامی ایپ، سبز لوگو، نماز کے اوقات، قرآن اور انگیجمنٹ ڈیش بورڈ۔"
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "ویب ایپلیکیشن",
+        "desc": "ڈیجیٹل ایجنسی کے لیے مکمل پورٹ فولیو — ڈارک تھیم، سرخ ایکسنٹس، سروسز، پروجیکٹ گیلری، بلاگ اور رابطہ۔"
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "ہیلتھ کیئر",
+        "desc": "ڈاکٹر اور مریض پورٹل — اپائنٹمنٹس، نسخے، میڈیکل ریکارڈز۔ کلینکس کے لیے شیڈولنگ اور فالو اپ۔"
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "ٹیم ٹاسک مینجمنٹ — Kanban بورڈز، ڈیڈ لائنز، ریئل ٹائم sync۔ ریموٹ ٹیمز اور ایجنسیز کے لیے۔"
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "موبائل ایپلیکیشن",
+        "desc": "ریسٹورنٹ ڈسکوری، آن لائن آرڈر، اور لائیو ڈیلیوری ٹریکنگ۔ ریسٹورنٹ اور ڈرائیور ایپ۔"
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "ویب ایپلیکیشن",
+        "desc": "ایونٹ ٹکٹنگ اور وینو بکنگ — پے منٹ، attendee مینجمنٹ، QR چیک ان۔ کانفرنسز اور ورکشاپس۔"
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "سافٹ ویئر",
+        "desc": "محفوظ ڈاکومنٹ اسٹوریج — e-sign، ورژن ہسٹری، compliance۔ لیگل اور فائنینس ٹیمز کے لیے۔"
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "موبائل ایپلیکیشن",
+        "desc": "فٹنس اور ہیلتھ ٹریکنگ ایپ — ورک آؤٹ پلانز، پروگریس ڈیش بورڈز اور نیوٹریشن۔ اینڈرائیڈ اور آئی او ایس۔"
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "پروجیکٹ مینجمنٹ اور ورک فلو SaaS — ریئل ٹائم collaboration، ٹاسک بورڈز اور ٹیم انیلیٹکس۔"
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "گیم ڈویلپمنٹ",
+        "desc": "آرکیڈ سٹائل ریسنگ گیم — نیون ایسٹھیٹکس، smooth کنٹرولز اور لیڈر بورڈز۔ Unity پر بنائی۔"
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "ای کامرس",
+        "desc": "جدید ای کامرس پلیٹ فارم — پروڈکٹ کیٹلاگ، کارٹ، چیک آؤٹ اور وینڈر ڈیش بورڈ۔"
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "فن ٹیک",
+        "desc": "کاروبار کے لیے پے منٹ اور فائنینس ڈیش بورڈ — ٹرانزیکشنز، reconciliation اور رپورٹنگ۔"
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "ایڈ ٹیک",
+        "desc": "لرننگ مینجمنٹ پلیٹ فارم — کورسز، پروگریس ٹریکنگ، کوئزز اور سرٹیفکیٹس۔"
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "سافٹ ویئر اور IoT",
+        "desc": "IoT آپریشنز ڈیش بورڈ — assets مانیٹرنگ، الرٹس اور انیلیٹکس۔ سمارٹ فیسلیٹیز کے لیے۔"
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "ڈیجیٹل مارکیٹنگ",
+        "desc": "سوشل میڈیا اور کیمپین انیلیٹکس — انگیجمنٹ میٹرکس، کونٹینٹ شیڈولنگ اور ROI رپورٹنگ۔"
+      }
     },
-    "ctaHeading": "کیا آپ ہماری", "ctaHighlight": "اگلی کامیابی کی کہانی", "ctaSuffix": "بننا چاہتے ہیں؟", "ctaDesc": "آئیے آپ کے پروجیکٹ پر بات کریں اور مل کر کچھ غیر معمولی بنائیں۔", "ctaBtn": "پروجیکٹ شروع کریں"
+    "ctaHeading": "کیا آپ ہماری",
+    "ctaHighlight": "اگلی کامیابی کی کہانی",
+    "ctaSuffix": "بننا چاہتے ہیں؟",
+    "ctaDesc": "آئیے آپ کے پروجیکٹ پر بات کریں اور مل کر کچھ غیر معمولی بنائیں۔",
+    "ctaBtn": "پروجیکٹ شروع کریں"
   },
   "privacy": {
-    "tag": "قانونی", "heading": "رازداری", "headingHighlight": "کی پالیسی", "lastUpdated": "آخری اپ ڈیٹ: مارچ 2026",
-    "section1Title": "1. معلومات جو ہم جمع کرتے ہیں", "section1": "ہم وہ معلومات جمع کرتے ہیں جو آپ براہ راست فراہم کرتے ہیں، جیسے آپ کا نام، ای میل ایڈریس اور پروجیکٹ کی تفصیلات جب آپ ہم سے رابطہ کرتے ہیں یا ہماری خدمات استعمال کرتے ہیں۔",
-    "section2Title": "2. ہم آپ کی معلومات کیسے استعمال کرتے ہیں", "section2": "ہم جمع کردہ معلومات کو اپنی خدمات فراہم کرنے، برقرار رکھنے اور بہتر بنانے، آپ سے رابطے اور اپنے پلیٹ فارمز کی حفاظت کو یقینی بنانے کے لیے استعمال کرتے ہیں۔",
-    "section3Title": "3. معلومات کی شیئرنگ", "section3": "ہم آپ کی ذاتی معلومات تیسرے فریق کو نہیں بیچتے، تجارت نہیں کرتے اور نہ ہی کرایے پر دیتے ہیں۔",
-    "section4Title": "4. ڈیٹا سیکیورٹی", "section4": "ہم آپ کی ذاتی معلومات کی حفاظت کے لیے مناسب تکنیکی اور تنظیمی حفاظتی اقدامات نافذ کرتے ہیں۔",
-    "section5Title": "5. آپ کے حقوق", "section5": "آپ کو اپنی ذاتی معلومات تک رسائی، اصلاح یا حذف کرنے کا حق ہے۔ آپ کسی بھی وقت support@vebx.run پر رابطہ کرکے مارکیٹنگ مواصلات سے دستبردار ہو سکتے ہیں۔",
-    "section6Title": "6. ہم سے رابطہ کریں", "section6": "اگر آپ کو اس رازداری کی پالیسی کے بارے میں کوئی سوالات ہیں تو براہ کرم ہم سے رابطہ کریں:",
-    "email": "ای میل:", "address": "پتہ:"
+    "tag": "قانونی",
+    "heading": "رازداری",
+    "headingHighlight": "کی پالیسی",
+    "lastUpdated": "آخری اپ ڈیٹ: مارچ 2026",
+    "section1Title": "1. معلومات جو ہم جمع کرتے ہیں",
+    "section1": "ہم وہ معلومات جمع کرتے ہیں جو آپ براہ راست فراہم کرتے ہیں، جیسے آپ کا نام، ای میل ایڈریس اور پروجیکٹ کی تفصیلات جب آپ ہم سے رابطہ کرتے ہیں یا ہماری خدمات استعمال کرتے ہیں۔",
+    "section2Title": "2. ہم آپ کی معلومات کیسے استعمال کرتے ہیں",
+    "section2": "ہم جمع کردہ معلومات کو اپنی خدمات فراہم کرنے، برقرار رکھنے اور بہتر بنانے، آپ سے رابطے اور اپنے پلیٹ فارمز کی حفاظت کو یقینی بنانے کے لیے استعمال کرتے ہیں۔",
+    "section3Title": "3. معلومات کی شیئرنگ",
+    "section3": "ہم آپ کی ذاتی معلومات تیسرے فریق کو نہیں بیچتے، تجارت نہیں کرتے اور نہ ہی کرایے پر دیتے ہیں۔",
+    "section4Title": "4. ڈیٹا سیکیورٹی",
+    "section4": "ہم آپ کی ذاتی معلومات کی حفاظت کے لیے مناسب تکنیکی اور تنظیمی حفاظتی اقدامات نافذ کرتے ہیں۔",
+    "section5Title": "5. آپ کے حقوق",
+    "section5": "آپ کو اپنی ذاتی معلومات تک رسائی، اصلاح یا حذف کرنے کا حق ہے۔ آپ کسی بھی وقت support@vebx.run پر رابطہ کرکے مارکیٹنگ مواصلات سے دستبردار ہو سکتے ہیں۔",
+    "section6Title": "6. ہم سے رابطہ کریں",
+    "section6": "اگر آپ کو اس رازداری کی پالیسی کے بارے میں کوئی سوالات ہیں تو براہ کرم ہم سے رابطہ کریں:",
+    "email": "ای میل:",
+    "address": "پتہ:"
   },
-  "notFound": { "title": "404", "desc": "افسوس! صفحہ نہیں ملا", "back": "ہوم پر واپس جائیں" },
+  "notFound": {
+    "title": "404",
+    "desc": "افسوس! صفحہ نہیں ملا",
+    "back": "ہوم پر واپس جائیں"
+  },
   "services": {
-    "mobileApplication": "موبائل ایپلیکیشنز", "mobileApplicationShort": "صارفین کو مسحور کرنے والی مقامی اور کراس پلیٹ فارم ایپس",
-    "webCmsDevelopment": "ویب اور CMS ڈویلپمنٹ", "webCmsDevelopmentShort": "طاقتور کنٹینٹ مینجمنٹ حل",
-    "softwareDevelopment": "سافٹ ویئر ڈویلپمنٹ", "softwareDevelopmentShort": "آپ کی ضروریات کے مطابق حسب ضرورت سافٹ ویئر",
-    "corporateBranding": "کارپوریٹ برانڈنگ", "corporateBrandingShort": "جرات مندانہ اور منفرد برانڈ شناخت",
-    "onlineDigitalMarketing": "آن لائن ڈیجیٹل مارکیٹنگ", "onlineDigitalMarketingShort": "ترقی کے لیے ڈیٹا پر مبنی حکمت عملی",
-    "2d3dAnimation": "2D/3D اور اینیمیشن", "2d3dAnimationShort": "شاندار بصری جو آپ کی کہانی سناتے ہیں",
-    "3dRenderingServices": "3D رینڈرنگ سروسز", "3dRenderingServicesShort": "فوٹو ریئلسٹک 3D تصورات",
-    "metaverseDevelopment": "میٹاورس ڈویلپمنٹ", "metaverseDevelopmentShort": "اگلی نسل کی عمیق ڈیجیٹل دنیائیں",
-    "gameDevelopment": "گیم ڈویلپمنٹ", "gameDevelopmentShort": "تمام پلیٹ فارمز پر دلچسپ گیمز",
-    "extendedReality": "ایکسٹینڈڈ ریئلٹی", "extendedRealityShort": "تبدیل کن AR/VR/MR تجربات",
-    "socialMediaMarketing": "سوشل میڈیا مارکیٹنگ", "socialMediaMarketingShort": "اسٹریٹجک سوشل موجودگی اور مشغولیت"
+    "mobileApplication": "موبائل ایپلیکیشنز",
+    "mobileApplicationShort": "صارفین کو مسحور کرنے والی مقامی اور کراس پلیٹ فارم ایپس",
+    "webCmsDevelopment": "ویب اور CMS ڈویلپمنٹ",
+    "webCmsDevelopmentShort": "طاقتور کنٹینٹ مینجمنٹ حل",
+    "softwareDevelopment": "سافٹ ویئر ڈویلپمنٹ",
+    "softwareDevelopmentShort": "آپ کی ضروریات کے مطابق حسب ضرورت سافٹ ویئر",
+    "corporateBranding": "کارپوریٹ برانڈنگ",
+    "corporateBrandingShort": "جرات مندانہ اور منفرد برانڈ شناخت",
+    "onlineDigitalMarketing": "آن لائن ڈیجیٹل مارکیٹنگ",
+    "onlineDigitalMarketingShort": "ترقی کے لیے ڈیٹا پر مبنی حکمت عملی",
+    "2d3dAnimation": "2D/3D اور اینیمیشن",
+    "2d3dAnimationShort": "شاندار بصری جو آپ کی کہانی سناتے ہیں",
+    "3dRenderingServices": "3D رینڈرنگ سروسز",
+    "3dRenderingServicesShort": "فوٹو ریئلسٹک 3D تصورات",
+    "metaverseDevelopment": "میٹاورس ڈویلپمنٹ",
+    "metaverseDevelopmentShort": "اگلی نسل کی عمیق ڈیجیٹل دنیائیں",
+    "gameDevelopment": "گیم ڈویلپمنٹ",
+    "gameDevelopmentShort": "تمام پلیٹ فارمز پر دلچسپ گیمز",
+    "extendedReality": "ایکسٹینڈڈ ریئلٹی",
+    "extendedRealityShort": "تبدیل کن AR/VR/MR تجربات",
+    "socialMediaMarketing": "سوشل میڈیا مارکیٹنگ",
+    "socialMediaMarketingShort": "اسٹریٹجک سوشل موجودگی اور مشغولیت"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
   }
 }

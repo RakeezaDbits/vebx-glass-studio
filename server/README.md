@@ -56,3 +56,18 @@ Backend for form submissions, admin panel, and email notifications.
 
 - Vite proxy forwards `/api` to `http://localhost:3001` in development.
 - Admin panel: **/admin** (login at /admin/login).
+
+## Production (Nginx + Node)
+
+If the site shows **“Chat API not found (404)”**, the browser is not reaching the Node app on `/api/*`.
+
+1. Run the API (e.g. PM2): `cd server && NODE_ENV=production pm2 start index.js --name vebx-api`
+2. Check: `curl -s http://127.0.0.1:3001/api/health` → `{"ok":true}`
+3. Check: `curl -s -X POST http://127.0.0.1:3001/api/livechat/session -H "Content-Type: application/json" -d '{}'` → JSON with `token`
+4. In Nginx, **`location /api/` must come before** the SPA `try_files` rule, and use **`proxy_pass http://127.0.0.1:3001;` with no trailing slash** on the URL. A trailing slash on `proxy_pass` strips `/api` and breaks Express routes (404). See **`nginx.example.conf`** in this folder.
+
+Public URL test (after Nginx reload):
+
+`curl -s -X POST https://your-domain.com/api/livechat/session -H "Content-Type: application/json" -d '{}'`
+
+Do **not** set `VITE_API_URL` if the API is on the same domain as the site (same-origin `/api` is correct). Rebuild only if you change env: `VITE_API_URL=https://other-host npm run build`.

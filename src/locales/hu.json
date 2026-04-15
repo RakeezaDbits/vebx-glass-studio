@@ -1,20 +1,543 @@
 {
-  "nav": { "home": "Főoldal", "about": "Rólunk", "services": "Szolgáltatások", "pricing": "Árak", "ourWork": "Portfólió", "expertise": "Szaktudás", "contactUs": "Kapcsolat" },
-  "hero": { "tagline": "Képzelj el. Újíts. Inspirálj.", "headline1": "Építünk", "headline2": "Digitális", "headline3": "Élményeket amelyek", "headline4": "Számítanak", "subtext": "Mobilalkalmazásoktól a metaverzumig, megoldásokat alkotunk.", "getStarted": "Kezdjük", "viewOurWork": "Munkáink", "stats": { "projects": "Leszállított projekt", "clients": "Elégedett ügyfél", "years": "Év tapasztalat" } },
-  "about": { "tag": "Rólunk", "heading": "Digitális", "headingHighlight": "Kiválóság", "headingSuffix": "az első naptól", "desc": "A vebxrun-nál digitális építészek vagyunk.", "heroDesc": "Kreatív látomás és technikai szakértelem.", "features": { "innovationTitle": "Innováció", "innovationDesc": "Csúcstechnológia", "secureTitle": "Megbízható", "secureDesc": "Vállalati biztonság", "teamTitle": "Szakértő csapat", "teamDesc": "Tapasztalt fejlesztők", "resultsTitle": "Eredményközpontú", "resultsDesc": "Mérhető eredmények" }, "fromStartups": "Startupoktól", "enterprises": "nagyvállalatokig", "fromStartupsDesc1": "Globális digitális ügynökséggé nőttünk.", "fromStartupsDesc2": "Mobil, web, metaverzum, játékok és több.", "valuesTag": "Értékeink", "valuesHeading": "Mi", "valuesHighlight": "hajt", "valuesSuffix": "minket", "values": { "creativeTitle": "Kreatív gondolkodás", "creativeDesc": "Friss perspektíva.", "qualityTitle": "Minőség", "qualityDesc": "Legmagasabb színvonal.", "globalTitle": "Globális elérés", "globalDesc": "Ügyfelek szerte a világon.", "clientTitle": "Ügyfélfókusz", "clientDesc": "Az Ön sikere a mi sikerünk." }, "stats": { "projects": "Projekt", "clients": "Ügyfél", "years": "Év tapasztalat", "team": "Csapattag" } },
-  "cta": { "heading": "Készen áll", "headingHighlight": "átalakítani", "headingSuffix": "vállalkozását?", "desc": "Alkossunk valami rendkívülit.", "button": "Projekt indítása" },
-  "whyChoose": { "tag": "Miért vebxrun", "heading": "Miért", "headingHighlight": "válasszon minket", "desc": "Technikai kiválóság.", "reasons": { "innovationTitle": "Innováció", "innovationDesc": "Vezető technológia.", "deliveryTitle": "Megbízható szállítás", "deliveryDesc": "Időben és költségvetésen belül.", "teamTitle": "Szakértő csapat", "teamDesc": "Szenvedélyes fejlesztők.", "resultsTitle": "Valós eredmények", "resultsDesc": "Növekedési mutatók." } },
-  "howWeWork": { "tag": "Folyamatunk", "heading": "Hogyan", "headingHighlight": "dolgozunk", "desc": "Átlátható folyamat.", "steps": { "discoverTitle": "Felfedezés", "discoverDesc": "Megértjük a víziót.", "designTitle": "Tervezés", "designDesc": "UX/UI és architektúra.", "developTitle": "Fejlesztés", "developDesc": "Minőségi kód.", "deliverTitle": "Szállítás", "deliverDesc": "Indítás és támogatás." }, "startProject": "Projekt indítása" },
-  "trusted": { "tag": "Megbízható", "items": { "mobileWeb": "Mobil & Web", "metaverseXR": "Metaverzum & XR", "enterpriseSaaS": "Enterprise SaaS", "startupsToFortune": "Startuptól Fortune 500-ig" } },
-  "servicesSection": { "tag": "Szolgáltatásaink", "heading": "Szolgáltatá", "headingHighlight": "saink", "desc": "Teljes digitális megoldások" },
-  "footer": { "quickLinks": "Gyors linkek", "linkServices": "Szolgáltatások", "linkPricing": "Árak", "linkContactUs": "Kapcsolat", "linkOurWork": "Portfólió", "linkExpertise": "Szaktudás", "linkAbout": "Rólunk", "linkPrivacyPolicy": "Adatvédelem", "services": "Szolgáltatások", "letsWork": "Dolgozzunk együtt", "letsWorkDesc": "Vegye fel velünk a kapcsolatot.", "getInTouch": "Kapcsolat", "copyright": "Szerzői jog 2024–2026", "vebexRun": "Vebex Run", "stayInLoop": "Maradjon naprakész", "stayInLoopDesc": "Digitális innovációs hírek.", "subscribe": "Feliratkozás", "latestInsights": "Legújabb cikkek", "readMore": "Tovább olvasom", "brandDesc": "Képzelj el. Újíts. Inspirálj.", "insights": { "title1": "Metaverzum a következő ugrás", "excerpt1": "Immerzív technológia.", "title2": "Alkalmazások amiket a felhasználók szeretnek", "excerpt2": "Tervezési elvek.", "title3": "Digitális átalakulás", "excerpt3": "Segítünk innoválni." } },
-  "common": { "vebexRun": "Vebex Run", "explore": "Felfedezés" },
-  "servicesPage": { "whatWeDo": "Mit csinálunk", "ourServices": "Szolgáltatásaink", "ourServicesHighlight": "Szolgáltatások", "subtitle": "Teljes megoldások.", "customSolution": "Egyedi megoldásra van szüksége?", "customSolutionDesc": "Igény szerint építünk.", "getInTouch": "Kapcsolat" },
-  "pricing": { "tag": "Árak", "heading": "Átlátható", "headingHighlight": "árazás", "desc": "Válasszon szolgáltatást és csomagot.", "chooseService": "Válasszon", "starter": "Starter", "starterDesc": "Kezdéshez", "professional": "Professional", "professionalDesc": "Növekedéshez", "enterprise": "Enterprise", "enterpriseDesc": "Nagy projektek", "mostPopular": "Legnépszerűbb", "perProject": "/projekt", "getStarted": "Kezdjük", "features": { "coreScope": "Alaphatókör", "responsive": "Reszponzív design", "basicSupport": "Alaptámogatás", "2revisions": "2 kör javítás", "1monthSupport": "1 hónap támogatás", "fullScope": "Teljes hatókör + UI/UX", "advancedFeatures": "Fejlett funkciók", "apiIntegrations": "API integrációk", "5revisions": "5 kör javítás", "3monthsSupport": "3 hónap támogatás", "perfOptimization": "Teljesítményoptimalizálás", "fullStack": "Full-stack egyedi", "dedicatedPM": "Dedikált PM", "unlimitedRevisions": "Korlátlan javítás", "12monthsSupport": "12 hónap támogatás", "cicd": "CI/CD & DevOps", "sla": "SLA garancia" } },
-  "contact": { "tag": "Kapcsolat", "heading": "Beszéljünk", "headingHighlight": "", "desc": "Válasz 24 órán belül.", "sendMessage": "Üzenet küldése", "yourName": "Név", "yourEmail": "E-mail", "subject": "Tárgy", "tellUs": "Meséljen a projektről...", "sendBtn": "Küldés", "emailUs": "E-mail", "visitUs": "Látogasson meg", "businessHours": "Nyitvatartás", "monFri": "Hétfő – Péntek", "saturday": "Szombat", "sunday": "Vasárnap", "closed": "Zárva" },
-  "expertise": { "tag": "Szaktudás", "heading": "Technológiai", "headingHighlight": "eszköztárunk", "headingSuffix": "", "desc": "Fontos eszközök mesterei.", "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Mobil", "cloudDevops": "Felhő & DevOps", "gameXR": "Játék & XR", "dataAI": "Adat & AI" }, "industriesTag": "Iparágak", "industriesHeading": "Iparágak amiket", "industriesHighlight": "kiszolgálunk", "industries": { "healthcare": "Egészségügy", "fintech": "FinTech", "ecommerce": "E-kereskedelem", "education": "Oktatás", "realEstate": "Ingatlan", "entertainment": "Szórakoztatás", "automotive": "Autóipar", "logistics": "Logisztika" }, "ctaHeading": "Építsünk valami", "ctaHighlight": "csodálatosat", "ctaDesc": "Csapatunk készen áll.", "ctaBtn": "Kapcsolat" },
-  "ourWork": { "tag": "Portfólió", "heading": "Munkáink", "headingHighlight": "", "desc": "Iparágakon átívelő szakértelem.", "projects": { "fintech": { "title": "FinTech Dashboard", "category": "Webalkalmazás", "desc": "AI pénzügyi elemzés." }, "medconnect": { "title": "MedConnect", "category": "Mobilalkalmazás", "desc": "Telemedicina platform." }, "virtuworld": { "title": "VirtuWorld", "category": "Metaverzum", "desc": "3D virtuális bemutatóterem." }, "greengrow": { "title": "GreenGrow", "category": "Szoftver", "desc": "Okos mezőgazdaság." }, "pixelforge": { "title": "PixelForge", "category": "Játék", "desc": "Cross-platform RPG." }, "brandsphere": { "title": "BrandSphere", "category": "Márkaépítés", "desc": "Vállalati újramárkázás." } }, "ctaHeading": "Legyen a következő", "ctaHighlight": "sikertörténetünk", "ctaSuffix": "?", "ctaDesc": "Alkossunk együtt.", "ctaBtn": "Projekt indítása" },
-  "privacy": { "tag": "Jogi", "heading": "Adatvédelmi", "headingHighlight": "irányelvek", "lastUpdated": "Frissítve: 2026. március", "section1Title": "1. Gyűjtött információk", "section1": "Az Ön által megadott adatokat gyűjtjük.", "section2Title": "2. Felhasználás", "section2": "Szolgáltatások nyújtásához.", "section3Title": "3. Megosztás", "section3": "Nem adjuk el a személyes adatokat.", "section4Title": "4. Biztonság", "section4": "Megfelelő biztonsági intézkedések.", "section5Title": "5. Jogai", "section5": "Hozzáférés, javítás vagy törlés.", "section6Title": "6. Kapcsolat", "section6": "Kérdések:", "email": "E-mail:", "address": "Cím:" },
-  "notFound": { "title": "404", "desc": "Az oldal nem található", "back": "Vissza a főoldalra" },
-  "services": { "mobileApplication": "Mobilalkalmazások", "mobileApplicationShort": "Natív és cross-platform", "webCmsDevelopment": "Web CMS", "webCmsDevelopmentShort": "Tartalomkezelés", "softwareDevelopment": "Szoftverfejlesztés", "softwareDevelopmentShort": "Egyedi szoftver", "corporateBranding": "Vállalati márkaépítés", "corporateBrandingShort": "Márkaidentitás", "onlineDigitalMarketing": "Digitális marketing", "onlineDigitalMarketingShort": "Adatvezérelt növekedés", "2d3dAnimation": "2D/3D Animáció", "2d3dAnimationShort": "Lenyűgöző vizuálok", "3dRenderingServices": "3D Renderelés", "3dRenderingServicesShort": "Fotorealisztikus 3D", "metaverseDevelopment": "Metaverzum", "metaverseDevelopmentShort": "Új generációs digitális világ", "gameDevelopment": "Játékfejlesztés", "gameDevelopmentShort": "Játékok minden platformon", "extendedReality": "Kiterjesztett valóság", "extendedRealityShort": "AR/VR/MR", "socialMediaMarketing": "Közösségi média", "socialMediaMarketingShort": "Stratégiai jelenlét" }
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "services": "Szolgáltatások",
+    "pricing": "Árak",
+    "ourWork": "Portfólió",
+    "expertise": "Szaktudás",
+    "contactUs": "Kapcsolat",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
+  },
+  "hero": {
+    "tagline": "Képzelj el. Újíts. Inspirálj.",
+    "headline1": "Építünk",
+    "headline2": "Digitális",
+    "headline3": "Élményeket amelyek",
+    "headline4": "Számítanak",
+    "subtext": "Mobilalkalmazásoktól a metaverzumig, megoldásokat alkotunk.",
+    "getStarted": "Kezdjük",
+    "viewOurWork": "Munkáink",
+    "stats": {
+      "projects": "Leszállított projekt",
+      "clients": "Elégedett ügyfél",
+      "years": "Év tapasztalat"
+    }
+  },
+  "about": {
+    "tag": "Rólunk",
+    "heading": "Digitális",
+    "headingHighlight": "Kiválóság",
+    "headingSuffix": "az első naptól",
+    "desc": "A vebxrun-nál digitális építészek vagyunk.",
+    "heroDesc": "Kreatív látomás és technikai szakértelem.",
+    "features": {
+      "innovationTitle": "Innováció",
+      "innovationDesc": "Csúcstechnológia",
+      "secureTitle": "Megbízható",
+      "secureDesc": "Vállalati biztonság",
+      "teamTitle": "Szakértő csapat",
+      "teamDesc": "Tapasztalt fejlesztők",
+      "resultsTitle": "Eredményközpontú",
+      "resultsDesc": "Mérhető eredmények"
+    },
+    "fromStartups": "Startupoktól",
+    "enterprises": "nagyvállalatokig",
+    "fromStartupsDesc1": "Globális digitális ügynökséggé nőttünk.",
+    "fromStartupsDesc2": "Mobil, web, metaverzum, játékok és több.",
+    "valuesTag": "Értékeink",
+    "valuesHeading": "Mi",
+    "valuesHighlight": "hajt",
+    "valuesSuffix": "minket",
+    "values": {
+      "creativeTitle": "Kreatív gondolkodás",
+      "creativeDesc": "Friss perspektíva.",
+      "qualityTitle": "Minőség",
+      "qualityDesc": "Legmagasabb színvonal.",
+      "globalTitle": "Globális elérés",
+      "globalDesc": "Ügyfelek szerte a világon.",
+      "clientTitle": "Ügyfélfókusz",
+      "clientDesc": "Az Ön sikere a mi sikerünk."
+    },
+    "stats": {
+      "projects": "Projekt",
+      "clients": "Ügyfél",
+      "years": "Év tapasztalat",
+      "team": "Csapattag"
+    }
+  },
+  "cta": {
+    "heading": "Készen áll",
+    "headingHighlight": "átalakítani",
+    "headingSuffix": "vállalkozását?",
+    "desc": "Alkossunk valami rendkívülit.",
+    "button": "Projekt indítása"
+  },
+  "whyChoose": {
+    "tag": "Miért vebxrun",
+    "heading": "Miért",
+    "headingHighlight": "válasszon minket",
+    "desc": "Technikai kiválóság.",
+    "reasons": {
+      "innovationTitle": "Innováció",
+      "innovationDesc": "Vezető technológia.",
+      "deliveryTitle": "Megbízható szállítás",
+      "deliveryDesc": "Időben és költségvetésen belül.",
+      "teamTitle": "Szakértő csapat",
+      "teamDesc": "Szenvedélyes fejlesztők.",
+      "resultsTitle": "Valós eredmények",
+      "resultsDesc": "Növekedési mutatók."
+    }
+  },
+  "howWeWork": {
+    "tag": "Folyamatunk",
+    "heading": "Hogyan",
+    "headingHighlight": "dolgozunk",
+    "desc": "Átlátható folyamat.",
+    "steps": {
+      "discoverTitle": "Felfedezés",
+      "discoverDesc": "Megértjük a víziót.",
+      "designTitle": "Tervezés",
+      "designDesc": "UX/UI és architektúra.",
+      "developTitle": "Fejlesztés",
+      "developDesc": "Minőségi kód.",
+      "deliverTitle": "Szállítás",
+      "deliverDesc": "Indítás és támogatás."
+    },
+    "startProject": "Projekt indítása"
+  },
+  "trusted": {
+    "tag": "Megbízható",
+    "items": {
+      "mobileWeb": "Mobil & Web",
+      "metaverseXR": "Metaverzum & XR",
+      "enterpriseSaaS": "Enterprise SaaS",
+      "startupsToFortune": "Startuptól Fortune 500-ig"
+    }
+  },
+  "servicesSection": {
+    "tag": "Szolgáltatásaink",
+    "heading": "Szolgáltatá",
+    "headingHighlight": "saink",
+    "desc": "Teljes digitális megoldások"
+  },
+  "footer": {
+    "quickLinks": "Gyors linkek",
+    "linkServices": "Szolgáltatások",
+    "linkPricing": "Árak",
+    "linkContactUs": "Kapcsolat",
+    "linkOurWork": "Portfólió",
+    "linkExpertise": "Szaktudás",
+    "linkAbout": "Rólunk",
+    "linkPrivacyPolicy": "Adatvédelem",
+    "services": "Szolgáltatások",
+    "letsWork": "Dolgozzunk együtt",
+    "letsWorkDesc": "Vegye fel velünk a kapcsolatot.",
+    "getInTouch": "Kapcsolat",
+    "copyright": "Szerzői jog 2024–2026",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Maradjon naprakész",
+    "stayInLoopDesc": "Digitális innovációs hírek.",
+    "subscribe": "Feliratkozás",
+    "latestInsights": "Legújabb cikkek",
+    "readMore": "Tovább olvasom",
+    "brandDesc": "Képzelj el. Újíts. Inspirálj.",
+    "insights": {
+      "title1": "Metaverzum a következő ugrás",
+      "excerpt1": "Immerzív technológia.",
+      "title2": "Alkalmazások amiket a felhasználók szeretnek",
+      "excerpt2": "Tervezési elvek.",
+      "title3": "Digitális átalakulás",
+      "excerpt3": "Segítünk innoválni."
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
+  },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "Felfedezés"
+  },
+  "servicesPage": {
+    "whatWeDo": "Mit csinálunk",
+    "ourServices": "Szolgáltatásaink",
+    "ourServicesHighlight": "Szolgáltatások",
+    "subtitle": "Teljes megoldások.",
+    "customSolution": "Egyedi megoldásra van szüksége?",
+    "customSolutionDesc": "Igény szerint építünk.",
+    "getInTouch": "Kapcsolat"
+  },
+  "pricing": {
+    "tag": "Árak",
+    "heading": "Átlátható",
+    "headingHighlight": "árazás",
+    "desc": "Válasszon szolgáltatást és csomagot.",
+    "chooseService": "Válasszon",
+    "starter": "Starter",
+    "starterDesc": "Kezdéshez",
+    "professional": "Professional",
+    "professionalDesc": "Növekedéshez",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "Nagy projektek",
+    "mostPopular": "Legnépszerűbb",
+    "perProject": "/projekt",
+    "getStarted": "Kezdjük",
+    "features": {
+      "coreScope": "Alaphatókör",
+      "responsive": "Reszponzív design",
+      "basicSupport": "Alaptámogatás",
+      "2revisions": "2 kör javítás",
+      "1monthSupport": "1 hónap támogatás",
+      "fullScope": "Teljes hatókör + UI/UX",
+      "advancedFeatures": "Fejlett funkciók",
+      "apiIntegrations": "API integrációk",
+      "5revisions": "5 kör javítás",
+      "3monthsSupport": "3 hónap támogatás",
+      "perfOptimization": "Teljesítményoptimalizálás",
+      "fullStack": "Full-stack egyedi",
+      "dedicatedPM": "Dedikált PM",
+      "unlimitedRevisions": "Korlátlan javítás",
+      "12monthsSupport": "12 hónap támogatás",
+      "cicd": "CI/CD & DevOps",
+      "sla": "SLA garancia"
+    }
+  },
+  "contact": {
+    "tag": "Kapcsolat",
+    "heading": "Beszéljünk",
+    "headingHighlight": "",
+    "desc": "Válasz 24 órán belül.",
+    "sendMessage": "Üzenet küldése",
+    "yourName": "Név",
+    "yourEmail": "E-mail",
+    "subject": "Tárgy",
+    "tellUs": "Meséljen a projektről...",
+    "sendBtn": "Küldés",
+    "emailUs": "E-mail",
+    "visitUs": "Látogasson meg",
+    "businessHours": "Nyitvatartás",
+    "monFri": "Hétfő – Péntek",
+    "saturday": "Szombat",
+    "sunday": "Vasárnap",
+    "closed": "Zárva",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
+  },
+  "expertise": {
+    "tag": "Szaktudás",
+    "heading": "Technológiai",
+    "headingHighlight": "eszköztárunk",
+    "headingSuffix": "",
+    "desc": "Fontos eszközök mesterei.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobil",
+      "cloudDevops": "Felhő & DevOps",
+      "gameXR": "Játék & XR",
+      "dataAI": "Adat & AI"
+    },
+    "industriesTag": "Iparágak",
+    "industriesHeading": "Iparágak amiket",
+    "industriesHighlight": "kiszolgálunk",
+    "industries": {
+      "healthcare": "Egészségügy",
+      "fintech": "FinTech",
+      "ecommerce": "E-kereskedelem",
+      "education": "Oktatás",
+      "realEstate": "Ingatlan",
+      "entertainment": "Szórakoztatás",
+      "automotive": "Autóipar",
+      "logistics": "Logisztika"
+    },
+    "ctaHeading": "Építsünk valami",
+    "ctaHighlight": "csodálatosat",
+    "ctaDesc": "Csapatunk készen áll.",
+    "ctaBtn": "Kapcsolat"
+  },
+  "ourWork": {
+    "tag": "Portfólió",
+    "heading": "Munkáink",
+    "headingHighlight": "",
+    "desc": "Iparágakon átívelő szakértelem.",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Dashboard",
+        "category": "Webalkalmazás",
+        "desc": "AI pénzügyi elemzés."
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "Mobilalkalmazás",
+        "desc": "Telemedicina platform."
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "Metaverzum",
+        "desc": "3D virtuális bemutatóterem."
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "Szoftver",
+        "desc": "Okos mezőgazdaság."
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "Játék",
+        "desc": "Cross-platform RPG."
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "Márkaépítés",
+        "desc": "Vállalati újramárkázás."
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
+    },
+    "ctaHeading": "Legyen a következő",
+    "ctaHighlight": "sikertörténetünk",
+    "ctaSuffix": "?",
+    "ctaDesc": "Alkossunk együtt.",
+    "ctaBtn": "Projekt indítása"
+  },
+  "privacy": {
+    "tag": "Jogi",
+    "heading": "Adatvédelmi",
+    "headingHighlight": "irányelvek",
+    "lastUpdated": "Frissítve: 2026. március",
+    "section1Title": "1. Gyűjtött információk",
+    "section1": "Az Ön által megadott adatokat gyűjtjük.",
+    "section2Title": "2. Felhasználás",
+    "section2": "Szolgáltatások nyújtásához.",
+    "section3Title": "3. Megosztás",
+    "section3": "Nem adjuk el a személyes adatokat.",
+    "section4Title": "4. Biztonság",
+    "section4": "Megfelelő biztonsági intézkedések.",
+    "section5Title": "5. Jogai",
+    "section5": "Hozzáférés, javítás vagy törlés.",
+    "section6Title": "6. Kapcsolat",
+    "section6": "Kérdések:",
+    "email": "E-mail:",
+    "address": "Cím:"
+  },
+  "notFound": {
+    "title": "404",
+    "desc": "Az oldal nem található",
+    "back": "Vissza a főoldalra"
+  },
+  "services": {
+    "mobileApplication": "Mobilalkalmazások",
+    "mobileApplicationShort": "Natív és cross-platform",
+    "webCmsDevelopment": "Web CMS",
+    "webCmsDevelopmentShort": "Tartalomkezelés",
+    "softwareDevelopment": "Szoftverfejlesztés",
+    "softwareDevelopmentShort": "Egyedi szoftver",
+    "corporateBranding": "Vállalati márkaépítés",
+    "corporateBrandingShort": "Márkaidentitás",
+    "onlineDigitalMarketing": "Digitális marketing",
+    "onlineDigitalMarketingShort": "Adatvezérelt növekedés",
+    "2d3dAnimation": "2D/3D Animáció",
+    "2d3dAnimationShort": "Lenyűgöző vizuálok",
+    "3dRenderingServices": "3D Renderelés",
+    "3dRenderingServicesShort": "Fotorealisztikus 3D",
+    "metaverseDevelopment": "Metaverzum",
+    "metaverseDevelopmentShort": "Új generációs digitális világ",
+    "gameDevelopment": "Játékfejlesztés",
+    "gameDevelopmentShort": "Játékok minden platformon",
+    "extendedReality": "Kiterjesztett valóság",
+    "extendedRealityShort": "AR/VR/MR",
+    "socialMediaMarketing": "Közösségi média",
+    "socialMediaMarketingShort": "Stratégiai jelenlét"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
+  }
 }

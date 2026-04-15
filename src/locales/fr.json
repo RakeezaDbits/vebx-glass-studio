@@ -1,5 +1,17 @@
 {
-  "nav": { "home": "Accueil", "about": "À propos", "services": "Services", "pricing": "Tarifs", "ourWork": "Nos réalisations", "expertise": "Expertise", "contactUs": "Contactez-nous" },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "ourWork": "Nos réalisations",
+    "expertise": "Expertise",
+    "contactUs": "Contactez-nous",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
+  },
   "hero": {
     "tagline": "Imaginez. Innovez. Inspirez.",
     "headline1": "Nous créons",
@@ -9,7 +21,11 @@
     "subtext": "Des applications mobiles au développement du métavers, nous concevons des solutions avant-gardistes qui transforment les idées en réalité. Votre vision, notre savoir-faire.",
     "getStarted": "Commencer",
     "viewOurWork": "Voir nos réalisations",
-    "stats": { "projects": "Projets livrés", "clients": "Clients satisfaits", "years": "Années d'expérience" }
+    "stats": {
+      "projects": "Projets livrés",
+      "clients": "Clients satisfaits",
+      "years": "Années d'expérience"
+    }
   },
   "about": {
     "tag": "À propos",
@@ -46,9 +62,20 @@
       "clientTitle": "Centré sur le client",
       "clientDesc": "Votre succès est le nôtre. Nous construisons des partenariats durables fondés sur la confiance, la transparence et des objectifs partagés."
     },
-    "stats": { "projects": "Projets livrés", "clients": "Clients satisfaits", "years": "Années d'expérience", "team": "Membres de l'équipe" }
+    "stats": {
+      "projects": "Projets livrés",
+      "clients": "Clients satisfaits",
+      "years": "Années d'expérience",
+      "team": "Membres de l'équipe"
+    }
   },
-  "cta": { "heading": "Prêt à", "headingHighlight": "transformer", "headingSuffix": "votre entreprise ?", "desc": "Construisons quelque chose d'extraordinaire ensemble. Votre prochaine grande idée commence ici.", "button": "Lancez votre projet" },
+  "cta": {
+    "heading": "Prêt à",
+    "headingHighlight": "transformer",
+    "headingSuffix": "votre entreprise ?",
+    "desc": "Construisons quelque chose d'extraordinaire ensemble. Votre prochaine grande idée commence ici.",
+    "button": "Lancez votre projet"
+  },
   "whyChoose": {
     "tag": "Pourquoi vebxrun",
     "heading": "Pourquoi nous",
@@ -82,14 +109,41 @@
     },
     "startProject": "Lancez votre projet"
   },
-  "trusted": { "tag": "Fiable pour", "items": { "mobileWeb": "Mobile et Web", "metaverseXR": "Métavers et XR", "enterpriseSaaS": "SaaS Entreprise", "startupsToFortune": "Des startups au Fortune 500" } },
-  "servicesSection": { "tag": "Ce que nous faisons", "heading": "Nos", "headingHighlight": "services", "desc": "Des solutions digitales complètes conçues pour propulser votre entreprise" },
+  "trusted": {
+    "tag": "Fiable pour",
+    "items": {
+      "mobileWeb": "Mobile et Web",
+      "metaverseXR": "Métavers et XR",
+      "enterpriseSaaS": "SaaS Entreprise",
+      "startupsToFortune": "Des startups au Fortune 500"
+    }
+  },
+  "servicesSection": {
+    "tag": "Ce que nous faisons",
+    "heading": "Nos",
+    "headingHighlight": "services",
+    "desc": "Des solutions digitales complètes conçues pour propulser votre entreprise"
+  },
   "footer": {
-    "quickLinks": "Liens rapides", "linkServices": "Services", "linkPricing": "Tarifs", "linkContactUs": "Contactez-nous", "linkOurWork": "Nos réalisations", "linkExpertise": "Expertise", "linkAbout": "À propos", "linkPrivacyPolicy": "Politique de confidentialité",
-    "services": "Services", "letsWork": "Travaillons ensemble", "letsWorkDesc": "Prêt à donner vie à votre vision ? Contactez-nous et créons quelque chose d'extraordinaire.", "getInTouch": "Nous contacter",
-    "copyright": "Droits réservés 2024–2026 par", "vebexRun": "Vebex Run",
-    "stayInLoop": "Restez informé", "stayInLoopDesc": "Recevez des analyses et actualités sur l'innovation numérique.", "subscribe": "S'abonner",
-    "latestInsights": "Dernières actualités", "readMore": "En savoir plus",
+    "quickLinks": "Liens rapides",
+    "linkServices": "Services",
+    "linkPricing": "Tarifs",
+    "linkContactUs": "Contactez-nous",
+    "linkOurWork": "Nos réalisations",
+    "linkExpertise": "Expertise",
+    "linkAbout": "À propos",
+    "linkPrivacyPolicy": "Politique de confidentialité",
+    "services": "Services",
+    "letsWork": "Travaillons ensemble",
+    "letsWorkDesc": "Prêt à donner vie à votre vision ? Contactez-nous et créons quelque chose d'extraordinaire.",
+    "getInTouch": "Nous contacter",
+    "copyright": "Droits réservés 2024–2026 par",
+    "vebexRun": "Vebex Run",
+    "stayInLoop": "Restez informé",
+    "stayInLoopDesc": "Recevez des analyses et actualités sur l'innovation numérique.",
+    "subscribe": "S'abonner",
+    "latestInsights": "Dernières actualités",
+    "readMore": "En savoir plus",
     "brandDesc": "Imaginez. Innovez. Inspirez. Nous construisons des expériences digitales qui transforment les entreprises.",
     "insights": {
       "title1": "Pourquoi le développement du métavers est le prochain grand bond",
@@ -98,67 +152,392 @@
       "excerpt2": "Principes de design et développement qui stimulent l'engagement.",
       "title3": "Transformation digitale qui stimule la croissance",
       "excerpt3": "Comment nous aidons les entreprises à innover et à se développer grâce à la technologie."
-    }
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
   },
-  "common": { "vebexRun": "Vebex Run", "explore": "Explorer" },
-  "servicesPage": { "whatWeDo": "Ce que nous faisons", "ourServices": "Nos services", "ourServicesHighlight": "Services", "subtitle": "Des solutions digitales complètes conçues pour propulser votre entreprise. De la conception au déploiement, nous gérons tout.", "customSolution": "Besoin d'une solution sur mesure ?", "customSolutionDesc": "Vous ne trouvez pas exactement ce que vous cherchez ? Nous développons des solutions digitales personnalisées selon vos besoins.", "getInTouch": "Nous contacter" },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "Explorer"
+  },
+  "servicesPage": {
+    "whatWeDo": "Ce que nous faisons",
+    "ourServices": "Nos services",
+    "ourServicesHighlight": "Services",
+    "subtitle": "Des solutions digitales complètes conçues pour propulser votre entreprise. De la conception au déploiement, nous gérons tout.",
+    "customSolution": "Besoin d'une solution sur mesure ?",
+    "customSolutionDesc": "Vous ne trouvez pas exactement ce que vous cherchez ? Nous développons des solutions digitales personnalisées selon vos besoins.",
+    "getInTouch": "Nous contacter"
+  },
   "pricing": {
-    "tag": "Tarifs", "heading": "Tarifs", "headingHighlight": "transparents",
+    "tag": "Tarifs",
+    "heading": "Tarifs",
+    "headingHighlight": "transparents",
     "desc": "Sélectionnez un service puis choisissez le plan adapté. Contactez-nous pour un devis détaillé.",
     "chooseService": "Choisissez un service",
-    "starter": "Démarrage", "starterDesc": "Parfait pour commencer",
-    "professional": "Professionnel", "professionalDesc": "Idéal pour les besoins croissants",
-    "enterprise": "Entreprise", "enterpriseDesc": "Pour les projets d'envergure",
-    "mostPopular": "Le plus populaire", "perProject": "/ projet", "getStarted": "Commencer",
+    "starter": "Démarrage",
+    "starterDesc": "Parfait pour commencer",
+    "professional": "Professionnel",
+    "professionalDesc": "Idéal pour les besoins croissants",
+    "enterprise": "Entreprise",
+    "enterpriseDesc": "Pour les projets d'envergure",
+    "mostPopular": "Le plus populaire",
+    "perProject": "/ projet",
+    "getStarted": "Commencer",
     "features": {
-      "coreScope": "Périmètre principal livré", "responsive": "Design responsive", "basicSupport": "Support de base", "2revisions": "2 cycles de révision", "1monthSupport": "1 mois de support",
-      "fullScope": "Périmètre complet et UI/UX sur mesure", "advancedFeatures": "Fonctionnalités avancées", "apiIntegrations": "Intégrations API", "5revisions": "5 cycles de révision", "3monthsSupport": "3 mois de support", "perfOptimization": "Optimisation des performances",
-      "fullStack": "Développement full-stack sur mesure", "dedicatedPM": "Chef de projet dédié", "unlimitedRevisions": "Révisions illimitées", "12monthsSupport": "12 mois de support", "cicd": "CI/CD et DevOps", "sla": "Garantie SLA"
+      "coreScope": "Périmètre principal livré",
+      "responsive": "Design responsive",
+      "basicSupport": "Support de base",
+      "2revisions": "2 cycles de révision",
+      "1monthSupport": "1 mois de support",
+      "fullScope": "Périmètre complet et UI/UX sur mesure",
+      "advancedFeatures": "Fonctionnalités avancées",
+      "apiIntegrations": "Intégrations API",
+      "5revisions": "5 cycles de révision",
+      "3monthsSupport": "3 mois de support",
+      "perfOptimization": "Optimisation des performances",
+      "fullStack": "Développement full-stack sur mesure",
+      "dedicatedPM": "Chef de projet dédié",
+      "unlimitedRevisions": "Révisions illimitées",
+      "12monthsSupport": "12 mois de support",
+      "cicd": "CI/CD et DevOps",
+      "sla": "Garantie SLA"
     }
   },
-  "contact": { "tag": "Contactez-nous", "heading": "Discutons", "headingHighlight": "ensemble", "desc": "Vous avez un projet en tête ? Nous serions ravis d'en discuter. Envoyez-nous un message et nous vous répondrons sous 24 heures.", "sendMessage": "Envoyer un message", "yourName": "Votre nom", "yourEmail": "Votre e-mail", "subject": "Sujet", "tellUs": "Parlez-nous de votre projet...", "sendBtn": "Envoyer", "emailUs": "Écrivez-nous", "visitUs": "Rendez-nous visite", "businessHours": "Heures d'ouverture", "monFri": "Lundi – Vendredi", "saturday": "Samedi", "sunday": "Dimanche", "closed": "Fermé" },
+  "contact": {
+    "tag": "Contactez-nous",
+    "heading": "Discutons",
+    "headingHighlight": "ensemble",
+    "desc": "Vous avez un projet en tête ? Nous serions ravis d'en discuter. Envoyez-nous un message et nous vous répondrons sous 24 heures.",
+    "sendMessage": "Envoyer un message",
+    "yourName": "Votre nom",
+    "yourEmail": "Votre e-mail",
+    "subject": "Sujet",
+    "tellUs": "Parlez-nous de votre projet...",
+    "sendBtn": "Envoyer",
+    "emailUs": "Écrivez-nous",
+    "visitUs": "Rendez-nous visite",
+    "businessHours": "Heures d'ouverture",
+    "monFri": "Lundi – Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermé",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
+  },
   "expertise": {
-    "tag": "Expertise", "heading": "Notre", "headingHighlight": "stack technologique", "headingSuffix": "",
+    "tag": "Expertise",
+    "heading": "Notre",
+    "headingHighlight": "stack technologique",
+    "headingSuffix": "",
     "desc": "Nous maîtrisons les outils qui comptent. Notre expertise couvre l'ensemble de l'écosystème digital.",
-    "categories": { "frontend": "Frontend", "backend": "Backend", "mobile": "Mobile", "cloudDevops": "Cloud et DevOps", "gameXR": "Jeux et XR", "dataAI": "Données et IA" },
-    "industriesTag": "Secteurs", "industriesHeading": "Secteurs que nous", "industriesHighlight": "servons",
-    "industries": { "healthcare": "Santé et MedTech", "fintech": "FinTech et Banque", "ecommerce": "E-Commerce et Retail", "education": "Éducation et EdTech", "realEstate": "Immobilier et PropTech", "entertainment": "Divertissement et Médias", "automotive": "Automobile", "logistics": "Logistique et Supply Chain" },
-    "ctaHeading": "Construisons quelque chose d'", "ctaHighlight": "extraordinaire", "ctaDesc": "Vous avez un projet en tête ? Notre équipe d'experts est prête à donner vie à votre vision.", "ctaBtn": "Nous contacter"
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "cloudDevops": "Cloud et DevOps",
+      "gameXR": "Jeux et XR",
+      "dataAI": "Données et IA"
+    },
+    "industriesTag": "Secteurs",
+    "industriesHeading": "Secteurs que nous",
+    "industriesHighlight": "servons",
+    "industries": {
+      "healthcare": "Santé et MedTech",
+      "fintech": "FinTech et Banque",
+      "ecommerce": "E-Commerce et Retail",
+      "education": "Éducation et EdTech",
+      "realEstate": "Immobilier et PropTech",
+      "entertainment": "Divertissement et Médias",
+      "automotive": "Automobile",
+      "logistics": "Logistique et Supply Chain"
+    },
+    "ctaHeading": "Construisons quelque chose d'",
+    "ctaHighlight": "extraordinaire",
+    "ctaDesc": "Vous avez un projet en tête ? Notre équipe d'experts est prête à donner vie à votre vision.",
+    "ctaBtn": "Nous contacter"
   },
   "ourWork": {
-    "tag": "Portfolio", "heading": "Nos", "headingHighlight": "réalisations", "desc": "Une vitrine de projets qui démontrent notre expertise dans différents secteurs et technologies.",
+    "tag": "Portfolio",
+    "heading": "Nos",
+    "headingHighlight": "réalisations",
+    "desc": "Une vitrine de projets qui démontrent notre expertise dans différents secteurs et technologies.",
     "projects": {
-      "fintech": { "title": "Tableau de bord FinTech", "category": "Application web", "desc": "Plateforme d'analyse financière en temps réel avec insights IA et graphiques interactifs." },
-      "medconnect": { "title": "MedConnect", "category": "Application mobile", "desc": "Application de télémédecine conforme HIPAA connectant patients et médecins par appels vidéo sécurisés." },
-      "virtuworld": { "title": "VirtuWorld", "category": "Métavers", "desc": "Showroom virtuel immersif pour une marque automobile de luxe avec configurateur 3D." },
-      "greengrow": { "title": "GreenGrow", "category": "Développement logiciel", "desc": "Plateforme agricole intelligente IoT pour le suivi des cultures par imagerie drone." },
-      "pixelforge": { "title": "PixelForge", "category": "Développement de jeux", "desc": "RPG multijoueur multiplateforme avec mondes générés par procédure et combat en temps réel." },
-      "brandsphere": { "title": "BrandSphere", "category": "Branding corporatif", "desc": "Refonte complète de marque pour une entreprise Fortune 500 incluant supports digitaux et imprimés." }
+      "fintech": {
+        "title": "Tableau de bord FinTech",
+        "category": "Application web",
+        "desc": "Plateforme d'analyse financière en temps réel avec insights IA et graphiques interactifs."
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "Application mobile",
+        "desc": "Application de télémédecine conforme HIPAA connectant patients et médecins par appels vidéo sécurisés."
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "Métavers",
+        "desc": "Showroom virtuel immersif pour une marque automobile de luxe avec configurateur 3D."
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "Développement logiciel",
+        "desc": "Plateforme agricole intelligente IoT pour le suivi des cultures par imagerie drone."
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "Développement de jeux",
+        "desc": "RPG multijoueur multiplateforme avec mondes générés par procédure et combat en temps réel."
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "Branding corporatif",
+        "desc": "Refonte complète de marque pour une entreprise Fortune 500 incluant supports digitaux et imprimés."
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
     },
-    "ctaHeading": "Vous voulez être notre", "ctaHighlight": "prochaine réussite", "ctaSuffix": "?", "ctaDesc": "Discutons de votre projet et créons quelque chose d'extraordinaire ensemble.", "ctaBtn": "Lancer un projet"
+    "ctaHeading": "Vous voulez être notre",
+    "ctaHighlight": "prochaine réussite",
+    "ctaSuffix": "?",
+    "ctaDesc": "Discutons de votre projet et créons quelque chose d'extraordinaire ensemble.",
+    "ctaBtn": "Lancer un projet"
   },
   "privacy": {
-    "tag": "Mentions légales", "heading": "Politique de", "headingHighlight": "confidentialité", "lastUpdated": "Dernière mise à jour : mars 2026",
-    "section1Title": "1. Informations que nous collectons", "section1": "Nous collectons les informations que vous fournissez directement, telles que votre nom, adresse e-mail et détails du projet lorsque vous nous contactez ou utilisez nos services.",
-    "section2Title": "2. Comment nous utilisons vos informations", "section2": "Nous utilisons les informations collectées pour fournir, maintenir et améliorer nos services, communiquer avec vous et assurer la sécurité de nos plateformes.",
-    "section3Title": "3. Partage d'informations", "section3": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers.",
-    "section4Title": "4. Sécurité des données", "section4": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos informations personnelles.",
-    "section5Title": "5. Vos droits", "section5": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire des communications marketing à tout moment en nous contactant à support@vebx.run.",
-    "section6Title": "6. Contactez-nous", "section6": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter :",
-    "email": "E-mail :", "address": "Adresse :"
+    "tag": "Mentions légales",
+    "heading": "Politique de",
+    "headingHighlight": "confidentialité",
+    "lastUpdated": "Dernière mise à jour : mars 2026",
+    "section1Title": "1. Informations que nous collectons",
+    "section1": "Nous collectons les informations que vous fournissez directement, telles que votre nom, adresse e-mail et détails du projet lorsque vous nous contactez ou utilisez nos services.",
+    "section2Title": "2. Comment nous utilisons vos informations",
+    "section2": "Nous utilisons les informations collectées pour fournir, maintenir et améliorer nos services, communiquer avec vous et assurer la sécurité de nos plateformes.",
+    "section3Title": "3. Partage d'informations",
+    "section3": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers.",
+    "section4Title": "4. Sécurité des données",
+    "section4": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos informations personnelles.",
+    "section5Title": "5. Vos droits",
+    "section5": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire des communications marketing à tout moment en nous contactant à support@vebx.run.",
+    "section6Title": "6. Contactez-nous",
+    "section6": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter :",
+    "email": "E-mail :",
+    "address": "Adresse :"
   },
-  "notFound": { "title": "404", "desc": "Oups ! Page introuvable", "back": "Retour à l'accueil" },
+  "notFound": {
+    "title": "404",
+    "desc": "Oups ! Page introuvable",
+    "back": "Retour à l'accueil"
+  },
   "services": {
-    "mobileApplication": "Applications mobiles", "mobileApplicationShort": "Apps natives et multiplateformes qui captivent",
-    "webCmsDevelopment": "Développement Web et CMS", "webCmsDevelopmentShort": "Solutions puissantes de gestion de contenu",
-    "softwareDevelopment": "Développement logiciel", "softwareDevelopmentShort": "Logiciel sur mesure selon vos besoins",
-    "corporateBranding": "Branding corporatif", "corporateBrandingShort": "Identités de marque audacieuses et distinctives",
-    "onlineDigitalMarketing": "Marketing digital", "onlineDigitalMarketingShort": "Stratégies axées sur les données pour la croissance",
-    "2d3dAnimation": "Animation 2D/3D", "2d3dAnimationShort": "Visuels époustouflants qui racontent votre histoire",
-    "3dRenderingServices": "Rendu 3D", "3dRenderingServicesShort": "Visualisations 3D photoréalistes",
-    "metaverseDevelopment": "Développement métavers", "metaverseDevelopmentShort": "Mondes digitaux immersifs de nouvelle génération",
-    "gameDevelopment": "Développement de jeux", "gameDevelopmentShort": "Jeux captivants sur toutes les plateformes",
-    "extendedReality": "Réalité étendue", "extendedRealityShort": "Expériences AR/VR/MR qui transforment",
-    "socialMediaMarketing": "Marketing réseaux sociaux", "socialMediaMarketingShort": "Présence sociale stratégique et engagement"
+    "mobileApplication": "Applications mobiles",
+    "mobileApplicationShort": "Apps natives et multiplateformes qui captivent",
+    "webCmsDevelopment": "Développement Web et CMS",
+    "webCmsDevelopmentShort": "Solutions puissantes de gestion de contenu",
+    "softwareDevelopment": "Développement logiciel",
+    "softwareDevelopmentShort": "Logiciel sur mesure selon vos besoins",
+    "corporateBranding": "Branding corporatif",
+    "corporateBrandingShort": "Identités de marque audacieuses et distinctives",
+    "onlineDigitalMarketing": "Marketing digital",
+    "onlineDigitalMarketingShort": "Stratégies axées sur les données pour la croissance",
+    "2d3dAnimation": "Animation 2D/3D",
+    "2d3dAnimationShort": "Visuels époustouflants qui racontent votre histoire",
+    "3dRenderingServices": "Rendu 3D",
+    "3dRenderingServicesShort": "Visualisations 3D photoréalistes",
+    "metaverseDevelopment": "Développement métavers",
+    "metaverseDevelopmentShort": "Mondes digitaux immersifs de nouvelle génération",
+    "gameDevelopment": "Développement de jeux",
+    "gameDevelopmentShort": "Jeux captivants sur toutes les plateformes",
+    "extendedReality": "Réalité étendue",
+    "extendedRealityShort": "Expériences AR/VR/MR qui transforment",
+    "socialMediaMarketing": "Marketing réseaux sociaux",
+    "socialMediaMarketingShort": "Présence sociale stratégique et engagement"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
   }
 }

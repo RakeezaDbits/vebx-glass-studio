@@ -6,7 +6,11 @@
     "pricing": "मूल्य",
     "ourWork": "हमारा काम",
     "expertise": "विशेषज्ञता",
-    "contactUs": "संपर्क करें"
+    "contactUs": "संपर्क करें",
+    "newServices": "New Services",
+    "newBadge": "New",
+    "customRequirement": "Get a Quote",
+    "designAssistant": "VBX Agent"
   },
   "hero": {
     "tagline": "कल्पना करें। नवाचार करें। प्रेरित करें।",
@@ -17,7 +21,11 @@
     "subtext": "मोबाइल ऐप्स से लेकर मेटावर्स डेवलपमेंट तक, हम अत्याधुनिक समाधान तैयार करते हैं जो विचारों को वास्तविकता में बदलते हैं। आपकी दृष्टि, हमारी विशेषज्ञता।",
     "getStarted": "शुरू करें",
     "viewOurWork": "हमारा काम देखें",
-    "stats": { "projects": "पूर्ण प्रोजेक्ट", "clients": "खुश ग्राहक", "years": "वर्षों का अनुभव" }
+    "stats": {
+      "projects": "पूर्ण प्रोजेक्ट",
+      "clients": "खुश ग्राहक",
+      "years": "वर्षों का अनुभव"
+    }
   },
   "about": {
     "tag": "हमारे बारे में",
@@ -54,7 +62,12 @@
       "clientTitle": "ग्राहक केंद्रित",
       "clientDesc": "आपकी सफलता ही हमारी सफलता है।"
     },
-    "stats": { "projects": "पूर्ण प्रोजेक्ट", "clients": "खुश ग्राहक", "years": "वर्षों का अनुभव", "team": "टीम सदस्य" }
+    "stats": {
+      "projects": "पूर्ण प्रोजेक्ट",
+      "clients": "खुश ग्राहक",
+      "years": "वर्षों का अनुभव",
+      "team": "टीम सदस्य"
+    }
   },
   "cta": {
     "heading": "अपने व्यवसाय को",
@@ -98,7 +111,12 @@
   },
   "trusted": {
     "tag": "विश्वसनीय",
-    "items": { "mobileWeb": "मोबाइल और वेब", "metaverseXR": "मेटावर्स और XR", "enterpriseSaaS": "एंटरप्राइज SaaS", "startupsToFortune": "स्टार्टअप से फॉर्च्यून 500 तक" }
+    "items": {
+      "mobileWeb": "मोबाइल और वेब",
+      "metaverseXR": "मेटावर्स और XR",
+      "enterpriseSaaS": "एंटरप्राइज SaaS",
+      "startupsToFortune": "स्टार्टअप से फॉर्च्यून 500 तक"
+    }
   },
   "servicesSection": {
     "tag": "हम क्या करते हैं",
@@ -134,9 +152,14 @@
       "excerpt2": "जुड़ाव बढ़ाने वाले डिज़ाइन सिद्धांत।",
       "title3": "डिजिटल ट्रांसफॉर्मेशन जो विकास लाए",
       "excerpt3": "कैसे हम व्यवसायों को नवाचार में मदद करते हैं।"
-    }
+    },
+    "linkNewServices": "New Services",
+    "linkCustomRequirement": "Get a Quote"
   },
-  "common": { "vebexRun": "Vebex Run", "explore": "एक्सप्लोर करें" },
+  "common": {
+    "vebexRun": "Vebex Run",
+    "explore": "एक्सप्लोर करें"
+  },
   "servicesPage": {
     "whatWeDo": "हम क्या करते हैं",
     "ourServices": "हमारी सेवाएं",
@@ -198,7 +221,10 @@
     "monFri": "सोमवार – शुक्रवार",
     "saturday": "शनिवार",
     "sunday": "रविवार",
-    "closed": "बंद"
+    "closed": "बंद",
+    "liveChat": "Let's Talk - Live Chat",
+    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
+    "monToSun": "Monday – Sunday"
   },
   "expertise": {
     "tag": "विशेषज्ञता",
@@ -206,11 +232,27 @@
     "headingHighlight": "तकनीकी",
     "headingSuffix": "स्टैक",
     "desc": "हम उन उपकरणों में माहिर हैं जो मायने रखते हैं।",
-    "categories": { "frontend": "फ्रंटएंड", "backend": "बैकएंड", "mobile": "मोबाइल", "cloudDevops": "क्लाउड और DevOps", "gameXR": "गेम और XR", "dataAI": "डेटा और AI" },
+    "categories": {
+      "frontend": "फ्रंटएंड",
+      "backend": "बैकएंड",
+      "mobile": "मोबाइल",
+      "cloudDevops": "क्लाउड और DevOps",
+      "gameXR": "गेम और XR",
+      "dataAI": "डेटा और AI"
+    },
     "industriesTag": "उद्योग",
     "industriesHeading": "जिन उद्योगों की",
     "industriesHighlight": "हम सेवा करते हैं",
-    "industries": { "healthcare": "स्वास्थ्य और मेडटेक", "fintech": "फिनटेक और बैंकिंग", "ecommerce": "ई-कॉमर्स और रिटेल", "education": "शिक्षा और एडटेक", "realEstate": "रियल एस्टेट", "entertainment": "मनोरंजन और मीडिया", "automotive": "ऑटोमोटिव", "logistics": "लॉजिस्टिक्स और सप्लाई चेन" },
+    "industries": {
+      "healthcare": "स्वास्थ्य और मेडटेक",
+      "fintech": "फिनटेक और बैंकिंग",
+      "ecommerce": "ई-कॉमर्स और रिटेल",
+      "education": "शिक्षा और एडटेक",
+      "realEstate": "रियल एस्टेट",
+      "entertainment": "मनोरंजन और मीडिया",
+      "automotive": "ऑटोमोटिव",
+      "logistics": "लॉजिस्टिक्स और सप्लाई चेन"
+    },
     "ctaHeading": "आइए कुछ",
     "ctaHighlight": "अद्भुत",
     "ctaDesc": "कोई प्रोजेक्ट है? हमारी टीम तैयार है।",
@@ -222,12 +264,111 @@
     "headingHighlight": "काम",
     "desc": "उद्योगों और तकनीकों में हमारी विशेषज्ञता का प्रदर्शन।",
     "projects": {
-      "fintech": { "title": "फिनटेक डैशबोर्ड", "category": "वेब एप्लिकेशन", "desc": "AI-संचालित अंतर्दृष्टि के साथ वास्तविक समय वित्तीय विश्लेषण।" },
-      "medconnect": { "title": "MedConnect", "category": "मोबाइल एप्लिकेशन", "desc": "सुरक्षित वीडियो कॉल के माध्यम से टेलीमेडिसिन ऐप।" },
-      "virtuworld": { "title": "VirtuWorld", "category": "मेटावर्स", "desc": "3D कॉन्फ़िगरेटर के साथ इमर्सिव वर्चुअल शोरूम।" },
-      "greengrow": { "title": "GreenGrow", "category": "सॉफ्टवेयर", "desc": "ड्रोन इमेजरी के साथ स्मार्ट कृषि प्लेटफॉर्म।" },
-      "pixelforge": { "title": "PixelForge", "category": "गेम डेवलपमेंट", "desc": "क्रॉस-प्लेटफॉर्म मल्टीप्लेयर RPG।" },
-      "brandsphere": { "title": "BrandSphere", "category": "ब्रांडिंग", "desc": "फॉर्च्यून 500 कंपनी का पूर्ण ब्रांड ओवरहाल।" }
+      "fintech": {
+        "title": "फिनटेक डैशबोर्ड",
+        "category": "वेब एप्लिकेशन",
+        "desc": "AI-संचालित अंतर्दृष्टि के साथ वास्तविक समय वित्तीय विश्लेषण।"
+      },
+      "medconnect": {
+        "title": "MedConnect",
+        "category": "मोबाइल एप्लिकेशन",
+        "desc": "सुरक्षित वीडियो कॉल के माध्यम से टेलीमेडिसिन ऐप।"
+      },
+      "virtuworld": {
+        "title": "VirtuWorld",
+        "category": "मेटावर्स",
+        "desc": "3D कॉन्फ़िगरेटर के साथ इमर्सिव वर्चुअल शोरूम।"
+      },
+      "greengrow": {
+        "title": "GreenGrow",
+        "category": "सॉफ्टवेयर",
+        "desc": "ड्रोन इमेजरी के साथ स्मार्ट कृषि प्लेटफॉर्म।"
+      },
+      "pixelforge": {
+        "title": "PixelForge",
+        "category": "गेम डेवलपमेंट",
+        "desc": "क्रॉस-प्लेटफॉर्म मल्टीप्लेयर RPG।"
+      },
+      "brandsphere": {
+        "title": "BrandSphere",
+        "category": "ब्रांडिंग",
+        "desc": "फॉर्च्यून 500 कंपनी का पूर्ण ब्रांड ओवरहाल।"
+      },
+      "emaanai": {
+        "title": "Emaan Ai",
+        "category": "Mobile Application",
+        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+      },
+      "vebxcode": {
+        "title": "Vebxcode",
+        "category": "Web Application",
+        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+      },
+      "healthsync": {
+        "title": "HealthSync",
+        "category": "Healthcare",
+        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+      },
+      "taskflow": {
+        "title": "TaskFlow",
+        "category": "SaaS",
+        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+      },
+      "fooddash": {
+        "title": "FoodDash",
+        "category": "Mobile Application",
+        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+      },
+      "eventify": {
+        "title": "Eventify",
+        "category": "Web Application",
+        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+      },
+      "docvault": {
+        "title": "DocVault",
+        "category": "Software",
+        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+      },
+      "fittrack": {
+        "title": "FitTrack",
+        "category": "Mobile Application",
+        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+      },
+      "cloudflow": {
+        "title": "CloudFlow",
+        "category": "SaaS",
+        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+      },
+      "neondrift": {
+        "title": "Neon Drift",
+        "category": "Game Development",
+        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+      },
+      "shopverse": {
+        "title": "ShopVerse",
+        "category": "E-Commerce",
+        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+      },
+      "paybridge": {
+        "title": "PayBridge",
+        "category": "FinTech",
+        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+      },
+      "learnhub": {
+        "title": "LearnHub",
+        "category": "EdTech",
+        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+      },
+      "smartops": {
+        "title": "SmartOps",
+        "category": "Software & IoT",
+        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+      },
+      "engagelab": {
+        "title": "EngageLab",
+        "category": "Digital Marketing",
+        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+      }
     },
     "ctaHeading": "हमारी अगली",
     "ctaHighlight": "सफलता",
@@ -255,7 +396,11 @@
     "email": "ईमेल:",
     "address": "पता:"
   },
-  "notFound": { "title": "404", "desc": "पेज नहीं मिला", "back": "होम पर वापस जाएं" },
+  "notFound": {
+    "title": "404",
+    "desc": "पेज नहीं मिला",
+    "back": "होम पर वापस जाएं"
+  },
   "services": {
     "mobileApplication": "मोबाइल एप्लिकेशन",
     "mobileApplicationShort": "उपयोगकर्ताओं को आकर्षित करने वाले ऐप्स",
@@ -279,5 +424,120 @@
     "extendedRealityShort": "AR/VR/MR अनुभव",
     "socialMediaMarketing": "सोशल मीडिया मार्केटिंग",
     "socialMediaMarketingShort": "रणनीतिक सोशल उपस्थिति"
+  },
+  "newServicesPage": {
+    "tag": "New",
+    "heading": "New",
+    "headingHighlight": "Services",
+    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
+    "getInTouch": "Let's Talk"
+  },
+  "customReq": {
+    "tag": "Your Requirement",
+    "heading": "Custom",
+    "headingHighlight": "Requirement",
+    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourPhone": "Your Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "step1Title": "Contact",
+    "step2Title": "Requirement",
+    "step3Title": "Technology & Plan",
+    "step4Title": "Reference & Submit",
+    "step5Title": "Thank You",
+    "thankYouTitle": "Thank You!",
+    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
+    "backToHome": "Back to Home",
+    "submitAnother": "Submit Another",
+    "nextStep": "Next",
+    "prevStep": "Back",
+    "stepOf": "Step {{current}} of {{total}}",
+    "selectService": "What do you need?",
+    "selectServicePlaceholder": "Select a service",
+    "selectSubType": "Project type / details",
+    "selectSubTypePlaceholder": "Select option",
+    "selectTech": "Technology / platform (select all that apply)",
+    "selectTier": "Choose plan",
+    "priceLabel": "Estimated price",
+    "priceCustom": "Custom quote",
+    "perProject": "per project",
+    "referenceLink": "Reference link (e.g. website or app you like)",
+    "referenceLinkPlaceholder": "https://...",
+    "referenceImage": "Reference image (optional)",
+    "referenceImageHint": "Upload a screenshot or design reference",
+    "developBtn": "Develop",
+    "talkToTeam": "Talk to Team",
+    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "subTypes": {
+      "ecommerce": "E-commerce",
+      "social": "Social / community",
+      "utility": "Utility / productivity",
+      "enterprise": "Enterprise / internal",
+      "onDemand": "On-demand / delivery",
+      "blog": "Blog / content site",
+      "corporate": "Corporate / business",
+      "portfolio": "Portfolio / showcase",
+      "landing": "Landing / marketing page",
+      "saas": "SaaS product",
+      "dashboard": "Dashboard / analytics",
+      "api": "API / backend",
+      "seo": "SEO & content",
+      "ppc": "PPC & paid social",
+      "fullCampaign": "Full campaign",
+      "organic": "Organic content",
+      "paidSocial": "Paid social",
+      "influencer": "Influencer partnership",
+      "other": "Other"
+    },
+    "tech": {
+      "react": "React",
+      "vue": "Vue.js",
+      "angular": "Angular",
+      "next": "Next.js",
+      "nuxt": "Nuxt",
+      "laravel": "Laravel (PHP)",
+      "aspnet": "ASP.NET / .NET Core",
+      "node": "Node.js",
+      "python": "Python (Django/FastAPI)",
+      "java": "Java / Spring",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "headless": "Headless CMS",
+      "flutter": "Flutter",
+      "reactNative": "React Native",
+      "nativeIos": "Native iOS (Swift)",
+      "nativeAndroid": "Native Android (Kotlin)",
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "other": "Other / Not sure"
+    }
+  },
+  "designAssistant": {
+    "title": "VBX Agent",
+    "seoTitle": "VBX Agent",
+    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
+    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
+    "widgetAriaLabel": "Open VBX Agent",
+    "widgetTooltip": "VBX Agent — open messages, describe your design, and generate reference images for your project",
+    "drawerAriaLabel": "Design idea — AI reference image",
+    "drawerSubtitle": "Same as header — messages + image ideas",
+    "creditsToday": "{{remaining}} / {{limit}} credits today",
+    "creditsLoading": "… credits today",
+    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
+    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
+    "generate": "Generate image",
+    "generating": "Generating…",
+    "generatedReference": "Generated reference",
+    "generatedImageAlt": "AI-generated design reference",
+    "referenceOnly": "Reference only — use in Get a Quote to attach",
+    "useInQuote": "Use in Get a Quote",
+    "promptRequired": "Please enter a design idea or prompt.",
+    "imageDataMissing": "Could not get image data.",
+    "generationFailed": "Generation failed.",
+    "referenceAttached": "Reference attached. Opening quote form.",
+    "attachFailed": "Failed to attach."
   }
 }
