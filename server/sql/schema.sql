@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS site_settings (
 -- Seed default site settings
 INSERT INTO site_settings (`key`, value) VALUES
   ('contact_email', 'support@vebx.run'),
-  ('contact_address', '117 S Lexington Street STN 100, Harrisonville MO 64701'),
+  ('contact_address', 'Karachi, Pakistan; Cyber Jaya, Malaysia'),
   ('contact_phone', ''),
   ('business_hours', 'Mon-Fri: 9AM-6PM, Sat: 10AM-4PM, Sun: Closed')
 ON DUPLICATE KEY UPDATE `key` = `key`;

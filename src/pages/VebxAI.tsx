@@ -1,9 +1,13 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import i18n from "@/i18n";
 import PageLayout from "@/components/PageLayout";
 import SeoHead from "@/components/SeoHead";
 import { Button } from "@/components/ui/button";
+import Lottie from "lottie-react";
+import { cn } from "@/lib/utils";
+import vxrAgentRobot from "@/assets/lottie/vxr-agent-robot.json";
 import {
-  Bot,
   Loader2,
   Mic,
   MicOff,
@@ -17,28 +21,36 @@ import {
 
 const API_BASE = import.meta.env.VITE_API_URL || "";
 
+/** First thing the realtime voice model says — keep in sync with server `getTechOnlyInstructions("voice")`. */
+const REALTIME_VOICE_INTRO_INSTRUCTIONS =
+  'Your entire first spoken response must be exactly this one sentence, with no words before or after: Hello, I am VXR Agent. How can I help you?';
+
 type Message = {
   id: string;
   role: "user" | "assistant";
   content: string;
 };
 
-const INITIAL_ASSISTANT_MESSAGE =
-  "Hello! I am **Vebx Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started.";
-
-const QUICK_PROMPTS = [
-  "Best tech stack for a SaaS MVP?",
-  "How should I design a scalable REST API?",
-  "How can I optimize a React app for speed?",
-];
-
 function createId() {
   return crypto.randomUUID();
 }
 
+function AgentLottieAvatar({ className }: { className?: string }) {
+  return (
+    <Lottie
+      animationData={vxrAgentRobot}
+      loop
+      className={cn("pointer-events-none shrink-0 [&_svg]:!block", className)}
+    />
+  );
+}
+
 export default function VebxAI() {
-  const [messages, setMessages] = useState<Message[]>([
-    { id: createId(), role: "assistant", content: INITIAL_ASSISTANT_MESSAGE },
+  const { t, i18n } = useTranslation();
+  const welcomeMessageIdRef = useRef(createId());
+
+  const [messages, setMessages] = useState<Message[]>(() => [
+    { id: welcomeMessageIdRef.current, role: "assistant", content: i18n.t("vebxAI.initialAssistant") },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -46,7 +58,16 @@ export default function VebxAI() {
   const [isOnCall, setIsOnCall] = useState(false);
   const [isConnectingCall, setIsConnectingCall] = useState(false);
   const [callDuration, setCallDuration] = useState(0);
-  const [callStatus, setCallStatus] = useState("Ready for a realtime tech call");
+  const [callStatus, setCallStatus] = useState(() => i18n.t("vebxAI.readyForCall"));
+
+  useEffect(() => {
+    setMessages((prev) => {
+      if (prev.length !== 1 || prev[0].id !== welcomeMessageIdRef.current || prev[0].role !== "assistant") {
+        return prev;
+      }
+      return [{ ...prev[0], content: i18n.t("vebxAI.initialAssistant") }];
+    });
+  }, [i18n.language]);
 
   const chatEndRef = useRef<HTMLDivElement>(null);
   const chatScrollRef = useRef<HTMLDivElement>(null);
@@ -189,19 +210,15 @@ export default function VebxAI() {
       }
 
       if (!assistantText.trim()) {
-        upsertAssistantMessage(
-          assistantId,
-          "I could not generate a response right now. Please send your tech question again."
-        );
+        upsertAssistantMessage(assistantId, t("vebxAI.emptyResponse"));
       }
     } catch (err) {
-      const message =
-        err instanceof Error ? err.message : "AI chat request failed unexpectedly";
+      const message = err instanceof Error ? err.message : t("vebxAI.requestFailed");
       upsertAssistantMessage(assistantId, `❌ ${message}`);
     } finally {
       setIsLoading(false);
     }
-  }, [deviceId, input, isLoading, upsertAssistantMessage]);
+  }, [deviceId, input, isLoading, t, upsertAssistantMessage]);
 
   const toggleRecording = useCallback(async () => {
     if (isRecording) {
@@ -243,9 +260,9 @@ export default function VebxAI() {
       recorder.start();
       setIsRecording(true);
     } catch {
-      window.alert("Microphone access denied");
+      window.alert(t("vebxAI.micDenied"));
     }
-  }, [isRecording]);
+  }, [isRecording, t]);
 
   const handleRealtimeEvent = useCallback(
     (event: unknown) => {
@@ -299,22 +316,19 @@ export default function VebxAI() {
       setIsOnCall(false);
       setIsConnectingCall(false);
       setCallDuration(0);
-      setCallStatus("Call ended");
+      setCallStatus(t("vebxAI.callEndedStatus"));
       if (withMessage) {
-        appendMessage(
-          "assistant",
-          "📞 Call ended. You can send your next tech question in chat."
-        );
+        appendMessage("assistant", t("vebxAI.callEndedMessage"));
       }
     },
-    [appendMessage, cleanupRealtimeResources]
+    [appendMessage, cleanupRealtimeResources, t]
   );
 
   const startRealtimeCall = useCallback(async () => {
     if (isOnCall || isConnectingCall) return;
 
     setIsConnectingCall(true);
-    setCallStatus("Connecting to realtime agent...");
+    setCallStatus(t("vebxAI.connecting"));
 
     try {
       const localStream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -380,23 +394,19 @@ export default function VebxAI() {
         setIsOnCall(true);
         setIsConnectingCall(false);
         setCallDuration(0);
-        setCallStatus("Live realtime tech call connected");
+        setCallStatus(t("vebxAI.liveConnected"));
         stopCallTimer();
         callTimerRef.current = setInterval(() => {
           setCallDuration((prev) => prev + 1);
         }, 1000);
 
-        appendMessage(
-          "assistant",
-          "📞 Realtime voice call connected. The agent will introduce itself and is ready for your tech questions."
-        );
+        appendMessage("assistant", t("vebxAI.callIntroMessage"));
 
         dataChannel.send(
           JSON.stringify({
             type: "response.create",
             response: {
-              instructions:
-                "Introduce yourself briefly right now in English only. Say you are Vebx Tech Agent, mention that you only help with technology-related topics, and then invite the user to ask one tech question. Do not use Urdu, Hindi, Arabic, or any other language unless the user explicitly asks for it.",
+              instructions: REALTIME_VOICE_INTRO_INSTRUCTIONS,
             },
           })
         );
@@ -413,10 +423,10 @@ export default function VebxAI() {
       setIsConnectingCall(false);
       setIsOnCall(false);
       setCallDuration(0);
-      setCallStatus("Call connection failed");
+      setCallStatus(t("vebxAI.callFailedStatus"));
       appendMessage(
         "assistant",
-        `❌ ${err instanceof Error ? err.message : "Realtime call could not be started"}`
+        `❌ ${err instanceof Error ? err.message : t("vebxAI.callStartFailed")}`
       );
     }
   }, [
@@ -427,6 +437,7 @@ export default function VebxAI() {
     isConnectingCall,
     isOnCall,
     stopCallTimer,
+    t,
   ]);
 
   const toggleCall = useCallback(async () => {
@@ -443,11 +454,13 @@ export default function VebxAI() {
       .toString()
       .padStart(2, "0")}:${(seconds % 60).toString().padStart(2, "0")}`;
 
+  const quickPrompts = t("vebxAI.quickPrompts", { returnObjects: true }) as string[];
+
   return (
     <PageLayout>
       <SeoHead
-        title="Vebx Tech Agent — AI Chat & Realtime Call"
-        description="Chat or talk live with Vebx Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering."
+        title={t("vebxAI.seoTitle")}
+        description={t("vebxAI.seoDescription")}
         canonicalPath="/ai"
       />
 
@@ -460,15 +473,12 @@ export default function VebxAI() {
         <div className="container relative z-10 py-16 text-center">
           <div className="liquid-glass border-glow mb-6 inline-flex items-center gap-2 rounded-full px-4 py-2">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary">OpenAI Realtime Tech Agent</span>
+            <span className="text-sm font-medium text-primary">{t("vebxAI.badge")}</span>
           </div>
           <h1 className="font-display mb-4 text-4xl font-bold text-foreground md:text-6xl">
-            Vebx <span className="text-gradient-red">Tech Agent</span>
+            {t("vebxAI.title")} <span className="text-gradient-red">{t("vebxAI.titleHighlight")}</span>
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat
-            or a live call.
-          </p>
+          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">{t("vebxAI.subtitle")}</p>
         </div>
       </section>
 
@@ -479,17 +489,17 @@ export default function VebxAI() {
             style={{ height: "min(78vh, 860px)" }}
           >
             <div className="flex items-center gap-3 border-b border-white/10 px-5 py-3">
-              <div className="gradient-red flex h-9 w-9 items-center justify-center rounded-full">
-                <Bot className="h-5 w-5 text-primary-foreground" />
+              <div className="gradient-red flex h-9 w-9 items-center justify-center overflow-hidden rounded-full">
+                <AgentLottieAvatar className="h-8 w-8" />
               </div>
               <div>
-                <h3 className="font-display text-sm font-semibold text-foreground">Vebx Tech Agent</h3>
+                <h3 className="font-display text-sm font-semibold text-foreground">{t("vebxAI.chatTitle")}</h3>
                 <div className="flex items-center gap-1.5">
                   <span className="relative flex h-2 w-2">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
                   </span>
-                  <span className="text-[10px] font-medium text-green-400">Tech-only assistance</span>
+                  <span className="text-[10px] font-medium text-green-400">{t("vebxAI.chatTag")}</span>
                 </div>
               </div>
             </div>
@@ -501,8 +511,8 @@ export default function VebxAI() {
                   className={`flex gap-3 ${msg.role === "user" ? "justify-end" : "justify-start"}`}
                 >
                   {msg.role === "assistant" && (
-                    <div className="gradient-red mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full">
-                      <Bot className="h-3.5 w-3.5 text-primary-foreground" />
+                    <div className="gradient-red mt-1 flex h-7 w-7 shrink-0 items-center justify-center overflow-hidden rounded-full">
+                      <AgentLottieAvatar className="h-5 w-5" />
                     </div>
                   )}
 
@@ -514,9 +524,11 @@ export default function VebxAI() {
                     }`}
                   >
                     {msg.role === "assistant" ? (
-                      <div className="max-w-none whitespace-pre-wrap leading-6">{msg.content || "..."}</div>
+                      <div className="max-w-none whitespace-pre-wrap leading-6" dir="auto">
+                        {msg.content || t("vebxAI.thinking")}
+                      </div>
                     ) : (
-                      <p>{msg.content}</p>
+                      <p dir="auto">{msg.content}</p>
                     )}
                   </div>
 
@@ -530,8 +542,8 @@ export default function VebxAI() {
 
               {isLoading && (
                 <div className="flex gap-3">
-                  <div className="gradient-red flex h-7 w-7 shrink-0 items-center justify-center rounded-full">
-                    <Bot className="h-3.5 w-3.5 text-primary-foreground" />
+                  <div className="gradient-red flex h-7 w-7 shrink-0 items-center justify-center overflow-hidden rounded-full">
+                    <AgentLottieAvatar className="h-5 w-5" />
                   </div>
                   <div className="liquid-glass border-glow rounded-2xl px-4 py-3">
                     <div className="flex gap-1">
@@ -564,7 +576,7 @@ export default function VebxAI() {
                       ? "gradient-red animate-pulse text-primary-foreground"
                       : "liquid-glass border-glow text-muted-foreground hover:text-foreground"
                   }`}
-                  title={isRecording ? "Stop recording" : "Voice input"}
+                  title={isRecording ? t("vebxAI.micStopTitle") : t("vebxAI.micStartTitle")}
                 >
                   {isRecording ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
                 </button>
@@ -579,7 +591,7 @@ export default function VebxAI() {
                       void sendMessage();
                     }
                   }}
-                  placeholder="Ask a tech question, such as API design, React, AI, or cloud..."
+                  placeholder={t("vebxAI.inputPlaceholder")}
                   className="flex-1 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
                   disabled={isLoading}
                 />
@@ -600,7 +612,7 @@ export default function VebxAI() {
           <div className="flex flex-col gap-4 lg:sticky lg:top-24">
             <div className="liquid-glass border-glow rounded-2xl p-6 text-center">
               <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-                Realtime Voice Call
+                {t("vebxAI.voiceCallTitle")}
               </h3>
 
               {(isOnCall || isConnectingCall) && (
@@ -637,44 +649,44 @@ export default function VebxAI() {
               </button>
 
               <p className="mt-3 text-xs text-muted-foreground">
-                {isOnCall ? "Tap to end call" : "Start realtime call"}
+                {isOnCall ? t("vebxAI.tapEndCall") : t("vebxAI.startCall")}
               </p>
             </div>
 
             <div className="liquid-glass border-glow rounded-2xl p-6">
               <h3 className="font-display mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-                Agent Capabilities
+                {t("vebxAI.capabilitiesTitle")}
               </h3>
               <ul className="space-y-3 text-sm text-foreground/80">
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Web, app, backend, and AI engineering guidance</span>
+                  <span>{t("vebxAI.cap1")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Architecture, APIs, databases, and cloud recommendations</span>
+                  <span>{t("vebxAI.cap2")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Debugging, performance, scalability, and security advice</span>
+                  <span>{t("vebxAI.cap3")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Digital product UX for technical workflows</span>
+                  <span>{t("vebxAI.cap4")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Volume2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Realtime voice interaction with intro on call start</span>
+                  <span>{t("vebxAI.cap5")}</span>
                 </li>
               </ul>
             </div>
 
             <div className="liquid-glass border-glow rounded-2xl p-5">
               <h3 className="font-display mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                Quick Prompts
+                {t("vebxAI.quickPromptsTitle")}
               </h3>
               <div className="space-y-2">
-                {QUICK_PROMPTS.map((question) => (
+                {quickPrompts.map((question) => (
                   <button
                     key={question}
                     onClick={() => setInput(question)}

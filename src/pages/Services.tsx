@@ -5,9 +5,11 @@ import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageLayout from "@/components/PageLayout";
+import StatsSection from "@/components/StatsSection";
 import { servicesData } from "@/data/services";
 import { newServicesData } from "@/data/newServices";
 import ServiceCardDecorWrap from "@/components/ServiceCardDecorWrap";
+import { getTranslatedNewService, getTranslatedService } from "@/lib/serviceCatalogI18n";
 import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 
 const cardEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -17,6 +19,7 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
   const inView = useInView(ref, { once: true, margin: "-50px" });
   const { t } = useTranslation();
   const Icon = service.icon;
+  const copy = getTranslatedService(t, service);
 
   return (
     <Link to={`/services/${service.slug}`}>
@@ -59,10 +62,10 @@ function ServiceCard({ service, index }: { service: (typeof servicesData)[0]; in
         </div>
         <div className="relative p-6 flex-1 flex flex-col">
           <h3 className="font-display text-lg font-semibold mb-2 text-foreground tracking-tight group-hover:text-primary/95 transition-colors duration-300">
-            {service.title}
+            {copy.title}
           </h3>
           <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-5">
-            {service.shortDesc}
+            {copy.shortDesc}
           </p>
           <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white text-white text-sm font-medium transition-all duration-300 w-fit group-hover:bg-red-600 group-hover:border-red-500">
             {t("common.explore")} <ArrowRight className="w-4 h-4 rtl:rotate-180" />
@@ -85,6 +88,7 @@ function NewServiceCard({
   const inView = useInView(ref, { once: true, margin: "-50px" });
   const { t } = useTranslation();
   const Icon = service.icon;
+  const copy = getTranslatedNewService(t, service);
 
   return (
     <Link to={`/new-services/${service.slug}`}>
@@ -124,10 +128,10 @@ function NewServiceCard({
         </div>
         <div className="relative p-6 flex-1 flex flex-col">
           <h3 className="font-display text-lg font-semibold mb-2 text-foreground tracking-tight group-hover:text-primary/95 transition-colors duration-300">
-            {service.title}
+            {copy.title}
           </h3>
           <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-5">
-            {service.shortDesc}
+            {copy.shortDesc}
           </p>
           <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white text-white text-sm font-medium transition-all duration-300 w-fit group-hover:bg-red-600 group-hover:border-red-500">
             {t("common.explore")} <ArrowRight className="w-4 h-4 rtl:rotate-180" />
@@ -144,9 +148,8 @@ export default function Services() {
   return (
     <PageLayout
       seo={{
-        title: "Services",
-        description:
-          "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services.",
+        title: t("seo.servicesTitle"),
+        description: t("seo.servicesDescription"),
         canonicalPath: "/services",
       }}
     >
@@ -196,6 +199,8 @@ export default function Services() {
           </motion.p>
         </div>
       </section>
+
+      <StatsSection />
 
       {/* Services Grid — overflow-x only so card-under decorations aren’t clipped */}
       <section className="py-16 relative overflow-x-hidden">

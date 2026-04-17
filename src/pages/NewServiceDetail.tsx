@@ -8,26 +8,28 @@ import { getNewServiceBySlug } from "@/data/newServices";
 import NotFound from "./NotFound";
 import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 import { useTranslation } from "react-i18next";
+import { getTranslatedNewService } from "@/lib/serviceCatalogI18n";
 
 export default function NewServiceDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const service = slug ? getNewServiceBySlug(slug) : undefined;
   const { t } = useTranslation();
+  const copy = service ? getTranslatedNewService(t, service) : null;
 
   useEffect(() => {
     if (slug === "youtube-content") navigate("/new-services/social-content", { replace: true });
   }, [slug, navigate]);
 
-  if (!service) return <NotFound />;
+  if (!service || !copy) return <NotFound />;
 
   const Icon = service.icon;
 
   return (
     <PageLayout
       seo={{
-        title: service.title,
-        description: service.shortDesc,
+        title: copy.title,
+        description: copy.shortDesc,
         canonicalPath: `/new-services/${service.slug}`,
       }}
     >
@@ -65,7 +67,7 @@ export default function NewServiceDetail() {
               transition={{ delay: 0.25 }}
               className="text-4xl md:text-6xl font-display font-bold mb-6"
             >
-              {service.title}
+              {copy.title}
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 24 }}
@@ -73,7 +75,7 @@ export default function NewServiceDetail() {
               transition={{ delay: 0.35 }}
               className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8"
             >
-              {service.longDesc}
+              {copy.longDesc}
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -107,12 +109,13 @@ export default function NewServiceDetail() {
             viewport={{ once: true }}
             className="text-2xl md:text-4xl font-display font-bold mb-10"
           >
-            What we <span className="text-gradient-red">offer</span>
+            {t("serviceDetail.offerBefore")}{" "}
+            <span className="text-gradient-red">{t("serviceDetail.offerHighlight")}</span>
           </motion.h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {service.features.map((feature, i) => (
+            {copy.features.map((feature, i) => (
               <motion.div
-                key={feature}
+                key={`${i}-${feature}`}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -137,12 +140,13 @@ export default function NewServiceDetail() {
             viewport={{ once: true }}
             className="text-2xl md:text-4xl font-display font-bold mb-10 text-center"
           >
-            Why work with <span className="text-gradient-red">us</span>
+            {t("serviceDetail.whyBefore")}{" "}
+            <span className="text-gradient-red">{t("serviceDetail.whyHighlight")}</span>
           </motion.h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {service.highlights.map((h, i) => (
+            {copy.highlights.map((h, i) => (
               <motion.div
-                key={h.title}
+                key={`${i}-${h.title}`}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -166,11 +170,11 @@ export default function NewServiceDetail() {
             className="liquid-glass-strong rounded-3xl border-glow p-12 md:p-20 text-center max-w-4xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-              Ready for <span className="text-gradient-red">{service.title}</span>?
+              {t("serviceDetail.ctaReadyPrefix")}{" "}
+              <span className="text-gradient-red">{copy.title}</span>
+              {t("serviceDetail.ctaReadySuffix")}
             </h2>
-            <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">
-              Let's discuss your project and build something great together.
-            </p>
+            <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-10">{t("serviceDetail.ctaDesc")}</p>
             <Link to="/contact">
               <Button variant="hero" size="lg" className="gap-2">
                 {t("nav.contactUs")} <ArrowRight className="w-5 h-5 rtl:rotate-180" />

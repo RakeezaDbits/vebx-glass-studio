@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
           <img src="/banners/privacy-banner.jpg" alt="" className="w-full h-full object-cover" aria-hidden />
           <MediaBlackOverlay />
         </div>
-        <div className="container relative z-10 px-4 lg:px-8 max-w-4xl">
+        <div className="container relative z-10 px-4 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-16">
             <span className="text-sm font-display uppercase tracking-[0.3em] text-primary mb-4 block">{t("privacy.tag")}</span>
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">{t("privacy.heading")} <span className="text-gradient-red">{t("privacy.headingHighlight")}</span></h1>
@@ -28,6 +28,10 @@ export default function PrivacyPolicy() {
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }} className="liquid-glass rounded-2xl p-8 md:p-12 border-glow prose prose-invert max-w-none">
             <div className="space-y-8 text-muted-foreground leading-relaxed">
+              <div className="space-y-4">
+                <p>{t("privacy.partnerDisclaimerP1")}</p>
+                <p>{t("privacy.partnerDisclaimerP2")}</p>
+              </div>
               {sections.map((n) => (
                 <div key={n}>
                   <h2 className="font-display text-xl font-semibold text-foreground mb-3">{t(`privacy.section${n}Title`)}</h2>
@@ -35,7 +39,11 @@ export default function PrivacyPolicy() {
                   {n === 6 && (
                     <p className="mt-2">
                       <strong className="text-foreground">{t("privacy.email")}</strong> support@vebx.run<br />
-                      <strong className="text-foreground">{t("privacy.address")}</strong> 117 S Lexington Street STN 100, Harrisonville MO 64701
+                      <strong className="text-foreground">{t("privacy.address")}</strong>
+                      <br />
+                      {t("privacy.addressLine1")}
+                      <br />
+                      {t("privacy.addressLine2")}
                     </p>
                   )}
                 </div>

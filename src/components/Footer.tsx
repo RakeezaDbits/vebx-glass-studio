@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Mail, MapPin, ArrowRight, Facebook, Twitter, Linkedin, Instagram, Youtube, Bell, Briefcase } from "lucide-react";
+import { Mail, MapPin, Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 const logo = "/logo-main.png";
 import { servicesData } from "@/data/services";
 
@@ -72,11 +72,11 @@ export default function Footer() {
               </a>
               <div className="flex items-start gap-2 text-sm text-muted-foreground mb-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-                <span>Cyber Jaya, Malaysia</span>
+                <span>{t("footer.addressLine1")}</span>
               </div>
               <div className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-                <span>Karachi, Pakistan</span>
+                <span>{t("footer.addressLine2")}</span>
               </div>
             </div>
 

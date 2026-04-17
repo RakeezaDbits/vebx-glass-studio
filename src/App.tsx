@@ -17,6 +17,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import DesignAssistant from "./pages/DesignAssistant";
 import VebxAI from "./pages/VebxAI";
+import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import AdminGuard from "./components/AdminGuard";
 import AdminLayout from "./pages/admin/AdminLayout";
@@ -65,6 +66,7 @@ const App = () => (
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/our-work" element={<OurWork />} />
             <Route path="/expertise" element={<Expertise />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/custom-requirement" element={<CustomRequirement />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />

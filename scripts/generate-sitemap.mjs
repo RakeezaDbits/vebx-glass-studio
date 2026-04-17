@@ -2,13 +2,21 @@
 /**
  * Generates public/sitemap.xml. Run after adding new pages or services.
  * npm run generate-sitemap
+ *
+ * Set SITE_URL to match your canonical domain and Google Search Console property:
+ * - URL-prefix property https://vebx.run → SITE_URL=https://vebx.run
+ * - URL-prefix property https://www.vebx.run → SITE_URL=https://www.vebx.run
+ * If they differ, GSC reports "URL not allowed" for every <loc>.
+ * A Domain property (vebx.run) avoids host mismatch for sitemaps.
+ *
+ * Example: SITE_URL=https://www.vebx.run npm run generate-sitemap
  */
-import { writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SITE_URL = "https://vebx.run";
+const SITE_URL = (process.env.SITE_URL || "https://vebx.run").replace(/\/$/, "");
 
 const routes = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
@@ -38,6 +46,8 @@ const routes = [
   { path: "/pricing", changefreq: "monthly", priority: "0.9" },
   { path: "/our-work", changefreq: "monthly", priority: "0.9" },
   { path: "/expertise", changefreq: "monthly", priority: "0.9" },
+  { path: "/projects", changefreq: "monthly", priority: "0.85" },
+  { path: "/ai", changefreq: "monthly", priority: "0.85" },
   { path: "/contact", changefreq: "monthly", priority: "0.9" },
   { path: "/design-assistant", changefreq: "monthly", priority: "0.85" },
   { path: "/privacy-policy", changefreq: "yearly", priority: "0.5" },
@@ -53,3 +63,13 @@ ${routes.map((r) => `  <url><loc>${SITE_URL}${r.path}</loc><lastmod>${lastmod}</
 const outPath = join(__dirname, "..", "public", "sitemap.xml");
 writeFileSync(outPath, xml, "utf8");
 console.log("Generated:", outPath);
+
+const robotsPath = join(__dirname, "..", "public", "robots.txt");
+try {
+  let robots = readFileSync(robotsPath, "utf8");
+  robots = robots.replace(/^Sitemap:\s*.+$/m, `Sitemap: ${SITE_URL}/sitemap.xml`);
+  writeFileSync(robotsPath, robots, "utf8");
+  console.log("Updated Sitemap line in:", robotsPath);
+} catch {
+  /* robots.txt optional */
+}

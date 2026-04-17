@@ -58,7 +58,7 @@ export default function AdminSettings() {
           <Textarea
             value={settings.contact_address ?? ""}
             onChange={(e) => handleChange("contact_address", e.target.value)}
-            placeholder="117 S Lexington Street..."
+            placeholder="Karachi, Pakistan — Cyber Jaya, Malaysia"
             rows={2}
             className="bg-secondary/50 resize-none"
           />

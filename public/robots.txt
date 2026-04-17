@@ -13,5 +13,5 @@ Allow: /
 User-agent: *
 Allow: /
 
-# Sitemap (update SITE_URL in src/config/seo.ts if your domain changes)
+# Sitemap — must match SITE_URL used when running `npm run generate-sitemap` (see scripts/generate-sitemap.mjs)
 Sitemap: https://vebx.run/sitemap.xml

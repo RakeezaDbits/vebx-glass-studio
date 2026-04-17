@@ -1,5 +1,5 @@
 import { useState, useRef, type CSSProperties } from "react";
-import { MessageCircle, X, Mic, ArrowRight, User, Mail, Phone, Briefcase } from "lucide-react";
+import { MessageCircle, X, ArrowRight, User, Mail, Phone, Briefcase } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -83,40 +83,42 @@ export default function LiveChatWidget() {
 
   return (
     <>
-      {/* FAB with online indicator */}
+      {/* Live chat FAB */}
       <div className="fixed bottom-5 right-5 z-[165] sm:bottom-6 sm:right-6">
-        {/* Online badge above icon */}
-        {!open && (
-          <div className="absolute -top-7 left-1/2 -translate-x-1/2 flex items-center gap-1 whitespace-nowrap rounded-full border border-primary/30 bg-black/70 px-2 py-0.5 backdrop-blur-sm">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
-            </span>
-            <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">Online</span>
-          </div>
-        )}
-        <button
-          type="button"
-          onClick={() => {
-            if (open) handleClose();
-            else { setOpen(true); if (view !== "submitted") setView("form"); }
-          }}
-          className={cn(
-            "flex h-[3.75rem] w-[3.75rem] items-center justify-center rounded-2xl",
-            "border-glow gradient-red text-primary-foreground shadow-lg transition-transform hover:scale-[1.05] active:scale-[0.98]",
-            open && "ring-2 ring-primary/60"
+        <div className="relative">
+          {/* Online badge above chat icon */}
+          {!open && (
+            <div className="absolute -top-7 left-1/2 -translate-x-1/2 flex items-center gap-1 whitespace-nowrap rounded-full border border-primary/30 bg-black/70 px-2 py-0.5 backdrop-blur-sm">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+              </span>
+              <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">Online</span>
+            </div>
           )}
-          aria-label={open ? "Close" : "Chat with us"}
-        >
-          <span className="relative z-10 drop-shadow-sm">
-            {open ? <X className="h-7 w-7" /> : <MessageCircle className="h-7 w-7" strokeWidth={2} />}
-          </span>
-        </button>
+          <button
+            type="button"
+            onClick={() => {
+              if (open) handleClose();
+              else { setOpen(true); if (view !== "submitted") setView("form"); }
+            }}
+            className={cn(
+              "flex h-[3.75rem] w-[3.75rem] items-center justify-center rounded-2xl",
+              "border-glow gradient-red text-primary-foreground shadow-lg transition-transform hover:scale-[1.05] active:scale-[0.98]",
+              open && "ring-2 ring-primary/60"
+            )}
+            aria-label={open ? "Close" : "Chat with us"}
+          >
+            <span className="relative z-10 drop-shadow-sm">
+              {open ? <X className="h-7 w-7" /> : <MessageCircle className="h-7 w-7" strokeWidth={2} />}
+            </span>
+          </button>
+        </div>
       </div>
 
       {open && (
         <div
-          className="fixed bottom-[5.25rem] right-3 z-[160] flex flex-col sm:bottom-[5.75rem] sm:right-6"
+          className="fixed bottom-[5.75rem] right-3 z-[160] flex flex-col sm:bottom-24 sm:right-6"
           style={CHAT_PANEL_STYLE}
         >
           <div
