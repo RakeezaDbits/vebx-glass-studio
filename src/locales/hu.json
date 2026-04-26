@@ -7,12 +7,12 @@
     "ourWork": "Portfólió",
     "expertise": "Szaktudás",
     "contactUs": "Kapcsolat",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Új szolgáltatások",
+    "newBadge": "Új",
+    "customRequirement": "Kérjen árajánlatot",
+    "designAssistant": "VXR ügynök",
+    "projects": "Projektek",
+    "privacy": "Magánélet"
   },
   "hero": {
     "tagline": "Képzelj el. Újíts. Inspirálj.",
@@ -159,10 +159,15 @@
       "title3": "Digitális átalakulás",
       "excerpt3": "Segítünk innoválni."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "Új szolgáltatások",
+    "linkCustomRequirement": "Kérjen árajánlatot",
+    "addressLine1": "Karacsi, Pakisztán",
+    "addressLine2": "Cyber ​​Jaya, Malajzia",
+    "linkTermsConditions": "Általános Szerződési Feltételek",
+    "columnGetInTouchTitle": "Vegye fel a kapcsolatot",
+    "columnGetInTouchDesc": "Van egy projekt a fejében? Nyújtsa ki a kezét, és alkossunk valami különlegeset.",
+    "followUsBar": "Kövessen minket a frissítésekért",
+    "letsConnect": "Kapcsolódjunk"
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -183,11 +188,11 @@
     "headingHighlight": "árazás",
     "desc": "Válasszon szolgáltatást és csomagot.",
     "chooseService": "Válasszon",
-    "starter": "Starter",
+    "starter": "Indító",
     "starterDesc": "Kezdéshez",
-    "professional": "Professional",
+    "professional": "Szakmai",
     "professionalDesc": "Növekedéshez",
-    "enterprise": "Enterprise",
+    "enterprise": "Vállalkozás",
     "enterpriseDesc": "Nagy projektek",
     "mostPopular": "Legnépszerűbb",
     "perProject": "/projekt",
@@ -208,9 +213,10 @@
       "dedicatedPM": "Dedikált PM",
       "unlimitedRevisions": "Korlátlan javítás",
       "12monthsSupport": "12 hónap támogatás",
-      "cicd": "CI/CD & DevOps",
+      "cicd": "CI/CD és DevOps",
       "sla": "SLA garancia"
-    }
+    },
+    "customPrice": "Szokás"
   },
   "contact": {
     "tag": "Kapcsolat",
@@ -230,9 +236,9 @@
     "saturday": "Szombat",
     "sunday": "Vasárnap",
     "closed": "Zárva",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Beszéljünk – élő csevegés",
+    "liveChatDesc": "Írjon nekünk élőben lent – ​​szöveg, kép, hang vagy videó. Itt válaszolunk.",
+    "monToSun": "hétfőtől vasárnapig"
   },
   "expertise": {
     "tag": "Szaktudás",
@@ -242,7 +248,7 @@
     "desc": "Fontos eszközök mesterei.",
     "categories": {
       "frontend": "Frontend",
-      "backend": "Backend",
+      "backend": "Háttérrendszer",
       "mobile": "Mobil",
       "cloudDevops": "Felhő & DevOps",
       "gameXR": "Játék & XR",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobil alkalmazás",
+        "desc": "Iszlám alkalmazás Androidra és iOS-re zöld márkájú élménnyel, imaidőkkel, Koránnal és egy analitikai irányítópulttal az elköteleződés betekintésére."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Webes alkalmazás",
+        "desc": "Teljes portfólió weboldal egy digitális ügynökség számára – sötét téma, piros díszítések, szolgáltatások, projektgaléria, eredmények, blog és kapcsolatfelvétel. Munkájuk és szakértelmük bemutatására készült."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Egészségügy",
+        "desc": "Orvos-beteg portál időpontok, receptek és orvosi feljegyzések számára. HIPAA-hoz igazított, a klinikák használják ütemezéshez és nyomon követéshez."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Csapatfeladatok kezelése Kanban-táblákkal, határidőkkel és valós idejű szinkronizálással. Távoli csapatok és ügynökségek számára telepítve."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Mobil alkalmazás",
+        "desc": "Étterem felfedezés, online rendelés és élő kézbesítés követése. Partneralkalmazás éttermek számára és sofőr alkalmazás logisztikához."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Eseményesítés",
+        "category": "Webes alkalmazás",
+        "desc": "Rendezvényjegy- és helyszínfoglalási platform fizetéssel, résztvevőkezeléssel és QR-bejelentkezéssel. Konferenciákhoz és workshopokhoz használják."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Szoftver",
+        "desc": "Biztonságos dokumentumtárolás elektronikus aláírással, verzióelőzményekkel és megfelelőségi ellenőrzésekkel. Jogi és pénzügyi csapatok számára készült."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobil alkalmazás",
+        "desc": "Fitnesz- és egészségkövető alkalmazás edzéstervekkel, előrehaladási irányítópultokkal és táplálkozásnaplóval. Platformok közötti Android és iOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Projektmenedzsment és munkafolyamat SaaS platform valós idejű együttműködéssel, feladattáblákkal és csapatelemzéssel távoli csapatok számára."
       },
       "neondrift": {
         "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "category": "Játékfejlesztés",
+        "desc": "Árkád stílusú versenyjáték neon esztétikával, sima vezérléssel és ranglistákkal. Beépített Unity több platformra."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "E-kereskedelem",
+        "desc": "Modern e-kereskedelmi platform termékkatalógussal, kosárral, pénztárral és szállítói irányítópulttal. Integrált fizetések és leltár."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Fizetési és pénzügyi irányítópult vállalkozások számára – tranzakciók, egyeztetés és jelentéskészítés banki szintű biztonsággal."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Tanuláskezelő platform kurzusokkal, fejlődéskövetéssel, vetélkedőkkel és tanúsítványokkal oktatók és tanulók számára."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Szoftver és IoT",
+        "desc": "IoT-alapú műveleti irányítópult az eszközök, riasztások és elemzések figyeléséhez. Intelligens létesítményekhez és logisztikához tervezték."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Digitális Marketing",
+        "desc": "Közösségi média és kampányelemző platform – elköteleződési mutatók, tartalomütemezés és ROI-jelentések márkák számára."
       }
     },
     "ctaHeading": "Legyen a következő",
@@ -403,10 +409,10 @@
     "section6": "Kérdések:",
     "email": "E-mail:",
     "address": "Cím:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "Világszerte elismert platformok és iparágvezető technológiák hajtják, amelyek támogatják és javítják szolgáltatásainkat.",
+    "partnerDisclaimerP2": "Partnereinknek tekintjük őket abban az értelemben, hogy eszközeiket és szolgáltatásaikat használjuk, anélkül, hogy bármilyen formális vagy hivatalos partnerséget vagy közvetlen kötődést feltételeznénk.",
+    "addressLine1": "Karacsi, Pakisztán",
+    "addressLine2": "Cyber ​​Jaya, Malajzia"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "Stratégiai jelenlét"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Új",
+    "heading": "Új",
+    "headingHighlight": "Szolgáltatások",
+    "subtitle": "Friss digitális kínálat – mesterséges intelligencia, tartalom- és médiamegoldások az elérhetőség növeléséhez.",
+    "getInTouch": "Beszéljünk"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Az Ön követelménye",
+    "heading": "Szokás",
+    "headingHighlight": "Követelmény",
+    "desc": "Mondja el, mire van szüksége. Válassza ki szolgáltatását, preferenciáit, és azonnali árajánlatot kap.",
+    "yourName": "Az Ön neve",
+    "namePlaceholder": "Írja be a nevét",
+    "yourEmail": "Az Ön e-mailje",
+    "emailPlaceholder": "Adja meg e-mail címét",
+    "yourPhone": "Az Ön telefonja",
+    "phonePlaceholder": "Adja meg telefonszámát",
+    "step1Title": "Érintkezés",
+    "step2Title": "Követelmény",
+    "step3Title": "Technológia és terv",
+    "step4Title": "Hivatkozás és benyújtás",
+    "step5Title": "Köszönöm",
+    "thankYouTitle": "Köszönöm!",
+    "thankYouMessage": "Megkaptuk kérését. Csapatunk hamarosan jelentkezik Önnel.",
+    "backToHome": "Vissza a Kezdőlapra",
+    "submitAnother": "Másik beküldése",
+    "nextStep": "Következő",
+    "prevStep": "Vissza",
+    "stepOf": "{{current}}. lépés / {{total}}",
+    "selectService": "Mi kell neked?",
+    "selectServicePlaceholder": "Válasszon egy szolgáltatást",
+    "selectSubType": "Projekt típusa / részletei",
+    "selectSubTypePlaceholder": "Válasszon opciót",
+    "selectTech": "Technológia/platform (válassza ki az összes megfelelőt)",
+    "selectTier": "Válasszon tervet",
+    "priceLabel": "Becsült ár",
+    "priceCustom": "Egyedi árajánlat",
+    "perProject": "projektenként",
+    "referenceLink": "Hivatkozási hivatkozás (pl. webhely vagy alkalmazás, amelyet kedvel)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Referencia kép (opcionális)",
+    "referenceImageHint": "Töltsön fel képernyőképet vagy tervezési referenciát",
+    "developBtn": "Fejleszteni",
+    "talkToTeam": "Beszélj a csapattal",
+    "submitSuccess": "A kérelem benyújtva. Hamarosan jelentkezünk.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "E-kereskedelem",
+      "social": "Társadalmi / közösségi",
+      "utility": "Hasznosság / termelékenység",
+      "enterprise": "Vállalati / belső",
+      "onDemand": "Igény szerint / szállítás",
+      "blog": "Blog / tartalomoldal",
+      "corporate": "Vállalati / üzlet",
+      "portfolio": "Portfólió / kirakat",
+      "landing": "Cél / marketing oldal",
+      "saas": "SaaS termék",
+      "dashboard": "Irányítópult / elemzés",
+      "api": "API / háttérrendszer",
+      "seo": "SEO és tartalom",
+      "ppc": "PPC és fizetett szociális",
+      "fullCampaign": "Teljes kampány",
+      "organic": "Organikus tartalom",
+      "paidSocial": "Fizetett szociális",
+      "influencer": "Befolyásoló partnerség",
+      "other": "Más"
     },
     "tech": {
-      "react": "React",
+      "react": "Reagál",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Szögletes",
       "next": "Next.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / tavasz",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
+      "headless": "Fej nélküli CMS",
+      "flutter": "Csapkod",
       "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
+      "nativeIos": "Natív iOS (Swift)",
+      "nativeAndroid": "Natív Android (Kotlin)",
+      "unity": "Egység",
       "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "other": "Egyéb / Nem biztos"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR ügynök",
+    "seoTitle": "VXR ügynök",
+    "seoDescription": "Csevegés mesterséges intelligencia asszisztensünkkel: írja le ötletét üzenetekben, készítsen referenciaképeket webhelyekhez és alkalmazásokhoz, és csatolja őket az Árajánlat kéréséhez – nincs szükség bejelentkezésre.",
+    "heroDescription": "Írjon üzenetet ötletével – referenciaképeket generálunk web- és alkalmazástervekhez",
+    "widgetAriaLabel": "Nyissa meg a VXR Agentet",
+    "widgetTooltip": "VXR Agent – ​​Nyissa meg az üzeneteket, írja le a tervet, és készítsen referenciaképeket a projekthez",
+    "drawerAriaLabel": "Tervezési ötlet — AI referenciakép",
+    "drawerSubtitle": "Ugyanaz, mint a fejléc – üzenetek + képötletek",
+    "creditsToday": "{{remaining}} / {{limit}} kredit ma",
+    "creditsLoading": "… kreditek ma",
+    "intro": "Használja az alábbi mezőt csevegésként: írja meg, amire szüksége van, egy vagy több üzenetben. Tervezési referenciaképeket csak webhelyekhez és alkalmazásokhoz készítünk. Csatolja az eredményt a Kérjen ajánlatot. Nincs szükség fiókra vagy bejelentkezésre.",
+    "promptPlaceholder": "például Ügynökség weboldala sötét témával, piros díszítéssel, modern hős résszel",
+    "generate": "Kép generálása",
+    "generating": "Létrehozás…",
+    "generatedReference": "Generált referencia",
+    "generatedImageAlt": "AI által generált tervezési referencia",
+    "referenceOnly": "Csak referencia – használja a Kérjen ajánlatot a csatoláshoz",
+    "useInQuote": "Használja a Kérjen ajánlatot",
+    "promptRequired": "Kérjük, írjon be egy tervezési ötletet vagy üzenetet.",
+    "imageDataMissing": "Nem sikerült lekérni a képadatokat.",
+    "generationFailed": "A generálás nem sikerült.",
+    "referenceAttached": "Hivatkozás csatolva. Nyitó árajánlat űrlap.",
+    "attachFailed": "Nem sikerült csatolni."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projektek",
+    "seoDescription": "Vásárolható és bérelhető projektek – hamarosan a vebxrun.com oldalon.",
+    "tag": "Piactér",
+    "heading": "Vásárlás és bérlés",
+    "headingHighlight": "projektek",
+    "heroDesc": "A megvásárolható vagy licencelhető digitális projektek válogatott célpontja. Készülünk az élményre – maradjon velünk.",
+    "comingSoon": "Hamarosan megvehető és bérelhető projektek",
+    "badge": "Hamarosan",
+    "cta": "Vegye fel a kapcsolatot",
+    "ctaHint": "Kérdései vannak? Csapatunk azért van itt, hogy segítsen."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "VXR Tech Agent — AI chat és valós idejű hívás",
+    "seoDescription": "Csevegjen vagy beszéljen élőben a VXR Tech Agenttel, hogy technológiával kapcsolatos útmutatást kapjon a szoftverekről, alkalmazásokról, webfejlesztésről, mesterséges intelligenciáról és digitális terméktervezésről.",
+    "badge": "Valós idejű műszaki ügynök",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "Műszaki ügynök",
+    "subtitle": "Csevegésen vagy élő híváson keresztül segítséget kaphat szoftverekkel, alkalmazásokkal, mesterséges intelligenciával, API-kkal, felhővel és digitális termékfejlesztéssel kapcsolatban.",
+    "chatTitle": "VXR műszaki ügynök",
+    "chatTag": "Csak műszaki segítség",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Tegyen fel műszaki kérdést, például API-tervezés, React, AI vagy felhő…",
+    "micStopTitle": "Állítsa le a felvételt",
+    "micStartTitle": "Hangbemenet",
+    "emptyResponse": "Most nem tudtam választ adni. Kérjük, küldje el újra műszaki kérdését.",
+    "requestFailed": "Az AI-csevegési kérés váratlanul meghiúsult",
+    "micDenied": "Mikrofon hozzáférés megtagadva",
+    "callEndedStatus": "A hívás véget ért",
+    "callEndedMessage": "📞 A hívás véget ért. A következő technikai kérdését a chaten küldheti el.",
+    "connecting": "Csatlakozás a valós idejű ügynökhöz…",
+    "liveConnected": "Élő, valós idejű technológiai hívás csatlakoztatva",
+    "callIntroMessage": "📞 Hanghívás csatlakoztatva. Először egy rövid üdvözlést fog hallani.",
+    "readyForCall": "Készen áll egy valós idejű műszaki hívásra",
+    "callFailedStatus": "A híváskapcsolat sikertelen",
+    "callStartFailed": "A valós idejű hívást nem lehetett elindítani",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Valós idejű hanghívás",
+    "tapEndCall": "Érintse meg a hívás befejezéséhez",
+    "startCall": "Indítsa el a valós idejű hívást",
+    "capabilitiesTitle": "Ügynöki képességek",
+    "cap1": "Webes, alkalmazás-, háttér- és AI-mérnöki útmutatás",
+    "cap2": "Architektúra, API-k, adatbázisok és felhőajánlások",
+    "cap3": "Hibakeresés, teljesítmény, méretezhetőség és biztonsági tanácsok",
+    "cap4": "Digitális termék UX műszaki munkafolyamatokhoz",
+    "cap5": "Valós idejű hanginterakció bevezetővel a hívásindításkor",
+    "quickPromptsTitle": "Gyors felszólítások",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "A legjobb technológiai csomag SaaS MVP-hez?",
+      "Hogyan tervezzek méretezhető REST API-t?",
+      "Hogyan optimalizálhatom a React alkalmazást a sebességre?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Helló! **VXR Tech Agent** vagyok. Csak technológiával kapcsolatos témákban segítek, mint például webfejlesztés, alkalmazások, mesterséges intelligencia, API-k, felhő, UX digitális termékekhez, hibakeresés és architektúra. A kezdéshez tegye fel műszaki kérdését."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobil alkalmazás",
+      "shortDesc": "Natív és többplatformos alkalmazások, amelyek lekötik a felhasználókat",
+      "longDesc": "Olyan mobilalkalmazásokat készítünk, amelyeket a felhasználók szeretnek. A natív iOS-től és Android-tól a többplatformos React Native és Flutter megoldásokig olyan hatékony, méretezhető alkalmazásokat kínálunk, amelyek összhangban vannak az üzleti céljaival. Csapatunk mindent kezel az UX tervezéstől az App Store telepítésig.",
       "features": [
-        "iOS & Android native development",
+        "iOS és Android natív fejlesztés",
         "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "UI/UX kialakítás",
+        "App Store és Play Store bevezetés",
+        "Karbantartás és frissítések"
       ],
       "highlights": [
         {
           "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "desc": "Egy kódbázis iOS-hez és Androidhoz, ha van értelme."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Teljesítmény",
+          "desc": "Sebességre, akkumulátorra és offline képességre optimalizálva."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Biztonság",
+          "desc": "Az adatok és a megfelelőség bevált gyakorlatai (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Web CMS fejlesztés",
+      "shortDesc": "Hatékony tartalomkezelési megoldások",
+      "longDesc": "Egyedi webes platformok és tartalomkezelő rendszerek, amelyek segítségével Ön irányíthatja az irányítást. A WordPress, a fej nélküli CMS és az egyéni háttérrendszerek felhasználásával építünk, így csapata anélkül tehet közzé és kezelhet tartalmat, hogy minden frissítésnél a fejlesztőktől függene.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress és fej nélküli CMS",
+        "Egyéni adminisztrációs panelek",
+        "API-first architektúra",
+        "Több webhely és többnyelvű",
+        "SEO-barát szerkezet"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Könnyű tartalomfrissítések",
+          "desc": "Intuitív irányítópultok nem műszaki csapatok számára."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Méretezhető",
+          "desc": "Úgy tervezték, hogy növekedjen a forgalommal és a tartalommal."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integrációk",
+          "desc": "Csatlakozzon a CRM-hez, az analitikai és marketingeszközökhöz."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Szoftverfejlesztés",
+      "shortDesc": "Egyedi szoftver az Ön igényei szerint",
+      "longDesc": "A SaaS termékektől a vállalati rendszerekig olyan egyedi szoftvereket készítünk, amelyek illeszkednek az Ön munkafolyamataihoz. Modern kötegeket és agilis szállítást használunk, így olyan megoldást kaphat, amely skálázható és fejlődik az Ön vállalkozásával.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS és webes alkalmazások",
+        "Vállalati rendszerek",
+        "API-k és integrációk",
+        "Felhőbevezetés (AWS, Azure, GCP)",
+        "Agilis szállítás"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Egyedi építésű",
+          "desc": "Nincs kész kompromisszum – az Ön igényeinek megfelelően."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Modern verem",
+          "desc": "React, Node, Python, .NET és bevált technológiák."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Folyamatos támogatás",
+          "desc": "Karbantartás, frissítések és funkciók fejlesztése."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Vállalati márkaépítés",
+      "shortDesc": "Merész márkaidentitás, amely kiemelkedik",
+      "longDesc": "Olyan márkaidentitásokat hozunk létre, amelyek kommunikálnak Önnel, és rezonálnak a közönségével. A logótervezéstől és a vizuális irányelvektől a teljes márkastratégiáig segítünk, hogy kitűnjön a piacon.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logó és vizuális identitás",
+        "Márka irányelvei",
+        "Márkastratégia",
+        "Fedezet kialakítás",
+        "Digitális eszközkészletek"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Különleges identitás",
+          "desc": "Emlékezetes logók és következetes vizuális nyelv."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Stratégia által vezetett",
+          "desc": "Vállalkozásodhoz és közönségedhez kötött márkaválasztás."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Használatra kész",
+          "desc": "Eszközök és iránymutatások minden érintkezési ponthoz."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Online digitális marketing",
+      "shortDesc": "Adatvezérelt növekedési stratégiák",
+      "longDesc": "Növelje elérését és konverzióit SEO, PPC, tartalommarketing és konverzióoptimalizálással. A mérhető eredményekre és a fenntartható növekedésre összpontosítunk, nem a hiúsági mutatókra.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO és tartalomstratégia",
+        "PPC és fizetett szociális",
+        "Konverzióoptimalizálás",
+        "Elemzés és jelentéskészítés",
+        "Marketing automatizálás"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Adatvezérelt",
+          "desc": "Elemzésen és tesztelésen alapuló döntések."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Teljes tölcsér",
+          "desc": "Figyelemfelkeltő, megfontolt és konverziós kampányok."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Átlátható jelentéskészítés",
+          "desc": "Világos mutatók és rendszeres felülvizsgálatok."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D és animáció",
+      "shortDesc": "Lenyűgöző látványvilág, amely elmeséli történetét",
+      "longDesc": "Mozgógrafikák, magyarázó videók és filmes animációk, amelyek lekötnek és megmagyaráznak. Minden platformon 2D-s és 3D-s tartalmat készítünk hirdetésekhez, termékbemutatókhoz és márkatörténetek meséléséhez.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Mozgó grafika",
+        "Magyarázó videók",
+        "2D és 3D animáció",
+        "Karakter animáció",
+        "Közösségi és hirdetési tartalom"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Történet az első",
+          "desc": "Minden keret támogatja üzenetét és márkáját."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Több formátumú",
+          "desc": "A rövid közösségi klipektől a hosszú formájú magyarázókig."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "Márkanéven",
+          "desc": "A vizuális identitásodnak megfelelő stílus."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D renderelő szolgáltatások",
+      "shortDesc": "Fotorealisztikus 3D vizualizációk",
+      "longDesc": "Kiváló minőségű 3D renderek építészethez, termékvizualizációhoz és marketinghez. Fotorealisztikus képeket és animációkat szállítunk, amelyek bemutatják termékeit és tereit, mielőtt azok a való világban megjelennének.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Építészeti vizualizáció",
+        "Termék renderelés",
+        "CGI marketinghez",
+        "Belső és külső",
+        "Animáció és bemutatók"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealisztikus",
+          "desc": "Valódinak tűnő világítás és anyagok."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Bármilyen iparág",
+          "desc": "Ingatlan, kiskereskedelem, autóipar stb."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Gyors iterációk",
+          "desc": "Gyors változtatások fizikai újrafelvételek nélkül."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Metaverzum fejlesztés",
+      "shortDesc": "Következő generációs magával ragadó digitális világok",
+      "longDesc": "Metaverzum élményeket tervezünk és építünk: virtuális tereket, digitális ikreket és magával ragadó környezeteket események, kiskereskedelem és közösség számára. Az ötlettől a vezető platformokon történő bevezetésig.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Virtuális terek és világok",
+        "Digitális ikrek",
+        "VR/AR integráció",
+        "Többfelhasználós élmények",
+        "Web3-ra kész élmények"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Magával ragadó",
+          "desc": "Valódinak és vonzónak ható terek."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Méretezhető",
+          "desc": "Számos egyidejű felhasználót támogató architektúra."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Márkakész",
+          "desc": "Egyedi környezetek, amelyek tükrözik a márkáját."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Játékfejlesztés",
+      "shortDesc": "Lebilincselő játékok minden platformon",
+      "longDesc": "A mobiljátékoktól a számítógépekig és a konzolokig olyan játékokat készítünk, amelyeket a játékosok szeretnek. A Unity és az Unreal Engine segítségével eredeti IP-címet, komoly játékokat és márkás élményeket készítünk, a játékmenetre és a finomításra összpontosítva.",
       "features": [
-        "Mobile, PC & console",
+        "Mobil, PC és konzol",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Játéktervezés és mechanika",
+        "Többjátékos és élő műveletek",
+        "Portolás és optimalizálás"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Teljes gyártás",
+          "desc": "Tervezés, művészet, kódolás és indítási támogatás."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Bevált motorok",
+          "desc": "Unity és Unreal a minőségért és a teljesítményért."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Indítás után",
+          "desc": "Frissítések, események és közösségi funkciók."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Kiterjesztett valóság",
+      "shortDesc": "AR/VR/MR élmények, amelyek átalakulnak",
+      "longDesc": "AR, VR és vegyes valóság tapasztalatok képzéshez, marketinghez és termékvizualizációhoz. Fejhallgatókon és mobileszközökön futó alkalmazásokat készítünk alkalmazottak képzésére, termékek bemutatására vagy magával ragadó kampányok létrehozására.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR-alkalmazások (mobilra és szemüvegre)",
+        "VR képzés és szimulációk",
+        "Vegyes valóság élményei",
+        "Virtuális túrák",
+        "Hardver-agnosztikus kialakítás"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Gyakorlati felhasználási esetek",
+          "desc": "Képzés, értékesítés és marketing, amelyek növelik a megtérülést."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Több eszköz",
+          "desc": "Működik telefonokon, táblagépeken és XR fejhallgatókon."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Felhasználó által tesztelt",
+          "desc": "Kényelem és használhatóság a lényeg."
         }
       ]
     },
     "social-media-marketing": {
       "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "shortDesc": "Stratégiai társadalmi jelenlét és elkötelezettség",
+      "longDesc": "Stratégiával, tartalommal és közösségi menedzseléssel építjük és kezeljük társadalmi jelenlétét. Az organikus tartalomtól az influencer partnerségekig és a fizetett közösségi oldalakig segítünk elérni a megfelelő közönséggel.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Tartalom stratégia és alkotás",
+        "Közösségi menedzsment",
+        "Befolyásoló partnerségek",
+        "Fizetett közösségi kampányok",
+        "Elemzés és jelentéskészítés"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Márka hangja",
+          "desc": "Olyan tartalom, amely úgy hangzik, mint te, és visszhangzik."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Közösség",
+          "desc": "Elköteleződés, amely lojalitást és érdekképviseletet épít."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Fizetett + bio",
+          "desc": "Integrált megközelítés a maximális eléréshez."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI megoldások",
+      "shortDesc": "A mesterséges intelligencia által vezérelt chatbotok, automatizálás és intelligens munkafolyamatok a műveletek egyszerűsítésére és a felhasználók bevonására szolgálnak.",
+      "longDesc": "AI-alapú megoldásokat építünk, amelyek átalakítják az Ön munkáját és elkötelezettségét. Az egyéni chatbotoktól és a virtuális asszisztensektől a folyamatautomatizálásig és az intelligens munkafolyamatokig segítünk az AI kihasználásában, hogy időt takarítson meg, bővítse a támogatást és jobb élményt nyújtson. Megoldásaink integrálhatók az Ön meglévő eszközeivel, és a valós megbízhatóságra tervezték.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Egyedi chatbotok és virtuális asszisztensek",
+        "Folyamatautomatizálás és munkafolyamatok",
+        "LLM integráció és finomhangolás",
+        "API integrációk",
+        "Analitika és optimalizálás"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Rád szabva",
+          "desc": "A mesterséges intelligencia az Ön munkafolyamataira és márkahangjára épül."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Biztonságos és méretezhető",
+          "desc": "Vállalati használatra kész, egyértelmű adatkezeléssel."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Folyamatos fejlesztés",
+          "desc": "A használat és a visszajelzések alapján iteráljuk."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "Ebook tervezés és kiadás",
+      "shortDesc": "Professzionális e-könyv-elrendezés, borítótervezés és terjesztés Kindle, Apple Books és más platformokon.",
+      "longDesc": "A kézirattól a kirakatig – mi kezeljük az e-könyvek tervezését, formázását és terjesztését, hogy könyve profinak tűnjön és fogyjon. Reszponzív elrendezéseket, szemet gyönyörködtető borítókat és rangsoroló metaadatokat készítünk. Akár író, akár kiadó, e-könyvét élőben elérhetővé tesszük a Kindle, az Apple Books, a Kobo és más oldalakon.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Belső elrendezés és tipográfia",
+        "Borítóterv",
+        "EPUB és Kindle formázás",
+        "Többplatformos disztribúció",
+        "Metaadatok és SEO könyvekhez"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Olvasó előtti kialakítás",
+          "desc": "Minden eszközön és betűméreten működő elrendezések."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Tárolásra kész",
+          "desc": "Kompatibilis a Kindle, Apple és más kereskedők szabványaival."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Gyors fordulat",
+          "desc": "Világos idővonalak a tervezettől a közzétételig."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Digitális Magazin",
+      "shortDesc": "Lenyűgöző digitális magazintervezés és interaktív elrendezések márkák és kiadók számára.",
+      "longDesc": "Olyan digitális magazinokat tervezünk és készítünk, amelyeket az olvasók szeretnek. A szerkesztői elrendezésektől és az interaktív elemektől az előfizetésig és az interneten és az alkalmazásokban nyújtott olvasási élményekig olyan kiadványokat készítünk, amelyek kiemelkednek. Tökéletes márkák, kiadók és bárki számára, aki a tartalmat csiszolt digitális termékké alakítja.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Szerkesztői elrendezés tervezése",
+        "Interaktív elemek",
+        "Internetes és alkalmazások közzététele",
+        "Előfizetési folyamatok",
+        "Elemzés és elköteleződés"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Szerkesztői minőség",
+          "desc": "Prémium érzetű és könnyen olvasható elrendezések."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Megnyerő",
+          "desc": "Interaktivitás, amely görgetésben tartja az olvasókat."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Bevételszerzésre kész",
+          "desc": "Beépített fizetőfalak és tagságok."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "E-újság",
+      "shortDesc": "Digitális újságok és hírportálok kialakítása reszponzív elrendezéssel és egyszerű tartalomfrissítésekkel.",
+      "longDesc": "Digitális újságokat és hírportálokat építünk, amelyek előtérbe helyezik történeteit. Az adaptív elrendezések, a gyors betöltés és az egyszerű CMS-integráció azt jelenti, hogy csapata technikai probléma nélkül tud közzétenni és frissíteni. Az olvashatóságra, a hozzáférhetőségre és a minden eszközön működő élményre összpontosítunk.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Reszponzív hírelrendezés",
+        "CMS integráció",
+        "Gyors betöltés és SEO",
+        "Friss hírek és rovatok",
+        "Hirdetések és szponzorációs helyek"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Olvasóbarát",
+          "desc": "Tiszta hierarchia és tipográfia a hosszú olvasáshoz."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Könnyen frissíthető",
+          "desc": "A nem fejlesztők közzétehetnek és kezelhetnek tartalmat."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Bevételre kész",
+          "desc": "A hirdetési egységeket és az előfizetési lehetőségeket tartalmazza."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Podcast gyártás",
+      "shortDesc": "Professzionális hangzású podcastok rögzítése, szerkesztése, jegyzetek megjelenítése és terjesztése.",
+      "longDesc": "Az ötlettől a fülig eljuttatjuk podcastját. Csapatunk kezeli a felvétel beállítását, a szerkesztést, a keverést, a jegyzetek megjelenítését és a terjesztést, így Ön a beszélgetésre összpontosíthat. Műsorszórási minőségű hangot és egységes márkajelzést biztosítunk, így műsora olyan jól szól, mint amilyen jól hangzik a fejében.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Felvétel és szerkesztés",
+        "Keverés és mastering",
+        "Jegyzetek és átiratok megjelenítése",
+        "Műalkotások és márkaépítés",
+        "Terjesztés és RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Az adás minősége",
+          "desc": "Tiszta hang, amely professzionálisan szól."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Kulcsrakész",
+          "desc": "Mi kezeljük a teljes csővezetéket, így Önnek nem kell."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Konzisztens márka",
+          "desc": "Műsorához illő műalkotások és jegyzetek."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografika és adatok Viz",
+      "shortDesc": "Világos, lebilincselő infografikák és adatvizualizációk, amelyek megkönnyítik az összetett információk megosztását.",
+      "longDesc": "Az adatokat és ötleteket megosztható látványelemekké alakítjuk. A statikus infografikáktól az interaktív irányítópultokig és jelentésekig az összetett információkat egyértelművé és vonzóvá tesszük. Ideális jelentésekhez, prezentációkhoz, közösségi tartalmakhoz és belső kommunikációkhoz, amelyeknek ragaszkodniuk kell.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Statikus infografika",
+        "Interaktív adatok pl",
+        "Beszámolók és prezentációk",
+        "Közösségi használatra kész formátumok",
+        "Márkához igazított design"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Első a tisztaság",
+          "desc": "Tervezés, amely nyilvánvalóvá teszi az üzenetet."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Megosztható",
+          "desc": "Olyan formátumok, amelyek működnek a közösségi oldalon és a paklikban."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Pontos",
+          "desc": "Olyan adatok, amelyek tiszteletben tartják a számokat."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Chatbot fejlesztés",
+      "shortDesc": "Egyedi chatbotok támogatáshoz, értékesítéshez és elkötelezettséghez – integrálva a meglévő eszközökkel.",
+      "longDesc": "Olyan chatbotokat építünk, amelyek valóban segítenek. Legyen szó ügyfélszolgálatról, vezető minősítésről vagy belső munkafolyamatokról, robotjaink az Ön folyamataira épülnek, és integrálva vannak a CRM-mel, az ügyfélszolgálattal és az alkalmazásokkal. Bevált mesterséges intelligencia- és beszélgetéstervet használunk, így a felhasználók gyorsan választ kapnak, csapata pedig megkönnyebbülést kap.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Beszélgetés tervezése",
+        "CRM és helpdesk integráció",
+        "Többcsatornás (web, WhatsApp stb.)",
+        "Analitika és képzés",
+        "Átadás embereknek"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Illik a veremhez",
+          "desc": "A már használt eszközökkel működik."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Emberi átadás",
+          "desc": "Sima eszkaláció, amikor a bot nem tud segíteni."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Idővel javul",
+          "desc": "Valódi beszélgetések alapján hangolunk."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Szövegírás és tartalom",
+      "shortDesc": "SEO-barát másolat, blogbejegyzések és marketingtartalom, amely átalakítja és rangsorolja.",
+      "longDesc": "Olyan példányt írunk, amely konvertál, és tartalmat, amely rangsorol. A nyitóoldalaktól és a termékpéldányoktól a blogsorozatokig és a SEO-tartalomig megfelelünk az Ön hangjának és céljainak. Minden darab az egyértelműség, a meggyőzés és a keresés érdekében készült – így Ön forgalmat és konverziókat is kap.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Céloldalak és termékmásolat",
+        "Blog és SEO tartalom",
+        "E-mail sorozatok",
+        "Hirdetésmásolat és közösségi",
+        "Tartalom stratégia"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Márka hangja",
+          "desc": "Másolja azt a hangot, mint te és a közönség."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO beépített",
+          "desc": "Keresésre és megosztásra strukturált tartalom."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Konverzióközpontú",
+          "desc": "A tű mozgatására kiválasztott minden szó."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Közösségi és YouTube-tartalom",
+      "shortDesc": "Tekercsek, történetek, körhinta, YouTube-videók és kampányok a Facebook, Instagram, TikTok és YouTube számára.",
+      "longDesc": "Olyan tartalmat hozunk létre, amely látható és megosztható a Facebookon, az Instagramon, a TikTokon és a YouTube-on. A tekercsektől és történetektől a körhintákig, YouTube-szkriptekig, miniatűrökig és videószerkesztésig – márkán belüli tartalmat készítünk minden nagyobb platformra. A kreatív irányvonalat a platform bevált gyakorlataival kombináljuk, így hírcsatornája és csatornája professzionálisan néz ki, mutatói pedig mozognak.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Tekercsek, történetek és rövid formák (IG, TikTok, FB)",
+        "YouTube-szkriptek, miniatűrök és szerkesztés",
+        "Körhinta és statikus bejegyzések",
+        "Kampánykoncepciók és tartalomnaptárak",
+        "Másolás, hashtagek és keresőoptimalizálás közösségi célokra"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Minden platform",
+          "desc": "Facebook, Instagram, TikTok és YouTube egy helyen."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Következetes megjelenés",
+          "desc": "Sablonok és stílus útmutatók márkájához."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Készen áll a bejegyzésre",
+          "desc": "A végső eszközök és a feliratok ütemezetten kézbesítve."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Szolgáltatás",
+    "offerBefore": "Amit mi",
+    "offerHighlight": "ajánlat",
+    "whyBefore": "Miért kell dolgozni",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Készen áll",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Beszéljük meg projektjét, és építsünk együtt valami nagyszerűt.",
+    "ctaButton": "Beszéljünk",
+    "backAllServices": "← Minden szolgáltatás"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Otthon",
+    "homeDescription": "vebxrun — Mobilalkalmazások, webfejlesztés, játékfejlesztés, metaverzum, mesterséges intelligencia megoldások és digitális marketing. Képzeld. Innováció. Inspirálj.",
+    "servicesTitle": "Szolgáltatások",
+    "servicesDescription": "Mobilalkalmazások, web- és CMS-fejlesztés, szoftverfejlesztés, vállalati márkaépítés, digitális marketing, 2D/3D animáció, metaverzum, játékfejlesztés és egyebek. Fedezze fel a vebxrun szolgáltatásokat.",
+    "pricingTitle": "Árképzés",
+    "pricingDescription": "Átlátható árazás mobilalkalmazásokhoz, webfejlesztéshez és digitális megoldásokhoz. Kezdő, professzionális és vállalati tervek. Kérjen árajánlatot a vebxrun-tól."
+  },
+  "liveChatWidget": {
+    "online": "Online",
+    "closeChat": "Csevegés bezárása",
+    "openChat": "Csevegés velünk",
+    "skipToLiveChat": "Ugrás az Élő csevegésre →",
+    "nameLabel": "Név",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Szolgáltatás",
+    "sending": "Küldés…",
+    "orLiveChat": "vagy inkább indítson élő csevegést",
+    "toastNameEmailRequired": "Név és e-mail cím megadása kötelező",
+    "toastRequestSent": "Kérés elküldve!",
+    "toastSubmitFailed": "Nem sikerült elküldeni. Próbáld újra.",
+    "submittedTitle": "Kérés elküldve!",
+    "submittedDesc": "Hamarosan jelentkezünk.",
+    "startLiveChat": "Indítsa el az élő csevegést",
+    "secondsShort": "{{count}}s"
   }
 }

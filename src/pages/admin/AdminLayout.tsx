@@ -1,5 +1,15 @@
 import { Outlet, Link, useNavigate, useLocation } from "react-router-dom";
-import { LayoutDashboard, Mail, FileText, FolderOpen, Wrench, Settings, LogOut, MessageCircle } from "lucide-react";
+import {
+  LayoutDashboard,
+  Mail,
+  FileText,
+  FolderOpen,
+  Wrench,
+  Settings,
+  LogOut,
+  MessageCircle,
+  Megaphone,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { clearAdminToken } from "@/lib/api";
 import { cn } from "@/lib/utils";
@@ -12,6 +22,7 @@ const nav = [
   { to: "/admin/projects", label: "Projects", icon: FolderOpen },
   { to: "/admin/services", label: "Services", icon: Wrench },
   { to: "/admin/expertise", label: "Expertise", icon: Wrench },
+  { to: "/admin/social-automation", label: "Social automation", icon: Megaphone },
   { to: "/admin/settings", label: "Settings", icon: Settings },
 ];
 

@@ -43,11 +43,11 @@ Ye **Google Business Profile (GBP)** se aata hai. Bina GBP ke panel usually nahi
 1. **Google Business Profile banao**
    - [business.google.com](https://business.google.com) pe jao
    - “Add your business to Google” / “Manage now”
-   - **Business name:** vebx.run (ya jo official name hai)
+   - **Business name:** vebxrun.com (ya jo official name hai)
    - **Category:** e.g. “Software company” / “Web development company”
    - **Address:** wahi jo site pe hai (117 S Lexington Street STN 100, Harrisonville, MO 64701)
    - **Phone:** jo contact number use karti ho
-   - **Website:** https://vebx.run
+   - **Website:** https://vebxrun.com
    - **Hours** (optional but helpful)
 
 2. **Verify karo**  

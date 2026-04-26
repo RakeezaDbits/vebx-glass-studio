@@ -7,12 +7,12 @@
     "ourWork": "포트폴리오",
     "expertise": "전문기술",
     "contactUs": "문의하기",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "새로운 서비스",
+    "newBadge": "새로운",
+    "customRequirement": "견적 받기",
+    "designAssistant": "VXR 에이전트",
+    "projects": "프로젝트",
+    "privacy": "은둔"
   },
   "hero": {
     "tagline": "상상하다. 혁신하다. 영감을 주다.",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "연락 주세요.",
     "getInTouch": "문의하기",
     "copyright": "저작권 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "베벡스 런",
     "stayInLoop": "소식 받기",
     "stayInLoopDesc": "디지털 혁신 소식.",
     "subscribe": "구독",
@@ -159,13 +159,18 @@
       "title3": "성장을 이끄는 디지털 전환",
       "excerpt3": "기술로 혁신 지원."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "새로운 서비스",
+    "linkCustomRequirement": "견적 받기",
+    "addressLine1": "파키스탄 카라치",
+    "addressLine2": "말레이시아 사이버자야",
+    "linkTermsConditions": "이용약관",
+    "columnGetInTouchTitle": "연락하기",
+    "columnGetInTouchDesc": "염두에 두고 있는 프로젝트가 있나요? 손을 뻗어 특별한 것을 만들어 보세요.",
+    "followUsBar": "업데이트를 받으려면 우리를 팔로우하세요",
+    "letsConnect": "연결하자"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "베벡스 런",
     "explore": "탐색"
   },
   "servicesPage": {
@@ -208,9 +213,10 @@
       "dedicatedPM": "전담 PM",
       "unlimitedRevisions": "무제한 수정",
       "12monthsSupport": "12개월 지원",
-      "cicd": "CI/CD & DevOps",
+      "cicd": "CI/CD 및 DevOps",
       "sla": "SLA 보증"
-    }
+    },
+    "customPrice": "관습"
   },
   "contact": {
     "tag": "문의",
@@ -230,9 +236,9 @@
     "saturday": "토요일",
     "sunday": "일요일",
     "closed": "휴무",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Let's Talk - 실시간 채팅",
+    "liveChatDesc": "텍스트, 이미지, 오디오, 비디오 등 아래에서 실시간으로 메시지를 보내주세요. 여기에 답변드립니다.",
+    "monToSun": "월요일 – 일요일"
   },
   "expertise": {
     "tag": "전문기술",
@@ -303,79 +309,79 @@
         "desc": "대기업 브랜드 리뉴얼."
       },
       "emaanai": {
-        "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "title": "에만 아이",
+        "category": "모바일 애플리케이션",
+        "desc": "친환경 브랜드 경험, 기도 시간, 꾸란, 참여 통찰력을 위한 분석 대시보드를 갖춘 Android 및 iOS용 이슬람 앱입니다."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "웹 애플리케이션",
+        "desc": "디지털 에이전시를 위한 전체 포트폴리오 웹사이트 - 어두운 테마, 빨간색 액센트, 서비스, 프로젝트 갤러리, 성과, 블로그 및 연락처. 자신의 작업과 전문 지식을 선보이기 위해 제작되었습니다."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "헬스케어",
+        "desc": "약속, 처방전, 의료 기록을 위한 의사-환자 포털입니다. HIPAA에 맞춰 진료소에서 예약 및 후속 조치를 위해 사용됩니다."
       },
       "taskflow": {
-        "title": "TaskFlow",
+        "title": "작업 흐름",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Kanban 보드, 마감일 및 실시간 동기화를 통한 팀 작업 관리. 원격 팀 및 대행사를 위해 배포되었습니다."
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "푸드대쉬",
+        "category": "모바일 애플리케이션",
+        "desc": "레스토랑 검색, 온라인 주문 및 실시간 배달 추적. 레스토랑용 파트너 앱과 물류용 드라이버 앱입니다."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "이벤트화하다",
+        "category": "웹 애플리케이션",
+        "desc": "결제, 참석자 관리, QR 체크인 기능을 갖춘 이벤트 티켓팅 및 장소 예약 플랫폼입니다. 컨퍼런스 및 워크샵에 사용됩니다."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "소프트웨어",
+        "desc": "전자 서명, 버전 기록, 규정 준수 제어를 통해 문서를 안전하게 보관하세요. 법률 및 재무 팀을 위해 제작되었습니다."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "모바일 애플리케이션",
+        "desc": "운동 계획, 진행 상황 대시보드, 영양 기록 기능을 갖춘 피트니스 및 건강 추적 앱입니다. Android 및 iOS용 크로스 플랫폼."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "원격 팀을 위한 실시간 협업, 작업 보드 및 팀 분석 기능을 갖춘 프로젝트 관리 및 워크플로우 SaaS 플랫폼입니다."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "네온 드리프트",
+        "category": "게임 개발",
+        "desc": "네온 미학, 부드러운 컨트롤, 순위표를 갖춘 아케이드 스타일의 레이싱 게임입니다. 다양한 플랫폼을 위해 Unity로 구축되었습니다."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "전자상거래",
+        "desc": "제품 카탈로그, 카트, 결제 및 공급업체 대시보드를 갖춘 최신 전자상거래 플랫폼입니다. 통합 결제 및 재고."
       },
       "paybridge": {
-        "title": "PayBridge",
-        "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "title": "페이브릿지",
+        "category": "핀테크",
+        "desc": "기업을 위한 결제 및 재무 대시보드 — 은행급 보안을 갖춘 거래, 조정 및 보고."
       },
       "learnhub": {
-        "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "title": "런허브",
+        "category": "교육기술",
+        "desc": "교육자와 학습자를 위한 강좌, 진행 상황 추적, 퀴즈, 인증서가 포함된 학습 관리 플랫폼입니다."
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "스마트옵스",
+        "category": "소프트웨어 및 IoT",
+        "desc": "자산, 경고 및 분석을 모니터링하기 위한 IoT 기반 운영 대시보드입니다. 스마트 시설과 물류를 위해 구축되었습니다."
       },
       "engagelab": {
-        "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "title": "인게이지랩",
+        "category": "디지털 마케팅",
+        "desc": "소셜 미디어 및 캠페인 분석 플랫폼 — 브랜드에 대한 참여 지표, 콘텐츠 일정 및 ROI 보고."
       }
     },
     "ctaHeading": "다음",
@@ -403,10 +409,10 @@
     "section6": "질문이 있으시면:",
     "email": "이메일:",
     "address": "주소:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "당사의 서비스를 지원하고 향상시키는 세계적으로 인정받는 플랫폼과 업계 최고의 기술을 기반으로 합니다.",
+    "partnerDisclaimerP2": "그들은 공식적 또는 공식적인 파트너십이나 직접적인 제휴를 암시하지 않고 우리가 그들의 도구와 서비스를 활용한다는 점에서 우리의 파트너로 간주됩니다.",
+    "addressLine1": "파키스탄 카라치",
+    "addressLine2": "말레이시아 사이버자야"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "전략적 소셜 운영"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "새로운",
+    "heading": "새로운",
+    "headingHighlight": "서비스",
+    "subtitle": "새로운 디지털 제품 — 도달 범위를 넓힐 수 있는 AI, 콘텐츠, 미디어 솔루션입니다.",
+    "getInTouch": "이야기하자"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "귀하의 요구 사항",
+    "heading": "관습",
+    "headingHighlight": "요구 사항",
+    "desc": "필요한 것이 무엇인지 알려주십시오. 서비스와 선호도를 선택하고 즉시 가격 견적을 받아보세요.",
+    "yourName": "당신의 이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "yourEmail": "귀하의 이메일",
+    "emailPlaceholder": "이메일을 입력하세요",
+    "yourPhone": "귀하의 전화",
+    "phonePlaceholder": "전화번호를 입력하세요",
+    "step1Title": "연락하다",
+    "step2Title": "요구 사항",
+    "step3Title": "기술 및 계획",
+    "step4Title": "참조 및 제출",
+    "step5Title": "감사합니다",
+    "thankYouTitle": "감사합니다!",
+    "thankYouMessage": "귀하의 요구 사항이 접수되었습니다. 우리 팀이 곧 연락을 드릴 것입니다.",
+    "backToHome": "홈으로 돌아가기",
+    "submitAnother": "다른 제출",
+    "nextStep": "다음",
+    "prevStep": "뒤쪽에",
+    "stepOf": "{{total}}의 {{current}} 단계",
+    "selectService": "뭐가 필요하세요?",
+    "selectServicePlaceholder": "서비스를 선택하세요",
+    "selectSubType": "프로젝트 유형/내용",
+    "selectSubTypePlaceholder": "옵션을 선택하세요",
+    "selectTech": "기술/플랫폼(해당 항목 모두 선택)",
+    "selectTier": "요금제 선택",
+    "priceLabel": "예상 가격",
+    "priceCustom": "맞춤 견적",
+    "perProject": "프로젝트당",
+    "referenceLink": "참조 링크(예: 원하는 웹사이트 또는 앱)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "참조 이미지(선택사항)",
+    "referenceImageHint": "스크린샷 또는 디자인 참조 업로드",
+    "developBtn": "개발하다",
+    "talkToTeam": "팀과 대화",
+    "submitSuccess": "요청이 제출되었습니다. 곧 연락드리겠습니다.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "전자상거래",
+      "social": "소셜/커뮤니티",
+      "utility": "유틸리티 / 생산성",
+      "enterprise": "기업/내부",
+      "onDemand": "주문형/배송",
+      "blog": "블로그/콘텐츠 사이트",
+      "corporate": "기업 / 사업",
+      "portfolio": "포트폴리오/쇼케이스",
+      "landing": "랜딩/마케팅 페이지",
+      "saas": "SaaS 제품",
+      "dashboard": "대시보드/분석",
+      "api": "API/백엔드",
+      "seo": "SEO 및 콘텐츠",
+      "ppc": "PPC 및 유료 소셜",
+      "fullCampaign": "전체 캠페인",
+      "organic": "유기농 콘텐츠",
+      "paidSocial": "유료 소셜",
+      "influencer": "인플루언서 파트너십",
+      "other": "다른"
     },
     "tech": {
-      "react": "React",
+      "react": "반응하다",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "모난",
       "next": "Next.js",
-      "nuxt": "Nuxt",
-      "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "nuxt": "누스트",
+      "laravel": "라라벨(PHP)",
+      "aspnet": "ASP.NET/.NET 코어",
       "node": "Node.js",
-      "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
-      "wordpress": "WordPress",
-      "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "python": "Python(Django/FastAPI)",
+      "java": "자바 / 봄",
+      "wordpress": "워드프레스",
+      "shopify": "쇼피파이",
+      "headless": "헤드리스 CMS",
+      "flutter": "설레다",
+      "reactNative": "네이티브 반응",
+      "nativeIos": "네이티브 iOS(Swift)",
+      "nativeAndroid": "네이티브 안드로이드(Kotlin)",
+      "unity": "단일성",
+      "unreal": "언리얼 엔진",
+      "other": "기타 / 확실하지 않음"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR 에이전트",
+    "seoTitle": "VXR 에이전트",
+    "seoDescription": "AI 비서와 채팅하세요. 메시지로 아이디어를 설명하고, 웹사이트 및 앱용 디자인 참조 이미지를 생성하고, 견적 받기에 첨부하세요. 로그인이 필요하지 않습니다.",
+    "heroDescription": "아이디어가 담긴 메시지를 입력하세요. 웹 및 앱 디자인을 위한 참조 이미지가 생성됩니다.",
+    "widgetAriaLabel": "VXR 에이전트 열기",
+    "widgetTooltip": "VXR 에이전트 — 메시지를 열고, 설계를 설명하고, 프로젝트에 대한 참조 이미지를 생성합니다.",
+    "drawerAriaLabel": "디자인 아이디어 — AI 참고 이미지",
+    "drawerSubtitle": "헤더와 동일 — 메시지 + 이미지 아이디어",
+    "creditsToday": "오늘 {{remaining}} / {{limit}} 크레딧",
+    "creditsLoading": "... 오늘 크레딧",
+    "intro": "아래 상자를 채팅처럼 사용하세요. 하나 이상의 메시지에 필요한 내용을 적어보세요. 우리는 웹사이트와 앱에 대해서만 디자인 참조 이미지를 생성합니다. 견적 받기에 결과를 첨부하세요. 계정이나 로그인이 필요하지 않습니다.",
+    "promptPlaceholder": "예를 들어 어두운 테마, 빨간색 액센트, 현대적인 영웅 섹션이 있는 대행사 웹사이트",
+    "generate": "이미지 생성",
+    "generating": "생성 중…",
+    "generatedReference": "생성된 참조",
+    "generatedImageAlt": "AI 생성 디자인 참조",
+    "referenceOnly": "참조용 - 첨부할 견적 받기에 사용",
+    "useInQuote": "견적 받기에 사용",
+    "promptRequired": "디자인 아이디어나 프롬프트를 입력해주세요.",
+    "imageDataMissing": "이미지 데이터를 가져올 수 없습니다.",
+    "generationFailed": "생성에 실패했습니다.",
+    "referenceAttached": "참고자료 첨부. 견적서 양식을 엽니다.",
+    "attachFailed": "첨부하지 못했습니다."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "프로젝트",
+    "seoDescription": "구매 및 임대 프로젝트 - 곧 vebxrun.com에서 제공됩니다.",
+    "tag": "시장",
+    "heading": "구매 및 대여",
+    "headingHighlight": "프로젝트",
+    "heroDesc": "구매하거나 라이선스를 부여할 수 있는 디지털 프로젝트를 위한 엄선된 공간입니다. We are preparing the experience — stay tuned.",
+    "comingSoon": "구매 및 임대 프로젝트가 곧 출시됩니다",
+    "badge": "곧 출시 예정",
+    "cta": "연락하세요",
+    "ctaHint": "질문이 있으신가요? 우리 팀이 도와드리겠습니다."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "VXR 기술 에이전트 — AI 채팅 및 실시간 통화",
+    "seoDescription": "소프트웨어, 앱, 웹 개발, AI 및 디지털 제품 엔지니어링에 대한 기술 관련 지침을 VXR Tech Agent와 실시간으로 채팅하거나 대화하세요.",
+    "badge": "실시간 기술 에이전트",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "기술 에이전트",
+    "subtitle": "채팅이나 실시간 통화를 통해 소프트웨어, 앱, AI, API, 클라우드 및 디지털 제품 엔지니어링에 대한 도움을 받으세요.",
+    "chatTitle": "VXR 기술 에이전트",
+    "chatTag": "기술 전용 지원",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "API 디자인, React, AI, 클라우드 등 기술 관련 질문을 해보세요…",
+    "micStopTitle": "녹음 중지",
+    "micStartTitle": "음성 입력",
+    "emptyResponse": "지금은 응답을 생성할 수 없습니다. 기술 관련 질문을 다시 보내주세요.",
+    "requestFailed": "AI 채팅 요청이 예기치 않게 실패했습니다.",
+    "micDenied": "마이크 액세스가 거부되었습니다.",
+    "callEndedStatus": "통화가 종료되었습니다.",
+    "callEndedMessage": "📞 통화가 종료되었습니다. 채팅을 통해 다음 기술 질문을 보낼 수 있습니다.",
+    "connecting": "실시간 에이전트에 연결 중…",
+    "liveConnected": "실시간 실시간 기술 통화 연결됨",
+    "callIntroMessage": "📞 음성 통화가 연결되었습니다. 먼저 짧은 인사말을 듣게 됩니다.",
+    "readyForCall": "실시간 기술 통화 준비",
+    "callFailedStatus": "통화 연결 실패",
+    "callStartFailed": "실시간 통화를 시작할 수 없습니다.",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "실시간 음성 통화",
+    "tapEndCall": "통화를 종료하려면 탭하세요.",
+    "startCall": "실시간 통화 시작",
+    "capabilitiesTitle": "에이전트 기능",
+    "cap1": "웹, 앱, 백엔드 및 AI 엔지니어링 지침",
+    "cap2": "아키텍처, API, 데이터베이스 및 클라우드 권장 사항",
+    "cap3": "디버깅, 성능, 확장성 및 보안 조언",
+    "cap4": "기술적인 워크플로우를 위한 디지털 제품 UX",
+    "cap5": "통화 시작 시 소개와 함께 실시간 음성 상호작용",
+    "quickPromptsTitle": "빠른 프롬프트",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "SaaS MVP를 위한 최고의 기술 스택은 무엇입니까?",
+      "확장 가능한 REST API를 어떻게 디자인해야 합니까?",
+      "속도를 위해 React 앱을 어떻게 최적화할 수 있나요?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "안녕하세요! 저는 **VXR 기술 에이전트**입니다. 웹 개발, 앱, AI, API, 클라우드, 디지털 제품을 위한 UX, 디버깅, 아키텍처 등 기술 관련 주제에만 도움을 드립니다. 시작하려면 기술 관련 질문을 하세요."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "모바일 애플리케이션",
+      "shortDesc": "사용자를 사로잡는 네이티브 및 크로스 플랫폼 앱",
+      "longDesc": "우리는 사용자가 좋아하는 모바일 애플리케이션을 구축합니다. 기본 iOS 및 Android부터 React Native 및 Flutter를 사용한 크로스 플랫폼 솔루션에 이르기까지 비즈니스 목표에 부합하는 확장 가능한 성능의 앱을 제공합니다. 우리 팀은 UX 디자인부터 App Store 배포까지 모든 것을 처리합니다.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOS 및 Android 기본 개발",
+        "네이티브 및 Flutter 반응",
+        "UI/UX 디자인",
+        "앱스토어 및 플레이스토어 배포",
+        "유지 관리 및 업데이트"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "크로스 플랫폼",
+          "desc": "의미가 있는 경우 iOS 및 Android용 단일 코드베이스입니다."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "성능",
+          "desc": "속도, 배터리, 오프라인 기능에 최적화되었습니다."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "보안",
+          "desc": "데이터 및 규정 준수 모범 사례(GDPR, HIPAA)"
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "웹 CMS 개발",
+      "shortDesc": "강력한 콘텐츠 관리 솔루션",
+      "longDesc": "귀하가 직접 제어할 수 있는 맞춤형 웹 플랫폼 및 콘텐츠 관리 시스템입니다. 우리는 WordPress, 헤드리스 CMS 및 사용자 정의 백엔드로 구축되어 귀하의 팀이 모든 업데이트에 대해 개발자에게 의존하지 않고 콘텐츠를 게시하고 관리할 수 있습니다.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress 및 헤드리스 CMS",
+        "맞춤 관리 패널",
+        "API 우선 아키텍처",
+        "다중 사이트 및 다국어",
+        "SEO 친화적인 구조"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "간편한 콘텐츠 업데이트",
+          "desc": "기술팀이 아닌 팀을 위한 직관적인 대시보드."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "확장 가능",
+          "desc": "트래픽과 콘텐츠에 맞춰 성장할 수 있도록 설계되었습니다."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "통합",
+          "desc": "CRM, 분석, 마케팅 도구에 연결하세요."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "소프트웨어 개발",
+      "shortDesc": "귀하의 요구에 맞는 맞춤형 소프트웨어",
+      "longDesc": "SaaS 제품부터 엔터프라이즈 시스템까지, 우리는 귀하의 작업 흐름에 맞는 맞춤형 소프트웨어를 구축합니다. 우리는 최신 스택과 민첩한 제공을 사용하여 귀하의 비즈니스에 맞춰 확장하고 발전하는 솔루션을 제공합니다.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS 및 웹 애플리케이션",
+        "엔터프라이즈 시스템",
+        "API 및 통합",
+        "클라우드 배포(AWS, Azure, GCP)",
+        "민첩한 전달"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "맞춤형",
+          "desc": "기성품의 타협은 없습니다 — 귀하의 요구에 맞게 제작되었습니다."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "모던 스택",
+          "desc": "React, Node, Python, .NET 및 검증된 기술."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "지속적인 지원",
+          "desc": "유지 관리, 업데이트 및 기능 발전."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "기업 브랜딩",
+      "shortDesc": "눈에 띄는 대담한 브랜드 아이덴티티",
+      "longDesc": "우리는 귀하가 누구인지 전달하고 청중의 공감을 불러일으키는 브랜드 아이덴티티를 만듭니다. 로고 디자인 및 시각적 지침부터 전체 브랜드 전략에 이르기까지 당사는 귀하가 시장에서 두각을 나타낼 수 있도록 도와드립니다.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "로고 및 시각적 아이덴티티",
+        "브랜드 가이드라인",
+        "브랜드 전략",
+        "부수적인 디자인",
+        "디지털 자산 키트"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "뚜렷한 정체성",
+          "desc": "기억에 남는 로고와 일관된 시각적 언어."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "전략 주도",
+          "desc": "귀하의 비즈니스와 고객과 관련된 브랜드 선택."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "사용 준비 완료",
+          "desc": "모든 터치포인트에 대한 자산 및 지침."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "온라인 디지털 마케팅",
+      "shortDesc": "성장을 위한 데이터 중심 전략",
+      "longDesc": "SEO, PPC, 콘텐츠 마케팅, 전환 최적화를 통해 도달 범위와 전환율을 높이세요. 우리는 허영심이 아닌 측정 가능한 결과와 지속 가능한 성장에 중점을 둡니다.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO 및 콘텐츠 전략",
+        "PPC 및 유료 소셜",
+        "전환 최적화",
+        "분석 및 보고",
+        "마케팅 자동화"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "데이터 기반",
+          "desc": "분석 및 테스트를 기반으로 한 결정."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "전체 유입 경로",
+          "desc": "인지도, 고려도, 전환 캠페인."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "투명한 보고",
+          "desc": "명확한 지표와 정기적인 검토."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D 및 애니메이션",
+      "shortDesc": "당신의 이야기를 전달하는 놀라운 영상",
+      "longDesc": "참여하고 설명하는 모션 그래픽, 설명 동영상, 영화 애니메이션. 우리는 모든 플랫폼에서 광고, 제품 데모, 브랜드 스토리텔링을 위한 2D 및 3D 콘텐츠를 제작합니다.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "모션 그래픽",
+        "설명 동영상",
+        "2D 및 3D 애니메이션",
+        "캐릭터 애니메이션",
+        "소셜 및 광고 콘텐츠"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "스토리 우선",
+          "desc": "모든 프레임은 귀하의 메시지와 브랜드를 지원합니다."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "다중 형식",
+          "desc": "짧은 소셜 클립부터 긴 형식의 설명까지."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "온브랜드",
+          "desc": "시각적 아이덴티티와 일관된 스타일."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D 렌더링 서비스",
+      "shortDesc": "사실적인 3D 시각화",
+      "longDesc": "건축, 제품 시각화 및 마케팅을 위한 고품질 3D 렌더링. 우리는 귀하의 제품과 공간이 현실 세계에 존재하기 전에 보여주는 사실적인 이미지와 애니메이션을 제공합니다.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "건축 시각화",
+        "제품 렌더링",
+        "마케팅용 CGI",
+        "인테리어 & 익스테리어",
+        "애니메이션 및 연습"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "사실적인",
+          "desc": "실제처럼 보이는 조명과 소재."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "모든 산업",
+          "desc": "부동산, 소매, 자동차 등."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "빠른 반복",
+          "desc": "물리적 재촬영 없이 빠른 변경이 가능합니다."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "메타버스 개발",
+      "shortDesc": "차세대 몰입형 디지털 세계",
+      "longDesc": "우리는 이벤트, 소매점, 커뮤니티를 위한 가상 공간, 디지털 트윈, 몰입형 환경 등 메타버스 경험을 설계하고 구축합니다. 주요 플랫폼에 대한 개념부터 배포까지.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "가상 공간 및 세계",
+        "디지털 트윈",
+        "VR/AR 통합",
+        "다중 사용자 경험",
+        "Web3 지원 경험"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "몰입형",
+          "desc": "실제적이고 매력적으로 느껴지는 공간."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "확장 가능",
+          "desc": "많은 동시 사용자를 지원하는 아키텍처입니다."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "브랜드 준비",
+          "desc": "귀하의 브랜드를 반영하는 맞춤형 환경."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "게임 개발",
+      "shortDesc": "모든 플랫폼에서 매력적인 게임",
+      "longDesc": "모바일 게임부터 PC, 콘솔까지 플레이어가 좋아하는 게임을 만듭니다. 우리는 Unity와 Unreal Engine을 사용하여 게임플레이와 마무리에 중점을 두고 독창적인 IP, 진지한 게임, 브랜드 경험을 제작합니다.",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "모바일, PC 및 콘솔",
+        "유니티와 언리얼 엔진",
+        "게임 디자인 및 메커니즘",
+        "멀티플레이어 및 실시간 작전",
+        "포팅 및 최적화"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "전체 생산",
+          "desc": "디자인, 아트, 코드 및 출시 지원."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "검증된 엔진",
+          "desc": "품질과 성능을 위한 Unity와 Unreal."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "출시 후",
+          "desc": "업데이트, 이벤트, 커뮤니티 기능."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "확장된 현실",
+      "shortDesc": "변화를 가져오는 AR/VR/MR 경험",
+      "longDesc": "교육, 마케팅, 제품 시각화를 위한 AR, VR 및 혼합 현실 경험입니다. 우리는 직원 교육, 제품 소개 또는 몰입형 캠페인 생성을 위해 헤드셋과 모바일 장치에서 실행되는 앱을 구축합니다.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR 앱(모바일 및 안경)",
+        "VR 훈련 및 시뮬레이션",
+        "혼합 현실 경험",
+        "가상 투어",
+        "하드웨어에 구애받지 않는 디자인"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "실제 사용 사례",
+          "desc": "ROI를 높이는 교육, 영업, 마케팅."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "다중 장치",
+          "desc": "휴대폰, 태블릿, XR 헤드셋에서 작동합니다."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "사용자 테스트를 거쳤습니다.",
+          "desc": "편안함과 유용성이 핵심입니다."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "소셜 미디어 마케팅",
+      "shortDesc": "전략적 사회적 존재감 및 참여",
+      "longDesc": "전략, 콘텐츠, 커뮤니티 관리를 통해 귀하의 사회적 존재감을 구축하고 관리합니다. 유기적 콘텐츠부터 인플루언서 파트너십, 유료 소셜까지, 우리는 귀하가 적합한 청중과 연결될 수 있도록 도와드립니다.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "콘텐츠 전략 및 제작",
+        "커뮤니티 관리",
+        "인플루언서 파트너십",
+        "유료 소셜 캠페인",
+        "분석 및 보고"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "브랜드 보이스",
+          "desc": "당신과 비슷하고 공감되는 콘텐츠."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "지역 사회",
+          "desc": "충성도와 옹호를 구축하는 참여입니다."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "유료 + 자연",
+          "desc": "최대 도달 범위를 위한 통합 접근 방식."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI 솔루션",
+      "shortDesc": "AI를 기반으로 하는 챗봇, 자동화, 지능형 워크플로를 통해 운영을 간소화하고 사용자 참여를 유도합니다.",
+      "longDesc": "우리는 귀하의 업무 방식과 참여 방식을 변화시키는 AI 기반 솔루션을 구축합니다. 맞춤형 챗봇과 가상 비서부터 프로세스 자동화와 지능형 워크플로에 이르기까지 AI를 활용하여 시간을 절약하고 지원을 확장하며 더 나은 경험을 제공할 수 있도록 도와드립니다. 당사의 솔루션은 기존 도구와 통합되며 실제 안정성을 위해 설계되었습니다.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "맞춤형 챗봇 및 가상 비서",
+        "프로세스 자동화 및 워크플로",
+        "LLM 통합 및 미세 조정",
+        "API 통합",
+        "분석 및 최적화"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "당신에게 맞춤",
+          "desc": "워크플로와 브랜드 보이스를 중심으로 구축된 AI입니다."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "보안 및 확장 가능",
+          "desc": "명확한 데이터 처리로 기업에 적합합니다."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "지속적인 개선",
+          "desc": "우리는 사용법과 피드백을 기반으로 반복합니다."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "전자책 디자인 및 출판",
+      "shortDesc": "Kindle, Apple Books 및 기타 플랫폼을 위한 전문적인 전자책 레이아웃, 표지 디자인 및 배포.",
+      "longDesc": "원고부터 매장까지 — 우리는 귀하의 책이 전문가처럼 보이고 판매될 수 있도록 전자책 디자인, 형식 지정 및 배포를 처리합니다. 반응형 레이아웃, 시선을 사로잡는 표지, 순위가 매겨지는 메타데이터를 만듭니다. 귀하가 작가이건 출판사이건 우리는 Kindle, Apple Books, Kobo 등에서 귀하의 eBook을 라이브로 제공합니다.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "인테리어 레이아웃 및 타이포그래피",
+        "표지 디자인",
+        "EPUB 및 Kindle 형식",
+        "다중 플랫폼 배포",
+        "도서 메타데이터 및 SEO"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "독자 우선 디자인",
+          "desc": "모든 장치 및 글꼴 크기에서 작동하는 레이아웃."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "매장 준비 완료",
+          "desc": "Kindle, Apple 및 기타 소매업체를 준수합니다."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "빠른 처리",
+          "desc": "초안부터 출판까지의 명확한 타임라인."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "디지털 매거진",
+      "shortDesc": "브랜드와 출판사를 위한 멋진 디지털 잡지 디자인과 대화형 레이아웃.",
+      "longDesc": "우리는 독자들이 좋아하는 디지털 매거진을 디자인하고 제작합니다. 편집 레이아웃과 대화형 요소부터 웹과 앱의 구독 및 독서 경험에 이르기까지 눈에 띄는 출판물을 만듭니다. 브랜드, 출판사 및 콘텐츠를 세련된 디지털 제품으로 전환하는 모든 사람에게 적합합니다.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "편집 레이아웃 디자인",
+        "인터랙티브 요소",
+        "웹 및 앱 퍼블리싱",
+        "구독 흐름",
+        "분석 및 참여"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "편집 품질",
+          "desc": "고급스럽고 읽기 쉬운 레이아웃."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "매력적인",
+          "desc": "독자의 스크롤을 유지하는 상호 작용."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "수익 창출 준비",
+          "desc": "페이월과 멤버십이 내장되어 있습니다."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "전자신문",
+      "shortDesc": "반응형 레이아웃과 간편한 콘텐츠 업데이트를 갖춘 디지털 신문 및 뉴스 포털 디자인.",
+      "longDesc": "우리는 귀하의 이야기를 전면에 배치하는 디지털 신문과 뉴스 포털을 구축합니다. 반응형 레이아웃, 빠른 로딩 및 간단한 CMS 통합을 통해 팀은 기술적인 번거로움 없이 게시하고 업데이트할 수 있습니다. 우리는 가독성, 접근성 및 모든 장치에서 작동하는 경험에 중점을 둡니다.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "반응형 뉴스 레이아웃",
+        "CMS 통합",
+        "빠른 로딩 및 SEO",
+        "속보 및 섹션",
+        "광고 및 스폰서십 슬롯"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "독자 친화적",
+          "desc": "오랫동안 읽을 수 있도록 명확한 계층 구조와 타이포그래피를 제공합니다."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "업데이트가 용이함",
+          "desc": "개발자가 아닌 사람도 콘텐츠를 게시하고 관리할 수 있습니다."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "수익 창출 준비",
+          "desc": "광고 단위 및 구독 옵션이 포함되어 있습니다."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "팟캐스트 제작",
+      "shortDesc": "전문적인 팟캐스트를 위한 녹음, 편집, 쇼 노트 및 배포.",
+      "longDesc": "우리는 귀하의 팟캐스트를 아이디어에서 귀로 전달합니다. 우리 팀은 녹음 설정, 편집, 믹싱, 노트 표시 및 배포를 처리하므로 귀하는 대화에 집중할 수 있습니다. 우리는 방송 품질의 오디오와 일관된 브랜딩을 제공하여 쇼가 머리 속에서 들리는 것만큼 좋게 들리도록 합니다.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "녹음 및 편집",
+        "믹싱 & 마스터링",
+        "메모 및 스크립트 표시",
+        "예술작품 및 브랜딩",
+        "배포 및 RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "방송 품질",
+          "desc": "전문적인 느낌을 주는 깨끗한 오디오."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "턴키",
+          "desc": "우리는 전체 파이프라인을 처리하므로 귀하가 그럴 필요가 없습니다."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "일관된 브랜드",
+          "desc": "귀하의 쇼와 일치하는 예술 작품 및 메모."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "인포그래픽 및 데이터 시각화",
+      "shortDesc": "복잡한 정보를 쉽게 공유할 수 있게 해주는 명확하고 매력적인 인포그래픽과 데이터 시각화입니다.",
+      "longDesc": "우리는 데이터와 아이디어를 공유할 수 있는 시각적 자료로 변환합니다. 정적 인포그래픽부터 대화형 대시보드 및 보고서에 이르기까지 복잡한 정보를 명확하고 매력적으로 만듭니다. 유지되어야 하는 보고서, 프리젠테이션, 소셜 콘텐츠 및 내부 커뮤니케이션에 적합합니다.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "정적 인포그래픽",
+        "대화형 데이터 즉",
+        "보고서 및 프레젠테이션",
+        "소셜용 형식",
+        "브랜드에 맞는 디자인"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "명확성 우선",
+          "desc": "메시지를 확실하게 전달하는 디자인."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "공유 가능",
+          "desc": "소셜 및 덱에서 작동하는 형식입니다."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "정확한",
+          "desc": "숫자를 존중하는 데이터 시각화."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "챗봇 개발",
+      "shortDesc": "지원, 판매, 참여를 위한 맞춤형 챗봇이 기존 도구와 통합됩니다.",
+      "longDesc": "우리는 실제로 도움이 되는 챗봇을 만듭니다. 고객 지원, 리드 자격 또는 내부 워크플로우 등을 위해 당사의 봇은 프로세스를 중심으로 설계되었으며 CRM, 헬프데스크 및 앱과 통합됩니다. 검증된 AI와 대화 디자인을 사용하므로 사용자는 빠르게 답변을 얻고 팀은 안심할 수 있습니다.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "대화 디자인",
+        "CRM 및 헬프데스크 통합",
+        "다중 채널(웹, WhatsApp 등)",
+        "분석 및 교육",
+        "인간에게 핸드오프"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "귀하의 스택에 적합",
+          "desc": "이미 사용하고 있는 도구와 함께 작동합니다."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "인간 핸드오프",
+          "desc": "봇이 도움을 줄 수 없는 경우 원활하게 에스컬레이션하세요."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "시간이 지남에 따라 개선됨",
+          "desc": "우리는 실제 대화를 바탕으로 튜닝합니다."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "카피라이팅 및 콘텐츠",
+      "shortDesc": "변환하고 순위를 매기는 SEO 친화적인 카피, 블로그 게시물, 마케팅 콘텐츠입니다.",
+      "longDesc": "우리는 전환되는 카피와 순위를 매기는 콘텐츠를 작성합니다. 랜딩 페이지와 제품 카피부터 블로그 시리즈와 SEO 콘텐츠까지, 우리는 귀하의 목소리와 목표를 일치시킵니다. 모든 부분은 명확성, 설득력, 검색을 위해 제작되었으므로 트래픽과 전환을 모두 얻을 수 있습니다.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "랜딩 페이지 및 제품 카피",
+        "블로그 및 SEO 콘텐츠",
+        "이메일 시퀀스",
+        "광고 카피 및 소셜",
+        "콘텐츠 전략"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "브랜드 보이스",
+          "desc": "당신과 당신의 청중처럼 들리는 것을 복사하십시오."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO 내장",
+          "desc": "검색 및 공유를 위해 구성된 콘텐츠입니다."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "전환 중심",
+          "desc": "바늘을 움직이기 위해 선택한 모든 단어."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "소셜 및 YouTube 콘텐츠",
+      "shortDesc": "Facebook, Instagram, TikTok 및 YouTube용 릴, 스토리, 캐러셀, YouTube 동영상 및 캠페인.",
+      "longDesc": "우리는 Facebook, Instagram, TikTok 및 YouTube에서 보고 공유되는 콘텐츠를 만듭니다. 릴과 스토리부터 캐러셀, YouTube 스크립트, 썸네일, 비디오 편집까지 모든 주요 플랫폼을 위한 브랜드 콘텐츠를 제작합니다. 우리는 창의적인 방향과 플랫폼 모범 사례를 결합하여 귀하의 피드와 채널이 전문적으로 보이고 지표가 움직일 수 있도록 합니다.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "릴, 스토리 및 짧은 형식(IG, TikTok, FB)",
+        "YouTube 스크립트, 썸네일 및 편집",
+        "캐러셀 및 정적 게시물",
+        "캠페인 컨셉 및 콘텐츠 캘린더",
+        "소셜을 위한 복사, 해시태그 및 SEO"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "모든 플랫폼",
+          "desc": "Facebook, Instagram, TikTok, YouTube가 한곳에 있습니다."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "일관된 모습",
+          "desc": "귀하의 브랜드를 위한 템플릿 및 스타일 가이드입니다."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "게시 준비 완료",
+          "desc": "최종 자산과 캡션은 일정에 따라 제공됩니다."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "서비스",
+    "offerBefore": "우리가 무엇을",
+    "offerHighlight": "권하다",
+    "whyBefore": "함께 일하는 이유",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "준비",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "귀하의 프로젝트에 대해 논의하고 함께 멋진 것을 만들어 봅시다.",
+    "ctaButton": "이야기하자",
+    "backAllServices": "← 모든 서비스"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "집",
+    "homeDescription": "vebxrun — 모바일 앱, 웹 개발, 게임 개발, 메타버스, AI 솔루션 및 디지털 마케팅. 상상하다. 받아 들여 쓰다. 고무하다.",
+    "servicesTitle": "서비스",
+    "servicesDescription": "모바일 앱, 웹 및 CMS 개발, 소프트웨어 개발, 기업 브랜딩, 디지털 마케팅, 2D/3D 애니메이션, 메타버스, 게임 개발 등. vebxrun 서비스를 살펴보세요.",
+    "pricingTitle": "가격",
+    "pricingDescription": "모바일 앱, 웹 개발, 디지털 솔루션에 대한 투명한 가격 책정. 스타터, 프로페셔널 및 엔터프라이즈 플랜. vebxrun에서 견적을 받으세요."
+  },
+  "liveChatWidget": {
+    "online": "온라인",
+    "closeChat": "채팅 닫기",
+    "openChat": "우리와 채팅",
+    "skipToLiveChat": "라이브 채팅으로 건너뛰기 →",
+    "nameLabel": "이름",
+    "emailLabel": "이메일",
+    "whatsappLabel": "왓츠앱",
+    "serviceLabel": "서비스",
+    "sending": "배상…",
+    "orLiveChat": "아니면 실시간 채팅을 시작해 보세요",
+    "toastNameEmailRequired": "이름과 이메일은 필수입니다",
+    "toastRequestSent": "요청이 전송되었습니다!",
+    "toastSubmitFailed": "제출하지 못했습니다. 다시 시도해 보세요.",
+    "submittedTitle": "요청이 전송되었습니다!",
+    "submittedDesc": "곧 연락드리겠습니다.",
+    "startLiveChat": "라이브 채팅 시작",
+    "secondsShort": "{{count}}s"
   }
 }

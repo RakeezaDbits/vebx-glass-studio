@@ -16,7 +16,7 @@
   },
   "projects": {
     "seoTitle": "المشاريع",
-    "seoDescription": "مشاريع للبيع والإيجار — قريباً على vebx.run.",
+    "seoDescription": "مشاريع للبيع والإيجار — قريباً على vebxrun.com.",
     "tag": "السوق",
     "heading": "شراء وإيجار",
     "headingHighlight": "مشاريع",
@@ -67,13 +67,18 @@
     "addressLine1": "كراتشي، باكستان",
     "addressLine2": "سايبر جايا، ماليزيا",
     "insights": {
-      "title1": "Why Metaverse Development is the Next Big Leap",
-      "excerpt1": "Exploring how immersive tech is reshaping digital experiences.",
-      "title2": "Building Apps That Users Actually Love",
-      "excerpt2": "Design and development principles that drive engagement.",
-      "title3": "Digital Transformation That Drives Growth",
-      "excerpt3": "How we help businesses innovate and scale with technology."
-    }
+      "title1": "لماذا يعد تطوير Metaverse هو القفزة الكبيرة التالية؟",
+      "excerpt1": "استكشاف كيف تعيد التكنولوجيا الغامرة تشكيل التجارب الرقمية.",
+      "title2": "إنشاء تطبيقات يحبها المستخدمون بالفعل",
+      "excerpt2": "مبادئ التصميم والتطوير التي تدفع المشاركة.",
+      "title3": "التحول الرقمي الذي يدفع النمو",
+      "excerpt3": "كيف نساعد الشركات على الابتكار والتوسع باستخدام التكنولوجيا."
+    },
+    "linkTermsConditions": "الشروط والأحكام",
+    "columnGetInTouchTitle": "تواصل معنا",
+    "columnGetInTouchDesc": "هل لديك مشروع في الاعتبار؟ تواصل معنا ودعنا نصنع شيئًا غير عادي.",
+    "followUsBar": "تابعنا للحصول على التحديثات",
+    "letsConnect": "دعونا نتواصل"
   },
   "common": {
     "vebexRun": "فبيكس ران",
@@ -197,323 +202,324 @@
     "getInTouch": "لنتحدث"
   },
   "pricing": {
-    "tag": "Pricing",
-    "heading": "Transparent",
-    "headingHighlight": "Pricing",
-    "desc": "Select a service, then choose the plan that fits. Contact us for a detailed quote.",
-    "chooseService": "Choose a service",
-    "starter": "Starter",
-    "starterDesc": "Perfect for getting started",
-    "professional": "Professional",
-    "professionalDesc": "Ideal for growing needs",
-    "enterprise": "Enterprise",
-    "enterpriseDesc": "For large-scale projects",
-    "mostPopular": "Most Popular",
-    "perProject": "/ project",
-    "getStarted": "Get Started",
+    "tag": "التسعير",
+    "heading": "شفاف",
+    "headingHighlight": "التسعير",
+    "desc": "اختر الخدمة، ثم اختر الخطة التي تناسبك. اتصل بنا للحصول على عرض أسعار مفصل.",
+    "chooseService": "اختر خدمة",
+    "starter": "بداية",
+    "starterDesc": "مثالية للبدء",
+    "professional": "احترافي",
+    "professionalDesc": "مثالية للاحتياجات المتزايدة",
+    "enterprise": "مَشرُوع",
+    "enterpriseDesc": "للمشاريع واسعة النطاق",
+    "mostPopular": "الأكثر شعبية",
+    "perProject": "مشروع",
+    "getStarted": "ابدأ",
     "features": {
-      "coreScope": "Core scope delivered",
-      "responsive": "Responsive design",
-      "basicSupport": "Basic support",
-      "2revisions": "2 rounds of revisions",
-      "1monthSupport": "1 month support",
-      "fullScope": "Full scope & custom UI/UX",
-      "advancedFeatures": "Advanced features",
-      "apiIntegrations": "API integrations",
-      "5revisions": "5 rounds of revisions",
-      "3monthsSupport": "3 months support",
-      "perfOptimization": "Performance optimization",
-      "fullStack": "Full-stack custom build",
-      "dedicatedPM": "Dedicated project manager",
-      "unlimitedRevisions": "Unlimited revisions",
-      "12monthsSupport": "12 months support",
-      "cicd": "CI/CD & DevOps",
-      "sla": "SLA guarantee"
-    }
+      "coreScope": "تم تسليم النطاق الأساسي",
+      "responsive": "تصميم سريع الاستجابة",
+      "basicSupport": "الدعم الأساسي",
+      "2revisions": "2 جولات من المراجعات",
+      "1monthSupport": "دعم لمدة شهر واحد",
+      "fullScope": "النطاق الكامل وواجهة المستخدم/تجربة المستخدم المخصصة",
+      "advancedFeatures": "ميزات متقدمة",
+      "apiIntegrations": "تكاملات API",
+      "5revisions": "5 جولات من المراجعات",
+      "3monthsSupport": "دعم لمدة 3 أشهر",
+      "perfOptimization": "تحسين الأداء",
+      "fullStack": "بناء مخصص مكدس كامل",
+      "dedicatedPM": "مدير مشروع مخصص",
+      "unlimitedRevisions": "مراجعات غير محدودة",
+      "12monthsSupport": "دعم لمدة 12 شهرًا",
+      "cicd": "CI/CD وDevOps",
+      "sla": "ضمان جيش تحرير السودان"
+    },
+    "customPrice": "مخصص"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "الاحتياجات الخاصة بك",
+    "heading": "مخصص",
+    "headingHighlight": "متطلبات",
+    "desc": "أخبرنا بما تحتاجه. حدد خدمتك وتفضيلاتك واحصل على تقدير فوري للسعر.",
+    "yourName": "اسمك",
+    "namePlaceholder": "أدخل اسمك",
+    "yourEmail": "البريد الإلكتروني الخاص بك",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "yourPhone": "هاتفك",
+    "phonePlaceholder": "أدخل رقم هاتفك",
+    "step1Title": "اتصال",
+    "step2Title": "متطلبات",
+    "step3Title": "التكنولوجيا والخطة",
+    "step4Title": "مرجع وتقديم",
+    "step5Title": "شكرًا لك",
+    "thankYouTitle": "شكرًا لك!",
+    "thankYouMessage": "لقد تلقينا الشرط الخاص بك. فريقنا سوف يعود اليكم قريبا.",
+    "backToHome": "العودة إلى المنزل",
+    "submitAnother": "إرسال آخر",
+    "nextStep": "التالي",
+    "prevStep": "خلف",
+    "stepOf": "الخطوة {{current}} من {{total}}",
+    "selectService": "ماذا تحتاج؟",
+    "selectServicePlaceholder": "اختر خدمة",
+    "selectSubType": "نوع المشروع/ التفاصيل",
+    "selectSubTypePlaceholder": "حدد الخيار",
+    "selectTech": "التكنولوجيا / النظام الأساسي (اختر كل ما ينطبق)",
+    "selectTier": "اختر الخطة",
+    "priceLabel": "السعر المقدر",
+    "priceCustom": "اقتباس مخصص",
+    "perProject": "لكل مشروع",
+    "referenceLink": "الرابط المرجعي (مثل موقع الويب أو التطبيق الذي تفضله)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "الصورة المرجعية (اختياري)",
+    "referenceImageHint": "قم بتحميل لقطة شاشة أو مرجع التصميم",
+    "developBtn": "يطور",
+    "talkToTeam": "تحدث إلى الفريق",
+    "submitSuccess": "تم تقديم الطلب. سوف نعود اليكم قريبا.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "التجارة الإلكترونية",
+      "social": "اجتماعية / مجتمعية",
+      "utility": "المنفعة / الإنتاجية",
+      "enterprise": "المؤسسة / الداخلية",
+      "onDemand": "حسب الطلب/التسليم",
+      "blog": "مدونة / موقع المحتوى",
+      "corporate": "الشركات / الأعمال",
+      "portfolio": "المحفظة / العرض",
+      "landing": "الصفحة المقصودة / التسويقية",
+      "saas": "منتج SaaS",
+      "dashboard": "لوحة القيادة / التحليلات",
+      "api": "واجهة برمجة التطبيقات/الخلفية",
+      "seo": "تحسين محركات البحث والمحتوى",
+      "ppc": "الدفع لكل نقرة (PPC) ووسائل التواصل الاجتماعي المدفوعة",
+      "fullCampaign": "حملة كاملة",
+      "organic": "المحتوى العضوي",
+      "paidSocial": "الاجتماعية المدفوعة",
+      "influencer": "الشراكة المؤثرة",
+      "other": "آخر"
     },
     "tech": {
-      "react": "React",
+      "react": "رد فعل",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "الزاوي",
       "next": "Next.js",
-      "nuxt": "Nuxt",
-      "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "nuxt": "نوكست",
+      "laravel": "لارافيل (PHP)",
+      "aspnet": "أسب.نت /.نت كور",
       "node": "Node.js",
-      "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
-      "wordpress": "WordPress",
-      "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "python": "بايثون (جانغو/FastAPI)",
+      "java": "جافا / الربيع",
+      "wordpress": "ووردبريس",
+      "shopify": "شوبيفي",
+      "headless": "نظام إدارة المحتوى بدون رأس",
+      "flutter": "رفرفة",
+      "reactNative": "رد الفعل الأصلي",
+      "nativeIos": "iOS الأصلي (سويفت)",
+      "nativeAndroid": "أندرويد الأصلي (كوتلين)",
+      "unity": "الوحدة",
+      "unreal": "محرك غير واقعي",
+      "other": "أخرى / غير متأكد"
     }
   },
   "contact": {
-    "tag": "Contact Us",
-    "heading": "Let's",
-    "headingHighlight": "Talk",
-    "desc": "Have a project in mind? We'd love to hear from you. Send us a message and we'll get back to you within 24 hours.",
-    "sendMessage": "Send a Message",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "yourName": "Your Name",
-    "yourEmail": "Your Email",
-    "subject": "Subject",
-    "tellUs": "Tell us about your project...",
-    "sendBtn": "Send Message",
-    "emailUs": "Email Us",
-    "visitUs": "Visit Us",
-    "businessHours": "Working Hours",
-    "monToSun": "Monday – Sunday",
-    "monFri": "Monday – Friday",
-    "saturday": "Saturday",
-    "sunday": "Sunday",
-    "closed": "Closed"
+    "tag": "اتصل بنا",
+    "heading": "دعونا",
+    "headingHighlight": "يتحدث",
+    "desc": "هل لديك مشروع في الاعتبار؟ نحن نحب أن نسمع منك. أرسل لنا رسالة وسنرد عليك خلال 24 ساعة.",
+    "sendMessage": "أرسل رسالة",
+    "liveChat": "دعونا نتحدث - الدردشة الحية",
+    "liveChatDesc": "أرسل لنا رسالة مباشرة أدناه - نص أو صور أو صوت أو فيديو. نرد هنا.",
+    "yourName": "اسمك",
+    "yourEmail": "البريد الإلكتروني الخاص بك",
+    "subject": "موضوع",
+    "tellUs": "أخبرنا عن مشروعك...",
+    "sendBtn": "أرسل رسالة",
+    "emailUs": "راسلنا عبر البريد الإلكتروني",
+    "visitUs": "قم بزيارتنا",
+    "businessHours": "ساعات العمل",
+    "monToSun": "الاثنين - الأحد",
+    "monFri": "الاثنين - الجمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد",
+    "closed": "مغلق"
   },
   "expertise": {
-    "tag": "Expertise",
-    "heading": "Our",
-    "headingHighlight": "Technology",
-    "headingSuffix": "Stack",
-    "desc": "We master the tools that matter. Our expertise spans across the entire digital ecosystem.",
+    "tag": "خبرة",
+    "heading": "ملكنا",
+    "headingHighlight": "تكنولوجيا",
+    "headingSuffix": "كومة",
+    "desc": "نحن نتقن الأدوات المهمة. تمتد خبرتنا عبر النظام البيئي الرقمي بأكمله.",
     "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "mobile": "Mobile",
-      "cloudDevops": "Cloud & DevOps",
-      "gameXR": "Game & XR",
-      "dataAI": "Data & AI"
+      "frontend": "الواجهة الأمامية",
+      "backend": "الخلفية",
+      "mobile": "متحرك",
+      "cloudDevops": "السحابة و DevOps",
+      "gameXR": "لعبة وXR",
+      "dataAI": "البيانات والذكاء الاصطناعي"
     },
-    "industriesTag": "Industries",
-    "industriesHeading": "Industries We",
-    "industriesHighlight": "Serve",
+    "industriesTag": "الصناعات",
+    "industriesHeading": "الصناعات نحن",
+    "industriesHighlight": "يخدم",
     "industries": {
-      "healthcare": "Healthcare & MedTech",
-      "fintech": "FinTech & Banking",
-      "ecommerce": "E-Commerce & Retail",
-      "education": "Education & EdTech",
-      "realEstate": "Real Estate & PropTech",
-      "entertainment": "Entertainment & Media",
-      "automotive": "Automotive",
-      "logistics": "Logistics & Supply Chain"
+      "healthcare": "الرعاية الصحية والتكنولوجيا الطبية",
+      "fintech": "التكنولوجيا المالية والخدمات المصرفية",
+      "ecommerce": "التجارة الإلكترونية والتجزئة",
+      "education": "التعليم وتكنولوجيا التعليم",
+      "realEstate": "العقارات و PropTech",
+      "entertainment": "الترفيه والإعلام",
+      "automotive": "السيارات",
+      "logistics": "الخدمات اللوجستية وسلسلة التوريد"
     },
-    "ctaHeading": "Let's Build Something",
-    "ctaHighlight": "Amazing",
-    "ctaDesc": "Have a project in mind? Our team of experts is ready to bring your vision to life.",
-    "ctaBtn": "Let's Talk"
+    "ctaHeading": "دعونا نبني شيئا",
+    "ctaHighlight": "مدهش",
+    "ctaDesc": "هل لديك مشروع في الاعتبار؟ فريق الخبراء لدينا على استعداد لتحقيق رؤيتك على أرض الواقع.",
+    "ctaBtn": "دعونا نتحدث"
   },
   "ourWork": {
-    "tag": "Portfolio",
-    "heading": "Our",
-    "headingHighlight": "Work",
-    "desc": "A showcase of projects that demonstrate our expertise across industries and technologies.",
+    "tag": "مَلَفّ",
+    "heading": "ملكنا",
+    "headingHighlight": "عمل",
+    "desc": "عرض للمشاريع التي تثبت خبرتنا في مختلف الصناعات والتقنيات.",
     "projects": {
       "emaanai": {
-        "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "title": "ايمان آي",
+        "category": "تطبيق الهاتف المحمول",
+        "desc": "تطبيق إسلامي لنظامي التشغيل Android وiOS مع تجربة صديقة للبيئة، وأوقات الصلاة، والقرآن، ولوحة تحكم تحليلية للحصول على رؤى المشاركة."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "تطبيق الويب",
+        "desc": "موقع ويب كامل للمحفظة لوكالة رقمية - المظهر الداكن واللهجات الحمراء والخدمات ومعرض المشروع والإنجازات والمدونة وجهات الاتصال. بنيت لعرض عملهم وخبراتهم."
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "هيلثسينك",
+        "category": "الرعاية الصحية",
+        "desc": "بوابة الطبيب والمريض للمواعيد والوصفات الطبية والسجلات الطبية. محاذاة HIPAA، تستخدمها العيادات للجدولة والمتابعة."
       },
       "taskflow": {
-        "title": "TaskFlow",
-        "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "title": "تدفق المهام",
+        "category": "ادارة العلاقات مع",
+        "desc": "إدارة مهام الفريق باستخدام لوحات Kanban والمواعيد النهائية والمزامنة في الوقت الفعلي. تم نشرها للفرق والوكالات البعيدة."
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "فوداش",
+        "category": "تطبيق الهاتف المحمول",
+        "desc": "اكتشاف المطاعم، والطلب عبر الإنترنت، وتتبع التسليم المباشر. تطبيق الشريك للمطاعم وتطبيق السائق للخدمات اللوجستية."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "حدث",
+        "category": "تطبيق الويب",
+        "desc": "منصة حجز تذاكر الأحداث والأماكن مع الدفع وإدارة الحضور وتسجيل الوصول إلى QR. يستخدم للمؤتمرات وورش العمل."
       },
       "docvault": {
-        "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "title": "دوكفولت",
+        "category": "برمجة",
+        "desc": "تخزين آمن للمستندات باستخدام التوقيع الإلكتروني وسجل الإصدارات وعناصر التحكم في الامتثال. بنيت للفرق القانونية والمالية."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "تطبيق الهاتف المحمول",
+        "desc": "تطبيق لتتبع اللياقة البدنية والصحة مع خطط التمرين ولوحات معلومات التقدم وتسجيل التغذية. منصة مشتركة لنظامي التشغيل Android وiOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
-        "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "category": "ادارة العلاقات مع",
+        "desc": "منصة SaaS لإدارة المشاريع وسير العمل مع التعاون في الوقت الفعلي ولوحات المهام وتحليلات الفريق للفرق البعيدة."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "الانجراف النيون",
+        "category": "تطوير اللعبة",
+        "desc": "لعبة سباق على طراز الأركيد مع جماليات النيون وأدوات التحكم السلسة ولوحات المتصدرين. بنيت مع الوحدة لمنصات متعددة."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "التجارة الإلكترونية",
+        "desc": "منصة تجارة إلكترونية حديثة تحتوي على كتالوج المنتجات، وعربة التسوق، والخروج، ولوحة تحكم البائع. المدفوعات المتكاملة والمخزون."
       },
       "paybridge": {
         "title": "PayBridge",
-        "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "category": "التكنولوجيا المالية",
+        "desc": "لوحة معلومات الدفع والتمويل للشركات - المعاملات والتسوية وإعداد التقارير بأمان على مستوى البنك."
       },
       "learnhub": {
         "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "category": "تكنولوجيا التعليم",
+        "desc": "منصة لإدارة التعلم مع الدورات التدريبية وتتبع التقدم والاختبارات والشهادات للمعلمين والمتعلمين."
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "عمليات ذكية",
+        "category": "البرمجيات وإنترنت الأشياء",
+        "desc": "لوحة معلومات العمليات التي تعمل بتقنية إنترنت الأشياء لمراقبة الأصول والتنبيهات والتحليلات. مصممة للمرافق الذكية والخدمات اللوجستية."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "التسويق الرقمي",
+        "desc": "منصة تحليلات وسائل التواصل الاجتماعي والحملات - مقاييس المشاركة وجدولة المحتوى وإعداد تقارير عائد الاستثمار للعلامات التجارية."
       }
     },
-    "ctaHeading": "Want to Be Our",
-    "ctaHighlight": "Next Success",
-    "ctaSuffix": "Story?",
-    "ctaDesc": "Let's discuss your project and create something extraordinary together.",
-    "ctaBtn": "Let's Talk"
+    "ctaHeading": "تريد أن تكون لدينا",
+    "ctaHighlight": "النجاح القادم",
+    "ctaSuffix": "قصة؟",
+    "ctaDesc": "دعونا نناقش مشروعك وننشئ شيئًا غير عادي معًا.",
+    "ctaBtn": "دعونا نتحدث"
   },
   "privacy": {
-    "tag": "Legal",
+    "tag": "قانوني",
     "heading": "Privacy",
-    "headingHighlight": "Policy",
+    "headingHighlight": "سياسة",
     "lastUpdated": "آخر تحديث: مارس 2026",
     "partnerDisclaimerP1": "مدعوم بمنصات معترف بها عالمياً وتقنيات رائدة تعزز خدماتنا.",
     "partnerDisclaimerP2": "يُعتبرون شركاء لنا بمعنى أننا نستخدم أدواتهم وخدماتهم، دون أي شراكة رسمية أو انتماء مباشر.",
-    "section1Title": "1. Information We Collect",
-    "section1": "We collect information you provide directly, such as your name, email address, and project details when you contact us or use our services. We also automatically collect certain information about your device and how you interact with our website.",
-    "section2Title": "2. How We Use Your Information",
-    "section2": "We use the information we collect to provide, maintain, and improve our services, communicate with you about projects and updates, and ensure the security of our platforms.",
-    "section3Title": "3. Information Sharing",
-    "section3": "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our website and conducting our business.",
-    "section4Title": "4. Data Security",
-    "section4": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
-    "section5Title": "5. Your Rights",
-    "section5": "You have the right to access, correct, or delete your personal information. You may also opt out of marketing communications at any time by contacting us at support@vebx.run.",
-    "section6Title": "6. Contact Us",
-    "section6": "If you have any questions about this Privacy Policy, please contact us at:",
-    "email": "Email:",
-    "address": "Address:",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "section1Title": "1. المعلومات التي نجمعها",
+    "section1": "نقوم بجمع المعلومات التي تقدمها مباشرة، مثل اسمك وعنوان بريدك الإلكتروني وتفاصيل المشروع عند الاتصال بنا أو استخدام خدماتنا. نقوم أيضًا بجمع معلومات معينة تلقائيًا حول جهازك وكيفية تفاعلك مع موقعنا.",
+    "section2Title": "2. كيف نستخدم معلوماتك",
+    "section2": "نحن نستخدم المعلومات التي نجمعها لتوفير خدماتنا وصيانتها وتحسينها، والتواصل معك بشأن المشاريع والتحديثات، وضمان أمان منصاتنا.",
+    "section3Title": "3. تبادل المعلومات",
+    "section3": "نحن لا نبيع أو نتاجر أو نؤجر معلوماتك الشخصية لأطراف ثالثة. قد نشارك المعلومات مع مقدمي الخدمات الموثوقين الذين يساعدوننا في تشغيل موقعنا الإلكتروني وإجراء أعمالنا.",
+    "section4Title": "4. أمن البيانات",
+    "section4": "نحن ننفذ إجراءات أمنية فنية وتنظيمية مناسبة لحماية معلوماتك الشخصية من الوصول غير المصرح به أو التغيير أو الكشف أو التدمير.",
+    "section5Title": "5. حقوقك",
+    "section5": "لديك الحق في الوصول إلى معلوماتك الشخصية أو تصحيحها أو حذفها. يمكنك أيضًا إلغاء الاشتراك في الاتصالات التسويقية في أي وقت عن طريق الاتصال بنا على support@vebxrun.com.",
+    "section6Title": "6. اتصل بنا",
+    "section6": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
+    "email": "بريد إلكتروني:",
+    "address": "عنوان:",
+    "addressLine1": "كراتشي، باكستان",
+    "addressLine2": "سايبر جايا، ماليزيا"
   },
   "notFound": {
     "title": "404",
-    "desc": "Oops! Page not found",
-    "back": "Return to Home"
+    "desc": "أُووبس! لم يتم العثور على الصفحة",
+    "back": "العودة إلى المنزل"
   },
   "services": {
-    "mobileApplication": "Mobile Application",
-    "mobileApplicationShort": "Native & cross-platform apps that captivate users",
-    "webCmsDevelopment": "Web CMS Development",
-    "webCmsDevelopmentShort": "Powerful content management solutions",
-    "softwareDevelopment": "Software Development",
-    "softwareDevelopmentShort": "Custom software tailored to your needs",
-    "corporateBranding": "Corporate Branding",
-    "corporateBrandingShort": "Bold brand identities that stand out",
-    "onlineDigitalMarketing": "Online Digital Marketing",
-    "onlineDigitalMarketingShort": "Data-driven strategies for growth",
-    "2d3dAnimation": "2D/3D & Animation",
-    "2d3dAnimationShort": "Stunning visuals that tell your story",
-    "3dRenderingServices": "3D Rendering Services",
-    "3dRenderingServicesShort": "Photorealistic 3D visualizations",
-    "metaverseDevelopment": "Metaverse Development",
-    "metaverseDevelopmentShort": "Next-gen immersive digital worlds",
-    "gameDevelopment": "Game Development",
-    "gameDevelopmentShort": "Engaging games across all platforms",
-    "extendedReality": "Extended Reality",
-    "extendedRealityShort": "AR/VR/MR experiences that transform",
-    "socialMediaMarketing": "Social Media Marketing",
-    "socialMediaMarketingShort": "Strategic social presence & engagement"
+    "mobileApplication": "تطبيق الهاتف المحمول",
+    "mobileApplicationShort": "تطبيقات أصلية ومتعددة المنصات تجذب المستخدمين",
+    "webCmsDevelopment": "تطوير نظام إدارة المحتوى على الويب",
+    "webCmsDevelopmentShort": "حلول قوية لإدارة المحتوى",
+    "softwareDevelopment": "تطوير البرمجيات",
+    "softwareDevelopmentShort": "برامج مخصصة مصممة خصيصا لاحتياجاتك",
+    "corporateBranding": "العلامات التجارية للشركات",
+    "corporateBrandingShort": "هويات العلامة التجارية الجريئة التي تبرز",
+    "onlineDigitalMarketing": "التسويق الرقمي عبر الإنترنت",
+    "onlineDigitalMarketingShort": "استراتيجيات النمو المبنية على البيانات",
+    "2d3dAnimation": "2D/3D والرسوم المتحركة",
+    "2d3dAnimationShort": "صور مذهلة تحكي قصتك",
+    "3dRenderingServices": "خدمات العرض ثلاثي الأبعاد",
+    "3dRenderingServicesShort": "تصورات واقعية ثلاثية الأبعاد",
+    "metaverseDevelopment": "تطوير ميتافيرس",
+    "metaverseDevelopmentShort": "عوالم رقمية غامرة من الجيل التالي",
+    "gameDevelopment": "تطوير اللعبة",
+    "gameDevelopmentShort": "ألعاب جذابة عبر جميع المنصات",
+    "extendedReality": "الواقع الممتد",
+    "extendedRealityShort": "تجارب الواقع المعزز/الواقع الافتراضي/الواقع المختلط التي ستحدث تحولًا",
+    "socialMediaMarketing": "التسويق عبر وسائل التواصل الاجتماعي",
+    "socialMediaMarketingShort": "الحضور الاجتماعي الاستراتيجي والمشاركة"
   },
   "vebxAI": {
     "seoTitle": "وكيل VXR التقني — دردشة ذكاء اصطناعي ومكالمة مباشرة",
     "seoDescription": "تحدث أو نادِ وكيل VXR التقني للحصول على إرشادات تقنية حول البرمجيات والتطبيقات وتطوير الويب والذكاء الاصطناعي وهندسة المنتجات الرقمية.",
     "badge": "وكيل تقني مباشر",
-    "title": "VXR",
+    "title": "في إكس آر",
     "titleHighlight": "وكيل تقني",
     "subtitle": "احصل على مساعدة في البرمجيات والتطبيقات والذكاء الاصطناعي وواجهات API والسحابة وهندسة المنتجات الرقمية عبر الدردشة أو مكالمة مباشرة.",
     "chatTitle": "وكيل VXR التقني",
@@ -552,570 +558,591 @@
     "initialAssistant": "مرحباً! أنا **وكيل VXR التقني**. أساعد فقط في المواضيع التقنية مثل تطوير الويب والتطبيقات والذكاء الاصطناعي وواجهات API والسحابة وتجربة المنتجات الرقمية والتصحيح والبنية. اطرح سؤالك التقني للبدء."
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "وكيل VXR",
+    "seoTitle": "وكيل VXR",
+    "seoDescription": "قم بالدردشة مع مساعد الذكاء الاصطناعي لدينا: قم بوصف فكرتك في الرسائل، وقم بإنشاء صور مرجعية للتصميم لمواقع الويب والتطبيقات، وأرفقها بالحصول على عرض أسعار - لا يلزم تسجيل الدخول.",
+    "heroDescription": "اكتب رسائل تحتوي على فكرتك - نقوم بإنشاء صور مرجعية لتصميمات الويب والتطبيقات",
+    "widgetAriaLabel": "افتح وكيل VXR",
+    "widgetTooltip": "وكيل VXR — افتح الرسائل، ووصف تصميمك، وأنشئ صورًا مرجعية لمشروعك",
+    "drawerAriaLabel": "فكرة التصميم – صورة مرجعية بتقنية الذكاء الاصطناعي",
+    "drawerSubtitle": "نفس العنوان — الرسائل + أفكار الصور",
+    "creditsToday": "{{remaining}} / {{limit}} الاعتمادات اليوم",
+    "creditsLoading": "… الاعتمادات اليوم",
+    "intro": "استخدم المربع أدناه مثل الدردشة: اكتب ما تحتاجه في رسالة واحدة أو أكثر. نقوم بإنشاء صور مرجعية للتصميم لمواقع الويب والتطبيقات فقط. قم بإرفاق النتيجة في الحصول على عرض أسعار. لا يوجد حساب أو تسجيل الدخول المطلوبة.",
+    "promptPlaceholder": "على سبيل المثال موقع الوكالة ذو المظهر الداكن واللكنات الحمراء وقسم الأبطال الحديث",
+    "generate": "توليد الصورة",
+    "generating": "جارٍ الإنشاء…",
+    "generatedReference": "مرجع تم إنشاؤه",
+    "generatedImageAlt": "مرجع التصميم الذي تم إنشاؤه بواسطة الذكاء الاصطناعي",
+    "referenceOnly": "المرجع فقط — استخدمه في الحصول على عرض أسعار لإرفاقه",
+    "useInQuote": "استخدم في الحصول على عرض أسعار",
+    "promptRequired": "الرجاء إدخال فكرة التصميم أو المطالبة.",
+    "imageDataMissing": "تعذر الحصول على بيانات الصورة.",
+    "generationFailed": "فشل الجيل.",
+    "referenceAttached": "المرجع المرفق. فتح نموذج عرض الأسعار.",
+    "attachFailed": "فشل الإرفاق."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "تطبيق الهاتف المحمول",
+      "shortDesc": "تطبيقات أصلية ومتعددة المنصات تجذب المستخدمين",
+      "longDesc": "نحن نبني تطبيقات الهاتف المحمول التي يحبها المستخدمون. بدءًا من نظامي التشغيل iOS وAndroid الأصليين وحتى الحلول عبر الأنظمة الأساسية باستخدام React Native وFlutter، نقدم تطبيقات عالية الأداء وقابلة للتطوير تتوافق مع أهداف عملك. يتعامل فريقنا مع كل شيء بدءًا من تصميم تجربة المستخدم وحتى نشر متجر التطبيقات.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOS وAndroid التطوير الأصلي",
+        "رد الفعل الأصلي والرفرفة",
+        "تصميم واجهة المستخدم/UX",
+        "نشر متجر التطبيقات ومتجر Play",
+        "الصيانة والتحديثات"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "عبر منصة",
+          "desc": "قاعدة بيانات واحدة لنظامي التشغيل iOS وAndroid عندما يكون ذلك منطقيًا."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "أداء",
+          "desc": "مُحسّن للسرعة والبطارية والقدرة على عدم الاتصال بالإنترنت."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "حماية",
+          "desc": "أفضل الممارسات المتعلقة بالبيانات والامتثال (GDPR، HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "تطوير نظام إدارة المحتوى على الويب",
+      "shortDesc": "حلول قوية لإدارة المحتوى",
+      "longDesc": "منصات الويب المخصصة وأنظمة إدارة المحتوى التي تتيح لك التحكم. نحن نبني باستخدام WordPress، وCMS بدون رأس، والواجهات الخلفية المخصصة حتى يتمكن فريقك من نشر المحتوى وإدارته دون الاعتماد على المطورين في كل تحديث.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "ووردبريس ونظام إدارة المحتوى بدون رأس",
+        "لوحات الإدارة المخصصة",
+        "بنية API الأولى",
+        "متعدد المواقع ومتعدد اللغات",
+        "هيكل صديق لكبار المسئولين الاقتصاديين"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "تحديثات المحتوى سهلة",
+          "desc": "لوحات معلومات بديهية للفرق غير الفنية."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "قابلة للتطوير",
+          "desc": "تم تصميمه لينمو مع حركة المرور والمحتوى الخاص بك."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "التكامل",
+          "desc": "اتصل بإدارة علاقات العملاء (CRM) والتحليلات وأدوات التسويق."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "تطوير البرمجيات",
+      "shortDesc": "برامج مخصصة مصممة خصيصا لاحتياجاتك",
+      "longDesc": "بدءًا من منتجات SaaS وحتى أنظمة المؤسسات، نقوم ببناء برامج مخصصة تناسب سير عملك. نحن نستخدم مكدسات حديثة وتسليمًا سريعًا حتى تحصل على حل يتوسع ويتطور مع عملك.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS وتطبيقات الويب",
+        "أنظمة المؤسسات",
+        "واجهات برمجة التطبيقات والتكامل",
+        "النشر السحابي (AWS، وAzure، وGCP)",
+        "تسليم رشيق"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "مصممة خصيصًا",
+          "desc": "لا توجد تنازلات جاهزة - مصممة لتلبية احتياجاتك."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "المكدس الحديث",
+          "desc": "React وNode وPython و.NET والتقنيات التي أثبتت جدواها."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "الدعم المستمر",
+          "desc": "الصيانة والتحديثات وتطوير الميزات."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "العلامات التجارية للشركات",
+      "shortDesc": "هويات العلامة التجارية الجريئة التي تبرز",
+      "longDesc": "نقوم بإنشاء هويات العلامة التجارية التي تعبر عن هويتك وتتردد صداها مع جمهورك. بدءًا من تصميم الشعار والإرشادات المرئية وحتى الإستراتيجية الكاملة للعلامة التجارية، نساعدك على التميز في السوق الخاص بك.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "الشعار والهوية البصرية",
+        "إرشادات العلامة التجارية",
+        "استراتيجية العلامة التجارية",
+        "تصميم جانبي",
+        "مجموعات الأصول الرقمية"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "هوية مميزة",
+          "desc": "شعارات لا تُنسى ولغة مرئية متسقة."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "تقودها الاستراتيجية",
+          "desc": "ترتبط اختيارات العلامة التجارية بعملك وجمهورك."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "جاهز للاستخدام",
+          "desc": "الأصول والمبادئ التوجيهية لجميع نقاط الاتصال."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "التسويق الرقمي عبر الإنترنت",
+      "shortDesc": "استراتيجيات النمو المبنية على البيانات",
+      "longDesc": "يمكنك زيادة مدى وصولك وتحويلاتك من خلال تحسين محركات البحث (SEO) والدفع لكل نقرة (PPC) وتسويق المحتوى وتحسين التحويل. نحن نركز على النتائج القابلة للقياس والنمو المستدام، وليس المقاييس الغرورية.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "تحسين محركات البحث واستراتيجية المحتوى",
+        "الدفع لكل نقرة (PPC) ووسائل التواصل الاجتماعي المدفوعة",
+        "تحسين التحويل",
+        "التحليلات وإعداد التقارير",
+        "أتمتة التسويق"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "تعتمد على البيانات",
+          "desc": "القرارات المبنية على التحليلات والاختبارات."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "قمع كامل",
+          "desc": "حملات التوعية والتفكير والتحويل."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "تقارير شفافة",
+          "desc": "مقاييس واضحة ومراجعات منتظمة."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D والرسوم المتحركة",
+      "shortDesc": "صور مذهلة تحكي قصتك",
+      "longDesc": "الرسوم المتحركة ومقاطع الفيديو التوضيحية والرسوم المتحركة السينمائية التي تشارك وتشرح. نحن ننتج محتوى ثنائي وثلاثي الأبعاد للإعلانات والعروض التوضيحية للمنتجات وسرد قصص العلامة التجارية عبر جميع الأنظمة الأساسية.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "الرسوم المتحركة",
+        "فيديوهات توضيحية",
+        "الرسوم المتحركة ثنائية وثلاثية الأبعاد",
+        "الرسوم المتحركة للشخصية",
+        "المحتوى الاجتماعي والإعلاني"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "القصة أولا",
+          "desc": "يدعم كل إطار رسالتك وعلامتك التجارية."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "متعدد التنسيق",
+          "desc": "من المقاطع الاجتماعية القصيرة إلى الشرح الطويل."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "على العلامة التجارية",
+          "desc": "أسلوب متناسق مع هويتك البصرية."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "خدمات العرض ثلاثي الأبعاد",
+      "shortDesc": "تصورات واقعية ثلاثية الأبعاد",
+      "longDesc": "عروض ثلاثية الأبعاد عالية الجودة للهندسة المعمارية وتصور المنتج والتسويق. نحن نقدم صورًا ورسومًا متحركة واقعية تعرض منتجاتك ومساحاتك قبل وجودها في العالم الحقيقي.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "التصور المعماري",
+        "تقديم المنتج",
+        "CGI للتسويق",
+        "الداخلية والخارجية",
+        "الرسوم المتحركة والإرشادات التفصيلية"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "واقعية",
+          "desc": "الإضاءة والمواد التي تبدو حقيقية."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "أي صناعة",
+          "desc": "العقارات، التجزئة، السيارات، وأكثر من ذلك."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "التكرارات السريعة",
+          "desc": "تغييرات سريعة دون إعادة التصوير فعليًا."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "تطوير ميتافيرس",
+      "shortDesc": "عوالم رقمية غامرة من الجيل التالي",
+      "longDesc": "نحن نصمم ونبني تجارب Metaverse: المساحات الافتراضية، والتوائم الرقمية، والبيئات الغامرة للأحداث، وتجارة التجزئة، والمجتمع. من المفهوم إلى النشر على المنصات الرائدة.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "الفضاءات والعوالم الافتراضية",
+        "التوائم الرقمية",
+        "تكامل الواقع الافتراضي/الواقع المعزز",
+        "تجارب متعددة المستخدمين",
+        "تجارب جاهزة للويب 3"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "غامرة",
+          "desc": "المساحات التي تبدو حقيقية وجذابة."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "قابلة للتطوير",
+          "desc": "بنية تدعم العديد من المستخدمين المتزامنين."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "العلامة التجارية جاهزة",
+          "desc": "البيئات المخصصة التي تعكس علامتك التجارية."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "تطوير اللعبة",
+      "shortDesc": "ألعاب جذابة عبر جميع المنصات",
+      "longDesc": "من ألعاب الهاتف المحمول إلى أجهزة الكمبيوتر ووحدات التحكم، نقوم بتصميم الألعاب التي يحبها اللاعبون. نحن نستخدم Unity وUnreal Engine لإنشاء عناوين IP أصلية وألعاب جادة وتجارب ذات علامات تجارية مع التركيز على أسلوب اللعب والتحسين.",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "الهاتف المحمول والكمبيوتر الشخصي ووحدة التحكم",
+        "الوحدة والمحرك غير الواقعي",
+        "تصميم اللعبة والميكانيكا",
+        "متعددة اللاعبين والعمليات الحية",
+        "النقل والتحسين"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "الإنتاج الكامل",
+          "desc": "دعم التصميم والفن والتعليمات البرمجية والإطلاق."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "محركات مجربة",
+          "desc": "الوحدة وغير الواقعية للجودة والأداء."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "ما بعد الإطلاق",
+          "desc": "التحديثات والأحداث وميزات المجتمع."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "الواقع الممتد",
+      "shortDesc": "تجارب الواقع المعزز/الواقع الافتراضي/الواقع المختلط التي ستحدث تحولًا",
+      "longDesc": "تجارب الواقع المعزز والواقع الافتراضي والواقع المختلط للتدريب والتسويق وتصور المنتج. نحن نصمم تطبيقات تعمل على سماعات الرأس والأجهزة المحمولة لتدريب الموظفين أو عرض المنتجات أو إنشاء حملات غامرة.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "تطبيقات الواقع المعزز (الجوال والنظارات)",
+        "التدريب والمحاكاة في الواقع الافتراضي",
+        "تجارب الواقع المختلط",
+        "جولات افتراضية",
+        "تصميم محايد للأجهزة"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "حالات الاستخدام العملي",
+          "desc": "التدريب والمبيعات والتسويق التي تدفع عائد الاستثمار."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "متعدد الأجهزة",
+          "desc": "يعمل على الهواتف والأجهزة اللوحية وسماعات XR."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "تم اختباره من قبل المستخدم",
+          "desc": "الراحة وسهولة الاستخدام في جوهرها."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "التسويق عبر وسائل التواصل الاجتماعي",
+      "shortDesc": "الحضور الاجتماعي الاستراتيجي والمشاركة",
+      "longDesc": "نحن نبني وندير تواجدك الاجتماعي من خلال الإستراتيجية والمحتوى وإدارة المجتمع. بدءًا من المحتوى العضوي وحتى شراكات المؤثرين ووسائل التواصل الاجتماعي المدفوعة، نساعدك على التواصل مع الجمهور المناسب.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "استراتيجية المحتوى وإنشاءه",
+        "إدارة المجتمع",
+        "شراكات المؤثرين",
+        "الحملات الاجتماعية المدفوعة",
+        "التحليلات وإعداد التقارير"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "صوت العلامة التجارية",
+          "desc": "المحتوى الذي يبدو مثلك وله صدى."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "مجتمع",
+          "desc": "المشاركة التي تبني الولاء والدعوة."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "مدفوعة + عضوية",
+          "desc": "نهج متكامل لتحقيق أقصى قدر من الوصول."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "حلول الذكاء الاصطناعي",
+      "shortDesc": "روبوتات الدردشة والأتمتة وسير العمل الذكي المدعوم بالذكاء الاصطناعي لتبسيط العمليات وإشراك المستخدمين.",
+      "longDesc": "نحن نبني حلولاً مدعومة بالذكاء الاصطناعي تعمل على تغيير طريقة عملك ومشاركتك. بدءًا من روبوتات الدردشة المخصصة والمساعدين الافتراضيين وحتى أتمتة العمليات وسير العمل الذكي، نساعدك على الاستفادة من الذكاء الاصطناعي لتوفير الوقت وتوسيع نطاق الدعم وتقديم تجارب أفضل. تتكامل حلولنا مع أدواتك الحالية وهي مصممة لتحقيق الموثوقية في العالم الحقيقي.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "روبوتات الدردشة المخصصة والمساعدين الافتراضيين",
+        "أتمتة العمليات وسير العمل",
+        "التكامل والضبط LLM",
+        "تكاملات API",
+        "التحليلات والتحسين"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "مصممة لك",
+          "desc": "الذكاء الاصطناعي مبني على سير العمل الخاص بك وصوت العلامة التجارية."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "آمنة وقابلة للتطوير",
+          "desc": "جاهز للمؤسسات مع معالجة واضحة للبيانات."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "التحسين المستمر",
+          "desc": "نحن نكرر بناءً على الاستخدام والتعليقات."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "تصميم ونشر الكتب الإلكترونية",
+      "shortDesc": "تصميم احترافي للكتب الإلكترونية وتصميم الغلاف والتوزيع لـ Kindle وApple Books ومنصات أخرى.",
+      "longDesc": "من المخطوطة إلى واجهة المتجر - نتعامل مع تصميم الكتب الإلكترونية وتنسيقها وتوزيعها حتى يظهر كتابك ويباع مثل المحترفين. نقوم بإنشاء تخطيطات سريعة الاستجابة وأغلفة ملفتة للنظر وبيانات وصفية يتم تصنيفها. سواء كنت مؤلفًا أو ناشرًا، فإننا نعرض كتابك الإلكتروني مباشرة على Kindle وApple Books وKobo والمزيد.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "التصميم الداخلي والطباعة",
+        "تصميم الغلاف",
+        "تنسيق EPUB وKindle",
+        "توزيع متعدد المنصات",
+        "البيانات الوصفية وتحسين محركات البحث للكتب"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "تصميم القارئ الأول",
+          "desc": "التخطيطات التي تعمل على كل جهاز وحجم الخط."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "جاهز للمتجر",
+          "desc": "متوافق مع Kindle وApple وتجار التجزئة الآخرين."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "تحول سريع",
+          "desc": "جداول زمنية واضحة من المسودة إلى النشر."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "مجلة رقمية",
+      "shortDesc": "تصميم مذهل للمجلات الرقمية وتخطيطات تفاعلية للعلامات التجارية والناشرين.",
+      "longDesc": "نقوم بتصميم وبناء المجلات الرقمية التي يحبها القراء. بدءًا من التخطيطات التحريرية والعناصر التفاعلية ووصولاً إلى تجارب الاشتراك والقراءة على الويب والتطبيق، نقوم بإنشاء منشورات متميزة. مثالي للعلامات التجارية والناشرين وأي شخص يحول المحتوى إلى منتج رقمي مصقول.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "تصميم تخطيط التحرير",
+        "العناصر التفاعلية",
+        "النشر على الويب والتطبيقات",
+        "تدفقات الاشتراك",
+        "التحليلات والمشاركة"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "الجودة التحريرية",
+          "desc": "التخطيطات التي تبدو متميزة وسهلة القراءة."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "جذابة",
+          "desc": "التفاعل الذي يبقي القراء التمرير."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "جاهز لتحقيق الدخل",
+          "desc": "نظام حظر الاشتراك غير المدفوع والعضويات المضمنة."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "الجريدة الإلكترونية",
+      "shortDesc": "تصميم الصحف الرقمية وبوابات الأخبار بتخطيطات سريعة الاستجابة وتحديثات سهلة للمحتوى.",
+      "longDesc": "نحن نبني صحفًا رقمية وبوابات إخبارية تضع قصصك في المقدمة والمركز. إن التخطيطات سريعة الاستجابة والتحميل السريع والتكامل البسيط لنظام إدارة المحتوى (CMS) تعني أن فريقك يمكنه النشر والتحديث دون أي متاعب فنية. نحن نركز على سهولة القراءة وإمكانية الوصول والتجربة التي تعمل على كل جهاز.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "تخطيط الأخبار استجابة",
+        "تكامل نظام إدارة المحتوى",
+        "تحميل سريع وكبار المسئولين الاقتصاديين",
+        "الأخبار والأقسام العاجلة",
+        "فتحات الإعلانات والرعاية"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "صديقة للقارئ",
+          "desc": "تسلسل هرمي واضح وطباعة للقراءة الطويلة."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "من السهل التحديث",
+          "desc": "يمكن لغير المطورين نشر المحتوى وإدارته."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "جاهز للإيرادات",
+          "desc": "تم تضمين الوحدات الإعلانية وخيارات الاشتراك."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "إنتاج البودكاست",
+      "shortDesc": "التسجيل والتحرير وعرض الملاحظات وتوزيع ملفات البودكاست التي تبدو احترافية.",
+      "longDesc": "نحن نأخذ البودكاست الخاص بك من الفكرة إلى الأذن. يتولى فريقنا إعداد التسجيل والتحرير والمزج وعرض الملاحظات والتوزيع حتى تتمكن من التركيز على المحادثة. نحن نقدم صوتًا عالي الجودة وعلامة تجارية متسقة حتى يبدو عرضك جيدًا كما يبدو في رأسك.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "التسجيل والتحرير",
+        "خلط واتقان",
+        "عرض الملاحظات والنصوص",
+        "العمل الفني والعلامات التجارية",
+        "التوزيع و RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "جودة البث",
+          "desc": "صوت نظيف يبدو احترافيًا."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "تسليم المفتاح",
+          "desc": "نحن نتعامل مع خط الأنابيب بالكامل حتى لا تضطر إلى ذلك."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "علامة تجارية متسقة",
+          "desc": "الأعمال الفنية والملاحظات التي تتناسب مع العرض الخاص بك."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "الرسوم البيانية والبيانات بمعنى",
+      "shortDesc": "الرسوم البيانية الواضحة والجذابة وتصورات البيانات التي تسهل مشاركة المعلومات المعقدة.",
+      "longDesc": "نحول البيانات والأفكار إلى صور مرئية يمكن مشاركتها. بدءًا من الرسوم البيانية الثابتة وحتى لوحات المعلومات والتقارير التفاعلية، فإننا نجعل المعلومات المعقدة واضحة وجذابة. مثالية للتقارير والعروض التقديمية والمحتوى الاجتماعي والاتصالات الداخلية التي تحتاج إلى الالتزام.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "الرسوم البيانية الثابتة",
+        "بمعنى البيانات التفاعلية",
+        "التقارير والعروض التقديمية",
+        "تنسيقات جاهزة للتواصل الاجتماعي",
+        "تصميم محاذاة للعلامة التجارية"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "الوضوح أولا",
+          "desc": "التصميم الذي يجعل الرسالة واضحة."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "قابلة للمشاركة",
+          "desc": "التنسيقات التي تعمل على الشبكات الاجتماعية وفي الطوابق."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "دقيق",
+          "desc": "البيانات بمعنى أن تحترم الأرقام."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "تطوير الشات بوت",
+      "shortDesc": "روبوتات الدردشة المخصصة للدعم والمبيعات والمشاركة - مدمجة مع أدواتك الحالية.",
+      "longDesc": "نحن نبني روبوتات الدردشة التي تساعد بالفعل. سواء كان ذلك يتعلق بدعم العملاء، أو تأهيل العملاء المحتملين، أو سير العمل الداخلي، فقد تم تصميم الروبوتات الخاصة بنا لتتمحور حول عملياتك ومتكاملة مع نظام إدارة علاقات العملاء (CRM) ومكتب المساعدة والتطبيقات. نحن نستخدم الذكاء الاصطناعي وتصميم المحادثة الذي أثبت كفاءته حتى يحصل المستخدمون على الإجابات بسرعة ويشعر فريقك بالراحة.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "تصميم المحادثة",
+        "تكامل إدارة علاقات العملاء ومكتب المساعدة",
+        "متعدد القنوات (الويب، الواتساب، الخ)",
+        "التحليلات والتدريب",
+        "التسليم للبشر"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "يناسب المكدس الخاص بك",
+          "desc": "يعمل مع الأدوات التي تستخدمها بالفعل."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "تسليم الإنسان",
+          "desc": "تصعيد سلس عندما لا يستطيع الروبوت المساعدة."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "يتحسن مع مرور الوقت",
+          "desc": "نحن نضبط بناءً على محادثات حقيقية."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "كتابة الإعلانات والمحتوى",
+      "shortDesc": "نسخة صديقة لكبار المسئولين الاقتصاديين ومنشورات المدونة والمحتوى التسويقي الذي يتم التحويل والتصنيف.",
+      "longDesc": "نكتب النسخة التي يتم تحويلها والمحتوى الذي يصنف. بدءًا من الصفحات المقصودة ونسخة المنتج وحتى سلسلة المدونات ومحتوى تحسين محركات البحث، فإننا نطابق صوتك وأهدافك. تم تصميم كل قطعة من أجل الوضوح والإقناع والبحث، حتى تحصل على حركة المرور والتحويلات.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "الصفحات المقصودة ونسخة المنتج",
+        "محتوى المدونة وتحسين محركات البحث",
+        "تسلسل البريد الإلكتروني",
+        "نسخة الإعلان والاجتماعية",
+        "استراتيجية المحتوى"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "صوت العلامة التجارية",
+          "desc": "انسخ ما يبدو مثلك أنت وجمهورك."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "تحسين محركات البحث (SEO) مدمج",
+          "desc": "المحتوى منظم للبحث والمشاركة."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "تركز على التحويل",
+          "desc": "كل كلمة مختارة لتحريك الإبرة."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "المحتوى الاجتماعي واليوتيوب",
+      "shortDesc": "بكرات وقصص ودوامات ومقاطع فيديو على YouTube وحملات على Facebook وInstagram وTikTok وYouTube.",
+      "longDesc": "نقوم بإنشاء محتوى يمكن رؤيته ومشاركته عبر Facebook وInstagram وTikTok وYouTube. من البكرات والقصص إلى الرف الدائري، ونصوص YouTube، والصور المصغرة، وتحرير الفيديو - نحن ننتج محتوى خاص بالعلامة التجارية لجميع المنصات الرئيسية. نحن نجمع بين التوجيه الإبداعي وأفضل ممارسات النظام الأساسي حتى تبدو خلاصتك وقناتك احترافية وتتحرك مقاييسك.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "بكرات وقصص ونماذج قصيرة (IG وTikTok وFB)",
+        "نصوص YouTube والصور المصغرة والتحرير",
+        "دوارات ومشاركات ثابتة",
+        "مفاهيم الحملة وتقاويم المحتوى",
+        "نسخ وعلامات التصنيف وتحسين محركات البحث لشبكات التواصل الاجتماعي"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "جميع المنصات",
+          "desc": "Facebook وInstagram وTikTok وYouTube في مكان واحد."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "نظرة متسقة",
+          "desc": "قوالب وأدلة أسلوب لعلامتك التجارية."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "جاهز للنشر",
+          "desc": "يتم تسليم الأصول النهائية والتسميات التوضيحية في الموعد المحدد."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "خدمة",
+    "offerBefore": "ما نحن",
+    "offerHighlight": "يعرض",
+    "whyBefore": "لماذا العمل مع",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "جاهز ل",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "دعونا نناقش مشروعك ونبني شيئًا رائعًا معًا.",
+    "ctaButton": "دعونا نتحدث",
+    "backAllServices": "← جميع الخدمات"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "بيت",
+    "homeDescription": "vebxrun — تطبيقات الهاتف المحمول، وتطوير الويب، وتطوير الألعاب، وmetaverse، وحلول الذكاء الاصطناعي، والتسويق الرقمي. يتصور. ابتكر. يلهم.",
+    "servicesTitle": "خدمات",
+    "servicesDescription": "تطبيقات الهاتف المحمول، تطوير الويب وأنظمة إدارة المحتوى، تطوير البرمجيات، العلامات التجارية للشركات، التسويق الرقمي، الرسوم المتحركة ثنائية وثلاثية الأبعاد، metaverse، تطوير الألعاب والمزيد. اكتشف خدمات vebxrun.",
+    "pricingTitle": "التسعير",
+    "pricingDescription": "أسعار شفافة لتطبيقات الأجهزة المحمولة وتطوير الويب والحلول الرقمية. الخطط المبتدئة والمهنية والمؤسسية. احصل على عرض أسعار من vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "متصل",
+    "closeChat": "إغلاق الدردشة",
+    "openChat": "الدردشة معنا",
+    "skipToLiveChat": "انتقل إلى الدردشة المباشرة →",
+    "nameLabel": "اسم",
+    "emailLabel": "بريد إلكتروني",
+    "whatsappLabel": "واتساب",
+    "serviceLabel": "خدمة",
+    "sending": "إرسال…",
+    "orLiveChat": "أو ابدأ محادثة مباشرة بدلاً من ذلك",
+    "toastNameEmailRequired": "الاسم والبريد الإلكتروني مطلوبان",
+    "toastRequestSent": "تم إرسال الطلب!",
+    "toastSubmitFailed": "فشل الإرسال. حاول ثانية.",
+    "submittedTitle": "تم إرسال الطلب!",
+    "submittedDesc": "سوف نعود اليكم قريبا.",
+    "startLiveChat": "ابدأ الدردشة المباشرة",
+    "secondsShort": "{{count}}s"
   }
 }

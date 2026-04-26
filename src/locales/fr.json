@@ -5,14 +5,14 @@
     "services": "Services",
     "pricing": "Tarifs",
     "ourWork": "Nos réalisations",
-    "expertise": "Expertise",
+    "expertise": "Compétence",
     "contactUs": "Contactez-nous",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Nouveaux services",
+    "newBadge": "Nouveau",
+    "customRequirement": "Obtenez un devis",
+    "designAssistant": "Agent VXR",
+    "projects": "Projets",
+    "privacy": "Confidentialité"
   },
   "hero": {
     "tagline": "Imaginez. Innovez. Inspirez.",
@@ -136,7 +136,7 @@
     "linkPricing": "Tarifs",
     "linkContactUs": "Contactez-nous",
     "linkOurWork": "Nos réalisations",
-    "linkExpertise": "Expertise",
+    "linkExpertise": "Compétence",
     "linkAbout": "À propos",
     "linkPrivacyPolicy": "Politique de confidentialité",
     "services": "Services",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "Prêt à donner vie à votre vision ? Contactez-nous et créons quelque chose d'extraordinaire.",
     "getInTouch": "Nous contacter",
     "copyright": "Droits réservés 2024–2026 par",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Course Vebex",
     "stayInLoop": "Restez informé",
     "stayInLoopDesc": "Recevez des analyses et actualités sur l'innovation numérique.",
     "subscribe": "S'abonner",
@@ -159,13 +159,18 @@
       "title3": "Transformation digitale qui stimule la croissance",
       "excerpt3": "Comment nous aidons les entreprises à innover et à se développer grâce à la technologie."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
+    "linkNewServices": "Nouveaux services",
+    "linkCustomRequirement": "Obtenez un devis",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaisie",
+    "linkTermsConditions": "Conditions générales",
+    "columnGetInTouchTitle": "Entrer en contact",
+    "columnGetInTouchDesc": "Vous avez un projet en tête ? Contactez-nous et créons quelque chose d'extraordinaire.",
+    "followUsBar": "Suivez-nous pour les mises à jour",
+    "letsConnect": "Connectons-nous"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Course Vebex",
     "explore": "Explorer"
   },
   "servicesPage": {
@@ -210,7 +215,8 @@
       "12monthsSupport": "12 mois de support",
       "cicd": "CI/CD et DevOps",
       "sla": "Garantie SLA"
-    }
+    },
+    "customPrice": "Coutume"
   },
   "contact": {
     "tag": "Contactez-nous",
@@ -230,19 +236,19 @@
     "saturday": "Samedi",
     "sunday": "Dimanche",
     "closed": "Fermé",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Parlons - Chat en direct",
+    "liveChatDesc": "Envoyez-nous un message en direct ci-dessous : texte, images, audio ou vidéo. Nous répondons ici.",
+    "monToSun": "Lundi – dimanche"
   },
   "expertise": {
-    "tag": "Expertise",
+    "tag": "Compétence",
     "heading": "Notre",
     "headingHighlight": "stack technologique",
     "headingSuffix": "",
     "desc": "Nous maîtrisons les outils qui comptent. Notre expertise couvre l'ensemble de l'écosystème digital.",
     "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
+      "frontend": "L'extrémité avant",
+      "backend": "Back-end",
       "mobile": "Mobile",
       "cloudDevops": "Cloud et DevOps",
       "gameXR": "Jeux et XR",
@@ -267,7 +273,7 @@
     "ctaBtn": "Nous contacter"
   },
   "ourWork": {
-    "tag": "Portfolio",
+    "tag": "Portefeuille",
     "heading": "Nos",
     "headingHighlight": "réalisations",
     "desc": "Une vitrine de projets qui démontrent notre expertise dans différents secteurs et technologies.",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Application mobile",
+        "desc": "Application islamique pour Android et iOS avec une expérience de marque verte, des heures de prière, le Coran et un tableau de bord analytique pour obtenir des informations sur l'engagement."
       },
       "vebxcode": {
-        "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "title": "Code Vebx",
+        "category": "Application Web",
+        "desc": "Site Web de portfolio complet pour une agence numérique : thème sombre, accents rouges, services, galerie de projets, réalisations, blog et contact. Construit pour mettre en valeur leur travail et leur expertise."
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "SantéSync",
+        "category": "Soins de santé",
+        "desc": "Portail médecin-patient pour les rendez-vous, les ordonnances et les dossiers médicaux. Aligné sur la HIPAA, utilisé par les cliniques pour la planification et les suivis."
       },
       "taskflow": {
-        "title": "TaskFlow",
+        "title": "Flux de tâches",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Gestion des tâches d'équipe avec tableaux Kanban, délais et synchronisation en temps réel. Déployé pour les équipes et agences distantes."
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "NourritureDash",
+        "category": "Application mobile",
+        "desc": "Découverte de restaurants, commande en ligne et suivi de livraison en direct. Application partenaire pour les restaurants et application chauffeur pour la logistique."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Événement",
+        "category": "Application Web",
+        "desc": "Plateforme de billetterie d'événements et de réservation de salles avec paiement, gestion des participants et enregistrement QR. Utilisé pour des conférences et des ateliers."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Logiciel",
+        "desc": "Stockage sécurisé des documents avec signature électronique, historique des versions et contrôles de conformité. Conçu pour les équipes juridiques et financières."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Application mobile",
+        "desc": "Application de suivi de la condition physique et de la santé avec plans d'entraînement, tableaux de bord de progression et journalisation nutritionnelle. Multiplateforme pour Android et iOS."
       },
       "cloudflow": {
-        "title": "CloudFlow",
+        "title": "Flux Cloud",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Plateforme SaaS de gestion de projet et de flux de travail avec collaboration en temps réel, tableaux de tâches et analyses d'équipe pour les équipes distantes."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "Dérive du néon",
+        "category": "Développement de jeux",
+        "desc": "Jeu de course de style arcade avec une esthétique néon, des commandes fluides et des classements. Construit avec Unity pour plusieurs plates-formes."
       },
       "shopverse": {
-        "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "title": "Vers la boutique",
+        "category": "Commerce électronique",
+        "desc": "Plateforme de commerce électronique moderne avec catalogue de produits, panier, paiement et tableau de bord du fournisseur. Paiements et inventaire intégrés."
       },
       "paybridge": {
         "title": "PayBridge",
-        "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "category": "Technologie Financière",
+        "desc": "Tableau de bord des paiements et des finances pour les entreprises : transactions, rapprochement et reporting avec une sécurité de niveau bancaire."
       },
       "learnhub": {
-        "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "title": "Centre d'apprentissage",
+        "category": "Technologie éducative",
+        "desc": "Plateforme de gestion de l'apprentissage avec cours, suivi des progrès, quiz et certificats pour les éducateurs et les apprenants."
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "Opérations intelligentes",
+        "category": "Logiciels et IoT",
+        "desc": "Tableau de bord des opérations basé sur l'IoT pour surveiller les actifs, les alertes et les analyses. Conçu pour les installations et la logistique intelligentes."
       },
       "engagelab": {
-        "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "title": "EngagerLab",
+        "category": "Marketing numérique",
+        "desc": "Plateforme d'analyse des médias sociaux et des campagnes : mesures d'engagement, planification du contenu et rapports sur le retour sur investissement pour les marques."
       }
     },
     "ctaHeading": "Vous voulez être notre",
@@ -398,15 +404,15 @@
     "section4Title": "4. Sécurité des données",
     "section4": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos informations personnelles.",
     "section5Title": "5. Vos droits",
-    "section5": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire des communications marketing à tout moment en nous contactant à support@vebx.run.",
+    "section5": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire des communications marketing à tout moment en nous contactant à support@vebxrun.com.",
     "section6Title": "6. Contactez-nous",
     "section6": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter :",
     "email": "E-mail :",
     "address": "Adresse :",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
+    "partnerDisclaimerP1": "Propulsé par des plateformes mondialement reconnues et des technologies de pointe qui soutiennent et améliorent nos services.",
+    "partnerDisclaimerP2": "Ils sont considérés comme nos partenaires dans le sens où nous utilisons leurs outils et services, sans impliquer aucun partenariat formel ou officiel ou affiliation directe.",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaisie"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "Présence sociale stratégique et engagement"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
+    "tag": "Nouveau",
+    "heading": "Nouveau",
     "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "subtitle": "De nouvelles offres numériques : des solutions d'IA, de contenu et de médias pour accroître votre portée.",
+    "getInTouch": "Parlons"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
+    "tag": "Votre exigence",
+    "heading": "Coutume",
+    "headingHighlight": "Exigence",
+    "desc": "Dites-nous ce dont vous avez besoin. Sélectionnez votre service, vos préférences et obtenez une estimation de prix instantanée.",
+    "yourName": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "yourEmail": "Votre e-mail",
+    "emailPlaceholder": "Entrez votre email",
+    "yourPhone": "Votre téléphone",
+    "phonePlaceholder": "Entrez votre numéro de téléphone",
     "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "step2Title": "Exigence",
+    "step3Title": "Technologie et plan",
+    "step4Title": "Référencer et soumettre",
+    "step5Title": "Merci",
+    "thankYouTitle": "Merci!",
+    "thankYouMessage": "Nous avons reçu votre demande. Notre équipe vous répondra bientôt.",
+    "backToHome": "Retour à la maison",
+    "submitAnother": "En soumettre un autre",
+    "nextStep": "Suivant",
+    "prevStep": "Dos",
+    "stepOf": "Étape {{current}} de {{total}}",
+    "selectService": "De quoi avez-vous besoin?",
+    "selectServicePlaceholder": "Sélectionnez une prestation",
+    "selectSubType": "Type de projet/détails",
+    "selectSubTypePlaceholder": "Sélectionnez une option",
+    "selectTech": "Technologie/plateforme (sélectionnez toutes les réponses applicables)",
+    "selectTier": "Choisir le forfait",
+    "priceLabel": "Prix ​​estimé",
+    "priceCustom": "Devis personnalisé",
+    "perProject": "par projet",
+    "referenceLink": "Lien de référence (par exemple, site Web ou application que vous aimez)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Image de référence (facultatif)",
+    "referenceImageHint": "Téléchargez une capture d'écran ou une référence de conception",
+    "developBtn": "Développer",
+    "talkToTeam": "Parlez à l'équipe",
+    "submitSuccess": "Demande soumise. Nous vous répondrons bientôt.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "Commerce électronique",
+      "social": "Social / communautaire",
+      "utility": "Utilité / productivité",
+      "enterprise": "Entreprise / interne",
+      "onDemand": "Sur demande / livraison",
+      "blog": "Blog / site de contenu",
+      "corporate": "Entreprise / entreprise",
+      "portfolio": "Portfolio / vitrine",
+      "landing": "Page de destination/marketing",
+      "saas": "Produit SaaS",
+      "dashboard": "Tableau de bord/analyses",
+      "api": "API/back-end",
+      "seo": "Référencement et contenu",
+      "ppc": "PPC et réseaux sociaux payants",
+      "fullCampaign": "Campagne complète",
+      "organic": "Contenu organique",
+      "paidSocial": "Réseaux sociaux payants",
+      "influencer": "Partenariat influenceurs",
+      "other": "Autre"
     },
     "tech": {
-      "react": "React",
+      "react": "Réagir",
       "vue": "Vue.js",
-      "angular": "Angular",
-      "next": "Next.js",
+      "angular": "Angulaire",
+      "next": "Suivant.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
-      "node": "Node.js",
+      "aspnet": "ASP.NET/.NET Core",
+      "node": "Noeud.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java/Printemps",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "headless": "CMS sans tête",
+      "flutter": "Battement",
+      "reactNative": "Réagir natif",
+      "nativeIos": "iOS natif (Swift)",
+      "nativeAndroid": "Android natif (Kotlin)",
+      "unity": "Unité",
+      "unreal": "Moteur irréel",
+      "other": "Autre / Je ne suis pas sûr"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "Agent VXR",
+    "seoTitle": "Agent VXR",
+    "seoDescription": "Discutez avec notre assistant IA : décrivez votre idée dans des messages, générez des images de référence de conception pour les sites Web et les applications, et joignez-les à Obtenir un devis – aucune connexion requise.",
+    "heroDescription": "Tapez des messages avec votre idée - nous générons des images de référence pour les conceptions Web et d'applications",
+    "widgetAriaLabel": "Ouvrir l'agent VXR",
+    "widgetTooltip": "Agent VXR : ouvrez des messages, décrivez votre conception et générez des images de référence pour votre projet",
+    "drawerAriaLabel": "Idée de conception — Image de référence de l'IA",
+    "drawerSubtitle": "Identique à l'en-tête – messages + idées d'images",
+    "creditsToday": "{{remaining}} / {{limit}} crédits aujourd'hui",
+    "creditsLoading": "… crédits aujourd’hui",
+    "intro": "Utilisez la case ci-dessous comme un chat : écrivez ce dont vous avez besoin dans un ou plusieurs messages. Nous générons des images de référence de conception pour les sites Web et les applications uniquement. Joignez le résultat dans Obtenir un devis. Aucun compte ou connexion requis.",
+    "promptPlaceholder": "par ex. Site Web d'agence avec thème sombre, accents rouges, section héros moderne",
+    "generate": "Générer une image",
+    "generating": "Générateur…",
+    "generatedReference": "Référence générée",
+    "generatedImageAlt": "Référence de conception générée par l'IA",
+    "referenceOnly": "Référence uniquement – à utiliser dans Obtenir un devis pour joindre",
+    "useInQuote": "Utiliser dans Obtenir un devis",
+    "promptRequired": "Veuillez saisir une idée de conception ou une invite.",
+    "imageDataMissing": "Impossible d'obtenir les données d'image.",
+    "generationFailed": "La génération a échoué.",
+    "referenceAttached": "Référence ci-jointe. Formulaire de devis d’ouverture.",
+    "attachFailed": "Échec de l'attachement."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projets",
+    "seoDescription": "Projets à acheter et à louer — bientôt disponibles sur vebxrun.com.",
+    "tag": "Marché",
+    "heading": "Acheter et louer",
+    "headingHighlight": "projets",
+    "heroDesc": "Une destination organisée pour les projets numériques que vous pouvez acheter ou obtenir sous licence. Nous préparons l’expérience – restez connectés.",
+    "comingSoon": "Projets à acheter et à louer à venir",
+    "badge": "À venir",
+    "cta": "Entrer en contact",
+    "ctaHint": "Vous avez des questions ? Notre équipe est là pour vous aider."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "Agent technique VXR — Chat IA et appel en temps réel",
+    "seoDescription": "Discutez ou parlez en direct avec VXR Tech Agent pour obtenir des conseils technologiques sur les logiciels, les applications, le développement Web, l'IA et l'ingénierie de produits numériques.",
+    "badge": "Agent technique en temps réel",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "Agent technique",
+    "subtitle": "Obtenez de l'aide sur les logiciels, les applications, l'IA, les API, le cloud et l'ingénierie des produits numériques via un chat ou un appel en direct.",
+    "chatTitle": "Agent technique VXR",
+    "chatTag": "Assistance technique uniquement",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Posez une question technique, telle que la conception d'API, React, l'IA ou le cloud…",
+    "micStopTitle": "Arrêter l'enregistrement",
+    "micStartTitle": "Saisie vocale",
+    "emptyResponse": "Je n'ai pas pu générer de réponse pour le moment. Veuillez renvoyer votre question technique.",
+    "requestFailed": "La demande de chat AI a échoué de manière inattendue",
+    "micDenied": "Accès au microphone refusé",
+    "callEndedStatus": "Appel terminé",
+    "callEndedMessage": "📞Appel terminé. Vous pouvez envoyer votre prochaine question technique par chat.",
+    "connecting": "Connexion à l'agent en temps réel…",
+    "liveConnected": "Appel technique en direct et en temps réel connecté",
+    "callIntroMessage": "📞 Appel vocal connecté. Vous entendrez d’abord un bref message d’accueil.",
+    "readyForCall": "Prêt pour un appel technique en temps réel",
+    "callFailedStatus": "La connexion d'appel a échoué",
+    "callStartFailed": "L'appel en temps réel n'a pas pu démarrer",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Appel vocal en temps réel",
+    "tapEndCall": "Appuyez pour mettre fin à l'appel",
+    "startCall": "Démarrer un appel en temps réel",
+    "capabilitiesTitle": "Capacités des agents",
+    "cap1": "Conseils en ingénierie Web, applications, backend et IA",
+    "cap2": "Recommandations sur l'architecture, les API, les bases de données et le cloud",
+    "cap3": "Conseils en matière de débogage, de performances, d’évolutivité et de sécurité",
+    "cap4": "UX de produits numériques pour les flux de travail techniques",
+    "cap5": "Interaction vocale en temps réel avec introduction au début de l'appel",
+    "quickPromptsTitle": "Invites rapides",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Meilleure pile technologique pour un MVP SaaS ?",
+      "Comment dois-je concevoir une API REST évolutive ?",
+      "Comment puis-je optimiser la vitesse d’une application React ?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Bonjour! Je suis **Agent technique VXR**. J'aide uniquement sur des sujets liés à la technologie tels que le développement Web, les applications, l'IA, les API, le cloud, l'UX pour les produits numériques, le débogage et l'architecture. Posez votre question technique pour commencer."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Application mobile",
+      "shortDesc": "Des applications natives et multiplateformes qui captivent les utilisateurs",
+      "longDesc": "Nous construisons des applications mobiles que les utilisateurs adorent. Depuis iOS et Android natifs jusqu'aux solutions multiplateformes avec React Native et Flutter, nous proposons des applications performantes et évolutives qui correspondent à vos objectifs commerciaux. Notre équipe s'occupe de tout, de la conception UX au déploiement de l'App Store.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Développement natif iOS et Android",
+        "Réagir natif et Flutter",
+        "Conception UI/UX",
+        "Déploiement App Store et Play Store",
+        "Entretien et mises à jour"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "Multiplateforme",
+          "desc": "Une base de code pour iOS et Android lorsque cela a du sens."
         },
         {
           "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "desc": "Optimisé pour la vitesse, la batterie et la capacité hors ligne."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Sécurité",
+          "desc": "Meilleures pratiques en matière de données et de conformité (RGPD, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Développement d'un CMS Web",
+      "shortDesc": "Solutions puissantes de gestion de contenu",
+      "longDesc": "Plateformes Web personnalisées et systèmes de gestion de contenu qui vous donnent le contrôle. Nous construisons avec WordPress, un CMS sans tête et des backends personnalisés afin que votre équipe puisse publier et gérer du contenu sans dépendre des développeurs pour chaque mise à jour.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress et CMS sans tête",
+        "Panneaux d'administration personnalisés",
+        "Architecture axée sur l'API",
+        "Multi-site & multilingue",
+        "Structure optimisée pour le référencement"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Mises à jour de contenu faciles",
+          "desc": "Tableaux de bord intuitifs pour les équipes non techniques."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Évolutif",
+          "desc": "Conçu pour évoluer avec votre trafic et votre contenu."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Intégrations",
+          "desc": "Connectez-vous aux outils CRM, d'analyse et de marketing."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Développement de logiciels",
+      "shortDesc": "Un logiciel personnalisé adapté à vos besoins",
+      "longDesc": "Des produits SaaS aux systèmes d'entreprise, nous construisons des logiciels personnalisés adaptés à vos flux de travail. Nous utilisons des piles modernes et une livraison agile afin que vous obteniez une solution qui évolue avec votre entreprise.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "Applications SaaS et Web",
+        "Systèmes d'entreprise",
+        "API et intégrations",
+        "Déploiement cloud (AWS, Azure, GCP)",
+        "Livraison agile"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Construit sur mesure",
+          "desc": "Aucun compromis standard – conçu pour vos besoins."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Pile moderne",
+          "desc": "React, Node, Python, .NET et technologies éprouvées."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Un soutien continu",
+          "desc": "Maintenance, mises à jour et évolution des fonctionnalités."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Image de marque d'entreprise",
+      "shortDesc": "Des identités de marque audacieuses qui se démarquent",
+      "longDesc": "Nous créons des identités de marque qui communiquent qui vous êtes et trouvent un écho auprès de votre public. De la conception du logo et des directives visuelles à la stratégie de marque complète, nous vous aidons à vous démarquer sur votre marché.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo & identité visuelle",
+        "Lignes directrices de la marque",
+        "Stratégie de marque",
+        "Conception des garanties",
+        "Kits d'actifs numériques"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Identité distincte",
+          "desc": "Logos mémorables et langage visuel cohérent."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Mené par une stratégie",
+          "desc": "Des choix de marque liés à votre entreprise et à votre public."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Prêt à l'emploi",
+          "desc": "Actifs et directives pour tous les points de contact."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Marketing numérique en ligne",
+      "shortDesc": "Stratégies de croissance basées sur les données",
+      "longDesc": "Augmentez votre portée et vos conversions grâce au référencement, au PPC, au marketing de contenu et à l'optimisation des conversions. Nous nous concentrons sur des résultats mesurables et une croissance durable, et non sur des mesures vaniteuses.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "Stratégie de référencement et de contenu",
+        "PPC et réseaux sociaux payants",
+        "Optimisation des conversions",
+        "Analyses et rapports",
+        "Automatisation du marketing"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Basé sur les données",
+          "desc": "Décisions basées sur des analyses et des tests."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Entonnoir complet",
+          "desc": "Campagnes de notoriété, de considération et de conversion."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Rapports transparents",
+          "desc": "Des mesures claires et des examens réguliers."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D et animations",
+      "shortDesc": "Des visuels époustouflants qui racontent votre histoire",
+      "longDesc": "Graphiques animés, vidéos explicatives et animations cinématiques qui engagent et expliquent. Nous produisons du contenu 2D et 3D pour les publicités, les démonstrations de produits et la narration de marque sur toutes les plateformes.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Graphiques animés",
+        "Vidéos explicatives",
+        "Animations 2D et 3D",
+        "Animation de personnages",
+        "Contenu social et publicitaire"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "L'histoire d'abord",
+          "desc": "Chaque cadre soutient votre message et votre marque."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Multiformat",
+          "desc": "Des courts clips sociaux aux explications longues."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "Sur la marque",
+          "desc": "Style cohérent avec votre identité visuelle."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "Services de rendu 3D",
+      "shortDesc": "Visualisations 3D photoréalistes",
+      "longDesc": "Rendus 3D de haute qualité pour l'architecture, la visualisation de produits et le marketing. Nous fournissons des images et des animations photoréalistes qui mettent en valeur vos produits et vos espaces avant qu'ils n'existent dans le monde réel.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Visualisation architecturale",
+        "Rendu du produit",
+        "CGI pour le marketing",
+        "Intérieur & extérieur",
+        "Animation et procédures pas à pas"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Photoréaliste",
+          "desc": "Un éclairage et des matériaux qui semblent réels."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "N'importe quelle industrie",
+          "desc": "Immobilier, commerce de détail, automobile et bien plus encore."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Itérations rapides",
+          "desc": "Changements rapides sans reprises physiques."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Développement du métaverse",
+      "shortDesc": "Mondes numériques immersifs de nouvelle génération",
+      "longDesc": "Nous concevons et construisons des expériences métaverses : espaces virtuels, jumeaux numériques et environnements immersifs pour les événements, la vente au détail et la communauté. Du concept au déploiement sur les principales plateformes.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Espaces et mondes virtuels",
+        "Jumeaux numériques",
+        "Intégration VR/AR",
+        "Expériences multi-utilisateurs",
+        "Expériences prêtes pour le Web3"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Immersif",
+          "desc": "Des espaces qui semblent réels et engageants."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Évolutif",
+          "desc": "Architecture prenant en charge de nombreux utilisateurs simultanés."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Prêt pour la marque",
+          "desc": "Des environnements personnalisés qui reflètent votre marque."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Développement de jeux",
+      "shortDesc": "Des jeux engageants sur toutes les plateformes",
+      "longDesc": "Des jeux mobiles aux PC et consoles, nous créons des jeux que les joueurs adorent. Nous utilisons Unity et Unreal Engine pour créer des IP originales, des jeux sérieux et des expériences de marque en mettant l'accent sur le gameplay et le raffinement.",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Mobile, PC et console",
+        "Unity et Unreal Engine",
+        "Conception et mécanique du jeu",
+        "Multijoueur et opérations en direct",
+        "Portage & optimisation"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Production complète",
+          "desc": "Support en matière de conception, d'art, de code et de lancement."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Des moteurs éprouvés",
+          "desc": "Unity et Unreal pour la qualité et les performances."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Post-lancement",
+          "desc": "Mises à jour, événements et fonctionnalités communautaires."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Réalité étendue",
+      "shortDesc": "Des expériences AR/VR/MR qui transforment",
+      "longDesc": "Expériences AR, VR et réalité mixte pour la formation, le marketing et la visualisation de produits. Nous développons des applications qui fonctionnent sur des casques et des appareils mobiles pour former les employés, présenter des produits ou créer des campagnes immersives.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "Applications AR (mobiles et lunettes)",
+        "Formations et simulations VR",
+        "Expériences de réalité mixte",
+        "Visites virtuelles",
+        "Conception indépendante du matériel"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Cas d'utilisation pratiques",
+          "desc": "Formation, ventes et marketing qui génèrent un retour sur investissement."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Multi-appareil",
+          "desc": "Fonctionne sur les téléphones, tablettes et casques XR."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Testé par les utilisateurs",
+          "desc": "Confort et convivialité au cœur."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Marketing des médias sociaux",
+      "shortDesc": "Présence sociale et engagement stratégiques",
+      "longDesc": "Nous construisons et gérons votre présence sociale avec une stratégie, du contenu et une gestion de communauté. Du contenu organique aux partenariats d'influenceurs et aux réseaux sociaux payants, nous vous aidons à vous connecter avec le bon public.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Stratégie et création de contenu",
+        "Gestion de communauté",
+        "Partenariats influenceurs",
+        "Campagnes sociales payantes",
+        "Analyses et rapports"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Voix de la marque",
+          "desc": "Un contenu qui vous ressemble et qui résonne."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Communauté",
+          "desc": "Un engagement qui renforce la loyauté et le plaidoyer."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Payant + organique",
+          "desc": "Approche intégrée pour une portée maximale."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "Solutions d'IA",
+      "shortDesc": "Chatbots, automatisation et flux de travail intelligents alimentés par l'IA pour rationaliser les opérations et impliquer les utilisateurs.",
+      "longDesc": "Nous construisons des solutions basées sur l'IA qui transforment votre façon de travailler et de vous engager. Des chatbots personnalisés et assistants virtuels à l'automatisation des processus et aux flux de travail intelligents, nous vous aidons à tirer parti de l'IA pour gagner du temps, faire évoluer le support et offrir de meilleures expériences. Nos solutions s'intègrent à vos outils existants et sont conçues pour une fiabilité réelle.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Chatbots personnalisés et assistants virtuels",
+        "Automatisation des processus et flux de travail",
+        "Intégration et mise au point du LLM",
+        "Intégrations d'API",
+        "Analyse et optimisation"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Adapté à vous",
+          "desc": "Une IA construite autour de vos flux de travail et de la voix de votre marque."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Sécurisé et évolutif",
+          "desc": "Prêt pour l'entreprise avec une gestion claire des données."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Amélioration continue",
+          "desc": "Nous itérons en fonction de l'utilisation et des commentaires."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "Conception et publication de livres électroniques",
+      "shortDesc": "Mise en page professionnelle d'ebooks, conception de couvertures et distribution pour Kindle, Apple Books et d'autres plateformes.",
+      "longDesc": "Du manuscrit à la vitrine, nous nous occupons de la conception, du formatage et de la distribution des livres électroniques afin que votre livre ressemble et se vende comme un pro. Nous créons des mises en page réactives, des couvertures accrocheuses et des métadonnées classées. Que vous soyez auteur ou éditeur, nous diffusons votre ebook en direct sur Kindle, Apple Books, Kobo et bien plus encore.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Aménagement intérieur & typographie",
+        "Conception de la couverture",
+        "Formatage EPUB et Kindle",
+        "Distribution multiplateforme",
+        "Métadonnées et référencement pour les livres"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Conception axée sur le lecteur",
+          "desc": "Des mises en page qui fonctionnent sur tous les appareils et tailles de police."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Prêt pour le magasin",
+          "desc": "Compatible avec Kindle, Apple et d'autres détaillants."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Délai d'exécution rapide",
+          "desc": "Des délais clairs, de la ébauche à la publication."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Magazine numérique",
+      "shortDesc": "Superbe design de magazine numérique et mises en page interactives pour les marques et les éditeurs.",
+      "longDesc": "Nous concevons et construisons des magazines numériques que les lecteurs adorent. Des mises en page éditoriales et éléments interactifs aux expériences d'abonnement et de lecture sur le Web et les applications, nous créons des publications qui se démarquent. Parfait pour les marques, les éditeurs et tous ceux qui transforment du contenu en un produit numérique raffiné.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Conception de la mise en page éditoriale",
+        "Éléments interactifs",
+        "Publication Web et d'applications",
+        "Flux d'abonnement",
+        "Analyse et engagement"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Qualité éditoriale",
+          "desc": "Des mises en page qui semblent premium et faciles à lire."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Engageant",
+          "desc": "Une interactivité qui permet aux lecteurs de faire défiler."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Prêt pour la monétisation",
+          "desc": "Paywalls et abonnements intégrés."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "Journal électronique",
+      "shortDesc": "Conception de journaux numériques et de portails d'actualités avec des mises en page réactives et des mises à jour de contenu faciles.",
+      "longDesc": "Nous construisons des journaux numériques et des portails d'information qui mettent vos histoires au premier plan. Des mises en page réactives, un chargement rapide et une intégration simple au CMS permettent à votre équipe de publier et de mettre à jour sans problèmes techniques. Nous nous concentrons sur la lisibilité, l’accessibilité et une expérience qui fonctionne sur tous les appareils.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Mise en page des actualités réactive",
+        "Intégration CMS",
+        "Chargement rapide et référencement",
+        "Dernières nouvelles et sections",
+        "Annonces et emplacements de parrainage"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Facile à lire",
+          "desc": "Hiérarchie et typographie claires pour une lecture longue."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Facile à mettre à jour",
+          "desc": "Les non-développeurs peuvent publier et gérer du contenu."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Prêt pour les revenus",
+          "desc": "Blocs d'annonces et options d'abonnement inclus."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Production de podcasts",
+      "shortDesc": "Enregistrement, montage, notes d'émission et distribution de podcasts qui semblent professionnels.",
+      "longDesc": "Nous prenons votre podcast de l’idée à l’oreille. Notre équipe s'occupe de la configuration de l'enregistrement, du montage, du mixage, des notes d'émission et de la distribution afin que vous puissiez vous concentrer sur la conversation. Nous fournissons un son de qualité diffusion et une image de marque cohérente pour que votre émission sonne aussi bien que dans votre tête.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Enregistrement et montage",
+        "Mixage et mastering",
+        "Afficher les notes et les transcriptions",
+        "Illustrations et image de marque",
+        "Diffusion et RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Qualité de diffusion",
+          "desc": "Un son clair et professionnel."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Clé en main",
+          "desc": "Nous gérons l’intégralité du pipeline afin que vous n’ayez pas à le faire."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Marque cohérente",
+          "desc": "Des illustrations et des notes qui correspondent à votre émission."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infographies et visualisation de données",
+      "shortDesc": "Des infographies et des visualisations de données claires et attrayantes qui facilitent le partage d'informations complexes.",
+      "longDesc": "Nous transformons les données et les idées en visuels partagés. Des infographies statiques aux tableaux de bord et rapports interactifs, nous rendons les informations complexes claires et attrayantes. Idéal pour les rapports, les présentations, le contenu social et les communications internes qui doivent rester fidèles.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Infographie statique",
+        "Visualisation des données interactives",
+        "Rapports et présentations",
+        "Formats prêts pour les réseaux sociaux",
+        "Un design aligné sur la marque"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "La clarté avant tout",
+          "desc": "Un design qui rend le message évident."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Partageable",
+          "desc": "Des formats qui fonctionnent sur les réseaux sociaux et dans les decks."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Précis",
+          "desc": "Une visualisation des données qui respecte les chiffres."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Développement de chatbots",
+      "shortDesc": "Chatbots personnalisés pour l'assistance, les ventes et l'engagement, intégrés à vos outils existants.",
+      "longDesc": "Nous construisons des chatbots qui aident réellement. Que ce soit pour le support client, la qualification des leads ou les workflows internes, nos robots sont conçus autour de vos processus et intégrés à votre CRM, votre helpdesk et vos applications. Nous utilisons une IA et une conception de conversation éprouvées pour que les utilisateurs obtiennent des réponses rapides et que votre équipe soit soulagée.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Conception de conversations",
+        "Intégration CRM et service d'assistance",
+        "Multicanal (web, WhatsApp, etc.)",
+        "Analyses et formation",
+        "Transfert aux humains"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "S'adapte à votre pile",
+          "desc": "Fonctionne avec les outils que vous utilisez déjà."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Transfert humain",
+          "desc": "Escalade en douceur lorsque le bot ne peut pas aider."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "S'améliore avec le temps",
+          "desc": "Nous nous basons sur de vraies conversations."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Rédaction et contenu",
+      "shortDesc": "Copie optimisée pour le référencement, articles de blog et contenu marketing qui convertit et classe.",
+      "longDesc": "Nous rédigeons une copie qui convertit et un contenu qui se classe. Des pages de destination et des textes de produits aux séries de blogs et au contenu SEO, nous adaptons votre voix et vos objectifs. Chaque élément est conçu pour la clarté, la persuasion et la recherche, afin que vous obteniez à la fois du trafic et des conversions.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Pages de destination et copie du produit",
+        "Contenu de blog et de référencement",
+        "Séquences d'e-mails",
+        "Texte publicitaire et réseaux sociaux",
+        "Stratégie de contenu"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Voix de marque",
+          "desc": "Copiez qui ressemble à vous et à votre public."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO intégré",
+          "desc": "Contenu structuré pour la recherche et le partage."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Axé sur la conversion",
+          "desc": "Chaque mot choisi pour faire bouger l’aiguille."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Contenu social et YouTube",
+      "shortDesc": "Bobines, histoires, carrousels, vidéos YouTube et campagnes pour Facebook, Instagram, TikTok et YouTube.",
+      "longDesc": "Nous créons du contenu qui est vu et partagé sur Facebook, Instagram, TikTok et YouTube. Des bobines et histoires aux carrousels, en passant par les scripts YouTube, les miniatures et le montage vidéo, nous produisons du contenu de marque pour toutes les principales plateformes. Nous combinons la direction créative avec les meilleures pratiques de la plateforme pour que votre flux et votre chaîne aient l'air professionnels et que vos statistiques évoluent.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Bobines, histoires et versions courtes (IG, TikTok, FB)",
+        "Scripts, miniatures et édition YouTube",
+        "Carrousels et publications statiques",
+        "Concepts de campagne et calendriers de contenu",
+        "Copie, hashtags et référencement pour les réseaux sociaux"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Toutes les plateformes",
+          "desc": "Facebook, Instagram, TikTok et YouTube en un seul endroit."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Aspect cohérent",
+          "desc": "Modèles et guides de style pour votre marque."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Prêt à poster",
+          "desc": "Actifs finaux et sous-titres livrés dans les délais."
         }
       ]
     }
   },
   "serviceDetail": {
     "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "offerBefore": "Ce que nous",
+    "offerHighlight": "offre",
+    "whyBefore": "Pourquoi travailler avec",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Prêt pour",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Discutons de votre projet et construisons ensemble quelque chose de formidable.",
+    "ctaButton": "Parlons",
+    "backAllServices": "← Tous les services"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
+    "homeTitle": "Maison",
+    "homeDescription": "vebxrun — Applications mobiles, développement Web, développement de jeux, métaverse, solutions d'IA et marketing numérique. Imaginer. Innover. Inspirer.",
     "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "servicesDescription": "Applications mobiles, développement Web et CMS, développement de logiciels, image de marque d'entreprise, marketing numérique, animation 2D/3D, métaverse, développement de jeux et plus encore. Explorez les services vebxrun.",
+    "pricingTitle": "Tarifs",
+    "pricingDescription": "Tarification transparente pour les applications mobiles, le développement Web et les solutions numériques. Forfaits Starter, Professionnel et Entreprise. Obtenez un devis de vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "En ligne",
+    "closeChat": "Fermer le chat",
+    "openChat": "Discutez avec nous",
+    "skipToLiveChat": "Passer au chat en direct →",
+    "nameLabel": "Nom",
+    "emailLabel": "E-mail",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Service",
+    "sending": "Envoi…",
+    "orLiveChat": "ou démarrez plutôt un chat en direct",
+    "toastNameEmailRequired": "Le nom et l'e-mail sont requis",
+    "toastRequestSent": "Demande envoyée !",
+    "toastSubmitFailed": "Échec de la soumission. Essayer à nouveau.",
+    "submittedTitle": "Demande envoyée !",
+    "submittedDesc": "Nous vous répondrons sous peu.",
+    "startLiveChat": "Démarrer le chat en direct",
+    "secondsShort": "{{count}}s"
   }
 }

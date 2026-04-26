@@ -8,9 +8,15 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+function toBaseLanguageCode(lng: string | undefined): string {
+  if (!lng) return "en";
+  const base = lng.split("-")[0] || "en";
+  return base in languageNames ? base : "en";
+}
+
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const current = i18n.language || "en";
+  const current = toBaseLanguageCode(i18n.resolvedLanguage || i18n.language);
   const langs = Object.keys(languageNames);
 
   return (

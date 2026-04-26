@@ -10,7 +10,7 @@
     "expertise": "مہارت",
     "contactUs": "رابطہ کریں",
     "customRequirement": "کوٹ حاصل کریں",
-    "designAssistant": "VXR Agent",
+    "designAssistant": "VXR ایجنٹ",
     "projects": "پروجیکٹس",
     "privacy": "رازداری"
   },
@@ -152,12 +152,18 @@
     "linkExpertise": "مہارت",
     "linkAbout": "ہمارے بارے میں",
     "linkPrivacyPolicy": "رازداری کی پالیسی",
+    "linkTermsConditions": "شرائط و ضوابط",
+    "linkNewServices": "نئی خدمات",
+    "columnGetInTouchTitle": "رابطے میں رہیں",
+    "columnGetInTouchDesc": "ذہن میں کوئی پروجیکٹ ہے؟ ہم سے رابطہ کریں اور مل کر کچھ غیر معمولی بنائیں۔",
+    "followUsBar": "اپ ڈیٹس کے لیے ہمیں فالو کریں",
+    "letsConnect": "آئیے جڑیں",
     "services": "خدمات",
     "letsWork": "آئیے مل کر کام کریں",
     "letsWorkDesc": "اپنے تصور کو حقیقت بنانے کے لیے تیار ہیں؟ ہم سے رابطہ کریں اور کچھ غیر معمولی تخلیق کریں۔",
     "getInTouch": "رابطہ کریں",
     "copyright": "جملہ حقوق محفوظ ہیں 2024–2026 بمع",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex چلائیں",
     "stayInLoop": "باخبر رہیں",
     "stayInLoopDesc": "ڈیجیٹل جدت کے بارے میں تازہ ترین بصیرت اور اپ ڈیٹس حاصل کریں۔",
     "subscribe": "سبسکرائب کریں",
@@ -173,11 +179,10 @@
       "excerpt2": "ڈیزائن اور ڈویلپمنٹ کے اصول جو مشغولیت کو بڑھاتے ہیں۔",
       "title3": "ڈیجیٹل تبدیلی جو ترقی کو آگے بڑھائے",
       "excerpt3": "ہم کاروباروں کو ٹیکنالوجی سے جدت اور توسیع میں کیسے مدد کرتے ہیں۔"
-    },
-    "linkNewServices": "New Services"
+    }
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex چلائیں",
     "explore": "دریافت کریں"
   },
   "servicesPage": {
@@ -202,6 +207,7 @@
     "enterprise": "انٹرپرائز",
     "enterpriseDesc": "بڑے پیمانے کے منصوبوں کے لیے",
     "mostPopular": "سب سے مقبول",
+    "customPrice": "حسب ضرورت",
     "perProject": "/ پروجیکٹ",
     "getStarted": "شروع کریں",
     "features": {
@@ -285,27 +291,46 @@
       "other": "دیگر"
     },
     "tech": {
-      "react": "React",
+      "react": "رد عمل",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "کونیی",
       "next": "Next.js",
-      "nuxt": "Nuxt",
+      "nuxt": "نکسٹ",
       "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "aspnet": "ASP.NET / .NET کور",
       "node": "Node.js",
-      "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
-      "wordpress": "WordPress",
+      "python": "Python (Jjango/FastAPI)",
+      "java": "جاوا / بہار",
+      "wordpress": "ورڈپریس",
       "shopify": "Shopify",
       "headless": "ہیڈلیس CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
+      "flutter": "پھڑپھڑانا",
+      "reactNative": "مقامی رد عمل کا اظہار کریں۔",
+      "nativeIos": "مقامی iOS (Swift)",
+      "nativeAndroid": "مقامی Android (Kotlin)",
+      "unity": "اتحاد",
+      "unreal": "غیر حقیقی انجن",
       "other": "دیگر / پتہ نہیں"
     }
+  },
+  "liveChatWidget": {
+    "online": "آن لائن",
+    "closeChat": "چیٹ بند کریں",
+    "openChat": "ہم سے چیٹ کریں",
+    "skipToLiveChat": "براہ راست لائیو چیٹ پر جائیں ←",
+    "nameLabel": "نام",
+    "emailLabel": "ای میل",
+    "whatsappLabel": "واٹس ایپ",
+    "serviceLabel": "سروس",
+    "sending": "بھیجا جا رہا ہے…",
+    "orLiveChat": "یا براہ راست لائیو چیٹ شروع کریں",
+    "toastNameEmailRequired": "نام اور ای میل ضروری ہیں",
+    "toastRequestSent": "درخواست بھیج دی گئی!",
+    "toastSubmitFailed": "جمع نہیں ہو سکی۔ دوبارہ کوشش کریں۔",
+    "submittedTitle": "درخواست بھیج دی گئی!",
+    "submittedDesc": "ہم جلد آپ سے رابطہ کریں گے۔",
+    "startLiveChat": "لائیو چیٹ شروع کریں",
+    "secondsShort": "{{count}} سیکنڈ"
   },
   "contact": {
     "tag": "رابطہ کریں",
@@ -326,8 +351,8 @@
     "saturday": "ہفتہ",
     "sunday": "اتوار",
     "closed": "بند",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here."
+    "liveChat": "بات چیت — لائیو چیٹ",
+    "liveChatDesc": "ذیل میں لائیو پیغام بھیجیں — متن، تصاویر، آڈیو یا ویڈیو۔ ہم یہیں جواب دیتے ہیں۔"
   },
   "expertise": {
     "tag": "مہارت",
@@ -368,32 +393,32 @@
     "desc": "ان منصوبوں کی نمائش جو مختلف صنعتوں اور ٹیکنالوجیز میں ہماری مہارت کو ظاہر کرتے ہیں۔",
     "projects": {
       "emaanai": {
-        "title": "Emaan Ai",
+        "title": "ایمن آئی",
         "category": "موبائل ایپلیکیشن",
         "desc": "اینڈرائیڈ اور آئی او ایس کے لیے اسلامی ایپ، سبز لوگو، نماز کے اوقات، قرآن اور انگیجمنٹ ڈیش بورڈ۔"
       },
       "vebxcode": {
-        "title": "Vebxcode",
+        "title": "ویب ایکس کوڈ",
         "category": "ویب ایپلیکیشن",
         "desc": "ڈیجیٹل ایجنسی کے لیے مکمل پورٹ فولیو — ڈارک تھیم، سرخ ایکسنٹس، سروسز، پروجیکٹ گیلری، بلاگ اور رابطہ۔"
       },
       "healthsync": {
-        "title": "HealthSync",
+        "title": "ہیلتھ سنک",
         "category": "ہیلتھ کیئر",
         "desc": "ڈاکٹر اور مریض پورٹل — اپائنٹمنٹس، نسخے، میڈیکل ریکارڈز۔ کلینکس کے لیے شیڈولنگ اور فالو اپ۔"
       },
       "taskflow": {
-        "title": "TaskFlow",
-        "category": "SaaS",
+        "title": "ٹاسک فلو",
+        "category": "ساس",
         "desc": "ٹیم ٹاسک مینجمنٹ — Kanban بورڈز، ڈیڈ لائنز، ریئل ٹائم sync۔ ریموٹ ٹیمز اور ایجنسیز کے لیے۔"
       },
       "fooddash": {
-        "title": "FoodDash",
+        "title": "فوڈ ڈیش",
         "category": "موبائل ایپلیکیشن",
         "desc": "ریسٹورنٹ ڈسکوری، آن لائن آرڈر، اور لائیو ڈیلیوری ٹریکنگ۔ ریسٹورنٹ اور ڈرائیور ایپ۔"
       },
       "eventify": {
-        "title": "Eventify",
+        "title": "واقعہ بتانا",
         "category": "ویب ایپلیکیشن",
         "desc": "ایونٹ ٹکٹنگ اور وینو بکنگ — پے منٹ، attendee مینجمنٹ، QR چیک ان۔ کانفرنسز اور ورکشاپس۔"
       },
@@ -408,12 +433,12 @@
         "desc": "فٹنس اور ہیلتھ ٹریکنگ ایپ — ورک آؤٹ پلانز، پروگریس ڈیش بورڈز اور نیوٹریشن۔ اینڈرائیڈ اور آئی او ایس۔"
       },
       "cloudflow": {
-        "title": "CloudFlow",
-        "category": "SaaS",
+        "title": "کلاؤڈ فلو",
+        "category": "ساس",
         "desc": "پروجیکٹ مینجمنٹ اور ورک فلو SaaS — ریئل ٹائم collaboration، ٹاسک بورڈز اور ٹیم انیلیٹکس۔"
       },
       "neondrift": {
-        "title": "Neon Drift",
+        "title": "نیون ڈرفٹ",
         "category": "گیم ڈویلپمنٹ",
         "desc": "آرکیڈ سٹائل ریسنگ گیم — نیون ایسٹھیٹکس، smooth کنٹرولز اور لیڈر بورڈز۔ Unity پر بنائی۔"
       },
@@ -423,7 +448,7 @@
         "desc": "جدید ای کامرس پلیٹ فارم — پروڈکٹ کیٹلاگ، کارٹ، چیک آؤٹ اور وینڈر ڈیش بورڈ۔"
       },
       "paybridge": {
-        "title": "PayBridge",
+        "title": "پے برج",
         "category": "فن ٹیک",
         "desc": "کاروبار کے لیے پے منٹ اور فائنینس ڈیش بورڈ — ٹرانزیکشنز، reconciliation اور رپورٹنگ۔"
       },
@@ -433,7 +458,7 @@
         "desc": "لرننگ مینجمنٹ پلیٹ فارم — کورسز، پروگریس ٹریکنگ، کوئزز اور سرٹیفکیٹس۔"
       },
       "smartops": {
-        "title": "SmartOps",
+        "title": "اسمارٹ اوپس",
         "category": "سافٹ ویئر اور IoT",
         "desc": "IoT آپریشنز ڈیش بورڈ — assets مانیٹرنگ، الرٹس اور انیلیٹکس۔ سمارٹ فیسلیٹیز کے لیے۔"
       },
@@ -465,7 +490,7 @@
     "section4Title": "4. ڈیٹا سیکیورٹی",
     "section4": "ہم آپ کی ذاتی معلومات کی حفاظت کے لیے مناسب تکنیکی اور تنظیمی حفاظتی اقدامات نافذ کرتے ہیں۔",
     "section5Title": "5. آپ کے حقوق",
-    "section5": "آپ کو اپنی ذاتی معلومات تک رسائی، اصلاح یا حذف کرنے کا حق ہے۔ آپ کسی بھی وقت support@vebx.run پر رابطہ کرکے مارکیٹنگ مواصلات سے دستبردار ہو سکتے ہیں۔",
+    "section5": "آپ کو اپنی ذاتی معلومات تک رسائی، اصلاح یا حذف کرنے کا حق ہے۔ آپ کسی بھی وقت support@vebxrun.com پر رابطہ کرکے مارکیٹنگ مواصلات سے دستبردار ہو سکتے ہیں۔",
     "section6Title": "6. ہم سے رابطہ کریں",
     "section6": "اگر آپ کو اس رازداری کی پالیسی کے بارے میں کوئی سوالات ہیں تو براہ کرم ہم سے رابطہ کریں:",
     "email": "ای میل:",
@@ -503,42 +528,42 @@
     "socialMediaMarketingShort": "اسٹریٹجک سوشل موجودگی اور مشغولیت"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "نیا",
+    "heading": "نئی",
+    "headingHighlight": "خدمات",
+    "subtitle": "تازہ ڈیجیٹل پیشکشیں — AI، کنٹینٹ اور میڈیا حل تاکہ آپ کی رسائی بڑھے۔",
+    "getInTouch": "رابطہ کریں"
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR ایجنٹ",
+    "seoTitle": "VXR ایجنٹ",
+    "seoDescription": "AI اسسٹنٹ سے چیٹ کریں: پیغامات میں اپنا خیال بیان کریں، ویب اور ایپ ڈیزائن کے حوالہ تصاویر بنائیں، اور انہیں کوٹ حاصل کریں میں منسلک کریں — لاگ ان کی ضرورت نہیں۔",
+    "heroDescription": "اپنے خیال کے ساتھ پیغامات لکھیں — ہم ویب اور ایپ ڈیزائن کے لیے حوالہ تصاویر بناتے ہیں",
+    "widgetAriaLabel": "VXR ایجنٹ کھولیں",
+    "widgetTooltip": "VXR ایجنٹ — پیغامات کھولیں، ڈیزائن بیان کریں، اور پروجیکٹ کے لیے حوالہ تصاویر بنائیں",
+    "drawerAriaLabel": "ڈیزائن خیال — AI حوالہ تصویر",
+    "drawerSubtitle": "ہیڈر جیسا — پیغامات + تصویری خیالات",
+    "creditsToday": "آج {{remaining}} / {{limit}} کریڈٹس",
+    "creditsLoading": "… آج کے کریڈٹس",
+    "intro": "نیچے والے خانے کو چیٹ کی طرح استعمال کریں: ایک یا زیادہ پیغامات میں لکھیں کہ آپ کو کیا چاہیے۔ ہم صرف ویب سائٹس اور ایپس کے لیے ڈیزائن حوالہ تصاویر بناتے ہیں۔ نتیجہ کوٹ حاصل کریں میں منسلک کریں۔ اکاؤنٹ یا لاگ ان کی ضرورت نہیں۔",
+    "promptPlaceholder": "مثلاً: ڈارک تھیم، سرخ ایکسنٹس، جدید ہیرو سیکشن والی ایجنسی ویب سائٹ",
+    "generate": "تصویر بنائیں",
+    "generating": "بن رہی ہے…",
+    "generatedReference": "بنائی گئی حوالہ تصویر",
+    "generatedImageAlt": "AI سے بنائی گئی ڈیزائن حوالہ تصویر",
+    "referenceOnly": "صرف حوالہ — کوٹ حاصل کریں میں منسلک کرنے کے لیے استعمال کریں",
+    "useInQuote": "کوٹ حاصل کریں میں استعمال کریں",
+    "promptRequired": "براہ کرم ڈیزائن خیال یا پرامپٹ درج کریں۔",
+    "imageDataMissing": "تصویر کا ڈیٹا حاصل نہیں ہو سکا۔",
+    "generationFailed": "تصویر بنانا ناکام رہا۔",
+    "referenceAttached": "حوالہ منسلک ہو گیا۔ کوٹ فارم کھول رہے ہیں۔",
+    "attachFailed": "منسلک کرنے میں ناکامی۔"
   },
   "vebxAI": {
     "seoTitle": "VXR ٹیک ایجنٹ — AI چیٹ اور ریئل ٹائم کال",
     "seoDescription": "سافٹ ویئر، ایپس، ویب ڈویلپمنٹ، AI اور ڈیجیٹل پروڈکٹ انجینئرنگ پر VXR ٹیک ایجنٹ سے چیٹ کریں یا لائیو کال پر بات کریں۔",
     "badge": "ریئل ٹائم ٹیک ایجنٹ",
-    "title": "VXR",
+    "title": "وی ایکس آر",
     "titleHighlight": "ٹیک ایجنٹ",
     "subtitle": "سافٹ ویئر، ایپس، AI، APIs، کلاؤڈ اور ڈیجیٹل پروڈکٹ انجینئرنگ میں چیٹ یا لائیو کال کے ذریعے مدد حاصل کریں۔",
     "chatTitle": "VXR ٹیک ایجنٹ",
@@ -578,544 +603,546 @@
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "موبائل ایپلیکیشن",
+      "shortDesc": "مقامی اور کراس پلیٹ فارم ایپس جو صارفین کو مسحور کریں",
+      "longDesc": "ہم ایسی موبائل ایپلیکیشنز بناتے ہیں جنہیں صارفین پسند کرتے ہیں۔ iOS اور Android کے مقامی حل سے لے کر React Native اور Flutter کے کراس پلیٹ فارم حل تک — ہم کارکردگی، سکیل ایبلٹی اور کاروباری اہداف کے ساتھ ہم آہنگ ایپس فراہم کرتے ہیں۔ UX ڈیزائن سے لے کر App Store اور Play Store پر شائع کاری تک ہماری ٹیم ساتھ رہتی ہے۔",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOS اور Android مقامی ڈویلپمنٹ",
+        "React Native اور Flutter",
+        "UI/UX ڈیزائن",
+        "App Store اور Play Store پر شائع کاری",
+        "دیکھ بھال اور اپ ڈیٹس"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "کراس پلیٹ فارم",
+          "desc": "جہاں مناسب ہو ایک کوڈ بیس iOS اور Android کے لیے۔"
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "کارکردگی",
+          "desc": "رفتار، بیٹری اور آف لائن صلاحیت کے لیے بہتر بنایا گیا۔"
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "سیکیورٹی",
+          "desc": "ڈیٹا اور تعمیل (GDPR، HIPAA) کے لیے بہترین طریقے۔"
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "ویب اور CMS ڈویلپمنٹ",
+      "shortDesc": "طاقتور کنٹینٹ مینجمنٹ حل",
+      "longDesc": "حسب ضرورت ویب پلیٹ فارمز اور CMS جو آپ کو کنٹرول دیتے ہیں۔ WordPress، ہیڈلیس CMS اور حسب ضرورت بیک اینڈ کے ساتھ ہم ایسے نظام بناتے ہیں جہاں آپ کی ٹیم ہر اپ ڈیٹ کے لیے ڈویلپرز پر منحصر نہ ہو۔",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress اور ہیڈلیس CMS",
+        "حسب ضرورت ایڈمن پینلز",
+        "API فرسٹ آرکیٹیکچر",
+        "ملٹی سائٹ اور کثیر لسانی",
+        "SEO دوست ساخت"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "آسان کنٹینٹ اپ ڈیٹس",
+          "desc": "غیر تکنیکی ٹیموں کے لیے بدیہی ڈیش بورڈز۔"
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "قابل توسیع",
+          "desc": "آپ کے ٹریفک اور مواد کے ساتھ بڑھنے کے لیے ڈیزائن۔"
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "انٹیگریشنز",
+          "desc": "CRM، تجزیات اور مارکیٹنگ ٹولز سے جڑنا۔"
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "سافٹ ویئر ڈویلپمنٹ",
+      "shortDesc": "آپ کی ضروریات کے مطابق حسب ضرورت سافٹ ویئر",
+      "longDesc": "SaaS سے لے کر انٹرپرائز سسٹمز تک — ہم وہ سافٹ ویئر بناتے ہیں جو آپ کے ورک فلو کے مطابق ہو۔ جدید اسٹیک اور ایجائل ترسیل کے ساتھ ایسا حل ملتا ہے جو آپ کے کاروبار کے ساتھ بڑھے اور بدلے۔",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS اور ویب ایپلیکیشنز",
+        "انٹرپرائز سسٹمز",
+        "APIs اور انٹیگریشنز",
+        "کلاؤڈ پر تعیناتی (AWS، Azure، GCP)",
+        "ایجائل ترسیل"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "مکمل حسب ضرورت",
+          "desc": "آپ کی ضرورت کے مطابق، تیار شدہ پیکج کے سمجھوتے کے بغیر۔"
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "جدید اسٹیک",
+          "desc": "React، Node، Python، .NET اور ثابت شدہ ٹیکنالوجیز۔"
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "مسلسل سپورٹ",
+          "desc": "دیکھ بھال، اپ ڈیٹس اور نئی خصوصیات۔"
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "کارپوریٹ برانڈنگ",
+      "shortDesc": "جرات مندانہ اور منفرد برانڈ شناخت",
+      "longDesc": "ایسی برانڈ شناخت بناتے ہیں جو آپ کو ظاہر کرے اور سامعین سے جڑے۔ لوگو اور بصری رہنما اصولوں سے لے کر مکمل برانڈ حکمت عملی تک — ہم آپ کو بازار میں نمایاں ہونے میں مدد دیتے ہیں۔",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "لوگو اور بصری شناخت",
+        "برانڈ رہنما اصول",
+        "برانڈ حکمت عملی",
+        "تشہیری اور پروموشنل ڈیزائن",
+        "ڈیجیٹل اثاثوں کے کٹس"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "ممتاز شناخت",
+          "desc": "یادگار لوگو اور مستقل بصری زبان۔"
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "حکمت عملی پر مبنی",
+          "desc": "کاروبار اور سامعین سے جڑے برانڈ فیصلے۔"
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "استعمال کے لیے تیار",
+          "desc": "تمام touchpoints کے لیے اثاثے اور رہنما۔"
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "آن لائن ڈیجیٹل مارکیٹنگ",
+      "shortDesc": "ترقی کے لیے ڈیٹا پر مبنی حکمت عملی",
+      "longDesc": "SEO، PPC، کنٹینٹ مارکیٹنگ اور تبادلوں کی بہتری کے ساتھ رسائی اور تبادلے بڑھائیں۔ ہم پیمائش نتائج اور پائیدار ترقی پر توجہ دیتے ہیں، صرف ظاہری میٹرکس نہیں۔",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO اور کنٹینٹ حکمت عملی",
+        "PPC اور پیڈ سوشل",
+        "تبادلوں کی بہتری",
+        "تجزیات اور رپورٹنگ",
+        "مارکیٹنگ آٹومیشن"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "ڈیٹا پر مبنی",
+          "desc": "تجزیات اور ٹیسٹنگ پر مبنی فیصلے۔"
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "مکمل فنل",
+          "desc": "آگاہی، غور و فکر اور تبادلے کی مہمات۔"
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "شفاف رپورٹنگ",
+          "desc": "واضح میٹرکس اور باقاعدہ جائزے۔"
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D اور اینیمیشن",
+      "shortDesc": "شاندار بصری جو آپ کی کہانی سناتے ہیں",
+      "longDesc": "موشن گرافکس، وضاحتی ویڈیوز اور سینمیٹک اینیمیشن جو سمجھائیں اور مشغول کریں۔ اشتہارات، پروڈکٹ ڈیمو اور برانڈ اسٹوری ٹیلنگ کے لیے تمام پلیٹ فارمز پر 2D اور 3D مواد۔",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "موشن گرافکس",
+        "وضاحتی ویڈیوز",
+        "2D اور 3D اینیمیشن",
+        "کردار اینیمیشن",
+        "سوشل اور اشتہاری مواد"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "کہانی پہلے",
+          "desc": "ہر فریم آپ کے پیغام اور برانڈ کی حمایت کرتا ہے۔"
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "کثیر فارمیٹ",
+          "desc": "مختصر سوشل کلپس سے لمبی وضاحتیں تک۔"
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "برانڈ کے مطابق",
+          "desc": "آپ کی بصری شناخت کے ساتھ ہم آہنگ انداز۔"
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D رینڈرنگ سروسز",
+      "shortDesc": "فوٹو ریئلسٹک 3D تصورات",
+      "longDesc": "فن تعمیر، پروڈکٹ ویژولائزیشن اور مارکیٹنگ کے لیے اعلیٰ معیار کے 3D رینڈرز۔ ایسے فوٹو ریئلسٹک مناظر اور اینیمیشن جو حقیقی دنیا میں آنے سے پہلے آپ کی مصنوعات اور جگہوں کو پیش کریں۔",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "فن تعمیر ویژولائزیشن",
+        "پروڈکٹ رینڈرنگ",
+        "مارکیٹنگ کے لیے CGI",
+        "اندرونی اور بیرونی",
+        "اینیمیشن اور walkthroughs"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "فوٹو ریئلسٹک",
+          "desc": "روشنی اور مواد حقیقی لگتے ہیں۔"
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "ہر صنعت",
+          "desc": "رئیل اسٹیٹ، ریٹیل، آٹوموٹو وغیرہ۔"
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "تیز تکرار",
+          "desc": "فزیکل دوبارہ شوٹ کے بغیر فوری تبدیلیاں۔"
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "میٹاورس ڈویلپمنٹ",
+      "shortDesc": "اگلی نسل کی عمیق ڈیجیٹل دنیائیں",
+      "longDesc": "ورچوئل اسپیسز، ڈیجیٹل ٹوئنز اور ایونٹس، ریٹیل اور کمیونٹی کے لیے عمیق ماحول — تصور سے لے کر معروف پلیٹ فارمز پر تعیناتی تک۔",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "ورچوئل اسپیسز اور دنیاوٴں",
+        "ڈیجیٹل ٹوئنز",
+        "VR/AR انٹیگریشن",
+        "کثیر صارف تجربات",
+        "Web3 تیار تجربات"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "عمیق",
+          "desc": "حقیقی اور مشغول کن محسوس ہونے والے ماحول۔"
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "قابل توسیع",
+          "desc": "ایک ساتھ بہت سے صارفین کی معاونت۔"
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "برانڈ تیار",
+          "desc": "آپ کے برانڈ کی عکاسی کرنے والے ماحول۔"
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "گیم ڈویلپمنٹ",
+      "shortDesc": "تمام پلیٹ فارمز پر دلچسپ گیمز",
+      "longDesc": "موبائل سے PC اور کنسول تک — ہم وہ گیمز بناتے ہیں جو کھلاڑی پسند کرتے ہیں۔ Unity اور Unreal Engine سے اصل IP، serious games اور برانڈڈ تجربات، گیم پلے اور پالش پر توجہ کے ساتھ۔",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "موبائل، PC اور کنسول",
+        "Unity اور Unreal Engine",
+        "گیم ڈیزائن اور میکینکس",
+        "ملٹی پلئیر اور لائیو آپس",
+        "پورٹنگ اور بہتری"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "مکمل پروڈکشن",
+          "desc": "ڈیزائن، آرٹ، کوڈ اور لانچ سپورٹ۔"
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "ثابت انجن",
+          "desc": "معیار اور کارکردگی کے لیے Unity اور Unreal۔"
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "لانچ کے بعد",
+          "desc": "اپ ڈیٹس، ایونٹس اور کمیونٹی فیچرز۔"
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "ایکسٹینڈڈ ریئلٹی",
+      "shortDesc": "تبدیل کن AR/VR/MR تجربات",
+      "longDesc": "ٹریننگ، مارکیٹنگ اور پروڈکٹ ویژولائزیشن کے لیے AR، VR اور mixed reality۔ ہیڈسیٹ اور موبائل پر ایپس تاکہ ملازمین تربیت پائیں، مصنوعات دکھائیں یا عمیق مہمات چلائیں۔",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR ایپس (موبائل اور glasses)",
+        "VR ٹریننگ اور سمیلیشن",
+        "mixed reality تجربات",
+        "ورچوئل ٹورز",
+        "ہارڈ ویئر اگنوسٹک ڈیزائن"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "عملی استعمال",
+          "desc": "ٹریننگ، سیلز اور مارکیٹنگ میں ROI۔"
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "کثیر ڈیوائس",
+          "desc": "فون، ٹیبلیٹ اور XR ہیڈسیٹ پر۔"
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "صارف سے جانچا ہوا",
+          "desc": "آرام اور استعمال میں آسانی مرکز میں۔"
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "سوشل میڈیا مارکیٹنگ",
+      "shortDesc": "اسٹریٹجک سوشل موجودگی اور مشغولیت",
+      "longDesc": "حکمت عملی، کنٹینٹ اور کمیونٹی مینجمنٹ سے آپ کی سوشل موجودگی بناتے اور چلاتے ہیں۔ آرگینک کنٹینٹ سے لے کر انفلوانسر اور پیڈ سوشل تک — صحیح سامعین سے جڑنا۔",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "کنٹینٹ حکمت عملی اور تخلیق",
+        "کمیونٹی مینجمنٹ",
+        "انفلوانسر پارٹنرشپز",
+        "پیڈ سوشل مہمات",
+        "تجزیات اور رپورٹنگ"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "برانڈ آواز",
+          "desc": "ایسا مواد جو آپ جیسا لگے اور اثر کرے۔"
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "کمیونٹی",
+          "desc": "وفاداری اور حمایت بڑھانے والی مشغولیت۔"
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "پیڈ + آرگینک",
+          "desc": "زیادہ رسائی کے لیے مربوط نقطہ نظر۔"
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI حل",
+      "shortDesc": "چیٹ بوٹس، آٹومیشن اور ذہین ورک فلو — آپریشنز ہموار کرنے اور صارفین سے جڑنے کے لیے AI سے تقویت یافتہ۔",
+      "longDesc": "ہم AI سے چلنے والے حل بناتے ہیں جو آپ کے کام اور مشغولیت کو بدل دیتے ہیں۔ حسب ضرورت چیٹ بوٹس، ورچوئل اسسٹنٹس، عمل آٹومیشن اور ذہین ورک فلو — وقت بچانا، سپورٹ بڑھانا اور بہتر تجربات۔ آپ کے موجودہ ٹولز کے ساتھ انٹیگریشن اور حقیقی دنیا میں قابل اعتماد۔",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "حسب ضرورت چیٹ بوٹس اور ورچوئل اسسٹنٹس",
+        "عمل آٹومیشن اور ورک فلو",
+        "LLM انٹیگریشن اور فائن ٹیوننگ",
+        "API انٹیگریشنز",
+        "تجزیات اور بہتری"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "آپ کے مطابق",
+          "desc": "آپ کے ورک فلو اور برانڈ آواز کے گرد AI۔"
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "محفوظ اور قابل توسیع",
+          "desc": "واضح ڈیٹا ہینڈلنگ کے ساتھ انٹرپرائز تیار۔"
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "مسلسل بہتری",
+          "desc": "استعمال اور فیڈ بیک پر مبنی تکرار۔"
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "ای بک ڈیزائن اور اشاعت",
+      "shortDesc": "Kindle، Apple Books وغیرہ کے لیے پیشہ ورانہ لے آؤٹ، کور اور تقسیم۔",
+      "longDesc": "مسودے سے سٹور فرنٹ تک — ای بک ڈیزائن، فارمیٹنگ اور تقسیم تاکہ آپ کی کتاب پروفیشنل لگے اور بیچے۔ رسپانسو لے آؤٹ، نمایاں کورز اور درجہ بندی والا میٹا ڈیٹا۔ مصنف یا ناشر — Kindle، Apple Books، Kobo وغیرہ پر لائیو۔",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "اندرونی لے آؤٹ اور ٹائپوگرافی",
+        "کور ڈیزائن",
+        "EPUB اور Kindle فارمیٹنگ",
+        "کثیر پلیٹ فارم تقسیم",
+        "کتابوں کے لیے میٹا ڈیٹا اور SEO"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "قارئین پہلے",
+          "desc": "ہر ڈیوائس اور فونٹ سائز پر کام کرنے والے لے آؤٹ۔"
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "سٹور تیار",
+          "desc": "Kindle، Apple اور دیگر ریٹیلرز کے مطابق۔"
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "تیز ترسیل",
+          "desc": "مسودے سے اشاعت تک واضح وقت بندی۔"
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "ڈیجیٹل میگزین",
+      "shortDesc": "برانڈز اور ناشرین کے لیے شاندار ڈیجیٹل میگزین اور انٹرایکٹو لے آؤٹ۔",
+      "longDesc": "ایسے ڈیجیٹل میگزین ڈیزائن اور بناتے ہیں جو قارئین پسند کریں۔ ایڈیٹوریل لے آؤٹ، انٹرایکٹو عناصر، سبسکرپشن اور ویب/ایپ پر پڑھنے کا تجربہ — نمایاں اشاعت۔",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "ایڈیٹوریل لے آؤٹ ڈیزائن",
+        "انٹرایکٹو عناصر",
+        "ویب اور ایپ اشاعت",
+        "سبسکرپشن فلو",
+        "تجزیات اور مشغولیت"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "ایڈیٹوریل معیار",
+          "desc": "پریمیم اور پڑھنے میں آسان لے آؤٹ۔"
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "مشغول کن",
+          "desc": "انٹرایکٹیویٹی جو قارئین کو جڑے رکھے۔"
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "آمدنی تیار",
+          "desc": "پے وال اور ممبرشپ شامل۔"
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "ای نیوزپیپر",
+      "shortDesc": "رسپانسو لے آؤٹ اور آسان کنٹینٹ اپ ڈیٹس کے ساتھ ڈیجیٹل اخبار اور نیوز پورٹل۔",
+      "longDesc": "ڈیجیٹل اخبار اور نیوز پورٹل جہاں آپ کی کہانیاں مرکز میں۔ رسپانسو لے آؤٹ، تیز لوڈنگ اور سادہ CMS انٹیگریشن — تکنیکی دشواری کے بغیر شائع کریں۔ پڑھنے کی سہولت، رسائی اور ہر ڈیوائس پر تجربہ۔",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "رسپانسو نیوز لے آؤٹ",
+        "CMS انٹیگریشن",
+        "تیز لوڈنگ اور SEO",
+        "بریکنگ نیوز اور سیکشنز",
+        "اشتہارات اور اسپانسرشپ سلاٹس"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "قارئین دوست",
+          "desc": "لمبی پڑھائی کے لیے واضح درجہ بندی اور ٹائپوگرافی۔"
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "اپ ڈیٹ میں آسان",
+          "desc": "غیر ڈویلپرز شائع اور منظم کر سکتے ہیں۔"
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "آمدنی تیار",
+          "desc": "اشتہاری یونٹس اور سبسکرپشن آپشنز۔"
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "پوڈکاسٹ پروڈکشن",
+      "shortDesc": "ریکارڈنگ، ایڈٹنگ، show notes اور تقسیم — پیشہ ورانہ آواز کے لیے۔",
+      "longDesc": "آئیڈیا سے کان تک — ریکارڈنگ سیٹ اپ، ایڈٹنگ، مکسنگ، show notes اور تقسیم تاکہ آپ گفتگو پر توجہ دیں۔ براڈکاسٹ معیار کی آواز اور مستقل برانڈنگ۔",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "ریکارڈنگ اور ایڈٹنگ",
+        "مکسنگ اور ماسٹرنگ",
+        "show notes اور ٹرانسکرپٹس",
+        "آرٹ ورک اور برانڈنگ",
+        "تقسیم اور RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "براڈکاسٹ معیار",
+          "desc": "صاف پیشہ ورانہ آواز۔"
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "ٹرن کی",
+          "desc": "مکمل پائپ لائن ہم سنبھالتے ہیں۔"
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "مستقل برانڈ",
+          "desc": "آرٹ ورک اور نوٹس آپ کے شو کے مطابق۔"
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "انفوگرافکس اور ڈیٹا ویز",
+      "shortDesc": "واضح، مشغول انفوگرافکس اور ڈیٹا ویژولائزیشن جو مشکل معلومات شیئر کرنا آسان بنائیں۔",
+      "longDesc": "ڈیٹا اور خیالات کو ایسے بصری میں بدلتے ہیں جو شیئر ہوں۔ جامد انفوگرافکس سے لے کر انٹرایکٹو ڈیش بورڈز اور رپورٹس تک — رپورٹس، پیشکشوں، سوشل اور اندرونی مواصلات کے لیے۔",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "جامد انفوگرافکس",
+        "انٹرایکٹو ڈیٹا ویز",
+        "رپورٹس اور پیشکشیں",
+        "سوشل تیار فارمیٹس",
+        "برانڈ کے مطابق ڈیزائن"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "وضاحت پہلے",
+          "desc": "پیغام واضح بنانے والا ڈیزائن۔"
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "قابل شیئر",
+          "desc": "سوشل اور ڈیکس پر کام کرنے والے فارمیٹس۔"
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "درست",
+          "desc": "اعداد کی عزت کرنے والا ڈیٹا ویز۔"
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "چیٹ بوٹ ڈویلپمنٹ",
+      "shortDesc": "سپورٹ، سیلز اور مشغولیت کے لیے حسب ضرورت چیٹ بوٹس — آپ کے ٹولز کے ساتھ انٹیگریٹ۔",
+      "longDesc": "ایسے چیٹ بوٹس جو واقعی مدد کریں۔ کسٹمر سپورٹ، لیڈ کوالیفیکیشن یا اندرونی ورک فلو — آپ کے عمل اور CRM، helpdesk اور ایپس کے ساتھ۔ ثابت AI اور گفتگو ڈیزائن تاکہ صارفین کو فوری جواب ملے۔",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "گفتگو ڈیزائن",
+        "CRM اور helpdesk انٹیگریشن",
+        "کثیر چینل (ویب، WhatsApp وغیرہ)",
+        "تجزیات اور تربیت",
+        "انسانی ہینڈ آف"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "آپ کے اسٹیک میں فٹ",
+          "desc": "آپ پہلے سے استعمال کرتے ہیں وہ ٹولز۔"
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "انسانی ہینڈ آف",
+          "desc": "جب بوٹ مدد نہ کر سکے تو ہموار اسکیلیشن۔"
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "وقت کے ساتھ بہتر",
+          "desc": "حقیقی گفتگو پر مبنی ٹیوننگ۔"
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "کاپی رائٹنگ اور کنٹینٹ",
+      "shortDesc": "SEO دوست کاپی، بلاگ پوسٹس اور مارکیٹنگ مواد جو تبدیل اور درجہ حاصل کرے۔",
+      "longDesc": "ایسی کاپی جو تبدیل کرے اور ایسا کنٹینٹ جو درجہ حاصل کرے۔ لینڈنگ پیجز، پروڈکٹ کاپی، بلاگ سیریز اور SEO مواد — آپ کی آواز اور اہداف کے مطابق۔ وضاحت، قائل کاری اور تلاش کے لیے۔",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "لینڈنگ پیجز اور پروڈکٹ کاپی",
+        "بلاگ اور SEO کنٹینٹ",
+        "ای میل سیریز",
+        "اشتہاری کاپی اور سوشل",
+        "کنٹینٹ حکمت عملی"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "برانڈ آواز",
+          "desc": "آپ اور آپ کے سامعین جیسا لگنے والا مواد۔"
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO شامل",
+          "desc": "تلاش اور شیئرنگ کے لیے ساخت۔"
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "تبادلے پر مرکوز",
+          "desc": "ہر لفظ اثر کے لیے۔"
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "سوشل اور YouTube کنٹینٹ",
+      "shortDesc": "Facebook، Instagram، TikTok اور YouTube کے لیے Reels، stories، کیروسل، ویڈیوز اور مہمات۔",
+      "longDesc": "Facebook، Instagram، TikTok اور YouTube پر دیکھا اور شیئر کیا جانے والا مواد۔ Reels اور Stories سے لے کر کیروسل، YouTube اسکرپٹ، تھمب نیلز اور ویڈیو ایڈٹنگ — تمام بڑے پلیٹ فارمز پر برانڈ کے مطابق۔",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Reels، Stories اور شارٹ فارم (IG، TikTok، FB)",
+        "YouTube اسکرپٹ، تھمب نیلز اور ایڈٹنگ",
+        "کیروسلز اور جامد پوسٹس",
+        "مہم تصورات اور کنٹینٹ کیلنڈرز",
+        "سوشل کے لیے کاپی، ہیش ٹیگز اور SEO"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "تمام پلیٹ فارم",
+          "desc": "Facebook، Instagram، TikTok اور YouTube ایک جگہ۔"
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "مستقل لوک",
+          "desc": "آپ کے برانڈ کے لیے ٹیمپلیٹس اور اسٹائل گائیڈز۔"
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "پوسٹ کے لیے تیار",
+          "desc": "شیڈول پر حتمی اثاثے اور کیپشنز۔"
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
-    "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
-    "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "badge": "سروس",
+    "offerBefore": "ہم کیا",
+    "offerHighlight": "فراہم کرتے ہیں",
+    "whyBefore": "ہمارے ساتھ کیوں",
+    "whyHighlight": "کام کریں",
+    "ctaReadyPrefix": "کے لیے تیار",
+    "ctaReadySuffix": "؟",
+    "ctaDesc": "آئیے اپنے پروجیکٹ پر بات کریں اور مل کر کچھ شاندار بنائیں۔",
+    "ctaButton": "رابطہ کریں",
+    "backAllServices": "← تمام خدمات"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "ہوم",
+    "homeDescription": "vebxrun — موبائل ایپس، ویب ڈویلپمنٹ، گیم ڈویلپمنٹ، میٹاورس، AI حل اور ڈیجیٹل مارکیٹنگ۔ تصور کریں۔ جدت لائیں۔ متاثر کریں۔",
+    "servicesTitle": "خدمات",
+    "servicesDescription": "موبائل ایپس، ویب اور CMS، سافٹ ویئر، برانڈنگ، ڈیجیٹل مارکیٹنگ، 2D/3D اینیمیشن، میٹاورس، گیم ڈویلپمنٹ اور مزید۔ vebxrun خدمات دریافت کریں۔",
+    "pricingTitle": "قیمتیں",
+    "pricingDescription": "موبائل ایپس، ویب ڈویلپمنٹ اور ڈیجیٹل حل کے لیے شفاف قیمتیں۔ ابتدائی، پروفیشنل اور انٹرپرائز پلانز۔ vebxrun سے کوٹ حاصل کریں۔"
   }
 }

@@ -7,12 +7,12 @@
     "ourWork": "Çalışmalarımız",
     "expertise": "Uzmanlık",
     "contactUs": "İletişim",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Yeni Hizmetler",
+    "newBadge": "Yeni",
+    "customRequirement": "Teklif Al",
+    "designAssistant": "VXR Temsilcisi",
+    "projects": "Projeler",
+    "privacy": "Mahremiyet"
   },
   "hero": {
     "tagline": "Hayal et. Yenilik yap. İlham ver.",
@@ -115,7 +115,7 @@
     "tag": "Güvenilen",
     "items": {
       "mobileWeb": "Mobil & Web",
-      "metaverseXR": "Metaverse & XR",
+      "metaverseXR": "Meta veri tabanı ve XR",
       "enterpriseSaaS": "Kurumsal SaaS",
       "startupsToFortune": "Startup'lardan Kurumlara"
     },
@@ -144,7 +144,7 @@
     "letsWorkDesc": "Bize ulaşın.",
     "getInTouch": "İletişime Geçin",
     "copyright": "Telif Hakkı 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex Koşusu",
     "stayInLoop": "Güncel Kalın",
     "stayInLoopDesc": "Dijital yenilik haberleri.",
     "subscribe": "Abone Ol",
@@ -159,13 +159,18 @@
       "title3": "Büyüme Sağlayan Dijital Dönüşüm",
       "excerpt3": "Teknolojiye yenilik getiriyoruz."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "Yeni Hizmetler",
+    "linkCustomRequirement": "Teklif Al",
+    "addressLine1": "Karaçi, Pakistan",
+    "addressLine2": "Siber Jaya, Malezya",
+    "linkTermsConditions": "Şartlar ve Koşullar",
+    "columnGetInTouchTitle": "İletişime Geçin",
+    "columnGetInTouchDesc": "Aklınızda bir proje var mı? Ulaşın ve olağanüstü bir şey yaratalım.",
+    "followUsBar": "Güncellemeler için bizi takip edin",
+    "letsConnect": "Haydi bağlanalım"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex Koşusu",
     "explore": "Keşfet"
   },
   "servicesPage": {
@@ -208,9 +213,10 @@
       "dedicatedPM": "Adanmış proje yöneticisi",
       "unlimitedRevisions": "Sınırsız revizyon",
       "12monthsSupport": "12 ay destek",
-      "cicd": "CI/CD & DevOps",
+      "cicd": "CI/CD ve DevOps",
       "sla": "SLA garantisi"
-    }
+    },
+    "customPrice": "Gelenek"
   },
   "contact": {
     "tag": "İletişim",
@@ -230,9 +236,9 @@
     "saturday": "Cumartesi",
     "sunday": "Pazar",
     "closed": "Kapalı",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Hadi Konuşalım - Canlı Sohbet",
+    "liveChatDesc": "Aşağıdan canlı olarak bize mesaj gönderin — metin, resim, ses veya video. Burada cevap veriyoruz.",
+    "monToSun": "Pazartesi – Pazar"
   },
   "expertise": {
     "tag": "Uzmanlık",
@@ -241,8 +247,8 @@
     "headingSuffix": "Yığını",
     "desc": "Önemli araçlarda uzmanız.",
     "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
+      "frontend": "Başlangıç ​​aşaması",
+      "backend": "Arka uç",
       "mobile": "Mobil",
       "cloudDevops": "Bulut & DevOps",
       "gameXR": "Oyun & XR",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobil Uygulama",
+        "desc": "Yeşil markalı bir deneyim, namaz vakitleri, Kuran ve etkileşim içgörüleri için bir analiz panosu içeren Android ve iOS için İslami uygulama."
       },
       "vebxcode": {
-        "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "title": "Vebx kodu",
+        "category": "Web Uygulaması",
+        "desc": "Dijital bir ajans için tam portföy web sitesi — koyu tema, kırmızı vurgular, hizmetler, proje galerisi, başarılar, blog ve iletişim. Çalışmalarını ve uzmanlıklarını sergilemek için tasarlandı."
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "Sağlık Senkronizasyonu",
+        "category": "Sağlık hizmeti",
+        "desc": "Randevular, reçeteler ve tıbbi kayıtlar için doktor-hasta portalı. HIPAA uyumlu, klinikler tarafından planlama ve takip için kullanılır."
       },
       "taskflow": {
-        "title": "TaskFlow",
+        "title": "Görev Akışı",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Kanban panoları, son teslim tarihleri ​​ve gerçek zamanlı senkronizasyonla ekip görev yönetimi. Uzak ekipler ve ajanslar için dağıtıldı."
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "YemekDash",
+        "category": "Mobil Uygulama",
+        "desc": "Restoran keşfi, çevrimiçi sipariş ve canlı teslimat takibi. Restoranlar için ortak uygulama ve lojistik için sürücü uygulaması."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Etkinliklendir",
+        "category": "Web Uygulaması",
+        "desc": "Ödeme, katılımcı yönetimi ve QR girişi ile etkinlik biletleme ve mekan rezervasyon platformu. Konferans ve çalıştaylar için kullanılır."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Yazılım",
+        "desc": "E-imza, sürüm geçmişi ve uyumluluk kontrolleriyle güvenli belge depolama. Hukuk ve finans ekipleri için tasarlandı."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobil Uygulama",
+        "desc": "Antrenman planları, ilerleme kontrol panelleri ve beslenme günlüğü içeren fitness ve sağlık izleme uygulaması. Android ve iOS için çapraz platform."
       },
       "cloudflow": {
-        "title": "CloudFlow",
+        "title": "Bulut Akışı",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Uzak ekipler için gerçek zamanlı işbirliği, görev panoları ve ekip analitiği içeren proje yönetimi ve iş akışı SaaS platformu."
       },
       "neondrift": {
         "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "category": "Oyun Geliştirme",
+        "desc": "Neon estetiği, akıcı kontroller ve skor tablolarıyla atari tarzı yarış oyunu. Birden fazla platform için Unity ile oluşturuldu."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "E-Ticaret",
+        "desc": "Ürün kataloğu, alışveriş sepeti, ödeme ve satıcı kontrol paneli içeren modern e-ticaret platformu. Entegre ödemeler ve envanter."
       },
       "paybridge": {
-        "title": "PayBridge",
+        "title": "Ödeme Köprüsü",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "İşletmeler için ödeme ve finans kontrol paneli - banka düzeyinde güvenlikle işlemler, mutabakat ve raporlama."
       },
       "learnhub": {
         "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "category": "Eğitim Teknolojisi",
+        "desc": "Eğitimciler ve öğrenciler için kurslar, ilerleme takibi, testler ve sertifikalar içeren öğrenme yönetimi platformu."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Yazılım ve Nesnelerin İnterneti",
+        "desc": "Varlıkları, uyarıları ve analizleri izlemek için IoT destekli operasyon kontrol paneli. Akıllı tesisler ve lojistik için tasarlandı."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Dijital Pazarlama",
+        "desc": "Sosyal medya ve kampanya analiz platformu — markalar için etkileşim ölçümleri, içerik planlaması ve yatırım getirisi raporlaması."
       }
     },
     "ctaHeading": "Sonraki",
@@ -403,10 +409,10 @@
     "section6": "Sorularınız için:",
     "email": "E-posta:",
     "address": "Adres:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "Hizmetlerimizi destekleyen ve geliştiren, dünya çapında tanınan platformlar ve sektör lideri teknolojiler tarafından desteklenmektedir.",
+    "partnerDisclaimerP2": "Herhangi bir resmi veya resmi ortaklık veya doğrudan bağlılık ima etmeden, araçlarından ve hizmetlerinden faydalanmamız anlamında ortaklarımız olarak kabul edilirler.",
+    "addressLine1": "Karaçi, Pakistan",
+    "addressLine2": "Siber Jaya, Malezya"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "Stratejik sosyal varlık"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Yeni",
+    "heading": "Yeni",
+    "headingHighlight": "Hizmetler",
+    "subtitle": "Yeni dijital teklifler — Erişiminizi genişletecek yapay zeka, içerik ve medya çözümleri.",
+    "getInTouch": "Hadi konuşalım"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "İhtiyacınız",
+    "heading": "Gelenek",
+    "headingHighlight": "Gereklilik",
+    "desc": "Bize neye ihtiyacınız olduğunu söyleyin. Hizmetinizi, tercihlerinizi seçin ve anında fiyat tahmini alın.",
+    "yourName": "Adınız",
+    "namePlaceholder": "Adınızı girin",
+    "yourEmail": "E-postanız",
+    "emailPlaceholder": "E-postanızı girin",
+    "yourPhone": "Telefonunuz",
+    "phonePlaceholder": "Telefon numaranızı girin",
+    "step1Title": "Temas etmek",
+    "step2Title": "Gereklilik",
+    "step3Title": "Teknoloji ve Plan",
+    "step4Title": "Referans Ver ve Gönder",
+    "step5Title": "Teşekkür ederim",
+    "thankYouTitle": "Teşekkür ederim!",
+    "thankYouMessage": "Talebinizi aldık. Ekibimiz kısa sürede size geri dönüş yapacaktır.",
+    "backToHome": "Ana Sayfaya Geri Dön",
+    "submitAnother": "Başka Gönder",
+    "nextStep": "Sonraki",
+    "prevStep": "Geri",
+    "stepOf": "{{current}} / {{total}} Adımı",
+    "selectService": "Ne istiyorsun?",
+    "selectServicePlaceholder": "Bir hizmet seçin",
+    "selectSubType": "Proje türü / ayrıntıları",
+    "selectSubTypePlaceholder": "Seçeneği seçin",
+    "selectTech": "Teknoloji / platform (geçerli olanların tümünü seçin)",
+    "selectTier": "Planı seçin",
+    "priceLabel": "Tahmini fiyat",
+    "priceCustom": "Özel teklif",
+    "perProject": "proje başına",
+    "referenceLink": "Referans bağlantısı (ör. beğendiğiniz web sitesi veya uygulama)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Referans görseli (isteğe bağlı)",
+    "referenceImageHint": "Bir ekran görüntüsü veya tasarım referansı yükleyin",
+    "developBtn": "Geliştirmek",
+    "talkToTeam": "Ekiple Konuşun",
+    "submitSuccess": "Talep gönderildi. Yakında size geri döneceğiz.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "E-ticaret",
+      "social": "Sosyal / topluluk",
+      "utility": "Fayda / üretkenlik",
+      "enterprise": "Kurumsal / dahili",
+      "onDemand": "İsteğe bağlı / teslimat",
+      "blog": "Blog / içerik sitesi",
+      "corporate": "Kurumsal / ticari",
+      "portfolio": "Portföy / vitrin",
+      "landing": "Açılış / pazarlama sayfası",
+      "saas": "SaaS ürünü",
+      "dashboard": "Kontrol paneli / analiz",
+      "api": "API / arka uç",
+      "seo": "SEO ve içerik",
+      "ppc": "PPC ve ücretli sosyal",
+      "fullCampaign": "Tam kampanya",
+      "organic": "Organik içerik",
+      "paidSocial": "Ücretli sosyal",
+      "influencer": "Etkileyici ortaklığı",
+      "other": "Diğer"
     },
     "tech": {
-      "react": "React",
+      "react": "Tepki ver",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Açısal",
       "next": "Next.js",
-      "nuxt": "Nuxt",
+      "nuxt": "Sonraki",
       "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "aspnet": "ASP.NET / .NET Çekirdeği",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / Bahar",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "headless": "Başsız CMS",
+      "flutter": "çarpıntı",
+      "reactNative": "Yerel Tepki",
+      "nativeIos": "Yerel iOS (Swift)",
+      "nativeAndroid": "Yerel Android (Kotlin)",
+      "unity": "Birlik",
+      "unreal": "Gerçekdışı Motor",
+      "other": "Diğer / Emin değilim"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR Temsilcisi",
+    "seoTitle": "VXR Temsilcisi",
+    "seoDescription": "Yapay zeka asistanımızla sohbet edin: Fikrinizi mesajlarda açıklayın, web siteleri ve uygulamalar için tasarım referans görselleri oluşturun ve bunları Teklif Al'a ekleyin; oturum açmanıza gerek yok.",
+    "heroDescription": "Fikrinizi içeren mesajlar yazın; web ve uygulama tasarımları için referans görseller oluşturuyoruz",
+    "widgetAriaLabel": "VXR Agent'ı açın",
+    "widgetTooltip": "VXR Agent — mesajları açın, tasarımınızı tanımlayın ve projeniz için referans görselleri oluşturun",
+    "drawerAriaLabel": "Tasarım fikri — Yapay zeka referans görseli",
+    "drawerSubtitle": "Başlıkla aynı — mesajlar + resim fikirleri",
+    "creditsToday": "Bugün {{remaining}} / {{limit}} kredi",
+    "creditsLoading": "… bugün kredi",
+    "intro": "Aşağıdaki kutuyu sohbet gibi kullanın: ihtiyacınız olanı bir veya daha fazla mesaja yazın. Yalnızca web siteleri ve uygulamalar için tasarım referans görselleri üretiyoruz. Sonucu Fiyat Teklifi Al'a ekleyin. Hesap veya giriş yapmanıza gerek yok.",
+    "promptPlaceholder": "örneğin Karanlık temalı, kırmızı vurgulu, modern kahraman bölümüne sahip ajans web sitesi",
+    "generate": "Resim oluştur",
+    "generating": "Oluşturuluyor…",
+    "generatedReference": "Oluşturulan referans",
+    "generatedImageAlt": "Yapay zeka tarafından oluşturulan tasarım referansı",
+    "referenceOnly": "Yalnızca referans — eklemek için Fiyat Teklifi Al bölümünde kullanın",
+    "useInQuote": "Teklif Al'da kullanın",
+    "promptRequired": "Lütfen bir tasarım fikri veya istemi girin.",
+    "imageDataMissing": "Resim verileri alınamadı.",
+    "generationFailed": "Nesil başarısız oldu.",
+    "referenceAttached": "Referans ektedir. Teklif formu açılıyor.",
+    "attachFailed": "Eklenemedi."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projeler",
+    "seoDescription": "Satın alma ve kiralama projeleri — çok yakında vebxrun.com'da.",
+    "tag": "Pazar yeri",
+    "heading": "Satın al ve kirala",
+    "headingHighlight": "projeler",
+    "heroDesc": "Satın alabileceğiniz veya lisanslayabileceğiniz dijital projeler için seçilmiş bir hedef. Deneyimi hazırlıyoruz; bizi izlemeye devam edin.",
+    "comingSoon": "Satın alma & kiralama projeleri çok yakında",
+    "badge": "Yakında gelecek",
+    "cta": "İletişime geçin",
+    "ctaHint": "Sorularınız mı var? Ekibimiz yardım etmek için burada."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "VXR Teknik Temsilcisi — Yapay Zeka Sohbeti ve Gerçek Zamanlı Arama",
+    "seoDescription": "Yazılım, uygulamalar, web geliştirme, yapay zeka ve dijital ürün mühendisliği konularında teknolojiyle ilgili rehberlik için VXR Tech Agent ile canlı olarak sohbet edin veya konuşun.",
+    "badge": "Gerçek Zamanlı Teknik Temsilci",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "Teknik Temsilci",
+    "subtitle": "Sohbet veya canlı arama yoluyla yazılım, uygulamalar, yapay zeka, API'ler, bulut ve dijital ürün mühendisliği konusunda yardım alın.",
+    "chatTitle": "VXR Teknoloji Temsilcisi",
+    "chatTag": "Yalnızca teknik yardım",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "API tasarımı, React, AI veya bulut gibi bir teknik soru sorun…",
+    "micStopTitle": "Kaydı durdur",
+    "micStartTitle": "Ses girişi",
+    "emptyResponse": "Şu anda bir yanıt oluşturamadım. Lütfen teknik sorunuzu tekrar gönderin.",
+    "requestFailed": "AI sohbet isteği beklenmedik bir şekilde başarısız oldu",
+    "micDenied": "Mikrofon erişimi reddedildi",
+    "callEndedStatus": "Arama sona erdi",
+    "callEndedMessage": "📞 Arama sonlandırıldı. Bir sonraki teknik sorunuzu sohbette gönderebilirsiniz.",
+    "connecting": "Gerçek zamanlı temsilciye bağlanılıyor…",
+    "liveConnected": "Canlı, gerçek zamanlı teknik çağrı bağlandı",
+    "callIntroMessage": "📞 Sesli arama bağlandı. Önce kısa bir selamlama duyacaksınız.",
+    "readyForCall": "Gerçek zamanlı teknik görüşmeye hazır",
+    "callFailedStatus": "Çağrı bağlantısı başarısız oldu",
+    "callStartFailed": "Gerçek zamanlı arama başlatılamadı",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Gerçek zamanlı sesli arama",
+    "tapEndCall": "Aramayı sonlandırmak için dokunun",
+    "startCall": "Gerçek zamanlı aramayı başlat",
+    "capabilitiesTitle": "Aracı yetenekleri",
+    "cap1": "Web, uygulama, arka uç ve yapay zeka mühendisliği rehberliği",
+    "cap2": "Mimari, API'ler, veritabanları ve bulut önerileri",
+    "cap3": "Hata ayıklama, performans, ölçeklenebilirlik ve güvenlik önerileri",
+    "cap4": "Teknik iş akışları için dijital ürün kullanıcı deneyimi",
+    "cap5": "Çağrı başlangıcında giriş ile gerçek zamanlı sesli etkileşim",
+    "quickPromptsTitle": "Hızlı istemler",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "SaaS MVP'si için en iyi teknoloji yığını mı?",
+      "Ölçeklenebilir bir REST API'sini nasıl tasarlamalıyım?",
+      "Bir React uygulamasını hız açısından nasıl optimize edebilirim?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Merhaba! Ben **VXR Teknoloji Temsilcisiyim**. Yalnızca web geliştirme, uygulamalar, yapay zeka, API'ler, bulut, dijital ürünler için UX, hata ayıklama ve mimari gibi teknolojiyle ilgili konularda yardımcı oluyorum. Başlamak için teknik sorunuzu sorun."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobil Uygulama",
+      "shortDesc": "Kullanıcıların ilgisini çeken yerel ve platformlar arası uygulamalar",
+      "longDesc": "Kullanıcıların sevdiği mobil uygulamalar geliştiriyoruz. Yerel iOS ve Android'den React Native ve Flutter ile platformlar arası çözümlere kadar, iş hedeflerinizle uyumlu, performanslı, ölçeklenebilir uygulamalar sunuyoruz. Ekibimiz UX tasarımından App Store dağıtımına kadar her şeyi yönetir.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOS ve Android yerel geliştirme",
+        "Yerel Tepki ve Flutter",
+        "Kullanıcı arayüzü/UX tasarımı",
+        "App Store ve Play Store dağıtımı",
+        "Bakım ve güncellemeler"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "Çapraz platform",
+          "desc": "Mantıklı olduğunda iOS ve Android için tek kod tabanı."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Performans",
+          "desc": "Hız, pil ve çevrimdışı özellik açısından optimize edilmiştir."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Güvenlik",
+          "desc": "Veri ve uyumluluk için en iyi uygulamalar (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Web CMS Geliştirme",
+      "shortDesc": "Güçlü içerik yönetimi çözümleri",
+      "longDesc": "Kontrolün sizde olmasını sağlayan özel web platformları ve içerik yönetim sistemleri. Ekibinizin her güncelleme için geliştiricilere bağlı kalmadan içerik yayınlayabilmesi ve yönetebilmesi için WordPress, bağımsız CMS ve özel arka uçlarla geliştiriyoruz.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress ve başsız CMS",
+        "Özel yönetici panelleri",
+        "API öncelikli mimari",
+        "Çok siteli ve çok dilli",
+        "SEO dostu yapı"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Kolay içerik güncellemeleri",
+          "desc": "Teknik olmayan ekipler için sezgisel kontrol panelleri."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Ölçeklenebilir",
+          "desc": "Trafiğiniz ve içeriğinizle birlikte büyüyecek şekilde tasarlandı."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Entegrasyonlar",
+          "desc": "CRM, analiz ve pazarlama araçlarına bağlanın."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Yazılım Geliştirme",
+      "shortDesc": "İhtiyaçlarınıza göre uyarlanmış özel yazılım",
+      "longDesc": "SaaS ürünlerinden kurumsal sistemlere kadar iş akışlarınıza uygun özel yazılımlar geliştiriyoruz. İşletmenizle birlikte ölçeklenen ve gelişen bir çözüme sahip olmanız için modern yığınlar ve çevik dağıtım kullanıyoruz.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS ve web uygulamaları",
+        "Kurumsal sistemler",
+        "API'ler ve entegrasyonlar",
+        "Bulut dağıtımı (AWS, Azure, GCP)",
+        "Çevik teslimat"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Özel yapım",
+          "desc": "Kullanıma hazır hiçbir taviz yok; ihtiyaçlarınız için tasarlandı."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Modern yığın",
+          "desc": "React, Node, Python, .NET ve kanıtlanmış teknolojiler."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Devam eden destek",
+          "desc": "Bakım, güncellemeler ve özellik gelişimi."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Kurumsal Markalaşma",
+      "shortDesc": "Öne çıkan cesur marka kimlikleri",
+      "longDesc": "Kim olduğunuzu ileten ve hedef kitlenizde yankı uyandıran marka kimlikleri yaratıyoruz. Logo tasarımı ve görsel yönergelerden tam marka stratejisine kadar pazarınızda öne çıkmanıza yardımcı oluyoruz.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo ve görsel kimlik",
+        "Marka yönergeleri",
+        "Marka stratejisi",
+        "Teminat tasarımı",
+        "Dijital varlık kitleri"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Farklı kimlik",
+          "desc": "Unutulmaz logolar ve tutarlı görsel dil."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Strateji odaklı",
+          "desc": "Marka seçimleri işletmenize ve hedef kitlenize bağlıdır."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Kullanıma hazır",
+          "desc": "Tüm temas noktaları için varlıklar ve yönergeler."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Çevrimiçi Dijital Pazarlama",
+      "shortDesc": "Büyüme için veriye dayalı stratejiler",
+      "longDesc": "SEO, PPC, içerik pazarlaması ve dönüşüm optimizasyonu ile erişiminizi ve dönüşümlerinizi artırın. Gösterişli ölçütlere değil, ölçülebilir sonuçlara ve sürdürülebilir büyümeye odaklanıyoruz.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO ve içerik stratejisi",
+        "PPC ve ücretli sosyal",
+        "Dönüşüm optimizasyonu",
+        "Analiz ve raporlama",
+        "Pazarlama otomasyonu"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Veriye dayalı",
+          "desc": "Analitik ve testlere dayalı kararlar."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Tam dönüşüm hunisi",
+          "desc": "Farkındalık, üzerinde düşünme ve dönüşüm kampanyaları."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Şeffaf raporlama",
+          "desc": "Net ölçümler ve düzenli incelemeler."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D ve Animasyon",
+      "shortDesc": "Hikayenizi anlatan çarpıcı görseller",
+      "longDesc": "İlgi çekici ve açıklayan hareketli grafikler, açıklayıcı videolar ve sinematik animasyonlar. Tüm platformlarda reklamlar, ürün demoları ve marka hikaye anlatımı için 2D ve 3D içerikler üretiyoruz.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Hareketli grafikler",
+        "Açıklayıcı videolar",
+        "2D ve 3D animasyon",
+        "Karakter animasyonu",
+        "Sosyal içerik ve reklam içeriği"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Önce hikaye",
+          "desc": "Her çerçeve mesajınızı ve markanızı destekler."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Çoklu format",
+          "desc": "Kısa sosyal kliplerden uzun biçimli açıklayıcılara kadar."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "Markaya uygun",
+          "desc": "Görsel kimliğinizle tutarlı bir stil."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D Render Hizmetleri",
+      "shortDesc": "Fotogerçekçi 3D görselleştirmeler",
+      "longDesc": "Mimari, ürün görselleştirme ve pazarlama için yüksek kaliteli 3D görüntüler. Ürünlerinizi ve mekanlarınızı gerçek dünyada var olmadan önce sergileyen fotogerçekçi görüntüler ve animasyonlar sunuyoruz.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Mimari görselleştirme",
+        "Ürün oluşturma",
+        "Pazarlama için CGI",
+        "İç ve dış",
+        "Animasyon ve izlenecek yollar"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotogerçekçi",
+          "desc": "Gerçek gibi görünen aydınlatma ve malzemeler."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Herhangi bir endüstri",
+          "desc": "Emlak, perakende, otomotiv ve daha fazlası."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Hızlı yinelemeler",
+          "desc": "Fiziksel yeniden çekimler olmadan hızlı değişiklikler."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Metaevren Geliştirme",
+      "shortDesc": "Yeni nesil sürükleyici dijital dünyalar",
+      "longDesc": "Meta veri tabanı deneyimleri tasarlıyor ve inşa ediyoruz: etkinlikler, perakende satış ve topluluk için sanal alanlar, dijital ikizler ve sürükleyici ortamlar. Konseptten önde gelen platformlarda dağıtıma.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Sanal alanlar ve dünyalar",
+        "Dijital ikizler",
+        "VR/AR entegrasyonu",
+        "Çok kullanıcılı deneyimler",
+        "Web3'e hazır deneyimler"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Sürükleyici",
+          "desc": "Gerçek ve ilgi çekici hissettiren alanlar."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Ölçeklenebilir",
+          "desc": "Birçok eşzamanlı kullanıcıyı destekleyen mimari."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Markaya hazır",
+          "desc": "Markanızı yansıtan özel ortamlar."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Oyun Geliştirme",
+      "shortDesc": "Tüm platformlarda ilgi çekici oyunlar",
+      "longDesc": "Mobil oyunlardan PC ve konsola kadar oyuncuların sevdiği oyunlar geliştiriyoruz. Oynanış ve cilaya odaklanarak orijinal IP, ciddi oyunlar ve markalı deneyimler oluşturmak için Unity ve Unreal Engine'i kullanıyoruz.",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Mobil, PC ve konsol",
+        "Birlik ve Gerçekdışı Motor",
+        "Oyun tasarımı ve mekaniği",
+        "Çok oyunculu ve canlı operasyonlar",
+        "Taşıma ve optimizasyon"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Tam üretim",
+          "desc": "Tasarım, sanat, kod ve lansman desteği."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Kanıtlanmış motorlar",
+          "desc": "Kalite ve performans için Birlik ve Gerçekdışı."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Lansman sonrası",
+          "desc": "Güncellemeler, etkinlikler ve topluluk özellikleri."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Genişletilmiş Gerçeklik",
+      "shortDesc": "Dönüştüren AR/VR/MR deneyimleri",
+      "longDesc": "Eğitim, pazarlama ve ürün görselleştirmeye yönelik AR, VR ve karma gerçeklik deneyimleri. Çalışanları eğitmek, ürünleri sergilemek veya etkileyici kampanyalar oluşturmak için kulaklıklarda ve mobil cihazlarda çalışan uygulamalar geliştiriyoruz.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR uygulamaları (cep telefonu ve gözlük)",
+        "VR eğitimi ve simülasyonları",
+        "Karma gerçeklik deneyimleri",
+        "Sanal turlar",
+        "Donanımdan bağımsız tasarım"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Pratik kullanım durumları",
+          "desc": "Yatırım getirisini artıran eğitim, satış ve pazarlama."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Çoklu cihaz",
+          "desc": "Telefonlarda, tabletlerde ve XR kulaklıklarda çalışır."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Kullanıcı tarafından test edilmiştir",
+          "desc": "Temelde konfor ve kullanışlılık."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Sosyal Medya Pazarlaması",
+      "shortDesc": "Stratejik sosyal varlık ve katılım",
+      "longDesc": "Sosyal varlığınızı strateji, içerik ve topluluk yönetimi ile oluşturuyor ve yönetiyoruz. Organik içerikten etkileyici ortaklıklara ve ücretli sosyal medyaya kadar doğru hedef kitleyle bağlantı kurmanıza yardımcı oluyoruz.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "İçerik stratejisi ve oluşturma",
+        "Topluluk yönetimi",
+        "Etkileyici ortaklıklar",
+        "Ücretli sosyal kampanyalar",
+        "Analiz ve raporlama"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Marka sesi",
+          "desc": "Size benzeyen ve yankı uyandıran içerik."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Toplum",
+          "desc": "Sadakat ve savunuculuk oluşturan etkileşim."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Ücretli + organik",
+          "desc": "Maksimum erişim için entegre yaklaşım."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "Yapay Zeka Çözümleri",
+      "shortDesc": "Operasyonları kolaylaştırmak ve kullanıcıların katılımını sağlamak için yapay zeka tarafından desteklenen sohbet robotları, otomasyon ve akıllı iş akışları.",
+      "longDesc": "Çalışma ve etkileşim şeklinizi dönüştüren yapay zeka destekli çözümler üretiyoruz. Özel sohbet robotları ve sanal asistanlardan süreç otomasyonu ve akıllı iş akışlarına kadar, zamandan tasarruf etmek, desteği ölçeklendirmek ve daha iyi deneyimler sunmak için yapay zekadan yararlanmanıza yardımcı oluyoruz. Çözümlerimiz mevcut araçlarınızla entegre olur ve gerçek dünya güvenilirliği için tasarlanmıştır.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Özel sohbet robotları ve sanal asistanlar",
+        "Süreç otomasyonu ve iş akışları",
+        "LLM entegrasyonu ve ince ayar",
+        "API entegrasyonları",
+        "Analiz ve optimizasyon"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Size özel",
+          "desc": "Yapay zeka, iş akışlarınız ve marka sesiniz etrafında oluşturuldu."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Güvenli ve ölçeklenebilir",
+          "desc": "Net veri işleme özelliğiyle kurumsal kullanıma hazır."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Devam eden iyileştirme",
+          "desc": "Kullanıma ve geri bildirimlere göre yineliyoruz."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "E-kitap Tasarımı ve Yayıncılığı",
+      "shortDesc": "Kindle, Apple Books ve diğer platformlar için profesyonel e-kitap düzeni, kapak tasarımı ve dağıtımı.",
+      "longDesc": "Taslaktan vitrine kadar — kitabınızın bir profesyonel gibi görünmesi ve satılması için e-kitap tasarımını, biçimlendirmesini ve dağıtımını biz üstleniyoruz. Duyarlı düzenler, göz alıcı kapaklar ve sıralanan meta veriler oluşturuyoruz. İster yazar ister yayıncı olun, e-kitabınızı Kindle, Apple Books, Kobo ve daha birçok platformda yayınlıyoruz.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "İç düzen ve tipografi",
+        "Kapak tasarımı",
+        "EPUB ve Kindle biçimlendirmesi",
+        "Çoklu platform dağıtımı",
+        "Kitaplar için meta veriler ve SEO"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Okuyucuya öncelik veren tasarım",
+          "desc": "Her cihazda ve yazı tipi boyutunda çalışan düzenler."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Mağazaya hazır",
+          "desc": "Kindle, Apple ve diğer perakendecilerle uyumludur."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Hızlı geri dönüş",
+          "desc": "Taslaktan yayına kadar zaman çizelgelerini temizleyin."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Dijital Dergi",
+      "shortDesc": "Markalar ve yayıncılar için çarpıcı dijital dergi tasarımı ve etkileşimli düzenler.",
+      "longDesc": "Okuyucuların sevdiği dijital dergiler tasarlıyor ve üretiyoruz. Editoryal düzenlerden etkileşimli öğelere, web ve uygulamadaki abonelik ve okuma deneyimlerine kadar öne çıkan yayınlar yaratıyoruz. Markalar, yayıncılar ve içeriği gösterişli bir dijital ürüne dönüştüren herkes için mükemmeldir.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Editoryal düzen tasarımı",
+        "Etkileşimli öğeler",
+        "Web ve uygulama yayınlama",
+        "Abonelik akışları",
+        "Analitik ve etkileşim"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Editoryal kalite",
+          "desc": "Kaliteli ve okunması kolay düzenler."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "ilgi çekici",
+          "desc": "Okuyucuların kaydırma yapmasını sağlayan etkileşim."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Para kazanmaya hazır",
+          "desc": "Ödeme duvarları ve üyelikler yerleşiktir."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "E-Gazete",
+      "shortDesc": "Duyarlı düzenler ve kolay içerik güncellemeleriyle dijital gazete ve haber portalı tasarımı.",
+      "longDesc": "Hikayelerinizi öne ve merkeze koyan dijital gazeteler ve haber portalları oluşturuyoruz. Duyarlı düzenler, hızlı yükleme ve basit CMS entegrasyonu, ekibinizin teknik sorunlar yaşamadan yayınlayabileceği ve güncelleyebileceği anlamına gelir. Okunabilirliğe, erişilebilirliğe ve her cihazda çalışan bir deneyime odaklanıyoruz.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Duyarlı haber düzeni",
+        "CMS entegrasyonu",
+        "Hızlı yükleme ve SEO",
+        "Son dakika haberler ve bölümler",
+        "Reklamlar ve sponsorluk alanları"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Okuyucu dostu",
+          "desc": "Uzun süreli okuma için net hiyerarşi ve tipografi."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Güncellemesi kolay",
+          "desc": "Geliştirici olmayanlar içeriği yayınlayabilir ve yönetebilir."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Gelire hazır",
+          "desc": "Reklam birimleri ve abonelik seçenekleri dahildir."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Podcast Prodüksiyonu",
+      "shortDesc": "Profesyonel görünen podcast'ler için kaydetme, düzenleme, gösteri notları ve dağıtım.",
+      "longDesc": "Podcast'inizi fikirden kulağa taşıyoruz. Ekibimiz, konuşmaya odaklanabilmeniz için kayıt kurulumu, düzenleme, miksaj, not gösterme ve dağıtım işlemlerini gerçekleştirir. Yayın kalitesinde ses ve tutarlı markalama sağlıyoruz, böylece programınızın kafanızda göründüğü kadar iyi görünmesini sağlıyoruz.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Kaydetme ve düzenleme",
+        "Karıştırma ve mastering",
+        "Notları ve transkriptleri göster",
+        "Sanat eserleri ve markalaşma",
+        "Dağıtım ve RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Yayın kalitesi",
+          "desc": "Profesyonel görünen temiz ses."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Anahtar teslimi",
+          "desc": "Sizin uğraşmanıza gerek kalmaması için tüm boru hattını biz hallediyoruz."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Tutarlı marka",
+          "desc": "Gösterinizle eşleşen sanat eserleri ve notlar."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "İnfografikler ve Veri Görünümü",
+      "shortDesc": "Karmaşık bilgilerin paylaşılmasını kolaylaştıran net, ilgi çekici infografikler ve veri görselleştirmeleri.",
+      "longDesc": "Verileri ve fikirleri paylaşılan görsellere dönüştürüyoruz. Statik infografiklerden etkileşimli kontrol panellerine ve raporlara kadar karmaşık bilgileri net ve ilgi çekici hale getiriyoruz. Kalıcı olması gereken raporlar, sunumlar, sosyal içerikler ve şirket içi iletişimler için idealdir.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Statik infografikler",
+        "Etkileşimli veri görünümü",
+        "Raporlar ve sunumlar",
+        "Sosyal kullanıma hazır formatlar",
+        "Markaya uygun tasarım"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Önce netlik",
+          "desc": "Mesajı açıkça ortaya koyan tasarım."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Paylaşılabilir",
+          "desc": "Sosyal medyada ve destelerde çalışan formatlar."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Kesin",
+          "desc": "Rakamlara saygı duyan veri görselliği."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Chatbot Geliştirme",
+      "shortDesc": "Destek, satış ve etkileşim için mevcut araçlarınızla entegre özel sohbet robotları.",
+      "longDesc": "Gerçekten yardımcı olan sohbet robotları geliştiriyoruz. İster müşteri desteği, potansiyel müşteri yeterliliği veya dahili iş akışları olsun, botlarımız süreçlerinize göre tasarlanır ve CRM'niz, yardım masanız ve uygulamalarınızla entegre edilir. Kullanıcıların hızlı yanıt alması ve ekibinizin rahat etmesi için kanıtlanmış yapay zeka ve konuşma tasarımını kullanıyoruz.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Konuşma tasarımı",
+        "CRM ve yardım masası entegrasyonu",
+        "Çok kanallı (web, WhatsApp vb.)",
+        "Analiz ve eğitim",
+        "İnsanlara aktarım"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Yığınınıza uyar",
+          "desc": "Halihazırda kullandığınız araçlarla çalışır."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "İnsan aktarımı",
+          "desc": "Bot yardım edemediğinde sorunsuz bir şekilde iletilir."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Zamanla iyileşir",
+          "desc": "Gerçek konuşmalara dayanarak ayar yapıyoruz."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Metin Yazarlığı ve İçerik",
+      "shortDesc": "SEO dostu kopya, blog gönderileri ve dönüştüren ve sıralayan pazarlama içeriği.",
+      "longDesc": "Dönüştüren metinler ve sıralanan içerik yazıyoruz. Açılış sayfalarından ürün kopyalarına, blog serilerinden SEO içeriğine kadar sesinizi ve hedeflerinizi eşleştiriyoruz. Her parça netlik, ikna ve arama için tasarlandı; böylece hem trafik hem de dönüşüm elde edersiniz.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Açılış sayfaları ve ürün kopyası",
+        "Blog ve SEO içeriği",
+        "E-posta dizileri",
+        "Reklam metni ve sosyal",
+        "İçerik stratejisi"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Markaya özel ses",
+          "desc": "Size ve izleyicilerinize benzeyen bir kopya."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO yerleşik",
+          "desc": "Arama ve paylaşım için yapılandırılmış içerik."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Dönüşüm odaklı",
+          "desc": "İğneyi hareket ettirmek için seçilen her kelime."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Sosyal İçerik ve YouTube İçeriği",
+      "shortDesc": "Facebook, Instagram, TikTok ve YouTube için makaralar, hikayeler, atlı karıncalar, YouTube videoları ve kampanyalar.",
+      "longDesc": "Facebook, Instagram, TikTok ve YouTube'da görülen ve paylaşılan içerikler yaratıyoruz. Makaralar ve Hikayelerden atlı karıncalara, YouTube komut dosyalarına, küçük resimlere ve video düzenlemeye kadar tüm büyük platformlar için markaya özel içerikler üretiyoruz. Feed'inizin ve kanalınızın profesyonel görünmesini ve ölçümlerinizin hareket etmesini sağlamak için yaratıcı yönlendirmeyi platformdaki en iyi uygulamalarla birleştiriyoruz.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Makaralar, Hikayeler ve kısa biçim (IG, TikTok, FB)",
+        "YouTube komut dosyaları, küçük resimler ve düzenleme",
+        "Atlı karıncalar ve statik direkler",
+        "Kampanya konseptleri ve içerik takvimleri",
+        "Sosyal medya için kopyalama, hashtag'ler ve SEO"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Tüm platformlar",
+          "desc": "Facebook, Instagram, TikTok ve YouTube tek bir yerde."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Tutarlı görünüm",
+          "desc": "Markanız için şablonlar ve stil kılavuzları."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Yayınlanmaya hazır",
+          "desc": "Nihai varlıklar ve altyazılar zamanında teslim edilir."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Hizmet",
+    "offerBefore": "biz neyiz",
+    "offerHighlight": "teklif",
+    "whyBefore": "Neden birlikte çalışalım?",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Hazır",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Projenizi tartışalım ve birlikte harika bir şey inşa edelim.",
+    "ctaButton": "Hadi konuşalım",
+    "backAllServices": "← Tüm Hizmetler"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Ev",
+    "homeDescription": "vebxrun — Mobil uygulamalar, web geliştirme, oyun geliştirme, metaveri, yapay zeka çözümleri ve dijital pazarlama. Hayal etmek. Yenilik yapın. İlham vermek.",
+    "servicesTitle": "Hizmetler",
+    "servicesDescription": "Mobil uygulamalar, web ve CMS geliştirme, yazılım geliştirme, kurumsal markalama, dijital pazarlama, 2D/3D animasyon, metaveri, oyun geliştirme ve daha fazlası. vebxrun hizmetlerini keşfedin.",
+    "pricingTitle": "Fiyatlandırma",
+    "pricingDescription": "Mobil uygulamalar, web geliştirme ve dijital çözümler için şeffaf fiyatlandırma. Başlangıç, Profesyonel ve Kurumsal planlar. Vebxrun'dan teklif alın."
+  },
+  "liveChatWidget": {
+    "online": "Çevrimiçi",
+    "closeChat": "Sohbeti kapat",
+    "openChat": "Bizimle sohbet edin",
+    "skipToLiveChat": "Canlı Sohbete Geç →",
+    "nameLabel": "İsim",
+    "emailLabel": "E-posta",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Hizmet",
+    "sending": "Gönderiliyor…",
+    "orLiveChat": "veya bunun yerine canlı sohbet başlatın",
+    "toastNameEmailRequired": "Ad ve e-posta gerekli",
+    "toastRequestSent": "Talep gönderildi!",
+    "toastSubmitFailed": "Gönderilemedi. Tekrar deneyin.",
+    "submittedTitle": "Talep Gönderildi!",
+    "submittedDesc": "Kısa süre içinde size geri döneceğiz.",
+    "startLiveChat": "Canlı Sohbeti Başlat",
+    "secondsShort": "{{count}}s"
   }
 }

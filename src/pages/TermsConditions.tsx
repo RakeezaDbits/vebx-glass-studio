@@ -41,7 +41,7 @@ const termsSections = [
   {
     title: "Contact Information",
     body:
-      "For any questions regarding these terms, please contact us at support@vebx.run. You can also reach us through our contact page for project-specific concerns.",
+      "For any questions regarding these terms, please contact us at support@vebxrun.com. You can also reach us through our contact page for project-specific concerns.",
   },
 ];
 

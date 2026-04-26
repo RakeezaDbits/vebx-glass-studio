@@ -13,7 +13,7 @@ export default function Contact() {
       seo={{
         title: "Contact",
         description:
-          "Get in touch with vebxrun. Chat live, email support@vebx.run, or reach us anytime. We respond quickly.",
+          "Get in touch with vebxrun. Chat live, email support@vebxrun.com, or reach us anytime. We respond quickly.",
         canonicalPath: "/contact",
       }}
     >
@@ -56,8 +56,8 @@ export default function Contact() {
               <div className="liquid-glass rounded-2xl p-8 border-glow">
                 <Mail className="mb-4 h-8 w-8 text-primary" />
                 <h4 className="mb-2 font-display text-lg font-semibold text-foreground">{t("contact.emailUs")}</h4>
-                <a href="mailto:support@vebx.run" className="text-muted-foreground transition-colors hover:text-primary">
-                  support@vebx.run
+                <a href="mailto:support@vebxrun.com" className="text-muted-foreground transition-colors hover:text-primary">
+                  support@vebxrun.com
                 </a>
               </div>
               <div className="liquid-glass rounded-2xl p-8 border-glow">

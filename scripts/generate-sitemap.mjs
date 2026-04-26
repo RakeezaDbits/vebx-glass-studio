@@ -4,19 +4,19 @@
  * npm run generate-sitemap
  *
  * Set SITE_URL to match your canonical domain and Google Search Console property:
- * - URL-prefix property https://vebx.run → SITE_URL=https://vebx.run
- * - URL-prefix property https://www.vebx.run → SITE_URL=https://www.vebx.run
+ * - URL-prefix property https://vebxrun.com → SITE_URL=https://vebxrun.com
+ * - URL-prefix property https://www.vebxrun.com → SITE_URL=https://www.vebxrun.com
  * If they differ, GSC reports "URL not allowed" for every <loc>.
- * A Domain property (vebx.run) avoids host mismatch for sitemaps.
+ * A Domain property (vebxrun.com) avoids host mismatch for sitemaps.
  *
- * Example: SITE_URL=https://www.vebx.run npm run generate-sitemap
+ * Example: SITE_URL=https://www.vebxrun.com npm run generate-sitemap
  */
 import { readFileSync, writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SITE_URL = (process.env.SITE_URL || "https://vebx.run").replace(/\/$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://vebxrun.com").replace(/\/$/, "");
 
 const routes = [
   { path: "/", changefreq: "weekly", priority: "1.0" },

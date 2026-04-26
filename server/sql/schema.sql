@@ -121,6 +121,18 @@ CREATE TABLE IF NOT EXISTS live_chat_messages (
   INDEX idx_live_chat_session_created (session_id, id)
 );
 
+-- Anonymous page-view log (marketing site; admin UI not tracked)
+CREATE TABLE IF NOT EXISTS site_visits (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  path VARCHAR(512) NOT NULL DEFAULT '/',
+  country_code VARCHAR(8) NOT NULL DEFAULT 'UN',
+  client_ip VARCHAR(45) NULL DEFAULT NULL,
+  visitor_key VARCHAR(48) NOT NULL DEFAULT '',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_site_visits_created (created_at),
+  INDEX idx_site_visits_country_created (country_code, created_at)
+);
+
 -- Site settings (contact email, address, phone, etc.)
 CREATE TABLE IF NOT EXISTS site_settings (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -129,11 +141,11 @@ CREATE TABLE IF NOT EXISTS site_settings (
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- Seed default admin: run server once and use POST /api/admin/seed to create admin@vebx.run / admin123
+-- Seed default admin: run server once and use POST /api/admin/seed to create admin@vebxrun.com / admin123
 
 -- Seed default site settings
 INSERT INTO site_settings (`key`, value) VALUES
-  ('contact_email', 'support@vebx.run'),
+  ('contact_email', 'support@vebxrun.com'),
   ('contact_address', 'Karachi, Pakistan; Cyber Jaya, Malaysia'),
   ('contact_phone', ''),
   ('business_hours', 'Mon-Fri: 9AM-6PM, Sat: 10AM-4PM, Sun: Closed')

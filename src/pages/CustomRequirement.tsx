@@ -15,6 +15,7 @@ import {
   priceTiers,
   getPriceForTier,
 } from "@/data/customRequirement";
+import { getTranslatedRequirementServiceTitle } from "@/lib/serviceCatalogI18n";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { postQuote, getStoredAIQuoteRef, setStoredAIQuoteRef } from "@/lib/api";
@@ -73,7 +74,10 @@ export default function CustomRequirement() {
     const target = toWhatsappNumber(WHATSAPP_TARGET);
     if (!target) return;
 
-    const selectedService = requirementServices.find((s) => s.slug === serviceSlug)?.title || serviceSlug;
+    const svc = requirementServices.find((s) => s.slug === serviceSlug);
+    const selectedService = svc
+      ? getTranslatedRequirementServiceTitle(t, svc.slug, svc.source, svc.title)
+      : serviceSlug;
     const selectedTier = priceTiers.find((tier) => tier.id === tierId);
     const msgLines = [
       "New Get a Quote submission",
@@ -262,7 +266,7 @@ export default function CustomRequirement() {
                   <option value="">{t("customReq.selectServicePlaceholder")}</option>
                   {requirementServices.map((s) => (
                     <option key={s.slug} value={s.slug}>
-                      {s.title}
+                      {getTranslatedRequirementServiceTitle(t, s.slug, s.source, s.title)}
                     </option>
                   ))}
                 </select>

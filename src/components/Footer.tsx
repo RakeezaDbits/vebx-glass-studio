@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Mail, MapPin, Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 const logo = "/logo-main.png";
 import { servicesData } from "@/data/services";
+import { getTranslatedService } from "@/lib/serviceCatalogI18n";
 
 const footerSocialLinks = [
   { icon: Facebook, href: "https://www.facebook.com/share/1CWVq6YSS1/", label: "Facebook" },
@@ -41,6 +42,7 @@ const footerSocialLinks = [
 
 const quickLinks = [
   { labelKey: "linkServices", href: "/services" },
+  { labelKey: "linkNewServices", href: "/services#new-services" },
   { labelKey: "linkPricing", href: "/pricing" },
   { labelKey: "linkCustomRequirement", href: "/custom-requirement" },
   { labelKey: "linkContactUs", href: "/contact" },
@@ -51,8 +53,8 @@ const quickLinks = [
 ];
 
 const legalLinks = [
-  { label: "Privacy Policy", href: "/privacy-policy" },
-  { label: "Terms & Conditions", href: "/terms-and-conditions" },
+  { labelKey: "linkPrivacyPolicy", href: "/privacy-policy" },
+  { labelKey: "linkTermsConditions", href: "/terms-and-conditions" },
 ];
 
 export default function Footer() {
@@ -67,8 +69,8 @@ export default function Footer() {
             <div>
               <img src={logo} alt="vebxrun" className="h-10 w-auto mb-4" />
               <p className="text-sm text-muted-foreground leading-relaxed mb-5">{t("footer.brandDesc")}</p>
-              <a href="mailto:support@vebx.run" className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors mb-3">
-                <Mail className="w-4 h-4" /> support@vebx.run
+              <a href="mailto:support@vebxrun.com" className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors mb-3">
+                <Mail className="w-4 h-4" /> support@vebxrun.com
               </a>
               <div className="flex items-start gap-2 text-sm text-muted-foreground mb-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
@@ -82,7 +84,7 @@ export default function Footer() {
 
             {/* Column 2: Quick Links */}
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">{t("footer.quickLinks")}</h4>
+              <h4 className="font-display text-sm font-semibold tracking-wider mb-4 text-foreground">{t("footer.quickLinks")}</h4>
               <ul className="space-y-2">
                 {quickLinks.map((link) => (
                   <li key={link.href}>
@@ -94,11 +96,13 @@ export default function Footer() {
 
             {/* Column 3: Services */}
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">{t("footer.services")}</h4>
+              <h4 className="font-display text-sm font-semibold tracking-wider mb-4 text-foreground">{t("footer.services")}</h4>
               <ul className="space-y-2">
                 {servicesData.map((service) => (
                   <li key={service.slug}>
-                    <Link to={`/services/${service.slug}`} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">{service.title}</Link>
+                    <Link to={`/services/${service.slug}`} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
+                      {getTranslatedService(t, service).title}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -106,8 +110,8 @@ export default function Footer() {
 
             {/* Column 4: Get In Touch */}
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 text-foreground">Get In Touch</h4>
-              <p className="text-sm text-muted-foreground mb-4">Have a project in mind? Reach out and let's create something extraordinary.</p>
+              <h4 className="font-display text-sm font-semibold tracking-wider mb-4 text-foreground">{t("footer.columnGetInTouchTitle")}</h4>
+              <p className="text-sm text-muted-foreground mb-4">{t("footer.columnGetInTouchDesc")}</p>
               <Link to="/contact#live-chat" className="inline-block px-6 py-3 rounded-lg gradient-red text-primary-foreground font-display text-sm uppercase tracking-wider glow-red hover:scale-105 transition-transform">{t("footer.getInTouch")}</Link>
             </div>
           </div>
@@ -117,7 +121,7 @@ export default function Footer() {
         <div className="border-t border-white/10">
           <div className="container px-4 lg:px-8 py-6">
             <div className="liquid-glass rounded-2xl border-glow p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-              <p className="text-sm font-display uppercase tracking-wider text-muted-foreground">Follow us for updates</p>
+              <p className="text-sm font-display tracking-wider text-muted-foreground">{t("footer.letsConnect")}</p>
               <div className="flex items-end gap-6">
                 {footerSocialLinks.map((item) => {
                   const Icon = item.icon;
@@ -135,7 +139,7 @@ export default function Footer() {
                   );
                 })}
               </div>
-              <p className="text-sm font-display uppercase tracking-wider text-muted-foreground">Let's connect</p>
+              <p className="text-sm font-display tracking-wider text-muted-foreground">{t("footer.followUsBar")}</p>
             </div>
           </div>
         </div>
@@ -149,7 +153,7 @@ export default function Footer() {
               <div className="flex items-center justify-center sm:justify-end gap-4 text-xs text-muted-foreground">
                 {legalLinks.map((link) => (
                   <Link key={link.href} to={link.href} className="hover:text-primary transition-colors duration-300">
-                    {link.label}
+                    {t(`footer.${link.labelKey}`)}
                   </Link>
                 ))}
               </div>

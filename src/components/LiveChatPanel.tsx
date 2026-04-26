@@ -461,8 +461,8 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
               ) : (
                 <p className="text-sm text-muted-foreground">
                   If this keeps happening, email{" "}
-                  <a href="mailto:support@vebx.run" className="text-primary underline-offset-2 hover:underline">
-                    support@vebx.run
+                  <a href="mailto:support@vebxrun.com" className="text-primary underline-offset-2 hover:underline">
+                    support@vebxrun.com
                   </a>
                   .
                 </p>
@@ -480,7 +480,7 @@ export default function LiveChatPanel({ active, embedded = false, className }: L
                 </Button>
                 {embedded ? (
                   <Button type="button" variant="outline" size="sm" className="flex-1 border-white/20" asChild>
-                    <a href="mailto:support@vebx.run">Email support</a>
+                    <a href="mailto:support@vebxrun.com">Email support</a>
                   </Button>
                 ) : (
                   <Button type="button" variant="outline" size="sm" className="flex-1 border-white/20" asChild>

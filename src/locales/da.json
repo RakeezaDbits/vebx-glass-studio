@@ -7,12 +7,12 @@
     "ourWork": "Portfolio",
     "expertise": "Ekspertise",
     "contactUs": "Kontakt",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Nye tjenester",
+    "newBadge": "Ny",
+    "customRequirement": "Få et tilbud",
+    "designAssistant": "VXR-agent",
+    "projects": "Projekter",
+    "privacy": "Privatliv"
   },
   "hero": {
     "tagline": "Forestil. Forny. Inspirer.",
@@ -159,10 +159,15 @@
       "title3": "Digital transformation",
       "excerpt3": "Vi hjælper virksomheder."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
+    "linkNewServices": "Nye tjenester",
+    "linkCustomRequirement": "Få et tilbud",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia",
+    "linkTermsConditions": "Vilkår og betingelser",
+    "columnGetInTouchTitle": "Tag kontakt",
+    "columnGetInTouchDesc": "Har du et projekt i tankerne? Ræk ud og lad os skabe noget ekstraordinært.",
+    "followUsBar": "Følg os for opdateringer",
+    "letsConnect": "Lad os forbinde"
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -185,7 +190,7 @@
     "chooseService": "Vælg tjeneste",
     "starter": "Starter",
     "starterDesc": "For begyndere",
-    "professional": "Professional",
+    "professional": "Professionel",
     "professionalDesc": "For vækst",
     "enterprise": "Enterprise",
     "enterpriseDesc": "Store projekter",
@@ -210,7 +215,8 @@
       "12monthsSupport": "12 måneders support",
       "cicd": "CI/CD & DevOps",
       "sla": "SLA-garanti"
-    }
+    },
+    "customPrice": "Skik"
   },
   "contact": {
     "tag": "Kontakt",
@@ -230,9 +236,9 @@
     "saturday": "Lørdag",
     "sunday": "Søndag",
     "closed": "Lukket",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Lad os tale - Live Chat",
+    "liveChatDesc": "Send os en besked live nedenfor - tekst, billeder, lyd eller video. Vi svarer her.",
+    "monToSun": "mandag – søndag"
   },
   "expertise": {
     "tag": "Ekspertise",
@@ -267,7 +273,7 @@
     "ctaBtn": "Kontakt os"
   },
   "ourWork": {
-    "tag": "Portfolio",
+    "tag": "Portefølje",
     "heading": "Vores",
     "headingHighlight": "arbejde",
     "desc": "Vores ekspertise.",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobil applikation",
+        "desc": "Islamisk app til Android og iOS med en grøn-brandet oplevelse, bedetider, Koranen og et analytics-dashboard til engagementsindsigt."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Webapplikation",
+        "desc": "Fuld porteføljewebsted for et digitalt bureau - mørkt tema, røde accenter, tjenester, projektgalleri, resultater, blog og kontakt. Bygget til at vise deres arbejde og ekspertise."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Sundhedspleje",
+        "desc": "Læge-patient portal for aftaler, recepter og journaler. HIPAA-tilpasset, brugt af klinikker til planlægning og opfølgning."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Teamopgavestyring med Kanban-tavler, deadlines og synkronisering i realtid. Udrullet til eksterne teams og agenturer."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Mobil applikation",
+        "desc": "Restaurantopdagelse, onlinebestilling og live leveringssporing. Partner-app til restauranter og chauffør-app til logistik."
       },
       "eventify": {
         "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "category": "Webapplikation",
+        "desc": "Begivenhedsbillet- og mødestedsbookingsplatform med betaling, deltagerstyring og QR-indtjekning. Anvendes til konferencer og workshops."
       },
       "docvault": {
         "title": "DocVault",
         "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "desc": "Sikker dokumentopbevaring med e-sign, versionshistorik og overholdelseskontroller. Bygget til juridiske og økonomiske teams."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobil applikation",
+        "desc": "Fitness- og sundhedssporingsapp med træningsplaner, fremskridtsdashboards og ernæringslogning. Cross-platform til Android og iOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Projektledelse og arbejdsgang SaaS-platform med samarbejde i realtid, opgavetavler og teamanalyse til eksterne teams."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "Neondrift",
+        "category": "Spiludvikling",
+        "desc": "Arcade-stil racerspil med neon-æstetik, glatte kontroller og ranglister. Bygget med Unity til flere platforme."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "E-handel",
+        "desc": "Moderne e-handelsplatform med produktkatalog, indkøbskurv, kasse og sælgers dashboard. Integrerede betalinger og inventar."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Betalings- og finansdashboard for virksomheder - transaktioner, afstemning og rapportering med sikkerhed i bankkvalitet."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Læringsstyringsplatform med kurser, fremskridtssporing, quizzer og certifikater til undervisere og elever."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Software og IoT",
+        "desc": "IoT-drevet operationsdashboard til overvågning af aktiver, advarsler og analyser. Bygget til smarte faciliteter og logistik."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Digital markedsføring",
+        "desc": "Sociale medier og kampagneanalyseplatform - engagementsmålinger, indholdsplanlægning og ROI-rapportering for brands."
       }
     },
     "ctaHeading": "Bliv vores næste",
@@ -403,10 +409,10 @@
     "section6": "Spørgsmål:",
     "email": "E-mail:",
     "address": "Adresse:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
+    "partnerDisclaimerP1": "Drevet af globalt anerkendte platforme og brancheførende teknologier, der understøtter og forbedrer vores tjenester.",
+    "partnerDisclaimerP2": "De betragtes som vores partnere i den forstand, at vi bruger deres værktøjer og tjenester uden at antyde noget formelt eller officielt partnerskab eller direkte tilknytning.",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia"
   },
   "notFound": {
     "title": "404",
@@ -432,720 +438,741 @@
     "metaverseDevelopmentShort": "Næste generation",
     "gameDevelopment": "Spiludvikling",
     "gameDevelopmentShort": "Spil til alle platforme",
-    "extendedReality": "Extended Reality",
+    "extendedReality": "Udvidet virkelighed",
     "extendedRealityShort": "AR/VR/MR",
     "socialMediaMarketing": "Social Media",
     "socialMediaMarketingShort": "Strategisk tilstedeværelse"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Ny",
+    "heading": "Ny",
+    "headingHighlight": "Tjenester",
+    "subtitle": "Friske digitale tilbud - AI, indhold og medieløsninger til at øge din rækkevidde.",
+    "getInTouch": "Lad os tale"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Dit krav",
+    "heading": "Skik",
+    "headingHighlight": "Krav",
+    "desc": "Fortæl os, hvad du har brug for. Vælg din service, dine præferencer og få et øjeblikkeligt prisoverslag.",
+    "yourName": "Dit navn",
+    "namePlaceholder": "Indtast dit navn",
+    "yourEmail": "Din e-mail",
+    "emailPlaceholder": "Indtast din e-mail",
+    "yourPhone": "Din telefon",
+    "phonePlaceholder": "Indtast dit telefonnummer",
+    "step1Title": "Kontakte",
+    "step2Title": "Krav",
+    "step3Title": "Teknologi & Plan",
+    "step4Title": "Reference og indsend",
+    "step5Title": "Tak",
+    "thankYouTitle": "Tak!",
+    "thankYouMessage": "Vi har modtaget dit krav. Vores team vender snart tilbage til dig.",
+    "backToHome": "Tilbage til Hjemmet",
+    "submitAnother": "Indsend en anden",
+    "nextStep": "Næste",
+    "prevStep": "Tilbage",
+    "stepOf": "Trin {{current}} af {{total}}",
+    "selectService": "Hvad har du brug for?",
+    "selectServicePlaceholder": "Vælg en tjeneste",
+    "selectSubType": "Projekttype / detaljer",
+    "selectSubTypePlaceholder": "Vælg mulighed",
+    "selectTech": "Teknologi/platform (vælg alle relevante)",
+    "selectTier": "Vælg plan",
+    "priceLabel": "Anslået pris",
+    "priceCustom": "Tilpasset tilbud",
+    "perProject": "pr projekt",
+    "referenceLink": "Referencelink (f.eks. websted eller app, du kan lide)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Referencebillede (valgfrit)",
+    "referenceImageHint": "Upload et skærmbillede eller designreference",
+    "developBtn": "Udvikle",
+    "talkToTeam": "Tal med Team",
+    "submitSuccess": "Anmodning indsendt. Vi vender snart tilbage til dig.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
+      "ecommerce": "E-handel",
+      "social": "Socialt/fællesskab",
+      "utility": "Nytte/produktivitet",
+      "enterprise": "Enterprise / intern",
+      "onDemand": "On-demand/levering",
+      "blog": "Blog / indholdsside",
+      "corporate": "Virksomhed/virksomhed",
+      "portfolio": "Portefølje / udstillingsvindue",
+      "landing": "Landing/marketing side",
+      "saas": "SaaS produkt",
+      "dashboard": "Dashboard/analyse",
       "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "seo": "SEO og indhold",
+      "ppc": "PPC & betalt social",
+      "fullCampaign": "Fuld kampagne",
+      "organic": "Økologisk indhold",
+      "paidSocial": "Betalt socialt",
+      "influencer": "Influencer partnerskab",
+      "other": "Andre"
     },
     "tech": {
-      "react": "React",
+      "react": "Reagere",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Kantet",
       "next": "Next.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / Forår",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
+      "headless": "Hovedløst CMS",
+      "flutter": "Fladder",
+      "reactNative": "Reager Native",
       "nativeIos": "Native iOS (Swift)",
       "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "unity": "Enhed",
+      "unreal": "Uvirkelig motor",
+      "other": "Andet / Ikke sikker"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR-agent",
+    "seoTitle": "VXR-agent",
+    "seoDescription": "Chat med vores AI-assistent: beskriv din idé i beskeder, generer designreferencebilleder til websteder og apps, og vedhæft dem til Få et tilbud – ingen login påkrævet.",
+    "heroDescription": "Skriv beskeder med din idé - vi genererer referencebilleder til web- og appdesign",
+    "widgetAriaLabel": "Åbn VXR Agent",
+    "widgetTooltip": "VXR Agent — åbn beskeder, beskriv dit design, og generer referencebilleder til dit projekt",
+    "drawerAriaLabel": "Designidé — AI-referencebillede",
+    "drawerSubtitle": "Samme som header — beskeder + billedidéer",
+    "creditsToday": "{{remaining}} / {{limit}} kreditter i dag",
+    "creditsLoading": "… kredit i dag",
+    "intro": "Brug boksen nedenfor som en chat: skriv hvad du har brug for i en eller flere beskeder. Vi genererer kun designreferencebilleder til websteder og apps. Vedhæft resultatet i Få et tilbud. Ingen konto eller login påkrævet.",
+    "promptPlaceholder": "f.eks. Agenturets hjemmeside med mørkt tema, røde accenter, moderne heltesektion",
+    "generate": "Generer billede",
+    "generating": "Genererer...",
+    "generatedReference": "Genereret reference",
+    "generatedImageAlt": "AI-genereret designreference",
+    "referenceOnly": "Kun reference — brug i Få et tilbud til at vedhæfte",
+    "useInQuote": "Brug i Få et tilbud",
+    "promptRequired": "Indtast venligst en designidé eller -prompt.",
+    "imageDataMissing": "Kunne ikke hente billeddata.",
+    "generationFailed": "Generation mislykkedes.",
+    "referenceAttached": "Reference vedhæftet. Åbningstilbudsformular.",
+    "attachFailed": "Kunne ikke vedhæfte."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projekter",
+    "seoDescription": "Projekter til køb og leje — kommer snart på vebxrun.com.",
+    "tag": "Markedsplads",
+    "heading": "Køb & leje",
+    "headingHighlight": "projekter",
+    "heroDesc": "En kureret destination for digitale projekter, du kan købe eller licensere. Vi forbereder oplevelsen - følg med.",
+    "comingSoon": "Projekter til køb og leje kommer snart",
+    "badge": "Kommer snart",
+    "cta": "Tag kontakt",
+    "ctaHint": "Har du spørgsmål? Vores team er her for at hjælpe."
   },
   "vebxAI": {
     "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
+    "seoDescription": "Chat eller snak live med VXR Tech Agent for at få teknologirelateret vejledning om software, apps, webudvikling, AI og digital produktudvikling.",
     "badge": "Realtime Tech Agent",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
+    "titleHighlight": "Teknisk agent",
+    "subtitle": "Få hjælp til software, apps, AI, API'er, cloud og digital produktudvikling via chat eller et liveopkald.",
     "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "chatTag": "Kun teknisk assistance",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Stil et teknisk spørgsmål, såsom API-design, React, AI eller cloud...",
+    "micStopTitle": "Stop optagelsen",
+    "micStartTitle": "Stemmeinput",
+    "emptyResponse": "Jeg kunne ikke generere et svar lige nu. Send venligst dit tekniske spørgsmål igen.",
+    "requestFailed": "AI-chatanmodning mislykkedes uventet",
+    "micDenied": "Mikrofonadgang nægtet",
+    "callEndedStatus": "Opkaldet afsluttet",
+    "callEndedMessage": "📞 Opkald afsluttet. Du kan sende dit næste tekniske spørgsmål i chatten.",
+    "connecting": "Opretter forbindelse til realtidsagent...",
+    "liveConnected": "Live realtime tech-opkald forbundet",
+    "callIntroMessage": "📞 Taleopkald tilsluttet. Du hører først en kort hilsen.",
+    "readyForCall": "Klar til et teknisk opkald i realtid",
+    "callFailedStatus": "Opkaldsforbindelse mislykkedes",
+    "callStartFailed": "Realtidsopkald kunne ikke startes",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Realtime taleopkald",
+    "tapEndCall": "Tryk for at afslutte opkaldet",
+    "startCall": "Start opkald i realtid",
+    "capabilitiesTitle": "Agent evner",
+    "cap1": "Web-, app-, backend- og AI-ingeniørvejledning",
+    "cap2": "Arkitektur, API'er, databaser og cloud-anbefalinger",
+    "cap3": "Debugging, ydeevne, skalerbarhed og sikkerhedsrådgivning",
+    "cap4": "Digital produkt-UX til tekniske arbejdsgange",
+    "cap5": "Stemmeinteraktion i realtid med intro ved opkaldsstart",
+    "quickPromptsTitle": "Hurtige opfordringer",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Bedste tech stack for en SaaS MVP?",
+      "Hvordan skal jeg designe en skalerbar REST API?",
+      "Hvordan kan jeg optimere en React-app til hastighed?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Hej! Jeg er **VXR Tech Agent**. Jeg hjælper kun med teknologirelaterede emner som webudvikling, apps, AI, API'er, cloud, UX til digitale produkter, fejlfinding og arkitektur. Stil dit tekniske spørgsmål for at komme i gang."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobil applikation",
+      "shortDesc": "Indbyggede apps og apps på tværs af platforme, der fængsler brugere",
+      "longDesc": "Vi bygger mobile applikationer, som brugerne elsker. Fra native iOS og Android til løsninger på tværs af platforme med React Native og Flutter leverer vi effektive, skalerbare apps, der stemmer overens med dine forretningsmål. Vores team håndterer alt fra UX-design til App Store-implementering.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
+        "iOS & Android native udvikling",
+        "Reager Native & Flutter",
         "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Implementering af App Store og Play Butik",
+        "Vedligeholdelse og opdateringer"
       ],
       "highlights": [
         {
           "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "desc": "Én kodebase til iOS og Android, når det giver mening."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Præstation",
+          "desc": "Optimeret til hastighed, batteri og offline-kapacitet."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Sikkerhed",
+          "desc": "Bedste praksis for data og overholdelse (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Web CMS udvikling",
+      "shortDesc": "Kraftige indholdsstyringsløsninger",
+      "longDesc": "Tilpassede webplatforme og indholdsstyringssystemer, der giver dig kontrol. Vi bygger med WordPress, hovedløst CMS og brugerdefinerede backends, så dit team kan udgive og administrere indhold uden at være afhængig af udviklere for hver opdatering.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress og hovedløst CMS",
+        "Brugerdefinerede admin paneler",
+        "API-første arkitektur",
+        "Multi-site & flersproget",
+        "SEO-venlig struktur"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Nem opdatering af indhold",
+          "desc": "Intuitive dashboards til ikke-tekniske teams."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Skalerbar",
+          "desc": "Konstrueret til at vokse med din trafik og dit indhold."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integrationer",
+          "desc": "Opret forbindelse til CRM, analyse- og marketingværktøjer."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Softwareudvikling",
+      "shortDesc": "Skræddersyet software skræddersyet til dine behov",
+      "longDesc": "Fra SaaS-produkter til virksomhedssystemer bygger vi skræddersyet software, der passer til dine arbejdsgange. Vi bruger moderne stakke og agil levering, så du får en løsning, der skalerer og udvikler sig med din virksomhed.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS og webapplikationer",
+        "Virksomhedssystemer",
+        "API'er og integrationer",
+        "Cloud-implementering (AWS, Azure, GCP)",
+        "Agile levering"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Specialbygget",
+          "desc": "Intet kompromis fra hylden – bygget til dine behov."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Moderne stak",
+          "desc": "React, Node, Python, .NET og gennemprøvede teknologier."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Løbende support",
+          "desc": "Vedligeholdelse, opdateringer og funktionsudvikling."
         }
       ]
     },
     "corporate-branding": {
       "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "shortDesc": "Fed mærkeidentitet, der skiller sig ud",
+      "longDesc": "Vi skaber brandidentiteter, der kommunikerer, hvem du er, og som giver genklang hos dit publikum. Fra logodesign og visuelle retningslinjer til fuld brandstrategi hjælper vi dig med at skille dig ud på dit marked.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo og visuel identitet",
+        "Brand retningslinjer",
+        "Brand strategi",
+        "Sikkerhedsdesign",
+        "Digitale aktivsæt"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Særskilt identitet",
+          "desc": "Mindeværdige logoer og konsekvent visuelt sprog."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Strategistyret",
+          "desc": "Brandvalg knyttet til din virksomhed og målgruppe."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Klar til brug",
+          "desc": "Aktiver og retningslinjer for alle kontaktpunkter."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Online digital markedsføring",
+      "shortDesc": "Datadrevne strategier for vækst",
+      "longDesc": "Øg din rækkevidde og dine konverteringer med SEO, PPC, content marketing og konverteringsoptimering. Vi fokuserer på målbare resultater og bæredygtig vækst, ikke forfængelighedsmålinger.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
+        "SEO og indholdsstrategi",
+        "PPC & betalt social",
+        "Konverteringsoptimering",
+        "Analyse og rapportering",
         "Marketing automation"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Datadrevet",
+          "desc": "Beslutninger baseret på analyser og test."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Fuld tragt",
+          "desc": "Bevidstheds-, overvejelses- og konverteringskampagner."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Gennemsigtig rapportering",
+          "desc": "Tydelige metrics og regelmæssige anmeldelser."
         }
       ]
     },
     "2d-3d-animation": {
       "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "shortDesc": "Fantastiske billeder, der fortæller din historie",
+      "longDesc": "Motion graphics, forklaringsvideoer og filmiske animationer, der engagerer og forklarer. Vi producerer 2D- og 3D-indhold til annoncer, produktdemoer og brandstorytelling på tværs af alle platforme.",
       "features": [
         "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Forklaringsvideoer",
+        "2D og 3D animation",
+        "Karakter animation",
+        "Socialt og annonceindhold"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Historien først",
+          "desc": "Hver frame understøtter dit budskab og dit brand."
         },
         {
           "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "desc": "Fra korte sociale klip til lange forklaringer."
         },
         {
           "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "desc": "Konsekvent stil med din visuelle identitet."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D-gengivelsestjenester",
+      "shortDesc": "Fotorealistiske 3D-visualiseringer",
+      "longDesc": "3D-gengivelser af høj kvalitet til arkitektur, produktvisualisering og markedsføring. Vi leverer fotorealistiske billeder og animationer, der viser dine produkter og rum, før de eksisterer i den virkelige verden.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Arkitektonisk visualisering",
+        "Produktgengivelse",
+        "CGI til markedsføring",
+        "Indvendig og udvendig",
+        "Animation og gennemgange"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealistisk",
+          "desc": "Belysning og materialer, der ser ægte ud."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Enhver branche",
+          "desc": "Fast ejendom, detailhandel, bilindustrien og meget mere."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Hurtige iterationer",
+          "desc": "Hurtige ændringer uden fysiske genoptagelser."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Metavers udvikling",
+      "shortDesc": "Næste generations fordybende digitale verdener",
+      "longDesc": "Vi designer og bygger metaverse oplevelser: virtuelle rum, digitale tvillinger og fordybende miljøer til begivenheder, detailhandel og samfund. Fra koncept til implementering på førende platforme.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
+        "Virtuelle rum og verdener",
+        "Digitale tvillinger",
         "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Flerbrugeroplevelser",
+        "Web3-klare oplevelser"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Fordybende",
+          "desc": "Rum, der føles ægte og engagerende."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Skalerbar",
+          "desc": "Arkitektur, der understøtter mange samtidige brugere."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Mærkeklar",
+          "desc": "Skræddersyede miljøer, der afspejler dit brand."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Spiludvikling",
+      "shortDesc": "Engagerende spil på tværs af alle platforme",
+      "longDesc": "Fra mobilspil til pc og konsol bygger vi spil, som spillere elsker. Vi bruger Unity og Unreal Engine til at skabe original IP, seriøse spil og brandede oplevelser med fokus på gameplay og polering.",
       "features": [
-        "Mobile, PC & console",
+        "Mobil, PC og konsol",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Spildesign og mekanik",
+        "Multiplayer og live ops",
+        "Portering og optimering"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Fuld produktion",
+          "desc": "Design, kunst, kode og lanceringssupport."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Gennemprøvede motorer",
+          "desc": "Unity and Unreal for kvalitet og ydeevne."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Efter lancering",
+          "desc": "Opdateringer, begivenheder og fællesskabsfunktioner."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Udvidet virkelighed",
+      "shortDesc": "AR/VR/MR-oplevelser, der transformerer",
+      "longDesc": "AR-, VR- og mixed reality-oplevelser til træning, marketing og produktvisualisering. Vi bygger apps, der kører på headset og mobile enheder for at uddanne medarbejdere, fremvise produkter eller skabe fordybende kampagner.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR-apps (mobil og briller)",
+        "VR træning og simuleringer",
+        "Blandede virkelighedsoplevelser",
+        "Virtuelle ture",
+        "Hardware-agnostisk design"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Praktiske brugssager",
+          "desc": "Uddannelse, salg og markedsføring, der driver ROI."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Multi-enhed",
+          "desc": "Fungerer på telefoner, tablets og XR-headset."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Brugertestet",
+          "desc": "Komfort og brugervenlighed i centrum."
         }
       ]
     },
     "social-media-marketing": {
       "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "shortDesc": "Strategisk social tilstedeværelse og engagement",
+      "longDesc": "Vi opbygger og styrer din sociale tilstedeværelse med strategi, indhold og community management. Fra organisk indhold til influencer-partnerskaber og betalte sociale medier hjælper vi dig med at komme i kontakt med den rigtige målgruppe.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Indholdsstrategi og skabelse",
+        "Fællesskabsledelse",
+        "Influencer-partnerskaber",
+        "Betalte sociale kampagner",
+        "Analyse og rapportering"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Brand stemme",
+          "desc": "Indhold, der lyder som dig og giver genklang."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Fællesskab",
+          "desc": "Engagement, der opbygger loyalitet og fortalervirksomhed."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Betalt + økologisk",
+          "desc": "Integreret tilgang for maksimal rækkevidde."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI-løsninger",
+      "shortDesc": "Chatbots, automatisering og intelligente arbejdsgange drevet af AI for at strømline driften og engagere brugerne.",
+      "longDesc": "Vi bygger AI-drevne løsninger, der transformerer, hvordan du arbejder og engagerer dig. Fra tilpassede chatbots og virtuelle assistenter til procesautomatisering og intelligente arbejdsgange hjælper vi dig med at udnytte AI til at spare tid, skalere support og levere bedre oplevelser. Vores løsninger integreres med dine eksisterende værktøjer og er designet til pålidelighed i den virkelige verden.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Brugerdefinerede chatbots og virtuelle assistenter",
+        "Procesautomatisering og arbejdsgange",
+        "LLM integration og finjustering",
+        "API integrationer",
+        "Analyse og optimering"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Skræddersyet til dig",
+          "desc": "AI bygget op omkring dine arbejdsgange og brandstemme."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Sikker og skalerbar",
+          "desc": "Virksomhedsklar med klar datahåndtering."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Løbende forbedring",
+          "desc": "Vi itererer baseret på brug og feedback."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "E-bog design og udgivelse",
+      "shortDesc": "Professionelt e-bogslayout, omslagsdesign og distribution til Kindle, Apple Books og andre platforme.",
+      "longDesc": "Fra manuskript til butiksfacade – vi håndterer e-bogsdesign, formatering og distribution, så din bog ser ud og sælger som en professionel. Vi skaber responsive layouts, iøjnefaldende covers og metadata, der rangerer. Uanset om du er forfatter eller udgiver, får vi din e-bog live på Kindle, Apple Books, Kobo og mere.",
       "features": [
-        "Interior layout & typography",
+        "Indvendig layout og typografi",
         "Cover design",
-        "EPUB & Kindle formatting",
+        "EPUB & Kindle formatering",
         "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Metadata & SEO til bøger"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Læser-først design",
+          "desc": "Layouts, der fungerer på alle enheder og skriftstørrelser."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Butiksklar",
+          "desc": "Kompatibel med Kindle, Apple og andre forhandlere."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Hurtig ekspedition",
+          "desc": "Tydelige tidslinjer fra udkast til udgivelse."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Digitalt Magasin",
+      "shortDesc": "Fantastisk digitalt magasindesign og interaktive layouts til brands og udgivere.",
+      "longDesc": "Vi designer og bygger digitale magasiner, som læserne elsker. Fra redaktionelle layouts og interaktive elementer til abonnement og læseoplevelser på web og app skaber vi publikationer, der skiller sig ud. Perfekt til brands, udgivere og alle, der gør indhold til et poleret digitalt produkt.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Redaktionelt layoutdesign",
+        "Interaktive elementer",
+        "Web- og app-udgivelse",
+        "Abonnementsstrømme",
+        "Analyse og engagement"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Redaktionel kvalitet",
+          "desc": "Layouts, der føles premium og nemme at læse."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Engagerende",
+          "desc": "Interaktivitet, der får læserne til at rulle."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Klar til indtægtsgenerering",
+          "desc": "Indbyggede betalingsmure og medlemskaber."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "E-avis",
+      "shortDesc": "Digital avis- og nyhedsportaldesign med responsive layouts og nemme indholdsopdateringer.",
+      "longDesc": "Vi bygger digitale aviser og nyhedsportaler, der sætter dine historier i centrum. Responsive layouts, hurtig indlæsning og enkel CMS-integration betyder, at dit team kan udgive og opdatere uden teknisk besvær. Vi fokuserer på læsbarhed, tilgængelighed og en oplevelse, der fungerer på alle enheder.",
       "features": [
-        "Responsive news layout",
+        "Responsivt nyhedslayout",
         "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Hurtig indlæsning og SEO",
+        "Breaking news & sektioner",
+        "Annoncer og sponsorater"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Læservenlig",
+          "desc": "Tydeligt hierarki og typografi til lang læsning."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Nem at opdatere",
+          "desc": "Ikke-udviklere kan udgive og administrere indhold."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Indtægtsklar",
+          "desc": "Annonceenheder og abonnementsmuligheder inkluderet."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Podcast produktion",
+      "shortDesc": "Optagelse, redigering, vis noter og distribution til podcasts, der lyder professionelt.",
+      "longDesc": "Vi tager din podcast fra idé til øre. Vores team håndterer optagelsesopsætning, redigering, mix, vis noter og distribution, så du kan fokusere på samtalen. Vi leverer lyd i udsendelseskvalitet og ensartet branding, så dit show lyder lige så godt, som det lyder i dit hoved.",
       "features": [
-        "Recording & editing",
+        "Optagelse og redigering",
         "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
+        "Vis noter og udskrifter",
+        "Kunst og branding",
         "Distribution & RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Udsendelseskvalitet",
+          "desc": "Ren lyd, der lyder professionel."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Nøglefærdige",
+          "desc": "Vi håndterer hele pipelinen, så du ikke behøver det."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Konsekvent mærke",
+          "desc": "Kunstværker og noter, der matcher dit show."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografik og data, dvs",
+      "shortDesc": "Tydelig, engagerende infografik og datavisualiseringer, der gør komplekse oplysninger nemme at dele.",
+      "longDesc": "Vi omdanner data og ideer til visuals, der bliver delt. Fra statisk infografik til interaktive dashboards og rapporter gør vi kompleks information klar og engagerende. Ideel til rapporter, præsentationer, socialt indhold og intern kommunikation, der skal holde fast.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Statisk infografik",
+        "Interaktive data, dvs",
+        "Rapporter og præsentationer",
+        "Socialt parate formater",
+        "Brandtilpasset design"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Klarhed først",
+          "desc": "Design, der gør budskabet tydeligt."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Kan deles",
+          "desc": "Formater, der fungerer på sociale og i dæk."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Nøjagtig",
+          "desc": "Data nemlig, der respekterer tallene."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Chatbot udvikling",
+      "shortDesc": "Tilpassede chatbots til support, salg og engagement – ​​integreret med dine eksisterende værktøjer.",
+      "longDesc": "Vi bygger chatbots, der rent faktisk hjælper. Uanset om det er til kundesupport, leadkvalificering eller interne arbejdsgange, er vores bots designet omkring dine processer og integreret med din CRM, helpdesk og apps. Vi bruger gennemprøvet AI og samtaledesign, så brugerne får svar hurtigt, og dit team får lettelse.",
       "features": [
-        "Conversation design",
+        "Samtale design",
         "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Multikanal (web, WhatsApp osv.)",
+        "Analyse og træning",
+        "Overdragelse til mennesker"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Passer til din stak",
+          "desc": "Fungerer med de værktøjer, du allerede bruger."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Menneskelig aflevering",
+          "desc": "Jævn eskalering, når botten ikke kan hjælpe."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Forbedres over tid",
+          "desc": "Vi tuner baseret på rigtige samtaler."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Tekstforfatning og indhold",
+      "shortDesc": "SEO-venlig kopi, blogindlæg og marketingindhold, der konverterer og rangerer.",
+      "longDesc": "Vi skriver kopi, der konverterer og indhold, der rangerer. Fra landingssider og produktkopi til blogserier og SEO-indhold matcher vi din stemme og dine mål. Hver brik er bygget til klarhed, overtalelse og søgning - så du får både trafik og konverteringer.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Landingssider og produktkopi",
+        "Blog & SEO indhold",
+        "E-mail-sekvenser",
+        "Annoncetekst og social",
+        "Indholdsstrategi"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "On-brand stemme",
+          "desc": "Kopi, der lyder som dig og dit publikum."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO indbygget",
+          "desc": "Indhold struktureret til søgning og deling."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Konverteringsfokuseret",
+          "desc": "Hvert ord valgt til at flytte nålen."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Socialt og YouTube-indhold",
+      "shortDesc": "Hjul, historier, karruseller, YouTube-videoer og kampagner til Facebook, Instagram, TikTok og YouTube.",
+      "longDesc": "Vi skaber indhold, der bliver set og delt på tværs af Facebook, Instagram, TikTok og YouTube. Fra ruller og historier til karruseller, YouTube-scripts, thumbnails og videoredigering – vi producerer on-brand-indhold til alle større platforme. Vi kombinerer kreativ retning med bedste praksis på platforme, så dit feed og din kanal ser professionelt ud, og dine metrics bevæger sig.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Hjul, historier og kort form (IG, TikTok, FB)",
+        "YouTube-scripts, thumbnails og redigering",
+        "Karruseller og statiske indlæg",
+        "Kampagnekoncepter og indholdskalendere",
+        "Kopi, hashtags & SEO til sociale medier"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Alle platforme",
+          "desc": "Facebook, Instagram, TikTok og YouTube på ét sted."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Konsekvent udseende",
+          "desc": "Skabeloner og stilguider til dit brand."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Klar til at poste",
+          "desc": "Endelige aktiver og billedtekster leveret til tiden."
         }
       ]
     }
   },
   "serviceDetail": {
     "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "offerBefore": "Hvad vi",
+    "offerHighlight": "tilbud",
+    "whyBefore": "Hvorfor arbejde med",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Klar til",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Lad os diskutere dit projekt og bygge noget fantastisk sammen.",
+    "ctaButton": "Lad os tale",
+    "backAllServices": "← Alle tjenester"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Hjem",
+    "homeDescription": "vebxrun — Mobile apps, webudvikling, spiludvikling, metaverse, AI-løsninger og digital markedsføring. Forestille sig. Forny. Inspirere.",
+    "servicesTitle": "Tjenester",
+    "servicesDescription": "Mobilapps, web- og CMS-udvikling, softwareudvikling, corporate branding, digital marketing, 2D/3D-animation, metaverse, spiludvikling og mere. Udforsk vebxrun-tjenester.",
+    "pricingTitle": "Prissætning",
+    "pricingDescription": "Gennemsigtige priser for mobilapps, webudvikling og digitale løsninger. Starter, Professional & Enterprise planer. Få et tilbud fra vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "Online",
+    "closeChat": "Luk chat",
+    "openChat": "Chat med os",
+    "skipToLiveChat": "Gå til Live Chat →",
+    "nameLabel": "Navn",
+    "emailLabel": "E-mail",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Service",
+    "sending": "Sender...",
+    "orLiveChat": "eller start en live chat i stedet for",
+    "toastNameEmailRequired": "Navn og e-mail er påkrævet",
+    "toastRequestSent": "Forespørgsel sendt!",
+    "toastSubmitFailed": "Kunne ikke indsende. Prøv igen.",
+    "submittedTitle": "Forespørgsel sendt!",
+    "submittedDesc": "Vi vender snart tilbage til dig.",
+    "startLiveChat": "Start Live Chat",
+    "secondsShort": "{{count}}s"
   }
 }

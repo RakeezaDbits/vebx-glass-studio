@@ -178,7 +178,7 @@ router.post("/:token/messages", (req, res, next) => {
         visitorName: fullSession?.visitor_name,
         visitorEmail: fullSession?.visitor_email,
         preview: bodyText || (file ? `[${msgType}]` : ""),
-        adminUrl: `${process.env.LIVE_CHAT_ADMIN_URL || "https://vebx.run/admin/live-chat"}?session=${session.id}`,
+        adminUrl: `${process.env.LIVE_CHAT_ADMIN_URL || "https://vebxrun.com/admin/live-chat"}?session=${session.id}`,
       }).catch((e) => console.error("live chat email failed", e));
     }
 

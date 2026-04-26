@@ -7,12 +7,12 @@
     "ourWork": "Έργα",
     "expertise": "Εξειδίκευση",
     "contactUs": "Επικοινωνία",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
+    "newServices": "Νέες Υπηρεσίες",
+    "newBadge": "Νέος",
+    "customRequirement": "Λάβετε μια προσφορά",
     "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "projects": "Έργα",
+    "privacy": "Μυστικότητα"
   },
   "hero": {
     "tagline": "Φαντάσου. Καινοτόμησε. Εμπνευσε.",
@@ -159,10 +159,15 @@
       "title3": "Ψηφιακός μετασχηματισμός",
       "excerpt3": "Βοηθάμε επιχειρήσεις."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "Νέες Υπηρεσίες",
+    "linkCustomRequirement": "Λάβετε μια προσφορά",
+    "addressLine1": "Καράτσι, Πακιστάν",
+    "addressLine2": "Cyber ​​Jaya, Μαλαισία",
+    "linkTermsConditions": "Όροι & Προϋποθέσεις",
+    "columnGetInTouchTitle": "Επικοινωνήστε",
+    "columnGetInTouchDesc": "Έχετε κάποιο έργο στο μυαλό σας; Απλώστε το χέρι και ας δημιουργήσουμε κάτι εξαιρετικό.",
+    "followUsBar": "Ακολουθήστε μας για ενημερώσεις",
+    "letsConnect": "Ας συνδεθούμε"
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -183,24 +188,24 @@
     "headingHighlight": "τιμές",
     "desc": "Επιλέξτε υπηρεσία και πλάνο.",
     "chooseService": "Επιλέξτε υπηρεσία",
-    "starter": "Starter",
+    "starter": "Μίζα",
     "starterDesc": "Για αρχή",
-    "professional": "Professional",
+    "professional": "Επαγγελματίας",
     "professionalDesc": "Για ανάπτυξη",
-    "enterprise": "Enterprise",
+    "enterprise": "Επιχείρηση",
     "enterpriseDesc": "Μεγάλα έργα",
     "mostPopular": "Δημοφιλέστερο",
     "perProject": "/έργο",
     "getStarted": "Ξεκινήστε",
     "features": {
       "coreScope": "Βασικό πεδίο",
-      "responsive": "Responsive design",
+      "responsive": "Σχεδιασμός με απόκριση",
       "basicSupport": "Βασική υποστήριξη",
       "2revisions": "2 γύροι αναθεωρήσεων",
       "1monthSupport": "1 μήνας υποστήριξη",
       "fullScope": "Πλήρες πεδίο + UI/UX",
       "advancedFeatures": "Προηγμένα χαρακτηριστικά",
-      "apiIntegrations": "API integrations",
+      "apiIntegrations": "Ενσωματώσεις API",
       "5revisions": "5 γύροι αναθεωρήσεων",
       "3monthsSupport": "3 μήνες υποστήριξη",
       "perfOptimization": "Βελτιστοποίηση απόδοσης",
@@ -210,7 +215,8 @@
       "12monthsSupport": "12 μήνες υποστήριξη",
       "cicd": "CI/CD & DevOps",
       "sla": "Εγγύηση SLA"
-    }
+    },
+    "customPrice": "Εθιμο"
   },
   "contact": {
     "tag": "Επικοινωνία",
@@ -230,15 +236,15 @@
     "saturday": "Σάββατο",
     "sunday": "Κυριακή",
     "closed": "Κλειστά",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Let's Talk - Ζωντανή συνομιλία",
+    "liveChatDesc": "Στείλτε μας ζωντανό μήνυμα παρακάτω — κείμενο, εικόνες, ήχος ή βίντεο. Απαντάμε εδώ.",
+    "monToSun": "Δευτέρα – Κυριακή"
   },
   "expertise": {
     "tag": "Εξειδίκευση",
     "heading": "Η τεχνολογία",
     "headingHighlight": "μας",
-    "headingSuffix": "Stack",
+    "headingSuffix": "Σωρός",
     "desc": "Κατέχουμε σημαντικά εργαλεία.",
     "categories": {
       "frontend": "Frontend",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Εφαρμογή για κινητά",
+        "desc": "Ισλαμική εφαρμογή για Android και iOS με εμπειρία πράσινης επωνυμίας, ώρες προσευχής, Κοράνι και πίνακα ελέγχου αναλυτικών στοιχείων για πληροφορίες αφοσίωσης."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Εφαρμογή Ιστού",
+        "desc": "Ιστότοπος πλήρους χαρτοφυλακίου για μια ψηφιακή εταιρεία — σκούρο θέμα, κόκκινες πινελιές, υπηρεσίες, συλλογή έργων, επιτεύγματα, ιστολόγιο και επαφή. Κατασκευάστηκε για να επιδείξει τη δουλειά και την τεχνογνωσία τους."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Υγειονομική περίθαλψη",
+        "desc": "Πύλη γιατρού-ασθενούς για ραντεβού, συνταγές και ιατρικά αρχεία. Ευθυγραμμισμένο με HIPAA, που χρησιμοποιείται από κλινικές για προγραμματισμό και παρακολούθηση."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Διαχείριση εργασιών ομάδας με πίνακες Kanban, προθεσμίες και συγχρονισμό σε πραγματικό χρόνο. Αναπτύχθηκε για απομακρυσμένες ομάδες και πρακτορεία."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Εφαρμογή για κινητά",
+        "desc": "Ανακάλυψη εστιατορίου, online παραγγελίες και παρακολούθηση ζωντανής παράδοσης. Εφαρμογή συνεργάτη για εστιατόρια και εφαρμογή προγράμματος οδήγησης για logistics."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Εκδήλωση",
+        "category": "Εφαρμογή Ιστού",
+        "desc": "Πλατφόρμα έκδοσης εισιτηρίων εκδηλώσεων και κρατήσεων χώρου με πληρωμή, διαχείριση παρευρισκομένων και check-in QR. Χρησιμοποιείται για συνέδρια και εργαστήρια."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Λογισμικό",
+        "desc": "Ασφαλής αποθήκευση εγγράφων με στοιχεία ελέγχου ηλεκτρονικής υπογραφής, ιστορικού εκδόσεων και συμμόρφωσης. Σχεδιασμένο για νομικές και οικονομικές ομάδες."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Εφαρμογή για κινητά",
+        "desc": "Εφαρμογή παρακολούθησης φυσικής κατάστασης και υγείας με σχέδια προπόνησης, πίνακες ελέγχου προόδου και καταγραφή διατροφής. Cross-platform για Android και iOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Διαχείριση έργου και ροή εργασίας πλατφόρμα SaaS με συνεργασία σε πραγματικό χρόνο, πίνακες εργασιών και ανάλυση ομάδων για απομακρυσμένες ομάδες."
       },
       "neondrift": {
         "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "category": "Ανάπτυξη παιχνιδιών",
+        "desc": "Παιχνίδι αγώνων τύπου Arcade με αισθητική νέον, ομαλά χειριστήρια και βαθμολογικούς πίνακες. Κατασκευασμένο με Unity για πολλαπλές πλατφόρμες."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "Ηλεκτρονικό Εμπόριο",
+        "desc": "Σύγχρονη πλατφόρμα ηλεκτρονικού εμπορίου με κατάλογο προϊόντων, καλάθι, ταμείο και πίνακα ελέγχου πωλητών. Ολοκληρωμένες πληρωμές και απόθεμα."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Πίνακας ελέγχου πληρωμών και οικονομικών για επιχειρήσεις — συναλλαγές, συμβιβασμός και υποβολή αναφορών με ασφάλεια τραπεζικού επιπέδου."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Πλατφόρμα διαχείρισης μάθησης με μαθήματα, παρακολούθηση προόδου, κουίζ και πιστοποιητικά για εκπαιδευτικούς και μαθητές."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Λογισμικό & IoT",
+        "desc": "Πίνακας εργαλείων λειτουργιών IoT για παρακολούθηση περιουσιακών στοιχείων, ειδοποιήσεων και αναλυτικών στοιχείων. Κατασκευασμένο για έξυπνες εγκαταστάσεις και logistics."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Ψηφιακό Μάρκετινγκ",
+        "desc": "Πλατφόρμα ανάλυσης μέσων κοινωνικής δικτύωσης και καμπάνιας — μετρήσεις αφοσίωσης, προγραμματισμός περιεχομένου και αναφορά απόδοσης επένδυσης για επωνυμίες."
       }
     },
     "ctaHeading": "Γίνετε η επόμενη",
@@ -401,12 +407,12 @@
     "section5": "Πρόσβαση, διόρθωση ή διαγραφή.",
     "section6Title": "6. Επικοινωνία",
     "section6": "Ερωτήσεις:",
-    "email": "Email:",
+    "email": "E-mail:",
     "address": "Διεύθυνση:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "Υποστηρίζεται από παγκοσμίως αναγνωρισμένες πλατφόρμες και κορυφαίες στον κλάδο τεχνολογίες που υποστηρίζουν και βελτιώνουν τις υπηρεσίες μας.",
+    "partnerDisclaimerP2": "Θεωρούνται συνεργάτες μας με την έννοια ότι χρησιμοποιούμε τα εργαλεία και τις υπηρεσίες τους, χωρίς να συνεπάγεται οποιαδήποτε επίσημη ή επίσημη συνεργασία ή άμεση σχέση.",
+    "addressLine1": "Καράτσι, Πακιστάν",
+    "addressLine2": "Cyber ​​Jaya, Μαλαισία"
   },
   "notFound": {
     "title": "404",
@@ -432,720 +438,741 @@
     "metaverseDevelopmentShort": "Νέα γενιά ψηφιακών κόσμων",
     "gameDevelopment": "Ανάπτυξη παιχνιδιών",
     "gameDevelopmentShort": "Παιχνίδια για κάθε πλατφόρμα",
-    "extendedReality": "Extended Reality",
+    "extendedReality": "Εκτεταμένη Πραγματικότητα",
     "extendedRealityShort": "AR/VR/MR",
     "socialMediaMarketing": "Social Media",
     "socialMediaMarketingShort": "Στρατηγική παρουσία"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Νέος",
+    "heading": "Νέος",
+    "headingHighlight": "Υπηρεσίες",
+    "subtitle": "Νέες ψηφιακές προσφορές — λύσεις τεχνητής νοημοσύνης, περιεχομένου και πολυμέσων για να αυξήσετε την απήχησή σας.",
+    "getInTouch": "Ας Μιλήσουμε"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Η απαίτησή σας",
+    "heading": "Εθιμο",
+    "headingHighlight": "Απαίτηση",
+    "desc": "Πες μας τι χρειάζεσαι. Επιλέξτε την υπηρεσία, τις προτιμήσεις σας και λάβετε μια άμεση εκτίμηση τιμής.",
+    "yourName": "Το όνομά σας",
+    "namePlaceholder": "Εισαγάγετε το όνομά σας",
+    "yourEmail": "Το email σας",
+    "emailPlaceholder": "Εισαγάγετε το email σας",
+    "yourPhone": "Το τηλέφωνό σας",
+    "phonePlaceholder": "Εισαγάγετε τον αριθμό τηλεφώνου σας",
+    "step1Title": "Επαφή",
+    "step2Title": "Απαίτηση",
+    "step3Title": "Τεχνολογία & Σχέδιο",
+    "step4Title": "Αναφορά & Υποβολή",
+    "step5Title": "Σας ευχαριστώ",
+    "thankYouTitle": "Σας ευχαριστώ!",
+    "thankYouMessage": "Λάβαμε την απαίτησή σας. Η ομάδα μας θα επικοινωνήσει μαζί σας σύντομα.",
+    "backToHome": "Επιστροφή στο σπίτι",
+    "submitAnother": "Υποβολή άλλου",
+    "nextStep": "Επόμενος",
+    "prevStep": "Πίσω",
+    "stepOf": "Βήμα {{current}} από {{total}}",
+    "selectService": "Τι χρειάζεσαι;",
+    "selectServicePlaceholder": "Επιλέξτε μια υπηρεσία",
+    "selectSubType": "Τύπος έργου / λεπτομέρειες",
+    "selectSubTypePlaceholder": "Επιλέξτε επιλογή",
+    "selectTech": "Τεχνολογία / πλατφόρμα (επιλέξτε όλα όσα ισχύουν)",
+    "selectTier": "Επιλέξτε σχέδιο",
+    "priceLabel": "Εκτιμώμενη τιμή",
+    "priceCustom": "Προσαρμοσμένη προσφορά",
+    "perProject": "ανά έργο",
+    "referenceLink": "Σύνδεσμος αναφοράς (π.χ. ιστότοπος ή εφαρμογή που σας αρέσει)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Εικόνα αναφοράς (προαιρετικό)",
+    "referenceImageHint": "Ανεβάστε ένα στιγμιότυπο οθόνης ή μια αναφορά σχεδίασης",
+    "developBtn": "Αναπτύσσω",
+    "talkToTeam": "Μιλήστε με την ομάδα",
+    "submitSuccess": "Το αίτημα υποβλήθηκε. Θα επικοινωνήσουμε μαζί σας σύντομα.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
+      "ecommerce": "Ηλεκτρονικό εμπόριο",
+      "social": "Κοινωνική / κοινότητα",
+      "utility": "Χρησιμότητα / παραγωγικότητα",
+      "enterprise": "Επιχείρηση / εσωτερική",
+      "onDemand": "Κατ' απαίτηση / παράδοση",
+      "blog": "Ιστότοπος ιστολογίου / περιεχομένου",
+      "corporate": "Εταιρική / επιχείρηση",
+      "portfolio": "Χαρτοφυλάκιο / βιτρίνα",
+      "landing": "Σελίδα προορισμού / μάρκετινγκ",
+      "saas": "προϊόν SaaS",
+      "dashboard": "Ταμπλό / αναλυτικά στοιχεία",
       "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "seo": "SEO & περιεχόμενο",
+      "ppc": "ΔΕΗ & επί πληρωμή social",
+      "fullCampaign": "Πλήρης καμπάνια",
+      "organic": "Βιολογικό περιεχόμενο",
+      "paidSocial": "Πληρωμένα κοινωνικά",
+      "influencer": "Συνεργασία Influencer",
+      "other": "Αλλος"
     },
     "tech": {
-      "react": "React",
+      "react": "Αντιδρώ",
       "vue": "Vue.js",
-      "angular": "Angular",
-      "next": "Next.js",
+      "angular": "Γωνιώδης",
+      "next": "Επόμενο.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / Άνοιξη",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
+      "headless": "Ακέφαλο CMS",
+      "flutter": "Ταραχή",
       "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
+      "nativeIos": "Εγγενές iOS (Swift)",
+      "nativeAndroid": "Εγγενές Android (Kotlin)",
+      "unity": "Ενότητα",
       "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "other": "Άλλο / Δεν είμαι σίγουρος"
     }
   },
   "designAssistant": {
     "title": "VXR Agent",
     "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "seoDescription": "Συνομιλήστε με τον βοηθό μας AI: περιγράψτε την ιδέα σας σε μηνύματα, δημιουργήστε εικόνες αναφοράς σχεδιασμού για ιστότοπους και εφαρμογές και επισυνάψτε τις στο Λήψη προσφοράς — δεν απαιτείται σύνδεση.",
+    "heroDescription": "Πληκτρολογήστε μηνύματα με την ιδέα σας — δημιουργούμε εικόνες αναφοράς για σχέδια ιστού και εφαρμογών",
+    "widgetAriaLabel": "Ανοίξτε το VXR Agent",
+    "widgetTooltip": "VXR Agent — ανοίξτε μηνύματα, περιγράψτε το σχέδιό σας και δημιουργήστε εικόνες αναφοράς για το έργο σας",
+    "drawerAriaLabel": "Σχεδιαστική ιδέα — Εικόνα αναφοράς AI",
+    "drawerSubtitle": "Ίδιο με την κεφαλίδα — μηνύματα + ιδέες για εικόνες",
+    "creditsToday": "{{remaining}} / {{limit}} πιστώσεις σήμερα",
+    "creditsLoading": "… πιστώσεις σήμερα",
+    "intro": "Χρησιμοποιήστε το παρακάτω πλαίσιο σαν συνομιλία: γράψτε ό,τι χρειάζεστε σε ένα ή περισσότερα μηνύματα. Δημιουργούμε εικόνες αναφοράς σχεδιασμού μόνο για ιστότοπους και εφαρμογές. Επισυνάψτε το αποτέλεσμα στο Λήψη προσφοράς. Δεν απαιτείται λογαριασμός ή σύνδεση.",
+    "promptPlaceholder": "π.χ. Ιστοσελίδα πρακτορείου με σκούρο θέμα, κόκκινες πινελιές, ενότητα σύγχρονου ήρωα",
+    "generate": "Δημιουργία εικόνας",
+    "generating": "Δημιουργία…",
+    "generatedReference": "Δημιουργήθηκε αναφορά",
+    "generatedImageAlt": "Αναφορά σχεδίασης που δημιουργείται από AI",
+    "referenceOnly": "Μόνο αναφορά — χρησιμοποιήστε το στο Λήψη προσφοράς για επισύναψη",
+    "useInQuote": "Χρήση στο Λήψη προσφοράς",
+    "promptRequired": "Εισαγάγετε μια ιδέα σχεδίασης ή μια προτροπή.",
+    "imageDataMissing": "Δεν ήταν δυνατή η λήψη δεδομένων εικόνας.",
+    "generationFailed": "Η γενιά απέτυχε.",
+    "referenceAttached": "Παραπομπή επισυνάπτεται. Άνοιγμα φόρμας προσφοράς.",
+    "attachFailed": "Αποτυχία επισύναψης."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Έργα",
+    "seoDescription": "Έργα για αγορά και ενοικίαση — σύντομα στο vebxrun.com.",
+    "tag": "Αγορά",
+    "heading": "Αγορά & ενοικίαση",
+    "headingHighlight": "έργα",
+    "heroDesc": "Ένας επιμελημένος προορισμός για ψηφιακά έργα που μπορείτε να αγοράσετε ή να αδειοδοτήσετε. Ετοιμάζουμε την εμπειρία — μείνετε συντονισμένοι.",
+    "comingSoon": "Έργα για αγορά και ενοικίαση σύντομα",
+    "badge": "Προσεχώς",
+    "cta": "Ελάτε σε επαφή",
+    "ctaHint": "Έχετε ερωτήσεις; Η ομάδα μας είναι εδώ για να βοηθήσει."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
+    "seoTitle": "VXR Tech Agent — Συνομιλία AI & Κλήση σε πραγματικό χρόνο",
+    "seoDescription": "Συνομιλήστε ή μιλήστε ζωντανά με τον VXR Tech Agent για καθοδήγηση σχετικά με την τεχνολογία σε λογισμικό, εφαρμογές, ανάπτυξη ιστού, τεχνητή νοημοσύνη και μηχανική ψηφιακών προϊόντων.",
     "badge": "Realtime Tech Agent",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
+    "titleHighlight": "Τεχνικός Πράκτορας",
+    "subtitle": "Λάβετε βοήθεια με λογισμικό, εφαρμογές, AI, API, cloud και ψηφιακή μηχανική προϊόντων μέσω συνομιλίας ή ζωντανής κλήσης.",
     "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "chatTag": "Βοήθεια μόνο για τεχνολογία",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Κάντε μια ερώτηση τεχνολογίας, όπως σχεδιασμός API, React, AI ή cloud…",
+    "micStopTitle": "Διακοπή εγγραφής",
+    "micStartTitle": "Φωνητική είσοδος",
+    "emptyResponse": "Δεν μπορούσα να δημιουργήσω απάντηση αυτή τη στιγμή. Στείλτε ξανά την τεχνολογική σας ερώτηση.",
+    "requestFailed": "Το αίτημα συνομιλίας AI απέτυχε απροσδόκητα",
+    "micDenied": "Δεν επιτρέπεται η πρόσβαση στο μικρόφωνο",
+    "callEndedStatus": "Η κλήση έληξε",
+    "callEndedMessage": "📞 Η κλήση έληξε. Μπορείτε να στείλετε την επόμενη τεχνολογική σας ερώτηση στο chat.",
+    "connecting": "Σύνδεση με πράκτορα σε πραγματικό χρόνο…",
+    "liveConnected": "Συνδέθηκε ζωντανή κλήση τεχνολογίας σε πραγματικό χρόνο",
+    "callIntroMessage": "📞 Συνδέθηκε η φωνητική κλήση. Θα ακούσετε πρώτα έναν σύντομο χαιρετισμό.",
+    "readyForCall": "Έτοιμοι για μια κλήση τεχνολογίας σε πραγματικό χρόνο",
+    "callFailedStatus": "Η σύνδεση κλήσης απέτυχε",
+    "callStartFailed": "Δεν ήταν δυνατή η έναρξη της κλήσης σε πραγματικό χρόνο",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Φωνητική κλήση σε πραγματικό χρόνο",
+    "tapEndCall": "Πατήστε για να τερματίσετε την κλήση",
+    "startCall": "Έναρξη κλήσης σε πραγματικό χρόνο",
+    "capabilitiesTitle": "Δυνατότητες πράκτορα",
+    "cap1": "Οδηγίες μηχανικής ιστού, εφαρμογών, υποστήριξης και τεχνητής νοημοσύνης",
+    "cap2": "Αρχιτεκτονική, API, βάσεις δεδομένων και προτάσεις cloud",
+    "cap3": "Συμβουλές εντοπισμού σφαλμάτων, απόδοσης, επεκτασιμότητας και ασφάλειας",
+    "cap4": "Ψηφιακό προϊόν UX για τεχνικές ροές εργασιών",
+    "cap5": "Φωνητική αλληλεπίδραση σε πραγματικό χρόνο με έναρξη κατά την κλήση",
+    "quickPromptsTitle": "Γρήγορες προτροπές",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Καλύτερη στοίβα τεχνολογίας για SaaS MVP;",
+      "Πώς πρέπει να σχεδιάσω ένα επεκτάσιμο REST API;",
+      "Πώς μπορώ να βελτιστοποιήσω μια εφαρμογή React για ταχύτητα;"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Γειά σου! Είμαι **VXR Tech Agent**. Βοηθάω μόνο με θέματα που σχετίζονται με την τεχνολογία, όπως ανάπτυξη ιστού, εφαρμογές, AI, API, cloud, UX για ψηφιακά προϊόντα, εντοπισμός σφαλμάτων και αρχιτεκτονική. Κάντε την τεχνολογική σας ερώτηση για να ξεκινήσετε."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Εφαρμογή για κινητά",
+      "shortDesc": "Εγγενείς εφαρμογές και εφαρμογές πολλαπλών πλατφορμών που γοητεύουν τους χρήστες",
+      "longDesc": "Κατασκευάζουμε εφαρμογές για κινητά που αγαπούν οι χρήστες. Από εγγενείς iOS και Android έως λύσεις πολλαπλών πλατφορμών με το React Native και το Flutter, παρέχουμε αποδοτικές, επεκτάσιμες εφαρμογές που ευθυγραμμίζονται με τους επιχειρηματικούς σας στόχους. Η ομάδα μας χειρίζεται τα πάντα, από το σχεδιασμό UX έως την ανάπτυξη του App Store.",
       "features": [
-        "iOS & Android native development",
+        "Εγγενής ανάπτυξη iOS & Android",
         "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Σχεδίαση UI/UX",
+        "Ανάπτυξη App Store & Play Store",
+        "Συντήρηση & ενημερώσεις"
       ],
       "highlights": [
         {
           "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "desc": "Μία βάση κώδικα για iOS και Android όταν είναι λογικό."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Εκτέλεση",
+          "desc": "Βελτιστοποιημένο για ταχύτητα, μπαταρία και δυνατότητα εκτός σύνδεσης."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Ασφάλεια",
+          "desc": "Βέλτιστες πρακτικές για δεδομένα και συμμόρφωση (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Ανάπτυξη Web CMS",
+      "shortDesc": "Ισχυρές λύσεις διαχείρισης περιεχομένου",
+      "longDesc": "Προσαρμοσμένες πλατφόρμες ιστού και συστήματα διαχείρισης περιεχομένου που σας δίνουν τον έλεγχο. Δημιουργούμε με WordPress, χωρίς κεφάλι CMS και προσαρμοσμένα backend, ώστε η ομάδα σας να μπορεί να δημοσιεύει και να διαχειρίζεται περιεχόμενο χωρίς να εξαρτάται από τους προγραμματιστές για κάθε ενημέρωση.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress & χωρίς κεφάλι CMS",
+        "Προσαρμοσμένοι πίνακες διαχείρισης",
+        "Αρχιτεκτονική API-first",
+        "Πολλαπλοί ιστότοποι & πολύγλωσσοι",
+        "SEO φιλική δομή"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Εύκολες ενημερώσεις περιεχομένου",
+          "desc": "Διαισθητικοί πίνακες εργαλείων για μη τεχνικές ομάδες."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Ανάβατος",
+          "desc": "Σχεδιασμένο για ανάπτυξη με την επισκεψιμότητα και το περιεχόμενό σας."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Ενσωματώσεις",
+          "desc": "Συνδεθείτε με εργαλεία CRM, αναλυτικά στοιχεία και μάρκετινγκ."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Ανάπτυξη Λογισμικού",
+      "shortDesc": "Προσαρμοσμένο λογισμικό προσαρμοσμένο στις ανάγκες σας",
+      "longDesc": "Από τα προϊόντα SaaS έως τα εταιρικά συστήματα, κατασκευάζουμε προσαρμοσμένο λογισμικό που ταιριάζει στις ροές εργασίας σας. Χρησιμοποιούμε σύγχρονες στοίβες και ευέλικτη παράδοση, ώστε να έχετε μια λύση που κλιμακώνεται και εξελίσσεται με την επιχείρησή σας.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS & διαδικτυακές εφαρμογές",
+        "Επιχειρηματικά συστήματα",
+        "API και ενσωματώσεις",
+        "Ανάπτυξη cloud (AWS, Azure, GCP)",
+        "Ευέλικτη παράδοση"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Κατασκευασμένο κατά παραγγελία",
+          "desc": "Κανένας συμβιβασμός εκτός ραφιού — κατασκευασμένος για τις ανάγκες σας."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Σύγχρονη στοίβα",
+          "desc": "React, Node, Python, .NET και δοκιμασμένες τεχνολογίες."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Συνεχής υποστήριξη",
+          "desc": "Συντήρηση, ενημερώσεις και εξέλιξη χαρακτηριστικών."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Εταιρική επωνυμία",
+      "shortDesc": "Τολμηρές επωνυμίες που ξεχωρίζουν",
+      "longDesc": "Δημιουργούμε ταυτότητες επωνυμίας που επικοινωνούν ποιοι είστε και έχουν απήχηση στο κοινό σας. Από τη σχεδίαση λογότυπων και τις οπτικές οδηγίες μέχρι την πλήρη στρατηγική επωνυμίας, σας βοηθάμε να ξεχωρίζετε στην αγορά σας.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Λογότυπο και οπτική ταυτότητα",
+        "Οδηγίες επωνυμίας",
+        "Στρατηγική επωνυμίας",
+        "Σχεδιασμός παράπλευρων",
+        "Κιτ ψηφιακών στοιχείων"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Διακεκριμένη ταυτότητα",
+          "desc": "Αξιομνημόνευτα λογότυπα και σταθερή οπτική γλώσσα."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Με γνώμονα τη στρατηγική",
+          "desc": "Οι επιλογές επωνυμίας συνδέονται με την επιχείρηση και το κοινό σας."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Έτοιμο για χρήση",
+          "desc": "Στοιχεία και οδηγίες για όλα τα σημεία επαφής."
         }
       ]
     },
     "online-digital-marketing": {
       "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "shortDesc": "Στρατηγικές ανάπτυξης που βασίζονται σε δεδομένα",
+      "longDesc": "Αυξήστε την προσέγγιση χρηστών και τις μετατροπές σας με SEO, PPC, μάρκετινγκ περιεχομένου και βελτιστοποίηση μετατροπών. Εστιάζουμε σε μετρήσιμα αποτελέσματα και βιώσιμη ανάπτυξη, όχι σε μετρήσεις ματαιοδοξίας.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "Στρατηγική SEO και περιεχομένου",
+        "ΔΕΗ & επί πληρωμή social",
+        "Βελτιστοποίηση μετατροπής",
+        "Αναλύσεις και αναφορές",
+        "Αυτοματοποίηση μάρκετινγκ"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Με γνώμονα τα δεδομένα",
+          "desc": "Αποφάσεις βασισμένες σε αναλύσεις και δοκιμές."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Πλήρης χοάνη",
+          "desc": "Εκστρατείες ευαισθητοποίησης, εξέτασης και μετατροπής."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Διαφανής αναφορά",
+          "desc": "Σαφείς μετρήσεις και τακτικές αναθεωρήσεις."
         }
       ]
     },
     "2d-3d-animation": {
       "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "shortDesc": "Εκπληκτικά γραφικά που λένε την ιστορία σας",
+      "longDesc": "Κινηματογραφικά γραφικά, επεξηγηματικά βίντεο και κινηματογραφικά κινούμενα σχέδια που εμπλέκονται και εξηγούν. Παράγουμε περιεχόμενο 2D και 3D για διαφημίσεις, επιδείξεις προϊόντων και αφήγηση επωνυμίας σε όλες τις πλατφόρμες.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
+        "Γραφικά κίνησης",
+        "Επεξηγηματικά βίντεο",
         "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Κινούμενα σχέδια χαρακτήρων",
+        "Κοινωνικό και διαφημιστικό περιεχόμενο"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Πρώτα ιστορία",
+          "desc": "Κάθε πλαίσιο υποστηρίζει το μήνυμα και την επωνυμία σας."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "πολλαπλών μορφών",
+          "desc": "Από σύντομα κοινωνικά κλιπ έως επεξηγήσεις μεγάλης μορφής."
         },
         {
           "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "desc": "Συνεπές στυλ με την οπτική σας ταυτότητα."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "Υπηρεσίες 3D Rendering",
+      "shortDesc": "Φωτορεαλιστικές τρισδιάστατες απεικονίσεις",
+      "longDesc": "Υψηλής ποιότητας 3D renders για αρχιτεκτονική, οπτικοποίηση προϊόντων και μάρκετινγκ. Παρέχουμε φωτορεαλιστικές εικόνες και κινούμενα σχέδια που προβάλλουν τα προϊόντα και τους χώρους σας πριν αυτά υπάρξουν στον πραγματικό κόσμο.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Αρχιτεκτονική οπτικοποίηση",
+        "Απόδοση προϊόντος",
+        "CGI για μάρκετινγκ",
+        "Εσωτερικό & εξωτερικό",
+        "Κινούμενα σχέδια και περιηγήσεις"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Φωτορεαλιστικό",
+          "desc": "Φωτισμός και υλικά που φαίνονται αληθινά."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Οποιαδήποτε βιομηχανία",
+          "desc": "Ακίνητα, λιανικά, αυτοκίνητα και πολλά άλλα."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Γρήγορες επαναλήψεις",
+          "desc": "Γρήγορες αλλαγές χωρίς φυσικές επαναλήψεις."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Ανάπτυξη Metaverse",
+      "shortDesc": "Καθηλωτικοί ψηφιακοί κόσμοι επόμενης γενιάς",
+      "longDesc": "Σχεδιάζουμε και δημιουργούμε εμπειρίες μετασύνδεσης: εικονικούς χώρους, ψηφιακά δίδυμα και καθηλωτικά περιβάλλοντα για εκδηλώσεις, λιανική και κοινότητα. Από την ιδέα στην ανάπτυξη σε κορυφαίες πλατφόρμες.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Εικονικοί χώροι και κόσμοι",
+        "Ψηφιακά δίδυμα",
+        "Ενσωμάτωση VR/AR",
+        "Εμπειρίες πολλών χρηστών",
+        "Web3-ready εμπειρίες"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Βυθιστικές",
+          "desc": "Χώροι που αισθάνονται αληθινοί και συναρπαστικοί."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Ανάβατος",
+          "desc": "Αρχιτεκτονική που υποστηρίζει πολλούς ταυτόχρονους χρήστες."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Έτοιμη για μάρκα",
+          "desc": "Προσαρμοσμένα περιβάλλοντα που αντικατοπτρίζουν την επωνυμία σας."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Ανάπτυξη παιχνιδιών",
+      "shortDesc": "Συναρπαστικά παιχνίδια σε όλες τις πλατφόρμες",
+      "longDesc": "Από παιχνίδια για κινητά μέχρι υπολογιστή και κονσόλα, δημιουργούμε παιχνίδια που αγαπούν οι παίκτες. Χρησιμοποιούμε το Unity και το Unreal Engine για να δημιουργήσουμε αυθεντική IP, σοβαρά παιχνίδια και επώνυμες εμπειρίες με έμφαση στο παιχνίδι και το γυάλισμα.",
       "features": [
-        "Mobile, PC & console",
+        "Κινητό, υπολογιστής & κονσόλα",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Σχεδιασμός και μηχανική παιχνιδιών",
+        "Λειτουργίες για πολλούς παίκτες και ζωντανά",
+        "Μεταφορά & βελτιστοποίηση"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Πλήρης παραγωγή",
+          "desc": "Υποστήριξη σχεδίασης, τέχνης, κώδικα και εκκίνησης."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Δοκιμασμένοι κινητήρες",
+          "desc": "Unity και Unreal για ποιότητα και απόδοση."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Μετά την κυκλοφορία",
+          "desc": "Ενημερώσεις, εκδηλώσεις και λειτουργίες κοινότητας."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Εκτεταμένη Πραγματικότητα",
+      "shortDesc": "Εμπειρίες AR/VR/MR που μεταμορφώνονται",
+      "longDesc": "Εμπειρίες AR, VR και μικτής πραγματικότητας για εκπαίδευση, μάρκετινγκ και οπτικοποίηση προϊόντων. Κατασκευάζουμε εφαρμογές που τρέχουν σε ακουστικά και κινητές συσκευές για να εκπαιδεύσουμε υπαλλήλους, να παρουσιάσουμε προϊόντα ή να δημιουργήσουμε καθηλωτικές καμπάνιες.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
+        "Εφαρμογές AR (κινητά και γυαλιά)",
+        "Εκπαίδευση και προσομοιώσεις VR",
+        "Εμπειρίες μικτής πραγματικότητας",
+        "Εικονικές περιηγήσεις",
         "Hardware-agnostic design"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Πρακτικές περιπτώσεις χρήσης",
+          "desc": "Εκπαίδευση, πωλήσεις και μάρκετινγκ που οδηγούν στην απόδοση επένδυσης (ROI)."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Πολυσυσκευή",
+          "desc": "Λειτουργεί σε τηλέφωνα, tablet και ακουστικά XR."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Δοκιμασμένο από τον χρήστη",
+          "desc": "Άνεση και χρηστικότητα στον πυρήνα."
         }
       ]
     },
     "social-media-marketing": {
       "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "shortDesc": "Στρατηγική κοινωνική παρουσία και δέσμευση",
+      "longDesc": "Χτίζουμε και διαχειριζόμαστε την κοινωνική σας παρουσία με στρατηγική, περιεχόμενο και διαχείριση κοινότητας. Από οργανικό περιεχόμενο έως συνεργασίες με επηρεαστές και κοινωνικά επί πληρωμή, σας βοηθάμε να συνδεθείτε με το κατάλληλο κοινό.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Στρατηγική & δημιουργία περιεχομένου",
+        "κοινοτική διαχείριση",
+        "Συνεργασίες Influencer",
+        "Επί πληρωμή καμπάνιες κοινωνικής δικτύωσης",
+        "Αναλύσεις και αναφορές"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Φωνή μάρκας",
+          "desc": "Περιεχόμενο που μοιάζει με εσάς και έχει απήχηση."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Κοινότητα",
+          "desc": "Δέσμευση που χτίζει πίστη και υπεράσπιση."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Επί πληρωμή + βιολογικό",
+          "desc": "Ολοκληρωμένη προσέγγιση για μέγιστη προσέγγιση."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "Λύσεις AI",
+      "shortDesc": "Chatbots, αυτοματισμός και έξυπνες ροές εργασίας που υποστηρίζονται από AI για τον εξορθολογισμό των λειτουργιών και την προσέλκυση χρηστών.",
+      "longDesc": "Κατασκευάζουμε λύσεις με τεχνητή νοημοσύνη που μεταμορφώνουν τον τρόπο με τον οποίο εργάζεστε και αλληλεπιδράτε. Από προσαρμοσμένα chatbot και εικονικούς βοηθούς έως αυτοματισμούς επεξεργασίας και έξυπνες ροές εργασίας, σας βοηθάμε να αξιοποιήσετε την τεχνητή νοημοσύνη για να εξοικονομήσετε χρόνο, να κλιμακώσετε την υποστήριξη και να προσφέρετε καλύτερες εμπειρίες. Οι λύσεις μας ενσωματώνονται με τα υπάρχοντα εργαλεία σας και έχουν σχεδιαστεί για αξιοπιστία στον πραγματικό κόσμο.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Προσαρμοσμένα chatbot και εικονικοί βοηθοί",
+        "Αυτοματοποίηση διαδικασιών και ροές εργασίας",
+        "Ενσωμάτωση και τελειοποίηση LLM",
+        "Ενσωματώσεις API",
+        "Αναλύσεις και βελτιστοποίηση"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Προσαρμοσμένο σε εσάς",
+          "desc": "Η τεχνητή νοημοσύνη βασίζεται στις ροές εργασίας και τη φωνή της επωνυμίας σας."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Ασφαλές και επεκτάσιμο",
+          "desc": "Έτοιμο για επιχειρήσεις με καθαρό χειρισμό δεδομένων."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Συνεχής βελτίωση",
+          "desc": "Επαναλαμβάνουμε με βάση τη χρήση και τα σχόλια."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "Σχεδιασμός & Εκδόσεις Ebook",
+      "shortDesc": "Επαγγελματική διάταξη ebook, σχεδιασμός εξωφύλλου και διανομή για Kindle, Apple Books και άλλες πλατφόρμες.",
+      "longDesc": "Από χειρόγραφο έως βιτρίνα — αναλαμβάνουμε τη σχεδίαση, τη μορφοποίηση και τη διανομή ηλεκτρονικών βιβλίων, ώστε το βιβλίο σας να φαίνεται και να πωλείται σαν επαγγελματίας. Δημιουργούμε διατάξεις με απόκριση, εντυπωσιακά εξώφυλλα και μεταδεδομένα που κατατάσσονται. Είτε είστε συγγραφέας είτε εκδότης, λαμβάνουμε το ebook σας ζωντανά στα Kindle, Apple Books, Kobo και άλλα.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Εσωτερική διαρρύθμιση & τυπογραφία",
+        "Σχέδιο εξωφύλλου",
+        "Μορφοποίηση EPUB & Kindle",
+        "Διανομή πολλαπλών πλατφορμών",
+        "Μεταδεδομένα & SEO για βιβλία"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Σχεδίαση πρώτου αναγνώστη",
+          "desc": "Διατάξεις που λειτουργούν σε κάθε συσκευή και μέγεθος γραμματοσειράς."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Έτοιμο για κατάστημα",
+          "desc": "Συμβατό με Kindle, Apple και άλλους λιανοπωλητές."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Γρήγορη ανατροπή",
+          "desc": "Ξεκαθαρίστε τα χρονοδιαγράμματα από το προσχέδιο έως τη δημοσίευση."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Ψηφιακό Περιοδικό",
+      "shortDesc": "Εκπληκτική σχεδίαση ψηφιακών περιοδικών και διαδραστικές διατάξεις για επωνυμίες και εκδότες.",
+      "longDesc": "Σχεδιάζουμε και κατασκευάζουμε ψηφιακά περιοδικά που αγαπούν οι αναγνώστες. Από τις εκδοτικές διατάξεις και τα διαδραστικά στοιχεία έως τις εμπειρίες συνδρομής και ανάγνωσης στον ιστό και την εφαρμογή, δημιουργούμε εκδόσεις που ξεχωρίζουν. Ιδανικό για επωνυμίες, εκδότες και οποιονδήποτε μετατρέπει το περιεχόμενο σε ένα κομψό ψηφιακό προϊόν.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Σχεδιασμός εκδοτικής διάταξης",
+        "Διαδραστικά στοιχεία",
+        "Δημοσίευση ιστού και εφαρμογών",
+        "Ροές συνδρομής",
+        "Analytics και αφοσίωση"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Ποιότητα έκδοσης",
+          "desc": "Διατάξεις που είναι κορυφαίες και ευανάγνωστες."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Ελκυστικός",
+          "desc": "Διαδραστικότητα που κρατά τους αναγνώστες σε κύλιση."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Έτοιμο για δημιουργία εσόδων",
+          "desc": "Ενσωματωμένα τοιχώματα πληρωμής και συνδρομές."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "Ηλεκτρονική Εφημερίδα",
+      "shortDesc": "Σχεδιασμός ψηφιακής πύλης εφημερίδων και ειδήσεων με ανταποκρινόμενες διατάξεις και εύκολες ενημερώσεις περιεχομένου.",
+      "longDesc": "Κατασκευάζουμε ψηφιακές εφημερίδες και πύλες ειδήσεων που βάζουν τις ιστορίες σας μπροστά και στο επίκεντρο. Οι αποκριτικές διατάξεις, η γρήγορη φόρτωση και η απλή ενσωμάτωση CMS σημαίνουν ότι η ομάδα σας μπορεί να δημοσιεύει και να ενημερώνει χωρίς τεχνική ταλαιπωρία. Εστιάζουμε στην αναγνωσιμότητα, την προσβασιμότητα και την εμπειρία που λειτουργεί σε κάθε συσκευή.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Αποκριτική διάταξη ειδήσεων",
+        "Ενσωμάτωση CMS",
+        "Γρήγορη φόρτωση & SEO",
+        "Έκτακτες ειδήσεις και ενότητες",
+        "Διαφημίσεις και κουλοχέρηδες χορηγιών"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Φιλικό προς τον αναγνώστη",
+          "desc": "Σαφής ιεραρχία και τυπογραφία για μακρά ανάγνωση."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Εύκολη ενημέρωση",
+          "desc": "Οι μη προγραμματιστές μπορούν να δημοσιεύουν και να διαχειρίζονται περιεχόμενο."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Έτοιμο για έσοδα",
+          "desc": "Περιλαμβάνονται ενότητες διαφημίσεων και επιλογές συνδρομής."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Παραγωγή Podcast",
+      "shortDesc": "Ηχογράφηση, επεξεργασία, εμφάνιση σημειώσεων και διανομή για podcast που ακούγονται επαγγελματικά.",
+      "longDesc": "Παίρνουμε το podcast σας από την ιδέα στο αυτί. Η ομάδα μας χειρίζεται τη ρύθμιση ηχογράφησης, την επεξεργασία, τη μίξη, την εμφάνιση σημειώσεων και τη διανομή, ώστε να μπορείτε να εστιάσετε στη συνομιλία. Παρέχουμε ήχο ποιότητας εκπομπής και σταθερή επωνυμία, ώστε η εκπομπή σας να ακούγεται τόσο καλή όσο ακούγεται στο μυαλό σας.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Ηχογράφηση & μοντάζ",
+        "Μίξη & mastering",
+        "Εμφάνιση σημειώσεων και μεταγραφών",
+        "Έργα τέχνης & branding",
+        "Διανομή & RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Ποιότητα εκπομπής",
+          "desc": "Καθαρός ήχος που ακούγεται επαγγελματικός."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Δεσμοφύλακας",
+          "desc": "Αναλαμβάνουμε τον πλήρη αγωγό, ώστε να μην χρειάζεται να το κάνετε."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Συνεπής μάρκα",
+          "desc": "Έργα τέχνης και σημειώσεις που ταιριάζουν με την εκπομπή σας."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infographics & Data Πχ",
+      "shortDesc": "Ξεκάθαρα, ελκυστικά infographics και απεικονίσεις δεδομένων που κάνουν εύκολη την κοινή χρήση σύνθετων πληροφοριών.",
+      "longDesc": "Μετατρέπουμε δεδομένα και ιδέες σε γραφικά που μοιράζονται. Από στατικά infographics έως διαδραστικούς πίνακες εργαλείων και αναφορές, κάνουμε τις σύνθετες πληροφορίες σαφείς και ελκυστικές. Ιδανικό για αναφορές, παρουσιάσεις, κοινωνικό περιεχόμενο και εσωτερικές επικοινωνίες που πρέπει να παραμείνουν.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Στατικά infographics",
+        "Διαδραστικά δεδομένα π.χ",
+        "Αναφορές & παρουσιάσεις",
+        "Μορφές έτοιμες για κοινωνική",
+        "Σχεδιασμός ευθυγραμμισμένος με την επωνυμία"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Σαφήνεια πρώτα",
+          "desc": "Σχέδιο που κάνει το μήνυμα προφανές."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Με δυνατότητα κοινής χρήσης",
+          "desc": "Μορφές που λειτουργούν σε social και σε decks."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Ακριβής",
+          "desc": "Δεδομένα δηλαδή που σέβονται τους αριθμούς."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Ανάπτυξη Chatbot",
+      "shortDesc": "Προσαρμοσμένα chatbots για υποστήριξη, πωλήσεις και αφοσίωση — ενσωματωμένα με τα υπάρχοντα εργαλεία σας.",
+      "longDesc": "Κατασκευάζουμε chatbot που πραγματικά βοηθούν. Είτε για υποστήριξη πελατών, πιστοποίηση δυνητικού πελάτη ή εσωτερικές ροές εργασίας, τα bot μας έχουν σχεδιαστεί γύρω από τις διαδικασίες σας και ενσωματώνονται με το CRM, το γραφείο υποστήριξης και τις εφαρμογές σας. Χρησιμοποιούμε αποδεδειγμένη τεχνητή νοημοσύνη και σχεδιασμό συνομιλιών, ώστε οι χρήστες να λαμβάνουν γρήγορα απαντήσεις και η ομάδα σας να ανακουφίζεται.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Σχεδιασμός συνομιλίας",
+        "CRM και ενσωμάτωση γραφείου υποστήριξης",
+        "Πολυκαναλικό (ιστός, WhatsApp κ.λπ.)",
+        "Αναλύσεις & εκπαίδευση",
+        "Χέρια στους ανθρώπους"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Ταιριάζει στη στοίβα σας",
+          "desc": "Λειτουργεί με τα εργαλεία που ήδη χρησιμοποιείτε."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Ανθρώπινη μεταβίβαση",
+          "desc": "Ομαλή κλιμάκωση όταν το bot δεν μπορεί να βοηθήσει."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Βελτιώνεται με την πάροδο του χρόνου",
+          "desc": "Συντονιζόμαστε βασισμένοι σε πραγματικές συνομιλίες."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Copywriting & Περιεχόμενο",
+      "shortDesc": "Αντιγραφή φιλικό προς το SEO, αναρτήσεις ιστολογίου και περιεχόμενο μάρκετινγκ που μετατρέπει και κατατάσσει.",
+      "longDesc": "Γράφουμε αντίγραφο που μετατρέπει και περιεχόμενο που κατατάσσεται. Από σελίδες προορισμού και αντιγραφή προϊόντων έως σειρές ιστολογίου και περιεχόμενο SEO, ταιριάζουμε με τη φωνή και τους στόχους σας. Κάθε κομμάτι είναι φτιαγμένο για σαφήνεια, πειθώ και αναζήτηση — ώστε να λαμβάνετε τόσο επισκεψιμότητα όσο και μετατροπές.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Σελίδες προορισμού & αντίγραφο προϊόντος",
+        "Περιεχόμενο ιστολογίου και SEO",
+        "Ακολουθίες email",
+        "Αντιγραφή διαφήμισης και κοινωνικά",
+        "Στρατηγική περιεχομένου"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Φωνή επί της επωνυμίας",
+          "desc": "Αντιγραφή που ακούγεται σαν εσάς και το κοινό σας."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "Ενσωματωμένο SEO",
+          "desc": "Περιεχόμενο δομημένο για αναζήτηση και κοινή χρήση."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Επικεντρώνεται στη μετατροπή",
+          "desc": "Κάθε λέξη που επιλέγεται για να κινήσει τη βελόνα."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Κοινωνικό περιεχόμενο και περιεχόμενο YouTube",
+      "shortDesc": "Καρούλια, ιστορίες, καρουζέλ, βίντεο YouTube και καμπάνιες για Facebook, Instagram, TikTok και YouTube.",
+      "longDesc": "Δημιουργούμε περιεχόμενο που εμφανίζεται και κοινοποιείται στο Facebook, το Instagram, το TikTok και το YouTube. Από Καρούλια και Ιστορίες έως καρουζέλ, σενάρια YouTube, μικρογραφίες και επεξεργασία βίντεο — παράγουμε περιεχόμενο επί επωνυμίας για όλες τις μεγάλες πλατφόρμες. Συνδυάζουμε δημιουργική κατεύθυνση με βέλτιστες πρακτικές πλατφόρμας, ώστε η ροή και το κανάλι σας να φαίνονται επαγγελματικά και οι μετρήσεις σας να κινούνται.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Καρούλια, Ιστορίες και σύντομες φόρμες (IG, TikTok, FB)",
+        "Σενάρια YouTube, μικρογραφίες και επεξεργασία",
+        "Καρουζέλ & στατικές αναρτήσεις",
+        "Έννοιες καμπάνιας και ημερολόγια περιεχομένου",
+        "Αντιγραφή, hashtags & SEO για κοινωνικά"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Όλες οι πλατφόρμες",
+          "desc": "Facebook, Instagram, TikTok και YouTube σε ένα μέρος."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Συνεπής εμφάνιση",
+          "desc": "Πρότυπα και οδηγοί στυλ για την επωνυμία σας."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Έτοιμη για ανάρτηση",
+          "desc": "Τα τελικά στοιχεία και οι υπότιτλοι παραδόθηκαν σύμφωνα με το χρονοδιάγραμμα."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Υπηρεσία",
+    "offerBefore": "Αυτό που εμείς",
+    "offerHighlight": "προσφορά",
+    "whyBefore": "Γιατί να εργαστείτε με",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Έτοιμοι για",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Ας συζητήσουμε το έργο σας και ας φτιάξουμε κάτι υπέροχο μαζί.",
+    "ctaButton": "Ας Μιλήσουμε",
+    "backAllServices": "← Όλες οι υπηρεσίες"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Σπίτι",
+    "homeDescription": "vebxrun — Εφαρμογές για κινητά, ανάπτυξη ιστού, ανάπτυξη παιχνιδιών, metaverse, λύσεις τεχνητής νοημοσύνης και ψηφιακό μάρκετινγκ. Φαντάζομαι. Καινοτομώ. Εμπνέω.",
+    "servicesTitle": "Υπηρεσίες",
+    "servicesDescription": "Εφαρμογές για κινητά, ανάπτυξη ιστού και CMS, ανάπτυξη λογισμικού, εταιρική επωνυμία, ψηφιακό μάρκετινγκ, 2D/3D κινούμενα σχέδια, metaverse, ανάπτυξη παιχνιδιών και άλλα. Εξερευνήστε τις υπηρεσίες vebxrun.",
+    "pricingTitle": "Τιμολόγηση",
+    "pricingDescription": "Διαφανής τιμολόγηση για εφαρμογές για κινητά, ανάπτυξη ιστού και ψηφιακές λύσεις. Starter, Professional & Enterprise σχέδια. Λάβετε μια προσφορά από το vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "Διαδικτυακά",
+    "closeChat": "Κλείσιμο συνομιλίας",
+    "openChat": "Συνομιλήστε μαζί μας",
+    "skipToLiveChat": "Μετάβαση στη Ζωντανή συνομιλία →",
+    "nameLabel": "Ονομα",
+    "emailLabel": "E-mail",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Υπηρεσία",
+    "sending": "Αποστολή…",
+    "orLiveChat": "ή ξεκινήστε μια ζωντανή συνομιλία",
+    "toastNameEmailRequired": "Το όνομα και το email είναι υποχρεωτικά",
+    "toastRequestSent": "Το αίτημα στάλθηκε!",
+    "toastSubmitFailed": "Αποτυχία υποβολής. Προσπαθήστε ξανά.",
+    "submittedTitle": "Το αίτημα εστάλη!",
+    "submittedDesc": "Θα επικοινωνήσουμε μαζί σας σύντομα.",
+    "startLiveChat": "Ξεκινήστε τη Ζωντανή Συνομιλία",
+    "secondsShort": "{{count}}s"
   }
 }

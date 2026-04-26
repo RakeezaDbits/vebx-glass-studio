@@ -7,12 +7,12 @@
     "ourWork": "実績",
     "expertise": "専門技術",
     "contactUs": "お問い合わせ",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "新しいサービス",
+    "newBadge": "新しい",
+    "customRequirement": "見積もりを取得する",
+    "designAssistant": "VXR エージェント",
+    "projects": "プロジェクト",
+    "privacy": "プライバシー"
   },
   "hero": {
     "tagline": "想像する。革新する。感動させる。",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "お気軽にご連絡ください。",
     "getInTouch": "お問い合わせ",
     "copyright": "著作権 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "ベベックス・ラン",
     "stayInLoop": "最新情報",
     "stayInLoopDesc": "デジタル革新の情報をお届け。",
     "subscribe": "登録",
@@ -159,13 +159,18 @@
       "title3": "成長を促すデジタル変革",
       "excerpt3": "技術で革新を支援。"
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "新しいサービス",
+    "linkCustomRequirement": "見積もりを取得する",
+    "addressLine1": "カラチ、パキスタン",
+    "addressLine2": "サイバージャヤ、マレーシア",
+    "linkTermsConditions": "利用規約",
+    "columnGetInTouchTitle": "連絡する",
+    "columnGetInTouchDesc": "何かプロジェクトを考えていますか?手を伸ばして、何か特別なものを作りましょう。",
+    "followUsBar": "最新情報を入手するにはフォローしてください",
+    "letsConnect": "つながりましょう"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "ベベックス・ラン",
     "explore": "探索"
   },
   "servicesPage": {
@@ -210,7 +215,8 @@
       "12monthsSupport": "12ヶ月サポート",
       "cicd": "CI/CD＆DevOps",
       "sla": "SLA保証"
-    }
+    },
+    "customPrice": "カスタム"
   },
   "contact": {
     "tag": "お問い合わせ",
@@ -230,9 +236,9 @@
     "saturday": "土曜",
     "sunday": "日曜",
     "closed": "休業",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "話しましょう - ライブチャット",
+    "liveChatDesc": "テキスト、画像、音声、またはビデオで、以下のライブメッセージをお送りください。こちらで返信させていただきます。",
+    "monToSun": "月曜日～日曜日"
   },
   "expertise": {
     "tag": "専門技術",
@@ -303,79 +309,79 @@
         "desc": "大手企業ブランド刷新。"
       },
       "emaanai": {
-        "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "title": "エマーン・アイ",
+        "category": "モバイルアプリケーション",
+        "desc": "グリーン ブランドのエクスペリエンス、礼拝時間、コーラン、エンゲージメントに関する洞察のための分析ダッシュボードを備えた Android および iOS 用イスラム アプリ。"
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "ウェブアプリケーション",
+        "desc": "デジタルエージェンシーの完全なポートフォリオ Web サイト — ダークテーマ、赤のアクセント、サービス、プロジェクト ギャラリー、実績、ブログ、連絡先。彼らの仕事と専門知識を紹介するために構築されました。"
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "ヘルスシンク",
+        "category": "健康管理",
+        "desc": "予約、処方箋、医療記録のための医師と患者のポータル。 HIPAA に準拠しており、クリニックでスケジュール設定やフォローアップに使用されます。"
       },
       "taskflow": {
-        "title": "TaskFlow",
+        "title": "タスクフロー",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "カンバン ボード、期限、リアルタイム同期によるチーム タスク管理。リモートのチームや代理店向けに導入されます。"
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "フードダッシュ",
+        "category": "モバイルアプリケーション",
+        "desc": "レストランの発見、オンライン注文、ライブ配達の追跡。レストラン向けのパートナー アプリと物流向けのドライバー アプリ。"
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "イベント化",
+        "category": "ウェブアプリケーション",
+        "desc": "支払い、出席者管理、QR チェックインを備えたイベントの発券と会場予約のプラットフォーム。会議やワークショップなどに利用されます。"
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "ソフトウェア",
+        "desc": "電子署名、バージョン履歴、コンプライアンス管理により文書を安全に保管します。法務および財務チーム向けに構築されています。"
       },
       "fittrack": {
-        "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "title": "フィットトラック",
+        "category": "モバイルアプリケーション",
+        "desc": "ワークアウト プラン、進捗状況ダッシュボード、栄養ログを備えたフィットネスと健康追跡アプリ。 Android と iOS のクロスプラットフォーム。"
       },
       "cloudflow": {
-        "title": "CloudFlow",
+        "title": "クラウドフロー",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "リアルタイム コラボレーション、タスク ボード、リモート チーム向けのチーム分析を備えたプロジェクト管理およびワークフロー SaaS プラットフォーム。"
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "ネオンドリフト",
+        "category": "ゲーム開発",
+        "desc": "ネオンの美しさ、スムーズなコントロール、リーダーボードを備えたアーケード スタイルのレーシング ゲーム。複数のプラットフォーム向けに Unity で構築されています。"
       },
       "shopverse": {
-        "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "title": "ショップバース",
+        "category": "電子商取引",
+        "desc": "製品カタログ、カート、チェックアウト、ベンダー ダッシュボードを備えた最新の e コマース プラットフォーム。統合された支払いと在庫。"
       },
       "paybridge": {
-        "title": "PayBridge",
-        "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "title": "ペイブリッジ",
+        "category": "フィンテック",
+        "desc": "ビジネス向けの支払いおよび財務ダッシュボード - 銀行レベルのセキュリティを備えた取引、調整、レポート。"
       },
       "learnhub": {
-        "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "title": "ラーニングハブ",
+        "category": "エドテック",
+        "desc": "教育者と学習者向けのコース、進捗状況追跡、クイズ、証明書を備えた学習管理プラットフォーム。"
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "スマートオプス",
+        "category": "ソフトウェアとIoT",
+        "desc": "資産、アラート、分析を監視するための IoT を活用した運用ダッシュボード。スマートな施設と物流のために構築されています。"
       },
       "engagelab": {
-        "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "title": "エンゲージラボ",
+        "category": "デジタルマーケティング",
+        "desc": "ソーシャル メディアおよびキャンペーン分析プラットフォーム - ブランドのエンゲージメント指標、コンテンツ スケジュール、ROI レポート。"
       }
     },
     "ctaHeading": "次の",
@@ -403,10 +409,10 @@
     "section6": "ご質問はこちらまで：",
     "email": "メール：",
     "address": "住所：",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "当社のサービスをサポートおよび強化する、世界的に認められたプラットフォームと業界をリードするテクノロジーを活用しています。",
+    "partnerDisclaimerP2": "これらは、正式または公式のパートナーシップや直接の提携を意味するものではなく、当社がそのツールやサービスを利用するという意味で当社のパートナーとみなされます。",
+    "addressLine1": "カラチ、パキスタン",
+    "addressLine2": "サイバージャヤ、マレーシア"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "戦略的ソーシャル運用"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "新しい",
+    "heading": "新しい",
+    "headingHighlight": "サービス",
+    "subtitle": "新鮮なデジタル製品 - AI、コンテンツ、メディア ソリューションでリーチを拡大します。",
+    "getInTouch": "話しましょう"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "あなたの要件",
+    "heading": "カスタム",
+    "headingHighlight": "要件",
+    "desc": "必要なものをお知らせください。サービスや好みを選択すると、すぐに価格の見積もりが得られます。",
+    "yourName": "あなたの名前",
+    "namePlaceholder": "あなたの名前を入力してください",
+    "yourEmail": "あなたのメールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "yourPhone": "あなたの電話",
+    "phonePlaceholder": "電話番号を入力してください",
+    "step1Title": "接触",
+    "step2Title": "要件",
+    "step3Title": "技術と計画",
+    "step4Title": "参照して提出する",
+    "step5Title": "ありがとう",
+    "thankYouTitle": "ありがとう！",
+    "thankYouMessage": "ご要望を承りました。私たちのチームがすぐにご連絡いたします。",
+    "backToHome": "ホームに戻る",
+    "submitAnother": "別の送信",
+    "nextStep": "次",
+    "prevStep": "戻る",
+    "stepOf": "ステップ {{current}}/{{total}}",
+    "selectService": "あなたは何が必要ですか？",
+    "selectServicePlaceholder": "サービスを選択してください",
+    "selectSubType": "プロジェクトの種類・詳細",
+    "selectSubTypePlaceholder": "オプションを選択してください",
+    "selectTech": "テクノロジー / プラットフォーム (該当するものをすべて選択してください)",
+    "selectTier": "プランを選ぶ",
+    "priceLabel": "推定価格",
+    "priceCustom": "カスタム見積もり",
+    "perProject": "プロジェクトごと",
+    "referenceLink": "参照リンク (例: 好きな Web サイトやアプリ)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "参考画像（オプション）",
+    "referenceImageHint": "スクリーンショットまたはデザインリファレンスをアップロードする",
+    "developBtn": "開発する",
+    "talkToTeam": "チームと話す",
+    "submitSuccess": "リクエストが送信されました。すぐにご連絡いたします。",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "電子商取引",
+      "social": "ソーシャル/コミュニティ",
+      "utility": "実用性/生産性",
+      "enterprise": "エンタープライズ/社内",
+      "onDemand": "オンデマンド/配信",
+      "blog": "ブログ/コンテンツサイト",
+      "corporate": "企業・ビジネス",
+      "portfolio": "ポートフォリオ/ショーケース",
+      "landing": "ランディング/マーケティングページ",
+      "saas": "SaaS製品",
+      "dashboard": "ダッシュボード/分析",
+      "api": "API / バックエンド",
+      "seo": "SEOとコンテンツ",
+      "ppc": "PPC と有料ソーシャル",
+      "fullCampaign": "フルキャンペーン",
+      "organic": "オーガニックコンテンツ",
+      "paidSocial": "有料ソーシャル",
+      "influencer": "インフルエンサーとのパートナーシップ",
+      "other": "他の"
     },
     "tech": {
-      "react": "React",
+      "react": "反応する",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "角度のある",
       "next": "Next.js",
-      "nuxt": "Nuxt",
-      "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "nuxt": "ナクスト",
+      "laravel": "ララベル（PHP）",
+      "aspnet": "ASP.NET / .NETコア",
       "node": "Node.js",
-      "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
-      "wordpress": "WordPress",
-      "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "python": "Python (ジャンゴ/FastAPI)",
+      "java": "ジャワ / 春",
+      "wordpress": "ワードプレス",
+      "shopify": "ショッピファイ",
+      "headless": "ヘッドレスCMS",
+      "flutter": "フラッター",
+      "reactNative": "ネイティブに反応する",
+      "nativeIos": "ネイティブ iOS (Swift)",
+      "nativeAndroid": "ネイティブ Android (Kotlin)",
+      "unity": "団結",
+      "unreal": "アンリアル エンジン",
+      "other": "その他/わからない"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR エージェント",
+    "seoTitle": "VXR エージェント",
+    "seoDescription": "AI アシスタントとチャットします。メッセージでアイデアを説明し、Web サイトやアプリのデザイン参照画像を生成して、「見積もりを取得」に添付します。ログインは必要ありません。",
+    "heroDescription": "アイデアをメッセージとして入力します。Web およびアプリのデザイン用の参考画像を生成します。",
+    "widgetAriaLabel": "VXR エージェントを開く",
+    "widgetTooltip": "VXR エージェント — メッセージを開き、デザインを説明し、プロジェクトの参照イメージを生成します",
+    "drawerAriaLabel": "デザインアイデア — AI参考画像",
+    "drawerSubtitle": "ヘッダーと同じ - メッセージ + 画像のアイデア",
+    "creditsToday": "今日の {{remaining}} / {{limit}} クレジット",
+    "creditsLoading": "…今日のクレジット",
+    "intro": "下のボックスをチャットのように使用します。必要な内容を 1 つ以上のメッセージに書き込んでください。ウェブサイトとアプリのみのデザイン参考画像を生成します。結果を「見積もりを取得」に添付してください。アカウントやログインは必要ありません。",
+    "promptPlaceholder": "例えばダークテーマ、赤のアクセント、モダンヒーローセクションを備えた代理店のウェブサイト",
+    "generate": "画像の生成",
+    "generating": "生成中…",
+    "generatedReference": "生成された参照",
+    "generatedImageAlt": "AI が生成した設計リファレンス",
+    "referenceOnly": "参照のみ — 添付する見積依頼で使用します",
+    "useInQuote": "見積依頼で使用する",
+    "promptRequired": "デザインのアイデアまたはプロンプトを入力してください。",
+    "imageDataMissing": "画像データを取得できませんでした。",
+    "generationFailed": "生成に失敗しました。",
+    "referenceAttached": "参考資料を添付しました。見積フォームを開きます。",
+    "attachFailed": "添付に失敗しました。"
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "プロジェクト",
+    "seoDescription": "購入およびレンタルできるプロジェクト — vebxrun.com で近日公開予定です。",
+    "tag": "市場",
+    "heading": "購入してレンタルする",
+    "headingHighlight": "プロジェクト",
+    "heroDesc": "購入またはライセンスを取得できるデジタル プロジェクトの厳選された宛先。私たちはこの体験を準備中です - 楽しみにお待ちください。",
+    "comingSoon": "購入とレンタルのプロジェクトが近日公開予定",
+    "badge": "近日公開",
+    "cta": "連絡する",
+    "ctaHint": "ご質問がありますか?私たちのチームがお手伝いいたします。"
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "VXR Tech Agent — AI チャットとリアルタイム通話",
+    "seoDescription": "VXR Tech Agent とチャットまたはライブで会話し、ソフトウェア、アプリ、Web 開発、AI、デジタル製品エンジニアリングに関するテクノロジー関連のガイダンスを提供します。",
+    "badge": "リアルタイムテックエージェント",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "テックエージェント",
+    "subtitle": "チャットやライブ通話を通じて、ソフトウェア、アプリ、AI、API、クラウド、デジタル製品エンジニアリングに関するサポートを受けられます。",
+    "chatTitle": "VXR テック エージェント",
+    "chatTag": "技術のみのサポート",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "API 設計、React、AI、クラウドなどの技術的な質問をしてください。",
+    "micStopTitle": "録音を停止する",
+    "micStartTitle": "音声入力",
+    "emptyResponse": "現在応答を生成できませんでした。技術的な質問をもう一度送信してください。",
+    "requestFailed": "AI チャット リクエストが予期せず失敗しました",
+    "micDenied": "マイクへのアクセスが拒否されました",
+    "callEndedStatus": "通話が終了しました",
+    "callEndedMessage": "📞通話が終了しました。次の技術的な質問をチャットで送信できます。",
+    "connecting": "リアルタイム エージェントに接続しています…",
+    "liveConnected": "ライブリアルタイム技術通話が接続されました",
+    "callIntroMessage": "📞 音声通話が接続されました。最初に短い挨拶が聞こえます。",
+    "readyForCall": "リアルタイムの技術通話の準備ができました",
+    "callFailedStatus": "通話接続に失敗しました",
+    "callStartFailed": "リアルタイム通話を開始できませんでした",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "リアルタイム音声通話",
+    "tapEndCall": "タップして通話を終了します",
+    "startCall": "リアルタイム通話を開始する",
+    "capabilitiesTitle": "エージェントの機能",
+    "cap1": "Web、アプリ、バックエンド、AI エンジニアリングのガイダンス",
+    "cap2": "アーキテクチャ、API、データベース、クラウドの推奨事項",
+    "cap3": "デバッグ、パフォーマンス、スケーラビリティ、セキュリティに関するアドバイス",
+    "cap4": "技術的なワークフローのためのデジタル製品のUX",
+    "cap5": "通話開始時のイントロ付きのリアルタイム音声インタラクション",
+    "quickPromptsTitle": "クイックプロンプト",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "SaaS MVP に最適な技術スタックは何ですか?",
+      "スケーラブルな REST API はどのように設計すればよいですか?",
+      "React アプリの速度を最適化するにはどうすればよいですか?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "こんにちは！私は **VXR テック エージェント ** です。私は、Web 開発、アプリ、AI、API、クラウド、デジタル製品の UX、デバッグ、アーキテクチャなどのテクノロジー関連のトピックのみをサポートします。まずは技術的な質問をしてください。"
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "モバイルアプリケーション",
+      "shortDesc": "ユーザーを魅了するネイティブ アプリとクロスプラットフォーム アプリ",
+      "longDesc": "私たちはユーザーに愛されるモバイル アプリケーションを構築します。ネイティブ iOS や Android から、React Native や Flutter を使用したクロスプラットフォーム ソリューションまで、お客様のビジネス目標に合わせたパフォーマンスとスケーラブルなアプリを提供します。私たちのチームは、UX デザインから App Store の展開まですべてを担当します。",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOSとAndroidのネイティブ開発",
+        "ネイティブとフラッターに反応する",
+        "UI/UXデザイン",
+        "App Store と Play ストアの展開",
+        "メンテナンスとアップデート"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "クロスプラットフォーム",
+          "desc": "必要に応じて、iOS と Android に 1 つのコードベースを適用します。"
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "パフォーマンス",
+          "desc": "速度、バッテリー、オフライン機能が最適化されています。"
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "安全",
+          "desc": "データとコンプライアンスのベスト プラクティス (GDPR、HIPAA)。"
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Web CMS開発",
+      "shortDesc": "強力なコンテンツ管理ソリューション",
+      "longDesc": "ユーザーが制御できるカスタム Web プラットフォームとコンテンツ管理システム。 WordPress、ヘッドレス CMS、カスタム バックエンドを使用して構築されているため、更新のたびに開発者に依存することなく、チームがコンテンツを公開および管理できます。",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress とヘッドレス CMS",
+        "カスタム管理パネル",
+        "APIファーストのアーキテクチャ",
+        "マルチサイト＆多言語対応",
+        "SEOに配慮した構造"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "簡単なコンテンツ更新",
+          "desc": "非技術チーム向けの直感的なダッシュボード。"
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "スケーラブル",
+          "desc": "トラフィックとコンテンツの成長に合わせて設計されています。"
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "統合",
+          "desc": "CRM、分析、マーケティング ツールに接続します。"
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "ソフトウェア開発",
+      "shortDesc": "ニーズに合わせたカスタム ソフトウェア",
+      "longDesc": "SaaS 製品からエンタープライズ システムまで、お客様のワークフローに合わせたカスタム ソフトウェアを構築します。最新のスタックとアジャイル配信を使用しているため、ビジネスに合わせて拡張および進化するソリューションが得られます。",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS と Web アプリケーション",
+        "エンタープライズシステム",
+        "APIと統合",
+        "クラウド展開 (AWS、Azure、GCP)",
+        "アジャイルな配信"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "カスタムビルド",
+          "desc": "既製の妥協はなく、お客様のニーズに合わせて構築されます。"
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "モダンなスタック",
+          "desc": "React、Node、Python、.NET、および実績のあるテクノロジー。"
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "継続的なサポート",
+          "desc": "メンテナンス、アップデート、機能の進化。"
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "コーポレートブランディング",
+      "shortDesc": "目立つ大胆なブランドアイデンティティ",
+      "longDesc": "私たちは、あなたが誰であるかを伝え、視聴者の共感を呼ぶブランド アイデンティティを作成します。ロゴデザインやビジュアルガイドラインから完全なブランド戦略に至るまで、私たちは貴社が市場で目立つようお手伝いします。",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "ロゴとビジュアルアイデンティティ",
+        "ブランドガイドライン",
+        "ブランド戦略",
+        "コラテラルデザイン",
+        "デジタル資産キット"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "明確なアイデンティティ",
+          "desc": "記憶に残るロゴと一貫したビジュアル言語。"
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "戦略主導",
+          "desc": "ブランドの選択は、ビジネスと視聴者に結びついています。"
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "すぐに使用できます",
+          "desc": "すべてのタッチポイントの資産とガイドライン。"
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "オンラインデジタルマーケティング",
+      "shortDesc": "成長のためのデータドリブン戦略",
+      "longDesc": "SEO、PPC、コンテンツ マーケティング、コンバージョンの最適化により、リーチとコンバージョンを拡大します。私たちは虚栄的な指標ではなく、目に見える成果と持続可能な成長に重点を置いています。",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEOとコンテンツ戦略",
+        "PPC と有料ソーシャル",
+        "変換の最適化",
+        "分析とレポート",
+        "マーケティングオートメーション"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "データドリブン",
+          "desc": "分析とテストに基づいた決定。"
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "フルファネル",
+          "desc": "認知度、検討、コンバージョンのキャンペーン。"
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "透明性のあるレポート",
+          "desc": "明確な指標と定期的なレビュー。"
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D & アニメーション",
+      "shortDesc": "あなたのストーリーを伝える素晴らしいビジュアル",
+      "longDesc": "魅力的で説明的なモーション グラフィックス、説明ビデオ、映画のようなアニメーション。当社は、あらゆるプラットフォームにわたる広告、製品デモ、ブランド ストーリーテリング用の 2D および 3D コンテンツを制作します。",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "モーショングラフィックス",
+        "解説ビデオ",
+        "2D & 3D アニメーション",
+        "キャラクターアニメーション",
+        "ソーシャルおよび広告コンテンツ"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "ストーリーファースト",
+          "desc": "すべてのフレームがあなたのメッセージとブランドをサポートします。"
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "マルチフォーマット",
+          "desc": "短いソーシャルクリップから長い説明文まで。"
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "オンブランド",
+          "desc": "あなたのビジュアルアイデンティティと一貫したスタイル。"
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D レンダリング サービス",
+      "shortDesc": "フォトリアルな 3D ビジュアライゼーション",
+      "longDesc": "建築、製品のビジュアライゼーション、マーケティングのための高品質の 3D レンダリング。私たちは、現実世界に存在する前に製品や空間を紹介するフォトリアリスティックな画像とアニメーションを提供します。",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "アーキテクチャのビジュアライゼーション",
+        "製品のレンダリング",
+        "マーケティング用CGI",
+        "内外装",
+        "アニメーションとウォークスルー"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "写実的な",
+          "desc": "本物に見える照明とマテリアル。"
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "どの業界でも",
+          "desc": "不動産、小売、自動車など。"
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "高速な反復",
+          "desc": "物理的な再撮影を必要とせずに迅速に変更できます。"
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "メタバース開発",
+      "shortDesc": "次世代の没入型デジタル世界",
+      "longDesc": "私たちはメタバース エクスペリエンス (仮想空間、デジタル ツイン、イベント、小売店、コミュニティ向けの没入型環境) を設計および構築します。コンセプトから主要なプラットフォームへの展開まで。",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "仮想空間と世界",
+        "デジタルツイン",
+        "VR/ARの統合",
+        "マルチユーザーエクスペリエンス",
+        "Web3 対応エクスペリエンス"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "没入型",
+          "desc": "リアルで魅力的な空間。"
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "スケーラブル",
+          "desc": "多数の同時ユーザーをサポートするアーキテクチャ。"
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "ブランド対応",
+          "desc": "ブランドを反映したカスタム環境。"
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "ゲーム開発",
+      "shortDesc": "あらゆるプラットフォームにわたる魅力的なゲーム",
+      "longDesc": "モバイル ゲームから PC、コンソールに至るまで、プレイヤーに愛されるゲームを構築しています。私たちは Unity と Unreal Engine を使用して、ゲームプレイと洗練に重点を置いたオリジナル IP、本格的なゲーム、ブランド エクスペリエンスを作成します。",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "モバイル、PC、コンソール",
+        "Unity とアンリアル エンジン",
+        "ゲームデザインとメカニクス",
+        "マルチプレイヤーとライブオペレーション",
+        "移植と最適化"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "フル生産",
+          "desc": "デザイン、アート、コード、立ち上げのサポート。"
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "実績のあるエンジン",
+          "desc": "品質とパフォーマンスのための Unity と Unreal。"
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "打ち上げ後",
+          "desc": "アップデート、イベント、コミュニティ機能。"
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "拡張現実",
+      "shortDesc": "変革をもたらすAR/VR/MR体験",
+      "longDesc": "トレーニング、マーケティング、製品ビジュアライゼーションのための AR、VR、複合現実エクスペリエンス。当社は、ヘッドセットやモバイル デバイスで実行されるアプリを構築して、従業員のトレーニング、製品の紹介、没入型キャンペーンの作成を行っています。",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "ARアプリ（モバイル＆メガネ）",
+        "VR トレーニングとシミュレーション",
+        "複合現実体験",
+        "バーチャルツアー",
+        "ハードウェアに依存しない設計"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "実際の使用例",
+          "desc": "ROIを高めるトレーニング、販売、マーケティング。"
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "マルチデバイス",
+          "desc": "携帯電話、タブレット、XR ヘッドセットで動作します。"
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "ユーザーテスト済み",
+          "desc": "快適さと使いやすさを核に。"
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "ソーシャルメディアマーケティング",
+      "shortDesc": "戦略的な社会的存在と関与",
+      "longDesc": "私たちは、戦略、コンテンツ、コミュニティ管理を通じて、お客様のソーシャル プレゼンスを構築および管理します。オーガニック コンテンツからインフルエンサー パートナーシップ、有料ソーシャルまで、適切な視聴者とつながるお手伝いをします。",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "コンテンツ戦略と作成",
+        "コミュニティ管理",
+        "インフルエンサーとのパートナーシップ",
+        "有料ソーシャルキャンペーン",
+        "分析とレポート"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "ブランドボイス",
+          "desc": "あなたらしく、共感を呼ぶコンテンツ。"
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "コミュニティ",
+          "desc": "忠誠心と支持を築くエンゲージメント。"
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "有料 + オーガニック",
+          "desc": "最大限のリーチを実現する統合アプローチ。"
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AIソリューション",
+      "shortDesc": "AI を活用したチャットボット、自動化、インテリジェントなワークフローにより、業務を合理化し、ユーザーの関心を引き付けることができます。",
+      "longDesc": "私たちは、働き方や関わり方を変革する AI を活用したソリューションを構築します。カスタム チャットボットや仮想アシスタントから、プロセスの自動化やインテリジェントなワークフローに至るまで、当社は AI を活用して時間の節約、サポートの拡張、より良いエクスペリエンスの提供を支援します。当社のソリューションは既存のツールと統合され、実際の信頼性を考慮して設計されています。",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "カスタムチャットボットと仮想アシスタント",
+        "プロセスの自動化とワークフロー",
+        "LLM の統合と微調整",
+        "API統合",
+        "分析と最適化"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "あなたに合わせた",
+          "desc": "AI はワークフローとブランド ボイスを中心に構築されています。"
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "安全かつスケーラブル",
+          "desc": "明確なデータ処理によりエンタープライズ対応。"
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "継続的な改善",
+          "desc": "使用状況とフィードバックに基づいて繰り返します。"
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "電子ブックのデザインと出版",
+      "shortDesc": "Kindle、Apple Books、その他のプラットフォーム向けのプロフェッショナルな電子書籍のレイアウト、表紙デザイン、配布。",
+      "longDesc": "原稿から店頭に並ぶまで、私たちが電子ブックのデザイン、フォーマット、配布を担当し、あなたの本がプロのように見えて売れるようにします。レスポンシブなレイアウト、目を引く表紙、ランク付けするメタデータを作成します。著者でも出版社でも、Kindle、Apple Books、kobo などで電子書籍をライブ配信できます。",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "インテリアのレイアウトとタイポグラフィー",
+        "表紙デザイン",
+        "EPUB と Kindle のフォーマット",
+        "マルチプラットフォーム配信",
+        "書籍のメタデータと SEO"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "読者ファーストのデザイン",
+          "desc": "あらゆるデバイスとフォント サイズで機能するレイアウト。"
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "店頭準備完了",
+          "desc": "Kindle、Apple、その他の小売店に準拠しています。"
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "迅速な対応",
+          "desc": "下書きから出版までの明確なタイムライン。"
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "デジタルマガジン",
+      "shortDesc": "ブランドや出版社向けの素晴らしいデジタル雑誌のデザインとインタラクティブなレイアウト。",
+      "longDesc": "私たちは読者に愛されるデジタル雑誌をデザイン、制作します。編集レイアウトやインタラクティブな要素から、Web やアプリでの購読や読書体験に至るまで、私たちは際立った出版物を作成します。ブランド、出版社、その他コンテンツを洗練されたデジタル製品に変える人に最適です。",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "エディトリアルレイアウトデザイン",
+        "インタラクティブな要素",
+        "ウェブとアプリの公開",
+        "サブスクリプションの流れ",
+        "分析とエンゲージメント"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "編集品質",
+          "desc": "高級感があり、読みやすいレイアウト。"
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "魅力的",
+          "desc": "読者をスクロールさせ続けるインタラクティブ性。"
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "収益化の準備ができています",
+          "desc": "ペイウォールとメンバーシップが組み込まれています。"
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "電子新聞",
+      "shortDesc": "レスポンシブなレイアウトと簡単なコンテンツ更新を備えたデジタル新聞およびニュース ポータルのデザイン。",
+      "longDesc": "私たちは、あなたのストーリーを前面に押し出すデジタル新聞とニュースポータルを構築します。応答性の高いレイアウト、高速な読み込み、シンプルな CMS 統合により、チームは技術的な手間をかけずに公開および更新できます。私たちは、読みやすさ、アクセシビリティ、そしてあらゆるデバイスで動作するエクスペリエンスに重点を置いています。",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "レスポンシブなニュースレイアウト",
+        "CMS統合",
+        "高速読み込みとSEO",
+        "ニュース速報とセクション",
+        "広告とスポンサーシップ スロット"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "読みやすい",
+          "desc": "長い読書に適した明確な階層とタイポグラフィ。"
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "更新が簡単",
+          "desc": "開発者以外でもコンテンツを公開および管理できます。"
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "すぐに収益が得られる",
+          "desc": "広告ユニットと定期購読オプションが含まれます。"
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "ポッドキャスト制作",
+      "shortDesc": "プロフェッショナルなサウンドのポッドキャストの録音、編集、ショーノート、配信。",
+      "longDesc": "私たちはあなたのポッドキャストをアイデアから耳に届けます。私たちのチームが録音のセットアップ、編集、ミキシング、ショーノート、配信を担当するので、お客様は会話に集中できます。私たちは放送品質のオーディオと一貫したブランディングを提供し、あなたの番組が頭の中で聞こえるのと同じくらい良いものに聞こえるようにします。",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "録音と編集",
+        "ミキシング＆マスタリング",
+        "メモとトランスクリプトを表示する",
+        "アートワークとブランディング",
+        "配信とRSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "放送品質",
+          "desc": "プロフェッショナルなサウンドを実現するクリーンなオーディオ。"
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "ターンキー",
+          "desc": "パイプライン全体を当社が処理するため、お客様はその必要がありません。"
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "一貫したブランド",
+          "desc": "ショーに合わせたアートワークとメモ。"
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "インフォグラフィックスとデータ Viz",
+      "shortDesc": "明確で魅力的なインフォグラフィックスとデータの視覚化により、複雑な情報を簡単に共有できます。",
+      "longDesc": "データとアイデアをビジュアルに変換し、共有します。静的なインフォグラフィックからインタラクティブなダッシュボードやレポートに至るまで、複雑な情報を明確で魅力的なものにします。レポート、プレゼンテーション、ソーシャル コンテンツ、および定着する必要がある内部コミュニケーションに最適です。",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "静的なインフォグラフィックス",
+        "インタラクティブなデータ Viz",
+        "レポートとプレゼンテーション",
+        "ソーシャル対応フォーマット",
+        "ブランドに合わせたデザイン"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "明確さを第一に",
+          "desc": "メッセージが一目瞭然のデザイン。"
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "共有可能",
+          "desc": "ソーシャルでもデッキ内でも機能するフォーマット。"
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "正確な",
+          "desc": "数値を尊重するデータ Viz。"
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "チャットボット開発",
+      "shortDesc": "サポート、販売、エンゲージメントのためのカスタム チャットボット — 既存のツールと統合されます。",
+      "longDesc": "私たちは実際に役立つチャットボットを構築します。カスタマー サポート、リードの認定、社内ワークフローのいずれであっても、当社のボットはお客様のプロセスに合わせて設計されており、CRM、ヘルプデスク、アプリと統合されています。実証済みの AI と会話デザインを使用しているため、ユーザーはすぐに回答を得られ、チームは安心できます。",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "会話デザイン",
+        "CRMとヘルプデスクの統合",
+        "マルチチャネル (Web、WhatsApp など)",
+        "分析とトレーニング",
+        "人間への引き継ぎ"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "あなたのスタックにフィット",
+          "desc": "すでに使用しているツールと連携します。"
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "人間による引き継ぎ",
+          "desc": "ボットが役に立たない場合のスムーズなエスカレーション。"
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "時間の経過とともに改善される",
+          "desc": "実際の会話に基づいてチューニングを行います。"
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "コピーライティングとコンテンツ",
+      "shortDesc": "SEO に配慮したコピー、ブログ投稿、コンバージョンとランキングにつながるマーケティング コンテンツ。",
+      "longDesc": "私たちはコンバージョンをもたらすコピーとランキングを獲得するコンテンツを書きます。ランディング ページや製品コピーからブログ シリーズや SEO コンテンツに至るまで、私たちはお客様の声と目標に応えます。すべての作品は、明確さ、説得、検索を目的として構築されているため、トラフィックとコンバージョンの両方を獲得できます。",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "ランディングページと製品コピー",
+        "ブログとSEOコンテンツ",
+        "電子メールシーケンス",
+        "広告コピーとソーシャル",
+        "コンテンツ戦略"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "ブランドの声",
+          "desc": "あなたとあなたの聴衆のように聞こえるコピーをしてください。"
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO内蔵",
+          "desc": "検索と共有のために構造化されたコンテンツ。"
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "コンバージョン重視",
+          "desc": "針を動かすために選ばれたすべての言葉。"
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "ソーシャルおよび YouTube コンテンツ",
+      "shortDesc": "Facebook、Instagram、TikTok、YouTube のリール、ストーリー、カルーセル、YouTube ビデオ、およびキャンペーン。",
+      "longDesc": "Facebook、Instagram、TikTok、YouTube で閲覧および共有されるコンテンツを作成します。リールやストーリーからカルーセル、YouTube スクリプト、サムネイル、ビデオ編集に至るまで、当社はすべての主要なプラットフォーム向けにブランドに準拠したコンテンツを制作しています。私たちはクリエイティブな方向性とプラットフォームのベストプラクティスを組み合わせて、フィードとチャンネルをプロフェッショナルに見せ、指標を向上させます。",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "リール、ストーリー、ショートフォーム (IG、TikTok、FB)",
+        "YouTube のスクリプト、サムネイル、編集",
+        "カルーセルと静的投稿",
+        "キャンペーンコンセプトとコンテンツカレンダー",
+        "ソーシャル向けのコピー、ハッシュタグ、SEO"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "すべてのプラットフォーム",
+          "desc": "Facebook、Instagram、TikTok、YouTube を 1 か所に。"
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "一貫した外観",
+          "desc": "ブランドのテンプレートとスタイル ガイド。"
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "投稿する準備ができました",
+          "desc": "最終的なアセットとキャプションは予定どおりに配信されます。"
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "サービス",
+    "offerBefore": "私たちが",
+    "offerHighlight": "オファー",
+    "whyBefore": "なぜ協力するのか",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "準備完了",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "あなたのプロジェクトについて話し合い、一緒に素晴らしいものを構築しましょう。",
+    "ctaButton": "話しましょう",
+    "backAllServices": "← すべてのサービス"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "家",
+    "homeDescription": "vebxrun — モバイル アプリ、Web 開発、ゲーム開発、メタバース、AI ソリューション、デジタル マーケティング。想像する。革新する。鼓舞する。",
+    "servicesTitle": "サービス",
+    "servicesDescription": "モバイル アプリ、Web および CMS 開発、ソフトウェア開発、企業ブランディング、デジタル マーケティング、2D/3D アニメーション、メタバース、ゲーム開発など。 vebxrun サービスを調べてください。",
+    "pricingTitle": "価格設定",
+    "pricingDescription": "モバイル アプリ、Web 開発、デジタル ソリューションの透明な価格設定。スターター、プロフェッショナル、エンタープライズ プラン。 vebxrun から見積もりを取得します。"
+  },
+  "liveChatWidget": {
+    "online": "オンライン",
+    "closeChat": "チャットを閉じる",
+    "openChat": "チャットしてみよう",
+    "skipToLiveChat": "ライブチャットにスキップ→",
+    "nameLabel": "名前",
+    "emailLabel": "電子メール",
+    "whatsappLabel": "ワッツアップ",
+    "serviceLabel": "サービス",
+    "sending": "送信中…",
+    "orLiveChat": "または代わりにライブチャットを開始してください",
+    "toastNameEmailRequired": "名前とメールアドレスは必須です",
+    "toastRequestSent": "リクエストを送信しました！",
+    "toastSubmitFailed": "送信できませんでした。もう一度やり直してください。",
+    "submittedTitle": "リクエストを送信しました!",
+    "submittedDesc": "すぐにご連絡いたします。",
+    "startLiveChat": "ライブチャットを開始する",
+    "secondsShort": "{{count}}秒"
   }
 }

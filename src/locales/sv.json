@@ -7,12 +7,12 @@
     "ourWork": "Portfolio",
     "expertise": "Expertis",
     "contactUs": "Kontakt",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Nya tjänster",
+    "newBadge": "Ny",
+    "customRequirement": "Få en offert",
+    "designAssistant": "VXR-agent",
+    "projects": "Projekt",
+    "privacy": "Privatliv"
   },
   "hero": {
     "tagline": "Föreställ. Förnya. Inspirera.",
@@ -159,10 +159,15 @@
       "title3": "Digital transformation för tillväxt",
       "excerpt3": "Vi hjälper företag att innovera."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
+    "linkNewServices": "Nya tjänster",
+    "linkCustomRequirement": "Få en offert",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia",
+    "linkTermsConditions": "Allmänna villkor",
+    "columnGetInTouchTitle": "Hör av dig",
+    "columnGetInTouchDesc": "Har du ett projekt i åtanke? Nå ut och låt oss skapa något extraordinärt.",
+    "followUsBar": "Följ oss för uppdateringar",
+    "letsConnect": "Låt oss ansluta"
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -185,9 +190,9 @@
     "chooseService": "Välj tjänst",
     "starter": "Starter",
     "starterDesc": "För att börja",
-    "professional": "Professional",
+    "professional": "Professionell",
     "professionalDesc": "För tillväxt",
-    "enterprise": "Enterprise",
+    "enterprise": "Företag",
     "enterpriseDesc": "Stora projekt",
     "mostPopular": "Mest populär",
     "perProject": "/projekt",
@@ -210,7 +215,8 @@
       "12monthsSupport": "12 månaders support",
       "cicd": "CI/CD & DevOps",
       "sla": "SLA-garanti"
-    }
+    },
+    "customPrice": "Beställnings"
   },
   "contact": {
     "tag": "Kontakt",
@@ -230,9 +236,9 @@
     "saturday": "Lördag",
     "sunday": "Söndag",
     "closed": "Stängt",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Let's Talk - Livechatt",
+    "liveChatDesc": "Skicka ett meddelande till oss live nedan - text, bilder, ljud eller video. Vi svarar här.",
+    "monToSun": "Måndag – söndag"
   },
   "expertise": {
     "tag": "Expertis",
@@ -267,7 +273,7 @@
     "ctaBtn": "Kontakta oss"
   },
   "ourWork": {
-    "tag": "Portfolio",
+    "tag": "Portfölj",
     "heading": "Vårt",
     "headingHighlight": "arbete",
     "desc": "Vår expertis över branscher.",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobilapplikation",
+        "desc": "Islamisk app för Android och iOS med en miljömärkt upplevelse, bönetider, Koranen och en analysinstrumentpanel för engagemangsinsikter."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Webbapplikation",
+        "desc": "Hela portföljwebbplatsen för en digital byrå – mörkt tema, röda accenter, tjänster, projektgalleri, prestationer, blogg och kontakt. Byggd för att visa upp deras arbete och expertis."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Sjukvård",
+        "desc": "Läkare-patientportal för möten, recept och journaler. HIPAA-anpassad, används av kliniker för schemaläggning och uppföljningar."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Teamuppgiftshantering med Kanban-tavlor, deadlines och synkronisering i realtid. Utplacerad för avlägsna team och byråer."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Mobilapplikation",
+        "desc": "Restaurangupptäckt, onlinebeställning och liveleveransspårning. Partnerapp för restauranger och chaufförsapp för logistik."
       },
       "eventify": {
         "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "category": "Webbapplikation",
+        "desc": "Evenemangsbiljetter och lokalbokningsplattform med betalning, deltagarehantering och QR-incheckning. Används för konferenser och workshops."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Programvara",
+        "desc": "Säker dokumentlagring med e-signering, versionshistorik och efterlevnadskontroller. Byggd för juridiska och ekonomiska team."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobilapplikation",
+        "desc": "Fitness- och hälsospårningsapp med träningsplaner, framstegspaneler och näringsloggning. Cross-platform för Android och iOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Projektledning och arbetsflöde SaaS-plattform med samarbete i realtid, uppgiftstavlor och teamanalys för fjärrstyrda team."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "Neondrift",
+        "category": "Spelutveckling",
+        "desc": "Racerspel i arkadstil med neonestetik, smidiga kontroller och topplistor. Byggd med Unity för flera plattformar."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "E-handel",
+        "desc": "Modern e-handelsplattform med produktkatalog, varukorg, kassa och leverantörsinstrumentpanel. Integrerade betalningar och inventering."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Betalnings- och finansinstrumentpanel för företag — transaktioner, avstämning och rapportering med banksäkerhet."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Lärhanteringsplattform med kurser, framstegsspårning, frågesporter och certifikat för lärare och elever."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Programvara och IoT",
+        "desc": "IoT-driven operationsinstrumentpanel för övervakning av tillgångar, varningar och analyser. Byggd för smarta anläggningar och logistik."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Digital marknadsföring",
+        "desc": "Sociala medier och kampanjanalysplattform – engagemangsstatistik, innehållsschemaläggning och ROI-rapportering för varumärken."
       }
     },
     "ctaHeading": "Bli vår nästa",
@@ -403,10 +409,10 @@
     "section6": "Frågor:",
     "email": "E-post:",
     "address": "Adress:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
+    "partnerDisclaimerP1": "Drivs av globalt erkända plattformar och branschledande teknologier som stödjer och förbättrar våra tjänster.",
+    "partnerDisclaimerP2": "De anses vara våra partners i den meningen att vi använder deras verktyg och tjänster, utan att antyda något formellt eller officiellt partnerskap eller direkt anknytning.",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "Strategisk social närvaro"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Ny",
+    "heading": "Ny",
+    "headingHighlight": "Tjänster",
+    "subtitle": "Nya digitala erbjudanden – AI, innehåll och medialösningar för att öka din räckvidd.",
+    "getInTouch": "Låt oss prata"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Ditt krav",
+    "heading": "Beställnings",
+    "headingHighlight": "Krav",
+    "desc": "Berätta vad du behöver. Välj din tjänst, preferenser och få en omedelbar prisuppskattning.",
+    "yourName": "Ditt namn",
+    "namePlaceholder": "Ange ditt namn",
+    "yourEmail": "Din e-post",
+    "emailPlaceholder": "Ange din e-postadress",
+    "yourPhone": "Din telefon",
+    "phonePlaceholder": "Ange ditt telefonnummer",
+    "step1Title": "Kontakta",
+    "step2Title": "Krav",
+    "step3Title": "Teknik & Plan",
+    "step4Title": "Referens & Skicka",
+    "step5Title": "Tack",
+    "thankYouTitle": "Tack!",
+    "thankYouMessage": "Vi har tagit emot ditt krav. Vårt team återkommer snart.",
+    "backToHome": "Tillbaka till hemmet",
+    "submitAnother": "Skicka in en annan",
+    "nextStep": "Nästa",
+    "prevStep": "Tillbaka",
+    "stepOf": "Steg {{current}} av {{total}}",
+    "selectService": "Vad behöver du?",
+    "selectServicePlaceholder": "Välj en tjänst",
+    "selectSubType": "Projekttyp/detaljer",
+    "selectSubTypePlaceholder": "Välj alternativ",
+    "selectTech": "Teknik/plattform (välj alla som stämmer)",
+    "selectTier": "Välj plan",
+    "priceLabel": "Uppskattat pris",
+    "priceCustom": "Anpassad offert",
+    "perProject": "per projekt",
+    "referenceLink": "Referenslänk (t.ex. webbplats eller app du gillar)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Referensbild (valfritt)",
+    "referenceImageHint": "Ladda upp en skärmdump eller designreferens",
+    "developBtn": "Utveckla",
+    "talkToTeam": "Prata med Team",
+    "submitSuccess": "Begäran inlämnad. Vi återkommer snart.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
+      "ecommerce": "E-handel",
+      "social": "Social / gemenskap",
+      "utility": "Användbarhet / produktivitet",
+      "enterprise": "Enterprise / internt",
+      "onDemand": "On-demand/leverans",
+      "blog": "Blogg/innehållssida",
+      "corporate": "Företag / företag",
+      "portfolio": "Portfölj / showcase",
+      "landing": "Landnings-/marknadsföringssida",
+      "saas": "SaaS-produkt",
+      "dashboard": "Dashboard/analys",
       "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "seo": "SEO & innehåll",
+      "ppc": "PPC & betald social",
+      "fullCampaign": "Fullständig kampanj",
+      "organic": "Organiskt innehåll",
+      "paidSocial": "Betald social",
+      "influencer": "Influencerpartnerskap",
+      "other": "Andra"
     },
     "tech": {
-      "react": "React",
+      "react": "Reagera",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Vinkel",
       "next": "Next.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / Vår",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
+      "headless": "Huvudlöst CMS",
+      "flutter": "Fladdra",
+      "reactNative": "Reager Native",
       "nativeIos": "Native iOS (Swift)",
       "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "unity": "Enhet",
+      "unreal": "Overklig motor",
+      "other": "Annat / Inte säker"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR-agent",
+    "seoTitle": "VXR-agent",
+    "seoDescription": "Chatta med vår AI-assistent: beskriv din idé i meddelanden, generera designreferensbilder för webbplatser och appar och bifoga dem till Få en offert – ingen inloggning krävs.",
+    "heroDescription": "Skriv meddelanden med din idé — vi genererar referensbilder för webb- och appdesigner",
+    "widgetAriaLabel": "Öppna VXR Agent",
+    "widgetTooltip": "VXR Agent — öppna meddelanden, beskriv din design och generera referensbilder för ditt projekt",
+    "drawerAriaLabel": "Designidé — AI-referensbild",
+    "drawerSubtitle": "Samma som rubrik — meddelanden + bildidéer",
+    "creditsToday": "{{remaining}} / {{limit}} krediter idag",
+    "creditsLoading": "… poäng idag",
+    "intro": "Använd rutan nedan som en chatt: skriv vad du behöver i ett eller flera meddelanden. Vi genererar endast designreferensbilder för webbplatser och appar. Bifoga resultatet i Få en offert. Inget konto eller inloggning krävs.",
+    "promptPlaceholder": "till exempel Byråwebbplats med mörkt tema, röda accenter, avsnitt för moderna hjältar",
+    "generate": "Skapa bild",
+    "generating": "Alstrande…",
+    "generatedReference": "Genererad referens",
+    "generatedImageAlt": "AI-genererad designreferens",
+    "referenceOnly": "Endast referens — använd i Få en offert för att bifoga",
+    "useInQuote": "Använd i Få en offert",
+    "promptRequired": "Ange en designidé eller uppmaning.",
+    "imageDataMissing": "Det gick inte att hämta bilddata.",
+    "generationFailed": "Generering misslyckades.",
+    "referenceAttached": "Referens bifogas. Öppningsformulär för offert.",
+    "attachFailed": "Det gick inte att bifoga."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projekt",
+    "seoDescription": "Projekt för köp och uthyrning — kommer snart på vebxrun.com.",
+    "tag": "Marknad",
+    "heading": "Köp & hyr",
+    "headingHighlight": "projekt",
+    "heroDesc": "En utvald destination för digitala projekt som du kan köpa eller licensiera. Vi förbereder upplevelsen - håll utkik.",
+    "comingSoon": "Projekt för köp och uthyrning kommer inom kort",
+    "badge": "Kommer snart",
+    "cta": "Hör av dig",
+    "ctaHint": "Har du frågor? Vårt team är här för att hjälpa till."
   },
   "vebxAI": {
     "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoDescription": "Chatta eller prata live med VXR Tech Agent för teknikrelaterad vägledning om programvara, appar, webbutveckling, AI och digital produktutveckling.",
+    "badge": "Realtidsteknikagent",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
+    "titleHighlight": "Teknisk agent",
+    "subtitle": "Få hjälp med programvara, appar, AI, API:er, moln och digital produktutveckling via chatt eller ett livesamtal.",
     "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "chatTag": "Endast teknisk hjälp",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Ställ en teknisk fråga, som API-design, React, AI eller moln...",
+    "micStopTitle": "Sluta spela in",
+    "micStartTitle": "Röstinmatning",
+    "emptyResponse": "Jag kunde inte generera ett svar just nu. Skicka din tekniska fråga igen.",
+    "requestFailed": "AI-chattbegäran misslyckades oväntat",
+    "micDenied": "Mikrofonåtkomst nekad",
+    "callEndedStatus": "Samtalet avslutades",
+    "callEndedMessage": "📞 Samtalet avslutat. Du kan skicka din nästa tekniska fråga i chatten.",
+    "connecting": "Ansluter till realtidsagent...",
+    "liveConnected": "Direktsänd tekniksamtal i realtid kopplat",
+    "callIntroMessage": "📞 Röstsamtal anslutet. Du kommer att höra en kort hälsning först.",
+    "readyForCall": "Redo för ett tekniksamtal i realtid",
+    "callFailedStatus": "Samtalsanslutningen misslyckades",
+    "callStartFailed": "Realtidssamtal kunde inte startas",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Röstsamtal i realtid",
+    "tapEndCall": "Tryck för att avsluta samtalet",
+    "startCall": "Starta samtal i realtid",
+    "capabilitiesTitle": "Agent kapacitet",
+    "cap1": "Webb-, app-, backend- och AI-ingenjörsvägledning",
+    "cap2": "Arkitektur, API:er, databaser och molnrekommendationer",
+    "cap3": "Felsökning, prestanda, skalbarhet och säkerhetsråd",
+    "cap4": "Digital produkt UX för tekniska arbetsflöden",
+    "cap5": "Röstinteraktion i realtid med intro vid samtalsstart",
+    "quickPromptsTitle": "Snabba uppmaningar",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Bästa tekniska stack för en SaaS MVP?",
+      "Hur ska jag designa ett skalbart REST API?",
+      "Hur kan jag optimera en React-app för hastighet?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Hej! Jag är **VXR Tech Agent**. Jag hjälper endast till med teknikrelaterade ämnen som webbutveckling, appar, AI, API:er, moln, UX för digitala produkter, felsökning och arkitektur. Ställ din tekniska fråga för att komma igång."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobilapplikation",
+      "shortDesc": "Inbyggda och plattformsoberoende appar som fängslar användare",
+      "longDesc": "Vi bygger mobilapplikationer som användarna älskar. Från inbyggda iOS och Android till plattformsoberoende lösningar med React Native och Flutter, vi levererar prestanda, skalbara appar som passar dina affärsmål. Vårt team hanterar allt från UX-design till App Store-distribution.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
+        "iOS & Android inbyggd utveckling",
+        "Reager Native & Flutter",
         "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Implementering av App Store och Play Store",
+        "Underhåll & uppdateringar"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "Cross-plattform",
+          "desc": "En kodbas för iOS och Android när det är vettigt."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Prestanda",
+          "desc": "Optimerad för hastighet, batteri och offlinekapacitet."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Säkerhet",
+          "desc": "Bästa metoder för data och efterlevnad (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Webb CMS utveckling",
+      "shortDesc": "Kraftfulla lösningar för innehållshantering",
+      "longDesc": "Anpassade webbplattformar och innehållshanteringssystem som ger dig kontroll. Vi bygger med WordPress, headless CMS och anpassade backends så att ditt team kan publicera och hantera innehåll utan att vara beroende av utvecklare för varje uppdatering.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress och huvudlöst CMS",
+        "Anpassade adminpaneler",
+        "API-första arkitektur",
+        "Flera webbplatser och flerspråkig",
+        "SEO-vänlig struktur"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Enkla innehållsuppdateringar",
+          "desc": "Intuitiva instrumentpaneler för icke-tekniska team."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Skalbar",
+          "desc": "Konstruerad för att växa med din trafik och ditt innehåll."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integrationer",
+          "desc": "Anslut till CRM-, analys- och marknadsföringsverktyg."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Mjukvaruutveckling",
+      "shortDesc": "Anpassad programvara skräddarsydd efter dina behov",
+      "longDesc": "Från SaaS-produkter till företagssystem bygger vi skräddarsydd programvara som passar dina arbetsflöden. Vi använder moderna stackar och smidig leverans så att du får en lösning som skalas och utvecklas med ditt företag.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS och webbapplikationer",
+        "Företagssystem",
+        "API:er och integrationer",
+        "Molndistribution (AWS, Azure, GCP)",
+        "Agil leverans"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Specialbyggd",
+          "desc": "Ingen kompromiss från hyllan – byggd för dina behov."
         },
         {
           "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "desc": "React, Node, Python, .NET och beprövad teknik."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Löpande stöd",
+          "desc": "Underhåll, uppdateringar och funktionsutveckling."
         }
       ]
     },
     "corporate-branding": {
       "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "shortDesc": "Djärva varumärkesidentiteter som sticker ut",
+      "longDesc": "Vi skapar varumärkesidentiteter som kommunicerar vem du är och resonerar med din publik. Från logotypdesign och visuella riktlinjer till fullständig varumärkesstrategi hjälper vi dig att sticka ut på din marknad.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logotyp & visuell identitet",
+        "Varumärkes riktlinjer",
+        "Varumärkesstrategi",
+        "Säkerhetsdesign",
+        "Digitala tillgångssatser"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Distinkt identitet",
+          "desc": "Minnesvärda logotyper och konsekvent bildspråk."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Strategiledd",
+          "desc": "Varumärkesval kopplade till ditt företag och din målgrupp."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Färdig att använda",
+          "desc": "Tillgångar och riktlinjer för alla kontaktpunkter."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Digital marknadsföring online",
+      "shortDesc": "Datadrivna strategier för tillväxt",
+      "longDesc": "Öka din räckvidd och dina konverteringar med SEO, PPC, innehållsmarknadsföring och konverteringsoptimering. Vi fokuserar på mätbara resultat och hållbar tillväxt, inte fåfängavärden.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO & innehållsstrategi",
+        "PPC & betald social",
+        "Konverteringsoptimering",
+        "Analys och rapportering",
+        "Marknadsföringsautomation"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Datadriven",
+          "desc": "Beslut baserade på analyser och tester."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Full tratt",
+          "desc": "Kampanjer för medvetenhet, övervägande och konvertering."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Transparent rapportering",
+          "desc": "Tydliga mätvärden och regelbundna recensioner."
         }
       ]
     },
     "2d-3d-animation": {
       "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "shortDesc": "Fantastiska bilder som berättar din historia",
+      "longDesc": "Rörlig grafik, förklarande videor och filmiska animationer som engagerar och förklarar. Vi producerar 2D- och 3D-innehåll för annonser, produktdemonstrationer och varumärkesberättelser på alla plattformar.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
+        "Rörlig grafik",
+        "Förklararvideor",
         "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Karaktärsanimation",
+        "Socialt och annonsinnehåll"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Berättelsen först",
+          "desc": "Varje ram stödjer ditt budskap och varumärke."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Flerformat",
+          "desc": "Från korta sociala klipp till långa förklarare."
         },
         {
           "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "desc": "Konsekvent stil med din visuella identitet."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D-renderingstjänster",
+      "shortDesc": "Fotorealistiska 3D-visualiseringar",
+      "longDesc": "Högkvalitativa 3D-renderingar för arkitektur, produktvisualisering och marknadsföring. Vi levererar fotorealistiska bilder och animationer som visar upp dina produkter och utrymmen innan de existerar i den verkliga världen.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Arkitektonisk visualisering",
+        "Produktrendering",
+        "CGI för marknadsföring",
+        "Interiör & exteriör",
+        "Animation & genomgångar"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealistiskt",
+          "desc": "Belysning och material som ser äkta ut."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Vilken bransch som helst",
+          "desc": "Fastigheter, detaljhandel, fordon och mer."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Snabba iterationer",
+          "desc": "Snabba förändringar utan fysiska omtagningar."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Metavers utveckling",
+      "shortDesc": "Nästa generations uppslukande digitala världar",
+      "longDesc": "Vi designar och bygger metaversa upplevelser: virtuella utrymmen, digitala tvillingar och uppslukande miljöer för evenemang, detaljhandel och community. Från koncept till implementering på ledande plattformar.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Virtuella utrymmen och världar",
+        "Digitala tvillingar",
+        "VR/AR-integration",
+        "Fleranvändarupplevelser",
+        "Web3-färdiga upplevelser"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Uppslukande",
+          "desc": "Utrymmen som känns verkliga och engagerande."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Skalbar",
+          "desc": "Arkitektur som stöder många samtidiga användare."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Varumärkesklar",
+          "desc": "Anpassade miljöer som speglar ditt varumärke."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Spelutveckling",
+      "shortDesc": "Engagerande spel på alla plattformar",
+      "longDesc": "Från mobilspel till PC och konsol, vi bygger spel som spelarna älskar. Vi använder Unity och Unreal Engine för att skapa original IP, seriösa spel och varumärkesupplevelser med fokus på spel och polering.",
       "features": [
-        "Mobile, PC & console",
+        "Mobil, PC och konsol",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
+        "Speldesign och mekanik",
         "Multiplayer & live ops",
-        "Porting & optimization"
+        "Portering & optimering"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Full produktion",
+          "desc": "Design, konst, kod och lanseringsstöd."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Beprövade motorer",
+          "desc": "Unity and Unreal för kvalitet och prestanda."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Efter lanseringen",
+          "desc": "Uppdateringar, evenemang och communityfunktioner."
         }
       ]
     },
     "extended-reality": {
       "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "shortDesc": "AR/VR/MR-upplevelser som förvandlas",
+      "longDesc": "AR-, VR- och mixed reality-upplevelser för utbildning, marknadsföring och produktvisualisering. Vi bygger appar som körs på headset och mobila enheter för att utbilda anställda, visa upp produkter eller skapa uppslukande kampanjer.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR-appar (mobil och glasögon)",
+        "VR-träning & simuleringar",
+        "Blandade verklighetsupplevelser",
+        "Virtuella turer",
+        "Hårdvaruagnostisk design"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Praktiska användningsfall",
+          "desc": "Utbildning, försäljning och marknadsföring som driver ROI."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Flera enheter",
+          "desc": "Fungerar på telefoner, surfplattor och XR-headset."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Användartestad",
+          "desc": "Komfort och användbarhet i grunden."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Marknadsföring i sociala medier",
+      "shortDesc": "Strategisk social närvaro och engagemang",
+      "longDesc": "Vi bygger och hanterar din sociala närvaro med strategi, innehåll och community management. Från organiskt innehåll till influencer-partnerskap och betalda sociala medier, vi hjälper dig att nå rätt målgrupp.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Innehållsstrategi och skapande",
+        "Samhällsförvaltning",
+        "Influencerpartnerskap",
+        "Betalda sociala kampanjer",
+        "Analys och rapportering"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Märkesröst",
+          "desc": "Innehåll som låter som du och ger resonans."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Gemenskap",
+          "desc": "Engagemang som bygger lojalitet och opinionsbildning."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Betalt + ekologiskt",
+          "desc": "Integrerat tillvägagångssätt för maximal räckvidd."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI-lösningar",
+      "shortDesc": "Chatbots, automation och intelligenta arbetsflöden som drivs av AI för att effektivisera verksamheten och engagera användare.",
+      "longDesc": "Vi bygger AI-drivna lösningar som förändrar hur du arbetar och engagerar dig. Från anpassade chatbots och virtuella assistenter till processautomatisering och intelligenta arbetsflöden, vi hjälper dig att utnyttja AI för att spara tid, skala support och leverera bättre upplevelser. Våra lösningar integreras med dina befintliga verktyg och är designade för tillförlitlighet i verkligheten.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Anpassade chatbots och virtuella assistenter",
+        "Processautomation & arbetsflöden",
+        "LLM-integration och finjustering",
+        "API-integrationer",
+        "Analys och optimering"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Skräddarsydd för dig",
+          "desc": "AI byggd kring dina arbetsflöden och varumärkesröst."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Säkert och skalbart",
+          "desc": "Företagsklar med tydlig datahantering."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Pågående förbättring",
+          "desc": "Vi itererar baserat på användning och feedback."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "E-bok design och publicering",
+      "shortDesc": "Professionell e-bokslayout, omslagsdesign och distribution för Kindle, Apple Books och andra plattformar.",
+      "longDesc": "Från manuskript till skyltfönster – vi hanterar design, formatering och distribution av e-böcker så att din bok ser ut och säljs som ett proffs. Vi skapar responsiva layouter, iögonfallande omslag och metadata som rankas. Oavsett om du är författare eller förläggare, får vi din e-bok live på Kindle, Apple Books, Kobo och mer.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Interiör layout & typografi",
+        "Omslagsdesign",
+        "EPUB & Kindle-formatering",
+        "Multiplattformsdistribution",
+        "Metadata & SEO för böcker"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Läsaren först design",
+          "desc": "Layouter som fungerar på alla enheter och teckenstorlekar."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Butiksklar",
+          "desc": "Överensstämmer med Kindle, Apple och andra återförsäljare."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Snabb vändning",
+          "desc": "Tydliga tidslinjer från utkast till publicering."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Digital tidning",
+      "shortDesc": "Fantastisk digital tidningsdesign och interaktiva layouter för varumärken och förlag.",
+      "longDesc": "Vi designar och bygger digitala tidningar som läsarna älskar. Från redaktionella layouter och interaktiva element till prenumeration och läsupplevelser på webb och app skapar vi publikationer som sticker ut. Perfekt för varumärken, publicister och alla som förvandlar innehåll till en polerad digital produkt.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Redaktionell layoutdesign",
+        "Interaktiva element",
+        "Webb- och apppublicering",
+        "Prenumerationsflöden",
+        "Analys och engagemang"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Redaktionell kvalitet",
+          "desc": "Layouter som känns premium och lättlästa."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Engagerande",
+          "desc": "Interaktivitet som får läsarna att rulla."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Klart för intäktsgenerering",
+          "desc": "Inbyggda betalväggar och medlemskap."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "E-tidning",
+      "shortDesc": "Digital tidnings- och nyhetsportaldesign med responsiva layouter och enkla innehållsuppdateringar.",
+      "longDesc": "Vi bygger digitala tidningar och nyhetsportaler som sätter dina berättelser i centrum. Responsiva layouter, snabb inläsning och enkel CMS-integration gör att ditt team kan publicera och uppdatera utan tekniskt krångel. Vi fokuserar på läsbarhet, tillgänglighet och en upplevelse som fungerar på alla enheter.",
       "features": [
-        "Responsive news layout",
+        "Responsiv nyhetslayout",
         "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Snabb laddning & SEO",
+        "De senaste nyheterna och avsnitten",
+        "Annonser och sponsringsplatser"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Läsvänligt",
+          "desc": "Tydlig hierarki och typografi för lång läsning."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Lätt att uppdatera",
+          "desc": "Icke-utvecklare kan publicera och hantera innehåll."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Intäktsklar",
+          "desc": "Annonsenheter och prenumerationsalternativ ingår."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Podcast produktion",
+      "shortDesc": "Inspelning, redigering, visa anteckningar och distribution för podcaster som låter professionella.",
+      "longDesc": "Vi tar din podcast från idé till öra. Vårt team hanterar inspelningsinställningar, redigering, mixning, visa anteckningar och distribution så att du kan fokusera på konversationen. Vi levererar ljud i sändningskvalitet och konsekvent varumärke så att din show låter lika bra som den låter i ditt huvud.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
+        "Inspelning & redigering",
+        "Mixa & mastera",
+        "Visa anteckningar och utskrifter",
+        "Konstverk & varumärke",
         "Distribution & RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Sändningskvalitet",
+          "desc": "Rent ljud som låter professionellt."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Nyckelfärdig",
+          "desc": "Vi hanterar hela pipelinen så att du inte behöver göra det."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Konsekvent varumärke",
+          "desc": "Konstverk och anteckningar som matchar din show."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografik och data Viz",
+      "shortDesc": "Tydlig, engagerande infografik och datavisualiseringar som gör komplex information lätt att dela.",
+      "longDesc": "Vi förvandlar data och idéer till bilder som delas. Från statisk infografik till interaktiva instrumentpaneler och rapporter, vi gör komplex information tydlig och engagerande. Idealisk för rapporter, presentationer, socialt innehåll och intern kommunikation som måste hålla fast.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Statisk infografik",
+        "Interaktiva data dvs",
+        "Rapporter & presentationer",
+        "Socialt redo format",
+        "Varumärkesanpassad design"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Tydlighet först",
+          "desc": "Design som gör budskapet uppenbart."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Delbart",
+          "desc": "Format som fungerar på sociala och i däck."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Exakt",
+          "desc": "Data dvs som respekterar siffrorna."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Utveckling av chatbot",
+      "shortDesc": "Anpassade chatbots för support, försäljning och engagemang – integrerade med dina befintliga verktyg.",
+      "longDesc": "Vi bygger chatbots som faktiskt hjälper. Oavsett om det gäller kundsupport, leadkvalificering eller interna arbetsflöden är våra bots designade kring dina processer och integrerade med din CRM, helpdesk och appar. Vi använder beprövad AI och konversationsdesign så att användarna får svar snabbt och ditt team får lättnad.",
       "features": [
-        "Conversation design",
+        "Konversationsdesign",
         "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Flera kanaler (webb, WhatsApp, etc.)",
+        "Analys och utbildning",
+        "Överlämning till människor"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Passar din stack",
+          "desc": "Fungerar med de verktyg du redan använder."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Mänsklig handoff",
+          "desc": "Jämn eskalering när boten inte kan hjälpa."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Förbättras med tiden",
+          "desc": "Vi ställer in baserat på riktiga konversationer."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Copywriting & innehåll",
+      "shortDesc": "SEO-vänlig kopia, blogginlägg och marknadsföringsinnehåll som konverterar och rankas.",
+      "longDesc": "Vi skriver kopior som konverterar och innehåll som rankas. Från målsidor och produktkopia till bloggserier och SEO-innehåll matchar vi din röst och dina mål. Varje del är byggd för tydlighet, övertalning och sökning – så att du får både trafik och omvandlingar.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Målsidor och produktkopia",
+        "Blogg & SEO-innehåll",
+        "E-postsekvenser",
+        "Annonstext & socialt",
+        "Innehållsstrategi"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Röst på varumärket",
+          "desc": "Kopiera som låter som du och din publik."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO inbyggt",
+          "desc": "Innehåll strukturerat för sökning och delning."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Konverteringsfokuserad",
+          "desc": "Varje ord valt för att flytta nålen."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Socialt och YouTube-innehåll",
+      "shortDesc": "Rullar, berättelser, karuseller, YouTube-videor och kampanjer för Facebook, Instagram, TikTok och YouTube.",
+      "longDesc": "Vi skapar innehåll som ses och delas på Facebook, Instagram, TikTok och YouTube. Från rullar och berättelser till karuseller, YouTube-manus, miniatyrer och videoredigering – vi producerar varumärkesinnehåll för alla större plattformar. Vi kombinerar kreativ riktning med bästa praxis för plattformar så att ditt flöde och din kanal ser professionella ut och dina mätvärden rör sig.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Rullar, berättelser och korta format (IG, TikTok, FB)",
+        "YouTube-skript, miniatyrer och redigering",
+        "Karuseller & statiska inlägg",
+        "Kampanjkoncept och innehållskalendrar",
+        "Kopiera, hashtags & SEO för sociala medier"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Alla plattformar",
+          "desc": "Facebook, Instagram, TikTok och YouTube på ett ställe."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Konsekvent utseende",
+          "desc": "Mallar och stilguider för ditt varumärke."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Redo att posta",
+          "desc": "Slutliga tillgångar och bildtexter levereras enligt schemat."
         }
       ]
     }
   },
   "serviceDetail": {
     "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "offerBefore": "Vad vi",
+    "offerHighlight": "erbjuda",
+    "whyBefore": "Varför jobba med",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Klar för",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Låt oss diskutera ditt projekt och bygga något bra tillsammans.",
+    "ctaButton": "Låt oss prata",
+    "backAllServices": "← Alla tjänster"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Hem",
+    "homeDescription": "vebxrun — Mobilappar, webbutveckling, spelutveckling, metaverse, AI-lösningar och digital marknadsföring. Tänka. Förnya. Inspirera.",
+    "servicesTitle": "Tjänster",
+    "servicesDescription": "Mobilappar, webb- och CMS-utveckling, mjukvaruutveckling, corporate branding, digital marknadsföring, 2D/3D-animation, metaverse, spelutveckling med mera. Utforska vebxrun-tjänster.",
+    "pricingTitle": "Prissättning",
+    "pricingDescription": "Transparent prissättning för mobilappar, webbutveckling och digitala lösningar. Start-, Professional- och Enterprise-planer. Få en offert från vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "Online",
+    "closeChat": "Stäng chatten",
+    "openChat": "Chatta med oss",
+    "skipToLiveChat": "Hoppa till livechatt →",
+    "nameLabel": "Namn",
+    "emailLabel": "E-post",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Service",
+    "sending": "Sändning…",
+    "orLiveChat": "eller starta en livechatt istället",
+    "toastNameEmailRequired": "Namn och e-postadress krävs",
+    "toastRequestSent": "Förfrågan har skickats!",
+    "toastSubmitFailed": "Det gick inte att skicka. Försök igen.",
+    "submittedTitle": "Begäran har skickats!",
+    "submittedDesc": "Vi återkommer till dig inom kort.",
+    "startLiveChat": "Starta livechatt",
+    "secondsShort": "{{count}}s"
   }
 }

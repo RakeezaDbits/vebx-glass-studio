@@ -29,12 +29,15 @@ import AdminProjects from "./pages/admin/AdminProjects";
 import AdminServices from "./pages/admin/AdminServices";
 import AdminExpertise from "./pages/admin/AdminExpertise";
 import AdminSettings from "./pages/admin/AdminSettings";
+import AdminSocialAutomation from "./pages/admin/AdminSocialAutomation";
 import AdminLiveChat from "./pages/admin/AdminLiveChat";
 import ScrollToTop from "./components/ScrollToTop";
 import Preloader from "./components/Preloader";
 import GlobalPageDecor from "./components/GlobalPageDecor";
 import CursorSnake from "./components/CursorSnake";
 import LiveChatWidget from "./components/LiveChatWidget";
+import SiteVisitTracker from "./components/SiteVisitTracker";
+import GtagRouteListener from "./components/GtagRouteListener";
 
 const queryClient = new QueryClient();
 
@@ -55,6 +58,8 @@ const App = () => (
         <BrowserRouter>
           <Preloader />
           <ScrollToTop />
+          <GtagRouteListener />
+          <SiteVisitTracker />
           <LiveChatGate />
           <Routes>
             <Route path="/" element={<Index />} />
@@ -83,6 +88,7 @@ const App = () => (
               <Route path="services" element={<AdminServices />} />
               <Route path="expertise" element={<AdminExpertise />} />
               <Route path="settings" element={<AdminSettings />} />
+              <Route path="social-automation" element={<AdminSocialAutomation />} />
               <Route path="live-chat" element={<AdminLiveChat />} />
             </Route>
             <Route path="*" element={<NotFound />} />

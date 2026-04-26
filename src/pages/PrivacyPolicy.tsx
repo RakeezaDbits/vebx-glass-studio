@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
                   <p>{t(`privacy.section${n}`)}</p>
                   {n === 6 && (
                     <p className="mt-2">
-                      <strong className="text-foreground">{t("privacy.email")}</strong> support@vebx.run<br />
+                      <strong className="text-foreground">{t("privacy.email")}</strong> support@vebxrun.com<br />
                       <strong className="text-foreground">{t("privacy.address")}</strong>
                       <br />
                       {t("privacy.addressLine1")}

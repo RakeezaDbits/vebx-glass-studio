@@ -2,8 +2,8 @@
  * Central SEO config. Update SITE_URL when deploying to production.
  */
 export const SEO_CONFIG = {
-  /** Full site URL with no trailing slash (e.g. https://vebx.run) */
-  SITE_URL: "https://vebx.run",
+  /** Full site URL with no trailing slash (e.g. https://vebxrun.com) */
+  SITE_URL: "https://vebxrun.com",
   defaultTitle: "vebxrun — Imagine. Innovate. Inspire.",
   defaultDescription:
     "vebxrun delivers cutting-edge mobile apps, web development, game development, metaverse, AI solutions, and digital marketing. Transform your ideas into reality.",

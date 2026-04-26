@@ -7,12 +7,12 @@
     "ourWork": "Portofolio",
     "expertise": "Keahlian",
     "contactUs": "Hubungi Kami",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Layanan Baru",
+    "newBadge": "Baru",
+    "customRequirement": "Dapatkan Penawaran",
+    "designAssistant": "Agen VXR",
+    "projects": "Proyek",
+    "privacy": "Pribadi"
   },
   "hero": {
     "tagline": "Bayangkan. Inovasi. Inspirasi.",
@@ -114,9 +114,9 @@
   "trusted": {
     "tag": "Dipercaya",
     "items": {
-      "mobileWeb": "Mobile & Web",
+      "mobileWeb": "Seluler & Web",
       "metaverseXR": "Metaverse & XR",
-      "enterpriseSaaS": "Enterprise SaaS",
+      "enterpriseSaaS": "SaaS Perusahaan",
       "startupsToFortune": "Startup hingga Fortune 500"
     },
     "partnersTag": "Dipercaya Oleh Pemimpin Industri",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "Hubungi kami.",
     "getInTouch": "Hubungi",
     "copyright": "Hak Cipta 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Jalankan Vebex",
     "stayInLoop": "Tetap Update",
     "stayInLoopDesc": "Berita inovasi digital.",
     "subscribe": "Berlangganan",
@@ -159,13 +159,18 @@
       "title3": "Transformasi Digital",
       "excerpt3": "Membantu bisnis berinovasi."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
+    "linkNewServices": "Layanan Baru",
+    "linkCustomRequirement": "Dapatkan Penawaran",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia",
+    "linkTermsConditions": "Syarat & Ketentuan",
+    "columnGetInTouchTitle": "Hubungi Kami",
+    "columnGetInTouchDesc": "Punya proyek yang sedang Anda pikirkan? Jangkaulah dan mari ciptakan sesuatu yang luar biasa.",
+    "followUsBar": "Ikuti kami untuk pembaruan",
+    "letsConnect": "Mari terhubung"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Jalankan Vebex",
     "explore": "Jelajahi"
   },
   "servicesPage": {
@@ -185,9 +190,9 @@
     "chooseService": "Pilih Layanan",
     "starter": "Starter",
     "starterDesc": "Untuk memulai",
-    "professional": "Professional",
+    "professional": "Profesional",
     "professionalDesc": "Untuk berkembang",
-    "enterprise": "Enterprise",
+    "enterprise": "Perusahaan",
     "enterpriseDesc": "Proyek besar",
     "mostPopular": "Terpopuler",
     "perProject": "/proyek",
@@ -210,7 +215,8 @@
       "12monthsSupport": "12 bulan dukungan",
       "cicd": "CI/CD & DevOps",
       "sla": "Jaminan SLA"
-    }
+    },
+    "customPrice": "Kebiasaan"
   },
   "contact": {
     "tag": "Hubungi",
@@ -230,22 +236,22 @@
     "saturday": "Sabtu",
     "sunday": "Minggu",
     "closed": "Tutup",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "Ayo Bicara - Obrolan Langsung",
+    "liveChatDesc": "Kirim pesan langsung kepada kami di bawah — teks, gambar, audio, atau video. Kami membalasnya di sini.",
+    "monToSun": "Senin – Minggu"
   },
   "expertise": {
     "tag": "Keahlian",
     "heading": "Teknologi",
     "headingHighlight": "Kami",
-    "headingSuffix": "Stack",
+    "headingSuffix": "Tumpukan",
     "desc": "Menguasai alat penting.",
     "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "mobile": "Mobile",
-      "cloudDevops": "Cloud & DevOps",
-      "gameXR": "Game & XR",
+      "frontend": "Bagian depan",
+      "backend": "Bagian belakang",
+      "mobile": "Seluler",
+      "cloudDevops": "Awan & DevOps",
+      "gameXR": "Permainan & XR",
       "dataAI": "Data & AI"
     },
     "industriesTag": "Industri",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Aplikasi Seluler",
+        "desc": "Aplikasi Islami untuk Android dan iOS dengan pengalaman merek ramah lingkungan, waktu sholat, Al-Quran, dan dasbor analitik untuk wawasan keterlibatan."
       },
       "vebxcode": {
-        "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "title": "Kode Vebx",
+        "category": "Aplikasi Web",
+        "desc": "Situs web portofolio lengkap untuk agensi digital — tema gelap, aksen merah, layanan, galeri proyek, pencapaian, blog, dan kontak. Dibangun untuk memamerkan karya dan keahlian mereka."
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "Sinkronisasi Kesehatan",
+        "category": "Kesehatan",
+        "desc": "Portal dokter-pasien untuk janji temu, resep, dan catatan medis. Selaras dengan HIPAA, digunakan oleh klinik untuk penjadwalan dan tindak lanjut."
       },
       "taskflow": {
-        "title": "TaskFlow",
+        "title": "Alur Tugas",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Manajemen tugas tim dengan papan Kanban, tenggat waktu, dan sinkronisasi waktu nyata. Dikerahkan untuk tim dan agensi jarak jauh."
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "MakananDash",
+        "category": "Aplikasi Seluler",
+        "desc": "Penemuan restoran, pemesanan online, dan pelacakan pengiriman langsung. Aplikasi mitra untuk restoran dan aplikasi pengemudi untuk logistik."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Acara",
+        "category": "Aplikasi Web",
+        "desc": "Platform tiket acara dan pemesanan tempat dengan pembayaran, manajemen peserta, dan check-in QR. Digunakan untuk konferensi dan lokakarya."
       },
       "docvault": {
-        "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "title": "Gudang Dokumen",
+        "category": "Perangkat lunak",
+        "desc": "Amankan penyimpanan dokumen dengan tanda tangan elektronik, riwayat versi, dan kontrol kepatuhan. Dibangun untuk tim hukum dan keuangan."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Aplikasi Seluler",
+        "desc": "Aplikasi pelacakan kebugaran dan kesehatan dengan rencana latihan, dasbor kemajuan, dan pencatatan nutrisi. Lintas platform untuk Android dan iOS."
       },
       "cloudflow": {
-        "title": "CloudFlow",
+        "title": "Aliran Awan",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Platform SaaS manajemen proyek dan alur kerja dengan kolaborasi waktu nyata, papan tugas, dan analisis tim untuk tim jarak jauh."
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "Neon Melayang",
+        "category": "Pengembangan Permainan",
+        "desc": "Game balap bergaya arcade dengan estetika neon, kontrol halus, dan papan peringkat. Dibangun dengan Unity untuk berbagai platform."
       },
       "shopverse": {
-        "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "title": "Ayat Toko",
+        "category": "perdagangan elektronik",
+        "desc": "Platform e-commerce modern dengan katalog produk, keranjang, checkout, dan dasbor vendor. Pembayaran dan inventaris terintegrasi."
       },
       "paybridge": {
-        "title": "PayBridge",
+        "title": "jembatan pembayaran",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Dasbor pembayaran dan keuangan untuk bisnis — transaksi, rekonsiliasi, dan pelaporan dengan keamanan tingkat bank."
       },
       "learnhub": {
-        "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "title": "PelajariHub",
+        "category": "Teknologi Pendidikan",
+        "desc": "Platform manajemen pembelajaran dengan kursus, pelacakan kemajuan, kuis, dan sertifikat untuk pendidik dan pelajar."
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "Operasi Cerdas",
+        "category": "Perangkat Lunak & IoT",
+        "desc": "Dasbor operasi bertenaga IoT untuk memantau aset, peringatan, dan analitik. Dibangun untuk fasilitas dan logistik cerdas."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Pemasaran Digital",
+        "desc": "Platform analisis media sosial dan kampanye — metrik keterlibatan, penjadwalan konten, dan pelaporan ROI untuk merek."
       }
     },
     "ctaHeading": "Jadi",
@@ -401,12 +407,12 @@
     "section5": "Akses, koreksi, atau hapus data.",
     "section6Title": "6. Hubungi",
     "section6": "Pertanyaan:",
-    "email": "Email:",
+    "email": "E-mail:",
     "address": "Alamat:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
+    "partnerDisclaimerP1": "Didukung oleh platform yang diakui secara global dan teknologi terdepan di industri yang mendukung dan meningkatkan layanan kami.",
+    "partnerDisclaimerP2": "Mereka dianggap sebagai mitra kami dalam artian kami menggunakan alat dan layanan mereka, tanpa menyiratkan kemitraan formal atau resmi atau afiliasi langsung.",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malaysia"
   },
   "notFound": {
     "title": "404",
@@ -420,7 +426,7 @@
     "webCmsDevelopmentShort": "Manajemen konten",
     "softwareDevelopment": "Pengembangan Software",
     "softwareDevelopmentShort": "Software kustom",
-    "corporateBranding": "Corporate Branding",
+    "corporateBranding": "Merek Perusahaan",
     "corporateBrandingShort": "Identitas merek",
     "onlineDigitalMarketing": "Digital Marketing",
     "onlineDigitalMarketingShort": "Pertumbuhan berbasis data",
@@ -430,722 +436,743 @@
     "3dRenderingServicesShort": "3D fotorealistik",
     "metaverseDevelopment": "Metaverse",
     "metaverseDevelopmentShort": "Dunia digital baru",
-    "gameDevelopment": "Game Development",
+    "gameDevelopment": "Pengembangan Permainan",
     "gameDevelopmentShort": "Game semua platform",
-    "extendedReality": "Extended Reality",
+    "extendedReality": "Realitas yang Diperluas",
     "extendedRealityShort": "AR/VR/MR",
     "socialMediaMarketing": "Social Media",
     "socialMediaMarketingShort": "Strategi sosial"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Baru",
+    "heading": "Baru",
+    "headingHighlight": "Layanan",
+    "subtitle": "Penawaran digital baru — solusi AI, konten, dan media untuk mengembangkan jangkauan Anda.",
+    "getInTouch": "Ayo Bicara"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Kebutuhan Anda",
+    "heading": "Kebiasaan",
+    "headingHighlight": "Persyaratan",
+    "desc": "Beritahu kami apa yang Anda butuhkan. Pilih layanan Anda, preferensi, dan dapatkan perkiraan harga instan.",
+    "yourName": "Nama Anda",
+    "namePlaceholder": "Masukkan nama Anda",
+    "yourEmail": "Email Anda",
+    "emailPlaceholder": "Masukkan email Anda",
+    "yourPhone": "Telepon Anda",
+    "phonePlaceholder": "Masukkan nomor telepon Anda",
+    "step1Title": "Kontak",
+    "step2Title": "Persyaratan",
+    "step3Title": "Teknologi & Rencana",
+    "step4Title": "Referensi & Kirim",
+    "step5Title": "Terima kasih",
+    "thankYouTitle": "Terima kasih!",
+    "thankYouMessage": "Kami telah menerima kebutuhan Anda. Tim kami akan segera menghubungi Anda kembali.",
+    "backToHome": "Kembali ke Rumah",
+    "submitAnother": "Kirim Yang Lain",
+    "nextStep": "Berikutnya",
+    "prevStep": "Kembali",
+    "stepOf": "Langkah {{current}} dari {{total}}",
+    "selectService": "Apa yang kamu butuhkan?",
+    "selectServicePlaceholder": "Pilih layanan",
+    "selectSubType": "Jenis/detail proyek",
+    "selectSubTypePlaceholder": "Pilih opsi",
+    "selectTech": "Teknologi/platform (pilih semua yang sesuai)",
+    "selectTier": "Pilih paket",
+    "priceLabel": "Perkiraan harga",
+    "priceCustom": "Kutipan khusus",
+    "perProject": "per proyek",
+    "referenceLink": "Tautan referensi (misalnya situs web atau aplikasi yang Anda suka)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Gambar referensi (opsional)",
+    "referenceImageHint": "Unggah tangkapan layar atau referensi desain",
+    "developBtn": "Mengembangkan",
+    "talkToTeam": "Bicaralah dengan Tim",
+    "submitSuccess": "Permintaan diajukan. Kami akan segera menghubungi Anda kembali.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "perdagangan elektronik",
+      "social": "Sosial/komunitas",
+      "utility": "Utilitas / produktivitas",
+      "enterprise": "Perusahaan / internal",
+      "onDemand": "Sesuai permintaan / pengiriman",
+      "blog": "Blog / situs konten",
+      "corporate": "Korporat / bisnis",
+      "portfolio": "Portofolio / etalase",
+      "landing": "Halaman arahan / pemasaran",
+      "saas": "produk SaaS",
+      "dashboard": "Dasbor / analitik",
+      "api": "API / ujung belakang",
+      "seo": "SEO & konten",
+      "ppc": "PPC & sosial berbayar",
+      "fullCampaign": "Kampanye penuh",
+      "organic": "Konten organik",
+      "paidSocial": "Sosial berbayar",
+      "influencer": "Kemitraan influencer",
+      "other": "Lainnya"
     },
     "tech": {
-      "react": "React",
+      "react": "Bereaksi",
       "vue": "Vue.js",
-      "angular": "Angular",
-      "next": "Next.js",
-      "nuxt": "Nuxt",
+      "angular": "sudut",
+      "next": "Berikutnya.js",
+      "nuxt": "Selanjutnya",
       "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "aspnet": "ASP.NET/.NET Inti",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Jawa / Musim Semi",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "headless": "CMS tanpa kepala",
+      "flutter": "Berdebar",
+      "reactNative": "Bereaksi Asli",
+      "nativeIos": "iOS asli (Swift)",
+      "nativeAndroid": "Android Asli (Kotlin)",
+      "unity": "Persatuan",
+      "unreal": "Mesin Tidak Nyata",
+      "other": "Lainnya / Tidak yakin"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "Agen VXR",
+    "seoTitle": "Agen VXR",
+    "seoDescription": "Ngobrol dengan asisten AI kami: jelaskan ide Anda dalam pesan, buat gambar referensi desain untuk situs web dan aplikasi, dan lampirkan ke Dapatkan Penawaran — tidak perlu login.",
+    "heroDescription": "Ketik pesan dengan ide Anda — kami menghasilkan gambar referensi untuk desain web dan aplikasi",
+    "widgetAriaLabel": "Buka Agen VXR",
+    "widgetTooltip": "Agen VXR — membuka pesan, mendeskripsikan desain Anda, dan menghasilkan gambar referensi untuk proyek Anda",
+    "drawerAriaLabel": "Ide desain — gambar referensi AI",
+    "drawerSubtitle": "Sama seperti header — pesan + ide gambar",
+    "creditsToday": "{{remaining}} / {{limit}} kredit hari ini",
+    "creditsLoading": "… kredit hari ini",
+    "intro": "Gunakan kotak di bawah ini seperti obrolan: tulis apa yang Anda perlukan dalam satu atau lebih pesan. Kami menghasilkan gambar referensi desain untuk situs web dan aplikasi saja. Lampirkan hasilnya di Dapatkan Penawaran. Tidak diperlukan akun atau login.",
+    "promptPlaceholder": "misalnya Situs web agensi dengan tema gelap, aksen merah, bagian pahlawan modern",
+    "generate": "Hasilkan gambar",
+    "generating": "Menghasilkan…",
+    "generatedReference": "Referensi yang dihasilkan",
+    "generatedImageAlt": "Referensi desain yang dihasilkan AI",
+    "referenceOnly": "Hanya referensi — gunakan di Dapatkan Penawaran untuk melampirkan",
+    "useInQuote": "Gunakan dalam Dapatkan Penawaran",
+    "promptRequired": "Silakan masukkan ide atau perintah desain.",
+    "imageDataMissing": "Tidak dapat memperoleh data gambar.",
+    "generationFailed": "Generasi gagal.",
+    "referenceAttached": "Referensi terlampir. Formulir kutipan pembuka.",
+    "attachFailed": "Gagal melampirkan."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Proyek",
+    "seoDescription": "Proyek untuk dibeli dan disewakan — segera hadir di vebxrun.com.",
+    "tag": "Pasar",
+    "heading": "Beli & sewa",
+    "headingHighlight": "proyek",
+    "heroDesc": "Tujuan pilihan untuk proyek digital yang dapat Anda beli atau lisensikan. Kami sedang mempersiapkan pengalamannya — pantau terus.",
+    "comingSoon": "Proyek untuk dibeli & disewakan segera hadir",
+    "badge": "Segera hadir",
+    "cta": "Hubungi kami",
+    "ctaHint": "Ada pertanyaan? Tim kami siap membantu."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "Agen Teknologi VXR — Obrolan AI & Panggilan Waktu Nyata",
+    "seoDescription": "Ngobrol atau berbincang langsung dengan VXR Tech Agent untuk panduan terkait teknologi pada perangkat lunak, aplikasi, pengembangan web, AI, dan rekayasa produk digital.",
+    "badge": "Agen Teknologi Waktu Nyata",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "Agen Teknologi",
+    "subtitle": "Dapatkan bantuan terkait perangkat lunak, aplikasi, AI, API, cloud, dan rekayasa produk digital melalui obrolan atau panggilan langsung.",
+    "chatTitle": "Agen Teknologi VXR",
+    "chatTag": "Bantuan khusus teknologi",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Ajukan pertanyaan teknologi, seperti desain API, React, AI, atau cloud…",
+    "micStopTitle": "Berhenti merekam",
+    "micStartTitle": "Masukan suara",
+    "emptyResponse": "Saya tidak dapat memberikan tanggapan saat ini. Silakan kirim lagi pertanyaan teknis Anda.",
+    "requestFailed": "Permintaan obrolan AI gagal secara tidak terduga",
+    "micDenied": "Akses mikrofon ditolak",
+    "callEndedStatus": "Panggilan berakhir",
+    "callEndedMessage": "📞 Panggilan berakhir. Anda dapat mengirimkan pertanyaan teknis berikutnya melalui obrolan.",
+    "connecting": "Menghubungkan ke agen waktu nyata…",
+    "liveConnected": "Panggilan teknologi real-time langsung terhubung",
+    "callIntroMessage": "📞 Panggilan suara tersambung. Anda akan mendengar salam singkat terlebih dahulu.",
+    "readyForCall": "Siap untuk panggilan teknologi waktu nyata",
+    "callFailedStatus": "Sambungan panggilan gagal",
+    "callStartFailed": "Panggilan waktu nyata tidak dapat dimulai",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Panggilan suara waktu nyata",
+    "tapEndCall": "Ketuk untuk mengakhiri panggilan",
+    "startCall": "Mulai panggilan waktu nyata",
+    "capabilitiesTitle": "Kemampuan agen",
+    "cap1": "Panduan teknik web, aplikasi, backend, dan AI",
+    "cap2": "Arsitektur, API, database, dan rekomendasi cloud",
+    "cap3": "Saran debug, kinerja, skalabilitas, dan keamanan",
+    "cap4": "UX produk digital untuk alur kerja teknis",
+    "cap5": "Interaksi suara waktu nyata dengan intro saat panggilan dimulai",
+    "quickPromptsTitle": "Perintah cepat",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Tumpukan teknologi terbaik untuk SaaS MVP?",
+      "Bagaimana cara mendesain REST API yang dapat diskalakan?",
+      "Bagaimana cara mengoptimalkan kecepatan aplikasi React?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Halo! Saya **Agen Teknologi VXR**. Saya hanya membantu topik terkait teknologi seperti pengembangan web, aplikasi, AI, API, cloud, UX untuk produk digital, debugging, dan arsitektur. Ajukan pertanyaan teknis Anda untuk memulai."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Aplikasi Seluler",
+      "shortDesc": "Aplikasi asli & lintas platform yang memikat pengguna",
+      "longDesc": "Kami membangun aplikasi seluler yang disukai pengguna. Dari iOS asli dan Android hingga solusi lintas platform dengan React Native dan Flutter, kami menghadirkan aplikasi berperforma tinggi dan dapat diskalakan yang selaras dengan tujuan bisnis Anda. Tim kami menangani segalanya mulai dari desain UX hingga penerapan App Store.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Pengembangan asli iOS & Android",
+        "Bereaksi Asli & Flutter",
+        "Desain UI/UX",
+        "Penerapan App Store & Play Store",
+        "Pemeliharaan & pembaruan"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "Lintas platform",
+          "desc": "Satu basis kode untuk iOS dan Android jika masuk akal."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Pertunjukan",
+          "desc": "Dioptimalkan untuk kecepatan, baterai, dan kemampuan offline."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Keamanan",
+          "desc": "Praktik terbaik untuk data dan kepatuhan (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Pengembangan CMS Web",
+      "shortDesc": "Solusi manajemen konten yang kuat",
+      "longDesc": "Platform web khusus dan sistem manajemen konten yang memberi Anda kendali. Kami membangun dengan WordPress, CMS tanpa kepala, dan backend khusus sehingga tim Anda dapat mempublikasikan dan mengelola konten tanpa bergantung pada pengembang untuk setiap pembaruan.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress & CMS tanpa kepala",
+        "Panel admin khusus",
+        "Arsitektur yang mengutamakan API",
+        "Multi-situs & multibahasa",
+        "Struktur ramah SEO"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Pembaruan konten yang mudah",
+          "desc": "Dasbor intuitif untuk tim non-teknis."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Dapat diskalakan",
+          "desc": "Dirancang untuk tumbuh bersama lalu lintas dan konten Anda."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integrasi",
+          "desc": "Hubungkan ke CRM, analitik, dan alat pemasaran."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Pengembangan Perangkat Lunak",
+      "shortDesc": "Perangkat lunak khusus yang disesuaikan dengan kebutuhan Anda",
+      "longDesc": "Dari produk SaaS hingga sistem perusahaan, kami membuat perangkat lunak khusus yang sesuai dengan alur kerja Anda. Kami menggunakan tumpukan modern dan pengiriman yang tangkas sehingga Anda mendapatkan solusi yang dapat diskalakan dan berkembang seiring dengan bisnis Anda.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS & aplikasi web",
+        "Sistem perusahaan",
+        "API & integrasi",
+        "Penerapan cloud (AWS, Azure, GCP)",
+        "Pengiriman tangkas"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Dibuat khusus",
+          "desc": "Tidak ada kompromi langsung — dibuat untuk kebutuhan Anda."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Tumpukan modern",
+          "desc": "React, Node, Python, .NET, dan teknologi yang telah terbukti."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Dukungan berkelanjutan",
+          "desc": "Pemeliharaan, pembaruan, dan evolusi fitur."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Merek Perusahaan",
+      "shortDesc": "Identitas merek berani yang menonjol",
+      "longDesc": "Kami menciptakan identitas merek yang mengkomunikasikan siapa Anda dan beresonansi dengan audiens Anda. Dari desain logo dan pedoman visual hingga strategi merek lengkap, kami membantu Anda menonjol di pasar Anda.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo & identitas visual",
+        "Pedoman merek",
+        "Strategi merek",
+        "Desain jaminan",
+        "Kit aset digital"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Identitas yang berbeda",
+          "desc": "Logo yang mudah diingat dan bahasa visual yang konsisten."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Dipimpin oleh strategi",
+          "desc": "Pilihan merek terkait dengan bisnis dan audiens Anda."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Siap digunakan",
+          "desc": "Aset dan pedoman untuk semua titik kontak."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Pemasaran Digital Daring",
+      "shortDesc": "Strategi pertumbuhan berbasis data",
+      "longDesc": "Kembangkan jangkauan dan konversi Anda dengan SEO, PPC, pemasaran konten, dan pengoptimalan konversi. Kami fokus pada hasil yang terukur dan pertumbuhan berkelanjutan, bukan metrik yang sia-sia.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO & strategi konten",
+        "PPC & sosial berbayar",
+        "Pengoptimalan konversi",
+        "Analisis & pelaporan",
+        "Otomatisasi pemasaran"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Berdasarkan data",
+          "desc": "Keputusan berdasarkan analitik dan pengujian."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Corong penuh",
+          "desc": "Kampanye kesadaran, pertimbangan, dan konversi."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Pelaporan yang transparan",
+          "desc": "Metrik yang jelas dan tinjauan rutin."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D & Animasi",
+      "shortDesc": "Visual menakjubkan yang menceritakan kisah Anda",
+      "longDesc": "Grafik gerak, video penjelasan, dan animasi sinematik yang menarik dan menjelaskan. Kami memproduksi konten 2D dan 3D untuk iklan, demo produk, dan penceritaan merek di semua platform.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Grafik gerak",
+        "Video penjelasan",
+        "Animasi 2D & 3D",
+        "Animasi karakter",
+        "Konten sosial & iklan"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Cerita-pertama",
+          "desc": "Setiap bingkai mendukung pesan dan merek Anda."
         },
         {
           "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "desc": "Dari klip sosial pendek hingga penjelasan panjang."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "Sesuai merek",
+          "desc": "Gaya yang konsisten dengan identitas visual Anda."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "Layanan Rendering 3D",
+      "shortDesc": "Visualisasi 3D fotorealistik",
+      "longDesc": "Render 3D berkualitas tinggi untuk arsitektur, visualisasi produk, dan pemasaran. Kami menghadirkan gambar dan animasi fotorealistik yang menampilkan produk dan ruang Anda sebelum ada di dunia nyata.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Visualisasi arsitektur",
+        "Rendering produk",
+        "CGI untuk pemasaran",
+        "Interior & eksterior",
+        "Animasi & panduan"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealistik",
+          "desc": "Pencahayaan dan material yang terlihat nyata."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Industri apa pun",
+          "desc": "Real estat, ritel, otomotif, dan banyak lagi."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Iterasi cepat",
+          "desc": "Perubahan cepat tanpa pemotretan ulang fisik."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Pengembangan Metaverse",
+      "shortDesc": "Dunia digital imersif generasi berikutnya",
+      "longDesc": "Kami merancang dan membangun pengalaman metaverse: ruang virtual, kembaran digital, dan lingkungan imersif untuk acara, ritel, dan komunitas. Dari konsep hingga penerapan pada platform terkemuka.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Ruang & dunia virtual",
+        "Si kembar digital",
+        "Integrasi VR/AR",
+        "Pengalaman multi-pengguna",
+        "Pengalaman yang siap untuk Web3"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Melingkupi",
+          "desc": "Ruang yang terasa nyata dan menarik."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Dapat diskalakan",
+          "desc": "Arsitektur yang mendukung banyak pengguna secara bersamaan."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Siap bermerek",
+          "desc": "Lingkungan khusus yang mencerminkan merek Anda."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Pengembangan Permainan",
+      "shortDesc": "Game menarik di semua platform",
+      "longDesc": "Dari game seluler hingga PC dan konsol, kami membuat game yang disukai para pemain. Kami menggunakan Unity dan Unreal Engine untuk membuat IP orisinal, game serius, dan pengalaman bermerek dengan fokus pada gameplay dan penyempurnaan.",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Seluler, PC & konsol",
+        "Persatuan & Mesin Tidak Nyata",
+        "Desain & mekanik game",
+        "Multipemain & operasi langsung",
+        "Porting & pengoptimalan"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Produksi penuh",
+          "desc": "Dukungan desain, seni, kode, dan peluncuran."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Mesin yang terbukti",
+          "desc": "Unity dan Unreal untuk kualitas dan kinerja."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Pasca peluncuran",
+          "desc": "Pembaruan, acara, dan fitur komunitas."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Realitas yang Diperluas",
+      "shortDesc": "Pengalaman AR/VR/MR yang mentransformasikan",
+      "longDesc": "Pengalaman AR, VR, dan realitas campuran untuk pelatihan, pemasaran, dan visualisasi produk. Kami membuat aplikasi yang berjalan di headset dan perangkat seluler untuk melatih karyawan, memamerkan produk, atau membuat kampanye yang mendalam.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "Aplikasi AR (ponsel & kacamata)",
+        "Pelatihan & simulasi VR",
+        "Pengalaman realitas campuran",
+        "Tur virtual",
+        "Desain agnostik perangkat keras"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Kasus penggunaan praktis",
+          "desc": "Pelatihan, penjualan, dan pemasaran yang mendorong ROI."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Multi-perangkat",
+          "desc": "Berfungsi pada ponsel, tablet, dan headset XR."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Diuji oleh pengguna",
+          "desc": "Kenyamanan dan kegunaan adalah intinya."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Pemasaran Media Sosial",
+      "shortDesc": "Kehadiran & keterlibatan sosial yang strategis",
+      "longDesc": "Kami membangun dan mengelola kehadiran sosial Anda dengan strategi, konten, dan manajemen komunitas. Dari konten organik hingga kemitraan influencer dan media sosial berbayar, kami membantu Anda terhubung dengan audiens yang tepat.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Strategi & pembuatan konten",
+        "Manajemen komunitas",
+        "Kemitraan influencer",
+        "Kampanye sosial berbayar",
+        "Analisis & pelaporan"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Suara merek",
+          "desc": "Konten yang terdengar seperti Anda dan beresonansi."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Masyarakat",
+          "desc": "Keterlibatan yang membangun loyalitas dan advokasi."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Berbayar + organik",
+          "desc": "Pendekatan terpadu untuk jangkauan maksimal."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "Solusi AI",
+      "shortDesc": "Chatbots, otomatisasi, dan alur kerja cerdas yang didukung oleh AI untuk menyederhanakan operasi dan melibatkan pengguna.",
+      "longDesc": "Kami membangun solusi bertenaga AI yang mengubah cara Anda bekerja dan terlibat. Mulai dari chatbot khusus dan asisten virtual hingga otomatisasi proses dan alur kerja cerdas, kami membantu Anda memanfaatkan AI untuk menghemat waktu, meningkatkan dukungan, dan memberikan pengalaman yang lebih baik. Solusi kami terintegrasi dengan alat yang Anda miliki dan dirancang untuk keandalan di dunia nyata.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Chatbot khusus & asisten virtual",
+        "Otomatisasi proses & alur kerja",
+        "Integrasi & penyesuaian LLM",
+        "Integrasi API",
+        "Analisis & pengoptimalan"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Disesuaikan dengan Anda",
+          "desc": "AI dibangun berdasarkan alur kerja dan suara merek Anda."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Aman & terukur",
+          "desc": "Siap untuk perusahaan dengan penanganan data yang jelas."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Perbaikan berkelanjutan",
+          "desc": "Kami mengulangi berdasarkan penggunaan dan masukan."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "Desain & Penerbitan Ebook",
+      "shortDesc": "Tata letak ebook profesional, desain sampul, dan distribusi untuk Kindle, Apple Books, dan platform lainnya.",
+      "longDesc": "Dari manuskrip hingga etalase — kami menangani desain, pemformatan, dan distribusi eBook sehingga buku Anda terlihat dan terjual seperti seorang profesional. Kami membuat tata letak yang responsif, sampul yang menarik, dan metadata yang diberi peringkat. Baik Anda seorang penulis atau penerbit, kami menayangkan eBook Anda secara langsung di Kindle, Apple Books, Kobo, dan banyak lagi.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Tata letak & tipografi interior",
+        "Desain sampul",
+        "Pemformatan EPUB & Kindle",
+        "Distribusi multi-platform",
+        "Metadata & SEO untuk buku"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Desain yang mengutamakan pembaca",
+          "desc": "Tata letak yang berfungsi pada setiap perangkat dan ukuran font."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Siap disimpan",
+          "desc": "Sesuai dengan Kindle, Apple, dan pengecer lainnya."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Perputaran cepat",
+          "desc": "Hapus garis waktu dari draf hingga publikasi."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Majalah Digital",
+      "shortDesc": "Desain majalah digital yang menakjubkan dan tata letak interaktif untuk merek dan penerbit.",
+      "longDesc": "Kami merancang dan membangun majalah digital yang disukai pembaca. Dari tata letak editorial dan elemen interaktif hingga pengalaman berlangganan dan membaca di web dan aplikasi, kami menciptakan publikasi yang menonjol. Sempurna untuk merek, penerbit, dan siapa saja yang mengubah konten menjadi produk digital yang canggih.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Desain tata letak editorial",
+        "Elemen interaktif",
+        "Penerbitan web & aplikasi",
+        "Aliran langganan",
+        "Analisis & keterlibatan"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Kualitas editorial",
+          "desc": "Tata letak yang terasa premium dan mudah dibaca."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Menarik",
+          "desc": "Interaktivitas yang membuat pembaca terus menelusuri."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Siap untuk monetisasi",
+          "desc": "Paywall dan keanggotaan sudah terpasang."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "Koran Elektronik",
+      "shortDesc": "Desain surat kabar dan portal berita digital dengan tata letak responsif dan pembaruan konten yang mudah.",
+      "longDesc": "Kami membangun surat kabar digital dan portal berita yang mengedepankan cerita Anda. Tata letak responsif, pemuatan cepat, dan integrasi CMS sederhana berarti tim Anda dapat mempublikasikan dan memperbarui tanpa kerumitan teknis. Kami fokus pada keterbacaan, aksesibilitas, dan pengalaman yang berfungsi di setiap perangkat.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Tata letak berita responsif",
+        "Integrasi CMS",
+        "Pemuatan cepat & SEO",
+        "Berita & bagian terkini",
+        "Slot iklan & sponsor"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Ramah pembaca",
+          "desc": "Hapus hierarki dan tipografi untuk membaca panjang."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Mudah untuk diperbarui",
+          "desc": "Non-pengembang dapat mempublikasikan dan mengelola konten."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Siap menerima pendapatan",
+          "desc": "Unit iklan dan opsi berlangganan disertakan."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Produksi Podcast",
+      "shortDesc": "Merekam, mengedit, menampilkan catatan, dan mendistribusikan podcast yang terdengar profesional.",
+      "longDesc": "Kami membawa podcast Anda dari ide ke telinga. Tim kami menangani pengaturan rekaman, pengeditan, pencampuran, menampilkan catatan, dan distribusi sehingga Anda dapat fokus pada percakapan. Kami menghadirkan audio berkualitas siaran dan branding yang konsisten sehingga acara Anda terdengar sebagus yang terdengar di kepala Anda.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Merekam & mengedit",
+        "Mencampur & menguasai",
+        "Tampilkan catatan & transkrip",
+        "Karya seni & merek",
+        "Distribusi & RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Kualitas siaran",
+          "desc": "Audio bersih yang terdengar profesional."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Penjaga penjara",
+          "desc": "Kami menangani seluruh jalur pipa sehingga Anda tidak perlu melakukannya."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Merek yang konsisten",
+          "desc": "Karya seni dan catatan yang cocok dengan acara Anda."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografis & Data Yaitu",
+      "shortDesc": "Infografis dan visualisasi data yang jelas dan menarik sehingga info kompleks mudah dibagikan.",
+      "longDesc": "Kami mengubah data dan ide menjadi visual yang dapat dibagikan. Dari infografis statis hingga dasbor dan laporan interaktif, kami membuat informasi kompleks menjadi jelas dan menarik. Ideal untuk laporan, presentasi, konten sosial, dan komunikasi internal yang perlu dipertahankan.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Infografis statis",
+        "Data interaktif yaitu",
+        "Laporan & presentasi",
+        "Format siap sosial",
+        "Desain yang selaras dengan merek"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Kejelasan dulu",
+          "desc": "Desain yang membuat pesannya jelas."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Dapat dibagikan",
+          "desc": "Format yang berfungsi di media sosial dan di deck."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Tepat",
+          "desc": "Data yaitu yang menghormati angka."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Pengembangan Chatbot",
+      "shortDesc": "Chatbot khusus untuk dukungan, penjualan, dan keterlibatan — terintegrasi dengan alat Anda yang sudah ada.",
+      "longDesc": "Kami membangun chatbot yang benar-benar membantu. Baik untuk dukungan pelanggan, kualifikasi prospek, atau alur kerja internal, bot kami dirancang berdasarkan proses Anda dan terintegrasi dengan CRM, meja bantuan, dan aplikasi Anda. Kami menggunakan AI dan desain percakapan yang telah terbukti sehingga pengguna mendapatkan jawaban dengan cepat dan tim Anda merasa lega.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Desain percakapan",
+        "Integrasi CRM & meja bantuan",
+        "Multi-saluran (web, WhatsApp, dll.)",
+        "Analisis & pelatihan",
+        "Penyerahan kepada manusia"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Sesuai dengan tumpukan Anda",
+          "desc": "Bekerja dengan alat yang sudah Anda gunakan."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Penyerahan manusia",
+          "desc": "Eskalasi lancar ketika bot tidak dapat membantu."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Meningkat seiring waktu",
+          "desc": "Kami menyetel berdasarkan percakapan nyata."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Copywriting & Konten",
+      "shortDesc": "Salinan ramah SEO, posting blog, dan konten pemasaran yang mengkonversi dan memberi peringkat.",
+      "longDesc": "Kami menulis salinan yang mengubah dan konten yang diberi peringkat. Dari halaman arahan dan salinan produk hingga seri blog dan konten SEO, kami mencocokkan suara dan tujuan Anda. Setiap bagian dibuat untuk kejelasan, persuasi, dan penelusuran — sehingga Anda mendapatkan lalu lintas dan konversi.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Halaman arahan & salinan produk",
+        "Konten blog & SEO",
+        "Urutan email",
+        "Salinan iklan & sosial",
+        "Strategi konten"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Suara sesuai merek",
+          "desc": "Salin yang terdengar seperti Anda dan audiens Anda."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO bawaan",
+          "desc": "Konten terstruktur untuk pencarian dan berbagi."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Berfokus pada konversi",
+          "desc": "Setiap kata dipilih untuk menggerakkan jarum."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Konten Sosial & YouTube",
+      "shortDesc": "Reel, cerita, carousel, video YouTube, dan kampanye untuk Facebook, Instagram, TikTok, dan YouTube.",
+      "longDesc": "Kami membuat konten yang dapat dilihat dan dibagikan di Facebook, Instagram, TikTok, dan YouTube. Dari Reel dan Cerita hingga carousel, skrip YouTube, gambar mini, dan pengeditan video — kami memproduksi konten sesuai merek untuk semua platform utama. Kami menggabungkan arahan kreatif dengan praktik terbaik platform sehingga umpan dan saluran Anda terlihat profesional dan metrik Anda bergerak.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Reel, Cerita & bentuk pendek (IG, TikTok, FB)",
+        "Skrip YouTube, thumbnail & pengeditan",
+        "Korsel & postingan statis",
+        "Konsep kampanye & kalender konten",
+        "Salin, hashtag & SEO untuk sosial"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Semua platform",
+          "desc": "Facebook, Instagram, TikTok, dan YouTube di satu tempat."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Tampilan yang konsisten",
+          "desc": "Templat dan panduan gaya untuk merek Anda."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Siap untuk diposting",
+          "desc": "Aset akhir dan keterangan dikirimkan sesuai jadwal."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Melayani",
+    "offerBefore": "Apa yang kita",
+    "offerHighlight": "menawarkan",
+    "whyBefore": "Mengapa bekerja dengan",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Siap untuk",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Mari diskusikan proyek Anda dan bangun sesuatu yang hebat bersama.",
+    "ctaButton": "Ayo Bicara",
+    "backAllServices": "← Semua Layanan"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Rumah",
+    "homeDescription": "vebxrun — Aplikasi seluler, pengembangan web, pengembangan game, metaverse, solusi AI & pemasaran digital. Membayangkan. Berinovasi. Mengilhami.",
+    "servicesTitle": "Layanan",
+    "servicesDescription": "Aplikasi seluler, pengembangan web & CMS, pengembangan perangkat lunak, branding perusahaan, pemasaran digital, animasi 2D/3D, metaverse, pengembangan game & banyak lagi. Jelajahi layanan vebxrun.",
+    "pricingTitle": "Harga",
+    "pricingDescription": "Penetapan harga yang transparan untuk aplikasi seluler, pengembangan web, dan solusi digital. Paket Pemula, Profesional & Perusahaan. Dapatkan penawaran dari vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "On line",
+    "closeChat": "Tutup obrolan",
+    "openChat": "Ngobrol dengan kami",
+    "skipToLiveChat": "Lewati ke Obrolan Langsung →",
+    "nameLabel": "Nama",
+    "emailLabel": "E-mail",
+    "whatsappLabel": "Ada apa",
+    "serviceLabel": "Melayani",
+    "sending": "Mengirim…",
+    "orLiveChat": "atau mulai obrolan langsung",
+    "toastNameEmailRequired": "Nama dan email diperlukan",
+    "toastRequestSent": "Permintaan terkirim!",
+    "toastSubmitFailed": "Gagal mengirimkan. Coba lagi.",
+    "submittedTitle": "Permintaan Terkirim!",
+    "submittedDesc": "Kami akan segera menghubungi Anda kembali.",
+    "startLiveChat": "Mulai Obrolan Langsung",
+    "secondsShort": "{{count}}s"
   }
 }

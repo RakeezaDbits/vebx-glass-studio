@@ -1,4 +1,5 @@
 import { useState, useRef, type CSSProperties } from "react";
+import { useTranslation } from "react-i18next";
 import { MessageCircle, X, ArrowRight, User, Mail, Phone, Briefcase } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import LiveChatPanel from "@/components/LiveChatPanel";
 import { requirementServices } from "@/data/customRequirement";
+import { getTranslatedRequirementServiceTitle } from "@/lib/serviceCatalogI18n";
 import { postQuote } from "@/lib/api";
 import { toast } from "sonner";
 
@@ -20,6 +22,7 @@ const CHAT_PANEL_STYLE: CSSProperties = {
 type WidgetView = "form" | "chat" | "submitted";
 
 export default function LiveChatWidget() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [view, setView] = useState<WidgetView>("form");
   const [flipping, setFlipping] = useState(false);
@@ -44,7 +47,7 @@ export default function LiveChatWidget() {
   const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim() || !email.trim()) {
-      toast.error("Name and email are required");
+      toast.error(t("liveChatWidget.toastNameEmailRequired"));
       return;
     }
     setSubmitting(true);
@@ -56,7 +59,7 @@ export default function LiveChatWidget() {
         serviceSlug: serviceSlug || "general",
         techIds: [],
       });
-      toast.success("Request sent!");
+      toast.success(t("liveChatWidget.toastRequestSent"));
       setView("submitted");
       // Start 60s countdown
       setCountdown(60);
@@ -70,7 +73,7 @@ export default function LiveChatWidget() {
         });
       }, 1000);
     } catch {
-      toast.error("Failed to submit. Try again.");
+      toast.error(t("liveChatWidget.toastSubmitFailed"));
     } finally {
       setSubmitting(false);
     }
@@ -93,7 +96,7 @@ export default function LiveChatWidget() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
               </span>
-              <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">Online</span>
+              <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">{t("liveChatWidget.online")}</span>
             </div>
           )}
           <button
@@ -107,7 +110,7 @@ export default function LiveChatWidget() {
               "border-glow gradient-red text-primary-foreground shadow-lg transition-transform hover:scale-[1.05] active:scale-[0.98]",
               open && "ring-2 ring-primary/60"
             )}
-            aria-label={open ? "Close" : "Chat with us"}
+            aria-label={open ? t("liveChatWidget.closeChat") : t("liveChatWidget.openChat")}
           >
             <span className="relative z-10 drop-shadow-sm">
               {open ? <X className="h-7 w-7" /> : <MessageCircle className="h-7 w-7" strokeWidth={2} />}
@@ -132,13 +135,13 @@ export default function LiveChatWidget() {
               <div className="flex h-full flex-col overflow-hidden rounded-[1.35rem] border border-white/[0.09] bg-gradient-to-b from-black/80 via-black/70 to-black/80 backdrop-blur-2xl sm:rounded-3xl border-glow">
                 <header className="shrink-0 border-b border-white/[0.08] px-4 py-3 sm:px-5">
                   <div className="flex items-center justify-between">
-                    <h3 className="font-display text-base font-semibold text-foreground">Get a Quote</h3>
+                    <h3 className="font-display text-base font-semibold text-foreground">{t("nav.customRequirement")}</h3>
                     <button
                       type="button"
                       onClick={() => flipTo("chat")}
                       className="text-xs font-medium text-primary hover:underline underline-offset-2"
                     >
-                      Skip to Live Chat →
+                      {t("liveChatWidget.skipToLiveChat")}
                     </button>
                   </div>
                 </header>
@@ -146,53 +149,53 @@ export default function LiveChatWidget() {
                 <form onSubmit={handleFormSubmit} className="flex min-h-0 flex-1 flex-col overflow-y-auto px-4 py-4 sm:px-5 space-y-3">
                   <div className="space-y-1.5">
                     <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
-                      <User className="h-3 w-3" /> Name <span className="text-primary">*</span>
+                      <User className="h-3 w-3" /> {t("liveChatWidget.nameLabel")} <span className="text-primary">*</span>
                     </Label>
                     <Input
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="Your name"
+                      placeholder={t("customReq.namePlaceholder")}
                       className="h-9 bg-white/5 border-white/10 text-sm"
                       required
                     />
                   </div>
                   <div className="space-y-1.5">
                     <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
-                      <Mail className="h-3 w-3" /> Email <span className="text-primary">*</span>
+                      <Mail className="h-3 w-3" /> {t("liveChatWidget.emailLabel")} <span className="text-primary">*</span>
                     </Label>
                     <Input
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="you@example.com"
+                      placeholder={t("customReq.emailPlaceholder")}
                       className="h-9 bg-white/5 border-white/10 text-sm"
                       required
                     />
                   </div>
                   <div className="space-y-1.5">
                     <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
-                      <Phone className="h-3 w-3" /> WhatsApp
+                      <Phone className="h-3 w-3" /> {t("liveChatWidget.whatsappLabel")}
                     </Label>
                     <Input
                       type="tel"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+1 234 567 8900"
+                      placeholder={t("customReq.phonePlaceholder")}
                       className="h-9 bg-white/5 border-white/10 text-sm"
                     />
                   </div>
                   <div className="space-y-1.5">
                     <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
-                      <Briefcase className="h-3 w-3" /> Service
+                      <Briefcase className="h-3 w-3" /> {t("liveChatWidget.serviceLabel")}
                     </Label>
                     <Select value={serviceSlug} onValueChange={setServiceSlug}>
                       <SelectTrigger className="h-9 bg-white/5 border-white/10 text-sm">
-                        <SelectValue placeholder="Select a service" />
+                        <SelectValue placeholder={t("customReq.selectServicePlaceholder")} />
                       </SelectTrigger>
                       <SelectContent className="bg-black/95 border-white/10 backdrop-blur-xl max-h-60">
                         {requirementServices.map((s) => (
                           <SelectItem key={s.slug} value={s.slug} className="text-sm text-foreground hover:bg-white/10">
-                            {s.title}
+                            {getTranslatedRequirementServiceTitle(t, s.slug, s.source, s.title)}
                           </SelectItem>
                         ))}
                       </SelectContent>
@@ -207,14 +210,15 @@ export default function LiveChatWidget() {
                       className="w-full gap-2"
                       disabled={submitting}
                     >
-                      {submitting ? "Sending…" : "Develop"} <ArrowRight className="h-4 w-4" />
+                      {submitting ? t("liveChatWidget.sending") : t("customReq.developBtn")}{" "}
+                      <ArrowRight className="h-4 w-4" />
                     </Button>
                     <button
                       type="button"
                       onClick={() => flipTo("chat")}
                       className="text-xs text-center text-muted-foreground hover:text-foreground transition-colors"
                     >
-                      or start a live chat instead
+                      {t("liveChatWidget.orLiveChat")}
                     </button>
                   </div>
                 </form>
@@ -227,11 +231,12 @@ export default function LiveChatWidget() {
                 <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
                   <MessageCircle className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="font-display text-lg font-bold text-foreground">Request Sent!</h3>
+                <h3 className="font-display text-lg font-bold text-foreground">{t("liveChatWidget.submittedTitle")}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We'll get back to you shortly. {countdown > 0 && (
+                  {t("liveChatWidget.submittedDesc")}{" "}
+                  {countdown > 0 && (
                     <span className="block mt-2 text-primary font-semibold text-lg tabular-nums">
-                      {countdown}s
+                      {t("liveChatWidget.secondsShort", { count: countdown })}
                     </span>
                   )}
                 </p>
@@ -241,7 +246,7 @@ export default function LiveChatWidget() {
                   className="gap-2"
                   onClick={() => flipTo("chat")}
                 >
-                  <MessageCircle className="h-4 w-4" /> Start Live Chat
+                  <MessageCircle className="h-4 w-4" /> {t("liveChatWidget.startLiveChat")}
                 </Button>
               </div>
             )}

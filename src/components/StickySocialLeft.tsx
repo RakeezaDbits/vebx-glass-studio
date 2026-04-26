@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Mail, href: "mailto:support@vebx.run", label: "Email" },
+  { icon: Mail, href: "mailto:support@vebxrun.com", label: "Email" },
   { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
   { icon: Phone, href: "tel:+1234567890", label: "Phone" },
 ];

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:all": "npx --yes concurrently -n web,api -c cyan,magenta \"npm run dev\" \"npm run server\"",
-    "build": "vite build",
+    "build": "vite build && node scripts/sync-api-config.mjs",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "sync-locales": "node scripts/sync-locales-from-en.mjs",
     "merge-catalog": "node scripts/merge-service-catalog-into-en.mjs",

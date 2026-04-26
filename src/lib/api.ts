@@ -1,7 +1,77 @@
-const API_BASE = import.meta.env.VITE_API_URL || "";
+/** No trailing slash; avoids `https://host.com/` + `/api` double-slash issues. */
+const API_BASE = (() => {
+  const raw = String(import.meta.env.VITE_API_URL ?? "").trim();
+  if (!raw) return "";
+  return raw.replace(/\/+$/, "");
+})();
 
-function getUrl(path: string) {
-  return `${API_BASE}${path}`;
+/** Vite `base` (e.g. `/` or `/subdir/`). Same-origin `/api` must sit under this path on some hosts. */
+function viteAppBasePath(): string {
+  let b = String(import.meta.env.BASE_URL || "/").trim();
+  if (!b || b === "/") return "";
+  b = b.replace(/\/+$/, "");
+  if (!b.startsWith("/")) b = `/${b}`;
+  return b;
+}
+
+/**
+ * Optional override from `api-config.json` (same folder as `index.html`, respecting Vite `base`).
+ * Use when the marketing site is static-only but Node runs on another URL (subdomain, Hostinger Node URL, etc.).
+ * Example: { "apiBase": "https://api.vebxrun.com" } — no trailing slash, no /api suffix.
+ */
+let runtimeApiBase: string | null | undefined = undefined;
+
+function apiConfigJsonUrl(): string {
+  const sub = viteAppBasePath();
+  if (typeof window === "undefined") return sub ? `${sub}/api-config.json` : "/api-config.json";
+  if (sub) return `${window.location.origin}${sub}/api-config.json`;
+  return "/api-config.json";
+}
+
+export async function loadRuntimeApiConfig(): Promise<void> {
+  if (runtimeApiBase !== undefined) return;
+  if (typeof window === "undefined") {
+    runtimeApiBase = null;
+    return;
+  }
+  try {
+    const r = await fetch(apiConfigJsonUrl(), { cache: "no-store" });
+    if (!r.ok) {
+      runtimeApiBase = null;
+      return;
+    }
+    const j = (await r.json()) as { apiBase?: unknown };
+    const b = typeof j.apiBase === "string" ? j.apiBase.trim().replace(/\/+$/, "") : "";
+    runtimeApiBase = b || null;
+  } catch {
+    runtimeApiBase = null;
+  }
+}
+
+function effectiveApiBase(): string {
+  if (runtimeApiBase === undefined || runtimeApiBase === null) return API_BASE;
+  return runtimeApiBase;
+}
+
+export function getUrl(path: string) {
+  const p = path.startsWith("/") ? path : `/${path}`;
+  const root = effectiveApiBase();
+  if (root) return `${root}${p}`;
+
+  const sub = viteAppBasePath();
+  if (sub && typeof window !== "undefined") {
+    return `${window.location.origin}${sub}${p}`;
+  }
+  return p;
+}
+
+/** For support / env debugging (dashboard error messages). */
+export function getResolvedApiBase(): string {
+  const b = effectiveApiBase();
+  if (b) return b;
+  const sub = viteAppBasePath();
+  if (sub) return `(same origin + Vite base ${sub})`;
+  return "(same origin — relative /api/…)";
 }
 
 /** URL for visitor live-chat SSE (same-origin or VITE_API_URL). */
@@ -165,7 +235,107 @@ export function clearAdminToken() {
   localStorage.removeItem("admin_token");
 }
 
+const VISITOR_KEY = "vebx_visitor_id";
+
+export function getOrCreateVisitorId(): string {
+  if (typeof localStorage === "undefined") return "anon";
+  let id = localStorage.getItem(VISITOR_KEY);
+  if (!id || !/^[a-zA-Z0-9_-]{8,40}$/.test(id)) {
+    const raw =
+      typeof crypto !== "undefined" && crypto.randomUUID
+        ? crypto.randomUUID()
+        : `v_${Date.now()}_${Math.random().toString(36).slice(2, 14)}`;
+    id = raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40);
+    if (id.length < 8) id = `v_${Date.now()}`;
+    localStorage.setItem(VISITOR_KEY, id);
+  }
+  return id;
+}
+
+/** Fire-and-forget page view for analytics (ignored if API unreachable). */
+export function postSiteVisit(path: string): void {
+  const visitorKey = getOrCreateVisitorId();
+  void fetch(getUrl("/api/analytics/visit"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ path: path || "/", visitorKey }),
+  }).catch(() => {});
+}
+
+export type AdminAnalyticsSummary = {
+  days: number;
+  totals: { pageViews: number; uniqueVisitors: number };
+  byDay: { date: string; pageViews: number; uniqueVisitors: number }[];
+  countries: { code: string; count: number; percent: number }[];
+  /** `ga4` | `self_hosted` from API. */
+  dataSource?: "ga4" | "self_hosted";
+};
+
+function isAnalyticsSummaryBody(x: unknown): x is AdminAnalyticsSummary {
+  if (!x || typeof x !== "object") return false;
+  const o = x as Record<string, unknown>;
+  return (
+    typeof o.days === "number" &&
+    o.totals !== null &&
+    typeof o.totals === "object" &&
+    Array.isArray(o.byDay) &&
+    Array.isArray(o.countries)
+  );
+}
+
+export async function fetchAdminAnalytics(days = 30): Promise<AdminAnalyticsSummary> {
+  const q = `?days=${days}`;
+  const paths = [
+    `/api/health/analytics${q}`,
+    `/api/summary${q}`,
+    `/api/analytics-dashboard${q}`,
+    `/api/analytics/dashboard${q}`,
+    `/api/admin/analytics/summary${q}`,
+  ];
+  const attempts: string[] = [];
+
+  for (const p of paths) {
+    const fullUrl = getUrl(p);
+    attempts.push(`${fullUrl} → …`);
+    const res = await adminFetch(p);
+    const ct = (res.headers.get("content-type") || "").toLowerCase();
+
+    if (!res.ok) {
+      attempts[attempts.length - 1] = `${fullUrl} → HTTP ${res.status}`;
+      const err = await res.json().catch(() => ({}));
+      const serverMsg = (err as { error?: string }).error?.trim();
+      if (res.status === 404) continue;
+      throw new Error(serverMsg || `Analytics failed (HTTP ${res.status}). API: ${getResolvedApiBase()}`);
+    }
+
+    if (!ct.includes("application/json")) {
+      attempts[attempts.length - 1] = `${fullUrl} → not JSON (${ct.slice(0, 40) || "no content-type"})`;
+      continue;
+    }
+
+    let data: unknown;
+    try {
+      data = await res.json();
+    } catch {
+      attempts[attempts.length - 1] = `${fullUrl} → invalid JSON`;
+      continue;
+    }
+
+    if (isAnalyticsSummaryBody(data)) {
+      return data;
+    }
+    attempts[attempts.length - 1] = `${fullUrl} → wrong JSON shape`;
+  }
+
+  const healthTry = getUrl("/api/health");
+  const analyticsTry = getUrl(`/api/health/analytics${q}`);
+  throw new Error(
+    `Analytics failed (all paths 404). If "${healthTry}" shows {"ok":true} but dashboard still fails, your host is probably not forwarding every /api/* path to Node — redeploy the latest server code (it adds ${analyticsTry} as a fallback), or fix nginx so the full URI reaches Express (see server/nginx.example.conf). Other fixes: set VITE_API_URL in root .env and rebuild, or set apiBase in api-config.json. Tried: ${attempts.join(" | ")}. Base: ${getResolvedApiBase()}`
+  );
+}
+
 export async function adminFetch(path: string, options: RequestInit = {}) {
+  await loadRuntimeApiConfig();
   const token = getAdminToken();
   const res = await fetch(getUrl(path), {
     ...options,
@@ -185,6 +355,7 @@ export async function adminFetch(path: string, options: RequestInit = {}) {
 
 /** POST multipart (do not set Content-Type; browser sets boundary). */
 export async function adminFetchForm(path: string, formData: FormData): Promise<Response> {
+  await loadRuntimeApiConfig();
   const token = getAdminToken();
   const res = await fetch(getUrl(path), {
     method: "POST",
@@ -202,6 +373,7 @@ export async function adminFetchForm(path: string, formData: FormData): Promise<
 }
 
 export async function adminFetchBlob(path: string): Promise<Blob> {
+  await loadRuntimeApiConfig();
   const token = getAdminToken();
   const res = await fetch(getUrl(path), {
     headers: {
@@ -254,7 +426,7 @@ function throwLiveChatHttpError(
     throw new Error(
       import.meta.env.DEV
         ? "Chat API unreachable (502/503). Start npm run server (port 3001) or npm run dev:all."
-        : "Chat is temporarily unavailable. Try again in a moment or email support@vebx.run."
+        : "Chat is temporarily unavailable. Try again in a moment or email support@vebxrun.com."
     );
   }
   if (import.meta.env.DEV && res.status === 500 && !String(raw).trim() && opts.devEmpty500) {
@@ -312,7 +484,7 @@ export async function fetchLiveChatMessages(token: string, afterId: number): Pro
     throw new Error(
       import.meta.env.DEV
         ? "Chat server unreachable. Start the API (npm run server) with npm run dev:all, or set VITE_API_URL."
-        : "Chat is temporarily unavailable. Try again in a moment or email support@vebx.run."
+        : "Chat is temporarily unavailable. Try again in a moment or email support@vebxrun.com."
     );
   }
   const raw = await res.text();

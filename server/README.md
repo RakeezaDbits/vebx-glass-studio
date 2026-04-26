@@ -41,11 +41,11 @@ Backend for form submissions, admin panel, and email notifications.
    ```bash
    curl -X POST http://localhost:3001/api/admin/seed
    ```
-   Default login: **admin@vebx.run** / **admin123**. Change password in production.
+   Default login: **admin@vebxrun.com** / **admin123**. Change password in production.
 
 ## API
 
-- `POST /api/contact` – Contact form (saves to DB, emails to support@vebx.run, aimanmaqsoodahmed@gmail.com, rakeezasattar53@gmail.com)
+- `POST /api/contact` – Contact form (saves to DB, emails to support@vebxrun.com, aimanmaqsoodahmed@gmail.com, rakeezasattar53@gmail.com)
 - `POST /api/quote` – Get a Quote form (saves to DB, same email list)
 - `GET /api/settings` – Public site settings (contact email, address, etc.)
 - `POST /api/admin/seed` – Create first admin (no auth)

@@ -19,6 +19,8 @@ import {
   finalizeLiveChatUpload,
 } from "../utils/liveChatFiles.js";
 import { liveChatNotifySubscribe, liveChatNotifyPublish } from "../utils/liveChatNotify.js";
+import { sendAdminAnalyticsSummary } from "../utils/sendAdminAnalyticsSummary.js";
+import socialAutomationAdminRoutes from "./socialAutomationAdmin.js";
 
 ensureLiveChatUploadDirs();
 
@@ -31,7 +33,7 @@ router.post("/seed", async (req, res) => {
     if (rows.length > 0) {
       return res.status(400).json({ error: "Admin already exists" });
     }
-    const email = "admin@vebx.run";
+    const email = "admin@vebxrun.com";
     const password = "admin123";
     const hash = await bcrypt.hash(password, 10);
     await db.execute("INSERT INTO admin_users (email, password_hash, name) VALUES (?, ?, ?)", [
@@ -39,7 +41,7 @@ router.post("/seed", async (req, res) => {
       hash,
       "Admin",
     ]);
-    res.json({ message: "Admin created. Email: admin@vebx.run, Password: admin123" });
+    res.json({ message: "Admin created. Email: admin@vebxrun.com, Password: admin123" });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Seed failed" });
@@ -49,11 +51,14 @@ router.post("/seed", async (req, res) => {
 // Login
 router.post("/login", async (req, res) => {
   try {
-    const { email, password } = req.body;
+    const email = String(req.body?.email ?? "")
+      .trim()
+      .toLowerCase();
+    const password = String(req.body?.password ?? "");
     if (!email || !password) {
       return res.status(400).json({ error: "Email and password required" });
     }
-    const [rows] = await db.execute("SELECT id, email, password_hash FROM admin_users WHERE email = ?", [
+    const [rows] = await db.execute("SELECT id, email, password_hash FROM admin_users WHERE LOWER(TRIM(email)) = ?", [
       email,
     ]);
     if (rows.length === 0) {
@@ -113,6 +118,8 @@ router.get("/livechat/sessions/:id/events", authMiddlewareBearerOrQuery, async (
 
 // All routes below require auth
 router.use(authMiddleware);
+
+router.use("/social-automation", socialAutomationAdminRoutes);
 
 // Contact submissions list
 router.get("/contacts", async (req, res) => {
@@ -460,5 +467,8 @@ router.get("/livechat/file/:messageId", async (req, res) => {
     res.status(500).end();
   }
 });
+
+/** Site traffic (alias: same handler as GET /api/analytics/dashboard). */
+router.get("/analytics/summary", sendAdminAnalyticsSummary);
 
 export default router;

@@ -9,6 +9,7 @@ import MediaBlackOverlay from "@/components/MediaBlackOverlay";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { servicesData } from "@/data/services";
 import { cn } from "@/lib/utils";
+import { getTranslatedService } from "@/lib/serviceCatalogI18n";
 
 export default function Pricing() {
   const { t } = useTranslation();
@@ -23,9 +24,8 @@ export default function Pricing() {
   return (
     <PageLayout
       seo={{
-        title: "Pricing",
-        description:
-          "Transparent pricing for mobile apps, web development, and digital solutions. Starter, Professional & Enterprise plans. Get a quote from vebxrun.",
+        title: t("seo.pricingTitle"),
+        description: t("seo.pricingDescription"),
         canonicalPath: "/pricing",
       }}
     >
@@ -51,7 +51,7 @@ export default function Pricing() {
               <TabsList className="w-full flex flex-wrap h-auto gap-2 p-0 bg-transparent border-0 justify-center">
                 {servicesData.map((service) => (
                   <TabsTrigger key={service.slug} value={service.slug} className={cn("rounded-xl px-4 py-2.5 text-sm font-medium transition-all","data-[state=inactive]:bg-white/5 data-[state=inactive]:text-muted-foreground data-[state=inactive]:hover:bg-white/10","data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg data-[state=active]:ring-0")}>
-                    {service.title}
+                    {getTranslatedService(t, service).title}
                   </TabsTrigger>
                 ))}
               </TabsList>
@@ -65,7 +65,10 @@ export default function Pricing() {
                       <h3 className="font-display text-xl font-bold text-foreground mb-2">{t(plan.nameKey)}</h3>
                       <p className="text-sm text-muted-foreground mb-6">{t(plan.descKey)}</p>
                       <div className="mb-8">
-                        <span className="text-4xl font-display font-bold text-gradient-red">{plan.price === "Custom" ? "" : "$"}{plan.price}</span>
+                        <span className="text-4xl font-display font-bold text-gradient-red">
+                          {plan.price === "Custom" ? "" : "$"}
+                          {plan.price === "Custom" ? t("pricing.customPrice") : plan.price}
+                        </span>
                         {plan.price !== "Custom" && <span className="text-muted-foreground text-sm ml-1">{t("pricing.perProject")}</span>}
                       </div>
                       <ul className="space-y-3 mb-8">

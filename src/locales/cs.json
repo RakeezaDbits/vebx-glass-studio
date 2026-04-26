@@ -7,12 +7,12 @@
     "ourWork": "Portfolio",
     "expertise": "Odbornost",
     "contactUs": "Kontakt",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Nové služby",
+    "newBadge": "Nový",
+    "customRequirement": "Získejte cenovou nabídku",
+    "designAssistant": "VXR agent",
+    "projects": "Projekty",
+    "privacy": "Soukromí"
   },
   "hero": {
     "tagline": "Představ si. Inovuj. Inspiruj.",
@@ -115,7 +115,7 @@
     "tag": "Důvěryhodní",
     "items": {
       "mobileWeb": "Mobil & Web",
-      "metaverseXR": "Metaverse & XR",
+      "metaverseXR": "Metaverse a XR",
       "enterpriseSaaS": "Enterprise SaaS",
       "startupsToFortune": "Startupy až Fortune 500"
     },
@@ -159,10 +159,15 @@
       "title3": "Digitální transformace",
       "excerpt3": "Pomáháme firmám inovovat."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "Nové služby",
+    "linkCustomRequirement": "Získejte cenovou nabídku",
+    "addressLine1": "Karáčí, Pákistán",
+    "addressLine2": "Cyber ​​Jaya, Malajsie",
+    "linkTermsConditions": "Smluvní podmínky",
+    "columnGetInTouchTitle": "Kontaktujte nás",
+    "columnGetInTouchDesc": "Máte na mysli projekt? Oslovte a pojďme vytvořit něco mimořádného.",
+    "followUsBar": "Sledujte nás pro aktualizace",
+    "letsConnect": "Pojďme se spojit"
   },
   "common": {
     "vebexRun": "Vebex Run",
@@ -183,11 +188,11 @@
     "headingHighlight": "ceny",
     "desc": "Vyberte službu a plán.",
     "chooseService": "Vyberte službu",
-    "starter": "Starter",
+    "starter": "Startér",
     "starterDesc": "Pro začátek",
-    "professional": "Professional",
+    "professional": "Profesionální",
     "professionalDesc": "Pro růst",
-    "enterprise": "Enterprise",
+    "enterprise": "Podnik",
     "enterpriseDesc": "Velké projekty",
     "mostPopular": "Nejpopulárnější",
     "perProject": "/projekt",
@@ -208,9 +213,10 @@
       "dedicatedPM": "Dedikovaný PM",
       "unlimitedRevisions": "Neomezené úpravy",
       "12monthsSupport": "12 měsíců podpory",
-      "cicd": "CI/CD & DevOps",
+      "cicd": "CI/CD a DevOps",
       "sla": "SLA garance"
-    }
+    },
+    "customPrice": "Zvyk"
   },
   "contact": {
     "tag": "Kontakt",
@@ -231,8 +237,8 @@
     "sunday": "Neděle",
     "closed": "Zavřeno",
     "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChatDesc": "Napište nám živě níže – text, obrázky, zvuk nebo video. Odpovídáme zde.",
+    "monToSun": "pondělí – neděle"
   },
   "expertise": {
     "tag": "Odbornost",
@@ -244,9 +250,9 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "mobile": "Mobil",
-      "cloudDevops": "Cloud & DevOps",
+      "cloudDevops": "Cloud a DevOps",
       "gameXR": "Hry & XR",
-      "dataAI": "Data & AI"
+      "dataAI": "Data a AI"
     },
     "industriesTag": "Odvětví",
     "industriesHeading": "Odvětví která",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobilní aplikace",
+        "desc": "Islámská aplikace pro Android a iOS se zážitkem se zelenou značkou, modlitebními časy, koránem a analytickým panelem pro statistiky zapojení."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Webová aplikace",
+        "desc": "Web s kompletním portfoliem pro digitální agenturu – tmavé téma, červené akcenty, služby, galerie projektů, úspěchy, blog a kontakt. Postaveno tak, aby předvedlo jejich práci a odborné znalosti."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Zdravotnictví",
+        "desc": "Portál lékař-pacient pro schůzky, recepty a lékařské záznamy. Zarovnané HIPAA, používané klinikami pro plánování a sledování."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Správa týmových úkolů s kanbanovými deskami, termíny a synchronizace v reálném čase. Nasazeno pro vzdálené týmy a agentury."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Mobilní aplikace",
+        "desc": "Objevování restaurací, online objednávání a živé sledování doručení. Partnerská aplikace pro restaurace a aplikace pro řidiče pro logistiku."
       },
       "eventify": {
         "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "category": "Webová aplikace",
+        "desc": "Platforma pro vstupenky na akce a rezervace míst s platbou, správou účastníků a QR check-inem. Používá se pro konference a workshopy."
       },
       "docvault": {
         "title": "DocVault",
         "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "desc": "Bezpečné úložiště dokumentů s elektronickým podpisem, historií verzí a kontrolami souladu. Vytvořeno pro právní a finanční týmy."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobilní aplikace",
+        "desc": "Aplikace pro sledování kondice a zdraví s cvičebními plány, řídicími panely pokroku a protokolováním výživy. Multiplatformní pro Android a iOS."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Řízení projektů a workflow SaaS platforma se spoluprací v reálném čase, tabulemi úkolů a týmovou analýzou pro vzdálené týmy."
       },
       "neondrift": {
         "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "category": "Vývoj her",
+        "desc": "Závodní hra ve stylu arkády s neonovou estetikou, plynulým ovládáním a žebříčky. Postaveno s Unity pro více platforem."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "Elektronický obchod",
+        "desc": "Moderní platforma elektronického obchodu s produktovým katalogem, košíkem, pokladnou a řídicím panelem dodavatele. Integrované platby a inventář."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Panel plateb a financí pro podniky – transakce, odsouhlasení a výkaznictví s bankovním zabezpečením."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Platforma pro řízení výuky s kurzy, sledováním pokroku, kvízy a certifikáty pro pedagogy a studenty."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Software a IoT",
+        "desc": "Operační panel založený na IoT pro monitorování aktiv, výstrah a analýz. Vytvořeno pro chytrá zařízení a logistiku."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Digitální marketing",
+        "desc": "Platforma pro analýzu sociálních médií a kampaní – metriky zapojení, plánování obsahu a výkazy návratnosti investic pro značky."
       }
     },
     "ctaHeading": "Buďte naším dalším",
@@ -403,10 +409,10 @@
     "section6": "Dotazy:",
     "email": "E-mail:",
     "address": "Adresa:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "Poháněno celosvětově uznávanými platformami a špičkovými technologiemi, které podporují a vylepšují naše služby.",
+    "partnerDisclaimerP2": "Jsou považováni za naše partnery v tom smyslu, že využíváme jejich nástroje a služby, aniž bychom naznačovali jakékoli formální nebo oficiální partnerství nebo přímé přidružení.",
+    "addressLine1": "Karáčí, Pákistán",
+    "addressLine2": "Cyber ​​Jaya, Malajsie"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "Strategická přítomnost"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Nový",
+    "heading": "Nový",
+    "headingHighlight": "Služby",
+    "subtitle": "Nové digitální nabídky – AI, obsah a mediální řešení pro rozšíření vašeho dosahu.",
+    "getInTouch": "Pojďme si promluvit"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Váš požadavek",
+    "heading": "Zvyk",
+    "headingHighlight": "Požadavek",
+    "desc": "Řekněte nám, co potřebujete. Vyberte si službu, preference a získejte okamžitý odhad ceny.",
+    "yourName": "Vaše jméno",
+    "namePlaceholder": "Zadejte své jméno",
+    "yourEmail": "Váš email",
+    "emailPlaceholder": "Zadejte svůj email",
+    "yourPhone": "Váš telefon",
+    "phonePlaceholder": "Zadejte své telefonní číslo",
+    "step1Title": "Kontakt",
+    "step2Title": "Požadavek",
+    "step3Title": "Technologie a plán",
+    "step4Title": "Reference & Odeslat",
+    "step5Title": "Děkuju",
+    "thankYouTitle": "Děkuju!",
+    "thankYouMessage": "Obdrželi jsme váš požadavek. Náš tým se vám brzy ozve.",
+    "backToHome": "Zpět na domovskou stránku",
+    "submitAnother": "Odeslat další",
+    "nextStep": "Další",
+    "prevStep": "Zadní",
+    "stepOf": "Krok {{current}} z {{total}}",
+    "selectService": "co potřebuješ",
+    "selectServicePlaceholder": "Vyberte službu",
+    "selectSubType": "Typ projektu / podrobnosti",
+    "selectSubTypePlaceholder": "Vyberte možnost",
+    "selectTech": "Technologie / platforma (vyberte všechny platné)",
+    "selectTier": "Vyberte plán",
+    "priceLabel": "Odhadovaná cena",
+    "priceCustom": "Nabídka na míru",
+    "perProject": "na projekt",
+    "referenceLink": "Referenční odkaz (např. web nebo aplikace, která se vám líbí)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Referenční obrázek (volitelné)",
+    "referenceImageHint": "Nahrajte snímek obrazovky nebo odkaz na design",
+    "developBtn": "Rozvíjet",
+    "talkToTeam": "Promluvte si s týmem",
+    "submitSuccess": "Žádost odeslána. Brzy se vám ozveme.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
+      "ecommerce": "Elektronický obchod",
+      "social": "Sociální / komunitní",
+      "utility": "Užitečnost / produktivita",
+      "enterprise": "Podnik / interní",
+      "onDemand": "Na vyžádání / dodání",
+      "blog": "Blog / obsahová stránka",
+      "corporate": "Firemní / obchodní",
+      "portfolio": "Portfolio / vitrína",
+      "landing": "Vstupní / marketingová stránka",
+      "saas": "Produkt SaaS",
+      "dashboard": "Dashboard / analytika",
       "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "seo": "SEO a obsah",
+      "ppc": "PPC a placené sociální sítě",
+      "fullCampaign": "Kompletní kampaň",
+      "organic": "Organický obsah",
+      "paidSocial": "Placené sociální",
+      "influencer": "Influencer partnerství",
+      "other": "Ostatní"
     },
     "tech": {
-      "react": "React",
+      "react": "Reagovat",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Hranatý",
       "next": "Next.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / jaro",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
+      "headless": "Bezhlavý CMS",
+      "flutter": "Třepetání",
+      "reactNative": "Reagovat Native",
+      "nativeIos": "Nativní iOS (Swift)",
+      "nativeAndroid": "Nativní Android (Kotlin)",
+      "unity": "Jednota",
       "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "other": "Jiné / Nejsem si jistý"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR agent",
+    "seoTitle": "VXR agent",
+    "seoDescription": "Chatujte s naším asistentem umělé inteligence: popište svůj nápad ve zprávách, vygenerujte referenční obrázky designu pro webové stránky a aplikace a připojte je k získání nabídky – není nutné přihlášení.",
+    "heroDescription": "Napište zprávy se svým nápadem – vygenerujeme referenční obrázky pro návrhy webů a aplikací",
+    "widgetAriaLabel": "Otevřete VXR Agent",
+    "widgetTooltip": "VXR Agent — otevřete zprávy, popište svůj návrh a vygenerujte referenční obrázky pro svůj projekt",
+    "drawerAriaLabel": "Designový nápad — referenční obrázek AI",
+    "drawerSubtitle": "Stejné jako záhlaví – zprávy + nápady na obrázky",
+    "creditsToday": "{{remaining}} / {{limit}} kreditů dnes",
+    "creditsLoading": "… kredity dnes",
+    "intro": "Použijte níže uvedené pole jako chat: napište, co potřebujete, do jedné nebo více zpráv. Vytváříme referenční obrázky designu pouze pro webové stránky a aplikace. Výsledek přiložte do Získat cenovou nabídku. Není vyžadován žádný účet ani přihlášení.",
+    "promptPlaceholder": "např. Web agentury s tmavým motivem, červenými akcenty, sekce moderních hrdinů",
+    "generate": "Vygenerovat obrázek",
+    "generating": "Generování…",
+    "generatedReference": "Generovaná reference",
+    "generatedImageAlt": "Reference designu generovaného umělou inteligencí",
+    "referenceOnly": "Pouze reference – použijte k připojení v části Získat cenovou nabídku",
+    "useInQuote": "Použijte v Získejte cenovou nabídku",
+    "promptRequired": "Zadejte nápad na design nebo výzvu.",
+    "imageDataMissing": "Nepodařilo se získat data obrázku.",
+    "generationFailed": "Generování se nezdařilo.",
+    "referenceAttached": "Odkaz přiložen. Otevírací formulář nabídky.",
+    "attachFailed": "Připojení se nezdařilo."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projekty",
+    "seoDescription": "Projekty ke koupi a pronájmu — již brzy na vebxrun.com.",
+    "tag": "Tržiště",
+    "heading": "Koupit a pronajmout",
+    "headingHighlight": "projekty",
+    "heroDesc": "Kurátorský cíl pro digitální projekty, který si můžete zakoupit nebo licencovat. Připravujeme zážitek – zůstaňte naladěni.",
+    "comingSoon": "Projekty ke koupi a pronájmu již brzy",
+    "badge": "Již brzy",
+    "cta": "Ozvěte se",
+    "ctaHint": "Máte otázky? Náš tým vám pomůže."
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoTitle": "VXR Tech Agent — AI Chat a volání v reálném čase",
+    "seoDescription": "Chatujte nebo mluvte živě s VXR Tech Agent pro technologické poradenství týkající se softwaru, aplikací, vývoje webu, AI a digitálního produktového inženýrství.",
+    "badge": "Technologický agent v reálném čase",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
+    "titleHighlight": "technický agent",
+    "subtitle": "Získejte pomoc se softwarem, aplikacemi, umělou inteligencí, rozhraními API, cloudem a inženýrstvím digitálních produktů prostřednictvím chatu nebo živého hovoru.",
     "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "chatTag": "Pouze technická pomoc",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Zeptejte se na technickou otázku, jako je design API, React, AI nebo cloud…",
+    "micStopTitle": "Zastavit nahrávání",
+    "micStartTitle": "Hlasový vstup",
+    "emptyResponse": "Momentálně se mi nepodařilo vygenerovat odpověď. Zašlete prosím svůj technický dotaz znovu.",
+    "requestFailed": "Žádost o chat AI se neočekávaně nezdařila",
+    "micDenied": "Přístup k mikrofonu odepřen",
+    "callEndedStatus": "Hovor ukončen",
+    "callEndedMessage": "📞 Hovor ukončen. Svou další technickou otázku můžete poslat do chatu.",
+    "connecting": "Připojování k agentovi v reálném čase…",
+    "liveConnected": "Živý technický hovor v reálném čase připojen",
+    "callIntroMessage": "📞 Hlasový hovor je připojen. Nejprve uslyšíte krátký pozdrav.",
+    "readyForCall": "Připraveno na technický hovor v reálném čase",
+    "callFailedStatus": "Spojení hovoru se nezdařilo",
+    "callStartFailed": "Hovor v reálném čase nelze zahájit",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Hlasový hovor v reálném čase",
+    "tapEndCall": "Klepnutím ukončíte hovor",
+    "startCall": "Zahájit hovor v reálném čase",
+    "capabilitiesTitle": "Schopnosti agenta",
+    "cap1": "Inženýrské pokyny pro web, aplikace, backend a AI",
+    "cap2": "Doporučení týkající se architektury, rozhraní API, databází a cloudu",
+    "cap3": "Rady pro ladění, výkon, škálovatelnost a zabezpečení",
+    "cap4": "Digitální produkt UX pro technické pracovní postupy",
+    "cap5": "Hlasová interakce v reálném čase s úvodem při zahájení hovoru",
+    "quickPromptsTitle": "Rychlé výzvy",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Nejlepší technologický stack pro SaaS MVP?",
+      "Jak bych měl navrhnout škálovatelné REST API?",
+      "Jak mohu optimalizovat rychlost aplikace React?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Ahoj! Jsem **VXR Tech Agent**. Pomáhám pouze s tématy souvisejícími s technologiemi, jako je vývoj webu, aplikace, AI, API, cloud, UX pro digitální produkty, ladění a architektura. Chcete-li začít, položte technickou otázku."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobilní aplikace",
+      "shortDesc": "Nativní a multiplatformní aplikace, které zaujmou uživatele",
+      "longDesc": "Vytváříme mobilní aplikace, které uživatelé milují. Od nativních iOS a Android až po multiplatformní řešení s React Native a Flutter dodáváme výkonné, škálovatelné aplikace, které jsou v souladu s vašimi obchodními cíli. Náš tým se stará o vše od návrhu UX po nasazení App Store.",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
+        "Nativní vývoj pro iOS a Android",
+        "Reagovat Native & Flutter",
         "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "Nasazení App Store a Play Store",
+        "Údržba a aktualizace"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "Víceplatformní",
+          "desc": "Jedna kódová základna pro iOS a Android, když to dává smysl."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Výkon",
+          "desc": "Optimalizováno pro rychlost, baterii a možnost offline."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Zabezpečení",
+          "desc": "Nejlepší postupy pro data a shodu (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Vývoj webových CMS",
+      "shortDesc": "Výkonná řešení pro správu obsahu",
+      "longDesc": "Vlastní webové platformy a systémy pro správu obsahu, které vám dají kontrolu. Vytváříme s WordPress, bezhlavým CMS a vlastními backendy, takže váš tým může publikovat a spravovat obsah, aniž by byl u každé aktualizace závislý na vývojářích.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress a bezhlavý CMS",
+        "Vlastní administrační panely",
+        "Architektura API-first",
+        "Vícemístný a vícejazyčný",
+        "Struktura přátelská k SEO"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Snadné aktualizace obsahu",
+          "desc": "Intuitivní řídicí panely pro netechnické týmy."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Škálovatelné",
+          "desc": "Navrženo tak, aby rostlo s vaší návštěvností a obsahem."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integrace",
+          "desc": "Připojte se k CRM, analytickým a marketingovým nástrojům."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Vývoj softwaru",
+      "shortDesc": "Vlastní software šitý na míru vašim potřebám",
+      "longDesc": "Od produktů SaaS po podnikové systémy vytváříme vlastní software, který vyhovuje vašim pracovním postupům. Používáme moderní zásobníky a agilní doručování, takže získáte řešení, které se škáluje a vyvíjí s vaším podnikáním.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS a webové aplikace",
+        "Podnikové systémy",
+        "API a integrace",
+        "Cloudové nasazení (AWS, Azure, GCP)",
+        "Agilní doručení"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Na zakázku",
+          "desc": "Žádný hotový kompromis – vytvořený pro vaše potřeby."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Moderní zásobník",
+          "desc": "React, Node, Python, .NET a osvědčené technologie."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Průběžná podpora",
+          "desc": "Údržba, aktualizace a vývoj funkcí."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Firemní branding",
+      "shortDesc": "Odvážné identity značek, které vynikají",
+      "longDesc": "Vytváříme identity značek, které komunikují, kdo jste, a rezonují s vaším publikem. Od návrhu loga a vizuálních pokynů až po kompletní strategii značky vám pomůžeme vyniknout na vašem trhu.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo a vizuální identita",
+        "Pokyny pro značku",
+        "Strategie značky",
+        "Design kolaterálu",
+        "Digitální sady aktiv"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Odlišná identita",
+          "desc": "Zapamatovatelná loga a konzistentní vizuální jazyk."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Strategicky vedené",
+          "desc": "Volby značky spojené s vaší firmou a publikem."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Připraveno k použití",
+          "desc": "Podklady a pokyny pro všechny kontaktní body."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Online digitální marketing",
+      "shortDesc": "Strategie růstu založené na datech",
+      "longDesc": "Zvyšte svůj dosah a konverze pomocí SEO, PPC, obsahového marketingu a optimalizace konverzí. Zaměřujeme se na měřitelné výsledky a udržitelný růst, nikoli na metriky marnivosti.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO a obsahová strategie",
+        "PPC a placené sociální sítě",
+        "Optimalizace konverzí",
+        "Analýzy a přehledy",
+        "Marketingová automatizace"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Na základě dat",
+          "desc": "Rozhodnutí založená na analýze a testování."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Celý trychtýř",
+          "desc": "Kampaně na zvyšování povědomí, zvažování a konverze."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Transparentní reporting",
+          "desc": "Jasné metriky a pravidelné kontroly."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D a animace",
+      "shortDesc": "Ohromující vizuální prvky, které vyprávějí váš příběh",
+      "longDesc": "Pohyblivá grafika, vysvětlující videa a filmové animace, které zaujmou a vysvětlí. Vyrábíme 2D a 3D obsah pro reklamy, ukázky produktů a vyprávění příběhů značky na všech platformách.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Pohybová grafika",
+        "Vysvětlující videa",
+        "2D a 3D animace",
+        "Animace postav",
+        "Sociální a reklamní obsah"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Příběh-první",
+          "desc": "Každý rám podporuje vaše sdělení a značku."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Víceformátový",
+          "desc": "Od krátkých sociálních klipů po dlouhé vysvětlovače."
         },
         {
           "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "desc": "Konzistentní styl s vaší vizuální identitou."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "Služby 3D vykreslování",
+      "shortDesc": "Fotorealistické 3D vizualizace",
+      "longDesc": "Vysoce kvalitní 3D rendery pro architekturu, vizualizaci produktů a marketing. Dodáváme fotorealistické snímky a animace, které předvedou vaše produkty a prostory dříve, než budou existovat v reálném světě.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Architektonická vizualizace",
+        "Vykreslování produktu",
+        "CGI pro marketing",
+        "Interiér a exteriér",
+        "Animace a návody"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealistické",
+          "desc": "Osvětlení a materiály, které vypadají jako skutečné."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Jakékoli odvětví",
+          "desc": "Nemovitosti, maloobchod, automobilový průmysl a další."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Rychlé iterace",
+          "desc": "Rychlé změny bez fyzického přestřelování."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Vývoj metaverze",
+      "shortDesc": "Pohlcující digitální světy nové generace",
+      "longDesc": "Navrhujeme a budujeme metaverzní zážitky: virtuální prostory, digitální dvojčata a pohlcující prostředí pro události, maloobchod a komunitu. Od konceptu po nasazení na předních platformách.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Virtuální prostory a světy",
+        "Digitální dvojčata",
+        "Integrace VR/AR",
+        "Zážitky pro více uživatelů",
+        "Zkušenosti připravené pro Web3"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Pohlcující",
+          "desc": "Prostory, které působí opravdově a poutavě."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Škálovatelné",
+          "desc": "Architektura, která podporuje mnoho souběžných uživatelů."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Připraveno pro značku",
+          "desc": "Vlastní prostředí, která odrážejí vaši značku."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Vývoj her",
+      "shortDesc": "Poutavé hry na všech platformách",
+      "longDesc": "Od mobilních her po PC a konzole vytváříme hry, které hráči milují. Používáme Unity a Unreal Engine k vytváření originálních IP, seriózních her a značkových zážitků se zaměřením na hratelnost a dokonalost.",
       "features": [
-        "Mobile, PC & console",
+        "Mobil, PC a konzole",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Herní design a mechanika",
+        "Multiplayer a živé operace",
+        "Portování a optimalizace"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Plná výroba",
+          "desc": "Podpora designu, umění, kódu a spuštění."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Osvědčené motory",
+          "desc": "Unity a Unreal pro kvalitu a výkon."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Po spuštění",
+          "desc": "Aktualizace, události a funkce komunity."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Rozšířená realita",
+      "shortDesc": "AR/VR/MR zážitky, které se transformují",
+      "longDesc": "AR, VR a smíšená realita pro školení, marketing a vizualizaci produktů. Vytváříme aplikace, které běží na náhlavních soupravách a mobilních zařízeních, abychom školili zaměstnance, předváděli produkty nebo vytvářeli pohlcující kampaně.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "Aplikace pro AR (mobily a brýle)",
+        "VR trénink a simulace",
+        "Zkušenosti se smíšenou realitou",
+        "Virtuální prohlídky",
+        "Hardwarově agnostický design"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Praktické případy použití",
+          "desc": "Školení, prodej a marketing, které zvyšují návratnost investic."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Více zařízení",
+          "desc": "Funguje na telefonech, tabletech a náhlavních soupravách XR."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Uživatelsky testováno",
+          "desc": "Pohodlí a použitelnost v jádru."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Marketing na sociálních sítích",
+      "shortDesc": "Strategická sociální přítomnost a angažovanost",
+      "longDesc": "Budujeme a spravujeme vaši sociální přítomnost pomocí strategie, obsahu a správy komunity. Pomůžeme vám spojit se se správným publikem, od organického obsahu po partnerství s influencery a placené sociální sítě.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Obsahová strategie a tvorba",
+        "Řízení komunity",
+        "Influencer partnerství",
+        "Placené sociální kampaně",
+        "Analýzy a přehledy"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Hlas značky",
+          "desc": "Obsah, který zní jako vy a rezonuje."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "Společenství",
+          "desc": "Zapojení, které buduje loajalitu a obhajobu."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Placené + organické",
+          "desc": "Integrovaný přístup pro maximální dosah."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI řešení",
+      "shortDesc": "Chatboti, automatizace a inteligentní pracovní postupy poháněné umělou inteligencí pro zefektivnění operací a zapojení uživatelů.",
+      "longDesc": "Vytváříme řešení založená na umělé inteligenci, která mění způsob vaší práce a zapojení. Od vlastních chatbotů a virtuálních asistentů po automatizaci procesů a inteligentní pracovní postupy vám pomůžeme využít umělou inteligenci k úspoře času, škálování podpory a poskytování lepších zážitků. Naše řešení se integrují s vašimi stávajícími nástroji a jsou navržena pro spolehlivost v reálném světě.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Vlastní chatboti a virtuální asistenti",
+        "Automatizace procesů a pracovní postupy",
+        "Integrace a doladění LLM",
+        "Integrace API",
+        "Analytika a optimalizace"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Na míru vám",
+          "desc": "AI postavená na vašich pracovních postupech a hlasu značky."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Bezpečné a škálovatelné",
+          "desc": "Připraveno pro podniky s jasnou manipulací s daty."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Pokračující zlepšování",
+          "desc": "Iterujeme na základě použití a zpětné vazby."
         }
       ]
     },
     "ebook": {
       "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "shortDesc": "Profesionální rozvržení e-knih, design obálky a distribuce pro Kindle, Apple Books a další platformy.",
+      "longDesc": "Od rukopisu až po výklad – postaráme se o návrh, formátování a distribuci e-knih, aby vaše kniha vypadala a prodávala se jako profesionál. Vytváříme responzivní rozvržení, poutavé obaly a metadata, která se řadí. Ať už jste autor nebo vydavatel, vaši e-knihu zveřejníme na Kindle, Apple Books, Kobo a dalších.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Vnitřní uspořádání a typografie",
+        "Design obalu",
+        "Formátování EPUB a Kindle",
+        "Multiplatformní distribuce",
+        "Metadata a SEO pro knihy"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Design pro čtenáře",
+          "desc": "Rozvržení, která fungují na každém zařízení a velikosti písma."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Připraveno na prodejnu",
+          "desc": "Kompatibilní s Kindle, Apple a dalšími prodejci."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Rychlý obrat",
+          "desc": "Jasné časové osy od návrhu po zveřejnění."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Digitální časopis",
+      "shortDesc": "Ohromující design digitálních časopisů a interaktivní rozvržení pro značky a vydavatele.",
+      "longDesc": "Navrhujeme a vytváříme digitální časopisy, které čtenáři milují. Vytváříme publikace, které vynikají, od redakčního rozvržení a interaktivních prvků až po předplatné a čtení na webu a v aplikaci. Ideální pro značky, vydavatele a kohokoli, kdo převádí obsah na vyleštěný digitální produkt.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Redakční návrh rozvržení",
+        "Interaktivní prvky",
+        "Publikování webu a aplikací",
+        "Předplatné toky",
+        "Analytika a zapojení"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Redakční kvalita",
+          "desc": "Rozvržení, která působí prémiově a snadno čitelná."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Poutavé",
+          "desc": "Interaktivita, která umožňuje čtenářům listovat."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Připraveno pro zpeněžení",
+          "desc": "Vestavěné paywally a členství."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "E-Noviny",
+      "shortDesc": "Návrh digitálních novin a zpravodajského portálu s responzivním rozložením a snadnou aktualizací obsahu.",
+      "longDesc": "Vytváříme digitální noviny a zpravodajské portály, které umístí vaše příběhy do popředí. Responzivní rozvržení, rychlé načítání a jednoduchá integrace CMS znamenají, že váš tým může publikovat a aktualizovat bez technických potíží. Zaměřujeme se na čitelnost, dostupnost a zážitek, který funguje na každém zařízení.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Responzivní rozložení zpráv",
+        "Integrace CMS",
+        "Rychlé načítání a SEO",
+        "Nejnovější zprávy a sekce",
+        "Reklamy a sponzorské sloty"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Čtenářský",
+          "desc": "Jasná hierarchie a typografie pro dlouhé čtení."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Snadná aktualizace",
+          "desc": "Nevývojáři mohou publikovat a spravovat obsah."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Připraveno k příjmu",
+          "desc": "Zahrnuty reklamní jednotky a možnosti předplatného."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Výroba podcastů",
+      "shortDesc": "Nahrávání, úpravy, zobrazování poznámek a distribuce podcastů, které znějí profesionálně.",
+      "longDesc": "Přeneseme váš podcast od nápadu k uchu. Náš tým se stará o nastavení nahrávání, úpravy, mixování, show poznámky a distribuci, takže se můžete soustředit na konverzaci. Poskytujeme zvuk ve vysílací kvalitě a konzistentní branding, takže váš pořad zní tak dobře, jak zní ve vaší hlavě.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Nahrávání a úpravy",
+        "Míchání a mastering",
+        "Zobrazit poznámky a přepisy",
+        "Umělecká díla a značky",
+        "Distribuce a RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Kvalita vysílání",
+          "desc": "Čistý zvuk, který zní profesionálně."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Na klíč",
+          "desc": "Postaráme se o celé potrubí, takže vy nemusíte."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Konzistentní značka",
+          "desc": "Umělecká díla a poznámky, které odpovídají vaší show."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografika a data Viz",
+      "shortDesc": "Jasné, poutavé infografiky a vizualizace dat, díky nimž lze složité informace snadno sdílet.",
+      "longDesc": "Převádíme data a nápady do vizuálů, které jsou sdíleny. Od statických infografik po interaktivní řídicí panely a sestavy, děláme komplexní informace jasné a poutavé. Ideální pro zprávy, prezentace, sociální obsah a interní komunikaci, která se musí držet.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Statická infografika",
+        "Interaktivní data viz",
+        "Reportáže a prezentace",
+        "Formáty vhodné pro sociální sítě",
+        "Design sladěný se značkou"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Jasnost na prvním místě",
+          "desc": "Design, díky kterému je sdělení zřejmé."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Možnost sdílení",
+          "desc": "Formáty, které fungují na sociálních sítích a v balíčcích."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Přesný",
+          "desc": "Data viz, která respektují čísla."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Vývoj chatbotů",
+      "shortDesc": "Vlastní chatboti pro podporu, prodej a zapojení – integrovaní s vašimi stávajícími nástroji.",
+      "longDesc": "Vytváříme chatboty, které skutečně pomáhají. Ať už jde o zákaznickou podporu, kvalifikaci vedoucího nebo interní pracovní postupy, naši roboti jsou navrženi pro vaše procesy a integrováni s vaším CRM, helpdeskem a aplikacemi. Používáme osvědčenou umělou inteligenci a design konverzace, takže uživatelé rychle dostanou odpovědi a váš tým dostane úlevu.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Design konverzace",
+        "Integrace CRM a helpdesku",
+        "Vícekanálové (web, WhatsApp atd.)",
+        "Analytika a školení",
+        "Předání lidem"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Hodí se k vašemu stohu",
+          "desc": "Funguje s nástroji, které již používáte."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Lidské předání",
+          "desc": "Hladká eskalace, když robot nemůže pomoci."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Časem se zlepšuje",
+          "desc": "Ladíme na základě skutečných rozhovorů."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Copywriting a obsah",
+      "shortDesc": "Kopírování, blogové příspěvky a marketingový obsah, který konvertuje a hodnotí, optimalizovaný pro SEO.",
+      "longDesc": "Píšeme kopii, která převádí, a obsah, který hodnotí. Od vstupních stránek a kopie produktu až po sérii blogů a obsah SEO, odpovídáme vašemu hlasu a cílům. Každý kus je vytvořen pro srozumitelnost, přesvědčivost a vyhledávání – takže získáte jak návštěvnost, tak konverze.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Vstupní stránky a kopie produktu",
+        "Obsah blogu a SEO",
+        "E-mailové sekvence",
+        "Text reklamy a sociální sítě",
+        "Obsahová strategie"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Hlas značky",
+          "desc": "Zkopírujte, že to zní jako vy a vaše publikum."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO vestavěné",
+          "desc": "Obsah strukturovaný pro vyhledávání a sdílení."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Zaměřené na konverzi",
+          "desc": "Každé slovo zvolené k pohybu jehly."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Obsah na sociálních sítích a YouTube",
+      "shortDesc": "Kotouče, příběhy, kolotoče, videa na YouTube a kampaně pro Facebook, Instagram, TikTok a YouTube.",
+      "longDesc": "Vytváříme obsah, který je vidět a sdílet přes Facebook, Instagram, TikTok a YouTube. Od kotoučů a příběhů po kolotoče, skripty YouTube, miniatury a úpravy videa – vyrábíme obsah značky pro všechny hlavní platformy. Kombinujeme kreativní směr s osvědčenými postupy pro platformu, aby váš zdroj a kanál vypadaly profesionálně a vaše metriky se pohybovaly.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Kotouče, příběhy a krátké formy (IG, TikTok, FB)",
+        "YouTube skripty, miniatury a úpravy",
+        "Kolotoče a statické sloupky",
+        "Koncepty kampaní a kalendáře obsahu",
+        "Kopírování, hashtagy a SEO pro sociální sítě"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Všechny platformy",
+          "desc": "Facebook, Instagram, TikTok a YouTube na jednom místě."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Konzistentní vzhled",
+          "desc": "Šablony a stylové průvodce pro vaši značku."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Připraveno k odeslání",
+          "desc": "Finální podklady a titulky dodány podle plánu."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Servis",
+    "offerBefore": "Co my",
+    "offerHighlight": "nabídka",
+    "whyBefore": "Proč pracovat s",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Připraveno pro",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Pojďme diskutovat o vašem projektu a společně postavíme něco skvělého.",
+    "ctaButton": "Pojďme si promluvit",
+    "backAllServices": "← Všechny služby"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Domov",
+    "homeDescription": "vebxrun — Mobilní aplikace, vývoj webu, vývoj her, metaverse, řešení AI a digitální marketing. Představte si. Inovovat. Inspirovat.",
+    "servicesTitle": "Služby",
+    "servicesDescription": "Mobilní aplikace, vývoj webu a CMS, vývoj softwaru, firemní branding, digitální marketing, 2D/3D animace, metaverse, vývoj her a další. Prozkoumejte služby vebxrun.",
+    "pricingTitle": "Ceny",
+    "pricingDescription": "Transparentní ceny pro mobilní aplikace, vývoj webu a digitální řešení. Starter, Professional a Enterprise plány. Získejte cenovou nabídku od vebxrun."
+  },
+  "liveChatWidget": {
+    "online": "Online",
+    "closeChat": "Zavřít chat",
+    "openChat": "Chatujte s námi",
+    "skipToLiveChat": "Přejít na Live Chat →",
+    "nameLabel": "Jméno",
+    "emailLabel": "E-mail",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Servis",
+    "sending": "Odesílání…",
+    "orLiveChat": "nebo místo toho zahajte živý chat",
+    "toastNameEmailRequired": "Jméno a e-mail jsou povinné",
+    "toastRequestSent": "Žádost odeslána!",
+    "toastSubmitFailed": "Odeslání se nezdařilo. Zkuste to znovu.",
+    "submittedTitle": "Žádost odeslána!",
+    "submittedDesc": "Brzy se vám ozveme.",
+    "startLiveChat": "Spusťte živý chat",
+    "secondsShort": "{{count}}s"
   }
 }

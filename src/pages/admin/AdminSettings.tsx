@@ -49,7 +49,7 @@ export default function AdminSettings() {
           <Input
             value={settings.contact_email ?? ""}
             onChange={(e) => handleChange("contact_email", e.target.value)}
-            placeholder="support@vebx.run"
+            placeholder="support@vebxrun.com"
             className="bg-secondary/50"
           />
         </div>

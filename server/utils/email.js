@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const RECIPIENTS = [
-  "support@vebx.run",
+  "support@vebxrun.com",
   "aimanmaqsoodahmed@gmail.com",
   "rakeezasattar53@gmail.com",
 ];
@@ -42,7 +42,7 @@ export async function sendContactNotification(data) {
   const mailOptions = {
     from: process.env.SMTP_USER,
     to: RECIPIENTS.join(", "),
-    subject: `[vebx.run] Contact: ${subject || name}`,
+    subject: `[vebxrun.com] Contact: ${subject || name}`,
     text,
     html,
   };
@@ -92,7 +92,7 @@ export async function sendQuoteNotification(data) {
   const mailOptions = {
     from: process.env.SMTP_USER,
     to: RECIPIENTS.join(", "),
-    subject: `[vebx.run] Get a Quote: ${name} - ${service_slug}`,
+    subject: `[vebxrun.com] Get a Quote: ${name} - ${service_slug}`,
     text,
     html,
   };
@@ -133,7 +133,7 @@ export async function sendLiveChatNotification({ sessionId, visitorName, visitor
   await transporter.sendMail({
     from: process.env.SMTP_USER,
     to: RECIPIENTS.join(", "),
-    subject: `[vebx.run] Live chat — session #${sessionId}`,
+    subject: `[vebxrun.com] Live chat — session #${sessionId}`,
     text,
     html,
   });

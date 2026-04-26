@@ -14,4 +14,4 @@ User-agent: *
 Allow: /
 
 # Sitemap — must match SITE_URL used when running `npm run generate-sitemap` (see scripts/generate-sitemap.mjs)
-Sitemap: https://vebx.run/sitemap.xml
+Sitemap: https://vebxrun.com/sitemap.xml

@@ -9,7 +9,7 @@ import "dotenv/config";
 import bcrypt from "bcryptjs";
 import db from "../config/db.js";
 
-const email = (process.env.INITIAL_ADMIN_EMAIL || "admin@vebx.run").trim().toLowerCase();
+const email = (process.env.INITIAL_ADMIN_EMAIL || "admin@vebxrun.com").trim().toLowerCase();
 const password = process.env.INITIAL_ADMIN_PASSWORD || "admin123";
 const name = (process.env.INITIAL_ADMIN_NAME || "Admin").trim() || "Admin";
 const reset = process.argv.includes("--reset");

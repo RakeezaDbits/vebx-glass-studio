@@ -1,0 +1,4 @@
+{
+  "apiBase": "",
+  "setupHint": "If admin analytics shows 404: set apiBase to your Node server origin from Hostinger (no /api suffix), save, hard-refresh."
+}

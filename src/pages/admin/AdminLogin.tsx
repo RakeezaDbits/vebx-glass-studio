@@ -3,10 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { setAdminToken } from "@/lib/api";
+import { setAdminToken, getUrl, loadRuntimeApiConfig } from "@/lib/api";
 import { toast } from "sonner";
-
-const API_BASE = import.meta.env.VITE_API_URL || "";
 
 export default function AdminLogin() {
   const navigate = useNavigate();
@@ -22,10 +20,11 @@ export default function AdminLogin() {
     }
     setLoading(true);
     try {
-      const res = await fetch(`${API_BASE}/api/admin/login`, {
+      await loadRuntimeApiConfig();
+      const res = await fetch(getUrl("/api/admin/login"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email: email.trim().toLowerCase(), password }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -53,7 +52,7 @@ export default function AdminLogin() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@vebx.run"
+              placeholder="admin@vebxrun.com"
               className="bg-secondary/50"
             />
           </div>

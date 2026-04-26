@@ -16,7 +16,7 @@
   },
   "projects": {
     "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
+    "seoDescription": "Projects for buy and rent — coming soon at vebxrun.com.",
     "tag": "Marketplace",
     "heading": "Buy & rent",
     "headingHighlight": "projects",
@@ -152,7 +152,12 @@
     "linkExpertise": "Expertise",
     "linkAbout": "About",
     "linkPrivacyPolicy": "Privacy Policy",
+    "linkTermsConditions": "Terms & Conditions",
     "linkCustomRequirement": "Get a Quote",
+    "columnGetInTouchTitle": "Get In Touch",
+    "columnGetInTouchDesc": "Have a project in mind? Reach out and let's create something extraordinary.",
+    "followUsBar": "Follow us for updates",
+    "letsConnect": "Let's connect",
     "services": "Services",
     "letsWork": "Let's Work Together",
     "letsWorkDesc": "Ready to bring your vision to life? Reach out and let's create something extraordinary.",
@@ -276,6 +281,7 @@
     "enterprise": "Enterprise",
     "enterpriseDesc": "For large-scale projects",
     "mostPopular": "Most Popular",
+    "customPrice": "Custom",
     "perProject": "/ project",
     "getStarted": "Get Started",
     "features": {
@@ -380,6 +386,25 @@
       "unreal": "Unreal Engine",
       "other": "Other / Not sure"
     }
+  },
+  "liveChatWidget": {
+    "online": "Online",
+    "closeChat": "Close chat",
+    "openChat": "Chat with us",
+    "skipToLiveChat": "Skip to Live Chat →",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Service",
+    "sending": "Sending…",
+    "orLiveChat": "or start a live chat instead",
+    "toastNameEmailRequired": "Name and email are required",
+    "toastRequestSent": "Request sent!",
+    "toastSubmitFailed": "Failed to submit. Try again.",
+    "submittedTitle": "Request Sent!",
+    "submittedDesc": "We'll get back to you shortly.",
+    "startLiveChat": "Start Live Chat",
+    "secondsShort": "{{count}}s"
   },
   "contact": {
     "tag": "Contact Us",
@@ -539,7 +564,7 @@
     "section4Title": "4. Data Security",
     "section4": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
     "section5Title": "5. Your Rights",
-    "section5": "You have the right to access, correct, or delete your personal information. You may also opt out of marketing communications at any time by contacting us at support@vebx.run.",
+    "section5": "You have the right to access, correct, or delete your personal information. You may also opt out of marketing communications at any time by contacting us at support@vebxrun.com.",
     "section6Title": "6. Contact Us",
     "section6": "If you have any questions about this Privacy Policy, please contact us at:",
     "email": "Email:",
@@ -1116,6 +1141,8 @@
     "homeTitle": "Home",
     "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
     "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services.",
+    "pricingTitle": "Pricing",
+    "pricingDescription": "Transparent pricing for mobile apps, web development, and digital solutions. Starter, Professional & Enterprise plans. Get a quote from vebxrun."
   }
 }

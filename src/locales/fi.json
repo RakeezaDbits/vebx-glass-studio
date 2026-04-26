@@ -7,12 +7,12 @@
     "ourWork": "Portfolio",
     "expertise": "Osaaminen",
     "contactUs": "Yhteystiedot",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "Uudet Palvelut",
+    "newBadge": "Uusi",
+    "customRequirement": "Pyydä tarjous",
+    "designAssistant": "VXR-agentti",
+    "projects": "Projektit",
+    "privacy": "Yksityisyys"
   },
   "hero": {
     "tagline": "Kuvittele. Innovoi. Inspiroi.",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "Ota yhteyttä.",
     "getInTouch": "Ota yhteyttä",
     "copyright": "Copyright 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex Juoksu",
     "stayInLoop": "Pysy ajan tasalla",
     "stayInLoopDesc": "Digitaalisen innovaation uutiset.",
     "subscribe": "Tilaa",
@@ -159,13 +159,18 @@
       "title3": "Digitaalinen transformaatio",
       "excerpt3": "Autamme yrityksiä."
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
+    "linkNewServices": "Uudet Palvelut",
+    "linkCustomRequirement": "Pyydä tarjous",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malesia",
+    "linkTermsConditions": "Ehdot",
+    "columnGetInTouchTitle": "Ota yhteyttä",
+    "columnGetInTouchDesc": "Onko sinulla projekti mielessä? Ota yhteyttä ja luodaan jotain ainutlaatuista.",
+    "followUsBar": "Seuraa meitä päivityksiä varten",
+    "letsConnect": "Otetaan yhteyttä"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "Vebex Juoksu",
     "explore": "Tutustu"
   },
   "servicesPage": {
@@ -183,11 +188,11 @@
     "headingHighlight": "hinnat",
     "desc": "Valitse palvelu ja suunnitelma.",
     "chooseService": "Valitse palvelu",
-    "starter": "Starter",
+    "starter": "Käynnistin",
     "starterDesc": "Alkuun",
-    "professional": "Professional",
+    "professional": "Ammattilainen",
     "professionalDesc": "Kasvuun",
-    "enterprise": "Enterprise",
+    "enterprise": "Yritys",
     "enterpriseDesc": "Suuret projektit",
     "mostPopular": "Suosituin",
     "perProject": "/projekti",
@@ -208,9 +213,10 @@
       "dedicatedPM": "Oma PM",
       "unlimitedRevisions": "Rajattomat kierrokset",
       "12monthsSupport": "12 kk tuki",
-      "cicd": "CI/CD & DevOps",
+      "cicd": "CI/CD ja DevOps",
       "sla": "SLA-takuu"
-    }
+    },
+    "customPrice": "Mukautettu"
   },
   "contact": {
     "tag": "Yhteystiedot",
@@ -231,8 +237,8 @@
     "sunday": "Sunnuntai",
     "closed": "Suljettu",
     "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChatDesc": "Lähetä meille suora viesti alla – tekstiä, kuvia, ääntä tai videota. Vastaamme tänne.",
+    "monToSun": "Maanantaista sunnuntaihin"
   },
   "expertise": {
     "tag": "Osaaminen",
@@ -241,7 +247,7 @@
     "headingSuffix": "pino",
     "desc": "Hallitsemme tärkeät työkalut.",
     "categories": {
-      "frontend": "Frontend",
+      "frontend": "Käyttöliittymä",
       "backend": "Backend",
       "mobile": "Mobiili",
       "cloudDevops": "Pilvi & DevOps",
@@ -304,78 +310,78 @@
       },
       "emaanai": {
         "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "category": "Mobiilisovellus",
+        "desc": "Islamilainen sovellus Androidille ja iOS:lle, jossa on vihreä tuotemerkki, rukousajat, Koraani ja analytiikan hallintapaneeli sitoutumista varten."
       },
       "vebxcode": {
         "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "category": "Web-sovellus",
+        "desc": "Täysi portfoliosivusto digitaaliselle toimistolle – tumma teema, punaiset aksentit, palvelut, projektigalleria, saavutukset, blogi ja yhteystiedot. Rakennettu esittelemään heidän työtään ja asiantuntemustaan."
       },
       "healthsync": {
         "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "category": "Terveydenhuolto",
+        "desc": "Lääkäri-potilasportaali tapaamisia, reseptejä ja potilastietoja varten. HIPAA-linjattu, klinikat käyttävät ajoitukseen ja seurantaan."
       },
       "taskflow": {
         "title": "TaskFlow",
         "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "desc": "Ryhmätehtävien hallinta Kanban-taulujen, määräaikojen ja reaaliaikaisen synkronoinnin avulla. Käytetään etäryhmille ja -toimistoille."
       },
       "fooddash": {
         "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "category": "Mobiilisovellus",
+        "desc": "Ravintolan löytäminen, online-tilaus ja livetoimituksen seuranta. Kumppanisovellus ravintoloihin ja kuljettajasovellus logistiikkaan."
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "Tapahtua",
+        "category": "Web-sovellus",
+        "desc": "Tapahtumalippu- ja paikanvarausalusta, jossa on maksu, osallistujien hallinta ja QR-sisäänkirjautuminen. Käytetään konferensseihin ja työpajoihin."
       },
       "docvault": {
         "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "category": "Ohjelmisto",
+        "desc": "Turvallinen asiakirjojen säilytys sähköisen allekirjoituksen, versiohistorian ja vaatimustenmukaisuuden hallinnan avulla. Rakennettu laki- ja rahoitustiimeille."
       },
       "fittrack": {
         "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "category": "Mobiilisovellus",
+        "desc": "Kunto- ja terveysseurantasovellus, jossa on harjoitussuunnitelmat, edistymisen hallintapaneelit ja ravintokirjaukset. Monikäyttöinen Android- ja iOS-käyttöjärjestelmä."
       },
       "cloudflow": {
         "title": "CloudFlow",
         "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "desc": "Projektinhallinta ja työnkulun SaaS-alusta reaaliaikaisella yhteistyöllä, tehtävätauluilla ja etäryhmien tiimianalytiikalla."
       },
       "neondrift": {
         "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "category": "Pelin kehitys",
+        "desc": "Arcade-tyylinen ajopeli, jossa on neonestetiikkaa, sujuvaa ohjausta ja tulostaulukoita. Rakennettu Unitylla useille alustoille."
       },
       "shopverse": {
         "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "category": "Sähköinen kaupankäynti",
+        "desc": "Moderni verkkokauppaalusta, jossa on tuoteluettelo, ostoskori, kassa ja myyjän kojelauta. Integroidut maksut ja varasto."
       },
       "paybridge": {
         "title": "PayBridge",
         "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "desc": "Maksu- ja rahoitushallintapaneeli yrityksille – tapahtumat, täsmäytykset ja raportointi pankkitason suojauksella."
       },
       "learnhub": {
         "title": "LearnHub",
         "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "desc": "Oppimisen hallintaalusta, jossa on kursseja, edistymisen seurantaa, tietokilpailuja ja sertifikaatteja opettajille ja oppijoille."
       },
       "smartops": {
         "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "category": "Ohjelmistot ja IoT",
+        "desc": "IoT-pohjainen toimintojen hallintapaneeli resurssien, hälytysten ja analytiikan seurantaan. Rakennettu älykkäitä tiloja ja logistiikkaa varten."
       },
       "engagelab": {
         "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "category": "Digitaalinen markkinointi",
+        "desc": "Sosiaalinen media ja kampanjoiden analytiikkaalusta – sitoutumismittarit, sisällön ajoitus ja tuotemerkkien ROI-raportointi."
       }
     },
     "ctaHeading": "Ole seuraava",
@@ -403,10 +409,10 @@
     "section6": "Kysymyksiä:",
     "email": "Sähköposti:",
     "address": "Osoite:",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
+    "partnerDisclaimerP1": "Voimassa maailmanlaajuisesti tunnustetuilla alustoilla ja alan johtavilla teknologioilla, jotka tukevat ja parantavat palveluitamme.",
+    "partnerDisclaimerP2": "Heitä pidetään kumppaneinamme siinä mielessä, että käytämme heidän työkalujaan ja palveluitaan ilman muodollista tai virallista kumppanuutta tai suoraa yhteyttä.",
     "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "addressLine2": "Cyber ​​Jaya, Malesia"
   },
   "notFound": {
     "title": "404",
@@ -432,720 +438,741 @@
     "metaverseDevelopmentShort": "Seuraava sukupolvi",
     "gameDevelopment": "Pelikehitys",
     "gameDevelopmentShort": "Pelejä kaikille alustoille",
-    "extendedReality": "Extended Reality",
+    "extendedReality": "Laajennettu todellisuus",
     "extendedRealityShort": "AR/VR/MR",
     "socialMediaMarketing": "Sosiaalinen media",
     "socialMediaMarketingShort": "Strateginen läsnäolo"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "Uusi",
+    "heading": "Uusi",
+    "headingHighlight": "Palvelut",
+    "subtitle": "Tuoreet digitaaliset tarjoukset – tekoäly-, sisältö- ja mediaratkaisut tavoittavuuden kasvattamiseen.",
+    "getInTouch": "Puhutaan"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "Sinun vaatimuksesi",
+    "heading": "Mukautettu",
+    "headingHighlight": "Vaatimus",
+    "desc": "Kerro meille, mitä tarvitset. Valitse palvelusi, mieltymyksesi ja saat välittömän hinta-arvion.",
+    "yourName": "Nimesi",
+    "namePlaceholder": "Kirjoita nimesi",
+    "yourEmail": "Sähköpostisi",
+    "emailPlaceholder": "Kirjoita sähköpostiosoitteesi",
+    "yourPhone": "Sinun puhelimesi",
+    "phonePlaceholder": "Anna puhelinnumerosi",
+    "step1Title": "Ota yhteyttä",
+    "step2Title": "Vaatimus",
+    "step3Title": "Tekniikka ja suunnitelma",
+    "step4Title": "Viite & Lähetä",
+    "step5Title": "Kiitos",
+    "thankYouTitle": "Kiitos!",
+    "thankYouMessage": "Olemme vastaanottaneet vaatimuksesi. Tiimimme ottaa sinuun yhteyttä pian.",
+    "backToHome": "Takaisin etusivulle",
+    "submitAnother": "Lähetä toinen",
+    "nextStep": "Seuraavaksi",
+    "prevStep": "Takaisin",
+    "stepOf": "Vaihe {{current}}/{{total}}",
+    "selectService": "Mitä sinä tarvitset?",
+    "selectServicePlaceholder": "Valitse palvelu",
+    "selectSubType": "Projektin tyyppi / tiedot",
+    "selectSubTypePlaceholder": "Valitse vaihtoehto",
+    "selectTech": "Tekniikka/alusta (valitse kaikki sopivat)",
+    "selectTier": "Valitse suunnitelma",
+    "priceLabel": "Arvioitu hinta",
+    "priceCustom": "Mukautettu tarjous",
+    "perProject": "projektia kohden",
+    "referenceLink": "Viitelinkki (esim. verkkosivusto tai sovellus, josta pidät)",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "Viitekuva (valinnainen)",
+    "referenceImageHint": "Lataa kuvakaappaus tai suunnitteluviite",
+    "developBtn": "Kehittää",
+    "talkToTeam": "Keskustele tiimin kanssa",
+    "submitSuccess": "Pyyntö lähetetty. Palaamme asiaan pian.",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
+      "ecommerce": "Sähköinen kaupankäynti",
+      "social": "Sosiaalinen / yhteisöllinen",
+      "utility": "Hyödyllisyys / tuottavuus",
+      "enterprise": "Yritys / sisäinen",
+      "onDemand": "Tilaus/toimitus",
+      "blog": "Blogi / sisältösivusto",
+      "corporate": "Yritys / yritys",
       "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "landing": "Aloitus-/markkinointisivu",
+      "saas": "SaaS-tuote",
+      "dashboard": "Kojelauta / analytiikka",
+      "api": "API / taustajärjestelmä",
+      "seo": "SEO ja sisältö",
+      "ppc": "PPC ja maksettu sosiaalinen",
+      "fullCampaign": "Täysi kampanja",
+      "organic": "Orgaaninen sisältö",
+      "paidSocial": "Maksullinen sosiaalinen",
+      "influencer": "Vaikuttajakumppanuus",
+      "other": "muu"
     },
     "tech": {
-      "react": "React",
+      "react": "Reagoi",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "Kulmikas",
       "next": "Next.js",
       "nuxt": "Nuxt",
       "laravel": "Laravel (PHP)",
       "aspnet": "ASP.NET / .NET Core",
       "node": "Node.js",
       "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "java": "Java / kevät",
       "wordpress": "WordPress",
       "shopify": "Shopify",
-      "headless": "Headless CMS",
+      "headless": "Päätön CMS",
       "flutter": "Flutter",
       "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "nativeIos": "Natiivi iOS (Swift)",
+      "nativeAndroid": "Alkuperäinen Android (Kotlin)",
+      "unity": "Yhtenäisyys",
+      "unreal": "Epätodellinen moottori",
+      "other": "Muu / En ole varma"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR-agentti",
+    "seoTitle": "VXR-agentti",
+    "seoDescription": "Keskustele tekoälyavustajamme kanssa: kuvaile ideasi viesteissä, luo suunnitteluviitekuvia verkkosivustoille ja sovelluksille ja liitä ne Hanki tarjous -palveluun – kirjautumista ei tarvita.",
+    "heroDescription": "Kirjoita ideasi viestejä – luomme viitekuvia verkko- ja sovellussuunnitteluun",
+    "widgetAriaLabel": "Avaa VXR Agent",
+    "widgetTooltip": "VXR Agent — avaa viestejä, kuvaile suunnitteluasi ja luo referenssikuvia projektillesi",
+    "drawerAriaLabel": "Suunnitteluidea - AI-viitekuva",
+    "drawerSubtitle": "Sama kuin otsikko - viestit + kuvaideat",
+    "creditsToday": "{{remaining}} / {{limit}} krediittiä tänään",
+    "creditsLoading": "… krediittejä tänään",
+    "intro": "Käytä alla olevaa laatikkoa chatin tavoin: kirjoita tarvitsemasi yhteen tai useampaan viestiin. Luomme suunnitteluviitekuvia vain verkkosivustoille ja sovelluksille. Liitä tulos Pyydä tarjous -kohtaan. Tiliä tai kirjautumista ei vaadita.",
+    "promptPlaceholder": "esim. Toimiston verkkosivusto, jossa on tumma teema, punaiset aksentit, moderni sankariosio",
+    "generate": "Luo kuva",
+    "generating": "Luodaan…",
+    "generatedReference": "Luotu viite",
+    "generatedImageAlt": "Tekoälyn luoma suunnitteluviite",
+    "referenceOnly": "Vain viite – käytä Pyydä tarjous liittämiseen",
+    "useInQuote": "Käytä Pyydä tarjous",
+    "promptRequired": "Anna suunnitteluidea tai kehote.",
+    "imageDataMissing": "Kuvatietoja ei voitu hakea.",
+    "generationFailed": "Sukupolvi epäonnistui.",
+    "referenceAttached": "Viite liitteenä. Tarjouslomakkeen avaaminen.",
+    "attachFailed": "Liittäminen epäonnistui."
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "Projektit",
+    "seoDescription": "Ostettavia ja vuokrattavia projekteja – tulossa pian osoitteessa vebxrun.com.",
+    "tag": "Markkinapaikka",
+    "heading": "Osta & vuokraa",
+    "headingHighlight": "hankkeita",
+    "heroDesc": "Kuroitu kohde digitaalisille projekteille, joita voit ostaa tai lisensoida. Valmistelemme kokemusta – pysy kuulolla.",
+    "comingSoon": "Ostettavia ja vuokrattavia projekteja tulossa pian",
+    "badge": "Tulossa pian",
+    "cta": "Ota yhteyttä",
+    "ctaHint": "Onko sinulla kysyttävää? Tiimimme on täällä auttamassa."
   },
   "vebxAI": {
     "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
+    "seoDescription": "Keskustele tai puhu livenä VXR Tech Agentin kanssa saadaksesi teknologiaan liittyviä ohjeita ohjelmistoista, sovelluksista, verkkokehityksestä, tekoälystä ja digitaalisten tuotteiden suunnittelusta.",
+    "badge": "Reaaliaikainen tekninen agentti",
     "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "titleHighlight": "Tekninen agentti",
+    "subtitle": "Saat apua ohjelmistojen, sovellusten, tekoälyn, API:iden, pilven ja digitaalisen tuotesuunnittelun kanssa chatin tai live-puhelun kautta.",
+    "chatTitle": "VXR tekninen agentti",
+    "chatTag": "Vain tekninen apu",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "Esitä tekninen kysymys, kuten API-suunnittelusta, Reactista, tekoälystä tai pilvestä…",
+    "micStopTitle": "Lopeta tallennus",
+    "micStartTitle": "Äänisyöttö",
+    "emptyResponse": "En pystynyt antamaan vastausta juuri nyt. Lähetä tekninen kysymyksesi uudelleen.",
+    "requestFailed": "AI-chat-pyyntö epäonnistui odottamatta",
+    "micDenied": "Mikrofonin käyttö estetty",
+    "callEndedStatus": "Puhelu päättyi",
+    "callEndedMessage": "📞 Puhelu päättyi. Voit lähettää seuraavan teknisen kysymyksesi chatissa.",
+    "connecting": "Yhdistetään reaaliaikaiseen agenttiin…",
+    "liveConnected": "Suora reaaliaikainen tekninen puhelu yhdistetty",
+    "callIntroMessage": "📞 Äänipuhelu yhdistetty. Kuulet ensin lyhyen tervehdyksen.",
+    "readyForCall": "Valmiina reaaliaikaiseen tekniseen puheluun",
+    "callFailedStatus": "Puheluyhteys epäonnistui",
+    "callStartFailed": "Reaaliaikaista puhelua ei voitu aloittaa",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "Reaaliaikainen äänipuhelu",
+    "tapEndCall": "Lopeta puhelu napauttamalla",
+    "startCall": "Aloita reaaliaikainen puhelu",
+    "capabilitiesTitle": "Agentin ominaisuudet",
+    "cap1": "Verkko-, sovellus-, tausta- ja tekoälyn suunnitteluopastus",
+    "cap2": "Arkkitehtuuri, sovellusliittymät, tietokannat ja pilvisuositukset",
+    "cap3": "Virheenkorjaus, suorituskyky, skaalautuvuus ja turvallisuusneuvoja",
+    "cap4": "Digitaalinen tuote-UX teknisiin työnkulkuihin",
+    "cap5": "Reaaliaikainen äänivuorovaikutus intro puhelun alussa",
+    "quickPromptsTitle": "Pikaohjeet",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "Paras teknologiapino SaaS MVP:lle?",
+      "Kuinka minun pitäisi suunnitella skaalautuva REST API?",
+      "Kuinka voin optimoida React-sovelluksen nopeuden mukaan?"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "Hei! Olen **VXR-tekninen agentti**. Autan vain teknologiaan liittyvissä aiheissa, kuten verkkokehitys, sovellukset, tekoäly, API, pilvi, digitaalisten tuotteiden käyttöliittymä, virheenkorjaus ja arkkitehtuuri. Aloita kysymällä tekninen kysymyksesi."
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "Mobiilisovellus",
+      "shortDesc": "Natiivisovellukset ja monialustaiset sovellukset, jotka kiehtovat käyttäjiä",
+      "longDesc": "Rakennamme mobiilisovelluksia, joista käyttäjät pitävät. Toimitamme tehokkaita, skaalautuvia sovelluksia, jotka sopivat liiketoimintatavoitteidesi mukaisiin iOS- ja Android-alustoihisi, React Nativen ja Flutterin avulla. Tiimimme hoitaa kaiken UX-suunnittelusta App Storen käyttöönottoon.",
       "features": [
-        "iOS & Android native development",
+        "iOS- ja Android-natiivikehitys",
         "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "UI/UX-suunnittelu",
+        "App Storen ja Play Storen käyttöönotto",
+        "Huolto & päivitykset"
       ],
       "highlights": [
         {
           "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "desc": "Yksi koodikanta iOS:lle ja Androidille, kun se on järkevää."
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "Suorituskyky",
+          "desc": "Optimoitu nopeudelle, akulle ja offline-käytölle."
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "Turvallisuus",
+          "desc": "Tietojen ja vaatimustenmukaisuuden parhaat käytännöt (GDPR, HIPAA)."
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "Web CMS -kehitys",
+      "shortDesc": "Tehokkaat sisällönhallintaratkaisut",
+      "longDesc": "Mukautetut verkkoalustat ja sisällönhallintajärjestelmät, jotka ohjaavat sinua. Rakennamme WordPressillä, päättömällä sisällönhallintajärjestelmällä ja mukautetuilla taustajärjestelmillä, jotta tiimisi voi julkaista ja hallita sisältöä ilman, että jokainen päivitys riippuu kehittäjistä.",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress ja päätön sisällönhallintajärjestelmä",
+        "Mukautetut hallintapaneelit",
+        "API-ensimmäinen arkkitehtuuri",
+        "Monisivusto ja monikielinen",
+        "SEO-ystävällinen rakenne"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "Helppoja sisältöpäivityksiä",
+          "desc": "Intuitiiviset kojelaudat ei-teknisille ryhmille."
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "Skaalautuva",
+          "desc": "Suunniteltu kasvamaan liikenteen ja sisällön mukana."
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "Integraatiot",
+          "desc": "Yhdistä CRM-, analytiikka- ja markkinointityökaluihin."
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "Ohjelmistojen kehittäminen",
+      "shortDesc": "Räätälöity ohjelmisto tarpeidesi mukaan",
+      "longDesc": "Rakennamme räätälöityjä ohjelmistoja, jotka sopivat työnkulkuihisi SaaS-tuotteista yritysjärjestelmiin. Käytämme modernia pinoa ja ketterää toimitusta, jotta saat ratkaisun, joka skaalautuu ja kehittyy yrityksesi mukana.",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS ja verkkosovellukset",
+        "Yritysjärjestelmät",
+        "APIt ja integraatiot",
+        "Pilvikäyttöönotto (AWS, Azure, GCP)",
+        "Ketterä toimitus"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "Mittatilaustyönä valmistettu",
+          "desc": "Ei kompromisseja – suunniteltu tarpeisiisi."
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "Moderni pino",
+          "desc": "React, Node, Python, .NET ja todistetut tekniikat."
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "Jatkuva tuki",
+          "desc": "Ylläpito, päivitykset ja ominaisuuksien kehitys."
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "Yritysbrändäys",
+      "shortDesc": "Rohkeat brändi-identiteetit, jotka erottuvat joukosta",
+      "longDesc": "Luomme brändi-identiteettejä, jotka viestivät kuka olet ja resonoivat yleisösi kanssa. Logosuunnittelusta ja visuaalisista ohjeista täydelliseen brändistrategiaan, autamme sinua erottumaan joukosta markkinoillasi.",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "Logo ja visuaalinen ilme",
+        "Brändin ohjeet",
+        "Brändistrategia",
+        "Vakuutussuunnittelu",
+        "Digitaaliset omaisuussarjat"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "Erillinen identiteetti",
+          "desc": "Muistettavat logot ja yhtenäinen visuaalinen kieli."
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "Strategian johdolla",
+          "desc": "Brändivalinnat sidoksissa yritykseesi ja yleisöösi."
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "Valmis käytettäväksi",
+          "desc": "Omaisuus ja ohjeet kaikille kosketuspisteille."
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "Digitaalinen markkinointi verkossa",
+      "shortDesc": "Datalähtöiset kasvustrategiat",
+      "longDesc": "Kasvata tavoittavuuttasi ja tuloksiasi hakukoneoptimoinnin, PPC:n, sisältömarkkinoinnin ja tulosoptimoinnin avulla. Keskitymme mitattavissa oleviin tuloksiin ja kestävään kasvuun, emme turhamaisuuteen.",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "SEO ja sisältöstrategia",
+        "PPC ja maksettu sosiaalinen",
+        "Tuloksen optimointi",
+        "Analyysi ja raportointi",
+        "Markkinoinnin automaatio"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "Dataohjattu",
+          "desc": "Päätökset perustuvat analytiikkaan ja testaukseen."
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "Täysi suppilo",
+          "desc": "Tietoisuus-, harkinta- ja tuloskampanjat."
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "Läpinäkyvä raportointi",
+          "desc": "Selkeät mittarit ja säännölliset tarkastukset."
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D ja animaatio",
+      "shortDesc": "Upeat visuaalit, jotka kertovat tarinasi",
+      "longDesc": "Liikegrafiikka, selittävät videot ja elokuvalliset animaatiot, jotka sitovat ja selittävät. Tuotamme 2D- ja 3D-sisältöä mainoksiin, tuote-esittelyihin ja bränditarinoiden kertomiseen kaikilla alustoilla.",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "Liikegrafiikka",
+        "Selittäviä videoita",
+        "2D ja 3D animaatio",
+        "Hahmoanimaatio",
+        "Sosiaalinen ja mainossisältö"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "Tarina ensin",
+          "desc": "Jokainen kehys tukee viestiäsi ja brändiäsi."
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "Monimuotoinen",
+          "desc": "Lyhyistä sosiaalisista klipeistä pitkiin selityksiin."
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "Tuotemerkillä",
+          "desc": "Johdonmukainen tyyli visuaalisen identiteettisi kanssa."
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D-renderöintipalvelut",
+      "shortDesc": "Fotorealistiset 3D-visualisoinnit",
+      "longDesc": "Laadukkaat 3D renderöinnit arkkitehtuuriin, tuotteiden visualisointiin ja markkinointiin. Toimitamme fotorealistisia kuvia ja animaatioita, jotka esittelevät tuotteesi ja tilat ennen kuin ne ovat todellisessa maailmassa.",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "Arkkitehtoninen visualisointi",
+        "Tuotteen renderöinti",
+        "CGI markkinointiin",
+        "Sisä- ja ulkopuoli",
+        "Animaatio ja esittelyt"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "Fotorealistinen",
+          "desc": "Valaistus ja materiaalit, jotka näyttävät aidolta."
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "Mikä tahansa toimiala",
+          "desc": "Kiinteistöt, vähittäiskauppa, autoteollisuus ja paljon muuta."
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "Nopeat iteraatiot",
+          "desc": "Nopeat muutokset ilman fyysisiä uudelleenkuvauksia."
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "Metaverse kehitys",
+      "shortDesc": "Uuden sukupolven mukaansatempaavat digitaaliset maailmat",
+      "longDesc": "Suunnittelemme ja rakennamme metaversaalisia kokemuksia: virtuaalisia tiloja, digitaalisia kaksosia ja mukaansatempaavia ympäristöjä tapahtumiin, vähittäiskauppaan ja yhteisöön. Konseptista käyttöönottoon johtavilla alustoilla.",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "Virtuaalitilat ja maailmat",
+        "Digitaaliset kaksoset",
+        "VR/AR-integraatio",
+        "Monen käyttäjän kokemuksia",
+        "Web3-valmiita kokemuksia"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "Mukaansatempaava",
+          "desc": "Tilat, jotka tuntuvat todellisilta ja kiinnostavilta."
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "Skaalautuva",
+          "desc": "Arkkitehtuuri, joka tukee monia samanaikaisia ​​käyttäjiä."
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "Merkkivalmis",
+          "desc": "Mukautetut ympäristöt, jotka kuvastavat brändiäsi."
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "Pelin kehitys",
+      "shortDesc": "Mukavia pelejä kaikilla alustoilla",
+      "longDesc": "Rakennamme pelejä, joista pelaajat pitävät mobiilipeleistä tietokoneisiin ja konsoliin. Käytämme Unityä ja Unreal Engineä luodaksemme alkuperäisiä IP-osoitteita, vakavia pelejä ja brändättyjä kokemuksia keskittyen pelaamiseen ja viimeistelyyn.",
       "features": [
-        "Mobile, PC & console",
+        "Mobiili, PC ja konsoli",
         "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "Pelin suunnittelu ja mekaniikka",
+        "Moninpeli ja live-operaatiot",
+        "Siirtäminen ja optimointi"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "Täysi tuotanto",
+          "desc": "Suunnittelu-, taide-, koodi- ja julkaisutuki."
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "Todistetut moottorit",
+          "desc": "Unity ja Unreal laatua ja suorituskykyä varten."
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "Julkaisun jälkeinen",
+          "desc": "Päivityksiä, tapahtumia ja yhteisön ominaisuuksia."
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "Laajennettu todellisuus",
+      "shortDesc": "AR/VR/MR-kokemukset, jotka muuttavat",
+      "longDesc": "AR-, VR- ja sekatodellisuuskokemukset koulutukseen, markkinointiin ja tuotteiden visualisointiin. Rakennamme kuulokkeilla ja mobiililaitteilla toimivia sovelluksia työntekijöiden kouluttamiseksi, tuotteiden esittelyyn tai mukaansatempaavien kampanjoiden luomiseen.",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR-sovellukset (mobiili ja silmälasit)",
+        "VR-koulutus ja simulaatiot",
+        "Sekatodellisuuden kokemuksia",
+        "Virtuaalikierrokset",
+        "Laitteistoagnostinen muotoilu"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "Käytännön käyttötapauksia",
+          "desc": "ROI:ta lisäävä koulutus, myynti ja markkinointi."
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "Monilaite",
+          "desc": "Toimii puhelimissa, tableteissa ja XR-kuulokkeissa."
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "Käyttäjän testaama",
+          "desc": "Mukavuus ja käytettävyys ytimessä."
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "Sosiaalisen median markkinointi",
+      "shortDesc": "Strateginen sosiaalinen läsnäolo ja sitoutuminen",
+      "longDesc": "Rakennamme ja hallitsemme sosiaalista läsnäoloasi strategian, sisällön ja yhteisön hallinnan avulla. Orgaanisesta sisällöstä vaikuttajakumppanuuksiin ja maksullisiin sosiaalisiin keskusteluihin, autamme sinua tavoittamaan oikean yleisön.",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "Sisältöstrategia ja luominen",
+        "Yhteisön hallinto",
+        "Vaikuttajakumppanuudet",
+        "Maksulliset sosiaaliset kampanjat",
+        "Analyysi ja raportointi"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "Brändin ääni",
+          "desc": "Sisältö, joka kuulostaa sinulta ja resonoi."
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "yhteisössä",
+          "desc": "Sitoutumista, joka rakentaa uskollisuutta ja vaikuttamista."
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "Maksullinen + luomu",
+          "desc": "Integroitu lähestymistapa maksimaaliseen ulottuvuuteen."
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "AI-ratkaisut",
+      "shortDesc": "Tekoälyllä toimivat chatbotit, automaatio ja älykkäät työnkulut tehostavat toimintaa ja sitovat käyttäjiä.",
+      "longDesc": "Rakennamme tekoälypohjaisia ​​ratkaisuja, jotka muuttavat työskentelyäsi ja sitoutumistasi. Mukautetuista chatboteista ja virtuaalisista avustajista prosessien automaatioon ja älykkäisiin työnkulkuihin autamme sinua hyödyntämään tekoälyä säästämään aikaa, skaalaamaan tukea ja tarjoamaan parempia kokemuksia. Ratkaisumme integroituvat olemassa oleviin työkaluihisi ja ne on suunniteltu todelliseen luotettavuuteen.",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "Mukautetut chatbotit ja virtuaaliset avustajat",
+        "Prosessiautomaatio ja työnkulut",
+        "LLM-integraatio ja hienosäätö",
+        "API-integraatiot",
+        "Analyysi ja optimointi"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "Räätälöity sinulle",
+          "desc": "Tekoäly on rakennettu työnkulkujesi ja brändiäänesi ympärille."
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "Turvallinen ja skaalautuva",
+          "desc": "Yritysvalmis selkeällä tiedonkäsittelyllä."
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "Jatkuva parannus",
+          "desc": "Toistamme käytön ja palautteen perusteella."
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "E-kirjojen suunnittelu ja julkaisu",
+      "shortDesc": "Ammattimainen e-kirjojen ulkoasu, kansisuunnittelu ja jakelu Kindlelle, Apple Booksille ja muille alustoille.",
+      "longDesc": "Käsikirjoituksesta myymälään – hoidamme e-kirjojen suunnittelun, muotoilun ja jakelun, jotta kirjasi näyttää ja myydään kuin ammattilainen. Luomme responsiivisia asetteluja, katseenvangitsevia kansia ja luokittelevia metatietoja. Olitpa kirjailija tai kustantaja, saamme e-kirjasi saataville Kindlessä, Apple Booksissa, Kobossa ja muissa palveluissa.",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "Sisätilojen asettelu ja typografia",
+        "Kannen suunnittelu",
+        "EPUB- ja Kindle-muotoilu",
+        "Monialustainen jakelu",
+        "Metatiedot ja hakukoneoptimointi kirjoille"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "Lukija ensin -suunnittelu",
+          "desc": "Asettelut, jotka toimivat kaikilla laitteilla ja kirjasinkoolla."
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "Säilytysvalmis",
+          "desc": "Yhteensopiva Kindlen, Applen ja muiden jälleenmyyjien kanssa."
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "Nopea käänne",
+          "desc": "Selkeät aikajanat luonnoksesta julkaisuun."
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "Digitaalinen lehti",
+      "shortDesc": "Upea digitaalinen aikakauslehtisuunnittelu ja interaktiiviset ulkoasut brändeille ja kustantajille.",
+      "longDesc": "Suunnittelemme ja rakennamme digitaalisia lehtiä, joista lukijat pitävät. Luomme julkaisuja, jotka erottuvat joukosta toimituksellisista ulkoasuista ja interaktiivisista elementeistä tilaus- ja lukukokemuksiin verkossa ja sovelluksissa. Täydellinen tuotemerkeille, julkaisijoille ja kaikille, jotka tekevät sisällöstä hienostuneen digitaalisen tuotteen.",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "Toimituksellinen ulkoasusuunnittelu",
+        "Interaktiiviset elementit",
+        "Verkko- ja sovellusjulkaisu",
+        "Tilausvirrat",
+        "Analyysi ja sitoutuminen"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "Toimituksellinen laatu",
+          "desc": "Asettelut, jotka tuntuvat ensiluokkaisilta ja helppolukuisilta."
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "Kiinnostava",
+          "desc": "Vuorovaikutteisuus, joka pitää lukijat rullaamassa."
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "Kaupallistamisvalmis",
+          "desc": "Maksumuuret ja jäsenyydet sisäänrakennettu."
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "Sähköinen sanomalehti",
+      "shortDesc": "Digitaalinen sanomalehti- ja uutisportaalisuunnittelu responsiivisilla ulkoasuilla ja helpoilla sisältöpäivityksillä.",
+      "longDesc": "Rakennamme digitaalisia sanomalehtiä ja uutisportaaleja, joissa tarinasi ovat etusijalla. Responsiiviset asettelut, nopea lataus ja yksinkertainen CMS-integraatio tarkoittavat, että tiimisi voi julkaista ja päivittää ilman teknistä vaivaa. Keskitymme luettavuuteen, esteettömyyteen ja käyttökokemukseen, joka toimii kaikilla laitteilla.",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "Responsiivinen uutisasettelu",
+        "CMS-integraatio",
+        "Nopea lataus ja SEO",
+        "Tuoreet uutiset ja osiot",
+        "Mainokset ja sponsorointipaikat"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "Lukijaystävällinen",
+          "desc": "Selkeä hierarkia ja typografia pitkiin lukemiin."
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "Helppo päivittää",
+          "desc": "Muut kuin kehittäjät voivat julkaista ja hallita sisältöä."
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "Valmiina tuloihin",
+          "desc": "Mukana mainosyksiköt ja tilausvaihtoehdot."
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "Podcast-tuotanto",
+      "shortDesc": "Ammattimaisen kuuloisten podcastien tallennus, editointi, muistiinpanojen näyttäminen ja jakelu.",
+      "longDesc": "Viemme podcastisi ideasta korvaan. Tiimimme hoitaa äänityksen asennuksen, editoinnin, miksauksen, esitysmuistiinpanot ja jakelun, jotta voit keskittyä keskusteluun. Toimitamme lähetyslaatuisen äänen ja johdonmukaisen brändäyksen, jotta ohjelmasi kuulostaa yhtä hyvältä kuin päässäsi kuulostaa.",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "Tallennus ja editointi",
+        "Miksaus & masterointi",
+        "Näytä muistiinpanot ja transkriptiot",
+        "Taideteokset ja brändäys",
+        "Jakelu & RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "Lähetyksen laatu",
+          "desc": "Puhdas ääni, joka kuulostaa ammattimaiselta."
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "Avaimet käteen -periaatteella",
+          "desc": "Hoidamme koko putkilinjan, joten sinun ei tarvitse."
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "Yhdenmukainen merkki",
+          "desc": "Esitystäsi vastaavat taideteokset ja muistiinpanot."
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "Infografiikka ja tiedot Viz",
+      "shortDesc": "Selkeät, mukaansatempaavat infografiikat ja datavisualisaatiot tekevät monimutkaisista tiedoista helppoa jakaa.",
+      "longDesc": "Muutamme tiedot ja ideat visuaaleiksi, jotka jaetaan. Teemme monimutkaisista tiedoista selkeitä ja kiinnostavia staattisista infografioista interaktiivisiin kojetauluihin ja raportteihin. Ihanteellinen raportteihin, esityksiin, sosiaaliseen sisältöön ja sisäiseen viestintään, joiden pitää pysyä.",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "Staattinen infografiikka",
+        "Interaktiivista dataa mm",
+        "Raportit ja esitykset",
+        "Sosiaaliset muodot",
+        "Brändin mukainen muotoilu"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "Selkeys ensin",
+          "desc": "Suunnittelu, joka tekee viestistä ilmeisen."
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "Jaettavissa",
+          "desc": "Formatteja, jotka toimivat sosiaalisessa mediassa ja kansilla."
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "Tarkka",
+          "desc": "Data eli se, joka kunnioittaa numeroita."
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "Chatbotin kehitys",
+      "shortDesc": "Mukautetut chatbotit tukea, myyntiä ja sitoutumista varten – integroituna olemassa oleviin työkaluihisi.",
+      "longDesc": "Rakennamme chatbotteja, jotka todella auttavat. Olipa kyseessä asiakastuki, liidin pätevyys tai sisäinen työnkulku, bottimme on suunniteltu prosessiesi ympärille ja integroitu CRM:ään, tukipalveluun ja sovelluksiin. Käytämme todistettua tekoäly- ja keskustelusuunnittelua, jotta käyttäjät saavat vastauksia nopeasti ja tiimisi saa helpotusta.",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "Keskustelun suunnittelu",
+        "CRM- ja helpdesk-integraatio",
+        "Monikanavainen (web, WhatsApp jne.)",
+        "Analytiikka ja koulutus",
+        "Luovutus ihmisille"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "Sopii pinoon",
+          "desc": "Toimii jo käyttämiesi työkalujen kanssa."
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "Ihmisten vaihto",
+          "desc": "Tasainen eskalaatio, kun botti ei voi auttaa."
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "Paranee ajan myötä",
+          "desc": "Viritämme oikeiden keskustelujen pohjalta."
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "Tekstinkirjoitus ja sisältö",
+      "shortDesc": "SEO-ystävällinen kopio, blogitekstit ja markkinointisisältö, joka muuntuu ja sijoittuu.",
+      "longDesc": "Kirjoitamme kopiota, joka muuntaa, ja sisältöä, joka on arvostettu. Aloitussivuilta ja tuotekopiosta blogisarjoihin ja SEO-sisältöön sovitamme äänesi ja tavoitteesi. Jokainen osa on rakennettu selkeyttä, vakuuttamista ja hakua varten – joten saat sekä liikennettä että tuloksia.",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "Aloitussivut ja tuotekopio",
+        "Blogi & SEO sisältö",
+        "Sähköpostijaksot",
+        "Mainosteksti ja sosiaalinen",
+        "Sisältöstrategia"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "Tuotemerkin ääni",
+          "desc": "Kopioi se, joka kuulostaa sinulta ja yleisöltäsi."
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "SEO sisäänrakennettu",
+          "desc": "Hakua ja jakamista varten jäsennelty sisältö."
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "Konversiokeskeinen",
+          "desc": "Jokainen sana, joka on valittu liikuttamaan neulaa."
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "Sosiaalinen ja YouTube-sisältö",
+      "shortDesc": "Keloja, tarinoita, karuselleja, YouTube-videoita ja kampanjoita Facebookille, Instagramille, TikTokille ja YouTubelle.",
+      "longDesc": "Luomme sisältöä, joka näkyy ja jaetaan Facebookissa, Instagramissa, TikTokissa ja YouTubessa. Rullasta ja tarinoista karuselleihin, YouTube-skripteihin, pikkukuviin ja videoeditointiin – tuotamme brändisisältöä kaikille tärkeimmille alustoille. Yhdistämme luovan suunnan alustan parhaisiin käytäntöihin, jotta syötteesi ja kanavasi näyttävät ammattimaisilta ja mittarisi liikkuvat.",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "Rullat, tarinat ja lyhyt lomake (IG, TikTok, FB)",
+        "YouTube-skriptit, pikkukuvat ja muokkaus",
+        "Karusellit ja staattiset viestit",
+        "Kampanjakonseptit ja sisältökalenterit",
+        "Kopioi, hashtagit ja hakukoneoptimointi sosiaalisessa mediassa"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "Kaikki alustat",
+          "desc": "Facebook, Instagram, TikTok ja YouTube yhdessä paikassa."
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "Tasainen ilme",
+          "desc": "Mallit ja tyylioppaat brändillesi."
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "Valmiina postattavaksi",
+          "desc": "Loppumateriaali ja kuvatekstit toimitetaan aikataulussa."
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "Palvelu",
+    "offerBefore": "Mitä me",
+    "offerHighlight": "tarjous",
+    "whyBefore": "Miksi työskennellä",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "Valmiina",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "Keskustellaan projektistasi ja rakennetaan yhdessä jotain mahtavaa.",
+    "ctaButton": "Puhutaan",
+    "backAllServices": "← Kaikki palvelut"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "Kotiin",
+    "homeDescription": "vebxrun — Mobiilisovellukset, verkkokehitys, pelikehitys, metaverse, tekoälyratkaisut ja digitaalinen markkinointi. Kuvitella. Innovoida. Innostaa.",
+    "servicesTitle": "Palvelut",
+    "servicesDescription": "Mobiilisovellukset, web- ja CMS-kehitys, ohjelmistokehitys, yritysbrändäys, digitaalinen markkinointi, 2D/3D-animaatio, metaverse, pelikehitys ja paljon muuta. Tutustu vebxrun-palveluihin.",
+    "pricingTitle": "Hinnoittelu",
+    "pricingDescription": "Läpinäkyvä hinnoittelu mobiilisovelluksiin, verkkokehitykseen ja digitaalisiin ratkaisuihin. Aloitus-, ammatti- ja yrityssuunnitelmat. Pyydä tarjous vebxrunilta."
+  },
+  "liveChatWidget": {
+    "online": "verkossa",
+    "closeChat": "Sulje chat",
+    "openChat": "Keskustele kanssamme",
+    "skipToLiveChat": "Siirry Live Chatiin →",
+    "nameLabel": "Nimi",
+    "emailLabel": "Sähköposti",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "Palvelu",
+    "sending": "Lähetetään…",
+    "orLiveChat": "tai aloita live-chat sen sijaan",
+    "toastNameEmailRequired": "Nimi ja sähköpostiosoite vaaditaan",
+    "toastRequestSent": "Pyyntö lähetetty!",
+    "toastSubmitFailed": "Lähetys epäonnistui. Yritä uudelleen.",
+    "submittedTitle": "Pyyntö lähetetty!",
+    "submittedDesc": "Palaamme asiaan pian.",
+    "startLiveChat": "Aloita Live Chat",
+    "secondsShort": "{{count}}s"
   }
 }

@@ -7,12 +7,12 @@
     "ourWork": "案例",
     "expertise": "专业能力",
     "contactUs": "联系我们",
-    "newServices": "New Services",
-    "newBadge": "New",
-    "customRequirement": "Get a Quote",
-    "designAssistant": "VXR Agent",
-    "projects": "Projects",
-    "privacy": "Privacy"
+    "newServices": "新服务",
+    "newBadge": "新的",
+    "customRequirement": "获取报价",
+    "designAssistant": "VXR代理",
+    "projects": "项目",
+    "privacy": "隐私"
   },
   "hero": {
     "tagline": "想象。创新。启发。",
@@ -144,7 +144,7 @@
     "letsWorkDesc": "准备好了吗？联系我们。",
     "getInTouch": "联系我们",
     "copyright": "版权所有 2024–2026",
-    "vebexRun": "Vebex Run",
+    "vebexRun": "维贝克斯跑",
     "stayInLoop": "保持联系",
     "stayInLoopDesc": "获取数字创新洞察。",
     "subscribe": "订阅",
@@ -159,13 +159,18 @@
       "title3": "推动增长的数字化转型",
       "excerpt3": "我们如何帮助企业创新。"
     },
-    "linkNewServices": "New Services",
-    "linkCustomRequirement": "Get a Quote",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "linkNewServices": "新服务",
+    "linkCustomRequirement": "获取报价",
+    "addressLine1": "巴基斯坦卡拉奇",
+    "addressLine2": "马来西亚 赛城",
+    "linkTermsConditions": "条款及条件",
+    "columnGetInTouchTitle": "联系我们",
+    "columnGetInTouchDesc": "有一个项目吗？伸出援手，让我们创造非凡的事物。",
+    "followUsBar": "关注我们以获取更新",
+    "letsConnect": "让我们联系吧"
   },
   "common": {
-    "vebexRun": "Vebex Run",
+    "vebexRun": "维贝克斯跑",
     "explore": "探索"
   },
   "servicesPage": {
@@ -210,7 +215,8 @@
       "12monthsSupport": "12个月支持",
       "cicd": "CI/CD和DevOps",
       "sla": "SLA保证"
-    }
+    },
+    "customPrice": "风俗"
   },
   "contact": {
     "tag": "联系我们",
@@ -230,9 +236,9 @@
     "saturday": "周六",
     "sunday": "周日",
     "closed": "休息",
-    "liveChat": "Let's Talk - Live Chat",
-    "liveChatDesc": "Message us live below — text, images, audio, or video. We reply here.",
-    "monToSun": "Monday – Sunday"
+    "liveChat": "让我们谈谈 - 实时聊天",
+    "liveChatDesc": "请在下方实时给我们留言——文字、图像、音频或视频。我们在这里回复。",
+    "monToSun": "周一至周日"
   },
   "expertise": {
     "tag": "专业能力",
@@ -303,79 +309,79 @@
         "desc": "500强企业品牌重塑。"
       },
       "emaanai": {
-        "title": "Emaan Ai",
-        "category": "Mobile Application",
-        "desc": "Islamic app for Android and iOS with a green-branded experience, prayer times, Quran, and an analytics dashboard for engagement insights."
+        "title": "艾玛安",
+        "category": "移动应用程序",
+        "desc": "适用于 Android 和 iOS 的伊斯兰应用程序，具有绿色品牌体验、祈祷时间、《古兰经》和用于了解参与度的分析仪表板。"
       },
       "vebxcode": {
-        "title": "Vebxcode",
-        "category": "Web Application",
-        "desc": "Full portfolio website for a digital agency — dark theme, red accents, services, project gallery, achievements, blog, and contact. Built to showcase their work and expertise."
+        "title": "维布克斯代码",
+        "category": "网页应用程序",
+        "desc": "数字机构的完整投资组合网站 — 深色主题、红色调、服务、项目库、成就、博客和联系方式。旨在展示他们的工作和专业知识。"
       },
       "healthsync": {
-        "title": "HealthSync",
-        "category": "Healthcare",
-        "desc": "Doctor-patient portal for appointments, prescriptions, and medical records. HIPAA-aligned, used by clinics for scheduling and follow-ups."
+        "title": "健康同步",
+        "category": "卫生保健",
+        "desc": "用于预约、处方和医疗记录的医患门户。符合 HIPAA 要求，诊所用于安排时间和跟进。"
       },
       "taskflow": {
-        "title": "TaskFlow",
-        "category": "SaaS",
-        "desc": "Team task management with Kanban boards, deadlines, and real-time sync. Deployed for remote teams and agencies."
+        "title": "任务流",
+        "category": "软件即服务",
+        "desc": "通过看板、截止日期和实时同步进行团队任务管理。为远程团队和机构部署。"
       },
       "fooddash": {
-        "title": "FoodDash",
-        "category": "Mobile Application",
-        "desc": "Restaurant discovery, online ordering, and live delivery tracking. Partner app for restaurants and driver app for logistics."
+        "title": "美食冲刺",
+        "category": "移动应用程序",
+        "desc": "餐厅发现、在线订购和实时配送跟踪。餐厅合作伙伴应用程序和物流司机应用程序。"
       },
       "eventify": {
-        "title": "Eventify",
-        "category": "Web Application",
-        "desc": "Event ticketing and venue booking platform with payment, attendee management, and QR check-in. Used for conferences and workshops."
+        "title": "事件化",
+        "category": "网页应用程序",
+        "desc": "活动票务和场地预订平台，提供付款、与会者管理和二维码签到功能。用于会议和研讨会。"
       },
       "docvault": {
-        "title": "DocVault",
-        "category": "Software",
-        "desc": "Secure document storage with e-sign, version history, and compliance controls. Built for legal and finance teams."
+        "title": "文档库",
+        "category": "软件",
+        "desc": "通过电子签名、版本历史记录和合规性控制来保护文档存储。专为法律和财务团队打造。"
       },
       "fittrack": {
-        "title": "FitTrack",
-        "category": "Mobile Application",
-        "desc": "Fitness and health tracking app with workout plans, progress dashboards, and nutrition logging. Cross-platform for Android and iOS."
+        "title": "健身追踪",
+        "category": "移动应用程序",
+        "desc": "健身和健康跟踪应用程序，包含锻炼计划、进度仪表板和营养记录。适用于 Android 和 iOS 的跨平台。"
       },
       "cloudflow": {
-        "title": "CloudFlow",
-        "category": "SaaS",
-        "desc": "Project management and workflow SaaS platform with real-time collaboration, task boards, and team analytics for remote teams."
+        "title": "云流",
+        "category": "软件即服务",
+        "desc": "项目管理和工作流程 SaaS 平台，为远程团队提供实时协作、任务板和团队分析。"
       },
       "neondrift": {
-        "title": "Neon Drift",
-        "category": "Game Development",
-        "desc": "Arcade-style racing game with neon aesthetics, smooth controls, and leaderboards. Built with Unity for multiple platforms."
+        "title": "霓虹漂移",
+        "category": "游戏开发",
+        "desc": "街机风格的赛车游戏，具有霓虹灯美学、流畅的控制和排行榜。使用 Unity 为多个平台构建。"
       },
       "shopverse": {
-        "title": "ShopVerse",
-        "category": "E-Commerce",
-        "desc": "Modern e-commerce platform with product catalog, cart, checkout, and vendor dashboard. Integrated payments and inventory."
+        "title": "商店宇宙",
+        "category": "电子商务",
+        "desc": "现代电子商务平台，具有产品目录、购物车、结帐和供应商仪表板。集成支付和库存。"
       },
       "paybridge": {
-        "title": "PayBridge",
-        "category": "FinTech",
-        "desc": "Payment and finance dashboard for businesses — transactions, reconciliation, and reporting with bank-grade security."
+        "title": "支付桥",
+        "category": "金融科技",
+        "desc": "企业支付和财务仪表板 — 具有银行级安全性的交易、对账和报告。"
       },
       "learnhub": {
-        "title": "LearnHub",
-        "category": "EdTech",
-        "desc": "Learning management platform with courses, progress tracking, quizzes, and certificates for educators and learners."
+        "title": "学习中心",
+        "category": "教育科技",
+        "desc": "学习管理平台，为教育工作者和学习者提供课程、进度跟踪、测验和证书。"
       },
       "smartops": {
-        "title": "SmartOps",
-        "category": "Software & IoT",
-        "desc": "IoT-powered operations dashboard for monitoring assets, alerts, and analytics. Built for smart facilities and logistics."
+        "title": "智能操作",
+        "category": "软件与物联网",
+        "desc": "由物联网驱动的运营仪表板，用于监控资产、警报和分析。专为智能设施和物流而打造。"
       },
       "engagelab": {
-        "title": "EngageLab",
-        "category": "Digital Marketing",
-        "desc": "Social media and campaign analytics platform — engagement metrics, content scheduling, and ROI reporting for brands."
+        "title": "参与实验室",
+        "category": "数字营销",
+        "desc": "社交媒体和活动分析平台——品牌参与度指标、内容安排和投资回报率报告。"
       }
     },
     "ctaHeading": "成为我们的",
@@ -403,10 +409,10 @@
     "section6": "如有疑问请联系：",
     "email": "邮箱：",
     "address": "地址：",
-    "partnerDisclaimerP1": "Powered by globally recognized platforms and industry-leading technologies that support and enhance our services.",
-    "partnerDisclaimerP2": "They are considered our partners in the sense that we utilize their tools and services, without implying any formal or official partnership or direct affiliation.",
-    "addressLine1": "Karachi, Pakistan",
-    "addressLine2": "Cyber Jaya, Malaysia"
+    "partnerDisclaimerP1": "由全球认可的平台和行业领先的技术提供支持，支持和增强我们的服务。",
+    "partnerDisclaimerP2": "他们被视为我们的合作伙伴，因为我们使用他们的工具和服务，而不暗示任何正式或官方的合作伙伴关系或直接隶属关系。",
+    "addressLine1": "巴基斯坦卡拉奇",
+    "addressLine2": "马来西亚 赛城"
   },
   "notFound": {
     "title": "404",
@@ -438,714 +444,735 @@
     "socialMediaMarketingShort": "战略社交运营"
   },
   "newServicesPage": {
-    "tag": "New",
-    "heading": "New",
-    "headingHighlight": "Services",
-    "subtitle": "Fresh digital offerings — AI, content, and media solutions to grow your reach.",
-    "getInTouch": "Let's Talk"
+    "tag": "新的",
+    "heading": "新的",
+    "headingHighlight": "服务",
+    "subtitle": "新鲜的数字产品——人工智能、内容和媒体解决方案，以扩大您的影响力。",
+    "getInTouch": "让我们谈谈"
   },
   "customReq": {
-    "tag": "Your Requirement",
-    "heading": "Custom",
-    "headingHighlight": "Requirement",
-    "desc": "Tell us what you need. Select your service, preferences, and get an instant price estimate.",
-    "yourName": "Your Name",
-    "namePlaceholder": "Enter your name",
-    "yourEmail": "Your Email",
-    "emailPlaceholder": "Enter your email",
-    "yourPhone": "Your Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "step1Title": "Contact",
-    "step2Title": "Requirement",
-    "step3Title": "Technology & Plan",
-    "step4Title": "Reference & Submit",
-    "step5Title": "Thank You",
-    "thankYouTitle": "Thank You!",
-    "thankYouMessage": "We've received your requirement. Our team will get back to you soon.",
-    "backToHome": "Back to Home",
-    "submitAnother": "Submit Another",
-    "nextStep": "Next",
-    "prevStep": "Back",
-    "stepOf": "Step {{current}} of {{total}}",
-    "selectService": "What do you need?",
-    "selectServicePlaceholder": "Select a service",
-    "selectSubType": "Project type / details",
-    "selectSubTypePlaceholder": "Select option",
-    "selectTech": "Technology / platform (select all that apply)",
-    "selectTier": "Choose plan",
-    "priceLabel": "Estimated price",
-    "priceCustom": "Custom quote",
-    "perProject": "per project",
-    "referenceLink": "Reference link (e.g. website or app you like)",
+    "tag": "您的要求",
+    "heading": "风俗",
+    "headingHighlight": "要求",
+    "desc": "告诉我们您需要什么。选择您的服务、偏好并获得即时价格估算。",
+    "yourName": "你的名字",
+    "namePlaceholder": "输入你的名字",
+    "yourEmail": "您的电子邮件",
+    "emailPlaceholder": "输入您的电子邮件",
+    "yourPhone": "你的电话",
+    "phonePlaceholder": "输入您的电话号码",
+    "step1Title": "接触",
+    "step2Title": "要求",
+    "step3Title": "技术与规划",
+    "step4Title": "参考并提交",
+    "step5Title": "谢谢",
+    "thankYouTitle": "谢谢你！",
+    "thankYouMessage": "我们已收到您的要求。我们的团队会尽快回复您。",
+    "backToHome": "返回首页",
+    "submitAnother": "提交另一个",
+    "nextStep": "下一个",
+    "prevStep": "后退",
+    "stepOf": "第 {{current}} 步（共 {{total}}）",
+    "selectService": "你需要什么？",
+    "selectServicePlaceholder": "选择服务",
+    "selectSubType": "项目类型/详情",
+    "selectSubTypePlaceholder": "选择选项",
+    "selectTech": "技术/平台（选择所有适用项）",
+    "selectTier": "选择计划",
+    "priceLabel": "预计价格",
+    "priceCustom": "定制报价",
+    "perProject": "每个项目",
+    "referenceLink": "参考链接（例如您喜欢的网站或应用程序）",
     "referenceLinkPlaceholder": "https://...",
-    "referenceImage": "Reference image (optional)",
-    "referenceImageHint": "Upload a screenshot or design reference",
-    "developBtn": "Develop",
-    "talkToTeam": "Talk to Team",
-    "submitSuccess": "Request submitted. We'll get back to you soon.",
+    "referenceImage": "参考图片（可选）",
+    "referenceImageHint": "上传屏幕截图或设计参考",
+    "developBtn": "发展",
+    "talkToTeam": "与团队交谈",
+    "submitSuccess": "请求已提交。我们会尽快回复您。",
     "subTypes": {
-      "ecommerce": "E-commerce",
-      "social": "Social / community",
-      "utility": "Utility / productivity",
-      "enterprise": "Enterprise / internal",
-      "onDemand": "On-demand / delivery",
-      "blog": "Blog / content site",
-      "corporate": "Corporate / business",
-      "portfolio": "Portfolio / showcase",
-      "landing": "Landing / marketing page",
-      "saas": "SaaS product",
-      "dashboard": "Dashboard / analytics",
-      "api": "API / backend",
-      "seo": "SEO & content",
-      "ppc": "PPC & paid social",
-      "fullCampaign": "Full campaign",
-      "organic": "Organic content",
-      "paidSocial": "Paid social",
-      "influencer": "Influencer partnership",
-      "other": "Other"
+      "ecommerce": "电子商务",
+      "social": "社交/社区",
+      "utility": "效用/生产力",
+      "enterprise": "企业/内部",
+      "onDemand": "按需/交付",
+      "blog": "博客/内容网站",
+      "corporate": "企业/商业",
+      "portfolio": "作品集/展示",
+      "landing": "登陆/营销页面",
+      "saas": "SaaS产品",
+      "dashboard": "仪表板/分析",
+      "api": "API/后端",
+      "seo": "搜索引擎优化和内容",
+      "ppc": "PPC 和付费社交",
+      "fullCampaign": "完整活动",
+      "organic": "有机含量",
+      "paidSocial": "付费社交",
+      "influencer": "影响者合作伙伴关系",
+      "other": "其他"
     },
     "tech": {
-      "react": "React",
+      "react": "反应",
       "vue": "Vue.js",
-      "angular": "Angular",
+      "angular": "角",
       "next": "Next.js",
-      "nuxt": "Nuxt",
-      "laravel": "Laravel (PHP)",
-      "aspnet": "ASP.NET / .NET Core",
+      "nuxt": "努克斯特",
+      "laravel": "拉拉维尔 (PHP)",
+      "aspnet": "ASP.NET / .NET 核心",
       "node": "Node.js",
-      "python": "Python (Django/FastAPI)",
-      "java": "Java / Spring",
+      "python": "Python（Django/FastAPI）",
+      "java": "Java/Spring",
       "wordpress": "WordPress",
-      "shopify": "Shopify",
-      "headless": "Headless CMS",
-      "flutter": "Flutter",
-      "reactNative": "React Native",
-      "nativeIos": "Native iOS (Swift)",
-      "nativeAndroid": "Native Android (Kotlin)",
-      "unity": "Unity",
-      "unreal": "Unreal Engine",
-      "other": "Other / Not sure"
+      "shopify": "购物",
+      "headless": "无头内容管理系统",
+      "flutter": "扑",
+      "reactNative": "反应本机",
+      "nativeIos": "本机 iOS (Swift)",
+      "nativeAndroid": "原生 Android（Kotlin）",
+      "unity": "统一",
+      "unreal": "虚幻引擎",
+      "other": "其他/不确定"
     }
   },
   "designAssistant": {
-    "title": "VXR Agent",
-    "seoTitle": "VXR Agent",
-    "seoDescription": "Chat with our AI assistant: describe your idea in messages, generate design reference images for websites and apps, and attach them to Get a Quote — no login required.",
-    "heroDescription": "Type messages with your idea — we generate reference images for web and app designs",
-    "widgetAriaLabel": "Open VXR Agent",
-    "widgetTooltip": "VXR Agent — open messages, describe your design, and generate reference images for your project",
-    "drawerAriaLabel": "Design idea — AI reference image",
-    "drawerSubtitle": "Same as header — messages + image ideas",
-    "creditsToday": "{{remaining}} / {{limit}} credits today",
-    "creditsLoading": "… credits today",
-    "intro": "Use the box below like a chat: write what you need in one or more messages. We generate design reference images for websites and apps only. Attach the result in Get a Quote. No account or login required.",
-    "promptPlaceholder": "e.g. Agency website with dark theme, red accents, modern hero section",
-    "generate": "Generate image",
-    "generating": "Generating…",
-    "generatedReference": "Generated reference",
-    "generatedImageAlt": "AI-generated design reference",
-    "referenceOnly": "Reference only — use in Get a Quote to attach",
-    "useInQuote": "Use in Get a Quote",
-    "promptRequired": "Please enter a design idea or prompt.",
-    "imageDataMissing": "Could not get image data.",
-    "generationFailed": "Generation failed.",
-    "referenceAttached": "Reference attached. Opening quote form.",
-    "attachFailed": "Failed to attach."
+    "title": "VXR代理",
+    "seoTitle": "VXR代理",
+    "seoDescription": "与我们的人工智能助手聊天：在消息中描述您的想法，为网站和应用程序生成设计参考图像，并将其附加到“获取报价” - 无需登录。",
+    "heroDescription": "输入您的想法消息 - 我们为网页和应用程序设计生成参考图像",
+    "widgetAriaLabel": "打开 VXR 代理",
+    "widgetTooltip": "VXR Agent — 打开消息、描述您的设计并为您的项目生成参考图像",
+    "drawerAriaLabel": "设计理念——AI参考图",
+    "drawerSubtitle": "与标题相同 — 消息 + 图像创意",
+    "creditsToday": "今天 {{remaining}} / {{limit}} 学分",
+    "creditsLoading": "……今天的积分",
+    "intro": "像聊天一样使用下面的框：在一条或多条消息中写下您需要的内容。我们仅为网站和应用程序生成设计参考图像。将结果附在“获取报价”中。无需帐户或登录。",
+    "promptPlaceholder": "例如带有深色主题、红色口音、现代英雄部分的代理网站",
+    "generate": "生成图像",
+    "generating": "生成…",
+    "generatedReference": "生成的参考",
+    "generatedImageAlt": "AI 生成的设计参考",
+    "referenceOnly": "仅供参考 — 在获取报价中使用以附加",
+    "useInQuote": "用于获取报价",
+    "promptRequired": "请输入设计理念或提示。",
+    "imageDataMissing": "无法获取图像数据。",
+    "generationFailed": "一代失败。",
+    "referenceAttached": "附参考文献。开盘报价表。",
+    "attachFailed": "无法附加。"
   },
   "projects": {
-    "seoTitle": "Projects",
-    "seoDescription": "Projects for buy and rent — coming soon at vebx.run.",
-    "tag": "Marketplace",
-    "heading": "Buy & rent",
-    "headingHighlight": "projects",
-    "heroDesc": "A curated destination for digital projects you can purchase or license. We are preparing the experience — stay tuned.",
-    "comingSoon": "Projects for buy & rent coming soon",
-    "badge": "Coming soon",
-    "cta": "Get in touch",
-    "ctaHint": "Have questions? Our team is here to help."
+    "seoTitle": "项目",
+    "seoDescription": "可供购买和租赁的项目 — 即将在 vebxrun.com 上推出。",
+    "tag": "市场",
+    "heading": "购买和租赁",
+    "headingHighlight": "项目",
+    "heroDesc": "您可以购买或许可的数字项目的精选目的地。我们正在准备体验——敬请期待。",
+    "comingSoon": "购买和出租项目即将推出",
+    "badge": "即将推出",
+    "cta": "联系我们",
+    "ctaHint": "有疑问吗？我们的团队随时为您提供帮助。"
   },
   "vebxAI": {
-    "seoTitle": "VXR Tech Agent — AI Chat & Realtime Call",
-    "seoDescription": "Chat or talk live with VXR Tech Agent for technology-related guidance on software, apps, web development, AI, and digital product engineering.",
-    "badge": "Realtime Tech Agent",
-    "title": "VXR",
-    "titleHighlight": "Tech Agent",
-    "subtitle": "Get help with software, apps, AI, APIs, cloud, and digital product engineering through chat or a live call.",
-    "chatTitle": "VXR Tech Agent",
-    "chatTag": "Tech-only assistance",
+    "seoTitle": "VXR 技术代理 — AI 聊天和实时通话",
+    "seoDescription": "与 VXR 技术代理聊天或实时交谈，获取有关软件、应用程序、Web 开发、人工智能和数字产品工程的技术相关指导。",
+    "badge": "实时技术代理",
+    "title": "维XR",
+    "titleHighlight": "技术代理",
+    "subtitle": "通过聊天或实时通话获取软件、应用程序、人工智能、API、云和数字产品工程方面的帮助。",
+    "chatTitle": "VXR技术代理",
+    "chatTag": "纯技术援助",
     "thinking": "…",
-    "inputPlaceholder": "Ask a tech question, such as API design, React, AI, or cloud…",
-    "micStopTitle": "Stop recording",
-    "micStartTitle": "Voice input",
-    "emptyResponse": "I could not generate a response right now. Please send your tech question again.",
-    "requestFailed": "AI chat request failed unexpectedly",
-    "micDenied": "Microphone access denied",
-    "callEndedStatus": "Call ended",
-    "callEndedMessage": "📞 Call ended. You can send your next tech question in chat.",
-    "connecting": "Connecting to realtime agent…",
-    "liveConnected": "Live realtime tech call connected",
-    "callIntroMessage": "📞 Voice call connected. You will hear a short greeting first.",
-    "readyForCall": "Ready for a realtime tech call",
-    "callFailedStatus": "Call connection failed",
-    "callStartFailed": "Realtime call could not be started",
+    "inputPlaceholder": "提出技术问题，例如 API 设计、React、AI 或云……",
+    "micStopTitle": "停止录音",
+    "micStartTitle": "语音输入",
+    "emptyResponse": "我现在无法做出回应。请再次发送您的技术问题。",
+    "requestFailed": "AI 聊天请求意外失败",
+    "micDenied": "麦克风访问被拒绝",
+    "callEndedStatus": "通话结束",
+    "callEndedMessage": "📞 通话结束。您可以在聊天中发送下一个技术问题。",
+    "connecting": "正在连接到实时代理...",
+    "liveConnected": "实时技术通话已连接",
+    "callIntroMessage": "📞 语音通话已连接。您首先会听到简短的问候语。",
+    "readyForCall": "准备好进行实时技术通话",
+    "callFailedStatus": "通话连接失败",
+    "callStartFailed": "无法启动实时通话",
     "realtimeIntroInstructions": "Say only this exact sentence as your entire first spoken response: Hello, I am VXR Agent. How can I help you?",
-    "voiceCallTitle": "Realtime voice call",
-    "tapEndCall": "Tap to end call",
-    "startCall": "Start realtime call",
-    "capabilitiesTitle": "Agent capabilities",
-    "cap1": "Web, app, backend, and AI engineering guidance",
-    "cap2": "Architecture, APIs, databases, and cloud recommendations",
-    "cap3": "Debugging, performance, scalability, and security advice",
-    "cap4": "Digital product UX for technical workflows",
-    "cap5": "Realtime voice interaction with intro on call start",
-    "quickPromptsTitle": "Quick prompts",
+    "voiceCallTitle": "实时语音通话",
+    "tapEndCall": "点击即可结束通话",
+    "startCall": "开始实时通话",
+    "capabilitiesTitle": "代理能力",
+    "cap1": "Web、应用程序、后端和 AI 工程指导",
+    "cap2": "架构、API、数据库和云建议",
+    "cap3": "调试、性能、可扩展性和安全建议",
+    "cap4": "技术工作流程的数字产品用户体验",
+    "cap5": "实时语音交互，并在通话开始时进行介绍",
+    "quickPromptsTitle": "快速提示",
     "quickPrompts": [
-      "Best tech stack for a SaaS MVP?",
-      "How should I design a scalable REST API?",
-      "How can I optimize a React app for speed?"
+      "SaaS MVP 的最佳技术堆栈？",
+      "我应该如何设计可扩展的 REST API？",
+      "如何优化 React 应用程序的速度？"
     ],
-    "initialAssistant": "Hello! I am **VXR Tech Agent**. I help only with technology-related topics such as web development, apps, AI, APIs, cloud, UX for digital products, debugging, and architecture. Ask your tech question to get started."
+    "initialAssistant": "你好！我是 **VXR 技术代理**。我只提供与技术相关的主题的帮助，例如 Web 开发、应用程序、人工智能、API、云、数字产品的用户体验、调试和架构。询问您的技术问题即可开始。"
   },
   "serviceCatalog": {
     "mobile-application": {
-      "title": "Mobile Application",
-      "shortDesc": "Native & cross-platform apps that captivate users",
-      "longDesc": "We build mobile applications that users love. From native iOS and Android to cross-platform solutions with React Native and Flutter, we deliver performant, scalable apps that align with your business goals. Our team handles everything from UX design to App Store deployment.",
+      "title": "移动应用程序",
+      "shortDesc": "吸引用户的本机和跨平台应用程序",
+      "longDesc": "我们构建用户喜爱的移动应用程序。从原生 iOS 和 Android 到 React Native 和 Flutter 的跨平台解决方案，我们提供符合您业务目标的高性能、可扩展的应用程序。我们的团队负责处理从 UX 设计到 App Store 部署的所有事务。",
       "features": [
-        "iOS & Android native development",
-        "React Native & Flutter",
-        "UI/UX design",
-        "App Store & Play Store deployment",
-        "Maintenance & updates"
+        "iOS & Android 原生开发",
+        "反应本机和颤振",
+        "用户界面/用户体验设计",
+        "App Store 和 Play 商店部署",
+        "维护和更新"
       ],
       "highlights": [
         {
-          "title": "Cross-platform",
-          "desc": "One codebase for iOS and Android when it makes sense."
+          "title": "跨平台",
+          "desc": "在有意义的情况下，适用于 iOS 和 Android 的一个代码库。"
         },
         {
-          "title": "Performance",
-          "desc": "Optimized for speed, battery, and offline capability."
+          "title": "表现",
+          "desc": "针对速度、电池和离线功能进行了优化。"
         },
         {
-          "title": "Security",
-          "desc": "Best practices for data and compliance (GDPR, HIPAA)."
+          "title": "安全",
+          "desc": "数据和合规性最佳实践（GDPR、HIPAA）。"
         }
       ]
     },
     "web-cms-development": {
-      "title": "Web CMS Development",
-      "shortDesc": "Powerful content management solutions",
-      "longDesc": "Custom web platforms and content management systems that put you in control. We build with WordPress, headless CMS, and custom backends so your team can publish and manage content without depending on developers for every update.",
+      "title": "网页内容管理系统开发",
+      "shortDesc": "强大的内容管理解决方案",
+      "longDesc": "自定义网络平台和内容管理系统，让您掌控一切。我们使用 WordPress、无头 CMS 和自定义后端进行构建，以便您的团队可以发布和管理内容，而无需依赖开发人员进行每次更新。",
       "features": [
-        "WordPress & headless CMS",
-        "Custom admin panels",
-        "API-first architecture",
-        "Multi-site & multilingual",
-        "SEO-friendly structure"
+        "WordPress 和无头 CMS",
+        "自定义管理面板",
+        "API优先架构",
+        "多站点和多语言",
+        "SEO友好的结构"
       ],
       "highlights": [
         {
-          "title": "Easy content updates",
-          "desc": "Intuitive dashboards for non-technical teams."
+          "title": "轻松的内容更新",
+          "desc": "适合非技术团队的直观仪表板。"
         },
         {
-          "title": "Scalable",
-          "desc": "Architected to grow with your traffic and content."
+          "title": "可扩展",
+          "desc": "旨在随着您的流量和内容而增长。"
         },
         {
-          "title": "Integrations",
-          "desc": "Connect to CRM, analytics, and marketing tools."
+          "title": "集成",
+          "desc": "连接到 CRM、分析和营销工具。"
         }
       ]
     },
     "software-development": {
-      "title": "Software Development",
-      "shortDesc": "Custom software tailored to your needs",
-      "longDesc": "From SaaS products to enterprise systems, we build custom software that fits your workflows. We use modern stacks and agile delivery so you get a solution that scales and evolves with your business.",
+      "title": "软件开发",
+      "shortDesc": "根据您的需求定制软件",
+      "longDesc": "从 SaaS 产品到企业系统，我们构建适合您工作流程的定制软件。我们使用现代堆栈和敏捷交付，因此您可以获得可随您的业务扩展和发展的解决方案。",
       "features": [
-        "SaaS & web applications",
-        "Enterprise systems",
-        "APIs & integrations",
-        "Cloud deployment (AWS, Azure, GCP)",
-        "Agile delivery"
+        "SaaS 和 Web 应用程序",
+        "企业系统",
+        "API 和集成",
+        "云部署（AWS、Azure、GCP）",
+        "敏捷交付"
       ],
       "highlights": [
         {
-          "title": "Custom-built",
-          "desc": "No off-the-shelf compromise — built for your needs."
+          "title": "定制",
+          "desc": "没有现成的妥协——专为您的需求而打造。"
         },
         {
-          "title": "Modern stack",
-          "desc": "React, Node, Python, .NET, and proven technologies."
+          "title": "现代堆栈",
+          "desc": "React、Node、Python、.NET 和经过验证的技术。"
         },
         {
-          "title": "Ongoing support",
-          "desc": "Maintenance, updates, and feature evolution."
+          "title": "持续支持",
+          "desc": "维护、更新和功能演变。"
         }
       ]
     },
     "corporate-branding": {
-      "title": "Corporate Branding",
-      "shortDesc": "Bold brand identities that stand out",
-      "longDesc": "We create brand identities that communicate who you are and resonate with your audience. From logo design and visual guidelines to full brand strategy, we help you stand out in your market.",
+      "title": "企业品牌",
+      "shortDesc": "大胆的品牌标识脱颖而出",
+      "longDesc": "我们创建品牌标识来传达您的身份并与您的受众产生共鸣。从标志设计和视觉指南到完整的品牌战略，我们帮助您在市场中脱颖而出。",
       "features": [
-        "Logo & visual identity",
-        "Brand guidelines",
-        "Brand strategy",
-        "Collateral design",
-        "Digital asset kits"
+        "标志和视觉识别",
+        "品牌指引",
+        "品牌战略",
+        "附属设计",
+        "数字资产套件"
       ],
       "highlights": [
         {
-          "title": "Distinct identity",
-          "desc": "Memorable logos and consistent visual language."
+          "title": "独特的身份",
+          "desc": "令人难忘的标志和一致的视觉语言。"
         },
         {
-          "title": "Strategy-led",
-          "desc": "Brand choices tied to your business and audience."
+          "title": "战略主导",
+          "desc": "品牌选择与您的业务和受众相关。"
         },
         {
-          "title": "Ready to use",
-          "desc": "Assets and guidelines for all touchpoints."
+          "title": "准备使用",
+          "desc": "所有接触点的资产和指南。"
         }
       ]
     },
     "online-digital-marketing": {
-      "title": "Online Digital Marketing",
-      "shortDesc": "Data-driven strategies for growth",
-      "longDesc": "Grow your reach and conversions with SEO, PPC, content marketing, and conversion optimization. We focus on measurable results and sustainable growth, not vanity metrics.",
+      "title": "在线数字营销",
+      "shortDesc": "数据驱动的增长战略",
+      "longDesc": "通过 SEO、PPC、内容营销和转化优化来扩大您的覆盖面和转化率。我们关注可衡量的结果和可持续增长，而不是虚荣指标。",
       "features": [
-        "SEO & content strategy",
-        "PPC & paid social",
-        "Conversion optimization",
-        "Analytics & reporting",
-        "Marketing automation"
+        "搜索引擎优化和内容策略",
+        "PPC 和付费社交",
+        "转化优化",
+        "分析和报告",
+        "营销自动化"
       ],
       "highlights": [
         {
-          "title": "Data-driven",
-          "desc": "Decisions based on analytics and testing."
+          "title": "数据驱动",
+          "desc": "基于分析和测试的决策。"
         },
         {
-          "title": "Full-funnel",
-          "desc": "Awareness, consideration, and conversion campaigns."
+          "title": "全漏斗",
+          "desc": "认知度、考虑度和转化活动。"
         },
         {
-          "title": "Transparent reporting",
-          "desc": "Clear metrics and regular reviews."
+          "title": "透明的报告",
+          "desc": "清晰的指标和定期审查。"
         }
       ]
     },
     "2d-3d-animation": {
-      "title": "2D/3D & Animation",
-      "shortDesc": "Stunning visuals that tell your story",
-      "longDesc": "Motion graphics, explainer videos, and cinematic animations that engage and explain. We produce 2D and 3D content for ads, product demos, and brand storytelling across all platforms.",
+      "title": "2D/3D 和动画",
+      "shortDesc": "令人惊叹的视觉效果讲述您的故事",
+      "longDesc": "具有吸引力和解释性的动态图形、解说视频和电影动画。我们为所有平台上的广告、产品演示和品牌故事制作 2D 和 3D 内容。",
       "features": [
-        "Motion graphics",
-        "Explainer videos",
-        "2D & 3D animation",
-        "Character animation",
-        "Social & ad content"
+        "动态图形",
+        "讲解视频",
+        "2D 和 3D 动画",
+        "人物动画",
+        "社交和广告内容"
       ],
       "highlights": [
         {
-          "title": "Story-first",
-          "desc": "Every frame supports your message and brand."
+          "title": "故事优先",
+          "desc": "每个框架都支持您的信息和品牌。"
         },
         {
-          "title": "Multi-format",
-          "desc": "From short social clips to long-form explainers."
+          "title": "多格式",
+          "desc": "从简短的社交剪辑到长篇的解释。"
         },
         {
-          "title": "On-brand",
-          "desc": "Consistent style with your visual identity."
+          "title": "品牌上",
+          "desc": "风格与您的视觉形象一致。"
         }
       ]
     },
     "3d-rendering-services": {
-      "title": "3D Rendering Services",
-      "shortDesc": "Photorealistic 3D visualizations",
-      "longDesc": "High-quality 3D renders for architecture, product visualization, and marketing. We deliver photorealistic imagery and animations that showcase your products and spaces before they exist in the real world.",
+      "title": "3D 渲染服务",
+      "shortDesc": "逼真的 3D 可视化",
+      "longDesc": "适用于建筑、产品可视化和营销的高质量 3D 渲染。我们提供逼真的图像和动画，在您的产品和空间出现在现实世界之前展示它们。",
       "features": [
-        "Architectural visualization",
-        "Product rendering",
-        "CGI for marketing",
-        "Interior & exterior",
-        "Animation & walkthroughs"
+        "建筑可视化",
+        "产品效果图",
+        "用于营销的 CGI",
+        "内部和外部",
+        "动画和演练"
       ],
       "highlights": [
         {
-          "title": "Photorealistic",
-          "desc": "Lighting and materials that look real."
+          "title": "逼真",
+          "desc": "看起来真实的灯光和材质。"
         },
         {
-          "title": "Any industry",
-          "desc": "Real estate, retail, automotive, and more."
+          "title": "任何行业",
+          "desc": "房地产、零售、汽车等。"
         },
         {
-          "title": "Fast iterations",
-          "desc": "Quick changes without physical reshoots."
+          "title": "快速迭代",
+          "desc": "快速更改，无需物理重新拍摄。"
         }
       ]
     },
     "metaverse-development": {
-      "title": "Metaverse Development",
-      "shortDesc": "Next-gen immersive digital worlds",
-      "longDesc": "We design and build metaverse experiences: virtual spaces, digital twins, and immersive environments for events, retail, and community. From concept to deployment on leading platforms.",
+      "title": "元界发展",
+      "shortDesc": "下一代沉浸式数字世界",
+      "longDesc": "我们设计和构建元宇宙体验：虚拟空间、数字孪生以及活动、零售和社区的沉浸式环境。从概念到在领先平台上的部署。",
       "features": [
-        "Virtual spaces & worlds",
-        "Digital twins",
-        "VR/AR integration",
-        "Multi-user experiences",
-        "Web3-ready experiences"
+        "虚拟空间和世界",
+        "数字孪生",
+        "VR/AR整合",
+        "多用户体验",
+        "Web3 就绪体验"
       ],
       "highlights": [
         {
-          "title": "Immersive",
-          "desc": "Spaces that feel real and engaging."
+          "title": "身临其境",
+          "desc": "感觉真实且引人入胜的空间。"
         },
         {
-          "title": "Scalable",
-          "desc": "Architecture that supports many concurrent users."
+          "title": "可扩展",
+          "desc": "支持许多并发用户的架构。"
         },
         {
-          "title": "Brand-ready",
-          "desc": "Custom environments that reflect your brand."
+          "title": "品牌就绪",
+          "desc": "反映您品牌的自定义环境。"
         }
       ]
     },
     "game-development": {
-      "title": "Game Development",
-      "shortDesc": "Engaging games across all platforms",
-      "longDesc": "From mobile games to PC and console, we build games that players love. We use Unity and Unreal Engine to create original IP, serious games, and branded experiences with a focus on gameplay and polish.",
+      "title": "游戏开发",
+      "shortDesc": "跨所有平台参与游戏",
+      "longDesc": "从手机游戏到 PC 和游戏机，我们打造玩家喜爱的游戏。我们使用 Unity 和虚幻引擎来创建原创 IP、严肃游戏和品牌体验，重点关注游戏玩法和打磨。",
       "features": [
-        "Mobile, PC & console",
-        "Unity & Unreal Engine",
-        "Game design & mechanics",
-        "Multiplayer & live ops",
-        "Porting & optimization"
+        "移动设备、PC 和游戏机",
+        "Unity 和虚幻引擎",
+        "游戏设计和机制",
+        "多人游戏和实时操作",
+        "移植与优化"
       ],
       "highlights": [
         {
-          "title": "Full production",
-          "desc": "Design, art, code, and launch support."
+          "title": "全面生产",
+          "desc": "设计、美术、代码和发布支持。"
         },
         {
-          "title": "Proven engines",
-          "desc": "Unity and Unreal for quality and performance."
+          "title": "经过验证的发动机",
+          "desc": "Unity 和 Unreal 的质量和性能。"
         },
         {
-          "title": "Post-launch",
-          "desc": "Updates, events, and community features."
+          "title": "发布后",
+          "desc": "更新、活动和社区功能。"
         }
       ]
     },
     "extended-reality": {
-      "title": "Extended Reality",
-      "shortDesc": "AR/VR/MR experiences that transform",
-      "longDesc": "AR, VR, and mixed reality experiences for training, marketing, and product visualization. We build apps that run on headsets and mobile devices to train employees, showcase products, or create immersive campaigns.",
+      "title": "扩展现实",
+      "shortDesc": "变革的 AR/VR/MR 体验",
+      "longDesc": "用于培训、营销和产品可视化的 AR、VR 和混合现实体验。我们构建在耳机和移动设备上运行的应用程序，以培训员工、展示产品或创建沉浸式营销活动。",
       "features": [
-        "AR apps (mobile & glasses)",
-        "VR training & simulations",
-        "Mixed reality experiences",
-        "Virtual tours",
-        "Hardware-agnostic design"
+        "AR 应用程序（手机和眼镜）",
+        "VR 培训和模拟",
+        "混合现实体验",
+        "虚拟游览",
+        "与硬件无关的设计"
       ],
       "highlights": [
         {
-          "title": "Practical use cases",
-          "desc": "Training, sales, and marketing that drive ROI."
+          "title": "实际用例",
+          "desc": "提高投资回报率的培训、销售和营销。"
         },
         {
-          "title": "Multi-device",
-          "desc": "Works on phones, tablets, and XR headsets."
+          "title": "多设备",
+          "desc": "适用于手机、平板电脑和 XR 耳机。"
         },
         {
-          "title": "User-tested",
-          "desc": "Comfort and usability at the core."
+          "title": "经过用户测试",
+          "desc": "舒适性和可用性是核心。"
         }
       ]
     },
     "social-media-marketing": {
-      "title": "Social Media Marketing",
-      "shortDesc": "Strategic social presence & engagement",
-      "longDesc": "We build and manage your social presence with strategy, content, and community management. From organic content to influencer partnerships and paid social, we help you connect with the right audience.",
+      "title": "社交媒体营销",
+      "shortDesc": "战略性社交存在和参与",
+      "longDesc": "我们通过策略、内容和社区管理来建立和管理您的社交形象。从有机内容到影响者合作伙伴关系和付费社交，我们帮助您与合适的受众建立联系。",
       "features": [
-        "Content strategy & creation",
-        "Community management",
-        "Influencer partnerships",
-        "Paid social campaigns",
-        "Analytics & reporting"
+        "内容策略与创作",
+        "社区管理",
+        "影响者合作伙伴关系",
+        "付费社交活动",
+        "分析和报告"
       ],
       "highlights": [
         {
-          "title": "Brand voice",
-          "desc": "Content that sounds like you and resonates."
+          "title": "品牌声音",
+          "desc": "听起来像您并引起共鸣的内容。"
         },
         {
-          "title": "Community",
-          "desc": "Engagement that builds loyalty and advocacy."
+          "title": "社区",
+          "desc": "建立忠诚度和拥护度的参与。"
         },
         {
-          "title": "Paid + organic",
-          "desc": "Integrated approach for maximum reach."
+          "title": "付费+有机",
+          "desc": "实现最大覆盖范围的综合方法。"
         }
       ]
     }
   },
   "newServiceCatalog": {
     "ai": {
-      "title": "AI Solutions",
-      "shortDesc": "Chatbots, automation, and intelligent workflows powered by AI to streamline operations and engage users.",
-      "longDesc": "We build AI-powered solutions that transform how you work and engage. From custom chatbots and virtual assistants to process automation and intelligent workflows, we help you leverage AI to save time, scale support, and deliver better experiences. Our solutions integrate with your existing tools and are designed for real-world reliability.",
+      "title": "人工智能解决方案",
+      "shortDesc": "由人工智能支持的聊天机器人、自动化和智能工作流程可简化操作并吸引用户。",
+      "longDesc": "我们构建人工智能驱动的解决方案，改变您的工作和参与方式。从定制聊天机器人和虚拟助理到流程自动化和智能工作流程，我们帮助您利用 AI 来节省时间、扩大支持规模并提供更好的体验。我们的解决方案与您现有的工具集成，专为现实世界的可靠性而设计。",
       "features": [
-        "Custom chatbots & virtual assistants",
-        "Process automation & workflows",
-        "LLM integration & fine-tuning",
-        "API integrations",
-        "Analytics & optimization"
+        "定制聊天机器人和虚拟助理",
+        "流程自动化和工作流程",
+        "LLM整合和微调",
+        "API集成",
+        "分析和优化"
       ],
       "highlights": [
         {
-          "title": "Tailored to you",
-          "desc": "AI built around your workflows and brand voice."
+          "title": "为您量身定制",
+          "desc": "围绕您的工作流程和品牌声音构建的人工智能。"
         },
         {
-          "title": "Secure & scalable",
-          "desc": "Enterprise-ready with clear data handling."
+          "title": "安全且可扩展",
+          "desc": "企业就绪，具有清晰的数据处理能力。"
         },
         {
-          "title": "Ongoing improvement",
-          "desc": "We iterate based on usage and feedback."
+          "title": "持续改进",
+          "desc": "我们根据使用情况和反馈进行迭代。"
         }
       ]
     },
     "ebook": {
-      "title": "Ebook Design & Publishing",
-      "shortDesc": "Professional ebook layout, cover design, and distribution for Kindle, Apple Books, and other platforms.",
-      "longDesc": "From manuscript to storefront — we handle ebook design, formatting, and distribution so your book looks and sells like a pro. We create responsive layouts, eye-catching covers, and metadata that ranks. Whether you're an author or a publisher, we get your ebook live on Kindle, Apple Books, Kobo, and more.",
+      "title": "电子书设计与出版",
+      "shortDesc": "适用于 Kindle、Apple Books 和其他平台的专业电子书排版、封面设计和分发。",
+      "longDesc": "从手稿到店面——我们负责电子书的设计、格式化和分发，让您的书看起来和销售都像专业人士一样。我们创建响应式布局、引人注目的封面和排名元数据。无论您是作家还是出版商，我们都会在 Kindle、Apple Books、Kobo 等平台上发布您的电子书。",
       "features": [
-        "Interior layout & typography",
-        "Cover design",
-        "EPUB & Kindle formatting",
-        "Multi-platform distribution",
-        "Metadata & SEO for books"
+        "室内布局和排版",
+        "封面设计",
+        "EPUB 和 Kindle 格式",
+        "多平台发行",
+        "书籍的元数据和 SEO"
       ],
       "highlights": [
         {
-          "title": "Reader-first design",
-          "desc": "Layouts that work on every device and font size."
+          "title": "读者至上的设计",
+          "desc": "适用于各种设备和字体大小的布局。"
         },
         {
-          "title": "Store-ready",
-          "desc": "Compliant with Kindle, Apple, and other retailers."
+          "title": "可存放",
+          "desc": "兼容 Kindle、Apple 和其他零售商。"
         },
         {
-          "title": "Fast turnaround",
-          "desc": "Clear timelines from draft to publication."
+          "title": "周转速度快",
+          "desc": "从草稿到发布的明确时间表。"
         }
       ]
     },
     "magazine": {
-      "title": "Digital Magazine",
-      "shortDesc": "Stunning digital magazine design and interactive layouts for brands and publishers.",
-      "longDesc": "We design and build digital magazines that readers love. From editorial layouts and interactive elements to subscription and reading experiences on web and app, we create publications that stand out. Perfect for brands, publishers, and anyone turning content into a polished digital product.",
+      "title": "数码杂志",
+      "shortDesc": "为品牌和出版商提供令人惊叹的数字杂志设计和互动布局。",
+      "longDesc": "我们设计和制作读者喜爱的数字杂志。从编辑布局和互动元素到网络和应用程序上的订阅和阅读体验，我们创造出脱颖而出的出版物。非常适合品牌、出版商和任何将内容转变为精美数字产品的人。",
       "features": [
-        "Editorial layout design",
-        "Interactive elements",
-        "Web & app publishing",
-        "Subscription flows",
-        "Analytics & engagement"
+        "编辑布局设计",
+        "互动元素",
+        "网络和应用程序发布",
+        "订阅流程",
+        "分析和参与"
       ],
       "highlights": [
         {
-          "title": "Editorial quality",
-          "desc": "Layouts that feel premium and easy to read."
+          "title": "编辑质量",
+          "desc": "布局给人一种高级且易于阅读的感觉。"
         },
         {
-          "title": "Engaging",
-          "desc": "Interactivity that keeps readers scrolling."
+          "title": "引人入胜",
+          "desc": "互动性让读者不断滚动。"
         },
         {
-          "title": "Monetization-ready",
-          "desc": "Paywalls and memberships built in."
+          "title": "货币化就绪",
+          "desc": "内置付费墙和会员资格。"
         }
       ]
     },
     "e-newspaper": {
-      "title": "E-Newspaper",
-      "shortDesc": "Digital newspaper and news portal design with responsive layouts and easy content updates.",
-      "longDesc": "We build digital newspapers and news portals that put your stories front and center. Responsive layouts, fast loading, and simple CMS integration mean your team can publish and update without technical hassle. We focus on readability, accessibility, and a experience that works on every device.",
+      "title": "电子报纸",
+      "shortDesc": "数字报纸和新闻门户设计具有响应式布局和轻松的内容更新。",
+      "longDesc": "我们构建数字报纸和新闻门户，将您的故事放在首位和中心。响应式布局、快速加载和简单的 CMS 集成意味着您的团队可以轻松发布和更新。我们专注于可读性、可访问性以及适用于所有设备的体验。",
       "features": [
-        "Responsive news layout",
-        "CMS integration",
-        "Fast loading & SEO",
-        "Breaking news & sections",
-        "Ads & sponsorship slots"
+        "响应式新闻布局",
+        "内容管理系统集成",
+        "快速加载和搜索引擎优化",
+        "突发新闻和栏目",
+        "广告和赞助位"
       ],
       "highlights": [
         {
-          "title": "Reader-friendly",
-          "desc": "Clear hierarchy and typography for long reading."
+          "title": "读者友好",
+          "desc": "清晰的层次结构和排版适合长时间阅读。"
         },
         {
-          "title": "Easy to update",
-          "desc": "Non-developers can publish and manage content."
+          "title": "易于更新",
+          "desc": "非开发人员可以发布和管理内容。"
         },
         {
-          "title": "Revenue-ready",
-          "desc": "Ad units and subscription options included."
+          "title": "收入就绪",
+          "desc": "包括广告单元和订阅选项。"
         }
       ]
     },
     "podcast": {
-      "title": "Podcast Production",
-      "shortDesc": "Recording, editing, show notes, and distribution for podcasts that sound professional.",
-      "longDesc": "We take your podcast from idea to ear. Our team handles recording setup, editing, mixing, show notes, and distribution so you can focus on the conversation. We deliver broadcast-quality audio and consistent branding so your show sounds as good as it sounds in your head.",
+      "title": "播客制作",
+      "shortDesc": "录制、编辑、表演笔记和分发听起来很专业的播客。",
+      "longDesc": "我们将您的播客从想法变成耳朵。我们的团队负责录音设置、编辑、混音、表演笔记和分发，以便您可以专注于对话。我们提供广播级质量的音频和一致的品牌，让您的节目听起来和您脑海中的声音一样好。",
       "features": [
-        "Recording & editing",
-        "Mixing & mastering",
-        "Show notes & transcripts",
-        "Artwork & branding",
-        "Distribution & RSS"
+        "录音与编辑",
+        "混音和母带处理",
+        "显示笔记和成绩单",
+        "艺术品和品牌",
+        "分发和RSS"
       ],
       "highlights": [
         {
-          "title": "Broadcast quality",
-          "desc": "Clean audio that sounds professional."
+          "title": "广播质量",
+          "desc": "干净的音频听起来很专业。"
         },
         {
-          "title": "Turnkey",
-          "desc": "We handle the full pipeline so you don't have to."
+          "title": "交钥匙工程",
+          "desc": "我们处理整个管道，因此您无需这样做。"
         },
         {
-          "title": "Consistent brand",
-          "desc": "Artwork and notes that match your show."
+          "title": "品牌一致",
+          "desc": "与您的演出相匹配的艺术品和笔记。"
         }
       ]
     },
     "infographics": {
-      "title": "Infographics & Data Viz",
-      "shortDesc": "Clear, engaging infographics and data visualizations that make complex info easy to share.",
-      "longDesc": "We turn data and ideas into visuals that get shared. From static infographics to interactive dashboards and reports, we make complex information clear and engaging. Ideal for reports, presentations, social content, and internal communications that need to stick.",
+      "title": "信息图表和数据可视化",
+      "shortDesc": "清晰、引人入胜的信息图表和数据可视化，使复杂的信息易于共享。",
+      "longDesc": "我们将数据和想法转化为可共享的视觉效果。从静态信息图表到交互式仪表板和报告，我们使复杂的信息变得清晰且引人入胜。非常适合需要坚持的报告、演示、社交内容和内部通信。",
       "features": [
-        "Static infographics",
-        "Interactive data viz",
-        "Reports & presentations",
-        "Social-ready formats",
-        "Brand-aligned design"
+        "静态信息图表",
+        "交互式数据可视化",
+        "报告和演示",
+        "社交就绪格式",
+        "品牌一致的设计"
       ],
       "highlights": [
         {
-          "title": "Clarity first",
-          "desc": "Design that makes the message obvious."
+          "title": "清晰度第一",
+          "desc": "设计使信息显而易见。"
         },
         {
-          "title": "Shareable",
-          "desc": "Formats that work on social and in decks."
+          "title": "可分享",
+          "desc": "适用于社交和套牌的格式。"
         },
         {
-          "title": "Accurate",
-          "desc": "Data viz that respects the numbers."
+          "title": "准确的",
+          "desc": "尊重数字的数据即。"
         }
       ]
     },
     "chatbot": {
-      "title": "Chatbot Development",
-      "shortDesc": "Custom chatbots for support, sales, and engagement — integrated with your existing tools.",
-      "longDesc": "We build chatbots that actually help. Whether for customer support, lead qualification, or internal workflows, our bots are designed around your processes and integrated with your CRM, helpdesk, and apps. We use proven AI and conversation design so users get answers fast and your team gets relief.",
+      "title": "聊天机器人开发",
+      "shortDesc": "用于支持、销售和参与的自定义聊天机器人 - 与您现有的工具集成。",
+      "longDesc": "我们构建了真正有帮助的聊天机器人。无论是客户支持、潜在客户资格认证还是内部工作流程，我们的机器人都是围绕您的流程设计的，并与您的 CRM、帮助台和应用程序集成。我们使用经过验证的人工智能和对话设计，因此用户可以快速获得答案，并且您的团队也可以得到缓解。",
       "features": [
-        "Conversation design",
-        "CRM & helpdesk integration",
-        "Multi-channel (web, WhatsApp, etc.)",
-        "Analytics & training",
-        "Handoff to humans"
+        "对话设计",
+        "CRM 和帮助台集成",
+        "多渠道（网络、WhatsApp 等）",
+        "分析和培训",
+        "移交给人类"
       ],
       "highlights": [
         {
-          "title": "Fits your stack",
-          "desc": "Works with the tools you already use."
+          "title": "适合您的堆栈",
+          "desc": "可与您已使用的工具配合使用。"
         },
         {
-          "title": "Human handoff",
-          "desc": "Smooth escalation when the bot can't help."
+          "title": "人工切换",
+          "desc": "当机器人无法提供帮助时顺利升级。"
         },
         {
-          "title": "Improves over time",
-          "desc": "We tune based on real conversations."
+          "title": "随着时间的推移而改善",
+          "desc": "我们根据真实对话进行调整。"
         }
       ]
     },
     "copywriting": {
-      "title": "Copywriting & Content",
-      "shortDesc": "SEO-friendly copy, blog posts, and marketing content that converts and ranks.",
-      "longDesc": "We write copy that converts and content that ranks. From landing pages and product copy to blog series and SEO content, we match your voice and goals. Every piece is built for clarity, persuasion, and search — so you get both traffic and conversions.",
+      "title": "文案与内容",
+      "shortDesc": "SEO 友好的文案、博客文章以及可转换和排名的营销内容。",
+      "longDesc": "我们编写可转化的文案和可排名的内容。从登陆页面和产品文案到博客系列和 SEO 内容，我们都会匹配您的声音和目标。每一篇文章都是为了清晰、有说服力和搜索而设计的——这样你就可以获得流量和转化。",
       "features": [
-        "Landing pages & product copy",
-        "Blog & SEO content",
-        "Email sequences",
-        "Ad copy & social",
-        "Content strategy"
+        "登陆页面和产品文案",
+        "博客和搜索引擎优化内容",
+        "电子邮件序列",
+        "广告文案和社交",
+        "内容策略"
       ],
       "highlights": [
         {
-          "title": "On-brand voice",
-          "desc": "Copy that sounds like you and your audience."
+          "title": "品牌声音",
+          "desc": "复制这听起来像你和你的观众。"
         },
         {
-          "title": "SEO built-in",
-          "desc": "Content structured for search and sharing."
+          "title": "内置搜索引擎优化",
+          "desc": "内容结构适合搜索和共享。"
         },
         {
-          "title": "Conversion-focused",
-          "desc": "Every word chosen to move the needle."
+          "title": "注重转化",
+          "desc": "选择的每一个字都是为了推动局势。"
         }
       ]
     },
     "social-content": {
-      "title": "Social & YouTube Content",
-      "shortDesc": "Reels, stories, carousels, YouTube videos, and campaigns for Facebook, Instagram, TikTok, and YouTube.",
-      "longDesc": "We create content that gets seen and shared across Facebook, Instagram, TikTok, and YouTube. From Reels and Stories to carousels, YouTube scripts, thumbnails, and video editing — we produce on-brand content for all major platforms. We combine creative direction with platform best practices so your feed and channel look professional and your metrics move.",
+      "title": "社交和 YouTube 内容",
+      "shortDesc": "卷轴、故事、轮播、YouTube 视频以及 Facebook、Instagram、TikTok 和 YouTube 的活动。",
+      "longDesc": "我们创建的内容可以在 Facebook、Instagram、TikTok 和 YouTube 上查看和分享。从卷轴和故事到轮播、YouTube 脚本、缩略图和视频编辑 - 我们为所有主要平台制作品牌内容。我们将创意方向与平台最佳实践相结合，让您的 Feed 和频道看起来很专业，您的指标也随之变化。",
       "features": [
-        "Reels, Stories & short-form (IG, TikTok, FB)",
-        "YouTube scripts, thumbnails & editing",
-        "Carousels & static posts",
-        "Campaign concepts & content calendars",
-        "Copy, hashtags & SEO for social"
+        "卷轴、故事和短片（IG、TikTok、FB）",
+        "YouTube 脚本、缩略图和编辑",
+        "轮播和静态帖子",
+        "活动概念和内容日历",
+        "社交复制、主题标签和 SEO"
       ],
       "highlights": [
         {
-          "title": "All platforms",
-          "desc": "Facebook, Instagram, TikTok, and YouTube in one place."
+          "title": "所有平台",
+          "desc": "Facebook、Instagram、TikTok 和 YouTube 集于一处。"
         },
         {
-          "title": "Consistent look",
-          "desc": "Templates and style guides for your brand."
+          "title": "一致的外观",
+          "desc": "您的品牌的模板和风格指南。"
         },
         {
-          "title": "Ready to post",
-          "desc": "Final assets and captions delivered on schedule."
+          "title": "准备发帖",
+          "desc": "最终资产和字幕如期交付。"
         }
       ]
     }
   },
   "serviceDetail": {
-    "badge": "Service",
-    "offerBefore": "What we",
-    "offerHighlight": "offer",
-    "whyBefore": "Why work with",
+    "badge": "服务",
+    "offerBefore": "我们什么",
+    "offerHighlight": "提供",
+    "whyBefore": "为什么与",
     "whyHighlight": "us",
-    "ctaReadyPrefix": "Ready for",
+    "ctaReadyPrefix": "准备好",
     "ctaReadySuffix": "?",
-    "ctaDesc": "Let's discuss your project and build something great together.",
-    "ctaButton": "Let's Talk",
-    "backAllServices": "← All Services"
+    "ctaDesc": "让我们讨论您的项目并共同构建一些伟大的东西。",
+    "ctaButton": "让我们谈谈",
+    "backAllServices": "← 所有服务"
   },
   "seo": {
-    "homeTitle": "Home",
-    "homeDescription": "vebxrun — Mobile apps, web development, game development, metaverse, AI solutions & digital marketing. Imagine. Innovate. Inspire.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Mobile apps, web & CMS development, software development, corporate branding, digital marketing, 2D/3D animation, metaverse, game development & more. Explore vebxrun services."
+    "homeTitle": "家",
+    "homeDescription": "vebxrun — 移动应用程序、网络开发、游戏开发、元宇宙、人工智能解决方案和数字营销。想象。创新。启发。",
+    "servicesTitle": "服务",
+    "servicesDescription": "移动应用程序、网络和 CMS 开发、软件开发、企业品牌、数字营销、2D/3D 动画、元宇宙、游戏开发等。探索 vebxrun 服务。",
+    "pricingTitle": "定价",
+    "pricingDescription": "移动应用程序、网络开发和数字解决方案的透明定价。入门版、专业版和企业版计划。从 vebxrun 获取报价。"
+  },
+  "liveChatWidget": {
+    "online": "在线的",
+    "closeChat": "关闭聊天",
+    "openChat": "与我们聊天",
+    "skipToLiveChat": "跳至实时聊天 →",
+    "nameLabel": "姓名",
+    "emailLabel": "电子邮件",
+    "whatsappLabel": "WhatsApp",
+    "serviceLabel": "服务",
+    "sending": "正在发送...",
+    "orLiveChat": "或者开始实时聊天",
+    "toastNameEmailRequired": "姓名和电子邮件为必填项",
+    "toastRequestSent": "请求已发送！",
+    "toastSubmitFailed": "提交失败。再试一次。",
+    "submittedTitle": "请求已发送！",
+    "submittedDesc": "我们会尽快回复您。",
+    "startLiveChat": "开始实时聊天",
+    "secondsShort": "{{count}}s"
   }
 }
